@@ -17,7 +17,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 ATT.Folder = "Sights"
 
-ATT.Category = {"csgo_optic"}
+ATT.Category = {"cod2019_optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/reflex_east02.mdl"
 ATT.Scale = 1
@@ -43,5 +43,5 @@ ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(115, 255, 115)
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_optic_reflex_east02")
+ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east02")
 -------------------------------------------------------------------------

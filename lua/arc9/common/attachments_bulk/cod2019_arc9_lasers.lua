@@ -311,34 +311,6 @@ ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_03")
 --------------------------------------------------------------------------------------------- PISTOL LASERS
 ATT = {}
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = [[GSR Tacticals]]
-ATT.CompactName = [[GSR Tac]]
-ATT.Description = [[Lets you use tactical attachments from GSR.]]
---ATT.Icon = Material("entities/attachs/cod2019_origin12_suppressor.png", "mips smooth")
-
-ATT.SortOrder = 1
-ATT.AutoStats = true
-ATT.Category = "cod2019_tac_pistols"
---ATT.Folder = "Suppresors"
-
---ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer03.mdl"
-
-ATT.Attachments = {
-    {
-        PrintName = "Tactical",
-        Pos = Vector(-0.5, 0, -0.2),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        Category = "csgo_tac_pistols",
-		Scale = 1
-    }
-}
-
-ARC9.LoadAttachment(ATT, "cod2019_attach_custom_laser_pstl")
--------------------------------------------------------------------------------
-ATT = {}
-
 ATT.PrintName = "Tac Laser"
 ATT.CompactName = "Tac Laser"
 ATT.Description = [[High power 5mW Tactical Green laser. Improves accuracy while aiming down sights. Exposes position when active.]]

@@ -11,7 +11,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer02.png", "mips smoo
 
 ATT.SortOrder = 0
 ATT.AutoStats = true
-ATT.Category = "muzzle"
+ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer02.mdl"
@@ -40,7 +40,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer03.png", "mips smoo
 
 ATT.SortOrder = 0.5
 ATT.AutoStats = true
-ATT.Category = "muzzle"
+ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer03.mdl"
@@ -70,7 +70,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer04.png", "mips smoo
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle"
+ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer04.mdl"
@@ -100,7 +100,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east01.png", "mips
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle"
+ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east01.mdl"
@@ -126,7 +126,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east02.png", "mips
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle"
+ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east02.mdl"
@@ -156,7 +156,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east03.png", "mips
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle"
+ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east03.mdl"
@@ -186,7 +186,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_01.png", "mip
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle_pistols"
+ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_01.mdl"
@@ -212,7 +212,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_02.png", "mip
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle_pistols"
+ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_02.mdl"
@@ -242,7 +242,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_03.png", "mip
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle_pistols"
+ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_03.mdl"
@@ -272,7 +272,7 @@ ATT.Icon = Material("entities/attachs/cod2019_model680_shtgnsilencer.png", "mips
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle_shotguns"
+ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_romeo870_shtgnsilencer.mdl"
@@ -298,7 +298,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_shgn01.png", "mips smooth")
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle_shotguns"
+ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer02.mdl"
@@ -328,7 +328,7 @@ ATT.Icon = Material("entities/attachs/cod2019_origin12_suppressor.png", "mips sm
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
-ATT.Category = "muzzle_shotguns"
+ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Suppresors"
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer03.mdl"
@@ -347,32 +347,4 @@ ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_03")
--------------------------------------------------------------------------------
-ATT = {}
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = [[GSR Muzzles]]
-ATT.CompactName = [[GSR Muzz]]
-ATT.Description = [[Lets you use muzzles from GSR.]]
---ATT.Icon = Material("entities/attachs/cod2019_origin12_suppressor.png", "mips smooth")
-
-ATT.SortOrder = 1
-ATT.AutoStats = true
-ATT.Category = "muzzle_support_shot"
---ATT.Folder = "Suppresors"
-
---ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer03.mdl"
-
-ATT.Attachments = {
-    {
-        PrintName = "Muzzle",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        Category = {"muzzle_shotgun","muzzle"},
-		Scale = 1
-    }
-}
-
-ARC9.LoadAttachment(ATT, "cod2019_attach_custom_muzzles")
 -------------------------------------------------------------------------------
