@@ -9,7 +9,7 @@ ATT.Description = [[High power 5mW Tactical Green laser. Improves accuracy while
 ATT.Icon = Material("entities/attachs/cod2019_laser01.png", "mips smooth")
 
 ATT.SortOrder = 0
-ATT.Category = {"csgo_tac"}
+ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser01.mdl"
 ATT.Folder = "Lasers"
@@ -60,7 +60,7 @@ ATT.Description = [[Low power 1mW red laser improves hipfire accuracy while rema
 ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
 
 ATT.SortOrder = 0.5
-ATT.Category = {"csgo_tac"}
+ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
 ATT.Folder = "Lasers"
@@ -112,7 +112,7 @@ ATT.Description = [[Ultra bright 5mW green laser greatly improves hipfire accura
 ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
 
 ATT.SortOrder = 1
-ATT.Category = {"csgo_tac"}
+ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
 ATT.Folder = "Lasers"

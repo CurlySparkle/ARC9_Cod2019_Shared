@@ -66,7 +66,7 @@ ATT.Attachments = {
         Pos = Vector(-10.5, 0, 0.35),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        Category = "muzzle",
+        Category = "cod2019_muzzle",
 		Scale = 1,
     },
     {
@@ -74,7 +74,7 @@ ATT.Attachments = {
         Pos = Vector(-7, 1.2, 0.3),
         Ang = Angle(0, 0, -90),
         Icon_Offset = Vector(0, 0, 0),
-        Category = "csgo_tac",
+        Category = "cod2019_tac",
 		Scale = 1
     },
     {

@@ -406,3 +406,68 @@ ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_alt")
 ------------------------------------------------------------------------- END OF PISTOLS ABOVE
+ATT = {}
+
+ATT.PrintName = "Canted Hybrid"
+ATT.CompactName = [[Canted x2]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west02.png", "mips smooth")
+ATT.Description = [[3.25x Scout with a side-mounting reflex sight lets you change engagement distances with a flick of the wrist.]]
+ATT.Pros = {
+    "+ Precision Sight Picture"
+}
+ATT.Cons = {
+    "− Aim Down Sight Speed"
+}
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Hybrid"
+
+ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic_cronen"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west03.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0.05)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.15
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 6.2, -1),
+        Ang = Angle(0, 0, 0),
+        Magnification = 2,
+        ViewModelFOV = 36,
+        IgnoreExtra = false
+    },
+    {
+        Pos = Vector(-1.55, 5, -0.2),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.25,
+        ViewModelFOV = 65,
+		Blur = true,
+		RTScopeNoBlur = true,
+        IgnoreExtra = false,
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 1512
+ATT.HoloSightColorable = false
+ATT.HoloSightColor = Color(255, 255, 255)
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeFOV = 16
+ATT.RTScopeRes = 512
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair2.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+ATT.RTScopeNoBlur = true
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_canten_hybrid")

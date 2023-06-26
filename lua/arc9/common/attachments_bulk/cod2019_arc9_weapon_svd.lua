@@ -64,11 +64,7 @@ ATT.SprintToFireTimeMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_svd_mag"
-ATT.ActivateElements = {"mag_none"}
-
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_xmag"
-end
+ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags2.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags2.mdl"
