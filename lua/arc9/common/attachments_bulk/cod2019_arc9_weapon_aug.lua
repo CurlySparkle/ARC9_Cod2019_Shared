@@ -1,4 +1,5 @@
 local ATT = {}
+local path = "weapons/cod2019/aug/"
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -9,8 +10,15 @@ ATT.Description = [[Conversion kit to use 30 round 5.56 NATO magazines for incre
 
 --ATT.Icon = Material("entities/attachs/go_aug_ammo_9mm.png", "mips smooth")
 
-ATT.ShootSound = "COD2019.AUG.Fire_AR"
-ATT.ShootSoundSilenced = "COD2019.AUG.Silenced_Fire_AR"
+-- ATT.ShootSound = "COD2019.AUG.Fire_AR"
+-- ATT.ShootSoundSilenced = "COD2019.AUG.Silenced_Fire_AR"
+-- ATT.ShootSoundIndoor = "COD2019.AUG.Fire_AR_Inside"
+-- ATT.ShootSoundSilencedIndoor = "COD2019.AUG.Silenced_Fire_Inside"
+
+ATT.ShootSound = {path .. "weap_augolf_fire_plr_ar_01.ogg", path .. "weap_augolf_fire_plr_ar_02.ogg", path .. "weap_augolf_fire_plr_ar_03.ogg", path .. "weap_augolf_fire_plr_ar_04.ogg"}
+ATT.ShootSoundSilenced = {path .. "weap_augolf_fire_silenced_plr_ar_01.ogg", path .. "weap_augolf_fire_silenced_plr_ar_02.ogg", path .. "weap_augolf_fire_silenced_plr_ar_03.ogg", path .. "weap_augolf_fire_silenced_plr_ar_04.ogg"}
+ATT.ShootSoundIndoor = {path .. "weap_augolf_fire_plr_ar_inside_01.ogg", path .. "weap_augolf_fire_plr_ar_inside_02.ogg", path .. "weap_augolf_fire_plr_ar_inside_03.ogg", path .. "weap_augolf_fire_plr_ar_inside_04.ogg"}
+ATT.ShootSoundSilencedIndoor = {path .. "weap_augolf_fire_silenced_plr_9mm_inside_01.ogg", path .. "weap_augolf_fire_silenced_plr_9mm_inside_02.ogg", path .. "weap_augolf_fire_silenced_plr_9mm_inside_03.ogg", path .. "weap_augolf_fire_silenced_plr_9mm_inside_04.ogg"}
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/shell_762_hr.mdl"
 ATT.ShellScale = 0.06
