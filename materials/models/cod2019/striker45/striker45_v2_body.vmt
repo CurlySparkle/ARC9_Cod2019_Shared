@@ -4,11 +4,11 @@
     "$bumpmap"					"models/cod2019/striker45/striker45_v2_body_n"
     "$phongexponenttexture"		       "models/cod2019/striker45/striker45_v2_body_exp"
 
-    "$color2" "[0 0 0]"
+    "$color2" "[0.8 0.8 0.8]"
     "$blendtintbybasealpha" "1"
 
     "$phong" "1"
-    "$phongboost" "1"
+    "$phongboost" "5"
     "$phongfresnelranges" "[1 0.5 0]"
     "$phongalbedotint" "0"
 
@@ -28,7 +28,7 @@
         {
             "specularity" "0.5"             //0.25, 0.5, 0.75, 1
             "min" "0"
-            "max" "0.2"                       //change this if too bright in game
+            "max" "0.5"                       //change this if too bright in game
         }
     }
 }
