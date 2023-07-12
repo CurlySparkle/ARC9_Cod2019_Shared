@@ -17,7 +17,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 -- ATT.ModelAngleOffset = Angle(0,-90,0)
 ATT.Folder = "Tube"
 ATT.IconOffset = Vector(0, 0, 0)
---ATT.ActivateElements = {"stock_none"}
+ATT.ActivateElements = {"stock_adapter"}
 
 ATT.AimDownSightsTimeMult = 0.95
 ATT.RecoilMult = 1.05

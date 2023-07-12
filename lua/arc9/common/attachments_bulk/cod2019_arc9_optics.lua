@@ -118,10 +118,10 @@ ATT.AimDownSightsTimeMult = 1.15
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.15),
+        Pos = Vector(0, 5.5, -1.15),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 56,
+        ViewModelFOV = 45,
         IgnoreExtra = false
     },
 }
@@ -162,10 +162,10 @@ ATT.AimDownSightsTimeMult = 1.15
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.1),
+        Pos = Vector(0, 5.5, -1.1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 56,
+        ViewModelFOV = 45,
         IgnoreExtra = false
     },
 }
@@ -205,10 +205,10 @@ ATT.AimDownSightsTimeMult = 1.15
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.1),
+        Pos = Vector(0, 5.5, -1.1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 56,
+        ViewModelFOV = 45,
         IgnoreExtra = false
     },
 }
@@ -442,7 +442,7 @@ ATT.Sights = {
         IgnoreExtra = false
     },
     {
-        Pos = Vector(-1.55, 5, -0.2),
+        Pos = Vector(-1.55, 4, -0.2),
         Ang = Angle(0, 0, 45),
         Magnification = 1.25,
         ViewModelFOV = 65,
