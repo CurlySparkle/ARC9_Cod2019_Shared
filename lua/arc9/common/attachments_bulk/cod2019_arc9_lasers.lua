@@ -62,7 +62,7 @@ ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
 ATT.SortOrder = 0.5
 ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
 ATT.Folder = "Lasers"
 
 ATT.AimDownSightsTimeMult = 1.15
@@ -109,12 +109,12 @@ ATT.PrintName = "5mW Laser"
 ATT.CompactName = "5mW Laser"
 ATT.Description = [[Ultra bright 5mW green laser greatly improves hipfire accuracy. Only for aggressive operators who don't rely on concealment.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_laser02.png", "mips smooth")
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
 ATT.Folder = "Lasers"
 
 ATT.AimDownSightsTimeMult = 1.1

@@ -29,11 +29,11 @@ ATT.DeployTimeMult = 0.75
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
-ATT.ActivateElements = {"mag_none"}
+ATT.ActivateElements = {"mag_none","mag_armag"}
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_ar"
-end
+-- ATT.Hook_TranslateAnimation = function(wep, anim)
+    -- return anim .. "_ar"
+-- end
 
 ATT.Model = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
