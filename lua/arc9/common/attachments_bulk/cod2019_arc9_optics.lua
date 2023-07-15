@@ -92,6 +92,51 @@ ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west")
 -------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "PBX Holo 7 Sight"
+ATT.CompactName = [[PBX Holo]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west02.png", "mips smooth")
+ATT.Description = [[Advanced holographic sight of American origin.]]
+ATT.Pros = {
+    "+ Precision Sight Picture"
+}
+ATT.Cons = {
+    "− Aim Down Sight Speed"
+}
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Sights"
+
+ATT.Category = {"cod2019_optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_holo_west02.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.05
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 7.5, -1.3),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 40,
+        IgnoreExtra = false
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 64
+ATT.HoloSightColorable = false
+ATT.HoloSightColor = Color(75, 255, 75)
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west02")
+-------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "G.I. Mini Reflex"
 ATT.CompactName = [[G.I.]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_minidot01.png", "mips smooth")
@@ -274,6 +319,58 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Scout Combat Optic"
+ATT.CompactName = [[Scout]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
+ATT.Description = [[Reflex sight of western origin. Provides higher precision.]]
+ATT.Pros = {
+    "+ Precision Sight Picture"
+}
+ATT.Cons = {
+    "− Aim Down Sight Speed"
+}
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Scopes"
+
+ATT.Category = {"cod2019_optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_4x_west_tall.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ActivateElements = {"optic_scope"}
+
+ATT.AimDownSightsTimeMult = 1.02
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.55),
+        Ang = Angle(0, 0, 0),
+        Magnification = 2,
+        ViewModelFOV = 20,
+        IgnoreExtra = false
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 16
+ATT.RTScopeRes = 1024
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_vzscope_default2.png", "mips smooth")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 24
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+ATT.RTScopeNoShadow = true
+ATT.RTScopeBlackBox = true
+ATT.RTScopeBlackBoxShadow = true
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_scope_scout")
 --------------------------------------------------------------- PISTOLS
 ATT = {}
 
@@ -424,7 +521,7 @@ ATT.Free = false
 ATT.Folder = "Hybrid"
 
 ATT.Category = {"cod2019_optic"}
-ATT.ActivateElements = {"optic_cronen"}
+ATT.ActivateElements = {"optic_scope"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west03.mdl"
 ATT.Scale = 1

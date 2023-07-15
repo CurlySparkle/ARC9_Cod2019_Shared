@@ -7,7 +7,7 @@ ATT.CompactName = "HB"
 ATT.Description = [[Long-length heavy barrel. Offers superior handling at the cost of performance.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_cx9_barrel_silenced.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_vlk_barheavy.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -17,7 +17,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_vlk_barrel"}
-ATT.ActivateElements = {"barrel_none","barrel_vlk"}
+ATT.ActivateElements = {"muzzle_none","barrel_none","barrel_vlk","vlk_barrel_heavy"}
 
 --ATT.Silencer = true
 --ATT.MuzzleParticleOverride = "weapon_muzzle_flash_assaultrifle_silenced2"
@@ -33,16 +33,16 @@ ATT.RangeMaxMult = 1.25
 ATT.RangeMinMult = 1.25
 ATT.PhysBulletMuzzleVelocityMult = 1.25
 
-ATT.Attachments = {
-    {
-        PrintName = "Muzzle",
-        Pos = Vector(-7.5, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        Category = {"muzzle_shotgun","muzzle"},
-		Scale = 1
-    }
-}
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = "Muzzle",
+        -- Pos = Vector(-7.5, 0, 0),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, 0),
+        -- Category = {"muzzle_shotgun","muzzle"},
+		-- Scale = 1
+    -- }
+-- }
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_barrel_heavy")
 ---------------------------------------------------------------------------------------
