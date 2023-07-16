@@ -44,5 +44,11 @@ ATT.PhysBulletMuzzleVelocityMult = 1.25
     -- }
 -- }
 
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle_none"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_vlk_barrel_heavy")
 ---------------------------------------------------------------------------------------

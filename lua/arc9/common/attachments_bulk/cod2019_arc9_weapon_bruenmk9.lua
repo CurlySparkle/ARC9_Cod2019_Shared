@@ -27,11 +27,11 @@ ATT.ClipSizeOverride = 60
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_bruenmk9_mag"
-ATT.ActivateElements = {"mag_none"}
+ATT.ActivateElements = {"mag_none","mag_smag"}
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_smag"
-end
+-- ATT.Hook_TranslateAnimation = function(wep, anim)
+    -- return anim .. "_smag"
+-- end
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_smags.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_smags.mdl"

@@ -73,10 +73,10 @@ ATT.AimDownSightsTimeMult = 1.15
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 4.5, -1.42),
+        Pos = Vector(0, 7.6, -1.35),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 56,
+        ViewModelFOV = 40,
         IgnoreExtra = false
     },
 }
@@ -84,7 +84,7 @@ ATT.Sights = {
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/ReticleEOTech.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 512
+ATT.HoloSightSize = 256
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
@@ -134,6 +134,51 @@ ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(75, 255, 75)
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west02")
+-------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Viper Reflex Sight"
+ATT.CompactName = [[Viper Reflex]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east.png", "mips smooth")
+ATT.Description = [[Reflex sight of Russian origin. Provides higher precision.]]
+ATT.Pros = {
+    "+ Precision Sight Picture"
+}
+ATT.Cons = {
+    "− Aim Down Sight Speed"
+}
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Sights"
+
+ATT.Category = {"cod2019_optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_east.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.05
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 4.5, -1.26),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        IgnoreExtra = false
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/kobra_reticle.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 175
+ATT.HoloSightColorable = false
+ATT.HoloSightColor = Color(255, 255, 255)
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east")
 -------------------------------------------------------------------------
 ATT = {}
 
