@@ -156,7 +156,7 @@ ATT.Category = {"cod2019_optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_east.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.AimDownSightsTimeMult = 1.05
