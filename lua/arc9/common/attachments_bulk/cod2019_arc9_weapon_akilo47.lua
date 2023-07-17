@@ -31,7 +31,7 @@ ATT.Description = [[Conversion kit to use lower caliber 5.45×39mm ammunition. S
 ATT.Icon = Material("entities/attachs/cod2019_akilo47_smgmag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 30
-ATT.RPM = 665
+ATT.RPM = 690
 
 ATT.DamageMaxMult = 0.9
 ATT.DamageMinMult = 0.9
