@@ -204,6 +204,33 @@ ATT.HolsterTimeMult = 1.15
 
 ARC9.LoadAttachment(ATT, "cod2019_stock_amax")
 -------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Slima Stock"
+ATT.CompactName = [[Slima]]
+ATT.Description = [[Slima stock that improves aiming speed with the cost of more recoil and less handling.]]
+ATT.Icon = Material("entities/attachs/cod2019_stock_slima.png", "mips smooth")
+ATT.SortOrder = 6
+ATT.Desc_Pros = {
+}
+ATT.Desc_Cons = {
+}
+ATT.AutoStats = true
+ATT.Category = "cod2019_stocks"
+
+ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_slima.mdl"
+
+ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0.1)
+
+ATT.RecoilMult = 1.15
+ATT.AimDownSightsTimeMult = 0.8
+ATT.DeployTimeMult = 1.15
+ATT.HolsterTimeMult = 1.15
+
+ARC9.LoadAttachment(ATT, "cod2019_stock_slima")
+-------------------------------------------------------------------------------
 -- ATT = {}
 
 -- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
