@@ -402,6 +402,17 @@ ATT.Sights = {
     },
 }
 
+ATT.Attachments = {
+    {
+        PrintName = "Top Optic",
+        Pos = Vector(0.7, 0, -2.3),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = "cod2019_optics_pistols_scope",
+		Scale = 1,
+    },
+}
+
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 16
