@@ -24,7 +24,7 @@ ATT.DeployTimeMult = 1.04
 ATT.HolsterTimeMult = 1.04
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -54,7 +54,7 @@ ATT.HolsterTimeMult = 1.03
 ATT.AimDownSightsTimeMult = 1.02
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -84,7 +84,7 @@ ATT.HolsterTimeMult = 1.06
 ATT.AimDownSightsTimeMult = 1.05
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -110,7 +110,7 @@ ATT.RangeMaxMult = 1.02
 ATT.RangeMinMult = 1.02
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -140,7 +140,7 @@ ATT.HolsterTimeMult = 1.02
 ATT.AimDownSightsTimeMult = 1.01
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -170,7 +170,7 @@ ATT.HolsterTimeMult = 1.03
 ATT.AimDownSightsTimeMult = 1.02
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -196,7 +196,7 @@ ATT.RangeMaxMult = 1.02
 ATT.RangeMinMult = 1.02
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -226,7 +226,7 @@ ATT.HolsterTimeMult = 1.02
 ATT.AimDownSightsTimeMult = 1.01
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -256,7 +256,7 @@ ATT.HolsterTimeMult = 1.06
 ATT.AimDownSightsTimeMult = 1.05
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -282,7 +282,7 @@ ATT.RangeMaxMult = 1.02
 ATT.RangeMinMult = 1.02
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -312,7 +312,7 @@ ATT.HolsterTimeMult = 1.06
 ATT.AimDownSightsTimeMult = 1.05
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
@@ -342,7 +342,7 @@ ATT.HolsterTimeMult = 1.02
 ATT.AimDownSightsTimeMult = 1.01
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed_fp"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 

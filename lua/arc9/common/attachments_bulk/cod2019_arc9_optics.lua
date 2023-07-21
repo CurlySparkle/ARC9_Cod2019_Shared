@@ -432,7 +432,7 @@ ATT = {}
 
 ATT.PrintName = "G.I. Mini Reflex"
 ATT.CompactName = [[G.I.]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_minidot01_alt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.Description = [[G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture.]]
 ATT.Pros = {
     "+ Precision Sight Picture"
@@ -476,7 +476,7 @@ ATT = {}
 
 ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.CompactName = [[Cronen LP945]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_minidot02_alt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.Description = [[Circular reflex frame from Cronen keeps the focus on the target.]]
 ATT.Pros = {
     "+ Precision Sight Picture"
@@ -520,7 +520,7 @@ ATT = {}
 
 ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.CompactName = [[Solozero]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_minidot03_alt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.Description = [[Well rounded precision sight from Solozero Optics provides a balanced sight picture.]]
 ATT.Pros = {
     "+ Precision Sight Picture"

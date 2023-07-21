@@ -30,6 +30,18 @@ ATT.Description = [[Conversion kit to use lower caliber 5.45×39mm ammunition. S
 
 ATT.Icon = Material("entities/attachs/cod2019_akilo47_smgmag.png", "mips smooth")
 
+ATT.ShootSound = "Cod2019.ak47.smgcal.fire"
+ATT.ShootSoundIndoor = "Cod2019.ak47.smgcal.fire"
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_AR.Outside"
+ATT.AtmosSound = "Distant_AR3.Outside"
+-- Non-Silenced Inside
+ATT.LayerSoundIndoor = "Layer_AR.Inside"
+ATT.AtmosSoundIndoor = "Distant_AR.Inside"
+
+ATT.ShellScale = 0.06
+
 ATT.ClipSizeOverride = 30
 ATT.RPM = 690
 

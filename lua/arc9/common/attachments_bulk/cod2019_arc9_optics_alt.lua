@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = "G.I. Mini Reflex"
 ATT.CompactName = [[G.I.]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_minidot01_alt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.Description = [[G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture.]]
 ATT.Pros = {
     "+ Precision Sight Picture"
@@ -48,7 +48,7 @@ ATT = {}
 
 ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.CompactName = [[Cronen LP945]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_minidot02_alt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.Description = [[Circular reflex frame from Cronen keeps the focus on the target.]]
 ATT.Pros = {
     "+ Precision Sight Picture"
@@ -92,7 +92,7 @@ ATT = {}
 
 ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.CompactName = [[Solozero]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_minidot03_alt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.Description = [[Well rounded precision sight from Solozero Optics provides a balanced sight picture.]]
 ATT.Pros = {
     "+ Precision Sight Picture"
@@ -130,3 +130,82 @@ ATT.HoloSightSize = 1512
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_scope")
+------------------------------------------------------------------ ETC
+ATT = {}
+
+ATT.PrintName = "Picatinny Rail Sight Mount"
+ATT.CompactName = [[Picatinny]]
+--ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
+ATT.Description = [[Picatinny Adapter that is designed for mounting a second low profile sight.]]
+
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Extra"
+
+ATT.Category = {"cod2019_optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_picatinny.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+--ATT.ActivateElements = {"optic_scope"}
+
+ATT.AimDownSightsTimeMult = 1.02
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-2, 0, 1),
+        Category = "cod2019_optic",
+		Scale = 1,
+    },
+    {
+        PrintName = "Alt Optic",
+        Pos = Vector(0.5, 1.1, 0.1),
+        Ang = Angle(0, 0, 45),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = "cod2019_optics_pistols_scope",
+		Scale = 1,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_picatinny")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Flat-Top Riser"
+ATT.CompactName = [[Riser]]
+--ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
+ATT.Description = [[lat-Top Riser adapter that is designed for mounting a sight for more tall sighting.]]
+
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Extra"
+
+ATT.Category = {"cod2019_optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_riser.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.3, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+--ATT.ActivateElements = {"optic_scope"}
+
+ATT.AimDownSightsTimeMult = 1.02
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Pos = Vector(0, 0, -0.42),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+        Category = "cod2019_optic",
+		Scale = 1,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_riser")
+------------------------------------------------------------------
