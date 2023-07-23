@@ -10,20 +10,24 @@ ATT.Description = [[Conversion kit to use 30 round 5.56 NATO magazines for incre
 
 --ATT.Icon = Material("entities/attachs/go_aug_ammo_9mm.png", "mips smooth")
 
--- ATT.ShootSound = "COD2019.AUG.Fire_AR"
--- ATT.ShootSoundSilenced = "COD2019.AUG.Silenced_Fire_AR"
--- ATT.ShootSoundIndoor = "COD2019.AUG.Fire_AR_Inside"
--- ATT.ShootSoundSilencedIndoor = "COD2019.AUG.Silenced_Fire_Inside"
+ATT.ShootSound = "Cod2019.aug.fire.ar"
+ATT.ShootSoundIndoor = "Cod2019.aug.fire.ar"
 
-ATT.ShootSound = {path .. "weap_augolf_fire_plr_ar_01.ogg", path .. "weap_augolf_fire_plr_ar_02.ogg", path .. "weap_augolf_fire_plr_ar_03.ogg", path .. "weap_augolf_fire_plr_ar_04.ogg"}
-ATT.ShootSoundSilenced = {path .. "weap_augolf_fire_silenced_plr_ar_01.ogg", path .. "weap_augolf_fire_silenced_plr_ar_02.ogg", path .. "weap_augolf_fire_silenced_plr_ar_03.ogg", path .. "weap_augolf_fire_silenced_plr_ar_04.ogg"}
-ATT.ShootSoundIndoor = {path .. "weap_augolf_fire_plr_ar_inside_01.ogg", path .. "weap_augolf_fire_plr_ar_inside_02.ogg", path .. "weap_augolf_fire_plr_ar_inside_03.ogg", path .. "weap_augolf_fire_plr_ar_inside_04.ogg"}
-ATT.ShootSoundSilencedIndoor = {path .. "weap_augolf_fire_silenced_plr_9mm_inside_01.ogg", path .. "weap_augolf_fire_silenced_plr_9mm_inside_02.ogg", path .. "weap_augolf_fire_silenced_plr_9mm_inside_03.ogg", path .. "weap_augolf_fire_silenced_plr_9mm_inside_04.ogg"}
+ATT.ShootSoundSilenced = "Cod2019.aug.fire.ar.s"
+ATT.ShootSoundSilencedIndoor = "Cod2019.aug.fire.ar.s"
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_AR.Outside"
+ATT.AtmosSound = "Distant_AR.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_AR.Inside"
+ATT.AtmosSoundIndoor = "Distant_AR.Inside"
+---------------------------------------------------
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/shell_762_hr.mdl"
 ATT.ShellScale = 0.06
 
-ATT.RPM = 858
+ATT.RPM = 800 
 ATT.ClipSizeOverride = 30
 
 ATT.DamageMaxMult = 1.25
@@ -31,7 +35,7 @@ ATT.DamageMinMult = 1.15
 ATT.SpreadMult = 1.15
 ATT.RecoilMult = 0.85
 ATT.RecoilKickMult = 0.9
-ATT.Ammo = "ar2"
+ATT.Ammo = "AR2"
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_aug_mag"

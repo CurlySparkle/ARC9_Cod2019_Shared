@@ -87,4 +87,4 @@ ATT.Attachments = {
     }
 }
 
-ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_mid")
+ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_spitfire")
