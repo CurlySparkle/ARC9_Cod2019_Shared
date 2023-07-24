@@ -7,7 +7,7 @@ ATT.CompactName = "10mm 30-Round"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mp5_mag_xmag2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_mpapa5_mag_xmag2.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -37,3 +37,27 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mp5/attachment_v
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_mag_9mm")
 ---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Full Stock"
+ATT.CompactName = "Full Stock"
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/cod2019_mpapa5_stock_fullstock.png", "mips smooth")
+ATT.AutoStats = true
+
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_stock_fullstock.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_mp5_stock"}
+ATT.ActivateElements = {"stock_none","stock_main_hide"}
+
+ATT.AimDownSightsTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.1
+ATT.RecoilMult = 1.15
+
+ARC9.LoadAttachment(ATT, "cod2019_mp5_stock_fullstock")
