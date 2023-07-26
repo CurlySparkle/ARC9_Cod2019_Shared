@@ -394,10 +394,10 @@ ATT.AimDownSightsTimeMult = 1.02
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.55),
+        Pos = Vector(0, 5, -1.55),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
-        ViewModelFOV = 20,
+        ViewModelFOV = 45,
         IgnoreExtra = false
     },
 }

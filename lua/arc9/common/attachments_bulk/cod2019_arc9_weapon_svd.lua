@@ -28,10 +28,10 @@ ATT.PhysBulletMuzzleVelocityMult = 1.15
 ATT.Attachments = {
     {
         PrintName = "Optics",
-        Pos = Vector(-5, 0, -1.6),
+        Pos = Vector(-3.6, 0, -1.53),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        Category = "csgo_optic",
+        Category = "cod2019_optic",
 		Scale = 1
     }
 }
@@ -41,8 +41,8 @@ ATT.Sights = {
         Pos = Vector(0, 3, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        IsIronSight = true
-        --KeepBaseIrons = false
+        IsIronSight = true,
+        KeepBaseIrons = false
     }
 }
 
