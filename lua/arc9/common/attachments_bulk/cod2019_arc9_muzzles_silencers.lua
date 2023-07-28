@@ -13,6 +13,7 @@ ATT.SortOrder = 0
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer02.mdl"
 
@@ -42,6 +43,7 @@ ATT.SortOrder = 0.5
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer03.mdl"
 
@@ -72,6 +74,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer04.mdl"
 
@@ -102,6 +105,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east01.mdl"
 
@@ -128,6 +132,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east02.mdl"
 
@@ -158,6 +163,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east03.mdl"
 
@@ -188,6 +194,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_01.mdl"
 
@@ -214,6 +221,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_02.mdl"
 
@@ -244,6 +252,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_03.mdl"
 
@@ -274,6 +283,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_romeo870_shtgnsilencer.mdl"
 
@@ -300,6 +310,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer02.mdl"
 
@@ -330,6 +341,7 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Suppresors"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer03.mdl"
 

@@ -13,6 +13,7 @@ ATT.SortOrder = 0
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Muzzles"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake_shgn01.mdl"
 
@@ -38,6 +39,7 @@ ATT.SortOrder = 0.1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Muzzles"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_sh_romeo870_choke.mdl"
 
@@ -63,6 +65,7 @@ ATT.SortOrder = 0.15
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Muzzles"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_compensator_shgn01.mdl"
 
@@ -88,6 +91,7 @@ ATT.SortOrder = 0.2
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Muzzles"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee_shgn01.mdl"
 
@@ -112,6 +116,7 @@ ATT.SortOrder = 0.3
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = "Muzzles"
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_shtgn01.mdl"
 

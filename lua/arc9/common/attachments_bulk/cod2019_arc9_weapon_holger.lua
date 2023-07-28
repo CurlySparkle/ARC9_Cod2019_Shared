@@ -31,6 +31,22 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
 ATT.ActivateElements = {"mag_none","mag_armag"}
 
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_03.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_04.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_05.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_06.ogg", 
+}
+
+-- Non-Silenced
+ATT.LayerSound = "Layer_AR.Outside"
+ATT.DistantShootSound = "Distant_AR3.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_AR.Inside"
+ATT.DistantShootSoundIndoor = "Distant_AR.Inside"
+
 -- ATT.Hook_TranslateAnimation = function(wep, anim)
     -- return anim .. "_ar"
 -- end
@@ -86,5 +102,11 @@ ATT.Attachments = {
 		Scale = 1
     }
 }
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_spitfire")
