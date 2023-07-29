@@ -89,6 +89,21 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mag_striker45"}
 ATT.ActivateElements = {"mag_none"}
 
+-- Outside
+ATT.LayerSound = "layer_AR.Outside"
+ATT.AtmosSound = "distant_AR.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "layer_AR.Inside"
+ATT.AtmosSoundIndoor = "distant_AR.Inside"
+---------------------------------------------------
+-- Silenced
+ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
+ATT.DistantShootSoundSilenced = "Distant_AR_Sup.Outside"
+-- Inside
+ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
+ATT.DistantShootSoundSilencedIndoor = "Distant_AR_Sup.Inside"
+---------------------------------------------------
+
 -- ATT.AimDownSightsTimeMult = 1.25
 -- ATT.SprintToFireTimeMult = 1.25
 ATT.RecoilMult = 1.15
