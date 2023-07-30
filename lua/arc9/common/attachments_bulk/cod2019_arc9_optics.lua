@@ -600,6 +600,7 @@ ATT.Sights = {
         Magnification = 1.25,
         ViewModelFOV = 65,
 		Blur = true,
+		Disassociate = true,
 		RTScopeNoBlur = true,
         IgnoreExtra = false,
     },
