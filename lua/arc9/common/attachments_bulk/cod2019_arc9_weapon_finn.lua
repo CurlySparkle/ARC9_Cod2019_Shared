@@ -9,31 +9,13 @@ ATT.Description = [[Combination handled grips allow for highly maneuverable assa
 
 ATT.Icon = Material("entities/attachs/cod2019_finn_stocksaw.png", "mips smooth")
 
---ATT.ShootSound = "COD2019.AUG.Fire_AR"
---ATT.ShootSoundSilenced = "COD2019.AUG.Silenced_Fire_AR"
-
---ATT.ShellModelOverride = "models/models/weapons/shared/shell_762_hr.mdl"
---ATT.ShellScale = 0.06
-
---ATT.RPM = 664
--- ATT.ClipSizeOverride = 30
-
--- ATT.DamageMaxMult = 0.85
--- ATT.DamageMinMult = 0.85
--- ATT.SpreadMult = 1.15
--- ATT.RecoilMult = 0.85
--- ATT.RecoilKickMult = 0.9
-
--- ATT.AimDownSightsTimeMult = 0.75
--- ATT.DeployTimeMult = 0.75
-
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_stock"
 ATT.ActivateElements = {"stock_none","pistol_grip_none","stock_saw"}
 
-ATT.Hook_TranslateAnimation = function(wep, anim)
-    return anim .. "_saw"
-end
+-- ATT.Hook_TranslateAnimation = function(wep, anim)
+    -- return anim .. "_saw"
+-- end
 
 ATT.ActivePos = Vector(0, -3, -4)
 ATT.ActiveAng = Angle(0, 0, -7)
