@@ -394,7 +394,7 @@ ATT.AimDownSightsTimeMult = 1.02
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.55),
+        Pos = Vector(0, 5, -1.12),
         Ang = Angle(0, 0, 0),
         Magnification = 2,
         ViewModelFOV = 45,
@@ -405,7 +405,7 @@ ATT.Sights = {
 ATT.Attachments = {
     {
         PrintName = "Top Optic",
-        Pos = Vector(0.7, 0, -2.3),
+        Pos = Vector(0.7, 0, -1.88),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         Category = "cod2019_optics_pistols_scope",
