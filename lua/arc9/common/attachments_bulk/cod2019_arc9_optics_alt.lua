@@ -147,7 +147,7 @@ ATT.Category = {"cod2019_optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_picatinny.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelOffset = Vector(-1, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 --ATT.ActivateElements = {"optic_scope"}
 
@@ -164,7 +164,7 @@ ATT.Attachments = {
     },
     {
         PrintName = "Alt Optic",
-        Pos = Vector(0.5, 1.1, 0.1),
+        Pos = Vector(0.5, 1.1, 0.13),
         Ang = Angle(0, 0, 45),
         Icon_Offset = Vector(0, 0, 0),
         Category = "cod2019_optics_pistols_scope",
@@ -190,7 +190,42 @@ ATT.Category = {"cod2019_optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_riser.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(-1.3, 0, 0.1)
+ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+--ATT.ActivateElements = {"optic_scope"}
+
+ATT.AimDownSightsTimeMult = 1.02
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Pos = Vector(-0.1, 0, -0.42),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+        Category = "cod2019_optic",
+		Scale = 1,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_riser")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Flat-Top Riser 2"
+ATT.CompactName = [[Riser 2]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03_riser.png", "mips smooth")
+ATT.Description = [[lat-Top Riser adapter that is designed for mounting a sight for more tall sighting. (May not look pretty on larger sights)]]
+
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Extra"
+
+ATT.Category = {"cod2019_optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_west03_riser.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 --ATT.ActivateElements = {"optic_scope"}
 
@@ -207,5 +242,4 @@ ATT.Attachments = {
     },
 }
 
-ARC9.LoadAttachment(ATT, "cod2019_optic_riser")
-------------------------------------------------------------------
+ARC9.LoadAttachment(ATT, "cod2019_optic_riser2")
