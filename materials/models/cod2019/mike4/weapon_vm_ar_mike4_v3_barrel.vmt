@@ -1,10 +1,10 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models/cod2019/mike4/weapon_vm_ar_mike4_v3_barrel"
-    "$bumpmap" "models/cod2019/mike4/weapon_vm_ar_mike4_v3_barrel_n"
-    "$phongexponenttexture" "models/cod2019/mike4/weapon_vm_ar_mike4_v3_barrel_exp"
+    "$basetexture" "models/cod2019/mike4/mike4_barrel"
+    "$bumpmap" "models/cod2019/mike4/mike4_barrel_n"
+    "$phongexponenttexture" "models/cod2019/mike4/mike4_barrel_exp"
 
-    "$color2" "[0.8 0.8 0.8]"
+    "$color2" "[0 0 0]"
     "$blendtintbybasealpha" "1"
 
     "$phong" "1"
@@ -17,13 +17,13 @@
     "$envmap" "env_cubemap"
     "$envmaptint" "[0.2 0.2 0.2]"
 
-     "Proxies"
+    "Proxies"
     {
         "Arc9EnvMapTint"
         {
-            "specularity" "0.5"             //0.25, 0.5, 0.75, 1
+            "specularity" "0.5"
             "min" "0"
-            "max" "0.2"                       //change this if too bright in game
+            "max" "0.2"
         }
     }
 }

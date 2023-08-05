@@ -711,7 +711,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 16
 ATT.RTScopeRes = 1024
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_nvg.png", "mips smooth")
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_nvg.png")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 24
 ATT.RTScopeNoPP = false
@@ -737,7 +737,7 @@ ATT.RTScopeNightVisionCC = {
 ATT.RTScopeNightVisionNoPP = true
 
 ATT.RTScopeFLIR = true
-ATT.RTScopeFLIRSolid = true 
+ATT.RTScopeFLIRSolid = false 
 ATT.RTScopeFLIRRange = 30000
 ATT.RTScopeFLIRMonochrome = true
 ATT.RTScopeFLIRBlend = 1
@@ -763,6 +763,7 @@ ATT.RTScopeFLIRCCCold = {
     ["$pp_colour_mulg"] = 0,
     ["$pp_colour_mulb"] = 0
 }
+
 
 local pattern = Material("pp/texturize/plain.png")
 
