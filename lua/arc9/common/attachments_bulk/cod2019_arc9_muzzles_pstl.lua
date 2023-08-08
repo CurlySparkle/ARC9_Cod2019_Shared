@@ -13,7 +13,7 @@ ATT.SortOrder = 0
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Muzzles"
-ATT.ActivateElements = {"muzzle"}
+ATT.ActivateElements = {"muzzle","muzzle_comp"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_compensator_pstl01.mdl"
 
@@ -39,7 +39,7 @@ ATT.SortOrder = 0.1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Muzzles"
-ATT.ActivateElements = {"muzzle"}
+ATT.ActivateElements = {"muzzle","muzzle_comp"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake_pstl01.mdl"
 
@@ -72,7 +72,7 @@ ATT.SortOrder = 0.2
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_pistols"
 ATT.Folder = "Muzzles"
-ATT.ActivateElements = {"muzzle"}
+ATT.ActivateElements = {"muzzle","muzzle_comp"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_psl01.mdl"
 
