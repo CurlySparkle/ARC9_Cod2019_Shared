@@ -53,7 +53,7 @@ ATT.Category = "cod2019_stocks"
 ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_heavy.mdl"
 
 ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.03)
 
 ATT.RecoilMult = 1.05
 --ATT.RecoilKickMult = 0.7
@@ -81,7 +81,7 @@ ATT.Category = "cod2019_stocks"
 ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_light01.mdl"
 
 ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0.15, 0, -0.03)
 
 ATT.RecoilMult = 1.10
 --ATT.RecoilKickMult = 0.7
@@ -109,7 +109,7 @@ ATT.Category = "cod2019_stocks"
 ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_medium01.mdl"
 
 ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0.05)
 
 ATT.RecoilMult = 1.05
 --ATT.RecoilKickMult = 0.7
