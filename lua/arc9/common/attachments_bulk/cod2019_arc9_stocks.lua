@@ -28,7 +28,7 @@ ATT.Attachments = {
         Pos = Vector(-1.3, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-3, 0, 0),
-        Category = {"csgo_stock","cod2019_stocks"},
+        Category = {"cod2019_stocks"},
 		Scale = 1
     }
 }
@@ -147,89 +147,6 @@ ATT.AimDownSightsTimeMult = 1.14
 ATT.DeployTimeMult = 1.09
 
 ARC9.LoadAttachment(ATT, "cod2019_stock_heavy02")
--------------------------------------------------------------------------------
-ATT = {}
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "VLK Stock"
-ATT.CompactName = [[VLK]]
-ATT.Description = [[VLK stock that helps on aiming speed and has little of recoil control.]]
-ATT.Icon = Material("entities/attachs/cod2019_stock_vlk.png", "mips smooth")
-ATT.SortOrder = 5.4
-ATT.Desc_Pros = {
-}
-ATT.Desc_Cons = {
-}
-ATT.AutoStats = true
-ATT.Category = "cod2019_stocks"
-
-ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_vlk.mdl"
-
-ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0.03)
-
-ATT.RecoilMult = 0.9
-ATT.AimDownSightsTimeMult = 0.9
-ATT.SprintToFireTimeMult = 1.1
-ATT.DeployTimeMult = 1.1
-ATT.HolsterTimeMult = 1.1
-
-ARC9.LoadAttachment(ATT, "cod2019_stock_vlk")
--------------------------------------------------------------------------------
-ATT = {}
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "AMAX Stock"
-ATT.CompactName = [[AMAX]]
-ATT.Description = [[AMAX stock that helps even more on aiming speed/recoil with the cost of handling speed.]]
-ATT.Icon = Material("entities/attachs/cod2019_stock_amax.png", "mips smooth")
-ATT.SortOrder = 5.5
-ATT.Desc_Pros = {
-}
-ATT.Desc_Cons = {
-}
-ATT.AutoStats = true
-ATT.Category = "cod2019_stocks"
-
-ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_amax.mdl"
-
-ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0.1)
-
-ATT.RecoilMult = 0.85
-ATT.AimDownSightsTimeMult = 0.85
-ATT.SprintToFireTimeMult = 1.2
-ATT.DeployTimeMult = 1.15
-ATT.HolsterTimeMult = 1.15
-
-ARC9.LoadAttachment(ATT, "cod2019_stock_amax")
--------------------------------------------------------------------------------
-ATT = {}
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "Slima Stock"
-ATT.CompactName = [[Slima]]
-ATT.Description = [[Slima stock that improves aiming speed with the cost of more recoil and less handling.]]
-ATT.Icon = Material("entities/attachs/cod2019_stock_slima.png", "mips smooth")
-ATT.SortOrder = 6
-ATT.Desc_Pros = {
-}
-ATT.Desc_Cons = {
-}
-ATT.AutoStats = true
-ATT.Category = "cod2019_stocks"
-
-ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_slima.mdl"
-
-ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0.1)
-
-ATT.RecoilMult = 1.15
-ATT.AimDownSightsTimeMult = 0.8
-ATT.DeployTimeMult = 1.15
-ATT.HolsterTimeMult = 1.15
-
-ARC9.LoadAttachment(ATT, "cod2019_stock_slima")
 -------------------------------------------------------------------------------
 -- ATT = {}
 
