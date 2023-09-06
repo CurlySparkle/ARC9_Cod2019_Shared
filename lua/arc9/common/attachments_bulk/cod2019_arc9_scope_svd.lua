@@ -16,6 +16,7 @@ ATT.Folder = "Scopes"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_optic_svd"}
 ATT.ActivateElements = {"scope_svd"}
+ATT.BoneMerge = true
 
 ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_svd.mdl"
 ATT.Scale = 1
@@ -24,9 +25,9 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 15, -1.945),
+        Pos = Vector(0, 9, -1.945),
         Ang = Angle(0, 0, 0),
-        ViewModelFOV = 10,
+        ViewModelFOV = 35,
         Magnification = 2,
         IgnoreExtra = true
     },
@@ -34,7 +35,10 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 8
+ATT.RTScopeAdjustable = true
+ATT.RTScopeAdjustmentLevels = 3
+ATT.RTScopeFOVMin = 8
+ATT.RTScopeFOVMax = 25
 ATT.RTScopeRes = 512
 -- ATT.RTScopeSurface = Material("models/weapons/arc9/mw3/mw3_optics/hamr_lens")
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/svd_crosshair.png", "mips smooth")
