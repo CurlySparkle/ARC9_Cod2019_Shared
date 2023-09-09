@@ -152,10 +152,16 @@ ATT.ActivateElements = {"barrel_none","barrel_custom"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_custombarrel.mdl"
 ATT.BoneMerge = true
 
--- ATT.DrawFunc = function(swep, model, wm)
-    -- if swep:GetElements()["barrel_custom"] then
-        -- model:SetBodygroup(1,1)
-    -- end
--- end
+ATT.Attachments = {
+    {
+        PrintName = "Front-Optic",
+        Pos = Vector(-2, 0, -0.75),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = "cod2019_optic",
+		InstalledElements = {"forwardoptic"},
+		Scale = 1
+    }
+}
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_custom")
