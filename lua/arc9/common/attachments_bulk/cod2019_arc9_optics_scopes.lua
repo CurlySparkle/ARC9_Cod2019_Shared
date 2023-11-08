@@ -165,3 +165,80 @@ ATT.RTScopeColorable = false
 ATT.RTScopeNoBlur = true
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west")
+-------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "3.0x Flip Hybrid"
+ATT.CompactName = [[Flip Hybrid]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_west02_lw.png", "mips smooth")
+ATT.Description = [[Long range 3.0x optic manually flips to closer range holographic sight.]]
+ATT.Pros = {
+    "+ Holo & Scout Toggle",
+    "+ Zoom level"
+}
+ATT.Cons = {
+    "− Aim down sight speed"
+}
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = "Scopes"
+
+ATT.Category = {"cod2019_optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west02.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ActivateElements = {"scope_sniper","optic_scope"}
+
+ATT.AimDownSightsTimeMult = 1.15
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["magnifier_off"] then
+        model:SetBodygroup(1,1)
+    else
+        model:SetBodygroup(1,0)
+    end
+end
+
+ATT.Sights = {
+    {
+        Pos = Vector(-0.015, 7.7, -1.347),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.4,
+        ViewModelFOV = 26,
+        IgnoreExtra = false
+    },
+    {
+        Pos = Vector(0, 6.5, -1.4),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.4,
+        ViewModelFOV = 36,
+		RTScopeFOV = 36,
+        IgnoreExtra = false,
+		Blur = true,
+		ActivateElements = {"magnifier_off"},
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/ReticleEOTech.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 256
+ATT.HoloSightColorable = false
+ATT.HoloSightColor = Color(255, 255, 255)
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeAdjustable = false
+ATT.RTScopeFOV = 25
+ATT.RTScopeRes = 512
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3.png", "mips")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+ATT.RTScopeNoBlur = true
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west02")

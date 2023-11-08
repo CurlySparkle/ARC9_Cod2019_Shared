@@ -25,24 +25,28 @@ ATT.ModelAngleOffset = Angle(0, 0, 90)
 ATT.Sights = {
     {
         Pos = Vector(1.42, 6, -1.2),
-        Ang = Angle(0, 2, -0),
+        Ang = Angle(0, 0, -90),
         ViewModelFOV = 40,
         Magnification = 1.5,
         IgnoreExtra = true,
 		CrosshairInSights = false
     },
-    {
-        Pos = Vector(1.42, 6, -1.2),
-        Ang = Angle(0, 2, -0),
-        ViewModelFOV = 40,
-        Magnification = 1.5,
-        IgnoreExtra = true,
-		RTScopeFOV = 25
-    },
+    -- {
+        -- Pos = Vector(1.42, 6, -1.2),
+        -- Ang = Angle(0, 2, -0),
+        -- ViewModelFOV = 40,
+        -- Magnification = 1.5,
+        -- IgnoreExtra = true,
+		-- RTScopeFOV = 25
+    -- },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeAdjustable = true
+ATT.RTScopeAdjustmentLevels = 2
+ATT.RTScopeFOVMin = 10
+ATT.RTScopeFOVMax = 25
 ATT.RTScopeFOV = 8
 ATT.RTScopeRes = 512
 -- ATT.RTScopeSurface = Material("models/weapons/arc9/mw3/mw3_optics/hamr_lens")
