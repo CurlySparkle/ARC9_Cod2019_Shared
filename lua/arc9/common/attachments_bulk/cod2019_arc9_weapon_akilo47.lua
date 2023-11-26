@@ -52,7 +52,7 @@ ATT.RangeMaxMult = 0.8
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_akilo47_mag"
-ATT.ActivateElements = {"mag_none"}
+ATT.ActivateElements = {"mag_none","mag_545"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_smgmag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_smgmag.mdl"

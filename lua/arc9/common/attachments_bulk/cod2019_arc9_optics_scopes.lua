@@ -141,7 +141,9 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
         ViewModelFOV = 36,
+		RTScopeFOV = 36,
         IgnoreExtra = false,
+		Integral = false,
 		Blur = true
     },
 }
