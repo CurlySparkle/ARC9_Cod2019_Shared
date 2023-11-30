@@ -182,6 +182,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider01.m
 ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
+ATT.NoFlash = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider01")
 -------------------------------------------------------------------------------
@@ -212,6 +213,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider02.m
 ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
+ATT.NoFlash = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider02")
 -------------------------------------------------------------------------------
@@ -243,6 +245,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider03.m
 ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
+ATT.NoFlash = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider03")
 -------------------------------------------------------------------------------
@@ -274,5 +277,6 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider04.m
 ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
+ATT.NoFlash = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider04")
