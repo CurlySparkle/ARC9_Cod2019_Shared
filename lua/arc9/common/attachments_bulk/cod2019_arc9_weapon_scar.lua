@@ -36,7 +36,7 @@ end
 ATT.Element = {
     AttPosMods = {
         [2] = { -- slot of the weapon's attachment
-            Pos = Vector(15, 0, 0),
+            Pos = Vector(2.5, 0, 0),
             Ang = Angle(0,0,0),
         }
     }
