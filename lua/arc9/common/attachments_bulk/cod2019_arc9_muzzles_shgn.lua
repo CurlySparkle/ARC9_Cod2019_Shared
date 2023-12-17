@@ -21,7 +21,7 @@ ATT.RecoilMult = 0.9
 ATT.AimDownSightsTimeMult = 0.93
 
 --ATT.Silencer = true
---ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+--ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 
@@ -47,7 +47,7 @@ ATT.SpreadMult = 0.88
 ATT.AimDownSightsTimeMult = 0.88
 
 --ATT.Silencer = true
---ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+--ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 
@@ -73,7 +73,7 @@ ATT.SpreadMult = 0.76
 ATT.AimDownSightsTimeMult = 1.24
 
 --ATT.Silencer = true
---ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+--ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 
@@ -98,7 +98,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee_sh
 ATT.BashDamageMult = 1.25
 
 --ATT.Silencer = true
---ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+--ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 
@@ -121,7 +121,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_shtgn01.mdl"
 
 --ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 
