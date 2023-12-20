@@ -179,7 +179,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider01.mdl"
 
 --ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 ATT.NoFlash = true
@@ -210,7 +210,7 @@ ATT.Folder = "Muzzles"
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider02.mdl"
 
 --ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 ATT.NoFlash = true
@@ -242,7 +242,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider03.mdl"
 
 --ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 ATT.NoFlash = true
@@ -274,7 +274,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider04.mdl"
 
 --ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 --ATT.MuzzleParticleOverride_Priority = 10
 --ATT.MuzzleDevice = true
 ATT.NoFlash = true

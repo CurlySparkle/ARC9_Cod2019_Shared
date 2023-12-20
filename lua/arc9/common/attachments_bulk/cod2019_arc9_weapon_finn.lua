@@ -20,13 +20,13 @@ ATT.ActivateElements = {"stock_none","pistol_grip_none","stock_saw"}
 ATT.ActivePos = Vector(0, -3, -4)
 ATT.ActiveAng = Angle(0, 0, -7)
 
-ATT.MovingPos = Vector(-0.5, -3.5, -4.5)
+ATT.MovingPos = Vector(-0.5, -1.5, -1)
 ATT.MovingAng = Angle(0, 0, -7)
 
 ATT.SprintPos = Vector(0, 0, -2)
 ATT.SprintAng = Angle(0, 0, -7)
 
-ATT.CrouchPos = Vector(-0.5, -3, -5)
+ATT.CrouchPos = Vector(-0.5, -1, -1)
 ATT.CrouchAng = Angle(0, 0, -5)
 
 ATT.VisualRecoilPunch = 2
