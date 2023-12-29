@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = [[Light Buffer Tube]]
 ATT.CompactName = [[Light Tube]]
-ATT.Icon = Material("entities/attachs/cod2019_stock_none.png")
+ATT.Icon = Material("entities/attachs/cod2019_stock_tube_light.png")
 ATT.Description = [[Aluminium mounting point tube, improves sight speed with the cost of recoil.]]
 ATT.SortOrder = 0
 ATT.Free = false
@@ -34,6 +34,41 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_stock_tube_light")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = [[FSS CQ Buffer tube]]
+ATT.CompactName = [[FSS CQ Tube]]
+ATT.Icon = Material("entities/attachs/cod2019_stock_tube_medium.png")
+ATT.Description = [[Tactical buffer tube streamlined for close quarters combat. Gets you on target faster.]]
+ATT.SortOrder = 0.1
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_tube"}
+ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_tube_medium.mdl"
+--ATT.Scale = 1
+ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0,-90,0)
+ATT.Folder = "Tube"
+ATT.IconOffset = Vector(0, 0, 0)
+ATT.ActivateElements = {"stock_adapter"}
+
+ATT.AimDownSightsTimeMult = 1.12
+ATT.RecoilMult = 0.87
+
+ATT.Attachments = {
+    {
+        PrintName = "Stock",
+        Pos = Vector(-1.3, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-3, 0, 0),
+        Category = {"cod2019_stocks"},
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_stock_tube_medium")
 -------------------------------------------------------------------------------
 ATT = {}
 
