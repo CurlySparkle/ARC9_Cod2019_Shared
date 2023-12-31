@@ -12,7 +12,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake_shgn01.png", "m
 ATT.SortOrder = 0
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Muzzles"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake_shgn01.mdl"
@@ -38,7 +38,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_romeo870_choke.png", "mips 
 ATT.SortOrder = 0.1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Muzzles"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_sh_romeo870_choke.mdl"
@@ -64,7 +64,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_compensator_shgn01.png", "m
 ATT.SortOrder = 0.15
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Muzzles"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_compensator_shgn01.mdl"
@@ -90,7 +90,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlemelee_shgn01.png", "m
 ATT.SortOrder = 0.2
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Muzzles"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee_shgn01.mdl"
@@ -115,7 +115,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider_shtgn01.png", "m
 ATT.SortOrder = 0.3
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Muzzles"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_shtgn01.mdl"
@@ -138,7 +138,7 @@ ATT.Icon = Material("entities/attachs/cod2019_model680_shtgnsilencer.png", "mips
 ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Suppresors"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_romeo870_shtgnsilencer.mdl"
@@ -165,7 +165,7 @@ ATT.Icon = Material("entities/attachs/cod2019_muzzle_shgn01.png", "mips smooth")
 ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Suppresors"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer02.mdl"
@@ -196,7 +196,7 @@ ATT.Icon = Material("entities/attachs/cod2019_origin12_suppressor.png", "mips sm
 ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Category = "cod2019_muzzle_shot"
-ATT.Folder = "Suppresors"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
 ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer03.mdl"

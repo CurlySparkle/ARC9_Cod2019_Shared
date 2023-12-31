@@ -15,7 +15,7 @@ ATT.CustomCons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -59,7 +59,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -104,7 +104,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -149,7 +149,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -194,7 +194,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -239,7 +239,7 @@ ATT.Cons = {
 ATT.SortOrder = 3
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 ATT.ActivateElements = {"sight_minidot"}
@@ -284,7 +284,7 @@ ATT.Cons = {
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 ATT.ActivateElements = {"sight_minidot"}
@@ -328,7 +328,7 @@ ATT.Cons = {
 ATT.SortOrder = 5
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 ATT.ActivateElements = {"sight_minidot"}
@@ -372,7 +372,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -427,7 +427,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -482,7 +482,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_alt"}
 
@@ -526,7 +526,7 @@ ATT.Cons = {
 ATT.SortOrder = 2
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_alt"}
 
@@ -570,7 +570,7 @@ ATT.Cons = {
 ATT.SortOrder = 2
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_alt"}
 
@@ -613,7 +613,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Scopes"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -680,7 +680,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Scopes"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.Category = {"cod2019_optic"}
 ATT.ActivateElements = {"optic_scope"}
@@ -747,7 +747,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Scopes"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.Category = {"cod2019_optic"}
 

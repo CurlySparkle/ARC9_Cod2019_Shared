@@ -15,7 +15,7 @@ ATT.Cons = {
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_scope"}
 
@@ -59,7 +59,7 @@ ATT.Cons = {
 ATT.SortOrder = 2
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_scope"}
 
@@ -103,7 +103,7 @@ ATT.Cons = {
 ATT.SortOrder = 2
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Sights"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_scope"}
 

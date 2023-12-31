@@ -1,5 +1,7 @@
 L = {}
 
+-- Stats from https://sym.gg
+
 local lineb = "\n"
 
 local changeammo = {
