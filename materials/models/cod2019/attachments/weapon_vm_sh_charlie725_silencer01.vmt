@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\attachments\attachment_vm_muzzlemelee01_rgb"
-    "$bumpmap" "models\cod2019\attachments\attachment_vm_muzzlemelee01_n"
-    "$phongexponenttexture" "models\cod2019\attachments\attachment_vm_muzzlemelee01_e"
+    "$basetexture" "models\cod2019\attachments\weapon_vm_sh_charlie725_silencer01_rgb"
+    "$bumpmap" "models\cod2019\attachments\weapon_vm_sh_charlie725_silencer01_n"
+    "$phongexponenttexture" "models\cod2019\attachments\weapon_vm_sh_charlie725_silencer01_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this
