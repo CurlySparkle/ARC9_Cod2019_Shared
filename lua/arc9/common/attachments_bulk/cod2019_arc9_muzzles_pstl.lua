@@ -21,9 +21,9 @@ ATT.SpreadMult = 0.9
 ATT.AimDownSightsTimeMult = 1.05
 
 --ATT.Silencer = true
---ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
---ATT.MuzzleParticleOverride_Priority = 10
---ATT.MuzzleDevice = true
+ATT.MuzzleParticleOverride = "muzzleflash_pistol"
+ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_compensator_pstl01")
 -------------------------------------------------------------------------------
@@ -47,9 +47,9 @@ ATT.RecoilMult = 0.95
 ATT.AimDownSightsTimeMult = 1.05
 
 --ATT.Silencer = true
---ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
---ATT.MuzzleParticleOverride_Priority = 10
---ATT.MuzzleDevice = true
+ATT.MuzzleParticleOverride = "muzzleflash_3"
+ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzlebrake_pstl01")
 -------------------------------------------------------------------------------
@@ -80,8 +80,8 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_psl
 --ATT.AimDownSightsTimeMult = 1.05
 
 --ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_pistol_suppressed"
---ATT.MuzzleParticleOverride_Priority = 10
---ATT.MuzzleDevice = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider_psl01")
