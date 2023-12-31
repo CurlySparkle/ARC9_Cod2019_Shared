@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models/cod2019/aug/aug_ar_mag"
-    "$bumpmap" "models/cod2019/aug/aug_ar_mag_n"
-    "$phongexponenttexture" "models/cod2019/aug/aug_ar_mag_exp"
+    "$basetexture" "models\cod2019\aug\weapon_vm_sm_augolf_lmg_barrel_rgb"
+    "$bumpmap" "models\cod2019\aug\weapon_vm_sm_augolf_lmg_barrel_n"
+    "$phongexponenttexture" "models\cod2019\aug\weapon_vm_sm_augolf_lmg_barrel_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this
@@ -20,7 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.329 0.329 0.333]"                 
+    "$envmaptint" "[0.122 0.118 0.118]"                 
 
     //remove this if not using MWB
     "Proxies"
@@ -29,7 +29,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.329 0.329 0.333]"
+            "color" "[0.122 0.118 0.118]"
         }
     }
 }
