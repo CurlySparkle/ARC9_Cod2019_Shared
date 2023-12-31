@@ -6,11 +6,11 @@ ATT.PrintName = "Operator Reflex Sight"
 ATT.CompactName = [[Reflex]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03.png", "mips smooth")
 ATT.Description = [[Reflex sight of American origin. Provides higher precision.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+ATT.CustomPros = {
+    ["Precision Sight Picture"] = "(+)"
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
+ATT.CustomCons = {
+    -- [""] = "Aim Down Sight Speed (-)"
 }
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
