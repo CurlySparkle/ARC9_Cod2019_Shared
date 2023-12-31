@@ -301,6 +301,10 @@ L["cod2019_attach_muzzle_silencer04.printname"] = "Tactical Suppressor"
 L["cod2019_attach_muzzle_silencer04.compactname"] = "Tactical"
 L["cod2019_attach_muzzle_silencer04.description"] = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
 
+L["cod2019_attach_muzzle_silencer_shotgun_02.printname"] = "Tactical Suppressor"
+L["cod2019_attach_muzzle_silencer_shotgun_02.compactname"] = "Tactical"
+L["cod2019_attach_muzzle_silencer_shotgun_02.description"] = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
+
 -- Lightweight
 L["cod2019_attach_muzzle_silencer03.printname"] = "Lightweight Suppressor"
 L["cod2019_attach_muzzle_silencer03.compactname"] = "Lightweight"
@@ -322,3 +326,12 @@ L["cod2019_attach_muzzle_silencer02.description"] = "Monolithic core provides su
 L["cod2019_attach_muzzle_silencer_east02.printname"] = "Monolithic Suppressor"
 L["cod2019_attach_muzzle_silencer_east02.compactname"] = "Monolithic"
 L["cod2019_attach_muzzle_silencer_east02.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
+
+L["cod2019_attach_muzzle_silencer_shotgun_01.printname"] = "Monolithic Suppressor"
+L["cod2019_attach_muzzle_silencer_shotgun_01.compactname"] = "Monolithic"
+L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
+
+-- FORGE TAC
+L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
+L["cod2019_attach_muzzle_silencer_shotgun_03.compactname"] = "FORGE TAC"
+L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Box suppressor adds considerable weight to the barrel, but tightens pellet spread and reduces recoil to help with long range precision."

@@ -141,7 +141,7 @@ ATT.Description = [[Picatinny Adapter that is designed for mounting a second low
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Extra"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -184,7 +184,7 @@ ATT.Description = [[lat-Top Riser adapter that is designed for mounting a sight 
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Extra"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
 
 ATT.Category = {"cod2019_optic"}
 
@@ -219,7 +219,7 @@ ATT.Description = [[lat-Top Riser adapter that is designed for mounting a sight 
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
-ATT.Folder = "Extra"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
 
 ATT.Category = {"cod2019_optic"}
 
