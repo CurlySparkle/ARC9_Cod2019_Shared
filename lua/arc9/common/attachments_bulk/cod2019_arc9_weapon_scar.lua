@@ -16,7 +16,7 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_scar_barrel"
 ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
 
-ATT.MuzzleDevice = false -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 3
 
 ATT.DrawFunc = function(swep, model, wm)

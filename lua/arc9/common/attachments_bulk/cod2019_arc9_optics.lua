@@ -18,6 +18,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_west03.mdl"
 ATT.Scale = 1
@@ -62,6 +63,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_east02.mdl"
 ATT.Scale = 1
@@ -107,6 +109,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_holo_west.mdl"
 ATT.Scale = 1
@@ -152,6 +155,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_holo_west02.mdl"
 ATT.Scale = 1
@@ -197,6 +201,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_east.mdl"
 ATT.Scale = 1
@@ -242,7 +247,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
-ATT.ActivateElements = {"sight_minidot"}
+ATT.ActivateElements = {"sight_minidot","optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_minireddot01_tall_alt.mdl"
 ATT.Scale = 1
@@ -287,7 +292,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
-ATT.ActivateElements = {"sight_minidot"}
+ATT.ActivateElements = {"sight_minidot","optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_minireddot02_tall_alt.mdl"
 ATT.Scale = 1
@@ -331,7 +336,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
-ATT.ActivateElements = {"sight_minidot"}
+ATT.ActivateElements = {"sight_minidot","optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_minireddot03_tall_alt.mdl"
 ATT.Scale = 1
@@ -375,6 +380,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_west04.mdl"
 ATT.Scale = 1
@@ -430,6 +436,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_west02.mdl"
 ATT.Scale = 1
@@ -485,6 +492,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_alt"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/minireddot_1.mdl"
 ATT.Scale = 1
@@ -529,6 +537,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_alt"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/minireddot_2.mdl"
 ATT.Scale = 1
@@ -573,6 +582,7 @@ ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 
 ATT.Category = {"cod2019_optics_pistols_alt"}
+ATT.ActivateElements = {"optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/minireddot_3.mdl"
 ATT.Scale = 1
