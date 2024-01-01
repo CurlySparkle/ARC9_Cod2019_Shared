@@ -170,7 +170,7 @@ L["cod2019_optic_thermal_west_01.description"] = "Advanced <color=100,255,100>3.
 
 L["cod2019_optic_scope_mike14.printname"] = "Sniper Scope"
 L["cod2019_optic_scope_mike14.compactname"] = "Sniper"
-L["cod2019_optic_scope_mike14.description"] = "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic gling visible to enemies.</color>"
+L["cod2019_optic_scope_mike14.description"] = "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 -- L["mw19_optic_merc.printname"] = "Merc Thermal Optic"
 -- L["mw19_optic_merc.compactname"] = "Merc"
