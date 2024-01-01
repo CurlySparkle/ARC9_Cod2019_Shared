@@ -41,7 +41,7 @@ table.Merge(ATT, stats_comp)
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_pistol"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_compensator_pstl01")
@@ -66,7 +66,7 @@ table.Merge(ATT, stats_brake)
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_3"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzlebrake_pstl01")
@@ -91,7 +91,7 @@ table.Merge(ATT, stats_flash)
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider_psl01")

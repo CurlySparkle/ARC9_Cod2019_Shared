@@ -76,7 +76,7 @@ table.Merge(ATT, stats_tac)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer04")
@@ -101,7 +101,7 @@ table.Merge(ATT, stats_light)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer03")
@@ -126,7 +126,7 @@ table.Merge(ATT, stats_light)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east01")
@@ -151,7 +151,7 @@ table.Merge(ATT, stats_light)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east03")
@@ -176,7 +176,7 @@ table.Merge(ATT, stats_mono)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer02")
@@ -201,7 +201,7 @@ table.Merge(ATT, stats_mono)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east02")
@@ -226,7 +226,7 @@ table.Merge(ATT, stats_mono_pist)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_03")
@@ -251,7 +251,7 @@ table.Merge(ATT, stats_light_pist)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_01")
@@ -276,7 +276,7 @@ table.Merge(ATT, stats_mono_pist)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_02")

@@ -32,16 +32,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(3, 15, -2),
-        Ang = Angle(0, 0, -45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(3, 15, -2),
+        -- Ang = Angle(0, 0, -45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 
 ATT.Scale = 1
@@ -84,16 +84,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(3, 15, -2),
-        Ang = Angle(0, 0, -45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(3, 15, -2),
+        -- Ang = Angle(0, 0, -45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 
 ATT.Scale = 1
@@ -136,16 +136,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(3, 15, -2),
-        Ang = Angle(0, 0, -45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(3, 15, -2),
+        -- Ang = Angle(0, 0, -45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 ATT.Scale = 1
 
@@ -186,16 +186,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1.5, 15, -3),
-        Ang = Angle(0, -0.8, 45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1.5, 15, -3),
+        -- Ang = Angle(0, -0.8, 45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 
 ATT.Scale = 1
@@ -238,16 +238,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1.5, 15, -3),
-        Ang = Angle(0, -0.8, 45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1.5, 15, -3),
+        -- Ang = Angle(0, -0.8, 45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 
 ATT.Scale = 1
@@ -291,16 +291,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1.5, 15, -3),
-        Ang = Angle(0, -0.8, 45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1.5, 15, -3),
+        -- Ang = Angle(0, -0.8, 45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 ATT.Scale = 1
 
@@ -494,16 +494,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1, 15, -2),
-        Ang = Angle(0, 0, 45),
-        ViewModelFOV = 45,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1, 15, -2),
+        -- Ang = Angle(0, 0, 45),
+        -- ViewModelFOV = 45,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 
 ATT.Scale = 1
@@ -546,16 +546,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1, 15, -2),
-        Ang = Angle(0, 0, 45),
-        ViewModelFOV = 45,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1, 15, -2),
+        -- Ang = Angle(0, 0, 45),
+        -- ViewModelFOV = 45,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 
 ATT.Scale = 1
@@ -598,16 +598,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1, 15, -2),
-        Ang = Angle(0, 0, 45),
-        ViewModelFOV = 45,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1, 15, -2),
+        -- Ang = Angle(0, 0, 45),
+        -- ViewModelFOV = 45,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 ATT.Scale = 1
 

@@ -86,7 +86,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake_sh
 table.Merge(ATT, stats_brake)
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzlebrake_shgn01")
@@ -110,7 +110,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_sh_romeo870_ch
 table.Merge(ATT, stats_choke)
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_romeo870_choke")
@@ -134,7 +134,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_compensator_sh
 table.Merge(ATT, stats_comp)
 
 ATT.MuzzleParticleOverride = "muzzleflash_slug"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_compensator_shgn01")
@@ -157,7 +157,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee_sh
 
 table.Merge(ATT, stats_breach)
 
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzlemelee_shgn01")
@@ -181,7 +181,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_sht
 table.Merge(ATT, stats_flash)
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider_shtgn01")
@@ -206,7 +206,7 @@ table.Merge(ATT, stats_mono)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_01")
@@ -231,7 +231,7 @@ table.Merge(ATT, stats_tac)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_02")
@@ -256,7 +256,7 @@ table.Merge(ATT, stats_forge)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_03")

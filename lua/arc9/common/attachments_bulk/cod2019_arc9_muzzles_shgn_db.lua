@@ -22,7 +22,7 @@ ATT.AimDownSightsTimeMult = 0.93
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_brake")
@@ -48,7 +48,7 @@ ATT.AimDownSightsTimeMult = 0.88
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_choke")
@@ -74,7 +74,7 @@ ATT.AimDownSightsTimeMult = 1.24
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_slug"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_comp")
@@ -99,7 +99,7 @@ ATT.BashDamageMult = 1.25
 
 --ATT.Silencer = true
 --ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_melee")
@@ -122,7 +122,7 @@ ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie7
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleParticleOverride_Priority = 5
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_hider")
@@ -151,7 +151,7 @@ ATT.AimDownSightsTimeMult = 0.9
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_01")
@@ -182,7 +182,7 @@ ATT.AimDownSightsTimeMult = 1.1
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_02")
@@ -213,7 +213,7 @@ ATT.AimDownSightsTimeMult = 1.15
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
-ATT.MuzzleParticleOverride_Priority = 10
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_03")

@@ -22,9 +22,8 @@ ATT.ActivateElements = {"muzzle_none","barrel_none","barrel_p90_custom"}
 --ATT.Silencer = true
 --ATT.MuzzleParticleOverride = "weapon_muzzle_flash_assaultrifle_silenced2"
 --ATT.MuzzleParticleOverride_Priority = 10
-ATT.Override_MuzzleEffectAttachment = 1
-ATT.Override_MuzzleEffectAttachmentPriority = 3
---ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 3
+ATT.MuzzleDevice = true
 
 ATT.AimDownSightsTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.1

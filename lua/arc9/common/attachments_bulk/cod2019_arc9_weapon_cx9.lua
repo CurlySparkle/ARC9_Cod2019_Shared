@@ -20,9 +20,8 @@ ATT.Category = {"cod2019_cx9_barrel"}
 ATT.ActivateElements = {"barrel_none","barrel_silenced"}
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "weapon_muzzle_flash_assaultrifle_silenced2"
-ATT.MuzzleParticleOverride_Priority = 10
---ATT.Override_MuzzleEffectAttachment = 1
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 3
 ATT.MuzzleDevice = true
 
 ATT.AimDownSightsTimeMult = 1.25
