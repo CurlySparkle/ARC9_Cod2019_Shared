@@ -54,12 +54,12 @@ L["mw19_togglestat_on"] = "On" -- UO
 ///////////////////////////// Universal Attachments
 ////////////////////  Optics
 -- Stats
-L["mw19_optic_stat_precision.printname"] = "Precision Sight Picture" -- Most reflex
-L["mw19_optic_stat_zoom.printname"] = "Zoom Level" -- Most scopes
-L["mw19_optic_stat_toggle_holo.printname"] = "Holo & Scout Toggle" -- 4.0x Flip Hybrid
-L["mw19_optic_stat_toggle_rds.printname"] = "Reflex & Scout Toggle" -- Integral Hybrid
-L["mw19_optic_stat_toggle_thermal.printname"] = "Reflex & Thermal Toggle" -- Thermal Hybrid
-L["mw19_optic_stat_thermal.printname"] = "Thermal Target Identification" -- Soloero NVG Enhanced
+L["mw19_optic_stat_precision"] = "Precision Sight Picture" -- Most reflex
+L["mw19_optic_stat_zoom"] = "Zoom Level" -- Most scopes
+L["mw19_optic_stat_toggle_holo"] = "Holo & Scout Toggle" -- 4.0x Flip Hybrid
+L["mw19_optic_stat_toggle_rds"] = "Reflex & Scout Toggle" -- Integral Hybrid
+L["mw19_optic_stat_toggle_thermal"] = "Reflex & Thermal Toggle" -- Thermal Hybrid
+L["mw19_optic_stat_thermal"] = "Thermal Target Identification" -- Soloero NVG Enhanced
 
 -- Picatinny Rails
 L["cod2019_optic_picatinny.printname"] = "Picatinny Rail Sight Mount" -- UO
@@ -187,6 +187,12 @@ L["cod2019_optic_scope_mike14.description"] = "High power <color=100,255,100>4.4
 L["mw19_optic_variable.printname"] = "Variable Zoom Scope"
 L["mw19_optic_variable.compactname"] = "Variable"
 L["mw19_optic_variable.description"] = "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
+
+-- Weapon Name Alterations
+L["mw19_weapon_att_hybrid"] = "%s Hybrid" -- 4.0x Hybrid Sight, Integral Hybrid, Canted Hybrid
+L["mw19_weapon_att_thermal"] = "%s Thermal" -- Solozero NVG Enhanced, Merc Thermal Optic
+L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Thermal" -- Thermal Hybrid
+L["mw19_weapon_att_variable"] = "%s Variable Zoom" -- Variable Zoom Scope
 
 ////////////////////  Muzzle
 ///////// Stats
@@ -335,3 +341,37 @@ L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = "Monolithic core pr
 L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
 L["cod2019_attach_muzzle_silencer_shotgun_03.compactname"] = "FORGE TAC"
 L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Box suppressor adds considerable weight to the barrel, but tightens pellet spread and reduces recoil to help with long range precision."
+
+////////////////////  Underbarrel
+///////// Stats
+L["mw19_muzzle_stat_muzzleflash"] = "Muzzle Flash Concealment" -- Flash Guard
+L["mw19_muzzle_stat_sound"] = "Sound Suppression" -- Suppressors
+
+///////// Grips
+L["csgo_cod2019_angled.printname"] = "Commando Foregrip"
+L["csgo_cod2019_angled.compactname"] = "Commando"
+L["csgo_cod2019_angled.description"] = "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire."
+
+L["csgo_cod2019_grips_merc.printname"] = "Merc Foregrip"
+L["csgo_cod2019_grips_merc.compactname"] = "Merc"
+L["csgo_cod2019_grips_merc.description"] = "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics."
+
+L["csgo_cod2019_angled_tactical.printname"] = "Tactical Foregrip"
+L["csgo_cod2019_angled_tactical.compactname"] = "Tactical"
+L["csgo_cod2019_angled_tactical.description"] = "Streamlined foregrip provides superior control acquiring targets."
+
+L["csgo_cod2019_grips_ranger.printname"] = "Ranger Foregrip"
+L["csgo_cod2019_grips_ranger.compactname"] = "Ranger"
+L["csgo_cod2019_grips_ranger.description"] = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat."
+
+L["csgo_cod2019_grips_operator.printname"] = "Operator Foregrip"
+L["csgo_cod2019_grips_operator.compactname"] = "Operator"
+L["csgo_cod2019_grips_operator.description"] = "No frills foregrip helps control vertical recoil for faster follow-up shots."
+
+L["csgo_cod2019_grips_bipod.printname"] = "Bipod Foregrip"
+L["csgo_cod2019_grips_bipod.compactname"] = "Bipod F"
+L["csgo_cod2019_grips_bipod.description"] = "Helps control recoil, especially from the crouch and prone stance."
+
+L["csgo_cod2019_grips_tactical.printname"] = "Task Force Foregrip" -- UO
+L["csgo_cod2019_grips_tactical.compactname"] = "Task Force" -- UO
+L["csgo_cod2019_grips_tactical.description"] = "Streamlined foregrip provides superior control acquiring targets."
