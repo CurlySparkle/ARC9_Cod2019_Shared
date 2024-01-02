@@ -4,7 +4,7 @@ L = {}
 
 local lineb = "\n"
 
-local changeammo = {
+local changeammo = { -- UO
 pistol = lineb .. "Changes ammo type to <color=255,255,100>Pistol Ammo</color>.",
 ["357"] = lineb .. "Changes ammo type to <color=255,255,100>Magnum Ammo</color>.",
 smg1 = lineb .. "Changes ammo type to <color=255,255,100>Carbine Ammo</color>.",
@@ -19,6 +19,209 @@ xbowbolt = lineb .. "Changes ammo type to <color=255,255,100>Crossbow Bolts</col
 ////////////////////////////////////////// Notes
 -- If "-- UO" is listed after the string, it is unofficial and its translation is not taken from MW19.
 -- Therefore they will either remain untranslated (and remain in English) or require community contribution to fix.
+
+//////////////////////////////////////////////////////////////////////
+///////////////////////////// Universal Attachments
+////////////////////  Universal Names & Descriptions
+-- Localizations are done here for ease of use. Mostly in case multiple attachments use the same name or description.
+-- Does not actually contain the ARC9 localization strings, just the text themselves.
+
+mw19uostring = { -- UO, all of it
+	atts = {
+		optic = {
+			picatinny = "Picatinny Rail Sight Mount",
+			picatinnys = "Picatinny",
+			picatinnyd = "Picatinny Adapter that is designed for mounting a second low profile sight.",
+			
+			riser = "Flat-Top Riser",
+			risers = "Flat-Top",
+			riserd = "Flat-Top Riser adapter that is designed for mounting a sight for more tall sighting.",
+			
+			riser2 = "Flat-Top Riser II",
+			riser2s = "Flat-Top II", 
+			riser2d = "Small Flat-Top Riser adapter designed for mounting smaller optics.\nCan look strange when equipping larger optics.",
+		},
+	},
+}
+
+mw19string = {
+	atts = {
+		optic = { -- REFLEX
+			operator = "Operator Reflex Sight",
+			operators = "Operator", 
+			operatord = "Reflex sight of American origin. Provides higher precision.",
+			
+			corpcombat = "Corp Combat Holo Sight",
+			corpcombats = "Corp Combat", 
+			corpcombatd = "Advanced holographic sight of American origin.",
+			
+			aimop = "Aim-Op Reflex Sight",
+			aimops = "Aim-Op", 
+			aimopd = "Reflex sight of western origin. Provides higher precision.",
+			
+			gimini = "G.I. Mini Reflex",
+			giminis = "G.I. Mini", 
+			giminid = "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture.",
+			
+			apx5 = "APX5 Holographic Sight",
+			apx5s = "APX5", 
+			apx5d = "Advanced holographic sight of Russian origin.",
+			
+			cronen = "Cronen LP945 Mini Reflex",
+			cronens = "Cronen", 
+			cronend = "Circular reflex frame from Cronen keeps the focus on the target.",
+			
+			viper = "Viper Reflex Sight",
+			vipers = "Viper", 
+			viperd = "Precision reflex sight of Russian origin.",
+			
+			monocle = "Monocle Reflex Sight",
+			monocles = "Monocle", 
+			monocled = "Russian reflex sight with a low-intrusive frame for improved target tracking.",
+			
+			pbx = "PBX Holo 7 Sight",
+			pbxs = "PBX", 
+			pbxd = "Advanced holographic sight of American origin.",
+			
+			solozero = "Solozero Optics Mini Reflex",
+			solozeros = "Solozero", 
+			solozerod = "Well-rounded precision sight from Solozero Optics provides a balanced sight picture.",
+			
+			-- SCOPES
+			scout = "Scout Combat Optic",
+			scouts = "Scout", 
+			scoutd = "Precision optic with <color=100,255,100>3.25x</color> magnification for long range target acquisition.",
+			
+			hybrid = "4.0x Flip Hybrid",
+			hybrids = "Hybrid", 
+			hybridd = "Long range <color=100,255,100>4.0x</color> optic manually flips to closer range holographic sight.",
+			
+			vlk = "VLK 3.0x Optic",
+			vlks = "VLK", 
+			vlkd = "Russian combat optic with <color=100,255,100>3.0x</color> magnification provides reliable target acquisition.",
+			
+			integral = "Integral Hybrid",
+			integrals = "Integral", 
+			integrald = "<color=100,255,100>3.25x</color> Scout with integral reflex sight for quickly transitioning between sights.",
+			
+			cronenpro = "Cronen C480 Pro Optic",
+			cronenpros = "Cronen", 
+			cronenprod = "Advanced optic with <color=100,255,100>3.5x</color> magnification provides excellent target acquisition.",
+			
+			solozeronvg = "Solozero NVG Enhanced",
+			solozeronvgs = "Solozero NVG", 
+			solozeronvgd = "Advanced <color=100,255,100>3.25x</color> Gen 3 night vision with thermal overlay for enhanced situational awareness. <color=255,100,100>Not compatible with Night Vision Goggles.</color>",
+			
+			sniper = "Sniper Scope",
+			snipers = "Sniper", 
+			sniperd = "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>",
+			
+			thermal = "Merc Thermal Optic",
+			thermals = "Merc Thermal", 
+			thermald = "<color=100,255,100>3.25x</color> scope with thermal imaging highlights targets and provides visibility in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles.</color>",
+			
+			thermalhybrid = "Thermal Hybrid",
+			thermalhybrids = "Thermal", 
+			thermalhybridd = "<color=100,255,100>3.25x</color> Thermal scope with a side-mounting reflex sight toggles thermal imaging with a flick of the wrist. <color=255,100,100>Not compatible with Night Vision Goggles.</color>",
+			
+			canted = "Canted Hybrid",
+			canteds = "Canted", 
+			cantedd = "<color=100,255,100>3.25x</color> Scout with a side-mounting reflex sight lets you change engagement distances with the flick of the wrist.",
+			
+			variable = "Variable Zoom Scope",
+			variables = "Variable", 
+			variabled = "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>",
+			
+			stats = {
+				precision = "Precision Sight Picture",
+				zoom = "Zoom Level",
+				toggle = {
+					holo = "Holo & Scout Toggle",
+					rds = "Reflex & Scout Toggle",
+					thermal = "Reflex & Thermal Toggle"
+				},
+				thermal = "Thermal Target Identification",
+			},
+		},
+		muzzle = { -- MUZZLES
+			flash = "Flash Guard", 
+			flashs = "Flash", 
+			flashd = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity.",
+			
+			breacher = "Breacher Device",
+			breachers = "Breacher",
+			breacherd = "Muzzle attachment that enables 1 hit melee kills.",
+			
+			brake = "Muzzle Brake",
+			brakes = "Brake",
+			braked = "Redirects gases outward to stabilize the weapon for better control of sustained fire.",
+			
+			comp = "Compensator", 
+			comps = "Compensator",
+			compd = "Expels gases upward to aggressively fight muzzle climb.",
+			
+			choke = "Choke", 
+			chokes = "Choke", 
+			choked = "Device used to narrow the spread of shotgun pellets.",
+			
+			stac = "Tactical Suppressor", 
+			stacs = "Tactical", 
+			stacd = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight.",
+			
+			slight = "Lightweight Suppressor",
+			slights = "Lightweight", 
+			slightd = "Lightweight aluminium suppressor sacrifices range for stealth and agility.",
+			
+			smono = "Monolithic Suppressor", 
+			smonos = "Monolithic", 
+			smonod = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility.",
+			
+			sforge = "FORGE TAC Marauder",
+			sforges = "FORGE TAC",
+			sforged = "Box suppressor adds considerable weight to the barrel, but tightens pellet spread and reduces recoil to help with long range precision.",
+			
+			stats = {
+				flash = "Muzzle Flash Concealment",
+				sound = "Sound Suppression",
+			},
+		},
+		underbarrel = { -- UNDERBARRELS
+			commando = "Commando Foregrip", 
+			commandos = "Commando", 
+			commandod = "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire.",
+			
+			merc = "Merc Foregrip", 
+			mercs = "Merc", 
+			mercd = "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics.",
+			
+			tactical = "Tactical Foregrip", 
+			tacticals = "Tactical", 
+			tacticald = "Streamlined foregrip provides superior control acquiring targets.",
+			
+			ranger = "Ranger Foregrip", 
+			rangers = "Ranger", 
+			rangerd = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat.",
+			
+			operator = "Operator Foregrip", 
+			operators = "Operator", 
+			operatord = "No frills foregrip helps control vertical recoil for faster follow-up shots.",
+			
+			bipodf = "Bipod Foregrip", 
+			bipodfs = "Bipod F", 
+			bipodfd = "Helps control recoil, especially from the crouch and prone stance.",
+		},
+	},
+	weapon = {
+		namealt = {
+			hybrid = "%s Hybrid", -- 4.0x Hybrid Sight
+			thermal = "%s Thermal", -- Solozero NVG Enhanced
+			hybridthermal = "%s Hybrid Thermal", -- Thermal Hybrid
+			variable = "%s Variable Zoom", -- Variable Zoom Scope
+		},
+	},
+}
+
+IncludeCS("mw19atts.lua")
 
 ///////////////////////////// Attachments
 //////////////////// Folder Names
@@ -49,329 +252,3 @@ L["mw19_togglestat_on"] = "On" -- UO
 
 //////////////////// Firemodes
 -- L["mw19_firemode_pump"] = "PUMP"
-
-//////////////////////////////////////////////////////////////////////
-///////////////////////////// Universal Attachments
-////////////////////  Optics
--- Stats
-L["mw19_optic_stat_precision"] = "Precision Sight Picture" -- Most reflex
-L["mw19_optic_stat_zoom"] = "Zoom Level" -- Most scopes
-L["mw19_optic_stat_toggle_holo"] = "Holo & Scout Toggle" -- 4.0x Flip Hybrid
-L["mw19_optic_stat_toggle_rds"] = "Reflex & Scout Toggle" -- Integral Hybrid
-L["mw19_optic_stat_toggle_thermal"] = "Reflex & Thermal Toggle" -- Thermal Hybrid
-L["mw19_optic_stat_thermal"] = "Thermal Target Identification" -- Soloero NVG Enhanced
-
--- Picatinny Rails
-L["cod2019_optic_picatinny.printname"] = "Picatinny Rail Sight Mount" -- UO
-L["cod2019_optic_picatinny.compactname"] = "Picatinny" -- UO
-L["cod2019_optic_picatinny.description"] = "Picatinny Adapter that is designed for mounting a second low profile sight." -- UO
-
-L["cod2019_optic_riser.printname"] = "Flat-Top Riser" -- UO
-L["cod2019_optic_riser.compactname"] = "Flat-Top" -- UO
-L["cod2019_optic_riser.description"] = "Flat-Top Riser adapter that is designed for mounting a sight for more tall sighting." -- UO
-
-L["cod2019_optic_riser2.printname"] = "Flat-Top Riser II" -- UO
-L["cod2019_optic_riser2.compactname"] = "Flat-Top II" -- UO
-L["cod2019_optic_riser2.description"] = "Small Flat-Top Riser adapter designed for mounting smaller optics.\nCan look strange when equipping larger optics." -- UO
-
--- Reflex Sights
-L["cod2019_optic_reflex_west03.printname"] = "Operator Reflex Sight"
-L["cod2019_optic_reflex_west03.compactname"] = "Operator"
-L["cod2019_optic_reflex_west03.description"] = "Reflex sight of American origin. Provides higher precision."
-
-L["cod2019_optic_reflex_west.printname"] = "Corp Combat Holo Sight"
-L["cod2019_optic_reflex_west.compactname"] = "Corp Combat"
-L["cod2019_optic_reflex_west.description"] = "Advanced holographic sight of American origin."
-
-L["cod2019_optic_aimop.printname"] = "Aim-Op Reflex Sight"
-L["cod2019_optic_aimop.compactname"] = "Aim-Op"
-L["cod2019_optic_aimop.description"] = "Reflex sight of western origin. Provides higher precision."
-
-L["cod2019_optic_aimop_alt.printname"] = "Aim-Op Reflex Sight"
-L["cod2019_optic_aimop_alt.compactname"] = "Aim-Op"
-L["cod2019_optic_aimop_alt.description"] = "Reflex sight of western origin. Provides higher precision."
-
-L["cod2019_optic_minireddot1.printname"] = "G.I. Mini Reflex"
-L["cod2019_optic_minireddot1.compactname"] = "G.I. Mini"
-L["cod2019_optic_minireddot1.description"] = "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
-
-L["cod2019_optic_minireddot1_alt.printname"] = "G.I. Mini Reflex"
-L["cod2019_optic_minireddot1_alt.compactname"] = "G.I. Mini"
-L["cod2019_optic_minireddot1_alt.description"] = "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
-
-L["cod2019_optic_minireddot1_scope.printname"] = "G.I. Mini Reflex"
-L["cod2019_optic_minireddot1_scope.compactname"] = "G.I. Mini"
-L["cod2019_optic_minireddot1_scope.description"] = "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
-
--- L["mw19_optic_apx5.printname"] = "APX5 Holographic Sight"
--- L["mw19_optic_apx5.compactname"] = "APX5"
--- L["mw19_optic_apx5.description"] = "Advanced holographic sight of Russian origin."
-
-L["cod2019_optic_minireddot2.printname"] = "Cronen LP945 Mini Reflex"
-L["cod2019_optic_minireddot2.compactname"] = "Cronen"
-L["cod2019_optic_minireddot2.description"] = "Circular reflex frame from Cronen keeps the focus on the target."
-
-L["cod2019_optic_minireddot2_alt.printname"] = "Cronen LP945 Mini Reflex"
-L["cod2019_optic_minireddot2_alt.compactname"] = "Cronen"
-L["cod2019_optic_minireddot2_alt.description"] = "Circular reflex frame from Cronen keeps the focus on the target."
-
-L["cod2019_optic_minireddot2_scope.printname"] = "Cronen LP945 Mini Reflex"
-L["cod2019_optic_minireddot2_scope.compactname"] = "Cronen"
-L["cod2019_optic_minireddot2_scope.description"] = "Circular reflex frame from Cronen keeps the focus on the target."
-
-L["cod2019_optic_reflex_east.printname"] = "Viper Reflex Sight"
-L["cod2019_optic_reflex_east.compactname"] = "Viper"
-L["cod2019_optic_reflex_east.description"] = "Precision reflex sight of Russian origin."
-
-L["cod2019_optic_reflex_east02.printname"] = "Monocle Reflex Sight"
-L["cod2019_optic_reflex_east02.compactname"] = "Monocle"
-L["cod2019_optic_reflex_east02.description"] = "Russian reflex sight with a low-intrusive frame for improved target tracking."
-
-L["cod2019_optic_reflex_west02.printname"] = "PBX Holo 7 Sight"
-L["cod2019_optic_reflex_west02.compactname"] = "PBX"
-L["cod2019_optic_reflex_west02.description"] = "Advanced holographic sight of American origin."
-
-L["cod2019_optic_minireddot3.printname"] = "Solozero Optics Mini Reflex"
-L["cod2019_optic_minireddot3.compactname"] = "Solozero"
-L["cod2019_optic_minireddot3.description"] = "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
-
-L["cod2019_optic_minireddot3_alt.printname"] = "Solozero Optics Mini Reflex"
-L["cod2019_optic_minireddot3_alt.compactname"] = "Solozero"
-L["cod2019_optic_minireddot3_alt.description"] = "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
-
-L["cod2019_optic_minireddot3_scope.printname"] = "Solozero Optics Mini Reflex"
-L["cod2019_optic_minireddot3_scope.compactname"] = "Solozero"
-L["cod2019_optic_minireddot3_scope.description"] = "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
-
--- Scopes
-L["cod2019_optic_scope_scout.printname"] = "Scout Combat Optic"
-L["cod2019_optic_scope_scout.compactname"] = "Scout"
-L["cod2019_optic_scope_scout.description"] = "Precision optic with <color=100,255,100>3.25x</color> magnification for long range target acquisition."
-
-L["cod2019_optic_hybrid_west02.printname"] = "4.0x Flip Hybrid"
-L["cod2019_optic_hybrid_west02.compactname"] = "Flip"
-L["cod2019_optic_hybrid_west02.description"] = "Long range <color=100,255,100>4.0x</color> optic manually flips to closer range holographic sight."
-
-L["cod2019_optic_vlk3.printname"] = "VLK 3.0x Optic"
-L["cod2019_optic_vlk3.compactname"] = "VLK"
-L["cod2019_optic_vlk3.description"] = "Russian combat optic with <color=100,255,100>3.0x</color> magnification provides reliable target acquisition."
-
-L["cod2019_optic_hybrid_west.printname"] = "Integral Hybrid"
-L["cod2019_optic_hybrid_west.compactname"] = "Integral"
-L["cod2019_optic_hybrid_west.description"] = "<color=100,255,100>3.25x</color> Scout with integral reflex sight for quickly transitioning between sights."
-
-L["cod2019_optic_cronen.printname"] = "Cronen C480 Pro Optic"
-L["cod2019_optic_cronen.compactname"] = "Cronen"
-L["cod2019_optic_cronen.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification provides excellent target acquisition."
-
-L["cod2019_optic_thermal_west_01.printname"] = "Solozero NVG Enhanced"
-L["cod2019_optic_thermal_west_01.compactname"] = "Solozero"
-L["cod2019_optic_thermal_west_01.description"] = "Advanced <color=100,255,100>3.25x</color> Gen 3 night vision with thermal overlay for enhanced situational awareness. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
-
-L["cod2019_optic_scope_mike14.printname"] = "Sniper Scope"
-L["cod2019_optic_scope_mike14.compactname"] = "Sniper"
-L["cod2019_optic_scope_mike14.description"] = "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
-
--- L["mw19_optic_merc.printname"] = "Merc Thermal Optic"
--- L["mw19_optic_merc.compactname"] = "Merc"
--- L["mw19_optic_merc.description"] = "<color=100,255,100>3.25x</color> scope with thermal imaging highlights targets and provides visibility in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
-
--- L["mw19_optic_thermal.printname"] = "Thermal Hybrid"
--- L["mw19_optic_thermal.compactname"] = "Thermal"
--- L["mw19_optic_thermal.description"] = "<color=100,255,100>3.25x</color> Thermal scope with a side-mounting reflex sight toggles thermal imaging with a flick of the wrist. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
-
--- L["mw19_optic_canted.printname"] = "Canted Hybrid"
--- L["mw19_optic_canted.compactname"] = "Canted"
--- L["mw19_optic_canted.description"] = "<color=100,255,100>3.25x</color> Scout with a side-mounting reflex sight lets you change engagement distances with the flick of the wrist."
-
-L["mw19_optic_variable.printname"] = "Variable Zoom Scope"
-L["mw19_optic_variable.compactname"] = "Variable"
-L["mw19_optic_variable.description"] = "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
-
--- Weapon Name Alterations
-L["mw19_weapon_att_hybrid"] = "%s Hybrid" -- 4.0x Hybrid Sight, Integral Hybrid, Canted Hybrid
-L["mw19_weapon_att_thermal"] = "%s Thermal" -- Solozero NVG Enhanced, Merc Thermal Optic
-L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Thermal" -- Thermal Hybrid
-L["mw19_weapon_att_variable"] = "%s Variable Zoom" -- Variable Zoom Scope
-
-////////////////////  Muzzle
-///////// Stats
-L["mw19_muzzle_stat_muzzleflash"] = "Muzzle Flash Concealment" -- Flash Guard
-L["mw19_muzzle_stat_sound"] = "Sound Suppression" -- Suppressors
-
-///////// Muzzle Brakes
--- Flash Guard
-L["cod2019_attach_flashhider01.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider01.compactname"] = "Flash"
-L["cod2019_attach_flashhider01.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
-
-L["cod2019_attach_flashhider02.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider02.compactname"] = "Flash"
-L["cod2019_attach_flashhider02.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
-
-L["cod2019_attach_flashhider03.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider03.compactname"] = "Flash"
-L["cod2019_attach_flashhider03.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
-
-L["cod2019_attach_flashhider04.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider04.compactname"] = "Flash"
-L["cod2019_attach_flashhider04.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
-
-L["cod2019_attach_flashhider_psl01.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider_psl01.compactname"] = "Flash"
-L["cod2019_attach_flashhider_psl01.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
-
-L["cod2019_attach_flashhider_shtgn01.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider_shtgn01.compactname"] = "Flash"
-L["cod2019_attach_flashhider_shtgn01.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
-
-L["cod2019_attach_muzzle_db_hider.printname"] = "Flash Guard"
-L["cod2019_attach_muzzle_db_hider.compactname"] = "Flash"
-L["cod2019_attach_muzzle_db_hider.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
-
--- Breacher Device
-L["cod2019_attach_muzzlemelee01.printname"] = "Breacher Device"
-L["cod2019_attach_muzzlemelee01.compactname"] = "Breacher"
-L["cod2019_attach_muzzlemelee01.description"] = "Muzzle attachment that enables 1 hit melee kills."
-
-L["cod2019_attach_muzzlemelee02.printname"] = "Breacher Device"
-L["cod2019_attach_muzzlemelee02.compactname"] = "Breacher"
-L["cod2019_attach_muzzlemelee02.description"] = "Muzzle attachment that enables 1 hit melee kills."
-
-L["cod2019_attach_muzzlemelee_shgn01.printname"] = "Breacher Device"
-L["cod2019_attach_muzzlemelee_shgn01.compactname"] = "Breacher"
-L["cod2019_attach_muzzlemelee_shgn01.description"] = "Muzzle attachment that enables 1 hit melee kills."
-
-L["cod2019_attach_muzzle_db_melee.printname"] = "Breacher Device"
-L["cod2019_attach_muzzle_db_melee.compactname"] = "Breacher"
-L["cod2019_attach_muzzle_db_melee.description"] = "Muzzle attachment that enables 1 hit melee kills."
-
--- Muzzle Brake
-L["cod2019_attach_muzzlebrake01.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake01.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake01.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
-
-L["cod2019_attach_muzzlebrake02.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake02.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake02.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
-
-L["cod2019_attach_muzzlebrake03.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake03.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake03.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
-
-L["cod2019_attach_muzzlebrake04.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake04.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake04.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
-
-L["cod2019_attach_muzzlebrake_pstl01.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake_pstl01.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake_pstl01.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
-
-L["cod2019_attach_muzzlebrake_shgn01.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake_shgn01.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake_shgn01.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
-
-L["cod2019_attach_muzzle_db_brake.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzle_db_brake.compactname"] = "Brake"
-L["cod2019_attach_muzzle_db_brake.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
-
--- Compensator
--- L["cod2019_muzzle_compensator.printname"] = "Compensator"
--- L["cod2019_muzzle_compensator.compactname"] = "Compensator"
--- L["cod2019_muzzle_compensator.description"] = "Expels gases upward to aggressively fight muzzle climb."
-
-L["cod2019_attach_compensator_pstl01.printname"] = "Compensator"
-L["cod2019_attach_compensator_pstl01.compactname"] = "Compensator"
-L["cod2019_attach_compensator_pstl01.description"] = "Expels gases upward to aggressively fight muzzle climb."
-
-L["cod2019_attach_compensator_shgn01.printname"] = "Compensator"
-L["cod2019_attach_compensator_shgn01.compactname"] = "Compensator"
-L["cod2019_attach_compensator_shgn01.description"] = "Expels gases upward to aggressively fight muzzle climb."
-
-L["cod2019_attach_muzzle_db_comp.printname"] = "Compensator"
-L["cod2019_attach_muzzle_db_comp.compactname"] = "Compensator"
-L["cod2019_attach_muzzle_db_comp.description"] = "Expels gases upward to aggressively fight muzzle climb."
-
--- Choke
-L["cod2019_attach_romeo870_choke.printname"] = "Choke"
-L["cod2019_attach_romeo870_choke.compactname"] = "Choke"
-L["cod2019_attach_romeo870_choke.description"] = "Device used to narrow the spread of shotgun pellets."
-
-L["cod2019_attach_muzzle_db_choke.printname"] = "Choke"
-L["cod2019_attach_muzzle_db_choke.compactname"] = "Choke"
-L["cod2019_attach_muzzle_db_choke.description"] = "Device used to narrow the spread of shotgun pellets."
-
-///////// Suppressors
--- Tactical
-L["cod2019_attach_muzzle_silencer04.printname"] = "Tactical Suppressor"
-L["cod2019_attach_muzzle_silencer04.compactname"] = "Tactical"
-L["cod2019_attach_muzzle_silencer04.description"] = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
-
-L["cod2019_attach_muzzle_silencer_shotgun_02.printname"] = "Tactical Suppressor"
-L["cod2019_attach_muzzle_silencer_shotgun_02.compactname"] = "Tactical"
-L["cod2019_attach_muzzle_silencer_shotgun_02.description"] = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
-
--- Lightweight
-L["cod2019_attach_muzzle_silencer03.printname"] = "Lightweight Suppressor"
-L["cod2019_attach_muzzle_silencer03.compactname"] = "Lightweight"
-L["cod2019_attach_muzzle_silencer03.description"] = "Lightweight aluminium suppressor sacrifices range for stealth and agility."
-
-L["cod2019_attach_muzzle_silencer_east01.printname"] = "Lightweight Suppressor"
-L["cod2019_attach_muzzle_silencer_east01.compactname"] = "Lightweight"
-L["cod2019_attach_muzzle_silencer_east01.description"] = "Lightweight aluminium suppressor sacrifices range for stealth and agility."
-
-L["cod2019_attach_muzzle_silencer_east03.printname"] = "Lightweight Suppressor"
-L["cod2019_attach_muzzle_silencer_east03.compactname"] = "Lightweight"
-L["cod2019_attach_muzzle_silencer_east03.description"] = "Lightweight aluminium suppressor sacrifices range for stealth and agility."
-
--- Monolithic
-L["cod2019_attach_muzzle_silencer02.printname"] = "Monolithic Suppressor"
-L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolithic"
-L["cod2019_attach_muzzle_silencer02.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
-
-L["cod2019_attach_muzzle_silencer_east02.printname"] = "Monolithic Suppressor"
-L["cod2019_attach_muzzle_silencer_east02.compactname"] = "Monolithic"
-L["cod2019_attach_muzzle_silencer_east02.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
-
-L["cod2019_attach_muzzle_silencer_shotgun_01.printname"] = "Monolithic Suppressor"
-L["cod2019_attach_muzzle_silencer_shotgun_01.compactname"] = "Monolithic"
-L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
-
--- FORGE TAC
-L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
-L["cod2019_attach_muzzle_silencer_shotgun_03.compactname"] = "FORGE TAC"
-L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Box suppressor adds considerable weight to the barrel, but tightens pellet spread and reduces recoil to help with long range precision."
-
-////////////////////  Underbarrel
-///////// Stats
-L["mw19_muzzle_stat_muzzleflash"] = "Muzzle Flash Concealment" -- Flash Guard
-L["mw19_muzzle_stat_sound"] = "Sound Suppression" -- Suppressors
-
-///////// Grips
-L["csgo_cod2019_angled.printname"] = "Commando Foregrip"
-L["csgo_cod2019_angled.compactname"] = "Commando"
-L["csgo_cod2019_angled.description"] = "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire."
-
-L["csgo_cod2019_grips_merc.printname"] = "Merc Foregrip"
-L["csgo_cod2019_grips_merc.compactname"] = "Merc"
-L["csgo_cod2019_grips_merc.description"] = "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics."
-
-L["csgo_cod2019_angled_tactical.printname"] = "Tactical Foregrip"
-L["csgo_cod2019_angled_tactical.compactname"] = "Tactical"
-L["csgo_cod2019_angled_tactical.description"] = "Streamlined foregrip provides superior control acquiring targets."
-
-L["csgo_cod2019_grips_ranger.printname"] = "Ranger Foregrip"
-L["csgo_cod2019_grips_ranger.compactname"] = "Ranger"
-L["csgo_cod2019_grips_ranger.description"] = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat."
-
-L["csgo_cod2019_grips_operator.printname"] = "Operator Foregrip"
-L["csgo_cod2019_grips_operator.compactname"] = "Operator"
-L["csgo_cod2019_grips_operator.description"] = "No frills foregrip helps control vertical recoil for faster follow-up shots."
-
-L["csgo_cod2019_grips_bipod.printname"] = "Bipod Foregrip"
-L["csgo_cod2019_grips_bipod.compactname"] = "Bipod F"
-L["csgo_cod2019_grips_bipod.description"] = "Helps control recoil, especially from the crouch and prone stance."
-
-L["csgo_cod2019_grips_tactical.printname"] = "Task Force Foregrip" -- UO
-L["csgo_cod2019_grips_tactical.compactname"] = "Task Force" -- UO
-L["csgo_cod2019_grips_tactical.description"] = "Streamlined foregrip provides superior control acquiring targets."

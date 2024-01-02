@@ -7,7 +7,7 @@ ATT.CompactName = [[Reflex]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03.png", "mips smooth")
 ATT.Description = [[Reflex sight of American origin. Provides higher precision.]]
 ATT.CustomPros = {
-    ["Precision Sight Picture"] = "(+)"
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
 ATT.CustomCons = {
     -- [""] = "Aim Down Sight Speed (-)"
