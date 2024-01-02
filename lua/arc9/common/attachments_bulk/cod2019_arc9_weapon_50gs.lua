@@ -123,6 +123,7 @@ ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 
 ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
+ATT.ReloadTimeMult = 1.1
 
 ATT.ClipSizeOverride = 13
 
@@ -153,6 +154,7 @@ ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 
 ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
+ATT.ReloadTimeMult = 1.1
 
 ATT.ClipSizeOverride = 26
 
