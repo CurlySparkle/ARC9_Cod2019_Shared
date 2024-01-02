@@ -14,7 +14,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser01.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.03
 ATT.SpreadShootingMult = 0.9
 ATT.SpreadMult = 0.9
 
@@ -65,7 +65,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.05
 ATT.SpreadShootingMult = 0.8
 ATT.SpreadMult = 0.8
 ATT.DeployTimeMult = 1.1
@@ -117,7 +117,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.07
 ATT.SpreadShootingMult = 0.85
 ATT.SpreadMult = 0.85
 ATT.DeployTimeMult = 1.03
@@ -219,7 +219,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.1
 ATT.SpreadShootingMult = 0.8
 ATT.SpreadMult = 0.8
 ATT.DeployTimeMult = 1.1
@@ -272,7 +272,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.07
 ATT.SpreadShootingMult = 0.85
 ATT.SpreadMult = 0.85
 ATT.DeployTimeMult = 1.03
@@ -527,7 +527,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02_alt.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.1
 ATT.SpreadShootingMult = 0.8
 ATT.SpreadMult = 0.8
 ATT.DeployTimeMult = 1.1
@@ -579,7 +579,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03_alt.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.07
 ATT.SpreadShootingMult = 0.85
 ATT.SpreadMult = 0.85
 ATT.DeployTimeMult = 1.03
