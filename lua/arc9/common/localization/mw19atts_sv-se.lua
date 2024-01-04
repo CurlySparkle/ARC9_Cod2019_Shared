@@ -363,38 +363,42 @@ L["csgo_cod2019_grips_bipod.printname"] = "Skjutstöd Framgrepp"
 L["csgo_cod2019_grips_bipod.compactname"] = "Skjutstöd F."
 L["csgo_cod2019_grips_bipod.description"] = "Hjälper kontrollera rekylen, speciellt från hukad eller benägen position."
 
+-- L["csgo_cod2019_bipod.printname"] = "Skjutstöd"
+-- L["csgo_cod2019_bipod.compactname"] = "Skjutstöd"
+-- L["csgo_cod2019_bipod.description"] = "Stabila ben förbättrar kontrollen medans man använder vapnet på marken."
+
 L["csgo_cod2019_grips_tactical.printname"] = "Task Force-Framgrepp" -- UO
 L["csgo_cod2019_grips_tactical.compactname"] = "Task Force" -- UO
 L["csgo_cod2019_grips_tactical.description"] = ARC9:GetPhrase("csgo_cod2019_angled_tactical.description")
 
 ///////// Weapons
-L["mw19_att_ub_m203_he.printname"] = "M203 40mm High-explosive"
-L["mw19_att_ub_m203_he.compactname"] = "M203 HE"
-L["mw19_att_ub_m203_he.description"] = "Underbarrel mounted grenade launcher loaded with highly <color=100,255,100>explosive</color> rounds."
+-- L["mw19_att_ub_m203_he.printname"] = "M203 40mm Explosiv"
+-- L["mw19_att_ub_m203_he.compactname"] = "M203 Exp."
+-- L["mw19_att_ub_m203_he.description"] = "Undermonterad granattillsats laddad med <color=100,255,100>spräng</color>granater."
 
-L["mw19_att_ub_m203_fb.printname"] = "M203 40mm Flash"
-L["mw19_att_ub_m203_fb.compactname"] = "M203 FB"
-L["mw19_att_ub_m203_fb.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Flash</color> rounds designed to temporarily blind your enemy."
+-- L["mw19_att_ub_m203_fb.printname"] = "M203 40mm Chock"
+-- L["mw19_att_ub_m203_fb.compactname"] = "M203 Chock"
+-- L["mw19_att_ub_m203_fb.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Chock</color>granater designade att temporärligt blända din fiende."
 
-L["mw19_att_ub_m203_sg.printname"] = "M203 40mm Smokescreen"
-L["mw19_att_ub_m203_sg.compactname"] = "M203 SG"
-L["mw19_att_ub_m203_sg.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Smoke</color> rounds designed to conceal your movement."
+-- L["mw19_att_ub_m203_sg.printname"] = "M203 40mm Rökskärm"
+-- L["mw19_att_ub_m203_sg.compactname"] = "M203 Rök."
+-- L["mw19_att_ub_m203_sg.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Rök</color>granater designade att gömma din rörelse."
 
-L["mw19_att_ub_m203_fire.printname"] = "M203 40mm Incendiary"
-L["mw19_att_ub_m203_fire.compactname"] = "M203 IC"
-L["mw19_att_ub_m203_fire.description"] = "Underbarrel mounted grenade launcher loaded with lethal <color=100,255,100>Incendiary</color> rounds."
+-- L["mw19_att_ub_m203_fire.printname"] = "M203 40mm Brand"
+-- L["mw19_att_ub_m203_fire.compactname"] = "M203 Brand"
+-- L["mw19_att_ub_m203_fire.description"] = "Undermonterad granattillsats laddad med dödliga <color=100,255,100>Brand</color>granater."
 
-L["mw19_att_ub_m203_stun.printname"] = "M203 40mm Concussive"
-L["mw19_att_ub_m203_stun.compactname"] = "M203 Stun"
-L["mw19_att_ub_m203_stun.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Concussive</color> rounds designed to stun your enemy."
+-- L["mw19_att_ub_m203_stun.printname"] = "M203 40mm Dämpande"
+-- L["mw19_att_ub_m203_stun.compactname"] = "M203 Dämp."
+-- L["mw19_att_ub_m203_stun.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Dämpande</color> granater designade att chocka din fiender."
 
-L["mw19_att_ub_m203_recon.printname"] = "M203 40mm Recon"
-L["mw19_att_ub_m203_recon.compactname"] = "M203 Recon"
-L["mw19_att_ub_m203_recon.description"] = "Underbarrel mounted grenade launcher loaded with <color=100,255,100>Snapshot</color> rounds. This recon device provides a momentary glimpse of enemies within the blast radius for your squad."
+-- L["mw19_att_ub_m203_recon.printname"] = "M203 40mm Underrättelse"
+-- L["mw19_att_ub_m203_recon.compactname"] = "M203 Underr."
+-- L["mw19_att_ub_m203_recon.description"] = "Undermonterad granattillsats laddad med <color=100,255,100>Snapshot</color>-granater. Denna underrättelseenhet erbjuder en momuntär glimt av fiender inne i sprängradien till din trupp."
 
-L["mw19_att_ub_shotgun.printname"] = "12-Gauge Deputy"
-L["mw19_att_ub_shotgun.compactname"] = "12G Deputy"
-L["mw19_att_ub_shotgun.description"] = "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+-- L["mw19_att_ub_shotgun.printname"] = "Deputy 12-Patroners"
+-- L["mw19_att_ub_shotgun.compactname"] = "Deputy 12P"
+-- L["mw19_att_ub_shotgun.description"] = "Enkelskott, undermonterad <color=100,255,100>hagelbössa</color> erbjuder pålitlig understöd för bemötanden på nära distans."
 
 ////////////////////  Lasers
 L["csgo_cod2019_laser_01.printname"] = "Taktisk Laser"
@@ -464,8 +468,8 @@ local stockname = {
 		ballast = "FORGE TAC Ballast Pack", -- FR 5.56
 		ballasts = "Ballast",
 		
-		cqb = "FORGE TAC CQB Comb", -- AUG
-		cqbs = "CQB Comb",
+		cqbcomb = "FORGE TAC CQB Comb", -- AUG
+		cqbcombs = "CQB Comb",
 		
 		stalker = "FORGE TAC Stalker", -- FAL
 		stalkers = "Stalker",
@@ -479,11 +483,11 @@ local stockname = {
 		hunterscout = "FTAC Hunter-Scout", -- Dragunov
 		hunterscouts = "Hunter-Scout",
 		
-		collap = "FTAC Collapsible", -- FN Scar 17
-		collaps = "Collapsible",
+		collapsible = "FTAC Fällbar", -- FN Scar 17
+		collapsibles = "Fällbar",
 		
-		cqstock = "FSS Close Quarters-Kolv", -- Kilo 141
-		cqstocks = "CQK",
+		closequartersstock = "FSS Close Quarters-Kolv", -- Kilo 141
+		closequartersstocks = "CQK",
 		
 		heavypro = "FSS Heavy Pro-Kolv", -- AUG
 		heavypros = "Heavy Pro",
@@ -509,8 +513,8 @@ L["cod2019_stock_light.printname"] = stockname.ultralight
 L["cod2019_stock_light.compactname"] = stockname.ultralights
 L["cod2019_stock_light.description"] = "Kolv designad för rörlighet i siktet."
 
-L["cod2019_stock_medium.printname"] = stockname.cqstock
-L["cod2019_stock_medium.compactname"] = stockname.cqstocks
+L["cod2019_stock_medium.printname"] = stockname.closequartersstock
+L["cod2019_stock_medium.compactname"] = stockname.closequartersstocks
 L["cod2019_stock_medium.description"] = "Taktisk och effektiv kolv designad för närstrid. Får dig snabbare på målet."
 
 L["cod2019_stock_heavy.printname"] = stockname.stalker
@@ -528,3 +532,55 @@ L["cod2019_stock_vheavy.description"] = "The most stable stock available, provid
 -- L["cod2019_stock_none.printname"] = stockname.none
 -- L["cod2019_stock_none.compactname"] = stockname.nones
 -- L["cod2019_stock_none.description"] = "Det ultimata \"spring och skjut\" alternativet när rörlighet är viktigare än träffsäkerhet. Att ta bort kolven ökar starkt rörligheten."
+
+
+///////////////////////////// Weapon-specific Attachments
+////////////////////////  Assault Rifles
+////////////////////  Kilo 141
+/////////////// Barrels
+L["mw19_att_wpn_kilo141_brl_01.printname"] = "Singuard Arms 422mm SOCOM"
+L["mw19_att_wpn_kilo141_brl_01.compactname"] = "SOCOM"
+L["mw19_att_wpn_kilo141_brl_01.description"] = "Titan-koboltlegerad pipa med förlängt skydd erbjuder mynningshastighet och räckvidd. Måttligt ökad vikt stabiliserar skott men sänker hantering."
+
+L["mw19_att_wpn_kilo141_brl_02.printname"] = "Singuard Arms 510mm Prowler"
+L["mw19_att_wpn_kilo141_brl_02.compactname"] = "Prowler"
+L["mw19_att_wpn_kilo141_brl_02.description"] = "Rostfritt stål, polygonellt räfflad pipa med förlängt skydd ökar starkt mynningshastigheten och förlänger räckvidden. Ökad vikt stabiliserar skott men förhindrar rörlighet."
+
+L["mw19_att_wpn_kilo141_brl_03.printname"] = "Singuard Arms Whisper"
+L["mw19_att_wpn_kilo141_brl_03.compactname"] = "Whisper"
+L["mw19_att_wpn_kilo141_brl_03.description"] = "Tung <color=255,255,100>intern ljuddämpare</color> med en monolitisk kärna öker mynningshastigheten medans den behåller en låd ljudsignatur."
+
+/////////////// Stock
+L["mw19_att_wpn_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
+L["mw19_att_wpn_kilo141_stock_heavy.compactname"] = "Sniper Pro"
+L["mw19_att_wpn_kilo141_stock_heavy.description"] = "Tung kolv med justerbar kindskydd. Håller ditt sikte stadigt för träffsäkra skott."
+
+L["mw19_att_wpn_kilo141_stock_medium.printname"] = stockname.closequartersstock
+L["mw19_att_wpn_kilo141_stock_medium.compactname"] = stockname.closequartersstocks
+L["mw19_att_wpn_kilo141_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
+
+/////////////// Magazine
+L["mw19_att_wpn_kilo141_mag_50.printname"] = "50-Patronersmagasin"
+L["mw19_att_wpn_kilo141_mag_50.compactname"] = "50P"
+L["mw19_att_wpn_kilo141_mag_50.description"] = "Förstorade magasin håller <color=100,255,100>50 patroner</color> av 5.56 NATO-ammunition med lätt ökad vikt."
+
+L["mw19_att_wpn_kilo141_mag_60.printname"] = "60-Patronersmagasin"
+L["mw19_att_wpn_kilo141_mag_60.compactname"] = "60P"
+L["mw19_att_wpn_kilo141_mag_60.description"] = "Hög kapacitetsmagasin håller <color=100,255,100>60 patroner</color> av 5.56 NATO-ammunition med måttlig ökad vikt."
+
+L["mw19_att_wpn_kilo141_mag_100.printname"] = "100-Patronerstrummor"
+L["mw19_att_wpn_kilo141_mag_100.compactname"] = "100P"
+L["mw19_att_wpn_kilo141_mag_100.description"] = "Trummagasin håller <color=100,255,100>100 patroner</color> av 5.56 NATO vilket maximerar ammunitionskapacitet med kostnad på rörlighet."
+
+/////////////// Pistol Grips
+L["mw19_att_wpn_kilo141_rg_gran.printname"] = "Granulerad Grepptejp"
+L["mw19_att_wpn_kilo141_rg_gran.compactname"] = "Granulerad"
+L["mw19_att_wpn_kilo141_rg_gran.description"] = "Slät och granulerad tejp för en avslappnat och kontrollerat grepp. Håller dig stadigt och på målet."
+
+L["mw19_att_wpn_kilo141_rg_rubber.printname"] = "Gummerad Grepptejp"
+L["mw19_att_wpn_kilo141_rg_rubber.compactname"] = "Gummerad"
+L["mw19_att_wpn_kilo141_rg_rubber.description"] = "Gummerat grepp håller vapnet tajt i händerna. Mindre stadigt men hjälper rekylkontrollen."
+
+L["mw19_att_wpn_kilo141_rg_stippled.printname"] = "Stippad Grepptejp"
+L["mw19_att_wpn_kilo141_rg_stippled.compactname"] = "Stippad"
+L["mw19_att_wpn_kilo141_rg_stippled.description"] = "Stippat pistolgrepptejp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
