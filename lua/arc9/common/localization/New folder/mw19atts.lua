@@ -317,6 +317,68 @@ L["csgo_cod2019_grips_bipod.printname"] = mw19string.atts.underbarrel.bipodf
 L["csgo_cod2019_grips_bipod.compactname"] = mw19string.atts.underbarrel.bipodfs
 L["csgo_cod2019_grips_bipod.description"] = mw19string.atts.underbarrel.bipodfd
 
-L["csgo_cod2019_grips_tactical.printname"] = "Task Force Foregrip" -- UO
-L["csgo_cod2019_grips_tactical.compactname"] = "Task Force" -- UO
+L["csgo_cod2019_grips_tactical.printname"] = mw19uostring.atts.underbarrel.taskforce
+L["csgo_cod2019_grips_tactical.compactname"] = mw19uostring.atts.underbarrel.taskforces
 L["csgo_cod2019_grips_tactical.description"] = mw19string.atts.underbarrel.tacticald
+
+////////////////////  Lasers
+L["csgo_cod2019_laser_01.printname"] = mw19string.atts.laser.tac
+L["csgo_cod2019_laser_01.compactname"] = mw19string.atts.laser.tacs
+L["csgo_cod2019_laser_01.description"] = mw19string.atts.laser.tacd
+
+L["csgo_cod2019_laser_02.printname"] = mw19string.atts.laser["1mw"]
+L["csgo_cod2019_laser_02.compactname"] = mw19string.atts.laser["1mws"]
+L["csgo_cod2019_laser_02.description"] = mw19string.atts.laser["1mwd"]
+
+L["csgo_cod2019_laser_03.printname"] = mw19string.atts.laser["5mw"]
+L["csgo_cod2019_laser_03.compactname"] = mw19string.atts.laser["5mws"]
+L["csgo_cod2019_laser_03.description"] = mw19string.atts.laser["5mwd"]
+
+L["csgo_cod2019_laser_cylinder_01.printname"] = mw19string.atts.laser.tac
+L["csgo_cod2019_laser_cylinder_01.compactname"] = mw19string.atts.laser.tacs
+L["csgo_cod2019_laser_cylinder_01.description"] = mw19string.atts.laser.tacd
+
+L["csgo_cod2019_laser_cylinder_02.printname"] = mw19string.atts.laser["1mw"]
+L["csgo_cod2019_laser_cylinder_02.compactname"] = mw19string.atts.laser["1mws"]
+L["csgo_cod2019_laser_cylinder_02.description"] = mw19string.atts.laser["1mwd"]
+
+L["csgo_cod2019_laser_cylinder_03.printname"] = mw19string.atts.laser["5mw"]
+L["csgo_cod2019_laser_cylinder_03.compactname"] = mw19string.atts.laser["5mws"]
+L["csgo_cod2019_laser_cylinder_03.description"] = mw19string.atts.laser["5mwd"]
+
+L["csgo_cod2019_laser_pstl_01.printname"] = mw19string.atts.laser.tac
+L["csgo_cod2019_laser_pstl_01.compactname"] = mw19string.atts.laser.tacs
+L["csgo_cod2019_laser_pstl_01.description"] = mw19string.atts.laser.tacd
+
+L["csgo_cod2019_laser_pstl_02.printname"] = mw19string.atts.laser["1mw"]
+L["csgo_cod2019_laser_pstl_02.compactname"] = mw19string.atts.laser["1mws"]
+L["csgo_cod2019_laser_pstl_02.description"] = mw19string.atts.laser["1mwd"]
+
+L["csgo_cod2019_laser_pstl_03.printname"] = mw19string.atts.laser["5mw"]
+L["csgo_cod2019_laser_pstl_03.compactname"] = mw19string.atts.laser["5mws"]
+L["csgo_cod2019_laser_pstl_03.description"] = mw19string.atts.laser["5mwd"]
+
+L["cod2019_laser_01_cylinde_alt.printname"] = mw19string.atts.laser.tac
+L["cod2019_laser_01_cylinde_alt.compactname"] = mw19string.atts.laser.tacs
+L["cod2019_laser_01_cylinde_alt.description"] = mw19string.atts.laser.tacd
+
+L["cod2019_laser_02_cylinde_alt.printname"] = mw19string.atts.laser["1mw"]
+L["cod2019_laser_02_cylinde_alt.compactname"] = mw19string.atts.laser["1mws"]
+L["cod2019_laser_02_cylinde_alt.description"] = mw19string.atts.laser["1mwd"]
+
+L["cod2019_laser_03_cylinde_alt.printname"] = mw19string.atts.laser["5mw"]
+L["cod2019_laser_03_cylinde_alt.compactname"] = mw19string.atts.laser["5mws"]
+L["cod2019_laser_03_cylinde_alt.description"] = mw19string.atts.laser["5mwd"]
+
+////////////////////  Stocks
+L["cod2019_stock_tube_light.printname"] = mw19uostring.atts.stocks.lightbuffer
+L["cod2019_stock_tube_light.compactname"] = mw19uostring.atts.stocks.lightbuffers
+L["cod2019_stock_tube_light.description"] = mw19uostring.atts.stocks.lightbufferd
+
+L["cod2019_stock_tube_medium.printname"] = mw19uostring.atts.stocks.mediumbuffer
+L["cod2019_stock_tube_medium.compactname"] = mw19uostring.atts.stocks.mediumbuffers
+L["cod2019_stock_tube_medium.description"] = mw19uostring.atts.stocks.mediumbufferd
+
+L["cod2019_stock_heavy.printname"] = mw19string.atts.stocks.stalker
+L["cod2019_stock_heavy.compactname"] = mw19uostring.atts.stocks.stalkers
+L["cod2019_stock_heavy.description"] = mw19uostring.atts.stocks.hunterd

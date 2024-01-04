@@ -41,6 +41,19 @@ mw19uostring = { -- UO, all of it
 			riser2s = "Flat Topp II", 
 			riser2d = "Mindre flat topp Riser adapter designad att montera mindre riktmedel.\nKan se konstigt ut när man monterar större riktmedel.",
 		},
+		underbarrel = {
+			taskforce = "Task Force-Framgrepp",
+			taskforces = "Task Force",
+		},
+		stocks = {
+			lightbuffer = "Lättvikt Bufferrör",
+			lightbuffers = "Lättvikt",
+			lightbufferd = "Lättvikt bufferrör av aluminium tillåter installering av kolvar från eftermarknaden.",
+			
+			mediumbuffer = "FSS CQ-Bufferrör",
+			mediumbuffers = "FSS CQ",
+			mediumbufferd = "Taktisk och effektiv bufferrör tillåter installering av kolvar från eftermarknaden.",
+		},
 	},
 }
 
@@ -210,6 +223,19 @@ mw19string = {
 			bipodf = "Skjutstöd Framgrepp", 
 			bipodfs = "Skjutstöd F.", 
 			bipodfd = "Hjälper kontrollera rekylen, speciellt från hukad eller benägen position.",
+		},
+		laser = { -- LASERS
+			["1mw"] = "1mW Laser", 
+			["1mws"] = "1mW", 
+			["1mwd"] = "Röd 1mW laser med låg kraft ökar lätt upp målförvärv efter man sprungit.",
+			
+			["5mw"] = "5mW Laser", 
+			["5mws"] = "5mW", 
+			["5mwd"] = "Väldigt ljus 5mW grön laser ökar starkt målförvärv efter man sprungit. Avslöjar positionen när den är aktiv. Endast för aggressiva operatörer som inte förlitar sig på att hålla sig gömd.",
+			
+			["tac"] = "Taktisk Laser", 
+			["tacs"] = "Tak.", 
+			["tacd"] = "Taktisk 5mW grön laser med hög kraft. Ökar träffsäkerheten i siktet. Avslöjar positionen när den är aktiv.",
 		},
 	},
 	weapon = {
