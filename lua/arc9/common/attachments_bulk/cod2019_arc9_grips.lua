@@ -13,6 +13,7 @@ ATT.Model = "models/weapons/cod2019/attachs/grips/grip_stubby_tall.mdl"
 ATT.SortOrder = 2.1
 ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.ActivateElements = {"grip"}
 
 ATT.AimDownSightsTimeAdd = 0.21
 ATT.VisualRecoilMult = 0.8
@@ -46,6 +47,7 @@ ATT.Model = "models/weapons/cod2019/attachs/grips/grip_vert.mdl"
 ATT.SortOrder = 2
 ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.ActivateElements = {"grip"}
 
 ATT.AimDownSightsTimeAdd = -0.07
 ATT.VisualRecoilMult = 0.95
@@ -79,6 +81,7 @@ ATT.Model = "models/weapons/cod2019/attachs/grips/grip_vert03.mdl"
 ATT.SortOrder = 2
 ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.ActivateElements = {"grip"}
 
 ATT.AimDownSightsTimeAdd = 0.21
 ATT.VisualRecoilMult = 0.83
@@ -180,6 +183,7 @@ ATT.Model = "models/weapons/cod2019/attachs/grips/grip_stubby.mdl"
 ATT.SortOrder = 2
 ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.ActivateElements = {"grip"}
 
 ATT.AimDownSightsTimeAdd = 0.27
 ATT.VisualRecoilMult = 0.83
@@ -216,6 +220,7 @@ ATT.Model = "models/weapons/cod2019/attachs/grips/grip_bipod_grip.mdl"
 ATT.SortOrder = 3
 ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.ActivateElements = {"grip"}
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true

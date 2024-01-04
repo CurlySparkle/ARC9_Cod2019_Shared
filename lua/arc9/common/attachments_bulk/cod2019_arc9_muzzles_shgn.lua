@@ -9,14 +9,15 @@ local stats_flash = {
 
 local stats_breach = {
     BashDamageAdd = 45,
-    AimDownSightsTimeAdd = 0.15,
+    AimDownSightsTimeAdd = 0.11,
 }
 
 local stats_choke = {
-    AimDownSightsTimeAdd = 0.11,
+    AimDownSightsTimeAdd = 0.10,
 	VisualRecoilMult = 1.1,
 	RecoilMult = 1.1,
-	SpreadMultSights = 0.95,
+	SpreadMultSights = 0.9,
+	SpreadMult = 0.9,
     RangeMinMult = 0.96,
     RangeMaxMult = 0.96,
 }
@@ -37,7 +38,7 @@ local stats_tac = {
     CustomPros = { 
 	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
 	},
-    AimDownSightsTimeAdd = 0.18,
+    AimDownSightsTimeAdd = 0.15,
 	VisualRecoilMult = 0.97,
 	RecoilMult = 0.97,
 }

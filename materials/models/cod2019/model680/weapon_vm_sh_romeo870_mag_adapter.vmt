@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\model680\weapon_vm_sh_romeo870_mag_rgb"
-    "$bumpmap" "models\cod2019\model680\weapon_vm_sh_romeo870_mag_n"
-    "$phongexponenttexture" "models\cod2019\model680\weapon_vm_sh_romeo870_mag_e"
+    "$basetexture" "models\cod2019\model680\weapon_vm_sh_romeo870_mag_adapter_rgb"
+    "$bumpmap" "models\cod2019\model680\weapon_vm_sh_romeo870_mag_adapter_n"
+    "$phongexponenttexture" "models\cod2019\model680\weapon_vm_sh_romeo870_mag_adapter_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this

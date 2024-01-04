@@ -45,6 +45,15 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_armag.mdl"
 ATT.BoneMerge = true
 
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_03.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_04.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_05.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_06.ogg", 
+}
+
 ARC9.LoadAttachment(ATT, "cod2019_aug_mag_ar_30")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -90,6 +99,12 @@ ATT.ActivateElements = {"mag_none","mag_drum"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_drummag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_drummag.mdl"
 ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
+}
 
 ARC9.LoadAttachment(ATT, "cod2019_aug_mag_ar_drum")
 ----------------------------------------------------------------------------------------
