@@ -24,7 +24,7 @@ ATT.CompactName = "10mm 30-Round"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mpapa5_mag_xmag2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_mag_xmag2.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -61,7 +61,7 @@ ATT.CompactName = "Straight-line"
 ATT.Description = [[Solid body stock provides a more stable sight picture.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mpapa5_stock_fullstock.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_stock_fullstock.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
