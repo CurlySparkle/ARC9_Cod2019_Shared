@@ -525,6 +525,6 @@ L["cod2019_stock_vheavy.printname"] = "REPLACEME - cod2019_stock_vheavy.printnam
 L["cod2019_stock_vheavy.compactname"] = "REPLACEME - cod2019_stock_vheavy.compactname"
 L["cod2019_stock_vheavy.description"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 
--- L["cod2019_stock_none.printname"] = stockname.none
--- L["cod2019_stock_none.compactname"] = stockname.nones
--- L["cod2019_stock_none.description"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_stock_none.printname"] = stockname.none
+L["cod2019_stock_none.compactname"] = stockname.nones
+L["cod2019_stock_none.description"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
