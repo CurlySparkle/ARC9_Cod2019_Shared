@@ -600,8 +600,8 @@ L["mw19_att_wpn_fal_brl_03.compactname"] = "OSW Para"
 L["mw19_att_wpn_fal_brl_03.description"] = "Compact medium contoured barrel improves speed and agility with a minor decrease to muzzle velocity and accuracy."
 
 /////////////// Stock
-L["mw19_att_wpn_fal_stock_light.printname"] = "Factor 18\" Aluminium Stock"
-L["mw19_att_wpn_fal_stock_light.compactname"] = "18\" Alum."
+L["mw19_att_wpn_fal_stock_light.printname"] = "Factory 18\" Aluminium Stock"
+L["mw19_att_wpn_fal_stock_light.compactname"] = "Factory"
 L["mw19_att_wpn_fal_stock_light.description"] = "Lightweight aluminum stock keeps you agile while aiming down sights."
 
 L["mw19_att_wpn_fal_stock_medium.printname"] = stockname.closequartersstock
@@ -663,20 +663,20 @@ L["mw19_att_wpn_m4a1_stock_heavy.description"] = "Heavy duty fixed stock provide
 
 L["mw19_att_wpn_m4a1_stock_vlight.printname"] = "Singuard Arms Invader"
 L["mw19_att_wpn_m4a1_stock_vlight.compactname"] = "Singuard Arms Invader"
-L["mw19_att_wpn_m4a1_stock_vlight.description"] = ""
+L["mw19_att_wpn_m4a1_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 L["mw19_att_wpn_m4a1_stock_medium.printname"] = stockname.cqs
 L["mw19_att_wpn_m4a1_stock_medium.compactname"] = stockname.cqss
 L["mw19_att_wpn_m4a1_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_m4a1_mag_50.printname"] = "50 Round Mags"
-L["mw19_att_wpn_m4a1_mag_50.compactname"] = "50R"
-L["mw19_att_wpn_m4a1_mag_50.description"] = "Extended magazines hold <color=100,255,100>50 rounds</color> of 7.62 NATO ammunition with a slight weight increase."
+L["mw19_att_wpn_m4a1_mag_50.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.printname")
+L["mw19_att_wpn_m4a1_mag_50.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.compactname")
+L["mw19_att_wpn_m4a1_mag_50.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.description")
 
-L["mw19_att_wpn_m4a1_mag_60.printname"] = "60 Round Mags"
-L["mw19_att_wpn_m4a1_mag_60.compactname"] = "60R"
-L["mw19_att_wpn_m4a1_mag_60.description"] = "High capacity magazines hold <color=100,255,100>60 rounds</color> of 7.62 NATO ammunition with a moderate weight increase."
+L["mw19_att_wpn_m4a1_mag_60.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.printname")
+L["mw19_att_wpn_m4a1_mag_60.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.compactname")
+L["mw19_att_wpn_m4a1_mag_60.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.description")
 
 L["mw19_att_wpn_m4a1_mag_9mm.printname"] = "9mm Para 32-Round Mags"
 L["mw19_att_wpn_m4a1_mag_9mm.compactname"] = "32R 9mm"
