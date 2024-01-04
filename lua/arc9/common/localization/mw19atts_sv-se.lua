@@ -5,14 +5,14 @@ L = {}
 local lineb = "\n"
 
 local changeammo = { -- UO
-pistol = lineb .. "Changes ammo type to <color=255,255,100>Pistol Ammo</color>.",
-["357"] = lineb .. "Changes ammo type to <color=255,255,100>Magnum Ammo</color>.",
-smg1 = lineb .. "Changes ammo type to <color=255,255,100>Carbine Ammo</color>.",
-ar2 = lineb .. "Changes ammo type to <color=255,255,100>Rifle Ammo</color>.",
-buckshot = lineb .. "Changes ammo type to <color=255,255,100>Shotgun Ammo</color>.",
-sniperpenetratedround = lineb .. "Changes ammo type to <color=255,255,100>Sniper Ammo</color>.",
-smg1_grenade = lineb .. "Changes ammo type to <color=255,255,100>Rifle Grenades</color>.",
-xbowbolt = lineb .. "Changes ammo type to <color=255,255,100>Crossbow Bolts</color>.",
+pistol = lineb .. "Byter patrontyp till <color=255,255,100>Pistol Ammo</color>.",
+["357"] = lineb .. "Byter patrontyp till <color=255,255,100>Magnum Ammo</color>.",
+smg1 = lineb .. "Byter patrontyp till <color=255,255,100>Karbin Ammo</color>.",
+ar2 = lineb .. "Byter patrontyp till <color=255,255,100>Gevärs Ammo</color>.",
+buckshot = lineb .. "Byter patrontyp till <color=255,255,100>Hagelbössa Ammo</color>.",
+sniperpenetratedround = lineb .. "Byter patrontyp till <color=255,255,100>Prickskytt. Ammo</color>.",
+smg1_grenade = lineb .. "Byter patrontyp till <color=255,255,100>Gevärsgranater</color>.",
+xbowbolt = lineb .. "Byter patrontyp till <color=255,255,100>Armborst Bultar</color>.",
 }
 
 //////////////////////////////////////////////////////////////////////
@@ -26,22 +26,22 @@ xbowbolt = lineb .. "Changes ammo type to <color=255,255,100>Crossbow Bolts</col
 ///////////////////////////// Attachments
 //////////////////// Folder Names
 -- Optics
-L["mw19_folder_rds"] = "Reflex" -- UO
-L["mw19_folder_scope"] = "Scope" -- UO
+L["mw19_folder_rds"] = "Reflexsikte" -- UO
+L["mw19_folder_scope"] = "Riktmedel" -- UO
 
 -- Muzzles
-L["mw19_folder_muzzle"] = "Muzzle" -- UO
-L["mw19_folder_suppressor"] = "Suppressor" -- UO
+L["mw19_folder_muzzle"] = "Mynning" -- UO
+L["mw19_folder_suppressor"] = "Ljuddämpare" -- UO
 
 -- Stocks
-L["mw19_folder_tube"] = "Tube" -- UO
+L["mw19_folder_tube"] = "Rör" -- UO
 
 -- Other
-L["mw19_folder_other"] = "Other" -- UO
+L["mw19_folder_other"] = "Annat" -- UO
 
 //////////////////// Toggle Stats Names
-L["mw19_togglestat_off"] = "Off" -- UO
-L["mw19_togglestat_on"] = "On" -- UO
+L["mw19_togglestat_off"] = "Av" -- UO
+L["mw19_togglestat_on"] = "På" -- UO
 
 //////////////////// Firemodes
 -- L["mw19_firemode_pump"] = "PUMP"
@@ -49,38 +49,38 @@ L["mw19_togglestat_on"] = "On" -- UO
 ///////////////////////////// Attachments
 ////////////////////  Optics
 -- Stats
-L["mw19_optic_stat_precision"] = "Precision Sight Picture" -- Most reflex
-L["mw19_optic_stat_zoom"] = "Zoom Level" -- Most scopes
-L["mw19_optic_stat_toggle_holo"] = "Holo & Scout Toggle" -- 4.0x Flip Hybrid
-L["mw19_optic_stat_toggle_rds"] = "Reflex & Scout Toggle" -- Integral Hybrid
-L["mw19_optic_stat_toggle_thermal"] = "Reflex & Thermal Toggle" -- Thermal Hybrid
-L["mw19_optic_stat_thermal"] = "Thermal Target Identification" -- Soloero NVG Enhanced
+L["mw19_optic_stat_precision"] = "Träffsäker Siktvy" -- Most reflex
+L["mw19_optic_stat_zoom"] = "Zoom-nivå" -- Most scopes
+L["mw19_optic_stat_toggle_holo"] = "Växelbar Holo- & Scout-sikte" -- 4.0x Flip Hybrid
+L["mw19_optic_stat_toggle_rds"] = "Växelbar Reflex- & Scout-sikte" -- Integral Hybrid
+L["mw19_optic_stat_toggle_thermal"] = "Växelbar Reflex- & Värmesikte" -- Thermal Hybrid
+L["mw19_optic_stat_thermal"] = "Värmesikte Målidentifiering" -- Soloero NVG Enhanced
 
 -- Picatinny Rails
-L["cod2019_optic_picatinny.printname"] = "Picatinny Rail Sight Mount"
+L["cod2019_optic_picatinny.printname"] = "Picatinny-Skena Riktmedel Monterare"
 L["cod2019_optic_picatinny.compactname"] = "Picatinny"
-L["cod2019_optic_picatinny.description"] = "Picatinny Adapter that is designed for mounting a second low profile sight."
+L["cod2019_optic_picatinny.description"] = "Picatinny-adapter designad för att montera ett sekundärt riktmedel med låg profil."
 
-L["cod2019_optic_riser.printname"] = "Flat-Top Riser"
-L["cod2019_optic_riser.compactname"] = "Flat-Top"
-L["cod2019_optic_riser.description"] = "Flat-Top Riser adapter that is designed for mounting a sight for more tall sighting."
+L["cod2019_optic_riser.printname"] = "Platt Toppad Riser"
+L["cod2019_optic_riser.compactname"] = "Platt"
+L["cod2019_optic_riser.description"] = "En platt toppad Riser-adapter designad för att montera ett riktmedel för högre siktvy."
 
-L["cod2019_optic_riser2.printname"] = "Flat-Top Riser II"
-L["cod2019_optic_riser2.compactname"] = "Flat-Top II"
-L["cod2019_optic_riser2.description"] = "Small Flat-Top Riser adapter designed for mounting smaller optics.\nCan look strange when equipping larger optics."
+L["cod2019_optic_riser2.printname"] = "Platt Toppad Riser II"
+L["cod2019_optic_riser2.compactname"] = "Platt II"
+L["cod2019_optic_riser2.description"] = "Mindre platt toppad Riser-adapter designad att montera mindre riktmedel.\nKan se konstigt ut när man monterar större riktmedel."
 
--- Reflex Sights
-L["cod2019_optic_reflex_west03.printname"] = "Operator Reflex Sight"
-L["cod2019_optic_reflex_west03.compactname"] = "Operator"
-L["cod2019_optic_reflex_west03.description"] = "Reflex sight of American origin. Provides higher precision."
+-- Reflexsiktes
+L["cod2019_optic_reflex_west03.printname"] = "Operatör Reflexsikte"
+L["cod2019_optic_reflex_west03.compactname"] = "Operatör"
+L["cod2019_optic_reflex_west03.description"] = "Reflexsikte av amerikanskt ursprung. Erbjuder högre träffsäkerhet."
 
-L["cod2019_optic_reflex_west.printname"] = "Corp Combat Holo Sight"
+L["cod2019_optic_reflex_west.printname"] = "Corp Combat Holo-Sikte"
 L["cod2019_optic_reflex_west.compactname"] = "Corp Combat"
-L["cod2019_optic_reflex_west.description"] = "Advanced holographic sight of American origin."
+L["cod2019_optic_reflex_west.description"] = "Avancerat holografiskt sikte av amerikanskt ursprung."
 
-L["cod2019_optic_aimop.printname"] = "Aim-Op Reflex Sight"
+L["cod2019_optic_aimop.printname"] = "Aim-Op Reflexsikte"
 L["cod2019_optic_aimop.compactname"] = "Aim-Op"
-L["cod2019_optic_aimop.description"] = "Reflex sight of western origin. Provides higher precision."
+L["cod2019_optic_aimop.description"] = "Reflexsikte med ursprung från västvärlden. Erbjuder högre träffsäkerhet."
 
 L["cod2019_optic_aimop_alt.printname"] = ARC9:GetPhrase("cod2019_optic_aimop.printname")
 L["cod2019_optic_aimop_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_aimop.compactname")
@@ -88,7 +88,7 @@ L["cod2019_optic_aimop_alt.description"] = ARC9:GetPhrase("cod2019_optic_aimop.d
 
 L["cod2019_optic_minireddot1.printname"] = "G.I. Mini Reflex"
 L["cod2019_optic_minireddot1.compactname"] = "G.I. Mini"
-L["cod2019_optic_minireddot1.description"] = "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
+L["cod2019_optic_minireddot1.description"] = "G.I. Miniature-reflexsikte har en bred, tunn ram för en fri siktvy."
 
 L["cod2019_optic_minireddot1_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname")
 L["cod2019_optic_minireddot1_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
@@ -98,13 +98,13 @@ L["cod2019_optic_minireddot1_scope.printname"] = ARC9:GetPhrase("cod2019_optic_m
 L["cod2019_optic_minireddot1_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
 L["cod2019_optic_minireddot1_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
 
--- L["mw19_optic_apx5.printname"] = "APX5 Holographic Sight"
+-- L["mw19_optic_apx5.printname"] = "APX5 Holografiskt Sikte"
 -- L["mw19_optic_apx5.compactname"] = "APX5"
--- L["mw19_optic_apx5.description"] = "Advanced holographic sight of Russian origin."
+-- L["mw19_optic_apx5.description"] = "Avancerat holografiskt sikte av ryskt ursprung."
 
 L["cod2019_optic_minireddot2.printname"] = "Cronen LP945 Mini Reflex"
 L["cod2019_optic_minireddot2.compactname"] = "Cronen"
-L["cod2019_optic_minireddot2.description"] = "Circular reflex frame from Cronen keeps the focus on the target."
+L["cod2019_optic_minireddot2.description"] = "Cirkulär reflexram från Cronen behåller fokuset på målet."
 
 L["cod2019_optic_minireddot2_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname")
 L["cod2019_optic_minireddot2_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname")
@@ -114,21 +114,21 @@ L["cod2019_optic_minireddot2_scope.printname"] = ARC9:GetPhrase("cod2019_optic_m
 L["cod2019_optic_minireddot2_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname")
 L["cod2019_optic_minireddot2_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description")
 
-L["cod2019_optic_reflex_east.printname"] = "Viper Reflex Sight"
+L["cod2019_optic_reflex_east.printname"] = "Viper Reflexsikte"
 L["cod2019_optic_reflex_east.compactname"] = "Viper"
-L["cod2019_optic_reflex_east.description"] = "Precision reflex sight of Russian origin."
+L["cod2019_optic_reflex_east.description"] = "Träffsäkert reflexsikte av ryskt ursprung."
 
-L["cod2019_optic_reflex_east02.printname"] = "Monocle Reflex Sight"
-L["cod2019_optic_reflex_east02.compactname"] = "Monocle"
-L["cod2019_optic_reflex_east02.description"] = "Russian reflex sight with a low-intrusive frame for improved target tracking."
+L["cod2019_optic_reflex_east02.printname"] = "Monokel Reflexsikte"
+L["cod2019_optic_reflex_east02.compactname"] = "Monokel"
+L["cod2019_optic_reflex_east02.description"] = "Ryskt reflexsikte med lågt påträngande ram för förbättrad målförvärv."
 
-L["cod2019_optic_reflex_west02.printname"] = "PBX Holo 7 Sight"
+L["cod2019_optic_reflex_west02.printname"] = "PBX Holo 7 Sikte"
 L["cod2019_optic_reflex_west02.compactname"] = "PBX"
-L["cod2019_optic_reflex_west02.description"] = "Advanced holographic sight of American origin."
+L["cod2019_optic_reflex_west02.description"] = "Avancerat holografiskt sikte av amerikanskt ursprung."
 
 L["cod2019_optic_minireddot3.printname"] = "Solozero Optics Mini Reflex"
 L["cod2019_optic_minireddot3.compactname"] = "Solozero"
-L["cod2019_optic_minireddot3.description"] = "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
+L["cod2019_optic_minireddot3.description"] = "Väl avrundat precisionssikte från Solozero Optics erbjuder en balanserad siktvy."
 
 L["cod2019_optic_minireddot3_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname")
 L["cod2019_optic_minireddot3_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname")
@@ -139,66 +139,66 @@ L["cod2019_optic_minireddot3_scope.compactname"] = ARC9:GetPhrase("cod2019_optic
 L["cod2019_optic_minireddot3_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description")
 
 -- Scopes
-L["cod2019_optic_scope_scout.printname"] = "Scout Combat Optic"
+L["cod2019_optic_scope_scout.printname"] = "Scout Combat Riktmedel"
 L["cod2019_optic_scope_scout.compactname"] = "Scout"
-L["cod2019_optic_scope_scout.description"] = "Precision optic with <color=100,255,100>3.25x</color> magnification for long range target acquisition."
+L["cod2019_optic_scope_scout.description"] = "Precisionssikte med <color=100,255,100>3.25x</color> magnifiering för målförvärv på långa distanser."
 
-L["cod2019_optic_hybrid_west02.printname"] = "4.0x Flip Hybrid"
+L["cod2019_optic_hybrid_west02.printname"] = "4.0x Vikbar Hybrid"
 L["cod2019_optic_hybrid_west02.compactname"] = "Hybrid"
-L["cod2019_optic_hybrid_west02.description"] = "Long range <color=100,255,100>4.0x</color> optic manually flips to closer range holographic sight."
+L["cod2019_optic_hybrid_west02.description"] = "Lång distans <color=100,255,100>4.0x</color> riktmedel som manuellt viks till sidan för närmare räckvidd holografiskt sikte."
 
-L["cod2019_optic_vlk3.printname"] = "VLK 3.0x Optic"
+L["cod2019_optic_vlk3.printname"] = "VLK 3.0x Riktmedel"
 L["cod2019_optic_vlk3.compactname"] = "VLK"
-L["cod2019_optic_vlk3.description"] = "Russian combat optic with <color=100,255,100>3.0x</color> magnification provides reliable target acquisition."
+L["cod2019_optic_vlk3.description"] = "Ryskt stridssikte med <color=100,255,100>3.0x</color> magnifiering erbjuder pålitlig målförvärv."
 
-L["cod2019_optic_hybrid_west.printname"] = "Integral Hybrid"
-L["cod2019_optic_hybrid_west.compactname"] = "Integral"
-L["cod2019_optic_hybrid_west.description"] = "<color=100,255,100>3.25x</color> Scout with integral reflex sight for quickly transitioning between sights."
+L["cod2019_optic_hybrid_west.printname"] = "Intern Hybrid"
+L["cod2019_optic_hybrid_west.compactname"] = "Intern"
+L["cod2019_optic_hybrid_west.description"] = "<color=100,255,100>3.25x</color> Scout mer integrerat reflexsikte för snabb övergång mellan sikten."
 
 L["cod2019_optic_cronen.printname"] = "Cronen C480 Pro Optic"
 L["cod2019_optic_cronen.compactname"] = "Cronen"
-L["cod2019_optic_cronen.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification provides excellent target acquisition."
+L["cod2019_optic_cronen.description"] = "Avancerat sikte med <color=100,255,100>3.5x</color> magnifiering erbjuder utmärkt målförvärv."
 
-L["cod2019_optic_thermal_west_01.printname"] = "Solozero NVG Enhanced"
-L["cod2019_optic_thermal_west_01.compactname"] = "Solozero NVG"
-L["cod2019_optic_thermal_west_01.description"] = "Advanced <color=100,255,100>3.25x</color> Gen 3 night vision with thermal overlay for enhanced situational awareness. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
+L["cod2019_optic_thermal_west_01.printname"] = "Solozero Enhanced Mörkeroptik"
+L["cod2019_optic_thermal_west_01.compactname"] = "Solozero Mörk."
+L["cod2019_optic_thermal_west_01.description"] = "Avancerat <color=100,255,100>3.25x</color> Gen 3 nattseende med värmesikte överlägg för förbättrad situationsmedverksamhet. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon.</color>"
 
-L["cod2019_optic_scope_mike14.printname"] = "Sniper Scope"
-L["cod2019_optic_scope_mike14.compactname"] = "Sniper"
-L["cod2019_optic_scope_mike14.description"] = "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
+L["cod2019_optic_scope_mike14.printname"] = "Kikarsikte"
+L["cod2019_optic_scope_mike14.compactname"] = "Kikarsikte"
+L["cod2019_optic_scope_mike14.description"] = "Högt kraftfull <color=100,255,100>4.4x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
--- L["mw19_optic_merc.printname"] = "Merc Thermal Optic"
--- L["mw19_optic_merc.compactname"] = "Merc Thermal"
--- L["mw19_optic_merc.description"] = "<color=100,255,100>3.25x</color> scope with thermal imaging highlights targets and provides visibility in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
+-- L["mw19_optic_merc.printname"] = "Merc-Värmesikte"
+-- L["mw19_optic_merc.compactname"] = "Värmesikte"
+-- L["mw19_optic_merc.description"] = "<color=100,255,100>3.25x</color> riktmedel med värmeavbildning markerar mål och erbjuder synlighet i alla ljusförhållanden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon.</color>"
 
--- L["mw19_optic_thermal.printname"] = "Thermal Hybrid"
--- L["mw19_optic_thermal.compactname"] = "Thermal"
--- L["mw19_optic_thermal.description"] = "<color=100,255,100>3.25x</color> Thermal scope with a side-mounting reflex sight toggles thermal imaging with a flick of the wrist. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
+-- L["mw19_optic_thermal.printname"] = "Värme- & Hybridsikte"
+-- L["mw19_optic_thermal.compactname"] = "V- & Hybrid"
+-- L["mw19_optic_thermal.description"] = "<color=100,255,100>3.25x</color> värmesikte med sidomonterat reflexsikte växlar siktevy med ett knyck med handleden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon.</color>"
 
--- L["mw19_optic_canted.printname"] = "Canted Hybrid"
--- L["mw19_optic_canted.compactname"] = "Canted"
--- L["mw19_optic_canted.description"] = "<color=100,255,100>3.25x</color> Scout with a side-mounting reflex sight lets you change engagement distances with the flick of the wrist."
+-- L["mw19_optic_canted.printname"] = "Sidomonterad Hybrid"
+-- L["mw19_optic_canted.compactname"] = "Sidom."
+-- L["mw19_optic_canted.description"] = "<color=100,255,100>3.25x</color> Scout med sidomonterat reflexsikte låter dig ändra stridsdistansen med ett knyck med handleden."
 
-L["mw19_optic_variable.printname"] = "Variable Zoom Scope"
-L["mw19_optic_variable.compactname"] = "Variable Zoom"
-L["mw19_optic_variable.description"] = "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
+L["mw19_optic_variable.printname"] = "Variabel Zoom Kikarsikte"
+L["mw19_optic_variable.compactname"] = "Variabel"
+L["mw19_optic_variable.description"] = "Avancerat kikarsikte zoomar mellan <color=100,255,100>3.0x</color> och <color=100,255,100>6.1x</color> för strider på förlängda räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
-L["mw19_weapon_att_thermal"] = "%s Thermal"
-L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Thermal"
-L["mw19_weapon_att_variable"] = "%s Variable Zoom"
+L["mw19_weapon_att_thermal"] = "%s Värmesikte"
+L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Värmesikte"
+L["mw19_weapon_att_variable"] = "%s Variabel Zoom"
 
 ////////////////////  Muzzle
 ///////// Stats"
-L["mw19_muzzle_stat_muzzleflash"] = "Muzzle Flash Concealment" -- Flash Guard
-L["mw19_muzzle_stat_sound"] = "Sound Suppression" -- Suppressors
+L["mw19_muzzle_stat_muzzleflash"] = "Mynningseld Skyddande" -- Flash Guard
+L["mw19_muzzle_stat_sound"] = "Ljuddämpande" -- Suppressors
 
 ///////// Muzzle Brakes
 -- Flash Guard
-L["cod2019_attach_flashhider01.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider01.compactname"] = "Flash"
-L["cod2019_attach_flashhider01.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
+L["cod2019_attach_flashhider01.printname"] = "Flammdämpare"
+L["cod2019_attach_flashhider01.compactname"] = "Dämpare"
+L["cod2019_attach_flashhider01.description"] = "Dämpar mynningsflamman på vapnet för att hjälpa hålla måltavlan synlig och dyn position skyddad. Sänker lätt mynningshastigheten."
 
 L["cod2019_attach_flashhider02.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname")
 L["cod2019_attach_flashhider02.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname")
@@ -225,9 +225,9 @@ L["cod2019_attach_muzzle_db_hider.compactname"] = ARC9:GetPhrase("cod2019_attach
 L["cod2019_attach_muzzle_db_hider.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description")
 
 -- Breacher Device
-L["cod2019_attach_muzzlemelee01.printname"] = "Breacher Device"
-L["cod2019_attach_muzzlemelee01.compactname"] = "Breacher"
-L["cod2019_attach_muzzlemelee01.description"] = "Muzzle attachment that enables 1 hit melee kills."
+L["cod2019_attach_muzzlemelee01.printname"] = "Inbrytningsenhet"
+L["cod2019_attach_muzzlemelee01.compactname"] = "Inbryt."
+L["cod2019_attach_muzzlemelee01.description"] = "Mynningstillbehör som tillåter enkelträff dråp med närstridsangrepp."
 
 L["cod2019_attach_muzzlemelee02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.printname")
 L["cod2019_attach_muzzlemelee02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.compactname")
@@ -242,9 +242,9 @@ L["cod2019_attach_muzzle_db_melee.compactname"] = ARC9:GetPhrase("cod2019_attach
 L["cod2019_attach_muzzle_db_melee.description"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.description")
 
 -- Muzzle Brake
-L["cod2019_attach_muzzlebrake01.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake01.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake01.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
+L["cod2019_attach_muzzlebrake01.printname"] = "Mynningsbroms"
+L["cod2019_attach_muzzlebrake01.compactname"] = "Broms"
+L["cod2019_attach_muzzlebrake01.description"] = "Dirigerar om gaserna utåt för att stabilisera vapnet för bättre kontroll under kontinuerlig eld."
 
 L["cod2019_attach_muzzlebrake02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname")
 L["cod2019_attach_muzzlebrake02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname")
@@ -271,9 +271,9 @@ L["cod2019_attach_muzzle_db_brake.compactname"] = ARC9:GetPhrase("cod2019_attach
 L["cod2019_attach_muzzle_db_brake.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description")
 
 -- Compensator
-L["cod2019_muzzle_compensator.printname"] = "Compensator"
-L["cod2019_muzzle_compensator.compactname"] = "Compensator"
-L["cod2019_muzzle_compensator.description"] = "Expels gases upward to aggressively fight muzzle climb."
+L["cod2019_muzzle_compensator.printname"] = "Komensator"
+L["cod2019_muzzle_compensator.compactname"] = "Komensator"
+L["cod2019_muzzle_compensator.description"] = "Skickar gaserna uppåt för att aggressivt strida mot mynningsklättring."
 
 L["cod2019_attach_compensator_pstl01.printname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.printname")
 L["cod2019_attach_compensator_pstl01.compactname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.compactname")
@@ -290,7 +290,7 @@ L["cod2019_attach_muzzle_db_comp.description"] = ARC9:GetPhrase("cod2019_muzzle_
 -- Choke"
 L["cod2019_attach_romeo870_choke.printname"] = "Choke"
 L["cod2019_attach_romeo870_choke.compactname"] = "Choke"
-L["cod2019_attach_romeo870_choke.description"] = "Device used to narrow the spread of shotgun pellets."
+L["cod2019_attach_romeo870_choke.description"] = "Enhet som sänker spridningen av hagelskott."
 
 L["cod2019_attach_muzzle_db_choke.printname"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.printname")
 L["cod2019_attach_muzzle_db_choke.compactname"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.compactname")
@@ -298,18 +298,18 @@ L["cod2019_attach_muzzle_db_choke.description"] = ARC9:GetPhrase("cod2019_attach
 
 ///////// Suppressors
 -- Tactical
-L["cod2019_attach_muzzle_silencer04.printname"] = "Tactical Suppressor"
-L["cod2019_attach_muzzle_silencer04.compactname"] = "Tactical"
-L["cod2019_attach_muzzle_silencer04.description"] = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
+L["cod2019_attach_muzzle_silencer04.printname"] = "Taktisk Ljuddämpare"
+L["cod2019_attach_muzzle_silencer04.compactname"] = "Taktisk"
+L["cod2019_attach_muzzle_silencer04.description"] = "Titanburk med rostfritt stål bafflar. Dämpar vapnet med mycket lite tillagd vikt."
 
 L["cod2019_attach_muzzle_silencer_shotgun_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname")
 L["cod2019_attach_muzzle_silencer_shotgun_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
 L["cod2019_attach_muzzle_silencer_shotgun_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
 
 -- Lightweight
-L["cod2019_attach_muzzle_silencer03.printname"] = "Lightweight Suppressor"
-L["cod2019_attach_muzzle_silencer03.compactname"] = "Lightweight"
-L["cod2019_attach_muzzle_silencer03.description"] = "Lightweight aluminium suppressor sacrifices range for stealth and agility."
+L["cod2019_attach_muzzle_silencer03.printname"] = "Lättvikt Ljuddämpare"
+L["cod2019_attach_muzzle_silencer03.compactname"] = "Lättvikt"
+L["cod2019_attach_muzzle_silencer03.description"] = "Lättvikt aluminium ljuddämpare offrar räckvidd för tystnad och rörlighet."
 
 L["cod2019_attach_muzzle_silencer_east01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname")
 L["cod2019_attach_muzzle_silencer_east01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
@@ -320,9 +320,9 @@ L["cod2019_attach_muzzle_silencer_east03.compactname"] = ARC9:GetPhrase("cod2019
 L["cod2019_attach_muzzle_silencer_east03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
 
 -- Monolithic
-L["cod2019_attach_muzzle_silencer02.printname"] = "Monolithic Suppressor"
-L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolithic"
-L["cod2019_attach_muzzle_silencer02.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
+L["cod2019_attach_muzzle_silencer02.printname"] = "Monolitisk Ljuddämpare"
+L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolitisk"
+L["cod2019_attach_muzzle_silencer02.description"] = "Monolitisk kärna erbjuder bäst ljuddämpning och ökad räckvidd. Måttlig tillagd vikt påverkar rörligheten."
 
 L["cod2019_attach_muzzle_silencer_east02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
 L["cod2019_attach_muzzle_silencer_east02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
@@ -335,35 +335,35 @@ L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = ARC9:GetPhrase("cod
 -- FORGE TAC
 L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
 L["cod2019_attach_muzzle_silencer_shotgun_03.compactname"] = "Marauder"
-L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Box suppressor adds considerable weight to the barrel, but tightens pellet spread and reduces recoil to help with long range precision."
+L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Låd-ljuddämpare lägger betydande vikt på pipan men tätar hagelspridningen och sänker rekylen för att hjälpa med träffsäkerhet på lång distans."
 
 ////////////////////  Underbarrel
 ///////// Grips
-L["csgo_cod2019_angled.printname"] = "Commando Foregrip"
-L["csgo_cod2019_angled.compactname"] = "Commando"
-L["csgo_cod2019_angled.description"] = "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire."
+L["csgo_cod2019_angled.printname"] = "Kommando Framgrepp"
+L["csgo_cod2019_angled.compactname"] = "Kommando"
+L["csgo_cod2019_angled.description"] = "Tung vikt vinklat grepp håller vapnet stadigt i siktet och hjälper behålla kontrollen under tung eld."
 
-L["csgo_cod2019_grips_merc.printname"] = "Merc Foregrip"
+L["csgo_cod2019_grips_merc.printname"] = "Merc-Framgrepp"
 L["csgo_cod2019_grips_merc.compactname"] = "Merc"
-L["csgo_cod2019_grips_merc.description"] = "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics."
+L["csgo_cod2019_grips_merc.description"] = "Förlängt framgrepp sänker vertikala rekylen och erbjuder stabilitet från höften för snabb gerilla taktiker."
 
-L["csgo_cod2019_angled_tactical.printname"] = "Tactical Foregrip"
-L["csgo_cod2019_angled_tactical.compactname"] = "Tactical"
-L["csgo_cod2019_angled_tactical.description"] = "Streamlined foregrip provides superior control acquiring targets."
+L["csgo_cod2019_angled_tactical.printname"] = "Taktiskt Framgrepp"
+L["csgo_cod2019_angled_tactical.compactname"] = "Taktiskt"
+L["csgo_cod2019_angled_tactical.description"] = "Effektivt framgrepp erbjuder överlägsen kontroll och målförvärv."
 
-L["csgo_cod2019_grips_ranger.printname"] = "Ranger Foregrip"
+L["csgo_cod2019_grips_ranger.printname"] = "Ranger-Framgrepp"
 L["csgo_cod2019_grips_ranger.compactname"] = "Ranger"
-L["csgo_cod2019_grips_ranger.description"] = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat."
+L["csgo_cod2019_grips_ranger.description"] = "Standard framgrepp förbättrar vertikala rekylen och stabiliserar vapnet i siktet för föbättrad strid på långa distanser."
 
-L["csgo_cod2019_grips_operator.printname"] = "Operator Foregrip"
-L["csgo_cod2019_grips_operator.compactname"] = "Operator"
-L["csgo_cod2019_grips_operator.description"] = "No frills foregrip helps control vertical recoil for faster follow-up shots."
+L["csgo_cod2019_grips_operator.printname"] = "Operatör Framgrepp"
+L["csgo_cod2019_grips_operator.compactname"] = "Operatör"
+L["csgo_cod2019_grips_operator.description"] = "Inga krusiduller framgrepp hjälper kontroller vertikal rekyl för snabbare efterföljnings skott."
 
-L["csgo_cod2019_grips_bipod.printname"] = "Bipod Foregrip"
-L["csgo_cod2019_grips_bipod.compactname"] = "Bipod F"
-L["csgo_cod2019_grips_bipod.description"] = "Helps control recoil, especially from the crouch and prone stance."
+L["csgo_cod2019_grips_bipod.printname"] = "Skjutstöd Framgrepp"
+L["csgo_cod2019_grips_bipod.compactname"] = "Skjutstöd F."
+L["csgo_cod2019_grips_bipod.description"] = "Hjälper kontrollera rekylen, speciellt från hukad eller benägen position."
 
-L["csgo_cod2019_grips_tactical.printname"] = "Task Force Foregrip" -- UO
+L["csgo_cod2019_grips_tactical.printname"] = "Task Force-Framgrepp" -- UO
 L["csgo_cod2019_grips_tactical.compactname"] = "Task Force" -- UO
 L["csgo_cod2019_grips_tactical.description"] = ARC9:GetPhrase("csgo_cod2019_angled_tactical.description")
 
@@ -397,17 +397,17 @@ L["mw19_att_ub_shotgun.compactname"] = "12G Deputy"
 L["mw19_att_ub_shotgun.description"] = "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
 
 ////////////////////  Lasers
-L["csgo_cod2019_laser_01.printname"] = "Tac Laser"
-L["csgo_cod2019_laser_01.compactname"] = "Tac"
-L["csgo_cod2019_laser_01.description"] = "High power 5mW tactical green laser. Improves accuracy while aiming down sights. Exposes position when active."
+L["csgo_cod2019_laser_01.printname"] = "Taktisk Laser"
+L["csgo_cod2019_laser_01.compactname"] = "Taktisk"
+L["csgo_cod2019_laser_01.description"] = "Taktisk 5mW grön laser med hög kraft. Ökar träffsäkerheten i siktet. Avslöjar positionen när den är aktiv."
 
 L["csgo_cod2019_laser_02.printname"] = "1mW Laser"
 L["csgo_cod2019_laser_02.compactname"] = "1mW"
-L["csgo_cod2019_laser_02.description"] = "Low power 1mW red laser slightly speeds up target acquisition after sprinting."
+L["csgo_cod2019_laser_02.description"] = "Röd 1mW laser med låg kraft ökar lätt upp målförvärv efter man sprungit."
 
 L["csgo_cod2019_laser_03.printname"] = "5mW Laser"
 L["csgo_cod2019_laser_03.compactname"] = "5mW"
-L["csgo_cod2019_laser_03.description"] = "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
+L["csgo_cod2019_laser_03.description"] = "Väldigt ljus 5mW grön laser ökar starkt målförvärv efter man sprungit. Avslöjar positionen när den är aktiv. Endast för aggressiva operatörer som inte förlitar sig på att hålla sig gömd."
 
 L["csgo_cod2019_laser_cylinder_01.printname"] = ARC9:GetPhrase("csgo_cod2019_laser_01.printname")
 L["csgo_cod2019_laser_cylinder_01.compactname"] = ARC9:GetPhrase("csgo_cod2019_laser_01.compactname")
@@ -446,13 +446,13 @@ L["cod2019_laser_03_cylinde_alt.compactname"] = ARC9:GetPhrase("csgo_cod2019_las
 L["cod2019_laser_03_cylinde_alt.description"] = ARC9:GetPhrase("csgo_cod2019_laser_03.description")
 
 ////////////////////  Stocks
-L["cod2019_stock_tube_light.printname"] = "Lightweight Buffer Tube" -- UO
-L["cod2019_stock_tube_light.compactname"] = "Lightweight" -- UO
-L["cod2019_stock_tube_light.description"] = "Lightweight aluminium buffer tube allowing the installation of aftermarket stocks." -- UO
+L["cod2019_stock_tube_light.printname"] = "Lättvikt Bufferrör" -- UO
+L["cod2019_stock_tube_light.compactname"] = "Lättvikt" -- UO
+L["cod2019_stock_tube_light.description"] = "Lättvikt bufferrör av aluminium tillåter installering av kolvar från eftermarknaden." -- UO
 
-L["cod2019_stock_tube_medium.printname"] = "FSS CQ Buffer Tube" -- UO
+L["cod2019_stock_tube_medium.printname"] = "FSS CQ-Bufferrör" -- UO
 L["cod2019_stock_tube_medium.compactname"] = "FSS CQ" -- UO
-L["cod2019_stock_tube_medium.description"] = "Tactical, streamlined buffer tube allowing the installation of aftermarket stocks." -- UO
+L["cod2019_stock_tube_medium.description"] = "Taktisk och effektivt bufferrör tillåter installering av kolvar från eftermarknaden." -- UO
 
 local stockname = {
 		ultralight = "FORGE TAC Ultralight", -- Kilo 141
@@ -482,40 +482,40 @@ local stockname = {
 		collap = "FTAC Collapsible", -- FN Scar 17
 		collaps = "Collapsible",
 		
-		cqstock = "FSS Close Quarters Stock", -- Kilo 141
-		cqstocks = "CQS",
+		cqstock = "FSS Close Quarters-Kolv", -- Kilo 141
+		cqstocks = "CQK",
 		
-		heavypro = "FSS Heavy Stock Pro", -- AUG
+		heavypro = "FSS Heavy Pro-Kolv", -- AUG
 		heavypros = "Heavy Pro",
 		
-		skeleton = "Skeleton Stock", -- AK-47
-		skeletons = "Skeleton",
+		skeleton = "Skelettkolv", -- AK-47
+		skeletons = "Skelett",
 		
-		folded = "Folded Stock", -- AN-94
-		foldeds = "Folded",
+		folded = "Invikt Kolv", -- AN-94
+		foldeds = "Invikt",
 		
-		none = "No Stock", -- Kilo 141
-		nones = "None", -- UO
+		none = "Ingen Kolv", -- Kilo 141
+		nones = "Ingen", -- UO
 		
-		sawed = "Sawed-off Stock", -- 725
-		saweds = "Sawed-off",
+		sawed = "Avsågad Kolv", -- 725
+		saweds = "Avsågad",
 }
 
 L["cod2019_stock_vlight.printname"] = "REPLACEME - cod2019_stock_vlight.printname"
 L["cod2019_stock_vlight.compactname"] = "REPLACEME - cod2019_stock_vlight.compactname"
-L["cod2019_stock_vlight.description"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
+L["cod2019_stock_vlight.description"] = "Ultralätt kolv ökar hastigheten på vapenhantering och rörelse med kostnad på stabilitet i siktet."
 
 L["cod2019_stock_light.printname"] = stockname.ultralight
 L["cod2019_stock_light.compactname"] = stockname.ultralights
-L["cod2019_stock_light.description"] = "Stock designed for agility while aiming down sights."
+L["cod2019_stock_light.description"] = "Kolv designad för rörlighet i siktet."
 
 L["cod2019_stock_medium.printname"] = stockname.cqstock
 L["cod2019_stock_medium.compactname"] = stockname.cqstocks
-L["cod2019_stock_medium.description"] = "Tactical stock streamlined for close quarters combat. Gets you on target faster."
+L["cod2019_stock_medium.description"] = "Taktisk och effektiv kolv designad för närstrid. Får dig snabbare på målet."
 
 L["cod2019_stock_heavy.printname"] = stockname.stalker
 L["cod2019_stock_heavy.compactname"] = stockname.stalkers
-L["cod2019_stock_heavy.description"] = "Heavy duty stock keeps your aim steady for precision shots."
+L["cod2019_stock_heavy.description"] = "Tung kolv som låter dig hålla ditt sikte stadigt för träffsäkra skott."
 
 L["cod2019_stock_heavy02.printname"] = stockname.hunter
 L["cod2019_stock_heavy02.compactname"] = stockname.hunters
@@ -527,4 +527,4 @@ L["cod2019_stock_vheavy.description"] = "The most stable stock available, provid
 
 -- L["cod2019_stock_none.printname"] = stockname.none
 -- L["cod2019_stock_none.compactname"] = stockname.nones
--- L["cod2019_stock_none.description"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+-- L["cod2019_stock_none.description"] = "Det ultimata \"spring och skjut\" alternativet när rörlighet är viktigare än träffsäkerhet. Att ta bort kolven ökar starkt rörligheten."
