@@ -473,6 +473,100 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop_alt")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Cronen Elite Reflex"
+ATT.CompactName = [[Cronen Elite]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_reflex.png", "mips smooth")
+ATT.Description = [[Well rounded precision sight from Cronen Optics provides a balanced sight picture.]]
+ATT.Pros = {
+    "+ Precision Sight Picture"
+}
+ATT.Cons = {
+    "− Aim Down Sight Speed"
+}
+ATT.SortOrder = 5
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
+
+ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"sight_minidot","optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_west05.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.1, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.1
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 9, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 35,
+        IgnoreExtra = false
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
+ATT.HoloSightSize = 1024
+ATT.HoloSightColorable = false
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Cronen 2x2 Elite"
+ATT.CompactName = [[Cronen 2x2 Elite]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_hybrid.png", "mips smooth")
+ATT.Description = [[Advanced optic with 4.0x magnification provides excellent target acquisition.]]
+ATT.Pros = {
+    "+ Precision Sight Picture"
+}
+ATT.Cons = {
+    "− Aim Down Sight Speed"
+}
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+
+ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic","optic_scope"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_ar_tango21_hybrid.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.13
+ATT.VisualRecoilMultSights = 0.5
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 6, -1.25),
+        Ang = Angle(0, 0, 0),
+        Magnification = 2,
+        ViewModelFOV = 35,
+        IgnoreExtra = false
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeFOV = 16
+ATT.RTScopeRes = 512
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png", "mips smooth")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_hybrid")
 --------------------------------------------------------------- PISTOLS
 ATT = {}
 
