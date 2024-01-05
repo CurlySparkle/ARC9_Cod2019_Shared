@@ -4,7 +4,7 @@ local stats_tac = {
     CustomPros = { 
 	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
 	},
-    AimDownSightsTimeAdd = 0.13,
+    AimDownSightsTimeAdd = 0.013,
 	VisualRecoilMult = 0.97,
 	RecoilMult = 0.97,
 }
@@ -25,7 +25,7 @@ local stats_mono = {
 	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
 	},
     PhysBulletMuzzleVelocityAdd = 170 / ARC9.HUToM,
-	AimDownSightsTimeAdd = 0.24,
+	AimDownSightsTimeAdd = 0.024,
     RangeMinMult = 1.1,
     RangeMaxMult = 1.1,
 	VisualRecoilMult = 0.95,
@@ -37,7 +37,7 @@ local stats_mono_pist = {
 	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
 	},
     PhysBulletMuzzleVelocityAdd = 75 / ARC9.HUToM,
-	AimDownSightsTimeAdd = 0.15,
+	AimDownSightsTimeAdd = 0.015,
     RangeMinMult = 1.1,
     RangeMaxMult = 1.1,
 	VisualRecoilMult = 0.95,

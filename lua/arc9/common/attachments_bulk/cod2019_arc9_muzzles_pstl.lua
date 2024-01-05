@@ -5,17 +5,17 @@ local stats_flash = {
 	[ARC9:GetPhrase("mw19_muzzle_stat_muzzleflash")] = ""
 	},
     PhysBulletMuzzleVelocityAdd = -22 / ARC9.HUToM,
-    AimDownSightsTimeAdd = 0.02,
+    AimDownSightsTimeAdd = 0.002,
 }
 
 local stats_comp = {
-    AimDownSightsTimeAdd = 0.05,
+    AimDownSightsTimeAdd = 0.005,
 	VisualRecoilMult = 0.75,
 	RecoilMult = 0.75,
 }
 
 local stats_brake = {
-    AimDownSightsTimeAdd = 0.05,
+    AimDownSightsTimeAdd = 0.005,
 	VisualRecoilMult = 0.88,
 	RecoilMult = 0.88,
 }

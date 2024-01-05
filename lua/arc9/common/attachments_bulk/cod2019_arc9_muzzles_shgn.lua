@@ -4,16 +4,16 @@ local stats_flash = {
     CustomPros = { 
 	[ARC9:GetPhrase("mw19_muzzle_stat_muzzleflash")] = ""
 	},
-    AimDownSightsTimeAdd = 0.05,
+    AimDownSightsTimeAdd = 0.005,
 }
 
 local stats_breach = {
     BashDamageAdd = 45,
-    AimDownSightsTimeAdd = 0.11,
+    AimDownSightsTimeAdd = 0.011,
 }
 
 local stats_choke = {
-    AimDownSightsTimeAdd = 0.10,
+    AimDownSightsTimeAdd = 0.010,
 	VisualRecoilMult = 1.1,
 	RecoilMult = 1.1,
 	SpreadMultSights = 0.9,
@@ -23,13 +23,13 @@ local stats_choke = {
 }
 
 local stats_comp = {
-    AimDownSightsTimeAdd = 0.11,
+    AimDownSightsTimeAdd = 0.011,
 	VisualRecoilMult = 0.75,
 	RecoilMult = 0.75,
 }
 
 local stats_brake = {
-    AimDownSightsTimeAdd = 0.11,
+    AimDownSightsTimeAdd = 0.011,
 	VisualRecoilMult = 0.88,
 	RecoilMult = 0.88,
 }
@@ -38,7 +38,7 @@ local stats_tac = {
     CustomPros = { 
 	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
 	},
-    AimDownSightsTimeAdd = 0.15,
+    AimDownSightsTimeAdd = 0.015,
 	VisualRecoilMult = 0.97,
 	RecoilMult = 0.97,
 }
@@ -60,7 +60,7 @@ local stats_mono = {
     CustomPros = { 
 	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
 	},
-	AimDownSightsTimeAdd = 0.48,
+	AimDownSightsTimeAdd = 0.048,
     RangeMinMult = 1.03,
     RangeMaxMult = 1.03,
 	VisualRecoilMult = 0.95,

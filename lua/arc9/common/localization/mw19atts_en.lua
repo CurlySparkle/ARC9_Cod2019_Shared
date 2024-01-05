@@ -138,6 +138,10 @@ L["cod2019_optic_minireddot3_scope.printname"] = ARC9:GetPhrase("cod2019_optic_m
 L["cod2019_optic_minireddot3_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname")
 L["cod2019_optic_minireddot3_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description")
 
+L["cod2019_optic_reflex_west05.printname"] = "Cronen Elite Reflex" -- UO
+L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite" -- UO
+L["cod2019_optic_reflex_west05.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
+
 -- Scopes
 L["cod2019_optic_scope_scout.printname"] = "Scout Combat Optic"
 L["cod2019_optic_scope_scout.compactname"] = "Scout"
@@ -182,6 +186,10 @@ L["cod2019_optic_scope_mike14.description"] = "High power <color=100,255,100>4.4
 L["mw19_optic_variable.printname"] = "Variable Zoom Scope"
 L["mw19_optic_variable.compactname"] = "Variable Zoom"
 L["mw19_optic_variable.description"] = "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
+
+L["cod2019_optic_reflex_west05_hybrid.printname"] = "Cronen 2x2 Elite"
+L["cod2019_optic_reflex_west05_hybrid.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname")
+L["cod2019_optic_reflex_west05_hybrid.description"] = "Advanced optic with <color=100,255,100>4.0x</color> magnification provides excellent target acquisition."
 
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
