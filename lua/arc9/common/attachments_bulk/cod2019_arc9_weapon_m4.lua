@@ -63,26 +63,3 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_v3")
----------------------------------------------------------------------------------------
-ATT = {}
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "60 Round Mags"
-ATT.CompactName = "60-Round"
-ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
-
-ATT.Icon = Material("entities/attachs/cod2019_mkilo3_smags.png", "mips smooth")
-
-ATT.ClipSizeOverride = 60
-
-ATT.SortOrder = 0
-ATT.Category = "cod2019_m4_mag"
-ATT.ActivateElements = {"mag_none","mag_xmag"}
-
-
-ATT.Model = "models/weapons/cod2019/attachs/mag/attachment_vm_ar_mike4_xmags2.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/mag/attachment_vm_ar_mike4_xmags2.mdl"
-ATT.BoneMerge = true
-ATT.ModelOffset = Vector(1, 0, 1)
-
-ARC9.LoadAttachment(ATT, "cod2019_attachment_xmag")

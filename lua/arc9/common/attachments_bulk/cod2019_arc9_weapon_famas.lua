@@ -108,3 +108,79 @@ ATT.AimDownSightsTimeMult = 0.9
 ATT.RecoilMult = 1.1
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_stock_tactical")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "50 Round Mags"
+ATT.CompactName = "50-Round"
+ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags.png", "mips smooth")
+
+ATT.ClipSizeOverride = 50
+ATT.ReloadTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.05
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_famas_mag","cod2019_mag_xmag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags.mdl"
+ATT.BoneMerge = true
+--ATT.ModelOffset = Vector(1, 0, 1)
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
+}
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_xmag_50")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "60 Round Mags"
+ATT.CompactName = "60-Round"
+ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags2.png", "mips smooth")
+
+ATT.ClipSizeOverride = 60
+ATT.ReloadTimeMult = 1.15
+ATT.SprintToFireTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_famas_mag","cod2019_mag_xmag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags2.mdl"
+ATT.BoneMerge = true
+--ATT.ModelOffset = Vector(1, 0, 1)
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
+}
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1","j_magextbullet01"},
+    [2] = {"j_bullet2","j_ammo2","j_magextbullet02"},
+	[3] = {"j_bullet3","j_ammo3","j_magextbullet03"},
+	[4] = {"j_bullet4","j_ammo4","j_magextbullet04"},
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_xmag_60")
