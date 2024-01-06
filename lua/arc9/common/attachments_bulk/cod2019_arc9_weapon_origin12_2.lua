@@ -30,7 +30,11 @@ ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
 }
 
-ATT.BulletBones = {
+ATT.HideBones  = {
+    [1] = "j_mag2",
+}
+
+local bulletbones = {
     [1] = "j_shell1",
     [2] = "j_shell2",
 	[3] = "j_shell3",
@@ -55,12 +59,25 @@ ATT.BulletBones = {
 	[22] = "j_drumshell22",
 	[23] = "j_drumshell23",
 	[24] = "j_drumshell24",
-	[25] = "j_drumshell25"
-}
+	[25] = "j_drumshell25",}
 
-ATT.HideBones  = {
-    [1] = "j_mag2",
-}
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 25 - clip + 1
+
+    for i = 1, 25 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_mag_drum")
 ---------------------------------------------------------------------------------------
