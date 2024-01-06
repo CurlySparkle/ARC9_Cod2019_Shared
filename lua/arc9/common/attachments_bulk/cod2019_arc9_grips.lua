@@ -15,7 +15,7 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
-ATT.AimDownSightsTimeAdd = 0.21
+ATT.AimDownSightsTimeAdd = 0.021
 ATT.VisualRecoilMult = 0.8
 ATT.RecoilMult = 0.8
 ATT.SpreadMultHipFire = 0.947
@@ -83,7 +83,7 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
-ATT.AimDownSightsTimeAdd = 0.21
+ATT.AimDownSightsTimeAdd = 0.021
 ATT.VisualRecoilMult = 0.83
 ATT.RecoilMult = 0.83
 ATT.SpreadMultHipFire = 0.947
@@ -117,7 +117,7 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip_angled"}
 
-ATT.AimDownSightsTimeAdd = 0.11
+ATT.AimDownSightsTimeAdd = 0.011
 ATT.VisualRecoilMult = 0.91
 ATT.RecoilMult = 0.91
 ATT.SpreadMultHipFire = 0.947
@@ -185,7 +185,7 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
-ATT.AimDownSightsTimeAdd = 0.27
+ATT.AimDownSightsTimeAdd = 0.027
 ATT.VisualRecoilMult = 0.83
 ATT.RecoilMult = 0.83
 ATT.SpreadMultHipFire = 0.947
@@ -230,7 +230,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 180)
 
 ATT.Bipod = true
 
-ATT.AimDownSightsTimeAdd = 0.19
+ATT.AimDownSightsTimeAdd = 0.019
 ATT.VisualRecoilMult = 0.8
 ATT.RecoilMult = 0.8
 ATT.SpeedMult = 0.96

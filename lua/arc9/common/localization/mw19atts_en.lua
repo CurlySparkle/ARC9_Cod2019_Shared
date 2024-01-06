@@ -38,6 +38,7 @@ L["mw19_folder_tube"] = "Tube" -- UO
 
 -- Other
 L["mw19_folder_other"] = "Other" -- UO
+L["mw19_folder_side"] = "Side" -- UO
 
 //////////////////// Toggle Stats Names
 L["mw19_togglestat_off"] = "Off" -- UO
@@ -382,6 +383,14 @@ L["csgo_cod2019_grips_tactical.description"] = ARC9:GetPhrase("csgo_cod2019_angl
 L["mw19_att_wpn_grau_ub_shark.printname"] = "Cronen Shark II"
 L["mw19_att_wpn_grau_ub_shark.compactname"] = "Shark II"
 L["mw19_att_wpn_grau_ub_shark.description"] = "Tactical foregrip provides best in class control acquiring targets."
+
+L["cod2019_grips_side_merc.printname"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.printname")
+L["cod2019_grips_side_merc.compactname"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.compactname")
+L["cod2019_grips_side_merc.description"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.description")
+
+L["cod2019_grips_side_operator.printname"] = ARC9:GetPhrase("csgo_cod2019_grips_operator.printname")
+L["cod2019_grips_side_operator.compactname"] = ARC9:GetPhrase("csgo_cod2019_grips_operator.compactname")
+L["cod2019_grips_side_operator.description"] = ARC9:GetPhrase("csgo_cod2019_grips_operator.description")
 
 ///////// Weapons
 -- L["mw19_att_ub_m203_he.printname"] = "M203 40mm High-explosive"
