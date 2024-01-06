@@ -7,7 +7,7 @@ ATT.CompactName = "30-R"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_falima_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_falima_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -20,6 +20,7 @@ ATT.Category = {"cod2019_mag_fal"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.ClipSizeOverride = 30
+ATT.ReloadTimeMult = 1.1
 
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_xmags.mdl"
 

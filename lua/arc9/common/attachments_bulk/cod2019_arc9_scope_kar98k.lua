@@ -2,7 +2,7 @@ local ATT = {}
 
 ATT.PrintName = "Default Scope"
 ATT.CompactName = [[Default]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_kilo98.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_mm_kilo98_scope.png", "mips smooth")
 ATT.Description = [[Long-range classic combat scope. Provides an improved precision at longer ranges.]]
 ATT.Pros = {
     "+ 8x Zoom",

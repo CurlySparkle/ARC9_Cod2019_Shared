@@ -7,7 +7,7 @@ ATT.PrintName = "60 Round Mags"
 ATT.CompactName = "60-Round"
 ATT.Description = [[Conversion kit to use 60 round 5.56 NATO magazines for increased stopping power. Slightly lower cycle rate to help control recoil.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mkilo3_smags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_lm_mkilo3_smags.png", "mips smooth")
 
 --ATT.ShootSound = "COD2019.AUG.Fire_AR"
 --ATT.ShootSoundSilenced = "COD2019.AUG.Silenced_Fire_AR"

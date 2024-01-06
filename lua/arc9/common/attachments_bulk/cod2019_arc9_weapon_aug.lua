@@ -8,7 +8,7 @@ ATT.PrintName = "5.56 NATO 30-Round Mag"
 ATT.CompactName = "5.56 30-Round"
 ATT.Description = [[Conversion kit to use 30 round 5.56 NATO magazines for increased stopping power. Slightly lower cycle rate to help control recoil.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_aug_armag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_aug_armag.png", "mips smooth")
 
 ATT.ShootSound = "Cod2019.aug.fire.ar"
 ATT.ShootSoundIndoor = "Cod2019.aug.fire.ar"
@@ -63,7 +63,7 @@ ATT.PrintName = "5.56 NATO 60-Round Drum"
 ATT.CompactName = "5.56 60-Round"
 ATT.Description = [[Conversion kit to use 60 round 5.56 NATO drum mag for increased stopping power. Slightly lower cycle rate to help control recoil.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_aug_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_aug_drummag.png", "mips smooth")
 
 ATT.ShootSound = "Cod2019.aug.fire.ar"
 ATT.ShootSoundIndoor = "Cod2019.aug.fire.ar"
@@ -115,7 +115,7 @@ ATT.PrintName = "407mm Extended Barrel"
 ATT.CompactName = "407mm EB"
 ATT.Description = [[Stainless steel barrel extension increases muzzle velocity and extends range. Additional weights stabilize shots but slows handling.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_aug_arbarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_aug_arbarrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_arbarrel.mdl"
 ATT.BoneMerge = true
@@ -151,7 +151,7 @@ ATT.PrintName = "FORGE TAC CQB Comb"
 ATT.CompactName = "TAC CQB Comb"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_aug_stock_tactical.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_aug_stock_tactical.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_stock_tactical.mdl"
 ATT.BoneMerge = true

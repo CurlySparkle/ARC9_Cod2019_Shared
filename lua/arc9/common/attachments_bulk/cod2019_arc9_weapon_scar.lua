@@ -51,7 +51,7 @@ ATT.CompactName = "6.5mm 10-Round"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_scar_mag_dmr.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_scar_mag_dmr.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

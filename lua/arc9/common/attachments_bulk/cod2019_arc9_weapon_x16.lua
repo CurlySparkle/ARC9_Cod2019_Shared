@@ -7,7 +7,7 @@ ATT.CompactName = "Featherweight"
 ATT.Description = [[Ported slide and large bore barrel reduces weight for faster gun handling at a slight cost to range.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_x16_slide_auto.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_x16_slide_auto.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

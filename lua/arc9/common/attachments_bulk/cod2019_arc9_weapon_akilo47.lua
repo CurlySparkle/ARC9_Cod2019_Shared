@@ -7,9 +7,13 @@ ATT.PrintName = "75 Round Drum Mags"
 ATT.CompactName = "75-Round"
 ATT.Description = [[Drum magazines hold 75 rounds of 7.62 Soviet, maximizing ammo capacity at the expense of mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_akilo47_drums.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_akilo47_drums.png", "mips smooth")
 
 ATT.ClipSizeOverride = 75
+ATT.ReloadTimeMult = 1.15
+ATT.ReloadMult = 1.15
+
+ATT.AimDownSightsTimeMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_akilo47_mag"
@@ -28,7 +32,7 @@ ATT.PrintName = "5.45×39mm Mag"
 ATT.CompactName = "30-Round 5.45×39"
 ATT.Description = [[Conversion kit to use lower caliber 5.45×39mm ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_akilo47_smgmag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_akilo47_smgmag.png", "mips smooth")
 
 ATT.ShootSound = "Cod2019.ak47.smgcal.fire"
 ATT.ShootSoundIndoor = "Cod2019.ak47.smgcal.fire"
@@ -67,7 +71,7 @@ ATT.PrintName = "12-Gauge Mag"
 ATT.CompactName = "12-gauge"
 ATT.Description = [[Conversion kit to use mid caliber 12-gauge ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_origin12_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_xmags.png", "mips smooth")
 
 --ATT.ShootSound = "Cod2019.ak47.smgcal.fire"
 --ATT.ShootSoundIndoor = "Cod2019.ak47.smgcal.fire"
@@ -138,7 +142,7 @@ ATT.PrintName = "Spetsnaz Elite"
 ATT.CompactName = "Spetsnaz Elite"
 ATT.Description = [[Heavy weight barrel used by special forces has increased muzzle velocity and improved range with little additional weight.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_akilo47_custombarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_akilo47_custombarrel.png", "mips smooth")
 
 --ATT.DamageMaxMult = 0.9
 --ATT.DamageMinMult = 0.9

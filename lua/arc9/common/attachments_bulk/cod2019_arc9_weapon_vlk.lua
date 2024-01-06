@@ -7,7 +7,7 @@ ATT.CompactName = "HB"
 ATT.Description = [[Long-length heavy barrel. Offers superior handling at the cost of performance.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_vlk_barheavy.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sh_vlk_barheavy.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -60,7 +60,7 @@ ATT.PrintName = "12-R Mag"
 ATT.CompactName = "12-R"
 ATT.Description = [[Extended magazines hold 12 rounds with a slight weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_vlk_xmag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sh_vlk_xmag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 12
 

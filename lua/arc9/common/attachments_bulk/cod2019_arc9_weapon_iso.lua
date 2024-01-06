@@ -7,7 +7,7 @@ ATT.PrintName = "FTAC 225mm Dominator"
 ATT.CompactName = "FTAC 225mm"
 ATT.Description = [[]]
 
-ATT.Icon = Material("entities/attachs/cod2019_charlie9_longbarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_charlie9_longbarrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_longbarrel.mdl"
 ATT.BoneMerge = true
@@ -48,7 +48,7 @@ ATT.PrintName = "50 Round Drum"
 ATT.CompactName = "50-Round"
 ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_charlie9_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_charlie9_drummag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 50
 

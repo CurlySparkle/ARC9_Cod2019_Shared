@@ -31,11 +31,11 @@ ARC9.LoadAttachment(ATT, "cod2019_m4a1_sight_alt")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "barrel"
-ATT.CompactName = "barrel"
+ATT.PrintName = "Custom Barrel"
+ATT.CompactName = "Custom"
 ATT.Description = [[]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mike4_barrel_v03.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_mike4_barrel_v03.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_barrel_v3_alt.mdl"
 ATT.BoneMerge = true

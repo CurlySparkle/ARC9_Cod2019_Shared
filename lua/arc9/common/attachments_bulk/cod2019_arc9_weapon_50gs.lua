@@ -7,7 +7,7 @@ ATT.CompactName = "FTAC ENF"
 ATT.Description = [[Extra long slide extension increases muzzle velocity and extends range to the max. Additional weight helps stabilize shots but hinders mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_slide_extended02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_slide_extended02.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -58,7 +58,7 @@ ATT.CompactName = "FTAC ENF"
 ATT.Description = [[Extra long slide extension increases muzzle velocity and extends range to the max. Additional weight helps stabilize shots but hinders mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_slide_extended02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_slide_extended02.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -109,7 +109,7 @@ ATT.CompactName = "13 Round"
 ATT.Description = [[High capacity magazines hold 13 rounds with a moderate weight increase.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_xmags2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_xmags2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -140,7 +140,7 @@ ATT.CompactName = "26 Round"
 ATT.Description = [[High capacity magazines hold 26 rounds with a moderate weight increase.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_xmags2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_xmags2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -172,7 +172,7 @@ ATT.CompactName = "FTAC Grip"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_pistolgrip_tape_v2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_pistolgrip_tape_v2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -196,7 +196,7 @@ ATT.CompactName = "FTAC Grip"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_pistolgrip_tape_v2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_pistolgrip_tape_v2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

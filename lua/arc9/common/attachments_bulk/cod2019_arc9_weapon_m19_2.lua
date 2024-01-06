@@ -7,7 +7,7 @@ ATT.CompactName = "XRK V Ext"
 ATT.Description = [[Extended slide slightly increases muzzle velocity and improves range. Lightweight construction adds only a minor increase to weight.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_slide_extended02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_slide_extended02.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -47,7 +47,7 @@ ATT.CompactName = "XRK V Ext"
 ATT.Description = [[Extended slide slightly increases muzzle velocity and improves range. Lightweight construction adds only a minor increase to weight.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_50gs_slide_extended02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_pi_50gs_slide_extended02.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
