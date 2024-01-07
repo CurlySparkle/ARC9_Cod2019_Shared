@@ -45,3 +45,58 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_raal_barrel_light")
 ---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "PMC Grip"
+ATT.CompactName = "PMC"
+ATT.Description = [[Canted grip designed purely for controlling vertical recoil and preventing muzzle climb.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_lm_raal_gripside02.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_gripside02.mdl"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_grips_side"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_side")
+
+-- ATT.AimDownSightsTimeMult = 0.9
+-- ATT.RecoilMult = 1.11
+-- ATT.DrawTimeMult = 1.13
+-- ATT.HolsterTimeMult = 1.13
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ARC9.LoadAttachment(ATT, "cod2019_raal_grip_side_pmc")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FSS Oblique"
+ATT.CompactName = "FSS"
+ATT.Description = [[Canted foregrip improves vertical recoil and provides a better stance for raising and lowering the weapon.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_lm_raal_gripside03.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_gripside03.mdl"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_grips_side"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_side")
+
+-- ATT.AimDownSightsTimeMult = 0.9
+-- ATT.RecoilMult = 1.11
+-- ATT.DrawTimeMult = 1.13
+-- ATT.HolsterTimeMult = 1.13
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ARC9.LoadAttachment(ATT, "cod2019_raal_grip_side_fss")

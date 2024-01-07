@@ -81,3 +81,58 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_mag_drum")
 ---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Commando Foregrip"
+ATT.CompactName = "Commando"
+ATT.Description = [[Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_sidegripang.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_sidegripang.mdl"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_grips_side"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_side")
+
+ATT.AimDownSightsTimeMult = 0.9
+ATT.RecoilMult = 1.11
+ATT.DrawTimeMult = 1.13
+ATT.HolsterTimeMult = 1.13
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_com")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Merc Foregrip"
+ATT.CompactName = "Merc"
+ATT.Description = [[Extended foregrip reduces vertical recoil and provides stability from the hip for fast paced guerilla tactics.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_sidegrip_long.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_sidegrip_long.mdl"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_grips_side"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_side")
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.RecoilMult = 0.9
+ATT.DeployTimeMult = 1.07
+ATT.HolsterTimeMult = 1.07
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_merc")
