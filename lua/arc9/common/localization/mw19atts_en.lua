@@ -384,6 +384,7 @@ L["mw19_att_wpn_grau_ub_shark.printname"] = "Cronen Shark II"
 L["mw19_att_wpn_grau_ub_shark.compactname"] = "Shark II"
 L["mw19_att_wpn_grau_ub_shark.description"] = "Tactical foregrip provides best in class control acquiring targets."
 
+-- Side-mounted
 L["cod2019_grips_side_merc.printname"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.printname")
 L["cod2019_grips_side_merc.compactname"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.compactname")
 L["cod2019_grips_side_merc.description"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.description")
@@ -895,7 +896,7 @@ L["mw19_att_wpn_m13_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kil
 /////////////// Barrels
 L["mw19_att_wpn_scar_brl_01.printname"] = "FORGE TAC 17.2\" LB"
 L["mw19_att_wpn_scar_brl_01.compactname"] = "17.2\" LB"
-L["mw19_att_wpn_scar_brl_01.description"] = "17 2\" barrel with a guard extension increase muzzle velocity and extend range. Additional weight stabilizes shots at a small cost to mobility."
+L["mw19_att_wpn_scar_brl_01.description"] = "17.2\" barrel with a guard extension increase muzzle velocity and extend range. Additional weight stabilizes shots at a small cost to mobility."
 
 L["mw19_att_wpn_scar_brl_02.printname"] = "FORGE TAC 20.0\" LB"
 L["mw19_att_wpn_scar_brl_02.compactname"] = "20.0\" LB"
@@ -915,8 +916,8 @@ L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
 L["mw19_att_wpn_scar_stock_vheavy.description"] = ARC9:GetPhrase("cod2019_stock_vheavy.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_scar_mag_25.printname"] = "25 Round Mags"
-L["mw19_att_wpn_scar_mag_25.compactname"] = "25R"
+L["mw19_att_wpn_scar_mag_25.printname"] = ARC9:GetPhrase("mw19_att_wpn_oden_mag_25.printname")
+L["mw19_att_wpn_scar_mag_25.compactname"] = ARC9:GetPhrase("mw19_att_wpn_oden_mag_25.compactname")
 L["mw19_att_wpn_scar_mag_25.description"] = "Extended magazines hold <color=100,255,100>25 rounds</color> of 7.62 NATO ammunition with a slight weight increase."
 
 L["mw19_att_wpn_scar_mag_30.printname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.printname")
@@ -1004,7 +1005,7 @@ L["mw19_att_wpn_ram7_brl_01.printname"] = "FTAC 13.5\" Compact"
 L["mw19_att_wpn_ram7_brl_01.compactname"] = "Compact"
 L["mw19_att_wpn_ram7_brl_01.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_brl_01.description")
 
-L["mw19_att_wpn_ram7_brl_02.printname"] = "FORGE TAC  Eclipse"
+L["mw19_att_wpn_ram7_brl_02.printname"] = "FORGE TAC Eclipse"
 L["mw19_att_wpn_ram7_brl_02.compactname"] = "Eclipse"
 L["mw19_att_wpn_ram7_brl_02.description"] = "Lightweight extended front shroud houses a 16\" polygonal rifled barrel, increasing both range and muzzle velocity."
 
@@ -1032,7 +1033,7 @@ L["mw19_att_wpn_ram7_mag_50.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141
 
 L["mw19_att_wpn_ram7_mag_9mm.printname"] = "9mm 60-Round Mags" -- UO
 L["mw19_att_wpn_ram7_mag_9mm.compactname"] = "60R 9mm" -- UO
-L["mw19_att_wpn_ram7_mag_9mm.description"] = "Conversion kit to use lower caliber <color=255,255,100>9mm</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements." -- UO
+L["mw19_att_wpn_ram7_mag_9mm.description"] = "Conversion kit to use lower caliber <color=255,255,100>9mm parabellum</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements." -- UO
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_ram7_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")

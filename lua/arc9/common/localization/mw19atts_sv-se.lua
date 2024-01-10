@@ -384,6 +384,7 @@ L["mw19_att_wpn_grau_ub_shark.printname"] = "Cronen Shark II"
 L["mw19_att_wpn_grau_ub_shark.compactname"] = "Shark II"
 L["mw19_att_wpn_grau_ub_shark.description"] = "Taktiskt framgrepp erbjuder bäst-i-klass kontroll att få fram måltavlor."
 
+-- Side-mounted
 L["cod2019_grips_side_merc.printname"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.printname")
 L["cod2019_grips_side_merc.compactname"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.compactname")
 L["cod2019_grips_side_merc.description"] = ARC9:GetPhrase("csgo_cod2019_grips_merc.description")
@@ -795,22 +796,22 @@ L["mw19_att_wpn_famas_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_k
 
 ////////////////////  Oden
 /////////////// Barrels
-L["mw19_att_wpn_oden_brl_01.printname"] = "Oden Factory 810mm"
+L["mw19_att_wpn_oden_brl_01.printname"] = "Oden-Fabrik 810mm"
 L["mw19_att_wpn_oden_brl_01.compactname"] = "810mm"
-L["mw19_att_wpn_oden_brl_01.description"] = "Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility."
+L["mw19_att_wpn_oden_brl_01.description"] = "Längsta tillgängliga pipan. Ökar starkt mynningshastigheten och hjälper att bygga ett mer tufft och stadigt vapen med kostnad på rörlighet."
 
-L["mw19_att_wpn_oden_brl_02.printname"] = "Oden Factory 730mm"
+L["mw19_att_wpn_oden_brl_02.printname"] = "Oden-Fabrik 730mm"
 L["mw19_att_wpn_oden_brl_02.compactname"] = "730mm"
-L["mw19_att_wpn_oden_brl_02.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but slightly affects mobility."
+L["mw19_att_wpn_oden_brl_02.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["mw19_att_wpn_oden_brl_03.printname"] = "Oden Factory 420mm"
+L["mw19_att_wpn_oden_brl_03.printname"] = "Oden-Fabrik 420mm"
 L["mw19_att_wpn_oden_brl_03.compactname"] = "420mm"
-L["mw19_att_wpn_oden_brl_03.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. When mobility matters more than precision."
+L["mw19_att_wpn_oden_brl_03.description"] = "Kort, kompakt pika offrar träffsäkerhet och räckvidd för hastighet och rörlighet. När rörlighet krävs mer än träffsäkerhet."
 
 /////////////// Muzzle
-L["mw19_att_wpn_oden_muzzle_big.printname"] = "Colossus Suppressor"
+L["mw19_att_wpn_oden_muzzle_big.printname"] = "Colossus-Ljuddämpare"
 L["mw19_att_wpn_oden_muzzle_big.compactname"] = "Colossus"
-L["mw19_att_wpn_oden_muzzle_big.description"] = "Extended suppressor adds considerable weight to the barrel, but greatly increases the muzzle velocity and reduces recoil to help with long range precision."
+L["mw19_att_wpn_oden_muzzle_big.description"] = "Förlängd ljuddämpare lägger till betydande vikt till pipan, men ökar starkt mynningshastigheten och sänker rekylen för att hjälpa med träffsäkerhet på längre distanser."
 
 /////////////// Stock
 L["mw19_att_wpn_oden_stock_light.printname"] = stockname.ballast
@@ -826,13 +827,13 @@ L["mw19_att_wpn_oden_stock_medium.compactname"] = "XL Elite"
 L["mw19_att_wpn_oden_stock_medium.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_medium.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_oden_mag_25.printname"] = "25 Round Mags"
-L["mw19_att_wpn_oden_mag_25.compactname"] = "25R"
-L["mw19_att_wpn_oden_mag_25.description"] = "Extended magazines hold <color=100,255,100>25 rounds</color> of 12.7x55mm ammunition with a slight weight increase"
+L["mw19_att_wpn_oden_mag_25.printname"] = "25-Patronersmagasin"
+L["mw19_att_wpn_oden_mag_25.compactname"] = "25P"
+L["mw19_att_wpn_oden_mag_25.description"] = "Förstorade magasin håller <color=100,255,100>25 patroner</color> av 12.7x55mm-ammunition med lätt ökad vikt."
 
 L["mw19_att_wpn_oden_mag_30.printname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.printname")
 L["mw19_att_wpn_oden_mag_30.compactname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.compactname")
-L["mw19_att_wpn_oden_mag_30.description"] = "High capacity magazines hold <color=100,255,100>30 rounds</color> of 12.7x55mm ammunition with a moderate weight increase."
+L["mw19_att_wpn_oden_mag_30.description"] = "Hög kapacitetsmagasin håller <color=100,255,100>30 patroner</color> av 12.7x55mm-ammunition med måttlig ökad vikt."
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_oden_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -855,14 +856,14 @@ L["mw19_att_wpn_m13_brl_01.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_brl
 
 L["mw19_att_wpn_m13_brl_02.printname"] = "Tempus Cyclone"
 L["mw19_att_wpn_m13_brl_02.compactname"] = "Cyclone"
-L["mw19_att_wpn_m13_brl_02.description"] = "<color=255,255,100>Integrated suppressor</color> with a heavy duty monolithic core increases muzzle velocity while maintaining a low sound signature."
+L["mw19_att_wpn_m13_brl_02.description"] = "<color=255,255,100>Inbyggd ljuddämpare</color> med en tung monolitisk kärna ökar mynningshastigheten medans den behåller en låg ljudsignatur."
 
 L["mw19_att_wpn_m13_brl_03.printname"] = "Tempus Marksman"
 L["mw19_att_wpn_m13_brl_03.compactname"] = "Marksman"
-L["mw19_att_wpn_m13_brl_03.description"] = "This 16\" chrome-moly barrel, with an extended guard, increases muzzle velocity and range. Additional weight stabilizes shots for the most accurate barrel available."
+L["mw19_att_wpn_m13_brl_03.description"] = "Denna 410mm kromade pipan, med ett förlängt skydd, ökar mynningshastigheten och räckvidden. Tillagd vikt stabiliserar skotten för den mest träffsäkra, tillgängliga pipan"
 
 /////////////// Stock
-L["mw19_att_wpn_m13_stock_medium.printname"] = "M13 Skeleton Stock"
+L["mw19_att_wpn_m13_stock_medium.printname"] = "M13 Skelettkolv"
 L["mw19_att_wpn_m13_stock_medium.compactname"] = stockname.skeletons
 L["mw19_att_wpn_m13_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
@@ -875,9 +876,9 @@ L["mw19_att_wpn_m13_mag_60.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_ma
 L["mw19_att_wpn_m13_mag_60.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.compactname")
 L["mw19_att_wpn_m13_mag_60.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.description")
 
-L["mw19_att_wpn_m13_mag_blackout.printname"] = ".300 Blackout 30-Round Mags"
-L["mw19_att_wpn_m13_mag_blackout.compactname"] = "30R .300"
-L["mw19_att_wpn_m13_mag_blackout.description"] = "Conversion kit to use <color=255,255,100>.300 Blackout</color> ammunition. Higher caliber with a lower muzzle velocity, these subsonic rounds pack more energy over greater distances."
+L["mw19_att_wpn_m13_mag_blackout.printname"] = ".300 Blackout 30-Patronersmag."
+L["mw19_att_wpn_m13_mag_blackout.compactname"] = "30P .300"
+L["mw19_att_wpn_m13_mag_blackout.description"] = "Konverteringskit för att använda <color=255,255,100>.300 Blackout</color>-ammunition. Högre kaliber med lägre mynningshastighet, dessa subsoniska patronerna har mer energi över större distanser."
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_m13_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -894,13 +895,13 @@ L["mw19_att_wpn_m13_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kil
 
 ////////////////////  FN Scar 17
 /////////////// Barrels
-L["mw19_att_wpn_scar_brl_01.printname"] = "FORGE TAC 17.2\" LB"
-L["mw19_att_wpn_scar_brl_01.compactname"] = "17.2\" LB"
-L["mw19_att_wpn_scar_brl_01.description"] = "17 2\" barrel with a guard extension increase muzzle velocity and extend range. Additional weight stabilizes shots at a small cost to mobility."
+L["mw19_att_wpn_scar_brl_01.printname"] = "FORGE TAC 440mm LB"
+L["mw19_att_wpn_scar_brl_01.compactname"] = "440mm LB"
+L["mw19_att_wpn_scar_brl_01.description"] = "440mm pipa med förlängt skydd ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten med en mindre kostnad på rörlighet."
 
-L["mw19_att_wpn_scar_brl_02.printname"] = "FORGE TAC 20.0\" LB"
-L["mw19_att_wpn_scar_brl_02.compactname"] = "20.0\" LB"
-L["mw19_att_wpn_scar_brl_02.description"] = "20.0\" polygonal rifled barrel with guard extension maxes out muzzle velocity and range. High accuracy comes at the cost of agility."
+L["mw19_att_wpn_scar_brl_02.printname"] = "FORGE TAC 510mm LB"
+L["mw19_att_wpn_scar_brl_02.compactname"] = "510mm LB"
+L["mw19_att_wpn_scar_brl_02.description"] = "510mm polygonellt räfflad pipa med förlängt skydd maximerar mynningshastigheten och räckvidden. Hög träffsäkerhet med kostnad på rörlighet."
 
 L["mw19_att_wpn_scar_brl_03.printname"] = "FORGE TAC CQC Pro"
 L["mw19_att_wpn_scar_brl_03.compactname"] = "CQC Pro"
@@ -916,9 +917,9 @@ L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
 L["mw19_att_wpn_scar_stock_vheavy.description"] = ARC9:GetPhrase("cod2019_stock_vheavy.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_scar_mag_25.printname"] = "25 Round Mags"
-L["mw19_att_wpn_scar_mag_25.compactname"] = "25R"
-L["mw19_att_wpn_scar_mag_25.description"] = "Extended magazines hold <color=100,255,100>25 rounds</color> of 7.62 NATO ammunition with a slight weight increase."
+L["mw19_att_wpn_scar_mag_25.printname"] = ARC9:GetPhrase("mw19_att_wpn_oden_mag_25.printname")
+L["mw19_att_wpn_scar_mag_25.compactname"] = ARC9:GetPhrase("mw19_att_wpn_oden_mag_25.compactname")
+L["mw19_att_wpn_scar_mag_25.description"] = "Förstorade magasin håller <color=100,255,100>25 patroner</color> av 7.62 NATO-ammunition med lätt ökad vikt."
 
 L["mw19_att_wpn_scar_mag_30.printname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.printname")
 L["mw19_att_wpn_scar_mag_30.compactname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.compactname")
@@ -941,28 +942,28 @@ L["mw19_att_wpn_scar_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_ki
 /////////////// Barrels
 L["mw19_att_wpn_ak47_brl_01.printname"] = "Spetsnaz Elite"
 L["mw19_att_wpn_ak47_brl_01.compactname"] = "Spetsnaz"
-L["mw19_att_wpn_ak47_brl_01.description"] = "Heavy weight barrel used by special forces has increased muzzle velocity and improved range with little additional weight."
+L["mw19_att_wpn_ak47_brl_01.description"] = "Tung pipa som används av specialstyrkor har ökad mynningshastighet och förbättrad räckvidd med mindre tillagd vikt."
 
-L["mw19_att_wpn_ak47_brl_02.printname"] = "23.0\" RPK Barrel"
+L["mw19_att_wpn_ak47_brl_02.printname"] = "585mm RPK-Pipa"
 L["mw19_att_wpn_ak47_brl_02.compactname"] = "RPK"
-L["mw19_att_wpn_ak47_brl_02.description"] = "Heavy duty 23.0\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["mw19_att_wpn_ak47_brl_02.description"] = "Tung 585mm pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["mw19_att_wpn_ak47_brl_03.printname"] = "8.1\" Compact Barrel"
-L["mw19_att_wpn_ak47_brl_03.compactname"] = "Compact"
+L["mw19_att_wpn_ak47_brl_03.printname"] = "210mm Kompakt Pipa"
+L["mw19_att_wpn_ak47_brl_03.compactname"] = "Kompakt"
 L["mw19_att_wpn_ak47_brl_03.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_brl_01.description")
 
-L["mw19_att_wpn_ak47_brl_04.printname"] = "23.0\" Romanian"
-L["mw19_att_wpn_ak47_brl_04.compactname"] = "Romanian"
-L["mw19_att_wpn_ak47_brl_04.description"] = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
+L["mw19_att_wpn_ak47_brl_04.printname"] = "585mm Rumänisk"
+L["mw19_att_wpn_ak47_brl_04.compactname"] = "Rumänisk"
+L["mw19_att_wpn_ak47_brl_04.description"] = "585mm pipa med inbyggt och stabilt trädgrepp är den mest stabila och träffsäkra pipan tillgänglig. Betydande vikt sänker rörlighet och hantering."
 
 /////////////// Muzzle
-L["mw19_att_wpn_ak47_bayonet.printname"] = "Bayonet"
-L["mw19_att_wpn_ak47_bayonet.compactname"] = "Bayonet"
-L["mw19_att_wpn_ak47_bayonet.description"] = "Lethal Melee Attack"
+L["mw19_att_wpn_ak47_bayonet.printname"] = "Bajonett"
+L["mw19_att_wpn_ak47_bayonet.compactname"] = "Bajonett"
+L["mw19_att_wpn_ak47_bayonet.description"] = "Dödligt Närstridsangrepp"
 
 /////////////// Stock
-L["mw19_att_wpn_ak47_stock_heavy.printname"] = "Field LMG Stock"
-L["mw19_att_wpn_ak47_stock_heavy.compactname"] = "Field LMG"
+L["mw19_att_wpn_ak47_stock_heavy.printname"] = "Fält Kulspruta Kolv"
+L["mw19_att_wpn_ak47_stock_heavy.compactname"] = "Fält KP."
 L["mw19_att_wpn_ak47_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 L["mw19_att_wpn_ak47_stock_vlight.printname"] = stockname.skeleton
@@ -974,17 +975,17 @@ L["mw19_att_wpn_ak47_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_no
 L["mw19_att_wpn_ak47_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_ak47_mag_40.printname"] = "40 Round Mags"
+L["mw19_att_wpn_ak47_mag_40.printname"] = "40-Patronersmagasin"
 L["mw19_att_wpn_ak47_mag_40.compactname"] = "40R"
-L["mw19_att_wpn_ak47_mag_40.description"] = "Extended magazines hold <color=100,255,100>40 rounds</color> of 7.62x39mm ammunition with a slight weight increase."
+L["mw19_att_wpn_ak47_mag_40.description"] = "Förstorade magasin håller <color=100,255,100>40 patroner</color> av 7.62x39mm-ammunition med lätt ökad vikt."
 
-L["mw19_att_wpn_ak47_mag_545.printname"] = "5.45x39mm 30-Round Mags"
-L["mw19_att_wpn_ak47_mag_545.compactname"] = "30R 5.45"
-L["mw19_att_wpn_ak47_mag_545.description"] = "Conversion kit to use lower caliber <color=255,255,100>5.45x39mm</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements."
+L["mw19_att_wpn_ak47_mag_545.printname"] = "5.45x39mm 30-Patronersmag."
+L["mw19_att_wpn_ak47_mag_545.compactname"] = "30P 5.45"
+L["mw19_att_wpn_ak47_mag_545.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>5.45x39mm</color>-ammunition. Kortare räckvidd, snabbare eldhastighet och mindre rekyl för att dominera strider på nära distanser."
 
-L["mw19_att_wpn_ak47_mag_75.printname"] = "75 Round Drum Mags"
-L["mw19_att_wpn_ak47_mag_75.compactname"] = "75R Drum"
-L["mw19_att_wpn_ak47_mag_75.description"] = "Drum magazines hold <color=100,255,100>75 rounds</color> of 7.62x39mm ammunition, maximizing ammo capacity at the expense of mobility."
+L["mw19_att_wpn_ak47_mag_75.printname"] = "75-Patroners Trummagasin"
+L["mw19_att_wpn_ak47_mag_75.compactname"] = "75P Trum."
+L["mw19_att_wpn_ak47_mag_75.description"] = "Trummagasin som håller <color=100,255,100>75 patroner</color> av 7.62x39mm-ammunition som maximerar ammunitionskapacitet med kostnad på rörlighet."
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_ak47_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -1001,28 +1002,28 @@ L["mw19_att_wpn_ak47_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_ki
 
 ////////////////////  RAM-7
 /////////////// Barrels
-L["mw19_att_wpn_ram7_brl_01.printname"] = "FTAC 13.5\" Compact"
+L["mw19_att_wpn_ram7_brl_01.printname"] = "FTAC 340mm Compact"
 L["mw19_att_wpn_ram7_brl_01.compactname"] = "Compact"
 L["mw19_att_wpn_ram7_brl_01.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_brl_01.description")
 
-L["mw19_att_wpn_ram7_brl_02.printname"] = "FORGE TAC  Eclipse"
+L["mw19_att_wpn_ram7_brl_02.printname"] = "FORGE TAC Eclipse"
 L["mw19_att_wpn_ram7_brl_02.compactname"] = "Eclipse"
-L["mw19_att_wpn_ram7_brl_02.description"] = "Lightweight extended front shroud houses a 16\" polygonal rifled barrel, increasing both range and muzzle velocity."
+L["mw19_att_wpn_ram7_brl_02.description"] = "Lätt förlängd framskydd håller en 410mm polygonellt räfflad pipa som ökar både räckvidd och mynningshastighet."
 
 L["mw19_att_wpn_ram7_brl_03.printname"] = "FSS Ranger"
 L["mw19_att_wpn_ram7_brl_03.compactname"] = "Ranger"
-L["mw19_att_wpn_ram7_brl_03.description"] = "Fully enclosed 460mm barrel provides the ultimate range and accuracy for this weapon. Additional weight affects mobility."
+L["mw19_att_wpn_ram7_brl_03.description"] = "Helt instängd 460mm pipa erbjuder ultimat räckvidd och träffsäkerhet till vapnet. Tillagd vikt påverkar rörlighet."
 
 /////////////// Stock
 L["mw19_att_wpn_ram7_stock_heavy.printname"] = "FTAC Equilibrium"
 L["mw19_att_wpn_ram7_stock_heavy.compactname"] = "Equilibrium"
-L["mw19_att_wpn_ram7_stock_heavy.description"] = "Weighted stock with cushioned recoil pad keeps your aim steady for precision shots."
+L["mw19_att_wpn_ram7_stock_heavy.description"] = "Viktad kolv med vadderad rekylplatta håller ditt sikte stadigt för träffsäkra skott."
 
 L["mw19_att_wpn_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
 L["mw19_att_wpn_ram7_stock_light.compactname"] = "Ultralight"
-L["mw19_att_wpn_ram7_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
+L["mw19_att_wpn_ram7_stock_light.description"] = "Aluminiumkärna syntetisk kolv designad för rörlighet i siktet."
 
-L["mw19_att_wpn_ram7_stock_medium.printname"] = "XRK Close Quarters Stock"
+L["mw19_att_wpn_ram7_stock_medium.printname"] = "XRK Close Quarters-Kolv"
 L["mw19_att_wpn_ram7_stock_medium.compactname"] = stockname.closequartersstocks
 L["mw19_att_wpn_ram7_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
@@ -1031,9 +1032,9 @@ L["mw19_att_wpn_ram7_mag_50.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_m
 L["mw19_att_wpn_ram7_mag_50.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.compactname")
 L["mw19_att_wpn_ram7_mag_50.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.description")
 
-L["mw19_att_wpn_ram7_mag_9mm.printname"] = "9mm 60-Round Mags" -- UO
+L["mw19_att_wpn_ram7_mag_9mm.printname"] = "9mm 60-Patronersmagasin" -- UO
 L["mw19_att_wpn_ram7_mag_9mm.compactname"] = "60R 9mm" -- UO
-L["mw19_att_wpn_ram7_mag_9mm.description"] = "Conversion kit to use lower caliber <color=255,255,100>9mm</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements." -- UO
+L["mw19_att_wpn_ram7_mag_9mm.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>9mm parabellum</color>-ammunition. Kortare räckvidd, snabbare eldhastighet och mindre rekyl för att dominera strider på nära distanser." -- UO
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_ram7_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -1129,13 +1130,13 @@ L["mw19_att_wpn_cr56_stock_vlight.compactname"] = "EXO"
 L["mw19_att_wpn_cr56_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_cr56_mag_45.printname"] = "45 Round Mags"
+L["mw19_att_wpn_cr56_mag_45.printname"] = "45-Patronersmagasin"
 L["mw19_att_wpn_cr56_mag_45.compactname"] = "45R"
-L["mw19_att_wpn_cr56_mag_45.description"] = "Extended magazines hold <color=100,255,100>45 rounds</color> of 7.62x39mm ammunition with a slight weight increase."
+L["mw19_att_wpn_cr56_mag_45.description"] = "Förstorade magasin håller <color=100,255,100>45 patroner</color> av 7.62x39mm-ammunition med lätt ökad vikt."
 
 L["mw19_att_wpn_cr56_mag_m67.printname"] = "M67 10-R Mags"
 L["mw19_att_wpn_cr56_mag_m67.compactname"] = "M67 10-R"
-L["mw19_att_wpn_cr56_mag_m67.description"] = "<color=255,100,100>10 rounds</color> of <color=255,255,100>7.62 M67</color> ammunition designed for increased muzzle velocity, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
+L["mw19_att_wpn_cr56_mag_m67.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>7.62 M67</color> ammunition designed for increased muzzle velocity, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_cr56_rg_gran.printname"] = "XRK CR-56 Granulated Wrap"
@@ -1190,11 +1191,11 @@ L["mw19_att_wpn_an94_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_
 /////////////// Magazine
 L["mw19_att_wpn_an94_mag_45.printname"] = ARC9:GetPhrase("mw19_att_wpn_cr56_mag_45.printname")
 L["mw19_att_wpn_an94_mag_45.compactname"] = ARC9:GetPhrase("mw19_att_wpn_cr56_mag_45.compactname")
-L["mw19_att_wpn_an94_mag_45.description"] = "Extended magazines hold <color=100,255,100>45 rounds</color> of 5.45x39mm ammunition with a slight weight increase."
+L["mw19_att_wpn_an94_mag_45.description"] = "Förstorade magasin håller <color=100,255,100>45 patroner</color> av 5.45x39mm-ammunition med lätt ökad vikt."
 
 L["mw19_att_wpn_an94_mag_60.printname"] = "60 Round Casket Mags"
 L["mw19_att_wpn_an94_mag_60.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.compactname")
-L["mw19_att_wpn_an94_mag_60.description"] = "High capacity magazines hold <color=100,255,100>60 rounds</color> of 5.45x39mm ammunition with a moderate weight increase."
+L["mw19_att_wpn_an94_mag_60.description"] = "Hög kapacitetsmagasin håller <color=100,255,100>60 patroner</color> av 5.45x39mm-ammunition med måttlig ökad vikt."
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_an94_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -1248,11 +1249,11 @@ L["mw19_att_wpn_asval_stock_vheavy.description"] = "Precision Marksman stock pro
 /////////////// Magazine
 L["mw19_att_wpn_asval_mag_30.printname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.printname")
 L["mw19_att_wpn_asval_mag_30.compactname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.compactname")
-L["mw19_att_wpn_asval_mag_30.description"] = "Extended magazines hold <color=100,255,100>30 rounds</color> of 9x19mm ammunition with a slight weight increase."
+L["mw19_att_wpn_asval_mag_30.description"] = "Förstorade magasin håller <color=100,255,100>30 patroner</color> av 9x19mm-ammunition med lätt ökad vikt."
 
 L["mw19_att_wpn_asval_mag_spp.printname"] = "SPP 10-R Mags"
 L["mw19_att_wpn_asval_mag_spp.compactname"] = "SPP 10-R"
-L["mw19_att_wpn_asval_mag_spp.description"] = "<color=255,100,100>10 rounds</color> of <color=255,255,100>9x39mm SPP</color> armor-piercing ammunition designed for increased penetration, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
+L["mw19_att_wpn_asval_mag_spp.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>9x39mm SPP</color> armor-piercing ammunition designed for increased penetration, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_asval_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")

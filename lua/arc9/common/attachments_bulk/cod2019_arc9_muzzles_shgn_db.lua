@@ -1,5 +1,69 @@
 local ATT = {}
 
+local stats_flash = {
+    CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_muzzleflash")] = ""
+	},
+    AimDownSightsTimeAdd = 0.006,
+}
+
+local stats_breach = {
+    BashDamageAdd = 45,
+    AimDownSightsTimeAdd = 0.016,
+}
+
+local stats_choke = {
+    AimDownSightsTimeAdd = 0.011,
+	VisualRecoilMult = 1.1,
+	RecoilMult = 1.1,
+	SpreadMultSights = 0.7,
+	SpreadMult = 0.9,
+    RangeMinMult = 0.96,
+    RangeMaxMult = 0.96,
+}
+
+local stats_comp = {
+    AimDownSightsTimeAdd = 0.012,
+	VisualRecoilMult = 0.75,
+	RecoilMult = 0.75,
+}
+
+local stats_brake = {
+    AimDownSightsTimeAdd = 0.012,
+	VisualRecoilMult = 0.88,
+	RecoilMult = 0.88,
+}
+
+local stats_tac = {
+    CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+	},
+    AimDownSightsTimeAdd = 0.02,
+	VisualRecoilMult = 0.97,
+	RecoilMult = 0.97,
+}
+
+local stats_light = {
+    CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+	},
+    RangeMinMult = 0.75,
+    RangeMaxMult = 0.75,
+	VisualRecoilMult = 0.98,
+	RecoilMult = 0.98,
+}
+
+local stats_mono = {
+    CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+	},
+	AimDownSightsTimeAdd = 0.051,
+    RangeMinMult = 1.03,
+    RangeMaxMult = 1.03,
+	VisualRecoilMult = 0.95,
+	RecoilMult = 0.95,
+}
+
 -------------------------------------------------------------------------------
 ATT = {}
 
@@ -17,8 +81,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_muzzlebrake.mdl"
 
-ATT.RecoilMult = 0.9
-ATT.AimDownSightsTimeMult = 0.93
+table.Merge(ATT, stats_brake)
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
@@ -43,8 +106,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_choke.mdl"
 
-ATT.SpreadMult = 0.88
-ATT.AimDownSightsTimeMult = 0.88
+table.Merge(ATT, stats_choke)
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
@@ -69,8 +131,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_comp.mdl"
 
-ATT.SpreadMult = 0.76
-ATT.AimDownSightsTimeMult = 1.24
+table.Merge(ATT, stats_comp)
 
 --ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_slug"
@@ -95,7 +156,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_muzzlemelee.mdl"
 
-ATT.BashDamageMult = 1.25
+table.Merge(ATT, stats_breach)
 
 --ATT.Silencer = true
 --ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -120,7 +181,8 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_flashhider.mdl"
 
---ATT.Silencer = true
+table.Merge(ATT, stats_flash)
+
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
@@ -143,11 +205,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer01.mdl"
 
-ATT.PhysBulletMuzzleVelocityMult = 0.95
-ATT.RangeMaxMult = 0.95
-ATT.RangeMinMult = 0.95
-
-ATT.AimDownSightsTimeMult = 0.9
+table.Merge(ATT, stats_light)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
@@ -172,13 +230,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer03.mdl"
 
-ATT.PhysBulletMuzzleVelocityMult = 1.1
-ATT.RangeMaxMult = 1.1
-ATT.RangeMinMult = 1.1
-
-ATT.DeployTimeMult = 1.05
-ATT.HolsterTimeMult = 1.05
-ATT.AimDownSightsTimeMult = 1.1
+table.Merge(ATT, stats_tac)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
@@ -203,13 +255,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer02.mdl"
 
-ATT.PhysBulletMuzzleVelocityMult = 1.15
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
-
-ATT.DeployTimeMult = 1.15
-ATT.HolsterTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.15
+table.Merge(ATT, stats_mono)
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"

@@ -1,5 +1,19 @@
 local ATT = {}
 
+local stats_tac = {
+    AimDownSightsTimeAdd = -0.035,
+}
+
+local stats_1mw = {
+    SpreadMultMove = 0.94,
+}
+
+local stats_5mw = {
+    SprintToFireTimeAdd = -0.05,
+    SpreadMultMove = 0.94,
+}
+
+-------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "Tac Laser"
@@ -14,9 +28,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser01.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.03
-ATT.SpreadShootingMult = 0.9
-ATT.SpreadMult = 0.9
+table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -65,10 +77,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SpreadShootingMult = 0.8
-ATT.SpreadMult = 0.8
-ATT.DeployTimeMult = 1.1
+table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -117,10 +126,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.07
-ATT.SpreadShootingMult = 0.85
-ATT.SpreadMult = 0.85
-ATT.DeployTimeMult = 1.03
+table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -168,9 +174,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SpreadShootingMult = 0.9
-ATT.SpreadMult = 0.9
+table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -219,10 +223,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SpreadShootingMult = 0.8
-ATT.SpreadMult = 0.8
-ATT.DeployTimeMult = 1.1
+table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -272,10 +273,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.07
-ATT.SpreadShootingMult = 0.85
-ATT.SpreadMult = 0.85
-ATT.DeployTimeMult = 1.03
+table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -323,9 +321,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl01.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SpreadShootingMult = 0.9
-ATT.SpreadMult = 0.9
+table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -341,16 +337,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1.5, 15, -3),
-        Ang = Angle(0, 0, 45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1.5, 15, -3),
+        -- Ang = Angle(0, 0, 45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 ATT.Scale = 1
 
@@ -373,10 +369,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl02.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.15
-ATT.SpreadShootingMult = 0.8
-ATT.SpreadMult = 0.8
-ATT.DeployTimeMult = 1.1
+table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -392,16 +385,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1.5, 15, -3),
-        Ang = Angle(0, 0, 45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1.5, 15, -3),
+        -- Ang = Angle(0, 0, 45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 
 ATT.Scale = 1
@@ -425,10 +418,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl03.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SpreadShootingMult = 0.85
-ATT.SpreadMult = 0.85
-ATT.DeployTimeMult = 1.03
+table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -444,16 +434,16 @@ ATT.ToggleStats = {
     }
 }
 
-ATT.Sights = {
-    {
-        Pos = Vector(-1.5, 15, -3),
-        Ang = Angle(0, 0, 45),
-        ViewModelFOV = 56,
-        Magnification = 1.25,
-        IgnoreExtra = false,
-		KeepBaseIrons = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-1.5, 15, -3),
+        -- Ang = Angle(0, 0, 45),
+        -- ViewModelFOV = 56,
+        -- Magnification = 1.25,
+        -- IgnoreExtra = false,
+		-- KeepBaseIrons = true,
+    -- },
+-- }
 
 ATT.Scale = 1
 
@@ -476,9 +466,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01_alt.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SpreadShootingMult = 0.9
-ATT.SpreadMult = 0.9
+table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -527,10 +515,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02_alt.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SpreadShootingMult = 0.8
-ATT.SpreadMult = 0.8
-ATT.DeployTimeMult = 1.1
+table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
@@ -579,10 +564,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03_alt.mdl"
 ATT.Folder = "Lasers"
 
-ATT.AimDownSightsTimeMult = 1.07
-ATT.SpreadShootingMult = 0.85
-ATT.SpreadMult = 0.85
-ATT.DeployTimeMult = 1.03
+table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
