@@ -49,8 +49,8 @@ ATT.ShellScale = 0.06
 ATT.ClipSizeOverride = 30
 ATT.RPM = 690
 
-ATT.DamageMaxMult = 0.9
-ATT.DamageMinMult = 0.9
+ATT.DamageMaxMult = 0.85
+ATT.DamageMinMult = 0.85
 
 ATT.RangeMaxMult = 0.8
 
@@ -61,6 +61,13 @@ ATT.ActivateElements = {"mag_none","mag_545"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_smgmag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_smgmag.mdl"
 ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = "j_ammo1",
+    [2] = "j_ammo2",
+	[3] = "j_ammo3",
+	[4] = "j_ammo4",
+}
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_smg")
 ---------------------------------------------------------------------------------------
@@ -169,3 +176,103 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_custom")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "8.1\" Compact Barrel"
+ATT.CompactName = "8.1\" Compact"
+ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_akilo47_barsmg.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_smgbarrel_akilo47.mdl"
+ATT.BoneMerge = false
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_ak47_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_smg"}
+
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.SprintToFireTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 0.9
+ATT.RecoilMult = 1.1
+
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.9
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["grip"] then
+        model:SetBodygroup(0,1)
+    end
+    if swep:GetElements()["laser_cylinder"] then
+        model:SetBodygroup(2,1)
+    end
+	
+    if swep:GetElements()["grip_angled"] then 
+     model:SetPoseParameter("gripstyle", 1)
+    elseif swep:GetElements()["grip"] then 
+     model:SetPoseParameter("gripstyle", 2)
+	 else
+	 model:SetPoseParameter("gripstyle", 0)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- slot of the weapon's attachment
+            Pos = Vector(-8.4, 0, -0.1),
+            Ang = Angle(0,0,0),
+        },
+        [5] = { -- slot of the weapon's attachment
+            Pos = Vector(-3.5, 0, -0.2),
+            Ang = Angle(0,0,180),
+        }
+    }
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Tactical",
+        Pos = Vector(-2.5, 1, 0.25),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = "cod2019_tac_cylinde",
+		InstalledElements = {"laser_cylinder"},
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_smg")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Skeleton Stock"
+ATT.CompactName = "Skeleton Stock"
+ATT.Description = [[Ultralight stock speeds up weapon handling and movement at the expense of aiming stability.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_akilo47_smgstock_unfolded.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_smgstock_unfolded_akilo47.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_ak47_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 0.9
+ATT.SprintToFireTimeMult = 0.9
+ATT.RecoilMult = 1.1
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_stockskel")

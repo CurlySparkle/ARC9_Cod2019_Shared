@@ -74,23 +74,23 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/striker45/attach
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_mag_striker45"}
+ATT.Category = {"cod2019_striker45_mag"}
 ATT.ActivateElements = {"mag_none"}
 
--- Outside
-ATT.LayerSound = "layer_AR.Outside"
-ATT.AtmosSound = "distant_AR.Outside"
--- Inside
-ATT.LayerSoundIndoor = "layer_AR.Inside"
-ATT.AtmosSoundIndoor = "distant_AR.Inside"
----------------------------------------------------
--- Silenced
-ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
-ATT.DistantShootSoundSilenced = "Distant_AR_Sup.Outside"
--- Inside
-ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
-ATT.DistantShootSoundSilencedIndoor = "Distant_AR_Sup.Inside"
----------------------------------------------------
+-- -- Outside
+-- ATT.LayerSound = "layer_AR.Outside"
+-- ATT.AtmosSound = "distant_AR.Outside"
+-- -- Inside
+-- ATT.LayerSoundIndoor = "layer_AR.Inside"
+-- ATT.AtmosSoundIndoor = "distant_AR.Inside"
+-- ---------------------------------------------------
+-- -- Silenced Outside
+-- ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
+-- ATT.DistantShootSoundSilenced = "Distant_AR_Sup.Outside"
+-- -- Silenced Inside
+-- ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
+-- ATT.DistantShootSoundSilencedIndoor = "Distant_AR_Sup.Inside"
+-- ---------------------------------------------------
 
 ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
@@ -184,3 +184,67 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "45 Round Mags"
+ATT.CompactName = "45-Round"
+ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
+ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_xmagslrg.png", "mips smooth")
+
+ATT.ClipSizeOverride = 45
+ATT.ReloadTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.05
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_striker45_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_xmagslrg.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_xmagslrg.mdl"
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "45 Round 9mm Mag"
+ATT.CompactName = "45-Round-9mm"
+ATT.Description = [[Extended magazines hold 45 rounds of 9mm conversion with higher RPM but with a slight weight increase and less damage.]]
+ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_xmagslrg.png", "mips smooth")
+
+ATT.ClipSizeOverride = 45
+ATT.ReloadTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.05
+ATT.RPM = 900
+
+ATT.DamageMaxMult = 0.9
+ATT.DamageMinMult = 0.9
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_striker45_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_xmagslrg.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_xmagslrg.mdl"
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_mag_xmag_9mm")
