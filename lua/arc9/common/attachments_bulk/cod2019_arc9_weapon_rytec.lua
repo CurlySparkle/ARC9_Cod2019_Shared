@@ -119,7 +119,7 @@ ATT.SpeedMult = 0.96
 ATT.SpeedMultSights = 0.84
 ATT.SpreadBipod = -0.05
 
-ATT.BipodPos = Vector(0, -1, 0)
+ATT.BipodPos = Vector(-1.5, -4, 0.7)
 ATT.BipodAng = Angle(0, 0, 0)
 
 ARC9.LoadAttachment(ATT, "cod2019_rytec_bipod")

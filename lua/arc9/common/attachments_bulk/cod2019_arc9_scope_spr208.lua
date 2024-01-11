@@ -2,7 +2,7 @@ local ATT = {}
 
 ATT.PrintName = "SPR208 Scope"
 ATT.CompactName = [[SPR208 Scope]]
-ATT.Icon = Material("entities/attachs/go_optic_schmidt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_scope_vz.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 ATT.Pros = {
     "+ 8x Zoom",
@@ -19,7 +19,7 @@ ATT.ActivateElements = {"scope_spr208"}
 
 ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_spr208.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(-2.5, 0, 0)
+ATT.ModelOffset = Vector(-1.5, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Sights = {
@@ -36,8 +36,8 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 3
-ATT.RTScopeFOVMin = 25
-ATT.RTScopeFOVMax = 8
+ATT.RTScopeFOVMin = 8
+ATT.RTScopeFOVMax = 25
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/mk4_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.15
