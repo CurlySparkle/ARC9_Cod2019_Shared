@@ -149,8 +149,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1024
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
@@ -241,9 +241,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/ReticleEOTech.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 256
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_holo")
+ATT.HoloSightSize = 512 * 1.3
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
@@ -252,8 +251,8 @@ ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeAdjustable = false
 ATT.RTScopeFOV = 25
 ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3.png", "mips")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
+ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeShadowIntensity = 1
 -- ATT.RTScopeBlackBox = true 
 -- ATT.RTScopeBlackBoxShadow = true 
@@ -365,31 +364,14 @@ ATT.Sights = {
         ViewModelFOV = 36,
         IgnoreExtra = false
     },
-    -- {
-        -- Pos = Vector(-1.55, 4, -0.2),
-        -- Ang = Angle(0, 0, 45),
-        -- Magnification = 1.25,
-        -- ViewModelFOV = 65,
-		-- Blur = true,
-		-- Disassociate = true,
-		-- RTScopeNoBlur = true,
-        -- IgnoreExtra = false,
-    -- },
 }
-
--- ATT.HoloSight = true
--- ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
--- ATT.HoloSightReticle:SetInt("$additive", 1)
--- ATT.HoloSightSize = 2048
--- ATT.HoloSightColorable = false
--- ATT.HoloSightColor = Color(255, 255, 255)
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 16
 ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair2.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3")
+ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false

@@ -38,8 +38,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1024
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
@@ -83,11 +83,9 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 128
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
+ATT.HoloSightSize = 1024
 ATT.HoloSightColorable = false
-ATT.HoloSightColor = Color(115, 255, 115)
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east02")
 -------------------------------------------------------------------------
@@ -129,9 +127,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/ReticleEOTech.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 256
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_holo")
+ATT.HoloSightSize = 512 * 1.3
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
@@ -175,11 +172,9 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 64
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
+ATT.HoloSightSize = 512
 ATT.HoloSightColorable = false
-ATT.HoloSightColor = Color(75, 255, 75)
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west02")
 -------------------------------------------------------------------------
@@ -221,11 +216,9 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/kobra_reticle.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 175
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/kobra_reticle")
+ATT.HoloSightSize = 128 * 1.5
 ATT.HoloSightColorable = false
-ATT.HoloSightColor = Color(255, 255, 255)
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east")
 -------------------------------------------------------------------------
@@ -267,8 +260,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1512
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1")
@@ -312,8 +305,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1512
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2")
@@ -356,8 +349,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1512
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3")
@@ -410,9 +403,9 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 16
 ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/ReticleReflex2.png", "mips smooth")
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeShadowIntensity = 0
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -456,9 +449,8 @@ ATT.Sights = {
 }
 
 -- ATT.HoloSight = false
--- ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/ReticleReflex.png", "mips smooth")
--- ATT.HoloSightReticle:SetInt("$additive", 1)
--- ATT.HoloSightSize = 1024
+-- ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
+-- ATT.HoloSightSize = 256
 -- ATT.HoloSightColorable = false
 -- ATT.HoloSightColor = Color(255, 255, 255)
 
@@ -466,7 +458,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 16
 ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/ReticleReflex2.png", "mips smooth")
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
@@ -496,7 +488,7 @@ ATT.ActivateElements = {"sight_minidot","optic"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_reflex_west05.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(-1.1, 0, 0.1)
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.AimDownSightsTimeMult = 1.1
@@ -512,8 +504,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1024
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 64 * 1.5
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05")
@@ -606,8 +598,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1512
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1_alt")
@@ -651,8 +643,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1512
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2_alt")
@@ -696,8 +688,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_dot.png", "mips smooth")
-ATT.HoloSightSize = 1512
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_alt")
