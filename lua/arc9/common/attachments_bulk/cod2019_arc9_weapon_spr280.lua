@@ -2,6 +2,149 @@ local ATT = {}
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "Solozero SP-R 28mm"
+ATT.CompactName = [[SP-R 28mm]]
+ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_scope.png", "mips smooth")
+ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
+ATT.Pros = {
+    "+ 8x Zoom",
+    "+ Clearer sight picture"
+}
+ATT.Cons = {}
+ATT.SortOrder = 4
+ATT.Free = false
+ATT.Folder = "Scopes"
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_optic_spr208","cod2019_scope_snipers"}
+ATT.ActivateElements = {"scope_spr208"}
+
+ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_spr208.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.1
+
+ATT.Sights = {
+    {
+        Pos = Vector(0.015, 9, -1.277),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 26,
+        Magnification = 2,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeAdjustable = true
+ATT.RTScopeAdjustmentLevels = 3
+ATT.RTScopeFOVMin = 7
+ATT.RTScopeFOVMax = 26
+ATT.RTScopeRes = 1024
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_scope_spr208")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "SP-R 26\""
+ATT.CompactName = "SP-R 26\""
+ATT.Description = [[Sloan Precision's contoured 26 inch barrel improves muzzle velocity and extends the weapon's lethal range.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_barlong.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_barlong.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_spr208_barrel"}
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.AimDownSightsTimeMult = 1.25
+ATT.SprintToFireTimeMult = 1.25
+ATT.RecoilMult = 0.85
+
+ATT.RangeMaxMult = 1.25
+ATT.RangeMinMult = 1.25
+ATT.PhysBulletMuzzleVelocityMult = 1.25
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(3.9, 0, 0),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_spr208_barrel_long")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "ZLR Asp"
+ATT.CompactName = "ZLR Asp"
+ATT.Description = [[Ultra light carbon fiber 16.5" barrel from ZLR for rapid close range strikes.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_barshort.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_barshort.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_spr208_barrel"}
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.AimDownSightsTimeMult = 0.85
+ATT.SprintToFireTimeMult = 0.85
+ATT.RecoilMult = 1.25
+
+ATT.RangeMaxMult = 0.85
+ATT.RangeMinMult = 0.85
+ATT.PhysBulletMuzzleVelocityMult = 0.9
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(-6, 0, 0),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_spr208_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "10 Round Mags"
 ATT.CompactName = "10-Round"
@@ -29,6 +172,47 @@ ATT.BulletBones = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_spr208_mag_10")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FORGE TAC MAG ROUNDER"
+ATT.CompactName = "FTAC MAG"
+ATT.Description = [[Special mag designed for special ammo types such as explosiv/thermite, 
+Reduces the total mag use to 5 rounds.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_magcalcust1.png", "mips smooth")
+
+ATT.ClipSizeOverride = 5
+ATT.AimDownSightsTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.1
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_spr208_mag"
+ATT.ActivateElements = {"mag_none","mag_ftac"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_xmags_alt.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_xmags_alt.mdl"
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = "j_bullet01",
+	[2] = "j_bullet02",
+	[3] = "j_bullet03",
+}
+
+ATT.Attachments = {
+    {
+        PrintName = "Ammo",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, -2),
+        Category = "cod2019_ammo_special",
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_spr208_mag_xmag_alt")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -118,3 +302,21 @@ ATT.RHIK = true
 --ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "cod2019_spr208_stock_tac")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Sloan KR-600 Feather"
+ATT.CompactName = "Sloan KR-600"
+ATT.Description = [[Titanium shrouded aluminum core and a skeletalized handle make this bolt assembly lightning fast.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_boltl.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_spr208_bolt"
+ATT.ActivateElements = {"bolt_none","bolt_light"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_boltl.mdl"
+ATT.BoneMerge = true
+
+ARC9.LoadAttachment(ATT, "cod2019_spr208_bolt_light")
