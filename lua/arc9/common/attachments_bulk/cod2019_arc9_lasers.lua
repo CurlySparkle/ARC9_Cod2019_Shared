@@ -159,153 +159,153 @@ ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 180)
 
 ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
---------------------------------------------------------------------------------------------- ALT LASERS
-ATT = {}
+-- --------------------------------------------------------------------------------------------- ALT LASERS
+-- ATT = {}
 
-ATT.PrintName = "Tac Laser"
-ATT.CompactName = "Tac Laser"
-ATT.Description = [[High power 5mW Tactical Green laser. Improves accuracy while aiming down sights. Exposes position when active.]]
+-- ATT.PrintName = "Tac Laser"
+-- ATT.CompactName = "Tac Laser"
+-- ATT.Description = [[High power 5mW Tactical Green laser. Improves accuracy while aiming down sights. Exposes position when active.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_attach_laser_cylinder01.png", "mips smooth")
+-- ATT.Icon = Material("entities/attachs/cod2019_attach_laser_cylinder01.png", "mips smooth")
 
-ATT.SortOrder = 0
-ATT.Category = {"cod2019_tac_alt"}
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01.mdl"
-ATT.Folder = "Lasers"
+-- ATT.SortOrder = 0
+-- ATT.Category = {"cod2019_tac_alt"}
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+-- ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01.mdl"
+-- ATT.Folder = "Lasers"
 
-table.Merge(ATT, stats_tac)
+-- table.Merge(ATT, stats_tac)
 
-ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
-ATT.ToggleStats = {
-    {
-        PrintName = "On",
-        Laser = true,
-        LaserStrength = 3,
-        LaserColor = Color(0, 255, 0),
-        LaserAttachment = 1,
-    },
-    {
-        PrintName = "Off",
-    }
-}
-
--- ATT.Sights = {
+-- ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+-- ATT.ToggleStats = {
     -- {
-        -- Pos = Vector(-1.5, 15, -3),
-        -- Ang = Angle(0, -0.8, 45),
-        -- ViewModelFOV = 56,
-        -- Magnification = 1.25,
-        -- IgnoreExtra = false,
-		-- KeepBaseIrons = true,
+        -- PrintName = "On",
+        -- Laser = true,
+        -- LaserStrength = 3,
+        -- LaserColor = Color(0, 255, 0),
+        -- LaserAttachment = 1,
     -- },
+    -- {
+        -- PrintName = "Off",
+    -- }
 -- }
 
+-- -- ATT.Sights = {
+    -- -- {
+        -- -- Pos = Vector(-1.5, 15, -3),
+        -- -- Ang = Angle(0, -0.8, 45),
+        -- -- ViewModelFOV = 56,
+        -- -- Magnification = 1.25,
+        -- -- IgnoreExtra = false,
+		-- -- KeepBaseIrons = true,
+    -- -- },
+-- -- }
 
-ATT.Scale = 1
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 90)
+-- ATT.Scale = 1
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_01")
----------------------------------------------------------------------------------------------
-ATT = {}
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 90)
 
-ATT.PrintName = "1mW Laser"
-ATT.CompactName = "1mW Laser"
-ATT.Description = [[Low power 1mW red laser improves hipfire accuracy while remaining undetected.]]
+-- ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_01")
+-- ---------------------------------------------------------------------------------------------
+-- ATT = {}
 
-ATT.Icon = Material("entities/attachs/cod2019_attach_laser_cylinder02.png", "mips smooth")
+-- ATT.PrintName = "1mW Laser"
+-- ATT.CompactName = "1mW Laser"
+-- ATT.Description = [[Low power 1mW red laser improves hipfire accuracy while remaining undetected.]]
 
-ATT.SortOrder = 0.5
-ATT.Category = {"cod2019_tac_alt"}
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Icon = Material("entities/attachs/cod2019_attach_laser_cylinder02.png", "mips smooth")
 
-table.Merge(ATT, stats_1mw)
+-- ATT.SortOrder = 0.5
+-- ATT.Category = {"cod2019_tac_alt"}
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+-- ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02.mdl"
+-- ATT.Folder = "Lasers"
 
-ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
-ATT.ToggleStats = {
-    {
-        PrintName = "On",
-        Laser = true,
-        LaserStrength = 3,
-        LaserColor = Color(255, 0, 0),
-        LaserAttachment = 1,
-    },
-    {
-        PrintName = "Off",
-    }
-}
+-- table.Merge(ATT, stats_1mw)
 
--- ATT.Sights = {
+-- ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+-- ATT.ToggleStats = {
     -- {
-        -- Pos = Vector(-1.5, 15, -3),
-        -- Ang = Angle(0, -0.8, 45),
-        -- ViewModelFOV = 56,
-        -- Magnification = 1.25,
-        -- IgnoreExtra = false,
-		-- KeepBaseIrons = true,
+        -- PrintName = "On",
+        -- Laser = true,
+        -- LaserStrength = 3,
+        -- LaserColor = Color(255, 0, 0),
+        -- LaserAttachment = 1,
     -- },
+    -- {
+        -- PrintName = "Off",
+    -- }
 -- }
 
+-- -- ATT.Sights = {
+    -- -- {
+        -- -- Pos = Vector(-1.5, 15, -3),
+        -- -- Ang = Angle(0, -0.8, 45),
+        -- -- ViewModelFOV = 56,
+        -- -- Magnification = 1.25,
+        -- -- IgnoreExtra = false,
+		-- -- KeepBaseIrons = true,
+    -- -- },
+-- -- }
 
-ATT.Scale = 1
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 90)
+-- ATT.Scale = 1
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_02")
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 90)
 
----------------------------------------------------------------------------------------------
-ATT = {}
+-- ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_02")
 
-ATT.PrintName = "5mW Laser"
-ATT.CompactName = "5mW Laser"
-ATT.Description = [[Ultra bright 5mW green laser greatly improves hipfire accuracy. Only for aggressive operators who don't rely on concealment.]]
+-- ---------------------------------------------------------------------------------------------
+-- ATT = {}
 
-ATT.Icon = Material("entities/attachs/cod2019_attach_laser_cylinder03.png", "mips smooth")
+-- ATT.PrintName = "5mW Laser"
+-- ATT.CompactName = "5mW Laser"
+-- ATT.Description = [[Ultra bright 5mW green laser greatly improves hipfire accuracy. Only for aggressive operators who don't rely on concealment.]]
 
-ATT.SortOrder = 1
-ATT.Category = {"cod2019_tac_alt"}
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Icon = Material("entities/attachs/cod2019_attach_laser_cylinder03.png", "mips smooth")
 
-table.Merge(ATT, stats_5mw)
+-- ATT.SortOrder = 1
+-- ATT.Category = {"cod2019_tac_alt"}
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+-- ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03.mdl"
+-- ATT.Folder = "Lasers"
 
-ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
-ATT.ToggleStats = {
-    {
-        PrintName = "On",
-        Laser = true,
-        LaserStrength = 3,
-        LaserColor = Color(0, 255, 0),
-        LaserAttachment = 1,
-    },
-    {
-        PrintName = "Off",
-    }
-}
+-- table.Merge(ATT, stats_5mw)
 
--- ATT.Sights = {
+-- ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+-- ATT.ToggleStats = {
     -- {
-        -- Pos = Vector(-1.5, 15, -3),
-        -- Ang = Angle(0, -0.8, 45),
-        -- ViewModelFOV = 56,
-        -- Magnification = 1.25,
-        -- IgnoreExtra = false,
-		-- KeepBaseIrons = true,
+        -- PrintName = "On",
+        -- Laser = true,
+        -- LaserStrength = 3,
+        -- LaserColor = Color(0, 255, 0),
+        -- LaserAttachment = 1,
     -- },
+    -- {
+        -- PrintName = "Off",
+    -- }
 -- }
 
-ATT.Scale = 1
+-- -- ATT.Sights = {
+    -- -- {
+        -- -- Pos = Vector(-1.5, 15, -3),
+        -- -- Ang = Angle(0, -0.8, 45),
+        -- -- ViewModelFOV = 56,
+        -- -- Magnification = 1.25,
+        -- -- IgnoreExtra = false,
+		-- -- KeepBaseIrons = true,
+    -- -- },
+-- -- }
 
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 90)
+-- ATT.Scale = 1
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_03")
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 90)
+
+-- ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_03")
 --------------------------------------------------------------------------------------------- PISTOL LASERS
 ATT = {}
 

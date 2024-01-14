@@ -1,0 +1,8 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"hud/arc9_cod2019/overlays/sniper_crosshair"
+	//"$alphatest"	"1"
+	"$alphatest" "1"
+	"$ignorez" "1"
+}
