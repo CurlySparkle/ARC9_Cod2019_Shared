@@ -172,9 +172,9 @@ L["cod2019_optic_scope_mike14.printname"] = "Kikarsikte"
 L["cod2019_optic_scope_mike14.compactname"] = "Kikarsikte"
 L["cod2019_optic_scope_mike14.description"] = "Högt kraftfull <color=100,255,100>4.4x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
--- L["mw19_optic_merc.printname"] = "Merc-Värmesikte"
--- L["mw19_optic_merc.compactname"] = "Värmesikte"
--- L["mw19_optic_merc.description"] = "<color=100,255,100>3.25x</color> riktmedel med värmeavbildning markerar mål och erbjuder synlighet i alla ljusförhållanden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon.</color>"
+L["cod2019_optic_thermal_east.printname"] = "Merc-Värmesikte"
+L["cod2019_optic_thermal_east.compactname"] = "Värmesikte"
+L["cod2019_optic_thermal_east.description"] = "<color=100,255,100>3.25x</color> riktmedel med värmeavbildning markerar mål och erbjuder synlighet i alla ljusförhållanden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon.</color>"
 
 -- L["mw19_optic_thermal.printname"] = "Värme- & Hybridsikte"
 -- L["mw19_optic_thermal.compactname"] = "V- & Hybrid"
@@ -634,7 +634,7 @@ L["mw19_att_wpn_kilo141_rg_stippled.description"] = "Stippat pistolgrepptejp beh
 ////////////////////  FAL
 /////////////// Barrels
 L["mw19_att_wpn_fal_brl_01.printname"] = "460mm Ultralight"
-L["mw19_att_wpn_fal_brl_01.compactname"] = "Ultralight"
+L["mw19_att_wpn_fal_brl_01.compactname"] = stockname.ultralights
 L["mw19_att_wpn_fal_brl_01.description"] = "Anpassad gropig pipa med långt lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
 L["mw19_att_wpn_fal_brl_02.printname"] = "XRK Marksman"
@@ -819,7 +819,7 @@ L["mw19_att_wpn_oden_stock_light.compactname"] = stockname.ballasts
 L["mw19_att_wpn_oden_stock_light.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_light.description")
 
 L["mw19_att_wpn_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
-L["mw19_att_wpn_oden_stock_heavy.compactname"] = "Ultralight"
+L["mw19_att_wpn_oden_stock_heavy.compactname"] = stockname.ultralights
 L["mw19_att_wpn_oden_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_heavy.description")
 
 L["mw19_att_wpn_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
@@ -1020,7 +1020,7 @@ L["mw19_att_wpn_ram7_stock_heavy.compactname"] = "Equilibrium"
 L["mw19_att_wpn_ram7_stock_heavy.description"] = "Viktad kolv med vadderad rekylplatta håller ditt sikte stadigt för träffsäkra skott."
 
 L["mw19_att_wpn_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
-L["mw19_att_wpn_ram7_stock_light.compactname"] = "Ultralight"
+L["mw19_att_wpn_ram7_stock_light.compactname"] = stockname.ultralights
 L["mw19_att_wpn_ram7_stock_light.description"] = "Aluminiumkärna syntetisk kolv designad för rörlighet i siktet."
 
 L["mw19_att_wpn_ram7_stock_medium.printname"] = "XRK Close Quarters-Kolv"
