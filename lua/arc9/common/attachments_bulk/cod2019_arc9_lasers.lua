@@ -29,21 +29,21 @@ ATT.SortOrder = 0
 ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser01.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 4,
         LaserColor = Color(0, 255, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -78,21 +78,21 @@ ATT.SortOrder = 0.5
 ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 3,
         LaserColor = Color(255, 0, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -127,21 +127,21 @@ ATT.SortOrder = 1
 ATT.Category = {"cod2019_tac"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 5,
         LaserColor = Color(0, 255, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -175,21 +175,21 @@ ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
 -- ATT.Category = {"cod2019_tac_alt"}
 -- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 -- ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01.mdl"
--- ATT.Folder = "Lasers"
+-- -- ATT.Folder = "Lasers"
 
 -- table.Merge(ATT, stats_tac)
 
 -- ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 -- ATT.ToggleStats = {
     -- {
-        -- PrintName = "On",
+        -- PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         -- Laser = true,
         -- LaserStrength = 3,
         -- LaserColor = Color(0, 255, 0),
         -- LaserAttachment = 1,
     -- },
     -- {
-        -- PrintName = "Off",
+        -- PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     -- }
 -- }
 
@@ -224,21 +224,21 @@ ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
 -- ATT.Category = {"cod2019_tac_alt"}
 -- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 -- ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02.mdl"
--- ATT.Folder = "Lasers"
+-- -- ATT.Folder = "Lasers"
 
 -- table.Merge(ATT, stats_1mw)
 
 -- ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 -- ATT.ToggleStats = {
     -- {
-        -- PrintName = "On",
+        -- PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         -- Laser = true,
         -- LaserStrength = 3,
         -- LaserColor = Color(255, 0, 0),
         -- LaserAttachment = 1,
     -- },
     -- {
-        -- PrintName = "Off",
+        -- PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     -- }
 -- }
 
@@ -274,21 +274,21 @@ ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
 -- ATT.Category = {"cod2019_tac_alt"}
 -- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 -- ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03.mdl"
--- ATT.Folder = "Lasers"
+-- -- ATT.Folder = "Lasers"
 
 -- table.Merge(ATT, stats_5mw)
 
 -- ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 -- ATT.ToggleStats = {
     -- {
-        -- PrintName = "On",
+        -- PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         -- Laser = true,
         -- LaserStrength = 3,
         -- LaserColor = Color(0, 255, 0),
         -- LaserAttachment = 1,
     -- },
     -- {
-        -- PrintName = "Off",
+        -- PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     -- }
 -- }
 
@@ -322,21 +322,21 @@ ATT.SortOrder = 0
 ATT.Category = {"cod2019_tac_pistols"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl01.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 3,
         LaserColor = Color(0, 255, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -370,21 +370,21 @@ ATT.SortOrder = 0.5
 ATT.Category = {"cod2019_tac_pistols"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl02.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 3,
         LaserColor = Color(255, 0, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -419,21 +419,21 @@ ATT.SortOrder = 1
 ATT.Category = {"cod2019_tac_pistols"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl03.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 3,
         LaserColor = Color(0, 255, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -467,21 +467,21 @@ ATT.SortOrder = 0
 ATT.Category = {"cod2019_tac_cylinde"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01_alt.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 4,
         LaserColor = Color(0, 255, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -516,21 +516,21 @@ ATT.SortOrder = 0.5
 ATT.Category = {"cod2019_tac_cylinde"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02_alt.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 3,
         LaserColor = Color(255, 0, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 
@@ -565,21 +565,21 @@ ATT.SortOrder = 1
 ATT.Category = {"cod2019_tac_cylinde"}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03_alt.mdl"
-ATT.Folder = "Lasers"
+-- ATT.Folder = "Lasers"
 
 table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "On",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
         Laser = true,
         LaserStrength = 5,
         LaserColor = Color(0, 255, 0),
         LaserAttachment = 1,
     },
     {
-        PrintName = "Off",
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
     }
 }
 

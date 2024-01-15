@@ -155,7 +155,7 @@ ATT.AimDownSightsTimeMult = 1.02
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("mw19_category_optic2"),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-2, 0, 1),
@@ -163,7 +163,7 @@ ATT.Attachments = {
 		Scale = 1,
     },
     {
-        PrintName = "Alt Optic",
+        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
         Pos = Vector(0.5, 1.1, 0.13),
         Ang = Angle(0, 0, 45),
         Icon_Offset = Vector(0, 0, 0),
@@ -198,7 +198,7 @@ ATT.AimDownSightsTimeMult = 1.02
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("mw19_category_optic2"),
         Pos = Vector(-0.1, 0, -0.42),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1),
@@ -233,7 +233,7 @@ ATT.AimDownSightsTimeMult = 1.02
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = ARC9:GetPhrase("mw19_category_optic2"),
         Pos = Vector(0, 0, -0.42),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1),

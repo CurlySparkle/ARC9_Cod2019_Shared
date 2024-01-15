@@ -13,7 +13,7 @@ ATT.Pros = {
 ATT.Cons = {}
 ATT.SortOrder = 4
 ATT.Free = false
-ATT.Folder = "Scopes"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_optic_sks"}

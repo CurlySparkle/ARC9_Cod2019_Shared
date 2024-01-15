@@ -55,7 +55,7 @@ ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_silenced")
 
 -- ATT.Attachments = {
     -- {
-        -- PrintName = "Stock",
+        -- PrintName = ARC9:GetPhrase("mw19_category_stock2"),
         -- Pos = Vector(-0.4, 0, 0.6),
         -- Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(-3, 0, 0),

@@ -27,7 +27,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.15
 
 ATT.Attachments = {
     {
-        PrintName = "Optics",
+        PrintName = ARC9:GetPhrase("mw19_category_optic2"),
         Pos = Vector(-3.6, 0, -1.53),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),

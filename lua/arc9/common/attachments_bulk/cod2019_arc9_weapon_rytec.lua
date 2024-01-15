@@ -152,7 +152,7 @@ ATT.BulletBones = {
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo",
+        PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, -2),

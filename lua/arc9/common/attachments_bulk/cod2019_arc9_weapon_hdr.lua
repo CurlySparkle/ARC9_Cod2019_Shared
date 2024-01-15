@@ -13,7 +13,7 @@ ATT.Pros = {
 ATT.Cons = {}
 ATT.SortOrder = 4
 ATT.Free = false
-ATT.Folder = "Scopes"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_optic_hdr","cod2019_scope_snipers"}
@@ -164,7 +164,7 @@ ATT.BulletBones = {
 
 ATT.Attachments = {
     {
-        PrintName = "Ammo",
+        PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, -2),

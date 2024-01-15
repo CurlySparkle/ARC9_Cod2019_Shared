@@ -78,7 +78,7 @@ ATT.ActivateElements = {"barrel_none","muzzle_none","barrel_spitfire"}
 
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = ARC9:GetPhrase("mw19_category_muzzle2"),
         Pos = Vector(-10.5, 0, 0.35),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
@@ -86,7 +86,7 @@ ATT.Attachments = {
 		Scale = 1,
     },
     {
-        PrintName = "Tactical",
+        PrintName = ARC9:GetPhrase("mw19_category_laser2"),
         Pos = Vector(-7, 1.2, 0.3),
         Ang = Angle(0, 0, -90),
         Icon_Offset = Vector(0, 0, 0),
@@ -94,7 +94,7 @@ ATT.Attachments = {
 		Scale = 1
     },
     {
-        PrintName = "Grips",
+        PrintName = ARC9:GetPhrase("mw19_category_underbarrel2"),
         Pos = Vector(-6.5, 0, 1.77),
         Ang = Angle(0, 0, 180),
         Icon_Offset = Vector(0, 0, 0),

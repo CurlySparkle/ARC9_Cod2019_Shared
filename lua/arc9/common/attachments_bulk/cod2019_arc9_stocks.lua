@@ -15,7 +15,7 @@ ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_light_tube.mdl"
 --ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)
 -- ATT.ModelAngleOffset = Angle(0,-90,0)
-ATT.Folder = "Tube"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_tube")
 ATT.IconOffset = Vector(0, 0, 0)
 ATT.ActivateElements = {"stock_adapter"}
 
@@ -24,7 +24,7 @@ ATT.RecoilMult = 1.05
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("mw19_category_stock2"),
         Pos = Vector(-1.3, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-3, 0, 0),
@@ -50,7 +50,7 @@ ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_tube_medium.mdl"
 --ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)
 -- ATT.ModelAngleOffset = Angle(0,-90,0)
-ATT.Folder = "Tube"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_tube")
 ATT.IconOffset = Vector(0, 0, 0)
 ATT.ActivateElements = {"stock_adapter"}
 
@@ -59,7 +59,7 @@ ATT.RecoilMult = 0.87
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = ARC9:GetPhrase("mw19_category_stock2"),
         Pos = Vector(-1.3, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-3, 0, 0),

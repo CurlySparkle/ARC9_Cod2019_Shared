@@ -165,7 +165,7 @@ ATT.BoneMerge = true
 
 ATT.Attachments = {
     {
-        PrintName = "Front-Optic",
+        PrintName = ARC9:GetPhrase("mw19_category_optic2"),
         Pos = Vector(-2, 0, -0.75),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
@@ -241,7 +241,7 @@ ATT.Element = {
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = ARC9:GetPhrase("mw19_category_laser2"),
         Pos = Vector(-2.5, 1, 0.25),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),

@@ -24,6 +24,19 @@ xbowbolt = lineb .. "Changes ammo type to <color=255,255,100>Crossbow Bolts</col
 
 //////////////////////////////////////////////////////////////////////
 ///////////////////////////// Attachments
+//////////////////// Attachment Categories
+L["mw19_category_muzzle2"] = "Muzzle"
+L["mw19_category_barrel22"] = "Barrel"
+L["mw19_category_laser2"] = "Laser"
+L["mw19_category_optic2"] = "Optic"
+L["mw19_category_stock2"] = "Stock"
+L["mw19_category_underbarrel2"] = "Underbarrel"
+L["mw19_category_magazine2"] = "Magazine"
+L["mw19_category_reargrip2"] = "Rear Grip"
+L["mw19_category_perk2"] = "Perk"
+
+L["mw19_category_ammo2"] = "Ammo" -- UO
+
 //////////////////// Folder Names
 -- Optics
 L["mw19_folder_rds"] = "Reflex" -- UO

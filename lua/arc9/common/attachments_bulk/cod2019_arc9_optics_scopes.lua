@@ -352,7 +352,7 @@ ATT.Sights = {
 
 ATT.Attachments = {
     {
-        PrintName = "Top Optic",
+        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
         Pos = Vector(0.7, 0, -1.88),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),

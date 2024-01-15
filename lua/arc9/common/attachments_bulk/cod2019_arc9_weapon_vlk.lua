@@ -36,7 +36,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.25
 
 -- ATT.Attachments = {
     -- {
-        -- PrintName = "Muzzle",
+        -- PrintName = ARC9:GetPhrase("mw19_category_muzzle2"),
         -- Pos = Vector(-7.5, 0, 0),
         -- Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(0, 0, 0),
