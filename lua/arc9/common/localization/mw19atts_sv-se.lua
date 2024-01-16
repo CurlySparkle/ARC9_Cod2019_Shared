@@ -315,6 +315,10 @@ L["cod2019_attach_muzzle_silencer_shotgun_02.printname"] = ARC9:GetPhrase("cod20
 L["cod2019_attach_muzzle_silencer_shotgun_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
 L["cod2019_attach_muzzle_silencer_shotgun_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
 
+L["cod2019_attach_muzzle_sil_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname")
+L["cod2019_attach_muzzle_sil_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
+L["cod2019_attach_muzzle_sil_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
+
 -- Lightweight
 L["cod2019_attach_muzzle_silencer03.printname"] = "Lättvikt Ljuddämpare"
 L["cod2019_attach_muzzle_silencer03.compactname"] = "Lättvikt"
@@ -328,6 +332,10 @@ L["cod2019_attach_muzzle_silencer_east03.printname"] = ARC9:GetPhrase("cod2019_a
 L["cod2019_attach_muzzle_silencer_east03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
 L["cod2019_attach_muzzle_silencer_east03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
 
+L["cod2019_attach_muzzle_sil_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname")
+L["cod2019_attach_muzzle_sil_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
+L["cod2019_attach_muzzle_sil_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+
 -- Monolithic
 L["cod2019_attach_muzzle_silencer02.printname"] = "Monolitisk Ljuddämpare"
 L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolitisk"
@@ -340,6 +348,10 @@ L["cod2019_attach_muzzle_silencer_east02.description"] = ARC9:GetPhrase("cod2019
 L["cod2019_attach_muzzle_silencer_shotgun_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
 L["cod2019_attach_muzzle_silencer_shotgun_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
 L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
+
+L["cod2019_attach_muzzle_sil_03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
+L["cod2019_attach_muzzle_sil_03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
+L["cod2019_attach_muzzle_sil_03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
 
 -- FORGE TAC
 L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
