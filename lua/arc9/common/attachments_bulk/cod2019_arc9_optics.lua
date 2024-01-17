@@ -6,6 +6,7 @@ ATT.PrintName = "Operator Reflex Sight"
 ATT.CompactName = [[Reflex]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03.png", "mips smooth")
 ATT.Description = [[Reflex sight of American origin. Provides higher precision.]]
+
 ATT.CustomPros = {
     [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
@@ -25,7 +26,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.05
+ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
@@ -51,12 +52,11 @@ ATT.PrintName = "Monocle Reflex Sight"
 ATT.CompactName = [[Monocle]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east02.png", "mips smooth")
 ATT.Description = [[Reflex sight of Russian origin. Provides higher precision.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -70,7 +70,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
@@ -95,12 +95,11 @@ ATT.PrintName = "Corp Combat Holo Sight"
 ATT.CompactName = [[Holo]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west.png", "mips smooth")
 ATT.Description = [[Advanced holographic sight of American origin.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -114,7 +113,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.015
 
 ATT.Sights = {
     {
@@ -140,12 +139,11 @@ ATT.PrintName = "PBX Holo 7 Sight"
 ATT.CompactName = [[PBX Holo]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west02.png", "mips smooth")
 ATT.Description = [[Advanced holographic sight of American origin.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -159,7 +157,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.05
+ATT.AimDownSightsTimeAdd = 0.015
 
 ATT.Sights = {
     {
@@ -184,12 +182,11 @@ ATT.PrintName = "Viper Reflex Sight"
 ATT.CompactName = [[Viper Reflex]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east.png", "mips smooth")
 ATT.Description = [[Reflex sight of Russian origin. Provides higher precision.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -203,7 +200,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.8, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.05
+ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
@@ -228,12 +225,11 @@ ATT.PrintName = "G.I. Mini Reflex"
 ATT.CompactName = [[G.I.]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.Description = [[G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 3
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -247,7 +243,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
@@ -273,12 +269,11 @@ ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.CompactName = [[Cronen LP945]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.Description = [[Circular reflex frame from Cronen keeps the focus on the target.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 4
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -292,7 +287,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
@@ -317,12 +312,11 @@ ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.CompactName = [[Solozero]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.Description = [[Well rounded precision sight from Solozero Optics provides a balanced sight picture.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 5
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -336,7 +330,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
@@ -361,12 +355,11 @@ ATT.PrintName = "Aim-Op Reflex Sight"
 ATT.CompactName = [[Aim-Op]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips smooth")
 ATT.Description = [[Reflex sight of western origin. Provides higher precision.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -380,13 +373,13 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -1.27),
+        Pos = Vector(0, 5.5, -1.255),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
+        Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false
     },
@@ -401,7 +394,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 16
+ATT.RTScopeFOV = 36 / 1.25
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
@@ -417,12 +410,11 @@ ATT.PrintName = "Low Profile Aim-Op Reflex Sight"
 ATT.CompactName = [[Aim-Op Alt]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips smooth")
 ATT.Description = [[Reflex sight of western origin. Provides higher precision.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -436,13 +428,13 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -0.87),
+        Pos = Vector(0, 5.5, -0.87),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
+        Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false
     },
@@ -456,7 +448,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 16
+ATT.RTScopeFOV = 36 / 1.25
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
@@ -472,12 +464,11 @@ ATT.PrintName = "Cronen Elite Reflex"
 ATT.CompactName = [[Cronen Elite]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_reflex.png", "mips smooth")
 ATT.Description = [[Well rounded precision sight from Cronen Optics provides a balanced sight picture.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 5
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -491,7 +482,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.1
+ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
@@ -509,56 +500,6 @@ ATT.HoloSightSize = 64 * 1.5
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05")
-------------------------------------------------------------------
-ATT = {}
-
-ATT.PrintName = "Cronen 2x2 Elite"
-ATT.CompactName = [[Cronen 2x2 Elite]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_hybrid.png", "mips smooth")
-ATT.Description = [[Advanced optic with 4.0x magnification provides excellent target acquisition.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
-}
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
-ATT.SortOrder = 1
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
-
-ATT.Category = {"cod2019_optic"}
-ATT.ActivateElements = {"optic","optic_scope"}
-
-ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_ar_tango21_hybrid.mdl"
-ATT.Scale = 1
-ATT.ModelOffset = Vector(-1.5, 0, 0.1)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
-ATT.AimDownSightsTimeMult = 1.13
-ATT.VisualRecoilMultSights = 0.5
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 6, -1.25),
-        Ang = Angle(0, 0, 0),
-        Magnification = 2,
-        ViewModelFOV = 35,
-        IgnoreExtra = false
-    },
-}
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 16
-ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png", "mips smooth")
-ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 2
-ATT.RTScopeNoPP = false
-ATT.RTScopeColorable = false
-
-ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_hybrid")
 ---------------------------------------------------------------
 ATT = {}
 
@@ -566,12 +507,11 @@ ATT.PrintName = "APX5 Holographic Sight"
 ATT.CompactName = [[APX5 Holo]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_east.png", "mips smooth")
 ATT.Description = [[Advanced holographic sight of Russian origin.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -585,14 +525,14 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.015
 
 ATT.Sights = {
     {
         Pos = Vector(-0.02, 5, -1.1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 35,
+        ViewModelFOV = 36,
         IgnoreExtra = false
     },
 }
@@ -604,7 +544,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 28
+ATT.RTScopeFOV = 36 / 1.5
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
 ATT.RTScopeReticleScale = 1
@@ -620,12 +560,11 @@ ATT.PrintName = "G.I. Mini Reflex"
 ATT.CompactName = [[G.I.]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.Description = [[G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 1
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -639,7 +578,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.05)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.003
 
 ATT.Sights = {
     {
@@ -665,12 +604,11 @@ ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.CompactName = [[Cronen LP945]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.Description = [[Circular reflex frame from Cronen keeps the focus on the target.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 2
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -684,7 +622,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.05)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.003
 
 ATT.Sights = {
     {
@@ -709,12 +647,11 @@ ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.CompactName = [[Solozero]]
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.Description = [[Well rounded precision sight from Solozero Optics provides a balanced sight picture.]]
-ATT.Pros = {
-    "+ Precision Sight Picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
 }
-ATT.Cons = {
-    "− Aim Down Sight Speed"
-}
+
 ATT.SortOrder = 2
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -728,7 +665,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.05)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeAdd = 0.003
 
 ATT.Sights = {
     {

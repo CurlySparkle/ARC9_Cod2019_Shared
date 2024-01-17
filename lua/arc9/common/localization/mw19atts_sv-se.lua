@@ -24,6 +24,20 @@ xbowbolt = lineb .. "Byter patrontyp till <color=255,255,100>Armborst Bultar</co
 
 //////////////////////////////////////////////////////////////////////
 ///////////////////////////// Attachments
+//////////////////// Attachment Categories
+L["mw19_category_muzzle2"] = "Mynning"
+L["mw19_category_barrel2"] = "Pipa"
+L["mw19_category_laser2"] = "Laser"
+L["mw19_category_optic2"] = "Riktmedel"
+L["mw19_category_stock2"] = "Kolv"
+L["mw19_category_underbarrel2"] = "Under Pipan"
+L["mw19_category_magazine2"] = "Magasin"
+L["mw19_category_reargrip2"] = "Bakre Grepp"
+L["mw19_category_perk2"] = "Färdighet"
+
+L["mw19_category_ammo2"] = "Ammo" -- UO
+L["mw19_category_pump"] = "Pump" -- UO?
+
 //////////////////// Folder Names
 -- Optics
 L["mw19_folder_rds"] = "Reflexsikte" -- UO
@@ -99,9 +113,9 @@ L["cod2019_optic_minireddot1_scope.printname"] = ARC9:GetPhrase("cod2019_optic_m
 L["cod2019_optic_minireddot1_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
 L["cod2019_optic_minireddot1_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
 
--- L["mw19_optic_apx5.printname"] = "APX5 Holografiskt Sikte"
--- L["mw19_optic_apx5.compactname"] = "APX5"
--- L["mw19_optic_apx5.description"] = "Avancerat holografiskt sikte av ryskt ursprung."
+L["cod2019_optic_holo_east.printname"] = "APX5 Holografiskt Sikte"
+L["cod2019_optic_holo_east.compactname"] = "APX5"
+L["cod2019_optic_holo_east.description"] = "Avancerat holografiskt sikte av ryskt ursprung."
 
 L["cod2019_optic_minireddot2.printname"] = "Cronen LP945 Mini Reflex"
 L["cod2019_optic_minireddot2.compactname"] = "Cronen"
@@ -184,9 +198,9 @@ L["cod2019_optic_thermal_east.description"] = "<color=100,255,100>3.25x</color> 
 -- L["mw19_optic_canted.compactname"] = "Sidom."
 -- L["mw19_optic_canted.description"] = "<color=100,255,100>3.25x</color> Scout med sidomonterat reflexsikte låter dig ändra stridsdistansen med ett knyck med handleden."
 
-L["mw19_optic_variable.printname"] = "Variabel Zoom Kikarsikte"
-L["mw19_optic_variable.compactname"] = "Variabel"
-L["mw19_optic_variable.description"] = "Avancerat kikarsikte zoomar mellan <color=100,255,100>3.0x</color> och <color=100,255,100>6.1x</color> för strider på förlängda räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
+L["cod2019_optic_scope_vz.printname"] = "Variabel Zoom Kikarsikte"
+L["cod2019_optic_scope_vz.compactname"] = "Variabel"
+L["cod2019_optic_scope_vz.description"] = "Avancerat kikarsikte zoomar mellan <color=100,255,100>3.0x</color> och <color=100,255,100>6.1x</color> för strider på förlängda räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 L["cod2019_optic_reflex_west05_hybrid.printname"] = "Cronen 2x2 Elite"
 L["cod2019_optic_reflex_west05_hybrid.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname")
@@ -593,29 +607,47 @@ L["cod2019_stock_none.description"] = "Det ultimata \"spring-och-skjut\" alterna
 
 
 ///////////////////////////// Weapon-specific Attachments
+////////////////////////  Universal Strings
+////////////////////  Magazines
+mw19ammotype = {
+	["556"] = "5.56 NATO",
+	["919"] = "9x19mm Parabellum",
+	["939"] = "9x39mm",
+}
+
+mw19magtext = {
+	mag = "%s-Patronersmagasin",
+	mags = "%sP",
+	drum = "%s-Patroner Trumma",
+	
+	desc = "Förstorade magasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med lätt ökad vikt.",
+	descl = "Hög kapacitetsmagasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med måttlig ökad vikt.",
+	descdrum = "Trummagasin håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.",
+}
+
 ////////////////////////  Assault Rifles
 ////////////////////  Kilo 141
 /////////////// Barrels
-L["mw19_att_wpn_kilo141_brl_01.printname"] = "Singuard Arms 422mm SOCOM"
-L["mw19_att_wpn_kilo141_brl_01.compactname"] = "SOCOM"
-L["mw19_att_wpn_kilo141_brl_01.description"] = "Titan-koboltlegerad pipa med förlängt skydd erbjuder mynningshastighet och räckvidd. Måttligt ökad vikt stabiliserar skott men sänker hantering."
+-- L["mw19_att_wpn_kilo141_brl_01.printname"] = "Singuard Arms 422mm SOCOM"
+-- L["mw19_att_wpn_kilo141_brl_01.compactname"] = "SOCOM"
+-- L["mw19_att_wpn_kilo141_brl_01.description"] = "Titan-koboltlegerad pipa med förlängt skydd erbjuder mynningshastighet och räckvidd. Måttligt ökad vikt stabiliserar skott men sänker hantering."
 
-L["mw19_att_wpn_kilo141_brl_02.printname"] = "Singuard Arms 510mm Prowler"
-L["mw19_att_wpn_kilo141_brl_02.compactname"] = "Prowler"
-L["mw19_att_wpn_kilo141_brl_02.description"] = "Rostfritt stål, polygonellt räfflad pipa med förlängt skydd ökar starkt mynningshastigheten och förlänger räckvidden. Ökad vikt stabiliserar skott men förhindrar rörlighet."
+L["cod2019_kilo141_barrel_long.printname"] = "Singuard Arms 510mm Prowler"
+L["cod2019_kilo141_barrel_long.compactname"] = "Prowler"
+L["cod2019_kilo141_barrel_long.description"] = "Rostfritt stål, polygonellt räfflad pipa med förlängt skydd ökar starkt mynningshastigheten och förlänger räckvidden. Ökad vikt stabiliserar skott men förhindrar rörlighet."
 
-L["mw19_att_wpn_kilo141_brl_03.printname"] = "Singuard Arms Whisper"
-L["mw19_att_wpn_kilo141_brl_03.compactname"] = "Whisper"
-L["mw19_att_wpn_kilo141_brl_03.description"] = "Tung <color=255,255,100>intern ljuddämpare</color> med en monolitisk kärna öker mynningshastigheten medans den behåller en låd ljudsignatur."
+L["cod2019_kilo141_barrel_supp.printname"] = "Singuard Arms Whisper"
+L["cod2019_kilo141_barrel_supp.compactname"] = "Whisper"
+L["cod2019_kilo141_barrel_supp.description"] = "Tung <color=255,255,100>intern ljuddämpare</color> med en monolitisk kärna öker mynningshastigheten medans den behåller en låd ljudsignatur."
 
 /////////////// Stock
-L["mw19_att_wpn_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
-L["mw19_att_wpn_kilo141_stock_heavy.compactname"] = "Sniper Pro"
-L["mw19_att_wpn_kilo141_stock_heavy.description"] = "Tung kolv med justerbar kindskydd. Håller ditt sikte stadigt för träffsäkra skott."
+-- L["mw19_att_wpn_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
+-- L["mw19_att_wpn_kilo141_stock_heavy.compactname"] = "Sniper Pro"
+-- L["mw19_att_wpn_kilo141_stock_heavy.description"] = "Tung kolv med justerbar kindskydd. Håller ditt sikte stadigt för träffsäkra skott."
 
-L["mw19_att_wpn_kilo141_stock_medium.printname"] = stockname.closequartersstock
-L["mw19_att_wpn_kilo141_stock_medium.compactname"] = stockname.closequartersstocks
-L["mw19_att_wpn_kilo141_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
+-- L["mw19_att_wpn_kilo141_stock_medium.printname"] = stockname.closequartersstock
+-- L["mw19_att_wpn_kilo141_stock_medium.compactname"] = stockname.closequartersstocks
+-- L["mw19_att_wpn_kilo141_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
 L["mw19_att_wpn_kilo141_mag_50.printname"] = "50-Patronersmagasin"
@@ -626,22 +658,22 @@ L["mw19_att_wpn_kilo141_mag_60.printname"] = "60-Patronersmagasin"
 L["mw19_att_wpn_kilo141_mag_60.compactname"] = "60P"
 L["mw19_att_wpn_kilo141_mag_60.description"] = "Hög kapacitetsmagasin håller <color=100,255,100>60 patroner</color> av 5.56 NATO-ammunition med måttlig ökad vikt."
 
-L["mw19_att_wpn_kilo141_mag_100.printname"] = "100-Patronerstrummor"
-L["mw19_att_wpn_kilo141_mag_100.compactname"] = "100P"
-L["mw19_att_wpn_kilo141_mag_100.description"] = "Trummagasin håller <color=100,255,100>100 patroner</color> av 5.56 NATO vilket maximerar ammunitionskapacitet med kostnad på rörlighet."
+L["cod2019_kilo141_mag_drum.printname"] = string.format(mw19magtext.drum, "100")
+L["cod2019_kilo141_mag_drum.compactname"] = string.format(mw19magtext.mags, "100")
+L["cod2019_kilo141_mag_drum.description"] = string.format(mw19magtext.descdrum, "100", mw19ammotype["556"])
 
 /////////////// Pistol Grips
-L["mw19_att_wpn_kilo141_rg_gran.printname"] = "Granulerad Grepptejp"
-L["mw19_att_wpn_kilo141_rg_gran.compactname"] = "Granulerad"
-L["mw19_att_wpn_kilo141_rg_gran.description"] = "Slät och granulerad tejp för en avslappnat och kontrollerat grepp. Håller dig stadigt och på målet."
+-- L["mw19_att_wpn_kilo141_rg_gran.printname"] = "Granulerad Grepptejp"
+-- L["mw19_att_wpn_kilo141_rg_gran.compactname"] = "Granulerad"
+-- L["mw19_att_wpn_kilo141_rg_gran.description"] = "Slät och granulerad tejp för en avslappnat och kontrollerat grepp. Håller dig stadigt och på målet."
 
-L["mw19_att_wpn_kilo141_rg_rubber.printname"] = "Gummerad Grepptejp"
-L["mw19_att_wpn_kilo141_rg_rubber.compactname"] = "Gummerad"
-L["mw19_att_wpn_kilo141_rg_rubber.description"] = "Gummerat grepp håller vapnet tajt i händerna. Mindre stadigt men hjälper rekylkontrollen."
+-- L["mw19_att_wpn_kilo141_rg_rubber.printname"] = "Gummerad Grepptejp"
+-- L["mw19_att_wpn_kilo141_rg_rubber.compactname"] = "Gummerad"
+-- L["mw19_att_wpn_kilo141_rg_rubber.description"] = "Gummerat grepp håller vapnet tajt i händerna. Mindre stadigt men hjälper rekylkontrollen."
 
-L["mw19_att_wpn_kilo141_rg_stippled.printname"] = "Stippad Grepptejp"
-L["mw19_att_wpn_kilo141_rg_stippled.compactname"] = "Stippad"
-L["mw19_att_wpn_kilo141_rg_stippled.description"] = "Stippat pistolgrepptejp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
+-- L["mw19_att_wpn_kilo141_rg_stippled.printname"] = "Stippad Grepptejp"
+-- L["mw19_att_wpn_kilo141_rg_stippled.compactname"] = "Stippad"
+-- L["mw19_att_wpn_kilo141_rg_stippled.description"] = "Stippat pistolgrepptejp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
 
 ////////////////////  FAL
 /////////////// Barrels
@@ -675,9 +707,9 @@ L["mw19_att_wpn_fal_mag_24.printname"] = "24-Patronersmagasin"
 L["mw19_att_wpn_fal_mag_24.compactname"] = "24P"
 L["mw19_att_wpn_fal_mag_24.description"] = "Förstorade magasin håller <color=100,255,100>24 patroner</color> av 7.62 NATO-ammunition med lätt ökad vikt."
 
-L["mw19_att_wpn_fal_mag_30.printname"] = "30-Patronersmagasin"
-L["mw19_att_wpn_fal_mag_30.compactname"] = "30P"
-L["mw19_att_wpn_fal_mag_30.description"] = "Hög kapacitetsmagasin håller <color=100,255,100>30 patroner</color> av 7.62 NATO-ammunition med måttlig ökad vikt."
+L["cod2019_fal_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_fal_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_fal_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["762"])
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_fal_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -694,17 +726,17 @@ L["mw19_att_wpn_fal_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kil
 
 ////////////////////  M4A1
 /////////////// Barrels
-L["mw19_att_wpn_m4a1_brl_01.printname"] = "FSS 290mm Commando"
-L["mw19_att_wpn_m4a1_brl_01.compactname"] = "Commando"
-L["mw19_att_wpn_m4a1_brl_01.description"] = "Kort, kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Bra för att rensa tajta utrymmen."
+L["cod2019_m4a1_barrel_short.printname"] = "FSS 290mm Commando"
+L["cod2019_m4a1_barrel_short.compactname"] = "Commando"
+L["cod2019_m4a1_barrel_short.description"] = "Kort, kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Bra för att rensa tajta utrymmen."
 
 L["mw19_att_wpn_m4a1_brl_02.printname"] = "Standard M16 Grenadjär"
 L["mw19_att_wpn_m4a1_brl_02.compactname"] = "Grenadjär"
 L["mw19_att_wpn_m4a1_brl_02.description"] = "Tung 510mm pipa ökar starkt mynningshastigheten och förlänger räckvidden. M203-handskydd läger betydande vikt för slätare hantering."
 
-L["mw19_att_wpn_m4a1_brl_03.printname"] = "FSS 370mm Tac Lite"
-L["mw19_att_wpn_m4a1_brl_03.compactname"] = "Tac Lite"
-L["mw19_att_wpn_m4a1_brl_03.description"] = "Lättvikt skydd och pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
+L["cod2019_m4a1_barrel_v3.printname"] = "FSS 370mm Tac Lite"
+L["cod2019_m4a1_barrel_v3.compactname"] = "Tac Lite"
+L["cod2019_m4a1_barrel_v3.description"] = "Lättvikt skydd och pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
 L["mw19_att_wpn_m4a1_brl_04.printname"] = "Corvus Custom Marksman"
 L["mw19_att_wpn_m4a1_brl_04.compactname"] = "Corvus"
@@ -728,13 +760,13 @@ L["mw19_att_wpn_m4a1_stock_medium.compactname"] = stockname.cqss
 L["mw19_att_wpn_m4a1_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_m4a1_mag_50.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.printname")
-L["mw19_att_wpn_m4a1_mag_50.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.compactname")
-L["mw19_att_wpn_m4a1_mag_50.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_50.description")
+L["cod2019_attach_xmag_50.printname"] = string.format(mw19magtext.mag, "50")
+L["cod2019_attach_xmag_50.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_attach_xmag_50.description"] = string.format(mw19magtext.desc, "50", mw19ammotype["556"])
 
-L["mw19_att_wpn_m4a1_mag_60.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.printname")
-L["mw19_att_wpn_m4a1_mag_60.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.compactname")
-L["mw19_att_wpn_m4a1_mag_60.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_mag_60.description")
+L["cod2019_attach_xmag_60.printname"] = string.format(mw19magtext.mag, "60")
+L["cod2019_attach_xmag_60.compactname"] = string.format(mw19magtext.mags, "60")
+L["cod2019_attach_xmag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["556"])
 
 L["mw19_att_wpn_m4a1_mag_9mm.printname"] = "9mm Para 32-Patronersmagasin"
 L["mw19_att_wpn_m4a1_mag_9mm.compactname"] = "32P 9mm"

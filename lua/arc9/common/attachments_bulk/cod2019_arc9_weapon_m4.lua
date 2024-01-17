@@ -31,9 +31,9 @@ local ATT = {}
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "Custom Barrel"
-ATT.CompactName = "Custom"
-ATT.Description = [[]]
+ATT.PrintName = "FSS 14.5\" Tac Lite"
+ATT.CompactName = "Tac Lite"
+ATT.Description = [[Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity.]]
 
 ATT.Icon = Material("entities/attachs/cod2019_ar_m4_barrel_v03.png", "mips smooth")
 
@@ -64,7 +64,7 @@ ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS 11.5\" Commando"
-ATT.CompactName = "FSS 11.5"
+ATT.CompactName = "Commando"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
 
 ATT.Icon = Material("entities/attachs/cod2019_ar_m4_barshort.png", "mips smooth")
