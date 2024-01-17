@@ -127,6 +127,11 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = false -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 3
 
+ATT.AimDownSightsTimeMult = 1.05
+ATT.RangeMaxMult = 1.1
+ATT.RecoilMult = 0.9
+ATT.VisualRecoilMult = 0.9
+
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)

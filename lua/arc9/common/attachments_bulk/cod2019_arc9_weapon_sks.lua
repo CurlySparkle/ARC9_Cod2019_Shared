@@ -38,7 +38,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 16
 ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sks_crosshair.png", "mips smooth")
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sks_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeShadowIntensity = 15
 ATT.RTScopeNoPP = false
@@ -67,10 +67,10 @@ ATT.MuzzleDevice_Priority = 2
 
 ATT.SprintToFireTimeMult = 1.15
 ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilMult = 1.1
+ATT.RecoilMult = 0.9
 
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
+ATT.RangeMaxMult = 1.15
+ATT.RangeMinMult = 1.15
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -108,12 +108,12 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 0.85
-ATT.AimDownSightsTimeMult = 0.85
-ATT.RecoilMult = 1.15
+ATT.SprintToFireTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 0.9
+ATT.RecoilMult = 1.1
 
-ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.9
 
 ATT.Element = {
     AttPosMods = {
@@ -135,9 +135,10 @@ ATT.Description = [[Traditional rifle stock provides exceptional control while a
 
 ATT.Icon = Material("entities/attachs/cod2019_mm_sks_stockhvy2.png", "mips smooth")
 
-ATT.AimDownSightsTimeMult = 0.85
-ATT.SprintToFireTimeMult = 0.85
-ATT.RecoilMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.1
+ATT.RecoilMult = 0.9
+ATT.VisualRecoilMult = 0.9
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_sks_stock"

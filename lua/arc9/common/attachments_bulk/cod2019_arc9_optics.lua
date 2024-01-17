@@ -554,11 +554,65 @@ ATT.RTScopeFOV = 16
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeShadowIntensity = 2
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_hybrid")
+---------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "APX5 Holographic Sight"
+ATT.CompactName = [[APX5 Holo]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_holo_east.png", "mips smooth")
+ATT.Description = [[Advanced holographic sight of Russian origin.]]
+ATT.Pros = {
+    "+ Precision Sight Picture"
+}
+ATT.Cons = {
+    "− Aim Down Sight Speed"
+}
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
+
+ATT.Category = {"cod2019_optic"}
+ATT.ActivateElements = {"optic","optic_scope"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_holo_east.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.15
+
+ATT.Sights = {
+    {
+        Pos = Vector(-0.02, 5, -1.1),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 35,
+        IgnoreExtra = false
+    },
+}
+
+-- ATT.HoloSight = true
+-- ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
+-- ATT.HoloSightSize = 512
+-- ATT.HoloSightColorable = false
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeFOV = 28
+ATT.RTScopeRes = 1024
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_holo_east")
 --------------------------------------------------------------- PISTOLS
 ATT = {}
 
@@ -649,7 +703,6 @@ ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2_alt")
 ------------------------------------------------------------------
-
 ATT = {}
 
 ATT.PrintName = "Solozero Optic Mini Reflex"

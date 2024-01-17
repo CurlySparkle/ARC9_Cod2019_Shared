@@ -80,6 +80,46 @@ ARC9.LoadAttachment(ATT, "cod2019_mp7_barrel_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "50 Round Drums"
+ATT.CompactName = "50 Round"
+ATT.Description = [[Drum magazines hold 50 rounds of 4.6×30mm, maximizing ammo capacity at the expense of mobility.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/cod2019_sm_mp7_mmags.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_mmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_mmags.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_mp7_mag"}
+ATT.ActivateElements = {"mag_none","mag_mmag"}
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+ATT.RecoilMult = 1.05
+
+ATT.ClipSizeOverride = 50
+ATT.ReloadTimeMult = 1.05
+
+ATT.BulletBones = {
+    [1] = "j_bullet1",
+    [2] = "j_bullet2",
+    [3] = "j_bullet3",
+}
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_03.ogg",
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_mp7_mag_50")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "60 Round Drums"
 ATT.CompactName = "60 Round"
 ATT.Description = [[Drum magazines hold 60 rounds of 4.6×30mm, maximizing ammo capacity at the expense of mobility.]]

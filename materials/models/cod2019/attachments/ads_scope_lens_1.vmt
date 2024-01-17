@@ -1,0 +1,7 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"models/cod2019/attachments/ads_scope_lens_1"
+	"$translucent" 	"1"
+	"$ignorez" "1"
+}

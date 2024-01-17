@@ -6,7 +6,7 @@ ATT.PrintName = "Operator"
 ATT.CompactName = "Operator"
 ATT.Description = [[No frills foregrip helps reload speed for faster action.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_grip_stubby01.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_attach_grip_stubby01.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/side/grip_stubby_side.mdl"
 

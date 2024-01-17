@@ -28,6 +28,7 @@ xbowbolt = lineb .. "Changes ammo type to <color=255,255,100>Crossbow Bolts</col
 L["mw19_category_muzzle2"] = "Muzzle"
 L["mw19_category_barrel22"] = "Barrel"
 L["mw19_category_laser2"] = "Laser"
+L["mw19_category_pump"] = "Pump"
 L["mw19_category_optic2"] = "Optic"
 L["mw19_category_stock2"] = "Stock"
 L["mw19_category_underbarrel2"] = "Underbarrel"
