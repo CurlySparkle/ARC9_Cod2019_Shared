@@ -188,7 +188,7 @@ ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west.mdl
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-1, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
-ATT.ActivateElements = {"optic","scope_sniper","optic_scope", "hybrid_scope"}
+ATT.ActivateElements = {"optic","scope_sniper","optic_scope", "hybrid_scope_int"}
 
 ATT.AimDownSightsTimeAdd = 0.042
 ATT.VisualRecoilMult = 0.99
@@ -198,7 +198,7 @@ ATT.Sights = {
     {
         Pos = Vector(0, 6.5, -1.08),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.4,
+        Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false
     },
@@ -224,7 +224,7 @@ ATT.HoloSightColor = Color(255, 255, 255)
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 21
+ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/integral_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 1

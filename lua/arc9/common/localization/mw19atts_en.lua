@@ -957,9 +957,9 @@ L["mw19_att_wpn_scar_brl_03.compactname"] = "CQC Pro"
 L["mw19_att_wpn_scar_brl_03.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_brl_01.description")
 
 /////////////// Stock
-L["mw19_att_wpn_scar_stock_vlight.printname"] = stockname.collapsible
-L["mw19_att_wpn_scar_stock_vlight.compactname"] = stockname.collapsibles
-L["mw19_att_wpn_scar_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["mw19_att_wpn_scar_stock_none.printname"] = stockname.collapsible
+L["mw19_att_wpn_scar_stock_none.compactname"] = stockname.collapsibles
+L["mw19_att_wpn_scar_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 L["mw19_att_wpn_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
 L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
