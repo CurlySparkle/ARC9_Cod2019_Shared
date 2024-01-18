@@ -82,8 +82,8 @@ ARC9.LoadAttachment(ATT, "cod2019_mp5_stock_fullstock")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "Monolithic Integral Suppressor "
-ATT.CompactName = "Monolithic"
+ATT.PrintName = "Subsonic Integral Suppressor "
+ATT.CompactName = "Subsonic"
 ATT.Description = [[Heavy duty monolithic core increases muzzle velocity while maintaining a low sound signature.]]
 ATT.SortOrder = 1
 

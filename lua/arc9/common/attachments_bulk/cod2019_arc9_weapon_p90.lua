@@ -2,9 +2,9 @@ local ATT = {}
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "Heavy Barrel"
-ATT.CompactName = "HB"
-ATT.Description = [[Long-length heavy barrel. Offers superior handling at the cost of performance.]]
+ATT.PrintName = "FORGE TAC Retribution"
+ATT.CompactName = "Retribution"
+ATT.Description = [[Extended front shroud houses a 16" polygonal rifled barrel. Greatly increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/cod2019_sm_p90_custombarrel.png", "mips smooth")

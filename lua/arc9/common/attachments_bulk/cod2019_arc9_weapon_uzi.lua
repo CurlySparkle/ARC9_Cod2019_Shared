@@ -33,39 +33,39 @@ ATT.BulletBones = {
 
 ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_cult")
 ---------------------------------------------------------------------------------------
-ATT = {}
+-- ATT = {}
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "9x19mm 32-Round Mags"
-ATT.CompactName = "9x19mm 32-Round"
-ATT.Description = [[Conversion kit to use 32-round magazines of higher caliber 9x19mm type for increased rate of fire but less stopping power.]]
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+-- ATT.PrintName = "9x19mm 32-Round Mags"
+-- ATT.CompactName = "9x19mm 32-Round"
+-- ATT.Description = [[Conversion kit to use 32-round magazines of higher caliber 9x19mm type for increased rate of fire but less stopping power.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_uzi_mag_clip.png", "mips smooth")
+-- ATT.Icon = Material("entities/attachs/cod2019_sm_uzi_mag_clip.png", "mips smooth")
 
-ATT.RPM = 600 *1.6
-ATT.ClipSizeOverride = 32
-ATT.TriggerDelayTimeMult = 0.75
+-- ATT.RPM = 600 *1.6
+-- ATT.ClipSizeOverride = 32
+-- ATT.TriggerDelayTimeMult = 0.75
 
-ATT.DamageMaxMult = 0.89
-ATT.DamageMinMult = 0.89
-ATT.RangeMinMult = 0.89
-ATT.RangeMaxMult = 0.89
+-- ATT.DamageMaxMult = 0.89
+-- ATT.DamageMinMult = 0.89
+-- ATT.RangeMinMult = 0.89
+-- ATT.RangeMaxMult = 0.89
 
-ATT.SortOrder = 0
-ATT.Category = "cod2019_uzi_mag"
-ATT.ActivateElements = {"mag_none","mag_xmag"}
+-- ATT.SortOrder = 0
+-- ATT.Category = "cod2019_uzi_mag"
+-- ATT.ActivateElements = {"mag_none","mag_xmag"}
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"
-ATT.BoneMerge = true
+-- ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"
+-- ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"
+-- ATT.BoneMerge = true
 
-ATT.BulletBones = {
-    [1] = "j_bullet1",
-    [2] = "j_bullet2",
-	[3] = "j_bullet3",
-}
+-- ATT.BulletBones = {
+    -- [1] = "j_bullet1",
+    -- [2] = "j_bullet2",
+	-- [3] = "j_bullet3",
+-- }
 
-ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_cult_9mm")
+-- ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_cult_9mm")
 ----------------------------------------------------------------------------------------
 ATT = {}
 

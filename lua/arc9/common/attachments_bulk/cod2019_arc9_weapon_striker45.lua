@@ -18,9 +18,9 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_striker45_reciever"}
 ATT.ActivateElements = {"body_none","sights_none","grip_none","body_ump"}
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-ATT.RecoilMult = 0.85
+-- ATT.AimDownSightsTimeMult = 1.1
+-- ATT.SprintToFireTimeMult = 1.1
+-- ATT.RecoilMult = 0.85
 
 -- ATT.RangeMaxMult = 1.25
 -- ATT.RangeMinMult = 1.25
@@ -52,9 +52,9 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_striker45_stock"}
 ATT.ActivateElements = {"stock_none"}
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-ATT.RecoilMult = 0.9
+-- ATT.AimDownSightsTimeMult = 1.1
+-- ATT.SprintToFireTimeMult = 1.1
+-- ATT.RecoilMult = 0.9
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_stock_ump")
 ---------------------------------------------------------------------------------------
@@ -92,17 +92,17 @@ ATT.ActivateElements = {"mag_none"}
 -- ATT.DistantShootSoundSilencedIndoor = "Distant_AR_Sup.Inside"
 -- ---------------------------------------------------
 
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SprintToFireTimeMult = 1.05
-ATT.RecoilMult = 1.1
-ATT.RPM = 666
+-- ATT.AimDownSightsTimeMult = 1.05
+-- ATT.SprintToFireTimeMult = 1.05
+-- ATT.RecoilMult = 1.1
+-- ATT.RPM = 666
 
-ATT.DamageMaxMult = 1.1
-ATT.DamageMinMult = 1.1
+-- ATT.DamageMaxMult = 1.1
+-- ATT.DamageMinMult = 1.1
 
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
-ATT.PhysBulletMuzzleVelocityMult = 1.15
+-- ATT.RangeMaxMult = 1.15
+-- ATT.RangeMinMult = 1.15
+-- ATT.PhysBulletMuzzleVelocityMult = 1.15
 
 ATT.BulletBones = {
     [1] = "j_bullet1",

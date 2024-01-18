@@ -2,8 +2,8 @@ local ATT = {}
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "Silenced Barrel"
-ATT.CompactName = "SB"
+ATT.PrintName = "CX-38S"
+ATT.CompactName = "CX-38S"
 ATT.Description = [[Long-length Silenced barrel. Offers superior handling at the cost of performance.]]
 ATT.SortOrder = 1
 

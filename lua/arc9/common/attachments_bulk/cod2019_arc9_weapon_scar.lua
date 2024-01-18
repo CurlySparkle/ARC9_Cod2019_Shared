@@ -80,3 +80,33 @@ ATT.BulletBones = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_mag_dmr")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "25 Round Mags"
+ATT.CompactName = "25R"
+ATT.Description = "25-Round mags for SCAR."
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_scar_mag_dmr.png", "mips smooth")
+ATT.AutoStats = true
+
+ATT.Free = false
+
+-- ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mag_dmr.mdl"
+-- ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mag_dmr.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_scar_mag"}
+ATT.ActivateElements = {"ammo_extend","mag","mag_extend"}
+
+ATT.ClipSizeOverride = 25
+
+ATT.BulletBones = {
+    [1] = "j_bullet1",
+    [2] = "j_bullet2",
+	[3] = "j_bullet3",
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_scar_mag_ext")
