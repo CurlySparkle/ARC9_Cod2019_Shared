@@ -140,7 +140,7 @@ ATT = {}
 
 ATT.PrintName = "Picatinny Rail Sight Mount"
 ATT.CompactName = [[Picatinny]]
---ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_rail_picatinny.png", "mips smooth")
 ATT.Description = [[Picatinny Adapter that is designed for mounting a second low profile sight.]]
 
 ATT.SortOrder = 1
@@ -183,7 +183,7 @@ ATT = {}
 
 ATT.PrintName = "Flat-Top Riser"
 ATT.CompactName = [[Riser]]
---ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_rail_riser.png", "mips smooth")
 ATT.Description = [[lat-Top Riser adapter that is designed for mounting a sight for more tall sighting.]]
 
 ATT.SortOrder = 1
@@ -218,7 +218,7 @@ ATT = {}
 
 ATT.PrintName = "Flat-Top Riser 2"
 ATT.CompactName = [[Riser 2]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03_riser.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_optic_rail_west03_riser.png", "mips smooth")
 ATT.Description = [[lat-Top Riser adapter that is designed for mounting a sight for more tall sighting. (May not look pretty on larger sights)]]
 
 ATT.SortOrder = 1

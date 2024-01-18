@@ -74,8 +74,9 @@ ATT.Category = {"cod2019_mp5_stock"}
 ATT.ActivateElements = {"stock_none","stock_main_hide"}
 
 ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-ATT.RecoilMult = 0.85
+ATT.RecoilMult = 0.9
+ATT.DrawTimeMult = 1.06
+ATT.HolsterTimeMult = 1.06
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_stock_fullstock")
 ---------------------------------------------------------------------------------------
@@ -96,7 +97,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
-ATT.ActivateElements = {"barrel_none","barrel_supp"}
+ATT.ActivateElements = {"barrel_none","barrel_supp","foregrip_none"}
 
 ATT.AimDownSightsTimeMult = 1.05
 ATT.SprintToFireTimeMult = 1.05
@@ -141,7 +142,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
-ATT.ActivateElements = {"barrel_none","barrel_tact"}
+ATT.ActivateElements = {"barrel_none","muzzle_none","foregrip_none"}
 
 ATT.AimDownSightsTimeMult = 0.9
 ATT.SprintToFireTimeMult = 0.9
@@ -153,11 +154,11 @@ ATT.RangeMinMult = 0.9
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["optic"] then
-        model:SetBodygroup(1,1)
-    end
-end
+-- ATT.DrawFunc = function(swep, model, wm)
+    -- if swep:GetElements()["muzzle"] then
+        -- model:SetBodygroup(1,1)
+    -- end
+-- end
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_light")
 ---------------------------------------------------------------------------------------

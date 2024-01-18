@@ -58,6 +58,9 @@ ATT.Folder = ARC9:GetPhrase("mw19_folder_tube")
 ATT.IconOffset = Vector(0, 0, 0)
 ATT.ActivateElements = {"stock_adapter"}
 
+ATT.AimDownSightsTimeMult = 0.95
+ATT.RecoilMult = 1.05
+
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("mw19_category_stock2"),
@@ -89,6 +92,9 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.Folder = ARC9:GetPhrase("mw19_folder_tube")
 ATT.IconOffset = Vector(0, 0, 0)
 ATT.ActivateElements = {"stock_adapter"}
+
+ATT.AimDownSightsTimeMult = 1.12
+ATT.RecoilMult = 0.87
 
 ATT.Attachments = {
     {

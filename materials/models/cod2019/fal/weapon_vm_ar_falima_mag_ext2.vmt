@@ -1,34 +1,35 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models/cod2019/fal/weapon_vm_ar_falima_mag_ext2"
-    "$bumpmap" "models/cod2019/fal/weapon_vm_ar_falima_mag_ext2_n"
-    "$phongexponenttexture" "models/cod2019/fal/weapon_vm_ar_falima_mag_ext2_exp"
+    "$basetexture" "models\cod2019\fal\weapon_vm_ar_falima_mag_ext2_rgb"
+    "$bumpmap" "models\cod2019\fal\weapon_vm_ar_falima_mag_ext2_n"
+    "$phongexponenttexture" "models\cod2019\fal\weapon_vm_ar_falima_mag_ext2_e"
 
-    "$color2" "[0.8 0.8 0.8]"
-    "$blendtintbybasealpha" "1"
+    /////////////////
+    "$color2" "[0 0 0]"                                     //do not touch this
+    "$blendtintbybasealpha" "1"                             //do not touch this
+    /////////////////
 
     "$phong" "1"
     "$phongboost" "1"
-    "$phongfresnelranges" "[1 0.5 0]"
-    "$phongalbedotint" "0"
+    "$phongalbedotint" "1"
+    "$phongalbedoboost" "30"                                //toy around with this
+    "$phongfresnelranges" "[1 0.1 0]"
+       
+    /////////////////
+    "$normalmapalphaenvmapmask" "1"                         //do not touch this
+    /////////////////
 
-    //"$rimlight" "1"
-    //"$rimlightexponent" "100"
-    //"$rimmask" "1"
-    //"$rimlightboost" "1"
-
-    "$normalmapalphaenvmapmask" "1"
-    "$envmapfresnel" "1"
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.2 0.2 0.2]"
+    "$envmaptint" "[0.157 0.149 0.137]"                 
 
-     "Proxies"
+    //remove this if not using MWB
+    "Proxies"
     {
         "Arc9EnvMapTint"
         {
-            "specularity" "0.5"             //0.25, 0.5, 0.75, 1
             "min" "0"
-            "max" "0.1"                       //change this if too bright in game
+            "max" "1"
+            "color" "[0.157 0.149 0.137]"
         }
     }
 }
