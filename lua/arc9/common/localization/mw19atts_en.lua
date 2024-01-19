@@ -179,7 +179,7 @@ L["cod2019_optic_cronen.compactname"] = "Cronen"
 L["cod2019_optic_cronen.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification provides excellent target acquisition."
 
 L["cod2019_optic_thermal_west_01.printname"] = "Solozero NVG Enhanced"
-L["cod2019_optic_thermal_west_01.compactname"] = "Solozero NVG"
+L["cod2019_optic_thermal_west_01.compactname"] = "Solozero E."
 L["cod2019_optic_thermal_west_01.description"] = "Advanced <color=100,255,100>3.25x</color> Gen 3 night vision with thermal overlay for enhanced situational awareness. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
 
 L["cod2019_optic_scope_mike14.printname"] = "Sniper Scope"
@@ -1291,9 +1291,9 @@ L["cod2019_optic_scope_svd.description"] = "High power <color=100,255,100>5.5x</
 -- L["mw19_att_wpn_asval_stock_vheavy.description"] = "Precision Marksman stock provides exceptional accuracy and recoil dampening at the cost of agility."
 
 /////////////// Magazine
--- L["mw19_att_wpn_asval_mag_30.printname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.printname")
--- L["mw19_att_wpn_asval_mag_30.compactname"] = ARC9:GetPhrase("mw19_att_wpn_fal_mag_30.compactname")
--- L["mw19_att_wpn_asval_mag_30.description"] = "Extended magazines hold <color=100,255,100>30 rounds</color> of 9x39mm ammunition with a slight weight increase."
+-- L["mw19_att_wpn_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+-- L["mw19_att_wpn_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+-- L["mw19_att_wpn_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
 
 -- L["mw19_att_wpn_asval_mag_spp.printname"] = "SPP 10-R Mags"
 -- L["mw19_att_wpn_asval_mag_spp.compactname"] = "SPP 10-R"
@@ -1315,9 +1315,9 @@ L["cod2019_optic_scope_svd.description"] = "High power <color=100,255,100>5.5x</
 ////////////////////////  Submachine Guns
 ////////////////////  AUG
 /////////////// Optics
-L["mw19_att_wpn_aug_optic_integral.printname"] = "Integral 2.8x Optic"
-L["mw19_att_wpn_aug_optic_integral.compactname"] = "Integral"
-L["mw19_att_wpn_aug_optic_integral.description"] = "Built in scope with <color=100,255,100>2.8x</color> magnification provides superior target acquisition."
+-- L["mw19_att_wpn_aug_optic_integral.printname"] = "Integral 2.8x Optic"
+-- L["mw19_att_wpn_aug_optic_integral.compactname"] = "Integral"
+-- L["mw19_att_wpn_aug_optic_integral.description"] = "Built in scope with <color=100,255,100>2.8x</color> magnification provides superior target acquisition."
 
 /////////////// Barrels
 L["cod2019_aug_barrel_ar_long.printname"] = "407mm Extended Barrel"
@@ -1346,9 +1346,9 @@ L["cod2019_aug_stock_tactical.description"] = ARC9:GetPhrase("cod2019_famas_stoc
 -- L["mw19_att_wpn_aug_stock_heavy.description"] = "Heavy weight stock attachment provides stability while aiming."
 
 /////////////// Magazine
--- L["mw19_att_wpn_aug_mag_32.printname"] = "32 Round Mags"
--- L["mw19_att_wpn_aug_mag_32.compactname"] = "32R"
--- L["mw19_att_wpn_aug_mag_32.description"] = "Extended magazines hold <color=100,255,100>32 rounds</color> of 9mm Parabellum ammunition with a slight weight increase."
+-- L["mw19_att_wpn_aug_mag_32.printname"] = string.format(mw19magtext.mag, "32")
+-- L["mw19_att_wpn_aug_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
+-- L["mw19_att_wpn_aug_mag_32.description"] = string.format(mw19magtext.desc, "32", mw19ammotype["919"])
 
 L["cod2019_aug_mag_ar_30.printname"] = "5.56 NATO 30-Round Mags"
 L["cod2019_aug_mag_ar_30.compactname"] = "30R 5.56"
@@ -1373,9 +1373,9 @@ L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5.56 NATO</color>
 
 ////////////////////  P90
 /////////////// Optics
-L["mw19_att_wpn_p90_optic_integral.printname"] = "FSS Ring Sight"
-L["mw19_att_wpn_p90_optic_integral.compactname"] = "FSS"
-L["mw19_att_wpn_p90_optic_integral.description"] = "Custom integral reflex sight provides higher preaslon."
+-- L["mw19_att_wpn_p90_optic_integral.printname"] = "FSS Ring Sight"
+-- L["mw19_att_wpn_p90_optic_integral.compactname"] = "FSS"
+-- L["mw19_att_wpn_p90_optic_integral.description"] = "Custom integral reflex sight provides higher precision."
 
 /////////////// Barrels
 L["cod2019_p90_barrel_custom.printname"] = "FORGE TAC Retribution"
@@ -1466,9 +1466,9 @@ L["cod2019_mp5_stock_fullstock.description"] = "Solid body stock provides a more
 -- L["mw19_att_wpn_mp5_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 /////////////// Magazine
--- L["mw19_att_wpn_mp5_mag_45.printname"] = ARC9:GetPhrase("mw19_att_wpn_cr56_mag_45.printname")
--- L["mw19_att_wpn_mp5_mag_45.compactname"] = ARC9:GetPhrase("mw19_att_wpn_cr56_mag_45.printname")
--- L["mw19_att_wpn_mp5_mag_45.description"] = "Extended magazines hold <color=100,255,100>45 rounds</color> of 9mm Parabellum ammunition with a slight weight increase."
+-- L["mw19_att_wpn_mp5_mag_45.printname"] = string.format(mw19magtext.mag, "45")
+-- L["mw19_att_wpn_mp5_mag_45.compactname"] = string.format(mw19magtext.mags, "45")
+-- L["mw19_att_wpn_mp5_mag_45.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["919"])
 
 L["cod2019_mp5_mag_9mm.printname"] = "10mm Auto 30-Round Mags"
 L["cod2019_mp5_mag_9mm.compactname"] = "30R 10mm"
@@ -1573,8 +1573,8 @@ L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazine
 
 /////////////// Magazine
 -- L["mw19_att_wpn_pp19_mag_84.printname"] = "84 Round Helical Mags"
--- L["mw19_att_wpn_pp19_mag_84.compactname"] = "84R"
--- L["mw19_att_wpn_pp19_mag_84.description"] = "Extended magazines hold <color=100,255,100>84 rounds</color> of 9mm makarov ammunition with a moderate weight increase."
+-- L["mw19_att_wpn_pp19_mag_84.compactname"] = string.format(mw19magtext.mags, "84")
+-- L["mw19_att_wpn_pp19_mag_84.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
 
 /////////////// Pistol Grips
 -- L["mw19_att_wpn_pp19_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -1633,15 +1633,15 @@ L["cod2019_mp7_mag_60.description"] = string.format(mw19magtext.descl, "60", mw1
 /////////////// Cosmetics
 L["cod2019_striker45_reciever_ump.printname"] = "Classic UMP Receiver"
 L["cod2019_striker45_reciever_ump.compactname"] = "Classic"
-L["cod2019_striker45_reciever_ump.description"] = "Classic UMP receiver for the Striker 45. Purely <color=255,255,100>cosmetic</color>."
+L["cod2019_striker45_reciever_ump.description"] = "Classic UMP receiver for the Striker 45."
 
 L["cod2019_striker45_stock_ump.printname"] = "Classic UMP Stock"
 L["cod2019_striker45_stock_ump.compactname"] = "Classic"
-L["cod2019_striker45_stock_ump.description"] = "Classic UMP stock for the Striker 45. Purely <color=255,255,100>cosmetic</color>."
+L["cod2019_striker45_stock_ump.description"] = "Classic UMP stock for the Striker 45."
 
 L["cod2019_striker45_mag_ump.printname"] = "Classic UMP Mags"
 L["cod2019_striker45_mag_ump.compactname"] = "Classic"
-L["cod2019_striker45_mag_ump.description"] = "Classic UMP magazines for the Striker 45. Purely <color=255,255,100>cosmetic</color>."
+L["cod2019_striker45_mag_ump.description"] = "Classic UMP magazines for the Striker 45."
 
 /////////////// Barrels
 -- L["mw19_att_wpn_striker45_brl_01.printname"] = "300mm Poly Barrel"
@@ -1657,17 +1657,17 @@ L["cod2019_striker45_barrel_short.compactname"] = "150mm SS"
 L["cod2019_striker45_barrel_short.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Improves performance in close quarters encounters."
 
 /////////////// Stock
-L["mw19_att_wpn_striker45_stock_light.printname"] = "FSS Guardian"
-L["mw19_att_wpn_striker45_stock_light.compactname"] = "Guardian"
-L["mw19_att_wpn_striker45_stock_light.description"] = "Lightweight custom stock from FSS blends mobility with exceptional stability."
+-- L["mw19_att_wpn_striker45_stock_light.printname"] = "FSS Guardian"
+-- L["mw19_att_wpn_striker45_stock_light.compactname"] = "Guardian"
+-- L["mw19_att_wpn_striker45_stock_light.description"] = "Lightweight custom stock from FSS blends mobility with exceptional stability."
 
-L["mw19_att_wpn_striker45_stock_heavy.printname"] = "FTAC Precision Fixed Stock"
-L["mw19_att_wpn_striker45_stock_heavy.compactname"] = "Fixed"
-L["mw19_att_wpn_striker45_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
+-- L["mw19_att_wpn_striker45_stock_heavy.printname"] = "FTAC Precision Fixed Stock"
+-- L["mw19_att_wpn_striker45_stock_heavy.compactname"] = "Fixed"
+-- L["mw19_att_wpn_striker45_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
-L["mw19_att_wpn_striker45_stock_medium.printname"] = "XRK Gen III Survivalist Series"
-L["mw19_att_wpn_striker45_stock_medium.compactname"] = "Gen III"
-L["mw19_att_wpn_striker45_stock_medium.description"] = "Tactical stock designed for rapid target acquisition, for when fast reflexes mean the difference between life and death."
+-- L["mw19_att_wpn_striker45_stock_medium.printname"] = "XRK Gen III Survivalist Series"
+-- L["mw19_att_wpn_striker45_stock_medium.compactname"] = "Gen III"
+-- L["mw19_att_wpn_striker45_stock_medium.description"] = "Tactical stock designed for rapid target acquisition, for when fast reflexes mean the difference between life and death."
 
 /////////////// Magazine
 L["cod2019_striker45_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
