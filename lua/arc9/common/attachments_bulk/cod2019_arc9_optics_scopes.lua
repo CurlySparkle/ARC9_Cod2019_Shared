@@ -708,3 +708,178 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_hybrid")
+
+------------------------------------------------------------------------- HANDGUN SCOPES
+ATT = {}
+
+ATT.PrintName = "VLK 2.5x"
+ATT.CompactName = [[VLK 2.5x]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_4x_east.png", "mips smooth")
+ATT.Description = [[Russian combat optic with 2.5x magnification provides reliable target acquisition.]]
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "2.5x"
+}
+
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+
+ATT.Category = {"cod2019_optic_pistol"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_4x_east.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ActivateElements = {"optic","scope_sniper","optic_scope"}
+
+ATT.AimDownSightsTimeAdd = 0.021
+ATT.VisualRecoilMult = 0.99
+ATT.RecoilMult = 0.99
+
+ATT.Sights = {
+    {
+        Pos = Vector(0.11, 7 + 5, -1.01),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        IgnoreExtra = false
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeFOV = 36 / 2.5
+ATT.RTScopeAdjustable = false
+-- ATT.RTScopeAdjustmentLevels = 1
+-- ATT.RTScopeFOVMin = 15
+-- ATT.RTScopeFOVMax = 25
+ATT.RTScopeFOV = 16
+ATT.RTScopeRes = 512
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/vlk_crosshair.png", "mips")
+ATT.RTScopeReticleScale = 1.3
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_vlk3_pistol")
+-------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Scout Combat Optic"
+ATT.CompactName = [[Scout]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
+ATT.Description = [[Reflex sight of western origin. Provides higher precision.]]
+
+ATT.CustomPros = {
+   [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "2.75x"
+}
+
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+
+ATT.Category = {"cod2019_optic_pistol"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_4x_west_tall.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ActivateElements = {"optic","optic_scope"}
+
+ATT.AimDownSightsTimeAdd = 0.027
+ATT.VisualRecoilMult = 0.99
+ATT.RecoilMult = 0.99
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 6 + 6, -1.12),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 36,
+        Magnification = 1.15,
+        IgnoreExtra = false
+    },
+}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
+        Pos = Vector(0.7, 0, -1.88),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = "cod2019_optics_pistols_scope",
+		Scale = 1,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 36 / 3.25
+ATT.RTScopeAdjustable = false
+-- ATT.RTScopeAdjustmentLevels = 1
+-- ATT.RTScopeFOVMin = 25
+-- ATT.RTScopeFOVMax = 16
+ATT.RTScopeRes = 1024
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_vzscope_default2.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.65
+ATT.RTScopeShadowIntensity = 24
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+ATT.RTScopeNoShadow = true
+ATT.RTScopeBlackBox = true
+ATT.RTScopeBlackBoxShadow = true
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_scope_scout_pistol")
+-------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Cronen C480 Pro Optic"
+ATT.CompactName = [[Cronen]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west02.png", "mips smooth")
+ATT.Description = [[Advanced optic with 3.0x magnification for rapid target acquisition.]]
+
+ATT.CustomPros = {
+   [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "3.0x"
+}
+
+ATT.SortOrder = 1
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+
+ATT.Category = {"cod2019_optic_pistol"}
+ATT.ActivateElements = {"optic","optic_scope"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_4x_west02.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeAdd = 0.03
+ATT.VisualRecoilMult = 0.99
+ATT.RecoilMult = 0.99
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 6.2 + 6, -1),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        IgnoreExtra = false
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeFOV = 36 / 3.5
+ATT.RTScopeRes = 512
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3")
+ATT.RTScopeReticleScale = 1.75
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+ATT.RTScopeNoBlur = true
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_cronen_pistol")

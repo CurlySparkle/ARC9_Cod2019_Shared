@@ -21,6 +21,7 @@ xbowbolt = lineb .. "Changes ammo type to <color=255,255,100>Crossbow Bolts</col
 -- Therefore they will either remain untranslated (and remain in English) or require community contribution to fix.
 
 -- 2) If a string uses "ARC9:GetPhrase" in it, then do not touch it. It uses another localization as its quick access.
+-- Additionally, if used on an " -- UO" localization, then you can also remove it from the file, as it SHOULD be previously translated.
 
 //////////////////////////////////////////////////////////////////////
 ///////////////////////////// Attachments
@@ -157,6 +158,55 @@ L["cod2019_optic_reflex_west05.printname"] = "Cronen Elite Reflex" -- UO
 L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite" -- UO
 L["cod2019_optic_reflex_west05.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
 
+-- Reflex Sights (Handguns)
+L["cod2019_optic_reflex_west03_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.printname")
+L["cod2019_optic_reflex_west03_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.compactname")
+L["cod2019_optic_reflex_west03_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.description")
+
+L["cod2019_optic_reflex_west_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west.printname")
+L["cod2019_optic_reflex_west_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west.compactname")
+L["cod2019_optic_reflex_west_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west.description")
+
+L["cod2019_optic_aimop_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_aimop.printname")
+L["cod2019_optic_aimop_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_aimop.compactname")
+L["cod2019_optic_aimop_pistol.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
+
+L["cod2019_optic_aimop_alt_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_aimop.printname")
+L["cod2019_optic_aimop_alt_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_aimop.compactname")
+L["cod2019_optic_aimop_alt_pistol.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
+
+L["cod2019_optic_minireddot1_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname")
+L["cod2019_optic_minireddot1_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
+L["cod2019_optic_minireddot1_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
+
+L["cod2019_optic_holo_east_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_holo_east.printname")
+L["cod2019_optic_holo_east_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_holo_east.compactname")
+L["cod2019_optic_holo_east_pistol.description"] = ARC9:GetPhrase("cod2019_optic_holo_east.description")
+
+L["cod2019_optic_minireddot2_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname")
+L["cod2019_optic_minireddot2_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname")
+L["cod2019_optic_minireddot2_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description")
+
+L["cod2019_optic_reflex_east_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_east.printname")
+L["cod2019_optic_reflex_east_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_east.compactname")
+L["cod2019_optic_reflex_east_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_east.description")
+
+L["cod2019_optic_reflex_east02_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.printname")
+L["cod2019_optic_reflex_east02_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.compactname")
+L["cod2019_optic_reflex_east02_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.description")
+
+L["cod2019_optic_reflex_west02_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.printname")
+L["cod2019_optic_reflex_west02_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.compactname")
+L["cod2019_optic_reflex_west02_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.description")
+
+L["cod2019_optic_minireddot3_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname")
+L["cod2019_optic_minireddot3_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname")
+L["cod2019_optic_minireddot3_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description")
+
+L["cod2019_optic_reflex_west05_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname")
+L["cod2019_optic_reflex_west05_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
+L["cod2019_optic_reflex_west05_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
+
 -- Scopes
 L["cod2019_optic_scope_scout.printname"] = "Scout Combat Optic"
 L["cod2019_optic_scope_scout.compactname"] = "Scout"
@@ -205,6 +255,19 @@ L["cod2019_optic_scope_vz.description"] = "Advanced scope zooms between <color=1
 L["cod2019_optic_reflex_west05_hybrid.printname"] = "Cronen 2x2 Elite"
 L["cod2019_optic_reflex_west05_hybrid.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname")
 L["cod2019_optic_reflex_west05_hybrid.description"] = "Advanced optic with <color=100,255,100>4.0x</color> magnification provides excellent target acquisition."
+
+-- Scopes for Handguns
+L["cod2019_optic_scope_scout_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.printname")
+L["cod2019_optic_scope_scout_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.compactname")
+L["cod2019_optic_scope_scout_pistol.description"] = "Precision pistol optic with <color=100,255,100>2.75x</color> magnification for long range target acquisition."
+
+L["cod2019_optic_vlk3_pistol.printname"] = "VLK 2.5x Optic"
+L["cod2019_optic_vlk3_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_vlk3.compactname")
+L["cod2019_optic_vlk3_pistol.description"] = "Russian pistol optic with <color=100,255,100>2.5x</color> magnification provides reliable target acquisition."
+
+L["cod2019_optic_cronen_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_cronen.printname")
+L["cod2019_optic_cronen_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_cronen.compactname")
+L["cod2019_optic_cronen_pistol.description"] = "Advanced pistol optic with <color=100,255,100>3.0x</color> magnification provides excellent target acquisition."
 
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
@@ -333,6 +396,10 @@ L["cod2019_attach_muzzle_sil_02.printname"] = ARC9:GetPhrase("cod2019_attach_muz
 L["cod2019_attach_muzzle_sil_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
 L["cod2019_attach_muzzle_sil_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
 
+L["cod2019_attach_muzzle_silencer_pstl_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname")
+L["cod2019_attach_muzzle_silencer_pstl_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
+L["cod2019_attach_muzzle_silencer_pstl_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
+
 -- Lightweight
 L["cod2019_attach_muzzle_silencer03.printname"] = "Lightweight Suppressor"
 L["cod2019_attach_muzzle_silencer03.compactname"] = "Lightweight"
@@ -350,6 +417,10 @@ L["cod2019_attach_muzzle_sil_01.printname"] = ARC9:GetPhrase("cod2019_attach_muz
 L["cod2019_attach_muzzle_sil_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
 L["cod2019_attach_muzzle_sil_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
 
+L["cod2019_attach_muzzle_silencer_pstl_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname")
+L["cod2019_attach_muzzle_silencer_pstl_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
+L["cod2019_attach_muzzle_silencer_pstl_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+
 -- Monolithic
 L["cod2019_attach_muzzle_silencer02.printname"] = "Monolithic Suppressor"
 L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolithic"
@@ -366,6 +437,10 @@ L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = ARC9:GetPhrase("cod
 L["cod2019_attach_muzzle_sil_03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
 L["cod2019_attach_muzzle_sil_03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
 L["cod2019_attach_muzzle_sil_03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
+
+L["cod2019_attach_muzzle_silencer_pstl_03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
+L["cod2019_attach_muzzle_silencer_pstl_03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
+L["cod2019_attach_muzzle_silencer_pstl_03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
 
 -- FORGE TAC
 L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
