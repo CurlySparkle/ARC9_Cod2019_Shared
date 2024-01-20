@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "viper\mw\weapons\scharlie\weapon_vm_ar_scharlie_barreldmr_rgb"
-    "$bumpmap" "viper\mw\weapons\scharlie\weapon_vm_ar_scharlie_barreldmr_n"
-    "$phongexponenttexture" "viper\mw\weapons\scharlie\weapon_vm_ar_scharlie_barreldmr_e"
+    "$basetexture" "models\cod2019\scar\weapon_vm_ar_scharlie_barreldmr_rgb"
+    "$bumpmap" "models\cod2019\scar\weapon_vm_ar_scharlie_barreldmr_n"
+    "$phongexponenttexture" "models\cod2019\scar\weapon_vm_ar_scharlie_barreldmr_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this
