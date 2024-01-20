@@ -2,9 +2,9 @@ local ATT = {}
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "Heavy Barrel"
-ATT.CompactName = "HB"
-ATT.Description = [[Long-length heavy barrel. Offers superior handling at the cost of performance.]]
+ATT.PrintName = "Plague Sore"
+ATT.CompactName = "Plague Sore"
+ATT.Description = [[]]
 ATT.SortOrder = 1
 
 --ATT.Icon = Material("entities/attachs/cod2019_cx9_barrel_silenced.png", "mips smooth")
@@ -12,18 +12,17 @@ ATT.AutoStats = true
 
 ATT.Free = false
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_receiver_v2_v2.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_receiver_v2.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_svd_reciever"}
 ATT.ActivateElements = {"body_none","foregrip_none"}
 
-ATT.RecoilMult = 0.8
-
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
-ATT.PhysBulletMuzzleVelocityMult = 1.15
+ATT.RecoilMult = 0.85
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+ATT.PhysBulletMuzzleVelocityMult = 1.1
 
 ATT.Attachments = {
     {
@@ -46,28 +45,64 @@ ATT.Sights = {
     }
 }
 
-ARC9.LoadAttachment(ATT, "cod2019_svd_reciever_heavy")
+ARC9.LoadAttachment(ATT, "cod2019_svd_reciever_v2")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Plague Sore"
+ATT.CompactName = "Plague Sore"
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+--ATT.Icon = Material("entities/attachs/cod2019_cx9_barrel_silenced.png", "mips smooth")
+ATT.AutoStats = true
+
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_stock_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_svd_stock"}
+ATT.ActivateElements = {"stock_none","stock_custom"}
+
+ATT.RecoilMult = 0.85
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+ATT.PhysBulletMuzzleVelocityMult = 1.1
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_stock"),
+        Pos = Vector(0, 0, -0.5),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = "cod2019_tube",
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_svd_stock_v2")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "High Capacity Magazine 20-Rounds"
-ATT.CompactName = "20-Round"
-ATT.Description = [[High capacity magazines hold 20 rounds of 7.62×54mmR with a moderate weight increase.]]
+ATT.PrintName = "15 Round Mag"
+ATT.CompactName = "15-Round"
+ATT.Description = [[Extended magazines hold 15 rounds of 7.62×54mmR with a slight weight increase.]]
 
 --ATT.Icon = Material("entities/attachs/go_aug_ammo_9mm.png", "mips smooth")
 
 ATT.ClipSizeOverride = 20
-ATT.ReloadTimeMult = 1.15
+ATT.ReloadTimeMult = 1.1
 ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_svd_mag"
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags2.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags2.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags.mdl"
 ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "cod2019_svd_mag_30")

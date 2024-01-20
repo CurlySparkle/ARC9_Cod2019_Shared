@@ -18,13 +18,19 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_striker45_reciever"}
 ATT.ActivateElements = {"body_none","sights_none","grip_none","body_ump"}
 
--- ATT.AimDownSightsTimeMult = 1.1
--- ATT.SprintToFireTimeMult = 1.1
--- ATT.RecoilMult = 0.85
+ATT.AimDownSightsTimeMult = 1.1
+ATT.RecoilMult = 1.15
 
--- ATT.RangeMaxMult = 1.25
--- ATT.RangeMinMult = 1.25
--- ATT.PhysBulletMuzzleVelocityMult = 1.25
+ATT.ActivePos = Vector(0, 0, 0.5)
+ATT.ActiveAng = Angle(0, 0, 0)
+
+ATT.MovingPos = Vector(-1, -0.8, -1)
+ATT.MovingAng = Angle(0, 0, -10)
+
+ATT.RPM = 666
+
+ATT.DamageMaxMult = 1.15
+ATT.DamageMinMult = 1.15
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["sights"] then
