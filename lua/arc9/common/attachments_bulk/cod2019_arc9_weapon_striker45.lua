@@ -13,6 +13,7 @@ ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_receiver_v2.mdl"
 ATT.BoneMerge = true
+ATT.ViewModel = "models/weapons/cod2019/c_smg_striker45_ump.mdl"
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_striker45_reciever"}

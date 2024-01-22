@@ -1170,13 +1170,13 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "Conversion kit to use lower calibe
 -- L["mw19_att_wpn_grau_brl_02.compactname"] = "Archangel"
 -- L["mw19_att_wpn_grau_brl_02.description"] = "Partially shrouded 26.4\" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship."
 
--- L["mw19_att_wpn_grau_brl_03.printname"] = "ZRK CZEN mk2"
--- L["mw19_att_wpn_grau_brl_03.compactname"] = "CZEN"
--- L["mw19_att_wpn_grau_brl_03.description"] = "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
+L["cod2019_grau556_barrel_heavy.printname"] = "ZRK CZEN mk2"
+L["cod2019_grau556_barrel_heavy.compactname"] = "CZEN"
+L["cod2019_grau556_barrel_heavy.description"] = "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
 
--- L["mw19_att_wpn_grau_brl_04.printname"] = "FSS 20.8\" Nexus"
--- L["mw19_att_wpn_grau_brl_04.compactname"] = "Nexus"
--- L["mw19_att_wpn_grau_brl_04.description"] = "Stainless steel 20.8\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_grau556_barrel_long.printname"] = "FSS 20.8\" Nexus"
+L["cod2019_grau556_barrel_long.compactname"] = "Nexus"
+L["cod2019_grau556_barrel_long.description"] = "Stainless steel 20.8\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
 
 L["mw19_att_wpn_grau_brl_05.printname"] = "FSS 11.8\" Squall"
 L["mw19_att_wpn_grau_brl_05.compactname"] = "Squall"

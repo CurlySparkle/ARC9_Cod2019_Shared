@@ -28,6 +28,30 @@ ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_drum")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "40 Round Mag"
+ATT.CompactName = "40-Round"
+ATT.Description = [[Extended magazines hold 40 rounds of 7.62 Soviet with a slight weight increase.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_akilo47_smgmag.png", "mips smooth")
+
+ATT.ClipSizeOverride = 40
+ATT.ReloadTimeMult = 1.1
+ATT.ReloadMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_akilo47_mag"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_xmags_akilo47.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_xmags_akilo47.mdl"
+ATT.BoneMerge = true
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "5.45×39mm Mag"
 ATT.CompactName = "30-Round 5.45×39"
 ATT.Description = [[Conversion kit to use lower caliber 5.45×39mm ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements.]]
