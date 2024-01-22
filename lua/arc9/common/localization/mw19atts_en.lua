@@ -1344,9 +1344,9 @@ L["cod2019_optic_scope_svd.description"] = "High power <color=100,255,100>5.5x</
 -- L["mw19_att_wpn_asval_brl_02.compactname"] = "Stovl"
 -- L["mw19_att_wpn_asval_brl_02.description"] = "Designed for special forces' raids and reconnaissance, a proprietary monocore provides quality sound suppression in a shorter barrel."
 
--- L["mw19_att_wpn_asval_brl_03.printname"] = "VLK 200mm Osa"
--- L["mw19_att_wpn_asval_brl_03.compactname"] = "Osa"
--- L["mw19_att_wpn_asval_brl_03.description"] = "After-market monolithic integrally suppressed barrel with an aluminum honeycombed shroud significantly increased muzzle velocity and range."
+L["cod2019_asval_barrel_heavy.printname"] = "VLK 200mm Osa"
+L["cod2019_asval_barrel_heavy.compactname"] = "Osa"
+L["cod2019_asval_barrel_heavy.description"] = "After-market monolithic integrally suppressed barrel with an aluminum honeycombed shroud significantly increased muzzle velocity and range."
 
 /////////////// Stock
 -- L["mw19_att_wpn_asval_stock_heavy.printname"] = "VLK Vintazh"
@@ -1366,9 +1366,9 @@ L["cod2019_optic_scope_svd.description"] = "High power <color=100,255,100>5.5x</
 -- L["mw19_att_wpn_asval_stock_vheavy.description"] = "Precision Marksman stock provides exceptional accuracy and recoil dampening at the cost of agility."
 
 /////////////// Magazine
--- L["mw19_att_wpn_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
--- L["mw19_att_wpn_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
--- L["mw19_att_wpn_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
+L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
 
 -- L["mw19_att_wpn_asval_mag_spp.printname"] = "SPP 10-R Mags"
 -- L["mw19_att_wpn_asval_mag_spp.compactname"] = "SPP 10-R"

@@ -908,9 +908,9 @@ L["cod2019_optic_scope_svd.description"] = "Högt kraftfull <color=100,255,100>5
 -- L["mw19_att_wpn_asval_brl_02.compactname"] = "Stovl"
 -- L["mw19_att_wpn_asval_brl_02.description"] = "Designad för  räder och spaningsuppdrag för specialstyrkor, en proprietär monokärna erbjuder kvalitet ljuddämpande i en kortare pipa."
 
--- L["mw19_att_wpn_asval_brl_03.printname"] = "VLK 200mm Osa"
--- L["mw19_att_wpn_asval_brl_03.compactname"] = "Osa"
--- L["mw19_att_wpn_asval_brl_03.description"] = "Eftermarknads monolitisk internt ljuddämpad pipa med ett ihåligt skydd som drastiskt ökar mynningshastighet och räckvidd."
+L["cod2019_asval_barrel_heavy.printname"] = "VLK 200mm Osa"
+L["cod2019_asval_barrel_heavy.compactname"] = "Osa"
+L["cod2019_asval_barrel_heavy.description"] = "Eftermarknads monolitisk internt ljuddämpad pipa med ett ihåligt skydd som drastiskt ökar mynningshastighet och räckvidd."
 
 /////////////// Stock
 -- L["mw19_att_wpn_asval_stock_heavy.printname"] = "VLK Vintazh"
@@ -929,9 +929,9 @@ L["cod2019_optic_scope_svd.description"] = "Högt kraftfull <color=100,255,100>5
 -- L["mw19_att_wpn_asval_stock_vheavy.description"] = "Precision Marksman-kolv erbjuder utmärkt träffsäkerhet och rekyldämpande med kostnad på rörlighet."
 
 /////////////// Magazine
--- L["mw19_att_wpn_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
--- L["mw19_att_wpn_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
--- L["mw19_att_wpn_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
+L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
 
 -- L["mw19_att_wpn_asval_mag_spp.printname"] = "SPP 10-Patronersmagasin"
 -- L["mw19_att_wpn_asval_mag_spp.compactname"] = "SPP 10-P"

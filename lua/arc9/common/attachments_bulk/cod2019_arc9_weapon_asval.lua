@@ -38,9 +38,9 @@ ARC9.LoadAttachment(ATT, "cod2019_asval_barrel_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "VLK 200mm Osa"
-ATT.CompactName = "VLK 200mm"
-ATT.Description = [[After-market monolithic integrally suppressed barrel with an aluminum honeycombed shroud significantly increased muzzle velocity and range.]]
+ATT.PrintName = "30-Round Mags"
+ATT.CompactName = "30R"
+ATT.Description = [[30-round mags for the AS VAL.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/cod2019_ar_asval_xmags.png", "mips smooth")
