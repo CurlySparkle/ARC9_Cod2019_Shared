@@ -25,7 +25,7 @@ ATT.RecoilMult = 0.85
 ATT.RecoilKickMult = 0.9
 
 ATT.AimDownSightsTimeMult = 0.75
-ATT.DeployTimeMult = 0.75
+ATT.DeployTimeMultMult = 0.75
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"

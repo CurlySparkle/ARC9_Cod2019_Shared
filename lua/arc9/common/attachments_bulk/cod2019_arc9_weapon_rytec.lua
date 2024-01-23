@@ -204,7 +204,7 @@ ATT.ActivateElements = {"stock_none"}
 ATT.AimDownSightsTimeMult = 0.8
 ATT.RecoilMult = 1.2
 ATT.VisualRecoilMult = 1.2
-ATT.DrawTimeMult = 0.85
+ATT.DeployTimeMult = 0.85
 ATT.HolsterTimeMult = 0.85
 
 ARC9.LoadAttachment(ATT, "cod2019_rytec_stock_light")

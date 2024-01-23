@@ -189,7 +189,7 @@ ATT.Folder = ARC9:GetPhrase("mw19_folder_side")
 
 ATT.AimDownSightsTimeMult = 1.07
 ATT.RecoilMult = 0.9
-ATT.DeployTimeMult = 1.07
+ATT.DeployTimeMultMult = 1.07
 ATT.HolsterTimeMult = 1.07
 
 ATT.LHIK_Priority = 10

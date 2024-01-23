@@ -19,6 +19,10 @@ ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 3
 
+ATT.DeployTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.1
+ATT.RangeMaxMult = 1.1
+
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["sight_back_folded"] then
         model:SetBodygroup(2,1)

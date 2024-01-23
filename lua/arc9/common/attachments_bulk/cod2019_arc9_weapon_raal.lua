@@ -21,7 +21,7 @@ ATT.MuzzleDevice_Priority = 3
 
 ATT.SprintToFireTimeMult = 0.85
 ATT.AimDownSightsTimeMult = 0.85
-ATT.DeployTimeMult = 0.85
+ATT.DeployTimeMultMult = 0.85
 ATT.HolsterTimeMult = 0.85
 
 ATT.RecoilMult = 1.15
