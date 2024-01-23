@@ -7,7 +7,7 @@ ATT.PrintName = "FORGE TAC 20.0 LB"
 ATT.CompactName = "20.0 LB"
 ATT.Description = [[]]
 
---ATT.Icon = Material("entities/attachs/cod2019_mike4_barrel_v03.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_scar_barrel_long.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_barrel_long.mdl"
 ATT.BoneMerge = true
@@ -43,6 +43,29 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_barrel_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC Collapsible Stock"
+ATT.CompactName = "FTAC Collapsible"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Collapsing the stock greatly increases movement.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_scar_stock_light.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_stock_light.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_scar_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 0.89
+ATT.DrawTimeMult = 0.87
+ATT.HolsterTimeMult = 0.87
+ATT.RecoilKickMult = 1.25
+
+ARC9.LoadAttachment(ATT, "cod2019_stock_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -83,25 +106,31 @@ ARC9.LoadAttachment(ATT, "cod2019_scar_mag_dmr")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "25 Round Mags"
-ATT.CompactName = "25R"
-ATT.Description = "25-Round mags for SCAR."
+ATT.PrintName = "30 Round 5.56 NATO Mag"
+ATT.CompactName = "30R 5.56"
+ATT.Description = "Extended magazines hold 30 rounds of 5.56 NATO with a slight weight increase."
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_scar_mag_dmr.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
 
--- ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mag_dmr.mdl"
--- ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mag_dmr.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mags_ar.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mags_ar.mdl"
+ATT.ShellScale = 0.075
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
-ATT.ActivateElements = {"ammo_extend","mag","mag_extend"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
 
-ATT.ClipSizeOverride = 25
+ATT.RPM = 625
+ATT.ClipSizeOverride = 30
+ATT.RecoilMult = 1.1
+ATT.DamageMaxMult = 0.95
+ATT.DamageMinMult = 0.95
+ATT.ReloadTimeMult = 1.1
 
 ATT.BulletBones = {
     [1] = "j_bullet1",
@@ -109,4 +138,10 @@ ATT.BulletBones = {
 	[3] = "j_bullet3",
 }
 
-ARC9.LoadAttachment(ATT, "cod2019_scar_mag_ext")
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_scar_mag_ar")
