@@ -679,8 +679,8 @@ L["cod2019_scar_barrel_long.description"] = "510mm polygonellt räfflad pipa med
 -- L["mw19_att_wpn_scar_brl_03.compactname"] = "CQC Pro"
 
 /////////////// Stock
--- L["mw19_att_wpn_scar_stock_none.printname"] = stockname.collapsible
--- L["mw19_att_wpn_scar_stock_none.compactname"] = stockname.collapsibles
+L["cod2019_scar_stock_light.printname"] = stockname.collapsible
+L["cod2019_scar_stock_light.compactname"] = stockname.collapsibles
 
 -- L["mw19_att_wpn_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
 -- L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
@@ -697,6 +697,10 @@ L["cod2019_scar_mag_ext.description"] = string.format(mw19magtext.desc, "25", mw
 L["cod2019_scar_mag_dmr.printname"] = "6.5mm Creedmoor 10P." -- UO
 L["cod2019_scar_mag_dmr.compactname"] = "6.5mm 10P" -- UO
 L["cod2019_scar_mag_dmr.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>6.5mm Creedmoor</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen." -- UO
+
+L["cod2019_scar_mag_ar.printname"] = "30P 5.56 Magasin" -- UO
+L["cod2019_scar_mag_ar.compactname"] = "30P 5.56" -- UO
+L["cod2019_scar_mag_ar.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>5.56mm NATO</color>-ammunition för ökad rekylkontroll med kostnad på stoppkraft." -- UO
 
 ////////////////////  AK-47
 /////////////// Barrels
@@ -784,24 +788,27 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "Konverteringskit för att använda
 -- L["mw19_att_wpn_grau_brl_02.compactname"] = "Archangel"
 -- L["mw19_att_wpn_grau_brl_02.description"] = "Partially shrouded 26.4\" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship."
 
--- L["mw19_att_wpn_grau_brl_03.printname"] = "ZRK CZEN mk2"
--- L["mw19_att_wpn_grau_brl_03.compactname"] = "CZEN"
--- L["mw19_att_wpn_grau_brl_03.description"] = "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
+L["cod2019_grau556_barrel_heavy.printname"] = "ZRK CZEN mk2"
+L["cod2019_grau556_barrel_heavy.compactname"] = "CZEN"
+L["cod2019_grau556_barrel_heavy.description"] = "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
 
--- L["mw19_att_wpn_grau_brl_04.printname"] = "FSS 20.8\" Nexus"
--- L["mw19_att_wpn_grau_brl_04.compactname"] = "Nexus"
--- L["mw19_att_wpn_grau_brl_04.description"] = "Stainless steel 20.8\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_grau556_barrel_long.printname"] = "FSS 20.8\" Nexus"
+L["cod2019_grau556_barrel_long.compactname"] = "Nexus"
+L["cod2019_grau556_barrel_long.description"] = "Stainless steel 20.8\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
 
 L["mw19_att_wpn_grau_brl_05.printname"] = "FSS 300mm Squall"
 L["mw19_att_wpn_grau_brl_05.compactname"] = "Squall"
 
 /////////////// Stock
--- L["mw19_att_wpn_grau_stock_heavy.printname"] = "FSS Blackjack"
--- L["mw19_att_wpn_grau_stock_heavy.compactname"] = "Blackjack"
+L["cod2019_grau556_stock_heavy.printname"] = "FSS Blackjack"
+L["cod2019_grau556_stock_heavy.compactname"] = "Blackjack"
 
 -- L["mw19_att_wpn_grau_stock_light.printname"] = "XRK StrikeLite III"
 -- L["mw19_att_wpn_grau_stock_light.compactname"] = "StrikeLite III"
 -- L["mw19_att_wpn_grau_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
+
+L["cod2019_grau556_stock_none.printname"] = stockname.none
+L["cod2019_grau556_stock_none.compactname"] = stockname.nones
 
 ////////////////////  CR-56 AMAX
 /////////////// Barrels

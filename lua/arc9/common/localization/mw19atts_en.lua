@@ -1015,9 +1015,9 @@ L["cod2019_scar_barrel_long.description"] = "20.0\" polygonal rifled barrel with
 -- L["mw19_att_wpn_scar_brl_03.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 /////////////// Stock
--- L["mw19_att_wpn_scar_stock_none.printname"] = stockname.collapsible
--- L["mw19_att_wpn_scar_stock_none.compactname"] = stockname.collapsibles
--- L["mw19_att_wpn_scar_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_scar_stock_light.printname"] = stockname.collapsible
+L["cod2019_scar_stock_light.compactname"] = stockname.collapsibles
+L["cod2019_scar_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
 -- L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
@@ -1035,6 +1035,10 @@ L["cod2019_scar_mag_ext.description"] = string.format(mw19magtext.desc, "25", mw
 L["cod2019_scar_mag_dmr.printname"] = "6.5mm Creedmoor 10R Mags" -- UO
 L["cod2019_scar_mag_dmr.compactname"] = "6.5mm 10R" -- UO
 L["cod2019_scar_mag_dmr.description"] = "Conversion kit to use high caliber <color=255,255,100>6.5mm Creedmoor</color> ammunition for increased stopping power. Slower cyclic rate helps control recoil." -- UO
+
+L["cod2019_scar_mag_ar.printname"] = "30R 5.56 Mags" -- UO
+L["cod2019_scar_mag_ar.compactname"] = "30R 5.56" -- UO
+L["cod2019_scar_mag_ar.description"] = "Conversion kit to use lower caliber <color=255,255,100>5.56mm NATO</color> ammunition for improved recoil control at the cost of stopping power." -- UO
 
 /////////////// Pistol Grips
 -- L["mw19_att_wpn_scar_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
@@ -1183,13 +1187,17 @@ L["mw19_att_wpn_grau_brl_05.compactname"] = "Squall"
 L["mw19_att_wpn_grau_brl_05.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description")
 
 /////////////// Stock
--- L["mw19_att_wpn_grau_stock_heavy.printname"] = "FSS Blackjack"
--- L["mw19_att_wpn_grau_stock_heavy.compactname"] = "Blackjack"
--- L["mw19_att_wpn_grau_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_stock_heavy.description")
+L["cod2019_grau556_stock_heavy.printname"] = "FSS Blackjack"
+L["cod2019_grau556_stock_heavy.compactname"] = "Blackjack"
+L["cod2019_grau556_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_stock_heavy.description")
 
 -- L["mw19_att_wpn_grau_stock_light.printname"] = "XRK StrikeLite III"
 -- L["mw19_att_wpn_grau_stock_light.compactname"] = "StrikeLite III"
 -- L["mw19_att_wpn_grau_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
+
+L["cod2019_grau556_stock_none.printname"] = stockname.none
+L["cod2019_grau556_stock_none.compactname"] = stockname.nones
+L["cod2019_grau556_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 /////////////// Magazine
 L["cod2019_grau556_mag_m13.printname"] = ARC9:GetPhrase("mw19_att_wpn_m13_mag_blackout.printname")

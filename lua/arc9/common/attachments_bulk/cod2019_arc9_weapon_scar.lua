@@ -65,7 +65,7 @@ ATT.DrawTimeMult = 0.87
 ATT.HolsterTimeMult = 0.87
 ATT.RecoilKickMult = 1.25
 
-ARC9.LoadAttachment(ATT, "cod2019_stock_light")
+ARC9.LoadAttachment(ATT, "cod2019_scar_stock_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
