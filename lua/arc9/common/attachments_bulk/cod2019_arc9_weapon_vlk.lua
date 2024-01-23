@@ -2,8 +2,8 @@ local ATT = {}
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "Heavy Barrel"
-ATT.CompactName = "HB"
+ATT.PrintName = "VLK Czar"
+ATT.CompactName = "Czar"
 ATT.Description = [[Long-length heavy barrel. Offers superior handling at the cost of performance.]]
 ATT.SortOrder = 1
 

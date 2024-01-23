@@ -89,4 +89,4 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_barrels"}
 ATT.ActivateElements = {"barrel_none","front_sight_none","barrel_long"}
 
-ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_mid")
+ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_mid")

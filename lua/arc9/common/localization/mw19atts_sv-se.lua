@@ -248,36 +248,36 @@ L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Låd-ljuddämpare 
 
 ////////////////////  Underbarrel
 ///////// Grips
-L["csgo_cod2019_angled.printname"] = "Kommando Framgrepp"
-L["csgo_cod2019_angled.compactname"] = "Kommando"
-L["csgo_cod2019_angled.description"] = "Tung vikt vinklat grepp håller vapnet stadigt i siktet och hjälper behålla kontrollen under tung eld."
+L["cod2019_angled.printname"] = "Kommando Framgrepp"
+L["cod2019_angled.compactname"] = "Kommando"
+L["cod2019_angled.description"] = "Tung vikt vinklat grepp håller vapnet stadigt i siktet och hjälper behålla kontrollen under tung eld."
 
-L["csgo_cod2019_grips_merc.printname"] = "Merc-Framgrepp"
-L["csgo_cod2019_grips_merc.compactname"] = "Merc"
-L["csgo_cod2019_grips_merc.description"] = "Förlängt framgrepp sänker vertikala rekylen och erbjuder stabilitet från höften för snabb gerilla taktiker."
+L["cod2019_grips_merc.printname"] = "Merc-Framgrepp"
+L["cod2019_grips_merc.compactname"] = "Merc"
+L["cod2019_grips_merc.description"] = "Förlängt framgrepp sänker vertikala rekylen och erbjuder stabilitet från höften för snabb gerilla taktiker."
 
-L["csgo_cod2019_angled_tactical.printname"] = "Taktiskt Framgrepp"
-L["csgo_cod2019_angled_tactical.compactname"] = "Taktiskt"
-L["csgo_cod2019_angled_tactical.description"] = "Effektivt framgrepp erbjuder överlägsen kontroll och målförvärv."
+L["cod2019_angled_tactical.printname"] = "Taktiskt Framgrepp"
+L["cod2019_angled_tactical.compactname"] = "Taktiskt"
+L["cod2019_angled_tactical.description"] = "Effektivt framgrepp erbjuder överlägsen kontroll och målförvärv."
 
-L["csgo_cod2019_grips_ranger.printname"] = "Ranger-Framgrepp"
-L["csgo_cod2019_grips_ranger.compactname"] = "Ranger"
-L["csgo_cod2019_grips_ranger.description"] = "Standard framgrepp förbättrar vertikala rekylen och stabiliserar vapnet i siktet för föbättrad strid på långa distanser."
+L["cod2019_grips_ranger.printname"] = "Ranger-Framgrepp"
+L["cod2019_grips_ranger.compactname"] = "Ranger"
+L["cod2019_grips_ranger.description"] = "Standard framgrepp förbättrar vertikala rekylen och stabiliserar vapnet i siktet för föbättrad strid på långa distanser."
 
-L["csgo_cod2019_grips_operator.printname"] = "Operatör Framgrepp"
-L["csgo_cod2019_grips_operator.compactname"] = "Operatör"
-L["csgo_cod2019_grips_operator.description"] = "Inga krusiduller framgrepp hjälper kontroller vertikal rekyl för snabbare efterföljnings skott."
+L["cod2019_grips_operator.printname"] = "Operatör Framgrepp"
+L["cod2019_grips_operator.compactname"] = "Operatör"
+L["cod2019_grips_operator.description"] = "Inga krusiduller framgrepp hjälper kontroller vertikal rekyl för snabbare efterföljnings skott."
 
-L["csgo_cod2019_grips_bipod.printname"] = "Skjutstöd Framgrepp"
-L["csgo_cod2019_grips_bipod.compactname"] = "Skjutstöd F."
-L["csgo_cod2019_grips_bipod.description"] = "Hjälper kontrollera rekylen, speciellt från hukad eller benägen position."
+L["cod2019_grips_bipod.printname"] = "Skjutstöd Framgrepp"
+L["cod2019_grips_bipod.compactname"] = "Skjutstöd F."
+L["cod2019_grips_bipod.description"] = "Hjälper kontrollera rekylen, speciellt från hukad eller benägen position."
 
--- L["csgo_cod2019_bipod.printname"] = "Skjutstöd"
--- L["csgo_cod2019_bipod.compactname"] = "Skjutstöd"
--- L["csgo_cod2019_bipod.description"] = "Stabila ben förbättrar kontrollen medans man använder vapnet på marken."
+-- L["cod2019_bipod.printname"] = "Skjutstöd"
+-- L["cod2019_bipod.compactname"] = "Skjutstöd"
+-- L["cod2019_bipod.description"] = "Stabila ben förbättrar kontrollen medans man använder vapnet på marken."
 
-L["csgo_cod2019_grips_tactical.printname"] = "Task Force-Framgrepp" -- UO
-L["csgo_cod2019_grips_tactical.compactname"] = "Task Force" -- UO
+L["cod2019_grips_tactical.printname"] = "Task Force-Framgrepp" -- UO
+L["cod2019_grips_tactical.compactname"] = "Task Force" -- UO
 
 L["mw19_att_wpn_grau_ub_shark.printname"] = "Cronen Shark II"
 L["mw19_att_wpn_grau_ub_shark.compactname"] = "Shark II"
@@ -331,17 +331,17 @@ L["mw19_att_wpn_grau_ub_shark.description"] = "Taktiskt framgrepp erbjuder bäst
 -- L["mw19_att_ub_gp25_recon.compactname"] = "GP25 Under."
 
 ////////////////////  Lasers
-L["csgo_cod2019_laser_01.printname"] = "Taktisk Laser"
-L["csgo_cod2019_laser_01.compactname"] = "Taktisk"
-L["csgo_cod2019_laser_01.description"] = "Taktisk 5mW grön laser med hög kraft. Ökar träffsäkerheten i siktet. Avslöjar positionen när den är aktiv."
+L["cod2019_laser_01.printname"] = "Taktisk Laser"
+L["cod2019_laser_01.compactname"] = "Taktisk"
+L["cod2019_laser_01.description"] = "Taktisk 5mW grön laser med hög kraft. Ökar träffsäkerheten i siktet. Avslöjar positionen när den är aktiv."
 
-L["csgo_cod2019_laser_02.printname"] = "1mW Laser"
-L["csgo_cod2019_laser_02.compactname"] = "1mW"
-L["csgo_cod2019_laser_02.description"] = "Röd 1mW laser med låg kraft ökar lätt upp målförvärv efter man sprungit."
+L["cod2019_laser_02.printname"] = "1mW Laser"
+L["cod2019_laser_02.compactname"] = "1mW"
+L["cod2019_laser_02.description"] = "Röd 1mW laser med låg kraft ökar lätt upp målförvärv efter man sprungit."
 
-L["csgo_cod2019_laser_03.printname"] = "5mW Laser"
-L["csgo_cod2019_laser_03.compactname"] = "5mW"
-L["csgo_cod2019_laser_03.description"] = "Väldigt ljus 5mW grön laser ökar starkt målförvärv efter man sprungit. Avslöjar positionen när den är aktiv. Endast för aggressiva operatörer som inte förlitar sig på att hålla sig gömd."
+L["cod2019_laser_03.printname"] = "5mW Laser"
+L["cod2019_laser_03.compactname"] = "5mW"
+L["cod2019_laser_03.description"] = "Väldigt ljus 5mW grön laser ökar starkt målförvärv efter man sprungit. Avslöjar positionen när den är aktiv. Endast för aggressiva operatörer som inte förlitar sig på att hålla sig gömd."
 
 ////////////////////  Stocks
 L["cod2019_stock_tube_light.printname"] = "Lättvikt Bufferrör" -- UO

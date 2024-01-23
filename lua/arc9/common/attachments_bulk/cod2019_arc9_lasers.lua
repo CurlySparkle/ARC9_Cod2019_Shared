@@ -64,7 +64,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 180)
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_01")
+ARC9.LoadAttachment(ATT, "cod2019_laser_01")
 ---------------------------------------------------------------------------------------------
 ATT = {}
 
@@ -113,7 +113,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 180)
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_02")
+ARC9.LoadAttachment(ATT, "cod2019_laser_02")
 ---------------------------------------------------------------------------------------------
 ATT = {}
 
@@ -161,7 +161,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.ModelAngleOffset = Angle(0, 0, 180)
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
+ARC9.LoadAttachment(ATT, "cod2019_laser_03")
 -- --------------------------------------------------------------------------------------------- ALT LASERS
 -- ATT = {}
 
@@ -210,7 +210,7 @@ ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
 -- ATT.ModelOffset = Vector(0, 0, 0)
 -- ATT.ModelAngleOffset = Angle(0, 0, 90)
 
--- ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_01")
+-- ARC9.LoadAttachment(ATT, "cod2019_laser_cylinder_01")
 -- ---------------------------------------------------------------------------------------------
 -- ATT = {}
 
@@ -259,7 +259,7 @@ ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
 -- ATT.ModelOffset = Vector(0, 0, 0)
 -- ATT.ModelAngleOffset = Angle(0, 0, 90)
 
--- ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_02")
+-- ARC9.LoadAttachment(ATT, "cod2019_laser_cylinder_02")
 
 -- ---------------------------------------------------------------------------------------------
 -- ATT = {}
@@ -308,7 +308,7 @@ ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_03")
 -- ATT.ModelOffset = Vector(0, 0, 0)
 -- ATT.ModelAngleOffset = Angle(0, 0, 90)
 
--- ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_cylinder_03")
+-- ARC9.LoadAttachment(ATT, "cod2019_laser_cylinder_03")
 --------------------------------------------------------------------------------------------- PISTOL LASERS
 ATT = {}
 
@@ -356,7 +356,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_pstl_01")
+ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_01")
 -------------------------------------------------------------------------------
 ATT = {}
 
@@ -405,7 +405,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_pstl_02")
+ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_02")
 ---------------------------------------------------------------------------------------------
 ATT = {}
 
@@ -453,7 +453,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ARC9.LoadAttachment(ATT, "csgo_cod2019_laser_pstl_03")
+ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_03")
 --------------------------------------------------------------------------------------------- CYLINDE LASERS
 ATT = {}
 

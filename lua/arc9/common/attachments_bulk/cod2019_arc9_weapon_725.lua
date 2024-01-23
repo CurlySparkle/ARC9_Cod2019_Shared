@@ -32,7 +32,7 @@ ARC9.LoadAttachment(ATT, "cod2019_725_foregrip_light")
 ATT = {}
 
 ATT.PrintName = "Cronen Equilibrium"
-ATT.CompactName = "Commander"
+ATT.CompactName = "Equilibrium"
 ATT.Description = [[Competition stock with adjustable comb and buttplate provide exceptional precision while aiming.]]
 ATT.SortOrder = 1
 
