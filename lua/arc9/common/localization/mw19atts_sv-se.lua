@@ -51,6 +51,9 @@ L["mw19_folder_suppressor"] = "Ljuddämpare" -- UO
 -- Stocks
 L["mw19_folder_tube"] = "Rör" -- UO
 
+-- Underbarrels
+L["mw19_folder_40mm"] = "40MM" -- UO
+
 -- Other
 L["mw19_folder_other"] = "Annat" -- UO
 L["mw19_folder_side"] = "Sida" -- UO
