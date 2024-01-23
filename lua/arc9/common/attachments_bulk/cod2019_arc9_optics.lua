@@ -30,7 +30,7 @@ ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -0.95),
+        Pos = Vector(0, 7, -0.95),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 40,
@@ -74,7 +74,7 @@ ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 3.6, -1),
+        Pos = Vector(0, 5, -1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 56,
@@ -84,7 +84,7 @@ ATT.Sights = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
-ATT.HoloSightSize = 1024
+ATT.HoloSightSize = 1024 * 1.2
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east02")
@@ -204,7 +204,7 @@ ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 4.5, -1.26),
+        Pos = Vector(0, 5.5, -1.26),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 38,
@@ -214,7 +214,7 @@ ATT.Sights = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/kobra_reticle")
-ATT.HoloSightSize = 128 * 1.5
+ATT.HoloSightSize = 128 * 2
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east")
@@ -247,7 +247,7 @@ ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.5, -0.7),
+        Pos = Vector(0, 7, -0.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 45,
@@ -291,7 +291,7 @@ ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.5, -0.65),
+        Pos = Vector(0, 7, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 45,
@@ -334,7 +334,7 @@ ATT.AimDownSightsTimeAdd = 0.005
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.5, -0.65),
+        Pos = Vector(0, 7, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 45,
@@ -377,7 +377,7 @@ ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.5, -1.255),
+        Pos = Vector(0, 7, -1.255),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -432,7 +432,7 @@ ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5.5, -0.87),
+        Pos = Vector(0, 7, -0.87),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -486,17 +486,17 @@ ATT.AimDownSightsTimeAdd = 0.007
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 9, -1.25),
+        Pos = Vector(0, 8.5, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 35,
+        ViewModelFOV = 36,
         IgnoreExtra = false
     },
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
-ATT.HoloSightSize = 64 * 1.5
+ATT.HoloSightSize = 64 * 2
 ATT.HoloSightColorable = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05")
@@ -529,7 +529,7 @@ ATT.AimDownSightsTimeAdd = 0.015
 
 ATT.Sights = {
     {
-        Pos = Vector(-0.02, 5, -1.1),
+        Pos = Vector(-0.02, 6.5, -1.1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -547,7 +547,7 @@ ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 36 / 2
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 1.25
 ATT.RTScopeShadowIntensity = 2
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false

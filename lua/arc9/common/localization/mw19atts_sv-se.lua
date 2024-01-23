@@ -782,19 +782,19 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "Konverteringskit för att använda
 /////////////// Barrels
 -- L["mw19_att_wpn_grau_brl_01.printname"] = "ZLR Drifter A-08"
 -- L["mw19_att_wpn_grau_brl_01.compactname"] = "Drifter"
--- L["mw19_att_wpn_grau_brl_01.description"] = "Ultra short 5.3\" barrel with a built in foregrip allows first class agility and maneuverability without sacrificing recoil control."
+-- L["mw19_att_wpn_grau_brl_01.description"] = "Ultrakort 135mm pipa med inbyggt framgrepp tillåter bäst-i-klass rörlighet och manövrering utan att offra rekylkontroll."
 
--- L["mw19_att_wpn_grau_brl_02.printname"] = "Tempus 26.4\" Archangel"
+-- L["mw19_att_wpn_grau_brl_02.printname"] = "Tempus 670mm Archangel"
 -- L["mw19_att_wpn_grau_brl_02.compactname"] = "Archangel"
--- L["mw19_att_wpn_grau_brl_02.description"] = "Partially shrouded 26.4\" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship."
+-- L["mw19_att_wpn_grau_brl_02.description"] = "Delvis skyddad 670mm pipa från FSS erbjuder det ultimata i räckvidd och träffsäkerhet. Denna tunga pipan är ideal för att förbättra precisionen på längre räckvidder."
 
 L["cod2019_grau556_barrel_heavy.printname"] = "ZRK CZEN mk2"
 L["cod2019_grau556_barrel_heavy.compactname"] = "CZEN"
-L["cod2019_grau556_barrel_heavy.description"] = "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
+L["cod2019_grau556_barrel_heavy.description"] = "Aluminiumlegerat skydd och kromad polygonellt räfflad pipa balanserar perfekt räckvidd och rörlighet."
 
-L["cod2019_grau556_barrel_long.printname"] = "FSS 20.8\" Nexus"
+L["cod2019_grau556_barrel_long.printname"] = "FSS 530mm Nexus"
 L["cod2019_grau556_barrel_long.compactname"] = "Nexus"
-L["cod2019_grau556_barrel_long.description"] = "Stainless steel 20.8\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_grau556_barrel_long.description"] = "Rostfri stål 530mm pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 L["mw19_att_wpn_grau_brl_05.printname"] = "FSS 300mm Squall"
 L["mw19_att_wpn_grau_brl_05.compactname"] = "Squall"
