@@ -157,6 +157,52 @@ ATT.Element = {
 
 ARC9.LoadAttachment(ATT, "cod2019_grau556_barrel_heavy")
 ----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS Blackjack"
+ATT.CompactName = "FSS Blackjack"
+ATT.Description = [[Heavy duty fixed stock provides reliable stability while aiming.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_grau556_stockh.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_stockh.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 1.25
+ATT.RecoilMult = 0.9
+ATT.DrawTimeMult = 1.25
+ATT.HolsterTimeMult = 1.25
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_stock_heavy")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "No Stock"
+ATT.CompactName = "No Stock"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_ar_grau556_stockno.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_stockno.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_stock"
+ATT.ActivateElements = {"stock_none2"}
+
+ATT.AimDownSightsTimeMult = 0.85
+ATT.RecoilKickMult = 1.25
+ATT.DrawTimeMult = 0.85
+ATT.HolsterTimeMult = 0.85
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_stock_none")
+----------------------------------------------------------------------------------------
 -- ATT = {}
 
 -- ATT.PrintName = [[.300 Blackout 30-Round Mags]]
