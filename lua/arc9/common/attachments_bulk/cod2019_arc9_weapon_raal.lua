@@ -139,8 +139,8 @@ ARC9.LoadAttachment(ATT, "cod2019_raal_grip_side_fss")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "FTAC Sandpiper Pro"
-ATT.CompactName = [[FTAC Sandpiper]]
+ATT.PrintName = "FSS Resistor"
+ATT.CompactName = [[Resistor]]
 ATT.Description = [[Stock designed for agility while aiming down sights.]]
 --ATT.Icon = Material("entities/attachs/cod2019_stock_heavy02.png", "mips smooth")
 ATT.SortOrder = 5.3
