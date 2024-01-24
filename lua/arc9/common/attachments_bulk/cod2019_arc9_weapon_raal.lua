@@ -48,7 +48,7 @@ ATT.PrintName = "50 Round Belts"
 ATT.CompactName = "50 Round Belts"
 ATT.Description = [[]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_holger_armag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_lm_raal_smag.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_raal_mag"
@@ -142,7 +142,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Resistor"
 ATT.CompactName = [[Resistor]]
 ATT.Description = [[Stock designed for agility while aiming down sights.]]
---ATT.Icon = Material("entities/attachs/cod2019_stock_heavy02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_lm_raal_stockh.png", "mips smooth")
 ATT.SortOrder = 5.3
 
 ATT.AutoStats = true

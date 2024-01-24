@@ -3,26 +3,31 @@ local ATT = {}
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW19 Attachments"
-ATT.PrintName = "FORGE TAC Precision"
-ATT.CompactName = "Precision"
-ATT.Description = [[Heavy duty tapered barrel tightens pellet and slightly extends range with only a minor increase to weight.]]
+ATT.PrintName = "FORGE TAC Impaler"
+ATT.CompactName = "Impaler"
+ATT.Description = [[Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_barrelmid.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_barrellong.png", "mips smooth")
 
---ATT.Model = "models/weapons/csgo/atts/grip_vertical.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_barrellong.mdl"
+ATT.BoneMerge = false
 
-ATT.SpreadMult = 0.85
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.SpreadMult = 0.8
+ATT.RangeMaxMult = 1.2
+ATT.RangeMinMult = 1.2
+ATT.AimDownSightsTimeMult = 1.2
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_origin12_barrel"
-ATT.ActivateElements = {"barrel_long"}
+ATT.ActivateElements = {"barrel_none"}
 
 ATT.Element = {
     AttPosMods = {
         [3] = { -- slot of the weapon's attachment
-            Pos = Vector(2.75, 0, 0),
+            Pos = Vector(10, 0, 0),
             Ang = Angle(0,0,0),
         }
     }
@@ -33,13 +38,52 @@ ARC9.LoadAttachment(ATT, "cod2019_origin12_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW19 Attachments"
+ATT.PrintName = "FORGE TAC Precision"
+ATT.CompactName = "Precision"
+ATT.Description = [[Heavy duty tapered barrel tightens pellet and slightly extends range with only a minor increase to weight.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_barrelmid.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_barrelmid.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.SpreadMult = 0.9
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_origin12_barrel"
+ATT.ActivateElements = {"barrel_none"}
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- slot of the weapon's attachment
+            Pos = Vector(2.67, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_barrel_mid")
+-----------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW19 Attachments"
 ATT.PrintName = "FORGE TAC Wideshot"
 ATT.CompactName = "Wideshot"
 ATT.Description = [[Lightweight smooth bore barrel widens pellet spread and improves agility with only a minor decrease to range.]]
 
 ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_barrelshort.png", "mips smooth")
 
---ATT.Model = "models/weapons/csgo/atts/grip_vertical.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_barrelshort.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
 
 ATT.SpreadMult = 1.15
 ATT.RangeMaxMult = 0.9
@@ -50,18 +94,44 @@ ATT.SprintToFireTimeMult = 0.9
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_origin12_barrel"
-ATT.ActivateElements = {"barrel_small"}
+ATT.ActivateElements = {"barrel_none"}
 
 ATT.Element = {
     AttPosMods = {
         [3] = { -- slot of the weapon's attachment
-            Pos = Vector(-0.67, 0, 0),
+            Pos = Vector(1.2, 0, 0),
             Ang = Angle(0,0,0),
         }
     }
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_barrel_small")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "12 Round Mag"
+ATT.CompactName = "12-Round"
+ATT.Description = [[Better capacity magazines that hold 12 rounds with a weight increase.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_xmags.png", "mips smooth")
+
+ATT.ClipSizeOverride = 12
+ATT.ReloadTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
+ATT.DeployTimeMult = 1.05
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_origin12_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_xmags.mdl"
+ATT.BoneMerge = true
+--ATT.ModelOffset = Vector(1, 0, 1)
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_mag_xmag")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -74,8 +144,9 @@ ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_drummag.png", "mips sm
 
 ATT.ClipSizeOverride = 25
 ATT.ReloadTimeMult = 1.2
-ATT.SprintToFireTimeMult = 1.1
-ATT.AimDownSightsTimeMult = 1.1
+ATT.SprintToFireTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.15
+ATT.DeployTimeMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_origin12_mag"}
@@ -227,3 +298,32 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 180)
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_merc")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = [[FSS Oscar Suppressor]]
+ATT.CompactName = [[FSS Oscar]]
+ATT.Description = "Lightweight aluminum suppressor type FSS sacrifices range for stealth and agility."
+ATT.Icon = Material("entities/attachs/cod2019_sh_model680_shtgnsilencer.png", "mips smooth")
+
+ATT.SortOrder = 2
+ATT.AutoStats = true
+ATT.Category = "cod2019_muzzle_shot"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_suppressor.mdl"
+
+ATT.AimDownSightsTimeMult = 0.95
+ATT.RangeMaxMult = 1.1
+ATT.SpreadMult = 0.95
+ATT.RecoilKickMult = 1.1
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_silencer")
+-------------------------------------------------------------------------------

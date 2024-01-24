@@ -2093,17 +2093,17 @@ L["cod2019_725_foregrip_light.description"] = "Ultralight forend grips allows gr
 
 ////////////////////  Origin 12 Shotgun
 /////////////// Barrels
-L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Precision"
-L["cod2019_origin12_barrel_long.compactname"] = "Precision"
-L["cod2019_origin12_barrel_long.description"] = "Heavy-duty tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
+L["cod2019_origin12_barrel_mid.printname"] = "FORGE TAC Precision"
+L["cod2019_origin12_barrel_mid.compactname"] = "Precision"
+L["cod2019_origin12_barrel_mid.description"] = "Heavy-duty tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
 
 L["cod2019_origin12_barrel_small.printname"] = "FORGE TAC Wideshot"
 L["cod2019_origin12_barrel_small.compactname"] = "Wideshot"
 L["cod2019_origin12_barrel_small.description"] = "Lightweight smooth bore barrel widens pellet spread and improves agility with only a minor decrease to range."
 
--- L["mw19_att_wpn_origin12_brl_03.printname"] = "FORGE TAC Impaler"
--- L["mw19_att_wpn_origin12_brl_03.compactname"] = "Impaler"
--- L["mw19_att_wpn_origin12_brl_03.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
+L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Impaler"
+L["cod2019_origin12_barrel_long.compactname"] = "Impaler"
+L["cod2019_origin12_barrel_long.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
 
 /////////////// Grips
 L["cod2019_origin12_grip_side_com.printname"] = ARC9:GetPhrase("cod2019_angled.printname")

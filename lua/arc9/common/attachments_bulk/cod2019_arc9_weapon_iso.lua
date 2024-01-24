@@ -112,7 +112,7 @@ ATT.PrintName = "50 Round Drum"
 ATT.CompactName = "50-Round"
 ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_iso_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_vector_drummag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 50
 

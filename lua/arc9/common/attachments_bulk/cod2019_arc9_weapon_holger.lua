@@ -6,16 +6,16 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "30 Round Mags"
 ATT.CompactName = "30-R Mag"
 ATT.Description = [[]]
-
 ATT.Icon = Material("entities/attachs/cod2019_lm_holger_armag.png", "mips smooth")
 
---ATT.ShootSound = "COD2019.AUG.Fire_AR"
---ATT.ShootSoundSilenced = "COD2019.AUG.Silenced_Fire_AR"
+ATT.SortOrder = 0
+ATT.Category = "cod2019_holger_mag"
+ATT.ActivateElements = {"mag_none","mag_armag"}
 
---ATT.ShellModelOverride = "models/models/weapons/shared/shell_762_hr.mdl"
---ATT.ShellScale = 0.06
+ATT.Model = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
+ATT.BoneMerge = true
 
---ATT.RPM = 664
 ATT.ClipSizeOverride = 30
 
 ATT.DamageMaxMult = 0.85
@@ -26,10 +26,6 @@ ATT.RecoilKickMult = 0.9
 
 ATT.AimDownSightsTimeMult = 0.75
 ATT.DeployTimeMult = 0.75
-
-ATT.SortOrder = 0
-ATT.Category = "cod2019_holger_mag"
-ATT.ActivateElements = {"mag_none","mag_armag"}
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_01.ogg", 
@@ -50,10 +46,6 @@ ATT.DistantShootSoundIndoor = "Distant_AR.Inside"
 -- ATT.Hook_TranslateAnimation = function(wep, anim)
     -- return anim .. "_ar"
 -- end
-
-ATT.Model = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
-ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_armag_30")
 ---------------------------------------------------------------------------------------
