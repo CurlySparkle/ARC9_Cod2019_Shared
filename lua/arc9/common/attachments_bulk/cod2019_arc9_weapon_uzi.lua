@@ -123,7 +123,7 @@ ATT.MuzzleDevice_Priority = 2
 ATT.RangeMinMult = 0.92
 ATT.RangeMaxMult = 0.92
 ATT.AimDownSightsTimeMult = 0.87
-ATT.DeployTimeMultMult = 0.9
+ATT.DeployTimeMult = 0.9
 ATT.HolsterTimeMult = 0.9
 
 ATT.Element = {

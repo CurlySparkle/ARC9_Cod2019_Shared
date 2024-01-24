@@ -187,7 +187,7 @@ ATT.Category = "cod2019_stocks"
 ATT.Model = "models/weapons/cod2019/attachs/stocks/stock_heavy02.mdl"
 
 ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0.05)
 
 table.Merge(ATT, stats_heavy)
 
