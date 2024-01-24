@@ -26,7 +26,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 -- ATT.AimDownSightsTimeMult = 1.15
 
--- ATT.CantPeek = true
+-- ATT.CanPeek = false
 
 ATT.Sights = {
     {
@@ -35,7 +35,7 @@ ATT.Sights = {
         Magnification = 1.25,
         ViewModelFOV = 56,
         IgnoreExtra = false,
-		CantPeek = true
+		CanPeek = false
     },
 }
 
@@ -80,7 +80,7 @@ ATT.Sights = {
         Magnification = 1.25,
         ViewModelFOV = 56,
         IgnoreExtra = false,
-		CantPeek = true
+		CanPeek = false
     },
 }
 
@@ -125,7 +125,7 @@ ATT.Sights = {
         Magnification = 1.25,
         ViewModelFOV = 56,
         IgnoreExtra = false,
-		CantPeek = true
+		CanPeek = false
     },
 }
 
