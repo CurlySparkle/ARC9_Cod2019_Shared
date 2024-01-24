@@ -423,25 +423,39 @@ L["cod2019_stock_none.printname"] = stockname.none
 L["cod2019_stock_none.compactname"] = stockname.nones
 L["cod2019_stock_none.description"] = "Det ultimata \"spring-och-skjut\" alternativet när rörlighet är viktigare än träffsäkerhet. Att ta bort kolven ökar starkt rörligheten."
 
-
 ///////////////////////////// Weapon-specific Attachments
 ////////////////////////  Universal Strings
 ////////////////////  Magazines
 mw19ammotype = {
-	["556"] = "5.56 NATO",
+	["556"] = "5,56 NATO",
+	["762"] = "7,62 NATO",
 	["919"] = "9x19mm Parabellum",
 	["939"] = "9x39mm",
-	["919m"] = "9mm Makarov",
+	["127x55"] = "12,7x55mm",
+	["545"] = "5,45x39mm",
+	["46x30"] = "4,6x30mm",
+	["45acp"] = ".45 ACP",
+	["762x54"] = "7,62x54mmR",
+	["792"] = "7,92 Mauser",
+	["338"] = ".338 Lapua Magnum",
 }
 
 mw19magtext = {
 	mag = "%s-Patronersmagasin",
 	mags = "%sP",
 	drum = "%s-Patroner Trumma",
+	drummag = "%s-Patroners Trummagasin",
+	belt = "%s-Patroners Bälte",
 	
 	desc = "Förstorade magasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med lätt ökad vikt.",
 	descl = "Hög kapacitetsmagasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med måttlig ökad vikt.",
 	descdrum = "Trummagasin håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.",
+
+	desc12 = "Förstorade magasin håller <color=100,255,100>%s patroner</color> med lätt ökad vikt.",
+	descdrum12 = "Trummagasin håller <color=100,255,100>%s shells</color> av hagelskott vilket maximerar ammunitionskapacitet med kostnad på rörlighet.",
+	
+	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
+	descbeltl = "Extended belts hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
 }
 
 ////////////////////////  Assault Rifles
@@ -1151,17 +1165,17 @@ L["cod2019_mp7_mag_60.description"] = string.format(mw19magtext.descl, "60", mw1
 
 ////////////////////  Striker 45
 /////////////// Cosmetics
-L["cod2019_striker45_reciever_ump.printname"] = "Klassisk UMP-Låda"
-L["cod2019_striker45_reciever_ump.compactname"] = "Klassisk"
-L["cod2019_striker45_reciever_ump.description"] = "Klassisk UMP-låda till Striker 45."
+L["cod2019_striker45_reciever_ump.printname"] = "Klassisk UMP-Låda" -- UO
+L["cod2019_striker45_reciever_ump.compactname"] = "Klassisk" -- UO
+L["cod2019_striker45_reciever_ump.description"] = "Klassisk UMP-låda till Striker 45." -- UO
 
-L["cod2019_striker45_stock_ump.printname"] = "Klassisk UMP-Kolv"
-L["cod2019_striker45_stock_ump.compactname"] = "Klassisk"
-L["cod2019_striker45_stock_ump.description"] = "Klassisk UMP-kolv till Striker 45."
+L["cod2019_striker45_stock_ump.printname"] = "Klassisk UMP-Kolv" -- UO
+L["cod2019_striker45_stock_ump.compactname"] = "Klassisk" -- UO
+L["cod2019_striker45_stock_ump.description"] = "Klassisk UMP-kolv till Striker 45." -- UO
 
-L["cod2019_striker45_mag_ump.printname"] = "Klassiska UMP-Magasin"
-L["cod2019_striker45_mag_ump.compactname"] = "Klassisk"
-L["cod2019_striker45_mag_ump.description"] = "Klassiska UMP-magasin till Striker 45."
+L["cod2019_striker45_mag_ump.printname"] = "Klassiska UMP-Magasin" -- UO
+L["cod2019_striker45_mag_ump.compactname"] = "Klassisk" -- UO
+L["cod2019_striker45_mag_ump.description"] = "Klassiska UMP-magasin till Striker 45." -- UO
 
 /////////////// Barrels
 -- L["mw19_att_wpn_striker45_brl_01.printname"] = "300mm Poly-Pipa"
@@ -1471,17 +1485,17 @@ L["cod2019_725_foregrip_light.description"] = "Ultralight forend grips allows gr
 
 ////////////////////  Origin 12 Shotgun
 /////////////// Barrels
-L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Precision"
-L["cod2019_origin12_barrel_long.compactname"] = "Precision"
-L["cod2019_origin12_barrel_long.description"] = "Heavy-duty tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
+L["cod2019_origin12_barrel_mid.printname"] = "FORGE TAC Precision"
+L["cod2019_origin12_barrel_mid.compactname"] = "Precision"
+L["cod2019_origin12_barrel_mid.description"] = "Heavy-duty tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
 
 L["cod2019_origin12_barrel_small.printname"] = "FORGE TAC Wideshot"
 L["cod2019_origin12_barrel_small.compactname"] = "Wideshot"
 L["cod2019_origin12_barrel_small.description"] = "Lightweight smooth bore barrel widens pellet spread and improves agility with only a minor decrease to range."
 
--- L["mw19_att_wpn_origin12_brl_03.printname"] = "FORGE TAC Impaler"
--- L["mw19_att_wpn_origin12_brl_03.compactname"] = "Impaler"
--- L["mw19_att_wpn_origin12_brl_03.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
+L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Impaler"
+L["cod2019_origin12_barrel_long.compactname"] = "Impaler"
+L["cod2019_origin12_barrel_long.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
 
 /////////////// Stock
 -- L["mw19_att_wpn_origin12_stock_medium.printname"] = "FORGE TAC Dart"
@@ -1489,9 +1503,9 @@ L["cod2019_origin12_barrel_small.description"] = "Lightweight smooth bore barrel
 -- L["mw19_att_wpn_origin12_stock_medium.description"] = "Tactical stock designed for fast target acquisition."
 
 /////////////// Magazine
--- L["mw19_att_wpn_origin12_mag_12.printname"] = string.format(mw19magtext.mag, "12")
--- L["mw19_att_wpn_origin12_mag_12.compactname"] = string.format(mw19magtext.mags, "12")
--- L["mw19_att_wpn_origin12_mag_12.description"] = string.format(mw19magtext.desc12, "12")
+L["cod2019_origin12_mag_xmag.printname"] = string.format(mw19magtext.mag, "12")
+L["cod2019_origin12_mag_xmag.compactname"] = string.format(mw19magtext.mags, "12")
+L["cod2019_origin12_mag_xmag.description"] = string.format(mw19magtext.desc12, "12")
 
 L["cod2019_origin12_mag_drum.printname"] = string.format(mw19magtext.drummag, "25")
 L["cod2019_origin12_mag_drum.compactname"] = string.format(mw19magtext.mags, "25")
@@ -1602,7 +1616,6 @@ L["cod2019_sa86_barrel_mid.description"] = "Shorter barrel improves agility at a
 
 -- L["mw19_att_wpn_sa87_brl_02.printname"] = "SA87 25.4\" Factory"
 -- L["mw19_att_wpn_sa87_brl_02.compactname"] = "25.4\""
--- L["mw19_att_wpn_sa87_brl_02.description"] = ARC9:GetPhrase("mw19_att_wpn_725_brl_03.description")
 
 L["cod2019_sa86_barrel_short.printname"] = "SA87 12.4\" Factory"
 L["cod2019_sa86_barrel_short.compactname"] = "12.4\""
@@ -1707,7 +1720,6 @@ L["cod2019_holger_armag_30.description"] = "<color=255,100,100>30 round</color> 
 /////////////// Barrels
 -- L["mw19_att_wpn_bruen_brl_01.printname"] = "XRK Horizon 23.0\""
 -- L["mw19_att_wpn_bruen_brl_01.compactname"] = "Horizon"
--- L["mw19_att_wpn_bruen_brl_01.description"] = ARC9:GetPhrase("mw19_att_wpn_m91_brl_01.description")
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
@@ -1805,11 +1817,9 @@ L["cod2019_stock_raal_heavy.compactname"] = "Resistor"
 
 -- L["mw19_att_wpn_raal_stock_light.printname"] = "FTAC Sandpiper Pro"
 -- L["mw19_att_wpn_raal_stock_light.compactname"] = "Sandpiper"
--- L["mw19_att_wpn_raal_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
 -- L["mw19_att_wpn_raal_stock_none.printname"] = stockname.folded
 -- L["mw19_att_wpn_raal_stock_none.compactname"] = stockname.foldeds
--- L["mw19_att_wpn_raal_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_raal_stock_medium.printname"] = "FTAC Elevate"
 -- L["mw19_att_wpn_raal_stock_medium.compactname"] = "Elevate"

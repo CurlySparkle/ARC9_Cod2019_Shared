@@ -709,7 +709,6 @@ mw19magtext = {
 	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
 
 	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.",
-	-- descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
 	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.",
 	
 	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
@@ -1699,10 +1698,6 @@ L["cod2019_mp7_barrel_light.compactname"] = "SWAT"
 L["cod2019_mp7_barrel_light.description"] = "Designed for police enforcements raids, shorter length and larger bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Magazine
--- L["mw19_att_wpn_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
--- L["mw19_att_wpn_uzi_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
--- L["mw19_att_wpn_uzi_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["919"])
-
 L["cod2019_mp7_mag_50.printname"] = string.format(mw19magtext.mag, "50")
 L["cod2019_mp7_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
 L["cod2019_mp7_mag_50.description"] = string.format(mw19magtext.desc, "50", mw19ammotype["46x30"])
@@ -1726,17 +1721,17 @@ L["cod2019_mp7_mag_60.description"] = string.format(mw19magtext.descl, "60", mw1
 
 ////////////////////  Striker 45
 /////////////// Cosmetics
-L["cod2019_striker45_reciever_ump.printname"] = "Classic UMP Receiver"
-L["cod2019_striker45_reciever_ump.compactname"] = "Classic"
-L["cod2019_striker45_reciever_ump.description"] = "Classic UMP receiver for the Striker 45."
+L["cod2019_striker45_reciever_ump.printname"] = "Classic UMP Receiver" -- UO
+L["cod2019_striker45_reciever_ump.compactname"] = "Classic" -- UO
+L["cod2019_striker45_reciever_ump.description"] = "Classic UMP receiver for the Striker 45." -- UO
 
-L["cod2019_striker45_stock_ump.printname"] = "Classic UMP Stock"
-L["cod2019_striker45_stock_ump.compactname"] = "Classic"
-L["cod2019_striker45_stock_ump.description"] = "Classic UMP stock for the Striker 45."
+L["cod2019_striker45_stock_ump.printname"] = "Classic UMP Stock" -- UO
+L["cod2019_striker45_stock_ump.compactname"] = "Classic" -- UO
+L["cod2019_striker45_stock_ump.description"] = "Classic UMP stock for the Striker 45." -- UO
 
-L["cod2019_striker45_mag_ump.printname"] = "Classic UMP Mags"
-L["cod2019_striker45_mag_ump.compactname"] = "Classic"
-L["cod2019_striker45_mag_ump.description"] = "Classic UMP magazines for the Striker 45."
+L["cod2019_striker45_mag_ump.printname"] = "Classic UMP Mags" -- UO
+L["cod2019_striker45_mag_ump.compactname"] = "Classic" -- UO
+L["cod2019_striker45_mag_ump.description"] = "Classic UMP magazines for the Striker 45." -- UO
 
 /////////////// Barrels
 -- L["mw19_att_wpn_striker45_brl_01.printname"] = "300mm Poly Barrel"
@@ -2105,6 +2100,11 @@ L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Impaler"
 L["cod2019_origin12_barrel_long.compactname"] = "Impaler"
 L["cod2019_origin12_barrel_long.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
 
+/////////////// Muzzle
+L["cod2019_origin12_silencer.printname"] = "FSS Protector Suppressor"
+L["cod2019_origin12_silencer.compactname"] = "Protector"
+L["cod2019_origin12_silencer.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+
 /////////////// Grips
 L["cod2019_origin12_grip_side_com.printname"] = ARC9:GetPhrase("cod2019_angled.printname")
 L["cod2019_origin12_grip_side_com.compactname"] = ARC9:GetPhrase("cod2019_angled.compactname")
@@ -2120,9 +2120,9 @@ L["cod2019_origin12_grip_side_merc.description"] = ARC9:GetPhrase("cod2019_grips
 -- L["mw19_att_wpn_origin12_stock_medium.description"] = "Tactical stock designed for fast target acquisition."
 
 /////////////// Magazine
--- L["mw19_att_wpn_origin12_mag_12.printname"] = string.format(mw19magtext.mag, "12")
--- L["mw19_att_wpn_origin12_mag_12.compactname"] = string.format(mw19magtext.mags, "12")
--- L["mw19_att_wpn_origin12_mag_12.description"] = string.format(mw19magtext.desc12, "12")
+L["cod2019_origin12_mag_xmag.printname"] = string.format(mw19magtext.mag, "12")
+L["cod2019_origin12_mag_xmag.compactname"] = string.format(mw19magtext.mags, "12")
+L["cod2019_origin12_mag_xmag.description"] = string.format(mw19magtext.desc12, "12")
 
 L["cod2019_origin12_mag_drum.printname"] = string.format(mw19magtext.drummag, "25")
 L["cod2019_origin12_mag_drum.compactname"] = string.format(mw19magtext.mags, "25")

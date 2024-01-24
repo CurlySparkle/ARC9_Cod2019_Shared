@@ -302,8 +302,8 @@ ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_merc")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = [[FSS Oscar Suppressor]]
-ATT.CompactName = [[FSS Oscar]]
+ATT.PrintName = [[FSS Protector Suppressor]]
+ATT.CompactName = [[Protector]]
 ATT.Description = "Lightweight aluminum suppressor type FSS sacrifices range for stealth and agility."
 ATT.Icon = Material("entities/attachs/cod2019_sh_model680_shtgnsilencer.png", "mips smooth")
 

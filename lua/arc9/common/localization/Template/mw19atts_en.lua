@@ -311,27 +311,21 @@ L["mw19_att_wpn_grau_ub_shark.description"] = "Tactical foregrip provides best i
 
 -- L["mw19_att_ub_gp25_he.printname"] = "GP25 40mm High-explosive"
 -- L["mw19_att_ub_gp25_he.compactname"] = "GP25 HE"
--- L["mw19_att_ub_gp25_he.description"] = ARC9:GetPhrase("mw19_att_ub_m203_he.description")
 
 -- L["mw19_att_ub_gp25_fb.printname"] = "GP25 40mm Flash"
 -- L["mw19_att_ub_gp25_fb.compactname"] = "GP25 FB"
--- L["mw19_att_ub_gp25_fb.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fb.description")
 
 -- L["mw19_att_ub_gp25_sg.printname"] = "GP25 40mm Smokescreen"
 -- L["mw19_att_ub_gp25_sg.compactname"] = "GP25 SG"
--- L["mw19_att_ub_gp25_sg.description"] = ARC9:GetPhrase("mw19_att_ub_m203_sg.description")
 
 -- L["mw19_att_ub_gp25_fire.printname"] = "GP25 40mm Incendiary"
 -- L["mw19_att_ub_gp25_fire.compactname"] = "GP25 IC"
--- L["mw19_att_ub_gp25_fire.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fire.description")
 
 -- L["mw19_att_ub_gp25_stun.printname"] = "GP25 40mm Concussive"
 -- L["mw19_att_ub_gp25_stun.compactname"] = "GP25 Stun"
--- L["mw19_att_ub_gp25_stun.description"] = ARC9:GetPhrase("mw19_att_ub_m203_stun.description")
 
 -- L["mw19_att_ub_gp25_recon.printname"] = "GP25 40mm Recon"
 -- L["mw19_att_ub_gp25_recon.compactname"] = "GP25 Recon"
--- L["mw19_att_ub_gp25_recon.description"] = ARC9:GetPhrase("mw19_att_ub_m203_recon.description")
 
 ////////////////////  Lasers
 L["cod2019_laser_01.printname"] = "Tac Laser"
@@ -420,7 +414,6 @@ L["cod2019_stock_heavy.description"] = "Heavy duty stock keeps your aim steady f
 
 L["cod2019_stock_heavy02.printname"] = stockname.hunter
 L["cod2019_stock_heavy02.compactname"] = stockname.hunters
-L["cod2019_stock_heavy02.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 L["cod2019_stock_vheavy.printname"] = "REPLACEME - cod2019_stock_vheavy.printname"
 L["cod2019_stock_vheavy.compactname"] = "REPLACEME - cod2019_stock_vheavy.compactname"
@@ -459,7 +452,6 @@ mw19magtext = {
 	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
 
 	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.",
-	-- descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
 	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.",
 	
 	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
@@ -488,7 +480,6 @@ L["cod2019_kilo141_barrel_supp.description"] = "Heavy duty <color=255,255,100>in
 
 -- L["mw19_att_wpn_kilo141_stock_medium.printname"] = stockname.closequartersstock
 -- L["mw19_att_wpn_kilo141_stock_medium.compactname"] = stockname.closequartersstocks
--- L["mw19_att_wpn_kilo141_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
 L["cod2019_kilo141_mag_drum.printname"] = string.format(mw19magtext.drum, "100")
@@ -628,19 +619,6 @@ L["cod2019_famas_stock_tactical.printname"] = "FSS Tac-Wrap"
 L["cod2019_famas_stock_tactical.compactname"] = "Tac-Wrap"
 L["cod2019_famas_stock_tactical.description"] = "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_famas_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_famas_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_famas_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_famas_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_famas_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_famas_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_famas_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_famas_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_famas_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  Oden
 /////////////// Barrels
 -- L["mw19_att_wpn_oden_brl_01.printname"] = "Oden Factory 810mm"
@@ -663,15 +641,12 @@ L["cod2019_famas_stock_tactical.description"] = "Tactical comb add-on streamline
 /////////////// Stock
 -- L["mw19_att_wpn_oden_stock_light.printname"] = stockname.ballast
 -- L["mw19_att_wpn_oden_stock_light.compactname"] = stockname.ballasts
--- L["mw19_att_wpn_oden_stock_light.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_light.description")
 
 -- L["mw19_att_wpn_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
 -- L["mw19_att_wpn_oden_stock_heavy.compactname"] = stockname.ultralights
--- L["mw19_att_wpn_oden_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_heavy.description")
 
 -- L["mw19_att_wpn_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
 -- L["mw19_att_wpn_oden_stock_medium.compactname"] = "XL Elite"
--- L["mw19_att_wpn_oden_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
 
 /////////////// Magazine
 -- L["mw19_att_wpn_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
@@ -682,24 +657,10 @@ L["cod2019_famas_stock_tactical.description"] = "Tactical comb add-on streamline
 -- L["mw19_att_wpn_oden_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 -- L["mw19_att_wpn_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["127x55"])
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_oden_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_oden_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_oden_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_oden_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_oden_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_oden_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_oden_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_oden_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_oden_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  M13
 /////////////// Barrels
 -- L["mw19_att_wpn_m13_brl_01.printname"] = "Tempus Mini"
 -- L["mw19_att_wpn_m13_brl_01.compactname"] = "Mini"
--- L["mw19_att_wpn_m13_brl_01.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 L["cod2019_m13_barrel_supp.printname"] = "Tempus Cyclone"
 L["cod2019_m13_barrel_supp.compactname"] = "Cyclone"
@@ -712,25 +673,11 @@ L["cod2019_m13_barrel_long.description"] = "This 16\" chrome-moly barrel, with a
 /////////////// Stock
 -- L["mw19_att_wpn_m13_stock_medium.printname"] = "M13 Skeleton Stock"
 -- L["mw19_att_wpn_m13_stock_medium.compactname"] = stockname.skeletons
--- L["mw19_att_wpn_m13_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 /////////////// Magazine
 L["mw19_att_wpn_m13_mag_blackout.printname"] = ".300 Blackout 30-Round Mags"
 L["mw19_att_wpn_m13_mag_blackout.compactname"] = "30R .300"
 L["mw19_att_wpn_m13_mag_blackout.description"] = "Conversion kit to use <color=255,255,100>.300 Blackout</color> ammunition. Higher caliber with a lower muzzle velocity, these subsonic rounds pack more energy over greater distances."
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_m13_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_m13_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_m13_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_m13_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_m13_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_m13_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_m13_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_m13_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_m13_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  FN Scar 17
 /////////////// Barrels
@@ -744,16 +691,13 @@ L["cod2019_scar_barrel_long.description"] = "20.0\" polygonal rifled barrel with
 
 -- L["mw19_att_wpn_scar_brl_03.printname"] = "FORGE TAC CQC Pro"
 -- L["mw19_att_wpn_scar_brl_03.compactname"] = "CQC Pro"
--- L["mw19_att_wpn_scar_brl_03.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 /////////////// Stock
 L["cod2019_scar_stock_light.printname"] = stockname.collapsible
 L["cod2019_scar_stock_light.compactname"] = stockname.collapsibles
-L["cod2019_scar_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
 -- L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
--- L["mw19_att_wpn_scar_stock_vheavy.description"] = ARC9:GetPhrase("cod2019_stock_vheavy.description")
 
 /////////////// Magazine
 L["cod2019_scar_mag_ext.printname"] = string.format(mw19magtext.mag, "25")
@@ -772,19 +716,6 @@ L["cod2019_scar_mag_ar.printname"] = "30R 5.56 Mags" -- UO
 L["cod2019_scar_mag_ar.compactname"] = "30R 5.56" -- UO
 L["cod2019_scar_mag_ar.description"] = "Conversion kit to use lower caliber <color=255,255,100>5.56mm NATO</color> ammunition for improved recoil control at the cost of stopping power." -- UO
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_scar_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_scar_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_scar_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_scar_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_scar_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_scar_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_scar_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_scar_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_scar_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  AK-47
 /////////////// Barrels
 L["cod2019_akilo47_barrel_custom.printname"] = "Spetsnaz Elite"
@@ -797,7 +728,6 @@ L["cod2019_akilo47_barrel_custom.description"] = "Heavy weight barrel used by sp
 
 L["cod2019_akilo47_barrel_smg.printname"] = "8.1\" Compact Barrel"
 L["cod2019_akilo47_barrel_smg.compactname"] = "Compact"
-L["cod2019_akilo47_barrel_smg.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 -- L["mw19_att_wpn_ak47_brl_04.printname"] = "23.0\" Romanian"
 -- L["mw19_att_wpn_ak47_brl_04.compactname"] = "Romanian"
@@ -811,15 +741,9 @@ L["cod2019_akilo47_barrel_smg.description"] = ARC9:GetPhrase("cod2019_m4a1_barre
 /////////////// Stock
 -- L["mw19_att_wpn_ak47_stock_heavy.printname"] = "Field LMG Stock"
 -- L["mw19_att_wpn_ak47_stock_heavy.compactname"] = "Field LMG"
--- L["mw19_att_wpn_ak47_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 L["cod2019_akilo47_stockskel.printname"] = stockname.skeleton
 L["cod2019_akilo47_stockskel.compactname"] = stockname.skeletons
-L["cod2019_akilo47_stockskel.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
-
--- L["mw19_att_wpn_ak47_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname")
--- L["mw19_att_wpn_ak47_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname")
--- L["mw19_att_wpn_ak47_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 /////////////// Magazine
 -- L["mw19_att_wpn_ak47_mag_40.printname"] = "40 Round Mags"
@@ -838,24 +762,10 @@ L["cod2019_akilo47_mag_origin12.printname"] = "12-Gauge 12-Round Mags" -- UO
 L["cod2019_akilo47_mag_origin12.compactname"] = "12R 12G" -- UO
 L["cod2019_akilo47_mag_origin12.description"] = "Conversion kit to use <color=255,255,100>12 gauge</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements." -- UO
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_ak47_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_ak47_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_ak47_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_ak47_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_ak47_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_ak47_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_ak47_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_ak47_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_ak47_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  RAM-7
 /////////////// Barrels
 -- L["mw19_att_wpn_ram7_brl_01.printname"] = "FTAC 13.5\" Compact"
 -- L["mw19_att_wpn_ram7_brl_01.compactname"] = "Compact"
--- L["mw19_att_wpn_ram7_brl_01.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 L["cod2019_ram7_barrel_mid.printname"] = "FORGE TAC Eclipse"
 L["cod2019_ram7_barrel_mid.compactname"] = "Eclipse"
@@ -876,25 +786,11 @@ L["cod2019_ram7_barrel_long.description"] = "Fully enclosed 460mm barrel provide
 
 L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters Stock"
 L["cod2019_ram7_stock_tactical.compactname"] = stockname.closequartersstocks
-L["cod2019_ram7_stock_tactical.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
 L["cod2019_ram7_mag_drum_9mm.printname"] = "9mm 60-Round Mags" -- UO
 L["cod2019_ram7_mag_drum_9mm.compactname"] = "60R 9mm" -- UO
 L["cod2019_ram7_mag_drum_9mm.description"] = "Conversion kit to use lower caliber <color=255,255,100>9mm parabellum</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements." -- UO
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_ram7_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_ram7_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_ram7_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_ram7_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_ram7_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_ram7_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_ram7_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_ram7_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_ram7_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  Grau 5.56
 /////////////// Barrels
@@ -916,12 +812,10 @@ L["cod2019_grau556_barrel_long.description"] = "Stainless steel 20.8\" barrel in
 
 L["mw19_att_wpn_grau_brl_05.printname"] = "FSS 11.8\" Squall"
 L["mw19_att_wpn_grau_brl_05.compactname"] = "Squall"
-L["mw19_att_wpn_grau_brl_05.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description")
 
 /////////////// Stock
 L["cod2019_grau556_stock_heavy.printname"] = "FSS Blackjack"
 L["cod2019_grau556_stock_heavy.compactname"] = "Blackjack"
-L["cod2019_grau556_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1_stock_heavy.description")
 
 -- L["mw19_att_wpn_grau_stock_light.printname"] = "XRK StrikeLite III"
 -- L["mw19_att_wpn_grau_stock_light.compactname"] = "StrikeLite III"
@@ -929,25 +823,6 @@ L["cod2019_grau556_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_m4a1
 
 L["cod2019_grau556_stock_none.printname"] = stockname.none
 L["cod2019_grau556_stock_none.compactname"] = stockname.nones
-L["cod2019_grau556_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
-
-/////////////// Magazine
-L["cod2019_grau556_mag_m13.printname"] = ARC9:GetPhrase("mw19_att_wpn_m13_mag_blackout.printname")
-L["cod2019_grau556_mag_m13.compactname"] = ARC9:GetPhrase("mw19_att_wpn_m13_mag_blackout.compactname")
-L["cod2019_grau556_mag_m13.description"] = ARC9:GetPhrase("mw19_att_wpn_m13_mag_blackout.description")
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_grau_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_grau_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_grau_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_grau_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_grau_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_grau_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_grau_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_grau_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_grau_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  CR-56 AMAX
 /////////////// Barrels
@@ -959,22 +834,15 @@ L["cod2019_cr56_barrel_long.printname"] = "XRK Zodiac S440"
 L["cod2019_cr56_barrel_long.compactname"] = "Zodiac"
 L["cod2019_cr56_barrel_long.description"] = "Achieve the pinnacle of range with this precision barrel from XRK. Superior muzzle velocity and stabilization at the cost of agility."
 
-L["cod2019_cr56_barrel_light.printname"] = ARC9:GetPhrase("mw19_att_wpn_grau_brl_05.printname")
-L["cod2019_cr56_barrel_light.compactname"] = ARC9:GetPhrase("mw19_att_wpn_grau_brl_05.compactname")
-L["cod2019_cr56_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description")
-
 /////////////// Stock
 L["mw19_att_wpn_cr56_stock_light.printname"] = "FTAC Spartan"
 L["mw19_att_wpn_cr56_stock_light.compactname"] = "Spartan"
-L["mw19_att_wpn_cr56_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
 L["mw19_att_wpn_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
 L["mw19_att_wpn_cr56_stock_vheavy.compactname"] = "Gatekeeper"
-L["mw19_att_wpn_cr56_stock_vheavy.description"] = ARC9:GetPhrase("cod2019_stock_vheavy.description")
 
 L["mw19_att_wpn_cr56_stock_vlight.printname"] = "CR-56 EXO"
 L["mw19_att_wpn_cr56_stock_vlight.compactname"] = "EXO"
-L["mw19_att_wpn_cr56_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
@@ -995,22 +863,15 @@ L["cod2019_cr56_mag_grau552.description"] = "Conversion kit to use <color=255,25
 
 /////////////// Pistol Grips
 -- L["mw19_att_wpn_cr56_rg_gran.printname"] = "XRK CR-56 Granulated Wrap"
--- L["mw19_att_wpn_cr56_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_cr56_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
 
 -- L["mw19_att_wpn_cr56_rg_rubber.printname"] = "XRK CR-56 Rubberized Wrap"
--- L["mw19_att_wpn_cr56_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_cr56_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
 
 -- L["mw19_att_wpn_cr56_rg_stippled.printname"] = "XRK CR-56 Stippled Wrap"
--- L["mw19_att_wpn_cr56_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_cr56_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  AN-94
 /////////////// Optics
 -- L["mw19_att_wpn_an94_optic_thermal.printname"] = "POS-M3 Thermal Scope"
 -- L["mw19_att_wpn_an94_optic_thermal.compactname"] = "POS-M3"
--- L["mw19_att_wpn_an94_optic_thermal.description"] = ARC9:GetPhrase("cod2019_optic_thermal_west_01.description")
 
 /////////////// Barrels
 L["cod2019_an94_barrel_short.printname"] = "AN-94 Factory 330mm"
@@ -1037,15 +898,12 @@ L["cod2019_an94_barrel_long.description"] = "Experimental 438mm extended barrel 
 
 -- L["mw19_att_wpn_an94_stock_none.printname"] = stockname.folded
 -- L["mw19_att_wpn_an94_stock_none.compactname"] = stockname.foldeds
--- L["mw19_att_wpn_an94_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_an94_stock_vlight.printname"] = "VLK PX-9 Pero"
 -- L["mw19_att_wpn_an94_stock_vlight.compactname"] = "Pero"
--- L["mw19_att_wpn_an94_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 L["cod2019_an94_stockskel.printname"] = stockname.skeleton
 L["cod2019_an94_stockskel.compactname"] = stockname.skeletons
-L["cod2019_an94_stockskel.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 /////////////// Magazine
 L["cod2019_an94_mag_45.printname"] = string.format(mw19magtext.mag, "45")
@@ -1055,19 +913,6 @@ L["cod2019_an94_mag_45.description"] = string.format(mw19magtext.desc, "45", mw1
 L["cod2019_an94_mag_60.printname"] = "60 Round Casket Mags"
 L["cod2019_an94_mag_60.compactname"] = string.format(mw19magtext.mags, "60")
 L["cod2019_an94_mag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["545"])
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_an94_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_an94_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_an94_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_an94_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_an94_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_an94_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_an94_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_an94_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_an94_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  AS VAL
 /////////////// Optics
@@ -1099,7 +944,6 @@ L["cod2019_asval_barrel_heavy.description"] = "After-market monolithic integrall
 
 -- L["mw19_att_wpn_asval_stock_vlight.printname"] = "Stovl 6P30 Skelet"
 -- L["mw19_att_wpn_asval_stock_vlight.compactname"] = "Skelet"
--- L["mw19_att_wpn_asval_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 -- L["mw19_att_wpn_asval_stock_vheavy.printname"] = "VLK Strelok"
 -- L["mw19_att_wpn_asval_stock_vheavy.compactname"] = "Strelok"
@@ -1113,19 +957,6 @@ L["cod2019_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw
 -- L["mw19_att_wpn_asval_mag_spp.printname"] = "SPP 10-R Mags"
 -- L["mw19_att_wpn_asval_mag_spp.compactname"] = "SPP 10-R"
 -- L["mw19_att_wpn_asval_mag_spp.description"] = "<color=255,100,100>10 rounds</color> of <color=255,255,100>9x39mm SPP</color> armor-piercing ammunition designed for increased penetration, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_asval_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_asval_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_asval_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_asval_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_asval_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_asval_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_asval_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_asval_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_asval_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////////  Submachine Guns
 ////////////////////  AUG
@@ -1150,11 +981,9 @@ L["cod2019_aug_barrel_ar_long.description"] = "Stainless steel barrel extension 
 /////////////// Stock
 -- L["mw19_att_wpn_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
 -- L["mw19_att_wpn_aug_stock_heavy.compactname"] = stockname.ultralights
--- L["mw19_att_wpn_aug_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_heavy.description")
 
 L["cod2019_aug_stock_tactical.printname"] = stockname.cqbcomb
 L["cod2019_aug_stock_tactical.compactname"] = stockname.cqbcombs
-L["cod2019_aug_stock_tactical.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
 
 -- L["mw19_att_wpn_aug_stock_heavy.printname"] = stockname.heavypro
 -- L["mw19_att_wpn_aug_stock_heavy.compactname"] = stockname.heavypros
@@ -1172,19 +1001,6 @@ L["cod2019_aug_mag_ar_30.description"] = "Conversion kit to use 30 round <color=
 L["cod2019_aug_mag_ar_drum.printname"] = "5.56 NATO 60-Round Mags"
 L["cod2019_aug_mag_ar_drum.compactname"] = "60R 5.56"
 L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5.56 NATO</color> conversion kit with <color=100,255,100>60 round</color> drums. Lower mobility, maximize ammunition capacity."
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_aug_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_aug_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_aug_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_aug_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_aug_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_aug_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_aug_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_aug_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_aug_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  P90
 /////////////// Optics
@@ -1204,7 +1020,6 @@ L["cod2019_p90_barrel_custom.description"] = "Extended front shroud houses a 16\
 /////////////// Stock
 -- L["mw19_att_wpn_p90_stock_medium.printname"] = stockname.cqbcomb
 -- L["mw19_att_wpn_p90_stock_medium.compactname"] = stockname.cqbcombs
--- L["mw19_att_wpn_p90_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
 
 L["cod2019_p90_stock_sling.printname"] = "Fly Strap"
 L["cod2019_p90_stock_sling.compactname"] = "Fly Strap"
@@ -1212,33 +1027,6 @@ L["cod2019_p90_stock_sling.description"] = "Clip on strap improves fast paced we
 
 -- L["mw19_att_wpn_p90_stock_heavy.printname"] = stockname.heavypro
 -- L["mw19_att_wpn_p90_stock_heavy.compactname"] = stockname.heavypros
--- L["mw19_att_wpn_p90_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_aug_stock_heavy")
-
-/////////////// Underbarrel
--- L["mw19_att_wpn_p90_grip_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_p90_grip_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_p90_grip_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_p90_grip_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_p90_grip_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_p90_grip_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_p90_grip_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_p90_grip_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_p90_grip_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_p90_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_p90_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_p90_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_p90_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_p90_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_p90_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_p90_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_p90_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_p90_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  MP5
 /////////////// Misc
@@ -1249,15 +1037,12 @@ L["cod2019_mp5_sight_default_on.description"] = "Force the default iron sights t
 /////////////// Barrels
 L["cod2019_mp5_barrel_light.printname"] = "FSS Light"
 L["cod2019_mp5_barrel_light.compactname"] = "Light"
-L["cod2019_mp5_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description")
 
 -- L["mw19_att_wpn_mp5_brl_02.printname"] = "Monolithic Integral Suppressor"
 -- L["mw19_att_wpn_mp5_brl_02.compactname"] = "Monolithic"
--- L["mw19_att_wpn_mp5_brl_02.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_brl_03.description")
 
 -- L["mw19_att_wpn_mp5_brl_03.printname"] = "FSS Mini"
 -- L["mw19_att_wpn_mp5_brl_03.compactname"] = "Mini"
--- L["mw19_att_wpn_mp5_brl_03.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 L["cod2019_mp5_barrel_supp.printname"] = "Subsonic Integral Suppressor"
 L["cod2019_mp5_barrel_supp.compactname"] = "Subsonic"
@@ -1266,7 +1051,6 @@ L["cod2019_mp5_barrel_supp.description"] = "Lightweight <color=255,255,100>alumi
 /////////////// Stock
 -- L["mw19_att_wpn_mp5_stock_light.printname"] = stockname.ultralight
 -- L["mw19_att_wpn_mp5_stock_light.compactname"] = stockname.ultralights
--- L["mw19_att_wpn_mp5_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
 L["cod2019_mp5_stock_fullstock.printname"] = "Classic Straight-line Stock"
 L["cod2019_mp5_stock_fullstock.compactname"] = "Classic"
@@ -1274,11 +1058,9 @@ L["cod2019_mp5_stock_fullstock.description"] = "Solid body stock provides a more
 
 -- L["mw19_att_wpn_mp5_stock_medium.printname"] = stockname.closequartersstock
 -- L["mw19_att_wpn_mp5_stock_medium.compactname"] = stockname.closequartersstocks
--- L["mw19_att_wpn_mp5_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 -- L["mw19_att_wpn_mp5_stock_none.printname"] = stockname.collapsible
 -- L["mw19_att_wpn_mp5_stock_none.compactname"] = stockname.collapsibles
--- L["mw19_att_wpn_mp5_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 /////////////// Magazine
 -- L["mw19_att_wpn_mp5_mag_45.printname"] = string.format(mw19magtext.mag, "45")
@@ -1289,19 +1071,6 @@ L["cod2019_mp5_mag_9mm.printname"] = "10mm Auto 30-Round Mags"
 L["cod2019_mp5_mag_9mm.compactname"] = "30R 10mm"
 L["cod2019_mp5_mag_9mm.description"] = "Conversion kit to use higher caliber <color=255,255,100>10mm Auto</color> ammunition for increased stopping power."
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_mp5_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_mp5_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_mp5_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_mp5_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_mp5_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_mp5_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_mp5_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_mp5_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_mp5_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  Uzi
 /////////////// Barrels
 -- L["mw19_att_wpn_uzi_brl_01.printname"] = "13.1\" First Responder"
@@ -1310,11 +1079,9 @@ L["cod2019_mp5_mag_9mm.description"] = "Conversion kit to use higher caliber <co
 
 L["cod2019_uzi_barrel_short.printname"] = "8.5\" Factory Mini"
 L["cod2019_uzi_barrel_short.compactname"] = "Mini"
-L["cod2019_uzi_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 L["cod2019_uzi_barrel_long.printname"] = "16.5\" Factory Carbine"
 L["cod2019_uzi_barrel_long.compactname"] = "Carbine"
-L["cod2019_uzi_barrel_long.description"] = ARC9:GetPhrase("cod2019_famas_barrel_long.description")
 
 -- L["mw19_att_wpn_uzi_brl_04.printname"] = "FSS Carbine Pro"
 -- L["mw19_att_wpn_uzi_brl_04.compactname"] = "Carbine Pro"
@@ -1323,7 +1090,6 @@ L["cod2019_uzi_barrel_long.description"] = ARC9:GetPhrase("cod2019_famas_barrel_
 /////////////// Stock
 -- L["mw19_att_wpn_uzi_stock_light.printname"] = stockname.ultralight
 -- L["mw19_att_wpn_uzi_stock_light.compactname"] = stockname.ultralights
--- L["mw19_att_wpn_uzi_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
 -- L["mw19_att_wpn_uzi_stock_heavy.printname"] = "Standard-Issue Wood Stock"
 -- L["mw19_att_wpn_uzi_stock_heavy.compactname"] = "Wood"
@@ -1331,7 +1097,6 @@ L["cod2019_uzi_barrel_long.description"] = ARC9:GetPhrase("cod2019_famas_barrel_
 
 -- L["mw19_att_wpn_uzi_stock_medium.printname"] = stockname.closequartersstock
 -- L["mw19_att_wpn_uzi_stock_medium.compactname"] = stockname.closequartersstocks
--- L["mw19_att_wpn_uzi_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
 -- L["mw19_att_wpn_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
@@ -1345,19 +1110,6 @@ L["cod2019_uzi_barrel_long.description"] = ARC9:GetPhrase("cod2019_famas_barrel_
 L["cod2019_uzi_mag_cult.printname"] = ".41 AE 32-Round Mags"
 L["cod2019_uzi_mag_cult.compactname"] = "32R .41 AE"
 L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazines of higher caliber <color=255,255,100>.41 AE</color> ammunition for increased range and stopping power."
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_uzi_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_uzi_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_uzi_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_uzi_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_uzi_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_uzi_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_uzi_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_uzi_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_uzi_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  PP19 Bizon
 /////////////// Barrels
@@ -1375,8 +1127,6 @@ L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazine
 
 /////////////// Stock
 -- L["mw19_att_wpn_pp19_stock_light.printname"] = "Factory Aluminium Stock"
--- L["mw19_att_wpn_pp19_stock_light.compactname"] = ARC9:GetPhrase("mw19_att_wpn_fal_stock_light.compactname")
--- L["mw19_att_wpn_pp19_stock_light.description"] = ARC9:GetPhrase("mw19_att_wpn_fal_stock_light.description")
 
 -- L["mw19_att_wpn_pp19_stock_vlight.printname"] = "Corvus Skeleton Stock"
 -- L["mw19_att_wpn_pp19_stock_vlight.compactname"] = "Corvus"
@@ -1384,25 +1134,11 @@ L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazine
 
 -- L["mw19_att_wpn_pp19_stock_medium.printname"] = stockname.closequartersstock
 -- L["mw19_att_wpn_pp19_stock_medium.compactname"] = stockname.closequartersstocks
--- L["mw19_att_wpn_pp19_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
 -- L["mw19_att_wpn_pp19_mag_84.printname"] = "84 Round Helical Mags"
 -- L["mw19_att_wpn_pp19_mag_84.compactname"] = string.format(mw19magtext.mags, "84")
 -- L["mw19_att_wpn_pp19_mag_84.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_pp19_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_pp19_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_pp19_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_pp19_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_pp19_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_pp19_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_pp19_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_pp19_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_pp19_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  MP7
 /////////////// Barrels
@@ -1419,10 +1155,6 @@ L["cod2019_mp7_barrel_light.compactname"] = "SWAT"
 L["cod2019_mp7_barrel_light.description"] = "Designed for police enforcements raids, shorter length and larger bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Magazine
--- L["mw19_att_wpn_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
--- L["mw19_att_wpn_uzi_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
--- L["mw19_att_wpn_uzi_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["919"])
-
 L["cod2019_mp7_mag_50.printname"] = string.format(mw19magtext.mag, "50")
 L["cod2019_mp7_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
 L["cod2019_mp7_mag_50.description"] = string.format(mw19magtext.desc, "50", mw19ammotype["46x30"])
@@ -1431,32 +1163,19 @@ L["cod2019_mp7_mag_60.printname"] = string.format(mw19magtext.mag, "60")
 L["cod2019_mp7_mag_60.compactname"] = string.format(mw19magtext.mags, "60")
 L["cod2019_mp7_mag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["46x30"])
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_mp7_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_mp7_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_mp7_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_mp7_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_mp7_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_mp7_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_mp7_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_mp7_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_mp7_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  Striker 45
 /////////////// Cosmetics
-L["cod2019_striker45_reciever_ump.printname"] = "Classic UMP Receiver"
-L["cod2019_striker45_reciever_ump.compactname"] = "Classic"
-L["cod2019_striker45_reciever_ump.description"] = "Classic UMP receiver for the Striker 45."
+L["cod2019_striker45_reciever_ump.printname"] = "Classic UMP Receiver" -- UO
+L["cod2019_striker45_reciever_ump.compactname"] = "Classic" -- UO
+L["cod2019_striker45_reciever_ump.description"] = "Classic UMP receiver for the Striker 45." -- UO
 
-L["cod2019_striker45_stock_ump.printname"] = "Classic UMP Stock"
-L["cod2019_striker45_stock_ump.compactname"] = "Classic"
-L["cod2019_striker45_stock_ump.description"] = "Classic UMP stock for the Striker 45."
+L["cod2019_striker45_stock_ump.printname"] = "Classic UMP Stock" -- UO
+L["cod2019_striker45_stock_ump.compactname"] = "Classic" -- UO
+L["cod2019_striker45_stock_ump.description"] = "Classic UMP stock for the Striker 45." -- UO
 
-L["cod2019_striker45_mag_ump.printname"] = "Classic UMP Mags"
-L["cod2019_striker45_mag_ump.compactname"] = "Classic"
-L["cod2019_striker45_mag_ump.description"] = "Classic UMP magazines for the Striker 45."
+L["cod2019_striker45_mag_ump.printname"] = "Classic UMP Mags" -- UO
+L["cod2019_striker45_mag_ump.compactname"] = "Classic" -- UO
+L["cod2019_striker45_mag_ump.description"] = "Classic UMP magazines for the Striker 45." -- UO
 
 /////////////// Barrels
 -- L["mw19_att_wpn_striker45_brl_01.printname"] = "300mm Poly Barrel"
@@ -1478,7 +1197,6 @@ L["cod2019_striker45_barrel_short.description"] = "Short, compact barrel sacrifi
 
 -- L["mw19_att_wpn_striker45_stock_heavy.printname"] = "FTAC Precision Fixed Stock"
 -- L["mw19_att_wpn_striker45_stock_heavy.compactname"] = "Fixed"
--- L["mw19_att_wpn_striker45_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 -- L["mw19_att_wpn_striker45_stock_medium.printname"] = "XRK Gen III Survivalist Series"
 -- L["mw19_att_wpn_striker45_stock_medium.compactname"] = "Gen III"
@@ -1514,7 +1232,6 @@ L["cod2019_striker45_mag_xmag_9mm.description"] = string.format(mw19magtext.desc
 /////////////// Barrels
 L["cod2019_vector_barrel_long.printname"] = "ZLR 16\" Apex"
 L["cod2019_vector_barrel_long.compactname"] = "Apex"
-L["cod2019_vector_barrel_long.description"] = ARC9:GetPhrase("cod2019_striker45_barrel_long.description")
 
 -- L["mw19_att_wpn_vector_brl_02.printname"] = "ZLR 18\" Deadfall"
 -- L["mw19_att_wpn_vector_brl_02.compactname"] = "Deadfall"
@@ -1528,37 +1245,17 @@ L["cod2019_vector_suppresor.description"] = "Custom extended suppressor from ZLR
 /////////////// Stock
 -- L["mw19_att_wpn_vector_stock_heavy.printname"] = "FTAC C6 Carbine PRO"
 -- L["mw19_att_wpn_vector_stock_heavy.compactname"] = "Carbine"
--- L["mw19_att_wpn_vector_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 -- L["mw19_att_wpn_vector_stock_light.printname"] = stockname.cqs
 -- L["mw19_att_wpn_vector_stock_light.compactname"] = stockname.cqss
--- L["mw19_att_wpn_vector_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 -- L["mw19_att_wpn_vector_stock_vheavy.printname"] = "ZLR Blade"
 -- L["mw19_att_wpn_vector_stock_vheavy.compactname"] = "Blade"
--- L["mw19_att_wpn_vector_stock_vheavy.description"] = ARC9:GetPhrase("cod2019_stock_vheavy.description")
 
 /////////////// Magazine
 L["cod2019_vector_mag_drum.printname"] = string.format(mw19magtext.drum, "40")
 L["cod2019_vector_mag_drum.compactname"] = string.format(mw19magtext.mags, "40")
 L["cod2019_vector_mag_drum.description"] = string.format(mw19magtext.descdrum, "40", mw19ammotype["45acp"])
-
--- L["mw19_att_wpn_vector_mag_hp.printname"] = ARC9:GetPhrase("mw19_att_wpn_striker45_mag_hp.printname")
--- L["mw19_att_wpn_vector_mag_hp.compactname"] = ARC9:GetPhrase("mw19_att_wpn_striker45_mag_hp.compactname")
--- L["mw19_att_wpn_vector_mag_hp.description"] = ARC9:GetPhrase("mw19_att_wpn_striker45_mag_hp.description")
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_vector_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_vector_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_vector_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_vector_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_vector_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_vector_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_vector_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_vector_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_vector_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  ISO
 /////////////// Barrels
@@ -1576,16 +1273,13 @@ L["mw19_att_wpn_iso_brl_03.description"] = "Compact factory installed fully shro
 
 L["mw19_att_wpn_iso_brl_04.printname"] = "FSS Nightshade"
 L["mw19_att_wpn_iso_brl_04.compactname"] = "Nightshare"
-L["mw19_att_wpn_iso_brl_04.description"] = ARC9:GetPhrase("mw19_att_wpn_vector_brl_02.description")
 
 /////////////// Stock
 L["mw19_att_wpn_iso_stock_medium.printname"] = "FTAC Vagrant"
 L["mw19_att_wpn_iso_stock_medium.compactname"] = "Vagrant"
-L["mw19_att_wpn_iso_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 L["mw19_att_wpn_iso_stock_none.printname"] = "ISO Collapsible"
 L["mw19_att_wpn_iso_stock_none.compactname"] = stockname.collapsibles
-L["mw19_att_wpn_iso_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 /////////////// Magazine
 L["mw19_att_wpn_iso_mag_30.printname"] = string.format(mw19magtext.mag, "30")
@@ -1649,10 +1343,6 @@ L["cod2019_cx9_stock_skeleton.description"] = "Ultralight Forward Assault Stock 
 -- L["mw19_att_wpn_cx9_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 -- L["mw19_att_wpn_cx9_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
--- L["mw19_att_wpn_cx9_mag_hp.printname"] = ARC9:GetPhrase("mw19_att_wpn_striker45_mag_hp.printname")
--- L["mw19_att_wpn_cx9_mag_hp.compactname"] = ARC9:GetPhrase("mw19_att_wpn_striker45_mag_hp.compactname")
--- L["mw19_att_wpn_cx9_mag_hp.description"] = ARC9:GetPhrase("mw19_att_wpn_striker45_mag_hp.description")
-
 L["cod2019_cx9_mag_drum.printname"] = string.format(mw19magtext.drum, "50")
 L["cod2019_cx9_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")
 L["cod2019_cx9_mag_drum.description"] = string.format(mw19magtext.descdrum, "50", mw19ammotype["919"])
@@ -1688,15 +1378,12 @@ L["cod2019_model680_barrel_mid.description"] = "Longer barrel with a <color=100,
 /////////////// Stock
 -- L["mw19_att_wpn_model680_stock_none.printname"] = stockname.none
 -- L["mw19_att_wpn_model680_stock_none.compactname"] = stockname.nones
--- L["mw19_att_wpn_model680_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_model680_stock_heavy.printname"] = "Lockwood Precision Series"
 -- L["mw19_att_wpn_model680_stock_heavy.compactname"] = "Lockwood"
 -- L["mw19_att_wpn_model680_stock_heavy.description"] = "Solid wood rifle stock provides exceptional control while aiming at the cost of mobility."
 
 /////////////// Underbarrels
--- L["mw19_att_wpn_model680_grip_lockwood.printname"] = ARC9:GetPhrase("mw19_att_wpn_model680_stock_heavy.printname")
--- L["mw19_att_wpn_model680_grip_lockwood.compactname"] = ARC9:GetPhrase("mw19_att_wpn_model680_stock_heavy.compactname")
 -- L["mw19_att_wpn_model680_grip_lockwood.description"] = "Handcrafted solid wood forend reduces vertical recoil and stabilizes weapon while aiming for improved long range combat."
 
 -- L["mw19_att_wpn_model680_grip_truegrip.printname"] = "XRK Truegrip Tactical"
@@ -1725,7 +1412,6 @@ L["cod2019_r90_barrel_short.description"] = "Dual thin-walled smooth bore barrel
 /////////////// Stock
 -- L["mw19_att_wpn_r90_stock_none.printname"] = stockname.none
 -- L["mw19_att_wpn_r90_stock_none.compactname"] = stockname.nones
--- L["mw19_att_wpn_r90_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_r90_stock_heavy.printname"] = "Lockwood Precision Series"
 -- L["mw19_att_wpn_r90_stock_heavy.compactname"] = "Lockwood"
@@ -1748,19 +1434,6 @@ L["cod2019_r90_pump_light.description"] = "Lightweight composite pump allows fas
 -- L["mw19_att_wpn_r90_mag_ext.printname"] = "Tube Extentions"
 -- L["mw19_att_wpn_r90_mag_ext.compactname"] = "Extentions"
 -- L["mw19_att_wpn_r90_mag_ext.description"] = "Tube extension carries an extra <color=100,255,100>4 rounds</color> of 12 gauge with a very slight weight increase."
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_r90_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_r90_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_r90_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_r90_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_r90_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_r90_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_r90_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_r90_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_r90_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  725
 /////////////// Optics
@@ -1792,7 +1465,6 @@ L["cod2019_725_stock_stable.description"] = "Competition stock with adjustable c
 
 -- L["mw19_att_wpn_725_stock_none.printname"] = "Sawed-off Stock"
 -- L["mw19_att_wpn_725_stock_none.compactname"] = "Sawed-off"
--- L["mw19_att_wpn_725_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_725_stock_medium.printname"] = "Tempus Sport"
 -- L["mw19_att_wpn_725_stock_medium.compactname"] = "Sport"
@@ -1813,26 +1485,17 @@ L["cod2019_725_foregrip_light.description"] = "Ultralight forend grips allows gr
 
 ////////////////////  Origin 12 Shotgun
 /////////////// Barrels
-L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Precision"
-L["cod2019_origin12_barrel_long.compactname"] = "Precision"
-L["cod2019_origin12_barrel_long.description"] = "Heavy-duty tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
+L["cod2019_origin12_barrel_mid.printname"] = "FORGE TAC Precision"
+L["cod2019_origin12_barrel_mid.compactname"] = "Precision"
+L["cod2019_origin12_barrel_mid.description"] = "Heavy-duty tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
 
 L["cod2019_origin12_barrel_small.printname"] = "FORGE TAC Wideshot"
 L["cod2019_origin12_barrel_small.compactname"] = "Wideshot"
 L["cod2019_origin12_barrel_small.description"] = "Lightweight smooth bore barrel widens pellet spread and improves agility with only a minor decrease to range."
 
--- L["mw19_att_wpn_origin12_brl_03.printname"] = "FORGE TAC Impaler"
--- L["mw19_att_wpn_origin12_brl_03.compactname"] = "Impaler"
--- L["mw19_att_wpn_origin12_brl_03.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
-
-/////////////// Grips
-L["cod2019_origin12_grip_side_com.printname"] = ARC9:GetPhrase("cod2019_angled.printname")
-L["cod2019_origin12_grip_side_com.compactname"] = ARC9:GetPhrase("cod2019_angled.compactname")
-L["cod2019_origin12_grip_side_com.description"] = ARC9:GetPhrase("cod2019_angled.description")
-
-L["cod2019_origin12_grip_side_merc.printname"] = ARC9:GetPhrase("cod2019_grips_merc.printname")
-L["cod2019_origin12_grip_side_merc.compactname"] = ARC9:GetPhrase("cod2019_grips_merc.compactname")
-L["cod2019_origin12_grip_side_merc.description"] = ARC9:GetPhrase("cod2019_grips_merc.description")
+L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Impaler"
+L["cod2019_origin12_barrel_long.compactname"] = "Impaler"
+L["cod2019_origin12_barrel_long.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
 
 /////////////// Stock
 -- L["mw19_att_wpn_origin12_stock_medium.printname"] = "FORGE TAC Dart"
@@ -1840,26 +1503,13 @@ L["cod2019_origin12_grip_side_merc.description"] = ARC9:GetPhrase("cod2019_grips
 -- L["mw19_att_wpn_origin12_stock_medium.description"] = "Tactical stock designed for fast target acquisition."
 
 /////////////// Magazine
--- L["mw19_att_wpn_origin12_mag_12.printname"] = string.format(mw19magtext.mag, "12")
--- L["mw19_att_wpn_origin12_mag_12.compactname"] = string.format(mw19magtext.mags, "12")
--- L["mw19_att_wpn_origin12_mag_12.description"] = string.format(mw19magtext.desc12, "12")
+L["cod2019_origin12_mag_xmag.printname"] = string.format(mw19magtext.mag, "12")
+L["cod2019_origin12_mag_xmag.compactname"] = string.format(mw19magtext.mags, "12")
+L["cod2019_origin12_mag_xmag.description"] = string.format(mw19magtext.desc12, "12")
 
 L["cod2019_origin12_mag_drum.printname"] = string.format(mw19magtext.drummag, "25")
 L["cod2019_origin12_mag_drum.compactname"] = string.format(mw19magtext.mags, "25")
 L["cod2019_origin12_mag_drum.description"] = string.format(mw19magtext.descdrum12, "25")
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_origin12_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_origin12_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_origin12_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_origin12_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_origin12_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_origin12_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_origin12_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_origin12_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_origin12_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  VLK Rogue
 /////////////// Barrels
@@ -1897,24 +1547,10 @@ L["cod2019_vlk_mag_xmag.description"] = string.format(mw19magtext.desc12, "12")
 -- L["mw19_att_wpn_vlk_mag_4.compactname"] = string.format(mw19magtext.mags, "4")
 -- L["mw19_att_wpn_vlk_mag_4.description"] = "<color=255,100,100>4 round</color> magazines carry fewer 12 gauge shells, but increase mobility and speed up reload times."
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_vlk_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_vlk_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_vlk_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_vlk_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_vlk_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_vlk_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_vlk_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_vlk_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_vlk_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  JAK-12
 /////////////// Barrels
 -- L["mw19_att_wpn_aa12_brl_01.printname"] = "ZLR J-2800 Influx"
 -- L["mw19_att_wpn_aa12_brl_01.compactname"] = "Influx"
--- L["mw19_att_wpn_aa12_brl_01.description"] = ARC9:GetPhrase("mw19_att_wpn_vlk_brl_03")
 
 L["cod2019_jak12_barrel_short.printname"] = "JAK Urban King"
 L["cod2019_jak12_barrel_short.compactname"] = "Urban"
@@ -1931,7 +1567,6 @@ L["cod2019_jak12_barrel_long.description"] = "Extra-long barrel tightens pellet 
 
 -- L["mw19_att_wpn_aa12_stock_light.printname"] = "JAK Rabbit Ultralight"
 -- L["mw19_att_wpn_aa12_stock_light.compactname"] = stockname.ultralights
--- L["mw19_att_wpn_aa12_stock_light.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_heavy.description")
 
 L["cod2019_jak12_stock_stable.printname"] = "FSS Power Wrap"
 L["cod2019_jak12_stock_stable.compactname"] = "Power"
@@ -1946,29 +1581,14 @@ L["cod2019_jak12_mag_drum.printname"] = string.format(mw19magtext.drummag, "32")
 L["cod2019_jak12_mag_drum.compactname"] = string.format(mw19magtext.mags, "32")
 L["cod2019_jak12_mag_drum.description"] = "Drum magazines hold <color=100,255,100>32 shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility."
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_aa12_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_aa12_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_aa12_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_aa12_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_aa12_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_aa12_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_aa12_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_aa12_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_aa12_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////////  LMGs
 ////////////////////  PKM
 /////////////// Barrels
 L["cod2019_pkm_barrel_short.printname"] = "18.2\" Compact Barrel"
 L["cod2019_pkm_barrel_short.compactname"] = "Compact"
-L["cod2019_pkm_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 L["cod2019_pkm_barrel_long.printname"] = "26.9\" Extended Barrel"
 L["cod2019_pkm_barrel_long.compactname"] = "Extended"
-L["cod2019_pkm_barrel_long.description"] = ARC9:GetPhrase("mw19_att_wpn_725_brl_03.description")
 
 -- L["mw19_att_wpn_pkm_brl_03.printname"] = "25.9\" Heavy Barrel"
 -- L["mw19_att_wpn_pkm_brl_03.compactname"] = "Heavy"
@@ -1983,19 +1603,6 @@ L["cod2019_pkm_barrel_long.description"] = ARC9:GetPhrase("mw19_att_wpn_725_brl_
 -- L["mw19_att_wpn_pkm_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
 -- L["mw19_att_wpn_pkm_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["762x54"])
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_pkm_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_pkm_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_pkm_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_pkm_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_pkm_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_pkm_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_pkm_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_pkm_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_pkm_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  SA87
 /////////////// Receiver
 L["cod2019_sa86_reciever_v5.printname"] = "FTAC Receiver"
@@ -2009,7 +1616,6 @@ L["cod2019_sa86_barrel_mid.description"] = "Shorter barrel improves agility at a
 
 -- L["mw19_att_wpn_sa87_brl_02.printname"] = "SA87 25.4\" Factory"
 -- L["mw19_att_wpn_sa87_brl_02.compactname"] = "25.4\""
--- L["mw19_att_wpn_sa87_brl_02.description"] = ARC9:GetPhrase("mw19_att_wpn_725_brl_03.description")
 
 L["cod2019_sa86_barrel_short.printname"] = "SA87 12.4\" Factory"
 L["cod2019_sa86_barrel_short.compactname"] = "12.4\""
@@ -2018,28 +1624,12 @@ L["cod2019_sa86_barrel_short.description"] = "Shortest barrel available sacrific
 /////////////// Stocks
 -- L["mw19_att_wpn_sa87_stock_medium.printname"] = "XRK SA87 Heavy Stock Pro"
 -- L["mw19_att_wpn_sa87_stock_medium.compactname"] = "XRK Pro"
--- L["mw19_att_wpn_sa87_stock_medium.description"] = ARC9:GetPhrase("mw19_att_wpn_aug_stock_heavy.description")
 
 -- L["mw19_att_wpn_sa87_stock_heavy.printname"] = "SA87 Ultralight Hollow"
 -- L["mw19_att_wpn_sa87_stock_heavy.compactname"] = stockname.ultralights
--- L["mw19_att_wpn_sa87_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_heavy.description")
 
 -- L["mw19_att_wpn_sa87_stock_medium2.printname"] = stockname.cqbcomb
 -- L["mw19_att_wpn_sa87_stock_medium2.compactname"] = stockname.cqbcombs
--- L["mw19_att_wpn_sa87_stock_medium2.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_sa87_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_sa87_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_sa87_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_sa87_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_sa87_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_sa87_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_sa87_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_sa87_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_sa87_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  M91
 /////////////// Barrels
@@ -2069,19 +1659,6 @@ L["cod2019_sa86_barrel_short.description"] = "Shortest barrel available sacrific
 -- L["mw19_att_wpn_m91_stock_medium.compactname"] = "Striker"
 -- L["mw19_att_wpn_m91_stock_medium.description"] = "High performance stock designed for rapid target engagement."
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_m91_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_m91_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_m91_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_m91_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_m91_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_m91_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_m91_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_m91_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_m91_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  MG34
 /////////////// Barrels
 -- L["mw19_att_wpn_mg34_brl_01.printname"] = "FSS Brute"
@@ -2105,19 +1682,6 @@ L["cod2019_sa86_barrel_short.description"] = "Shortest barrel available sacrific
 -- L["mw19_att_wpn_mg34_mag_100.compactname"] = string.format(mw19magtext.mags, "100")
 -- L["mw19_att_wpn_mg34_mag_100.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["792"])
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_mg34_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_mg34_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_mg34_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_mg34_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_mg34_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_mg34_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_mg34_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_mg34_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_mg34_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  Holger-26
 /////////////// Optics
 -- L["mw19_att_wpn_holger_optic_integral_reflex.printname"] = "FSS Integral Reflex"
@@ -2135,16 +1699,13 @@ L["cod2019_sa86_barrel_short.description"] = "Shortest barrel available sacrific
 
 L["cod2019_holger_barrel_spitfire.printname"] = "FTAC 8.98\" Spitfire"
 L["cod2019_holger_barrel_spitfire.compactname"] = "Spitfire"
-L["cod2019_holger_barrel_spitfire.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 /////////////// Stocks
 -- L["mw19_att_wpn_holger_stock_heavy.printname"] = "FSS Ranger"
 -- L["mw19_att_wpn_holger_stock_heavy.compactname"] = "Ranger"
--- L["mw19_att_wpn_holger_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 -- L["mw19_att_wpn_holger_stock_light.printname"] = "FSS Infantry"
 -- L["mw19_att_wpn_holger_stock_light.compactname"] = "Infantry"
--- L["mw19_att_wpn_holger_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
 -- L["mw19_att_wpn_holger_stock_medium.printname"] = "XRK Axis"
 -- L["mw19_att_wpn_holger_stock_medium.compactname"] = "Axis"
@@ -2155,42 +1716,20 @@ L["cod2019_holger_armag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_holger_armag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_holger_armag_30.description"] = "<color=255,100,100>30 round</color> magazines of 5.56 NATO carry less ammunition, but increase mobility and speed up reload times."
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_holger_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_holger_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_holger_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_holger_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_holger_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_holger_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_holger_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_holger_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_holger_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  Bruen Mk9
 /////////////// Barrels
 -- L["mw19_att_wpn_bruen_brl_01.printname"] = "XRK Horizon 23.0\""
 -- L["mw19_att_wpn_bruen_brl_01.compactname"] = "Horizon"
--- L["mw19_att_wpn_bruen_brl_01.description"] = ARC9:GetPhrase("mw19_att_wpn_m91_brl_01.description")
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
-L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("mw19_att_wpn_pp19_brl_01.description")
 
 -- L["cod2019_bruenmk9_barrel_short.printname"] = "Bruen 18.0\" Para"
 -- L["cod2019_bruenmk9_barrel_short.compactname"] = "Para"
--- L["cod2019_bruenmk9_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
-
-/////////////// Underbarrel
-L["cod2019_bruenmk9_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname")
-L["cod2019_bruenmk9_grip_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname")
-L["cod2019_bruenmk9_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description")
 
 /////////////// Stocks
 -- L["mw19_att_wpn_bruen_stock_vlight.printname"] = stockname.skeleton
 -- L["mw19_att_wpn_bruen_stock_vlight.compactname"] = stockname.skeletons
--- L["mw19_att_wpn_bruen_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 /////////////// Magazine
 -- L["mw19_att_wpn_bruen_mag_200.printname"] = string.format(mw19magtext.belt, "200")
@@ -2201,24 +1740,10 @@ L["cod2019_bruenmk9_mag_60.printname"] = string.format(mw19magtext.mag, "60")
 L["cod2019_bruenmk9_mag_60.compactname"] = string.format(mw19magtext.mags, "60")
 L["cod2019_bruenmk9_mag_60.description"] = "<color=255,100,100>60 round</color> magazines of 5.56 NATO carry less ammunition than the standard belts, but increase mobility and greatly speed up reload times."
 
-/////////////// Pistol Grips
--- L["mw19_att_wpn_bruen_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_bruen_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_bruen_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_bruen_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_bruen_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_bruen_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_bruen_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_bruen_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_bruen_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
-
 ////////////////////  FiNN LMG
 /////////////// Barrels
 -- L["mw19_att_wpn_finn_brl_01.printname"] = "XRK Pro Twist"
 -- L["mw19_att_wpn_finn_brl_01.compactname"] = "Twist"
--- L["mw19_att_wpn_finn_brl_01.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description")
 
 -- L["mw19_att_wpn_finn_brl_02.printname"] = "Factory <Adverse>"
 -- L["mw19_att_wpn_finn_brl_02.compactname"] = "Factory <A>"
@@ -2247,11 +1772,9 @@ L["cod2019_bruenmk9_mag_60.description"] = "<color=255,100,100>60 round</color> 
 /////////////// Stocks
 -- L["mw19_att_wpn_finn_stock_heavy.printname"] = "XRK Citadel"
 -- L["mw19_att_wpn_finn_stock_heavy.compactname"] = "Citadel"
--- L["mw19_att_wpn_finn_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 -- L["mw19_att_wpn_finn_stock_light.printname"] = "XRK M309 Forward Assault"
 -- L["mw19_att_wpn_finn_stock_light.compactname"] = "M309"
--- L["mw19_att_wpn_finn_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
 L["cod2019_finn_stock_saw.printname"] = "XRK CHainSAW"
 L["cod2019_finn_stock_saw.compactname"] = "ChainSAW"
@@ -2287,20 +1810,16 @@ L["cod2019_raal_barrel_light.description"] = "25.0 inch Barrel with aluminum she
 /////////////// Muzzle
 -- L["mw19_att_wpn_raal_muzzle_mono.printname"] = "RAAL Monocore"
 -- L["mw19_att_wpn_raal_muzzle_mono.compactname"] = "Monocore"
--- L["mw19_att_wpn_raal_muzzle_mono.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
 
 /////////////// Stocks
 L["cod2019_stock_raal_heavy.printname"] = "FSS Resistor"
 L["cod2019_stock_raal_heavy.compactname"] = "Resistor"
-L["cod2019_stock_raal_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 -- L["mw19_att_wpn_raal_stock_light.printname"] = "FTAC Sandpiper Pro"
 -- L["mw19_att_wpn_raal_stock_light.compactname"] = "Sandpiper"
--- L["mw19_att_wpn_raal_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
 -- L["mw19_att_wpn_raal_stock_none.printname"] = stockname.folded
 -- L["mw19_att_wpn_raal_stock_none.compactname"] = stockname.foldeds
--- L["mw19_att_wpn_raal_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 -- L["mw19_att_wpn_raal_stock_medium.printname"] = "FTAC Elevate"
 -- L["mw19_att_wpn_raal_stock_medium.compactname"] = "Elevate"
@@ -2327,16 +1846,3 @@ L["cod2019_raal_grip_side_fss.description"] = "Canted foregrip improves vertical
 L["cod2019_raal_mag_smag.printname"] = string.format(mw19magtext.belt, "50")
 L["cod2019_raal_mag_smag.compactname"] = string.format(mw19magtext.mags, "50")
 L["cod2019_raal_mag_smag.description"] = "Short <color=255,100,100>50 round</color> .338 Lapua Magnum belts with small capacity box reduce overall weight for improved maneuverability."
-
-/////////////// Pistol Grips
--- L["mw19_att_wpn_raal_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
--- L["mw19_att_wpn_raal_rg_gran.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.compactname")
--- L["mw19_att_wpn_raal_rg_gran.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.description")
-
--- L["mw19_att_wpn_raal_rg_rubber.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.printname")
--- L["mw19_att_wpn_raal_rg_rubber.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.compactname")
--- L["mw19_att_wpn_raal_rg_rubber.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_rubber.description")
-
--- L["mw19_att_wpn_raal_rg_stippled.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.printname")
--- L["mw19_att_wpn_raal_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.compactname")
--- L["mw19_att_wpn_raal_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
