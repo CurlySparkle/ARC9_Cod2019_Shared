@@ -180,4 +180,7 @@ ATT.RecoilkMult = 0.8
 ATT.DeployTimeMult = 1.15
 ATT.AimDownSightsTimeMult = 1.1
 
+ATT.CustomizeAng = Angle(90, 0, 0)
+ATT.CustomizePos = Vector(17, 25, 3)
+
 ARC9.LoadAttachment(ATT, "cod2019_x16_stock")
