@@ -304,7 +304,7 @@ ATT.Sights = {
 		Blur = true,
 		ActivateElements = {"magnifier_off"},
         Disassociate = true,
-		CanPeek = false,
+		CantPeek = true,
     },
 }
 
