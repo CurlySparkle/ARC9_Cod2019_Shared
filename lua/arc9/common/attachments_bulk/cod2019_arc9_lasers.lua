@@ -3,20 +3,20 @@ local ATT = {}
 local stats_tac = {
     AimDownSightsTimeAdd = -0.035,
 	SpreadMult = 0.90,
-	PeekCrosshair = false,
+	NoPeekCrosshair = true,
 }
 
 local stats_1mw = {
     SpreadMultMove = 0.94,
 	SpreadMult = 0.80,
-	PeekCrosshair = false,
+	NoPeekCrosshair = true,
 }
 
 local stats_5mw = {
     SprintToFireTimeAdd = -0.05,
     SpreadMultMove = 0.94,
 	SpreadMult = 0.85,
-	PeekCrosshair = false,
+	NoPeekCrosshair = true,
 }
 
 -------------------------------------------------------------------------------
