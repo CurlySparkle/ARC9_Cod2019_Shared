@@ -262,3 +262,5 @@ ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_03")
 -------------------------------------------------------------------------------
+-- 725 Muzzle Attachs Below
+-------------------------------------------------------------------------------
