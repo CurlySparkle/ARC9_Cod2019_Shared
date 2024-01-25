@@ -1117,13 +1117,13 @@ L["cod2019_uzi_mag_cult.description"] = "Konverteringskit för att använda 32-p
 -- L["mw19_att_wpn_pp19_brl_01.compactname"] = "Stål"
 -- L["mw19_att_wpn_pp19_brl_01.description"] = "Tung pipa av stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
--- L["mw19_att_wpn_pp19_brl_02.printname"] = "221mm Polygonell"
--- L["mw19_att_wpn_pp19_brl_02.compactname"] = "Polygonell"
--- L["mw19_att_wpn_pp19_brl_02.description"] = "Lätt längdökning och polygonell räffling förbättrar mynningshastigheten och räckvidden med väldigt lite tillagd vikt."
+L["cod2019_bizon_barrel_long.printname"] = "221mm Polygonell"
+L["cod2019_bizon_barrel_long.compactname"] = "Polygonell"
+L["cod2019_bizon_barrel_long.description"] = "Lätt längdökning och polygonell räffling förbättrar mynningshastigheten och räckvidden med väldigt lite tillagd vikt."
 
--- L["mw19_att_wpn_pp19_brl_03.printname"] = "221mm Aluminium"
--- L["mw19_att_wpn_pp19_brl_03.compactname"] = "Aluminium"
--- L["mw19_att_wpn_pp19_brl_03.description"] = "Gropad pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
+L["cod2019_bizon_barrel_short.printname"] = "221mm Aluminium"
+L["cod2019_bizon_barrel_short.compactname"] = "Aluminium"
+L["cod2019_bizon_barrel_short.description"] = "Gropad pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
 /////////////// Stock
 -- L["mw19_att_wpn_pp19_stock_light.printname"] = "Aluminium Fabrikskolv"
@@ -1136,9 +1136,9 @@ L["cod2019_uzi_mag_cult.description"] = "Konverteringskit för att använda 32-p
 -- L["mw19_att_wpn_pp19_stock_medium.compactname"] = stockname.closequartersstocks
 
 /////////////// Magazine
--- L["mw19_att_wpn_pp19_mag_84.printname"] = "84-Patroners Spiralformade Magasin"
--- L["mw19_att_wpn_pp19_mag_84.compactname"] = string.format(mw19magtext.mags, "84")
--- L["mw19_att_wpn_pp19_mag_84.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
+L["cod2019_bizon_mag_xmag.printname"] = "84-Patroners Spiralformade Magasin"
+L["cod2019_bizon_mag_xmag.compactname"] = string.format(mw19magtext.mags, "84")
+L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
 
 ////////////////////  MP7
 /////////////// Barrels

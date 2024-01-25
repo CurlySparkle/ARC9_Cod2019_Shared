@@ -1644,13 +1644,13 @@ L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazine
 -- L["mw19_att_wpn_pp19_brl_01.compactname"] = "Steel"
 -- L["mw19_att_wpn_pp19_brl_01.description"] = "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
--- L["mw19_att_wpn_pp19_brl_02.printname"] = "8.7\" Polygonal"
--- L["mw19_att_wpn_pp19_brl_02.compactname"] = "Polygonal"
--- L["mw19_att_wpn_pp19_brl_02.description"] = "Slight length increase and polygonal rifling improve muzzle velocity and range with little additional weight."
+L["cod2019_bizon_barrel_long.printname"] = "8.7\" Polygonal"
+L["cod2019_bizon_barrel_long.compactname"] = "Polygonal"
+L["cod2019_bizon_barrel_long.description"] = "Slight length increase and polygonal rifling improve muzzle velocity and range with little additional weight."
 
--- L["mw19_att_wpn_pp19_brl_03.printname"] = "8.7\" Aluminium"
--- L["mw19_att_wpn_pp19_brl_03.compactname"] = "Aluminium"
--- L["mw19_att_wpn_pp19_brl_03.description"] = "Dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_bizon_barrel_short.printname"] = "8.7\" Aluminium"
+L["cod2019_bizon_barrel_short.compactname"] = "Aluminium"
+L["cod2019_bizon_barrel_short.description"] = "Dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
 -- L["mw19_att_wpn_pp19_stock_light.printname"] = "Factory Aluminium Stock"
@@ -1666,9 +1666,9 @@ L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazine
 -- L["mw19_att_wpn_pp19_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 /////////////// Magazine
--- L["mw19_att_wpn_pp19_mag_84.printname"] = "84 Round Helical Mags"
--- L["mw19_att_wpn_pp19_mag_84.compactname"] = string.format(mw19magtext.mags, "84")
--- L["mw19_att_wpn_pp19_mag_84.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
+L["cod2019_bizon_mag_xmag.printname"] = "84 Round Helical Mags"
+L["cod2019_bizon_mag_xmag.compactname"] = string.format(mw19magtext.mags, "84")
+L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
 
 /////////////// Pistol Grips
 -- L["mw19_att_wpn_pp19_rg_gran.printname"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_gran.printname")
