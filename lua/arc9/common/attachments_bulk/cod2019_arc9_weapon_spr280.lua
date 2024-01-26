@@ -6,11 +6,11 @@ ATT.PrintName = "Solozero SP-R 28mm"
 ATT.CompactName = [[SP-R 28mm]]
 ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_scope.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
-ATT.Pros = {
-    "+ 8x Zoom",
-    "+ Clearer sight picture"
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "4.4x"
 }
-ATT.Cons = {}
+
 ATT.SortOrder = 4
 ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
@@ -24,24 +24,27 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.5, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.AimDownSightsTimeMult = 1.1
+ATT.AimDownSightsTimeAdd = 0.08
+-- ATT.VisualRecoilMult = 0.99
+ATT.RecoilMult = 0.99
 
 ATT.Sights = {
     {
-        Pos = Vector(0.015, 9, -1.277),
+        Pos = Vector(0.015, 8, -1.277),
         Ang = Angle(0, 0, 0),
-        ViewModelFOV = 26,
-        Magnification = 2,
+        ViewModelFOV = 36,
+        Magnification = 1.15,
         IgnoreExtra = true,
     },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 3
-ATT.RTScopeFOVMin = 7
-ATT.RTScopeFOVMax = 26
+ATT.RTScopeAdjustable = false
+ATT.RTScopeFOV = 36 / 4.4
+-- ATT.RTScopeAdjustmentLevels = 3
+-- ATT.RTScopeFOVMin = 7
+-- ATT.RTScopeFOVMax = 26
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 1
