@@ -19,7 +19,8 @@ ATT.Category = {"cod2019_mag_fal"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.ClipSizeOverride = 30
-ATT.ReloadTimeMult = 1.1
+ATT.ReloadTimeMult = 1.13
 ATT.AimDownSightsTimeMult = 1.1
+ATT.DeployTimeMult = 1.05
 
 ARC9.LoadAttachment(ATT, "cod2019_fal_mag_30")
