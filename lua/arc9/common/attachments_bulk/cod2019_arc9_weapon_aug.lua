@@ -43,6 +43,7 @@ ATT.ActivateElements = {"mag_none","mag_armag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_armag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_armag.mdl"
+ATT.ShellSounds = ARC9.COD2019_556_Table
 ATT.BoneMerge = true
 
 ATT.DropMagazineSounds = {
@@ -81,6 +82,7 @@ ATT.AtmosSoundIndoor = "Distant_AR.Inside"
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/shell_762_hr.mdl"
 ATT.ShellScale = 0.06
+ATT.ShellSounds = ARC9.COD2019_556_Table
 
 ATT.RPM = 800 
 ATT.ClipSizeOverride = 60

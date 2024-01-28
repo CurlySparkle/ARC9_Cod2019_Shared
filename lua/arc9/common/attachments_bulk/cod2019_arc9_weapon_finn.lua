@@ -1,4 +1,114 @@
 local ATT = {}
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK LongShot Advantage"
+ATT.CompactName = "XRK LongShot"
+ATT.Description = [[Fully shrouded 510mm chrome-moly barrel increases muzzle velocity and greatly improves accuracy.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_lm_finn_barlong.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlong.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_finn_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.SprintToFireTimeMult = 1.23
+ATT.AimDownSightsTimeMult = 1.23
+ATT.DeployTimeMult = 1.23
+
+ATT.RangeMaxMult = 1.15
+ATT.DamageMaxMult = 1.06
+ATT.RangeMinMult = 1.15
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(3.1, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_finn_barrel_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC VC-8 Harrier"
+ATT.CompactName = "FTAC VC-8"
+ATT.Description = [[Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_lm_finn_barlight.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlight.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_finn_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.AimDownSightsTimeMult = 0.92
+ATT.DeployTimeMult = 0.88
+
+ATT.RangeMaxMult = 0.95
+ATT.DamageMaxMult = 0.95
+ATT.RangeMinMult = 0.95
+ATT.SpreadMult = 1.20
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(-2, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_finn_barrel_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Citadel"
+ATT.CompactName = "XRK Citadel"
+ATT.Description = [[Heavy duty stock keeps your aim steady for precision shots.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_lm_finn_stockh.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_stockh.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_finn_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.RecoilMult = 0.85
+ATT.AimDownSightsTimeMult = 1.14
+ATT.DeployTimeMult = 1.09
+
+ARC9.LoadAttachment(ATT, "cod2019_stock_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -69,6 +179,9 @@ ATT.DamageMaxMult = 0.75
 ATT.DamageMinMult = 0.75
 ATT.RecoilMult = 0.85
 ATT.RecoilKickMult = 0.9
+ATT.DeployTimeMult = 1.15
+ATT.ReloadTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_mag"
