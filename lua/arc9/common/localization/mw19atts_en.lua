@@ -722,6 +722,7 @@ mw19ammotype = {
 	["338"] = ".338 Lapua Magnum",
 	["762x39"] = "7.62×39mm",
 	["300"] = ".300 Win Mag",
+	["127x108"] = "12.7×108mm",
 }
 
 mw19magtext = {
@@ -2534,30 +2535,30 @@ L["mw19_att_wpn_finn_brl_02.printname"] = "Factory <Adverse>"
 L["mw19_att_wpn_finn_brl_02.compactname"] = "Factory <A>"
 L["mw19_att_wpn_finn_brl_02.description"] = "Standard barrel with the gas regulator opened full throttle, increasing the <color=255,255,100>rate of fire</color> to its maximum potential. Sustained fire can quickly overheat the barrel."
 
-L["mw19_att_wpn_finn_brl_03.printname"] = "XRK LongShot Advantage"
-L["mw19_att_wpn_finn_brl_03.compactname"] = "LongShot"
-L["mw19_att_wpn_finn_brl_03.description"] = "Fully shrouded 510mm chrome-moly barrel increases muzzle velocity and greatly improves accuracy."
+L["cod2019_finn_barrel_long.printname"] = "XRK LongShot Advantage"
+L["cod2019_finn_barrel_long.compactname"] = "LongShot"
+L["cod2019_finn_barrel_long.description"] = "Fully shrouded 510mm chrome-moly barrel increases muzzle velocity and greatly improves accuracy."
 
 L["mw19_att_wpn_finn_brl_04.printname"] = "XRK Pro Twist <Adverse>"
 L["mw19_att_wpn_finn_brl_04.compactname"] = "Twist <A>"
 L["mw19_att_wpn_finn_brl_04.description"] = "XRKs polygonal rifled heavy duty barrel prevents a loss to range when set to Adverse fire mode. Allows for the max <color=255,255,100>rate of fire</color> without losing lethality at a distance."
 
-L["mw19_att_wpn_finn_brl_05.printname"] = "FTAC VC-8 Harrier"
-L["mw19_att_wpn_finn_brl_05.compactname"] = "Harrier"
-L["mw19_att_wpn_finn_brl_05.description"] = "Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_finn_barrel_light.printname"] = "FTAC VC-8 Harrier"
+L["cod2019_finn_barrel_light.compactname"] = "Harrier"
+L["cod2019_finn_barrel_light.description"] = "Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity."
 
-L["mw19_att_wpn_finn_brl_06.printname"] = "XRK LongShot <Adverse>"
-L["mw19_att_wpn_finn_brl_06.compactname"] = "LongShot <A>"
-L["mw19_att_wpn_finn_brl_06.description"] = "Longest available barrel with Adverse fire mode tuning. Improved range and an insane <color=255,255,100>rate of fire</color> with a smaller increase to recoil."
+L["cod2019_finn_barrel_long_adv.printname"] = "XRK LongShot <Adverse>"
+L["cod2019_finn_barrel_long_adv.compactname"] = "LongShot <A>"
+L["cod2019_finn_barrel_long_adv.description"] = "Longest available barrel with Adverse fire mode tuning. Improved range and an insane <color=255,255,100>rate of fire</color> with a smaller increase to recoil."
 
-L["mw19_att_wpn_finn_brl_07.printname"] = "FTAC VC-8 Harrier <Adverse>"
-L["mw19_att_wpn_finn_brl_07.compactname"] = "Harrier <A>"
-L["mw19_att_wpn_finn_brl_07.description"] = "Lightweight, highly maneuverable barrel with a <color=255,255,100>rate of fire</color> pushed to the limit using adverse fire gas regulator settings."
+L["cod2019_finn_barrel_light_adv.printname"] = "FTAC VC-8 Harrier <Adverse>"
+L["cod2019_finn_barrel_light_adv.compactname"] = "Harrier <A>"
+L["cod2019_finn_barrel_light_adv.description"] = "Lightweight, highly maneuverable barrel with a <color=255,255,100>rate of fire</color> pushed to the limit using adverse fire gas regulator settings."
 
 /////////////// Stocks
-L["mw19_att_wpn_finn_stock_heavy.printname"] = "XRK Citadel"
-L["mw19_att_wpn_finn_stock_heavy.compactname"] = "Citadel"
-L["mw19_att_wpn_finn_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
+L["cod2019_finn_stock_heavy.printname"] = "XRK Citadel"
+L["cod2019_finn_stock_heavy.compactname"] = "Citadel"
+L["cod2019_finn_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 L["mw19_att_wpn_finn_stock_light.printname"] = "XRK M309 Forward Assault"
 L["mw19_att_wpn_finn_stock_light.compactname"] = "M309"
@@ -2863,13 +2864,13 @@ L["cod2019_sks_stock_heavy.printname"] = "SKS Rifle Stock"
 L["cod2019_sks_stock_heavy.compactname"] = "SKS"
 L["cod2019_sks_stock_heavy.description"] = "Traditional rifle stock provides exceptional control while aiming, at the cost of mobility."
 
-L["mw19_att_wpn_sks_stock_heavy.printname"] = stockname.hunterscout
-L["mw19_att_wpn_sks_stock_heavy.compactname"] = stockname.hunterscouts
-L["mw19_att_wpn_sks_stock_heavy.description"] = "Western stock adaptor designed to improve aiming precision."
+L["mw19_att_wpn_sks_stock_medium.printname"] = stockname.hunterscout
+L["mw19_att_wpn_sks_stock_medium.compactname"] = stockname.hunterscouts
+L["mw19_att_wpn_sks_stock_medium.description"] = "Western stock adaptor designed to improve aiming precision."
 
-L["mw19_att_wpn_sks_stock_heavy.printname"] = stockname.sawed
-L["mw19_att_wpn_sks_stock_heavy.compactname"] = stockname.saweds
-L["mw19_att_wpn_sks_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["mw19_att_wpn_sks_stock_none.printname"] = stockname.sawed
+L["mw19_att_wpn_sks_stock_none.compactname"] = stockname.saweds
+L["mw19_att_wpn_sks_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 /////////////// Magazine
 L["cod2019_sks_mag_30.printname"] = string.format(mw19magtext.mag, "30")
@@ -2948,3 +2949,80 @@ L["mw19_att_wpn_spr208_bolt_02.description"] = "Titanium shrouded aluminum core 
 
 L["mw19_bolt_stat_speed"] = "Rechamber Speed"
 L["mw19_bolt_stat_stability"] = "Rechamber Stability"
+
+////////////////////////  Sniper Rifles
+////////////////////  Dragunov
+/////////////// Barrels
+L["mw19_att_wpn_dragunov_brl_01.printname"] = "510mm Compact Barrel"
+L["mw19_att_wpn_dragunov_brl_01.compactname"] = "Compact"
+L["mw19_att_wpn_dragunov_brl_01.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
+
+L["mw19_att_wpn_dragunov_brl_02.printname"] = "660m Extended Barrel"
+L["mw19_att_wpn_dragunov_brl_02.compactname"] = "Extended"
+L["mw19_att_wpn_dragunov_brl_02.description"] = "Extended barrel improves muzzle velocity and range. Additional weight stabilizes shots but hinders mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_dragunov_stock_heavy.printname"] = stockname.hunterscout
+L["mw19_att_wpn_dragunov_stock_heavy.compactname"] = stockname.hunterscouts
+L["mw19_att_wpn_dragunov_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_sks_stock_heavy.description")
+
+L["mw19_att_wpn_dragunov_stock_vlight.printname"] = stockname.skeleton
+L["mw19_att_wpn_dragunov_stock_vlight.compactname"] = stockname.skeletons
+L["mw19_att_wpn_dragunov_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
+
+L["mw19_att_wpn_dragunov_stock_light.printname"] = "VLK Lightweight Stock"
+L["mw19_att_wpn_dragunov_stock_light.compactname"] = "Lightweight"
+L["mw19_att_wpn_dragunov_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
+
+L["mw19_att_wpn_dragunov_stock_medium.printname"] = stockname.stalkerscout
+L["mw19_att_wpn_dragunov_stock_medium.compactname"] = stockname.stalkerscouts
+L["mw19_att_wpn_dragunov_stock_medium.description"] = "Western stock adaptor designed to improve target acquisition."
+
+/////////////// Magazine
+L["cod2019_dragunov_mag_15.printname"] = string.format(mw19magtext.mag, "15")
+L["cod2019_dragunov_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
+L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762x54"])
+
+L["cod2019_dragunov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_dragunov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762x54"])
+
+////////////////////  HDR
+/////////////// Barrels
+L["mw19_att_wpn_hdr_brl_01.printname"] = "26.9\" HDR Pro"
+L["mw19_att_wpn_hdr_brl_01.compactname"] = "26.9\""
+L["mw19_att_wpn_hdr_brl_01.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight helps to stabilize shots at the cost of agility."
+
+L["mw19_att_wpn_hdr_brl_02.printname"] = "26.0\" Bull Barrel"
+L["mw19_att_wpn_hdr_brl_02.compactname"] = "26.0\""
+L["mw19_att_wpn_hdr_brl_02.description"] = "This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity."
+
+L["mw19_att_wpn_hdr_brl_03.printname"] = "17.2\" Bull Barrel"
+L["mw19_att_wpn_hdr_brl_03.compactname"] = "17.2\""
+L["mw19_att_wpn_hdr_brl_03.description"] = "Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_hdr_stock_heavy.printname"] = stockname.stalkerscout
+L["mw19_att_wpn_hdr_stock_heavy.compactname"] = stockname.stalkerscouts
+L["mw19_att_wpn_hdr_stock_heavy.description"] = "Sniper variant of the Stalker stock designed to improve target acquisition."
+
+L["mw19_att_wpn_hdr_stock_medium.printname"] = stockname.hunterscout
+L["mw19_att_wpn_hdr_stock_medium.compactname"] = stockname.hunterscouts
+L["mw19_att_wpn_hdr_stock_medium.description"] = "Sniper variant of the Hunter stock designed to improve aiming precision."
+
+L["mw19_att_wpn_hdr_stock_light.printname"] = "FSS Nomad Stock"
+L["mw19_att_wpn_hdr_stock_light.compactname"] = "Nomad"
+L["mw19_att_wpn_hdr_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
+
+L["mw19_att_wpn_hdr_stock_vheavy.printname"] = "FTAC Champion"
+L["mw19_att_wpn_hdr_stock_vheavy.compactname"] = "Champion"
+L["mw19_att_wpn_hdr_stock_vheavy.description"] = ARC9:GetPhrase("cod2019_stock_vheavy.description")
+
+/////////////// Magazine
+L["cod2019_hdr_mag_7.printname"] = string.format(mw19magtext.mag, "7")
+L["cod2019_hdr_mag_7.compactname"] = string.format(mw19magtext.mags, "7")
+L["cod2019_hdr_mag_7.description"] = string.format(mw19magtext.desc, "7", mw19ammotype["127x108"])
+
+L["cod2019_hdr_mag_9.printname"] = string.format(mw19magtext.mag, "9")
+L["cod2019_hdr_mag_9.compactname"] = string.format(mw19magtext.mags, "9")
+L["cod2019_hdr_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19ammotype["127x108"])

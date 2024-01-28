@@ -108,7 +108,7 @@ ATT.RecoilMult = 0.85
 ATT.AimDownSightsTimeMult = 1.14
 ATT.DeployTimeMult = 1.09
 
-ARC9.LoadAttachment(ATT, "cod2019_stock_heavy")
+ARC9.LoadAttachment(ATT, "cod2019_finn_stock_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
