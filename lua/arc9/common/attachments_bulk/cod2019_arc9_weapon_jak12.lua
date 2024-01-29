@@ -120,8 +120,10 @@ ATT.Description = [[Lead lined weighted wrap balances center mass for stability 
 
 ATT.Icon = Material("entities/attachs/cod2019_sh_jak12_stocks.png", "mips smooth")
 
-ATT.SprintToFireTimeMult = 1.1
-ATT.AimDownSightsTimeMult = 1.1
+ATT.SprintToFireTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 0.9
+ATT.DeployTimeMult = 1.1
+ATT.RecoilMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_jak12_stock"}
