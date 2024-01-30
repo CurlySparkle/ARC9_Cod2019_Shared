@@ -21,12 +21,12 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_akimbo_slide"}
 ATT.ActivateElements = {"slide_none","x16_slide_auto"}
 
-ATT.FiremodesOverride = {
-    {
-        Mode = -1,
-		RPM = 1200,
-    },
-}
+-- ATT.FiremodesOverride = {
+    -- {
+        -- Mode = -1,
+		-- RPM = 1200,
+    -- },
+-- }
 
 ATT.RecoilMult = 1.1
 ATT.RangeMaxMult = 0.95
@@ -34,7 +34,7 @@ ATT.RangeMinMult = 0.95
 ATT.PhysBulletMuzzleVelocityMult = 0.95
 ATT.AimDownSightsTimeMult = 1.15
 
-ARC9.LoadAttachment(ATT, "cod2019_x16_slide_auto_akimbo")
+ARC9.LoadAttachment(ATT, "cod2019_x16_slide_light_akimbo")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -131,12 +131,12 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_slide"}
 ATT.ActivateElements = {"slide_none"}
 
-ATT.FiremodesOverride = {
-    {
-        Mode = -1,
-		RPM = 1200,
-    },
-}
+-- ATT.FiremodesOverride = {
+    -- {
+        -- Mode = -1,
+		-- RPM = 1200,
+    -- },
+-- }
 
 ATT.RecoilMult = 1.1
 ATT.RangeMaxMult = 0.95
@@ -144,7 +144,7 @@ ATT.RangeMinMult = 0.95
 ATT.PhysBulletMuzzleVelocityMult = 0.95
 ATT.AimDownSightsTimeMult = 1.15
 
-ARC9.LoadAttachment(ATT, "cod2019_x16_slide_auto")
+ARC9.LoadAttachment(ATT, "cod2019_x16_slide_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

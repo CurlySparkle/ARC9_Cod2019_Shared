@@ -210,7 +210,7 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 36 / 4.4
+ATT.RTScopeFOV = 36 / 2.8
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/aug_crosshair")
 ATT.RTScopeReticleScale = 0.9
