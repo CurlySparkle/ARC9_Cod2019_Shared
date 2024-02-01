@@ -15,12 +15,13 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
-ATT.AimDownSightsTimeAdd = 0.021
+ATT.AimDownSightsTimeAdd = 0.2
 ATT.VisualRecoilMult = 0.8
 ATT.RecoilMult = 0.8
 ATT.SpreadMultHipFire = 0.947
 ATT.SpeedMult = 0.99
 ATT.SpeedMultSights = 0.88
+ATT.RecoilRandomSideMult = 0.85
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
@@ -49,12 +50,13 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
-ATT.AimDownSightsTimeAdd = -0.07
-ATT.VisualRecoilMult = 0.95
-ATT.RecoilMult = 0.95
+ATT.AimDownSightsTimeAdd = 0.07
+ATT.VisualRecoilMult = 0.9
+ATT.RecoilMult = 0.9
 ATT.SpreadMultHipFire = 0.947
 ATT.SpeedMult = 0.99
 ATT.SpeedMultSights = 0.93
+ATT.RecoilRandomSideMult = 0.9
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
@@ -84,11 +86,12 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
 ATT.AimDownSightsTimeAdd = 0.021
-ATT.VisualRecoilMult = 0.83
-ATT.RecoilMult = 0.83
+ATT.VisualRecoilMult = 0.91
+ATT.RecoilMult = 0.91
 ATT.SpreadMultHipFire = 0.947
 ATT.SpeedMult = 0.99
 ATT.SpeedMultSights = 0.88
+ATT.RecoilRandomSideMult = 0.93
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
@@ -123,6 +126,7 @@ ATT.RecoilMult = 0.91
 ATT.SpreadMultHipFire = 0.947
 ATT.SpeedMult = 0.98
 ATT.SpeedMultSights = 0.85
+ATT.RecoilRandomSideMult = 0.95
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
@@ -157,6 +161,7 @@ ATT.RecoilMult = 0.95
 ATT.SpreadMultHipFire = 0.947
 ATT.SpeedMult = 0.99
 ATT.SpeedMultSights = 0.93
+ATT.RecoilRandomSideMult = 0.97
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
@@ -185,12 +190,13 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
-ATT.AimDownSightsTimeAdd = 0.027
-ATT.VisualRecoilMult = 0.83
-ATT.RecoilMult = 0.83
+ATT.AimDownSightsTimeAdd = 0.15
+ATT.VisualRecoilMult = 0.94
+ATT.RecoilMult = 0.94
 ATT.SpreadMultHipFire = 0.947
 ATT.SpeedMult = 0.99
 ATT.SpeedMultSights = 0.98
+ATT.RecoilRandomSideMult = 0.95
 
 ATT.ReloadTimeMult = 0.85 -- Because Twilight asked for it
 

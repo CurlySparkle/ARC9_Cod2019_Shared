@@ -21,12 +21,12 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_akimbo_slide"}
 ATT.ActivateElements = {"slide_none","x16_slide_auto"}
 
--- ATT.FiremodesOverride = {
-    -- {
-        -- Mode = -1,
-		-- RPM = 1200,
-    -- },
--- }
+ATT.FiremodesOverride = {
+    {
+        Mode = -1,
+		RPM = 1200,
+    },
+}
 
 ATT.RecoilMult = 1.1
 ATT.RangeMaxMult = 0.95
@@ -131,12 +131,12 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_slide"}
 ATT.ActivateElements = {"slide_none"}
 
--- ATT.FiremodesOverride = {
-    -- {
-        -- Mode = -1,
-		-- RPM = 1200,
-    -- },
--- }
+ATT.FiremodesOverride = {
+    {
+        Mode = -1,
+		RPM = 1200,
+    },
+}
 
 ATT.RecoilMult = 1.1
 ATT.RangeMaxMult = 0.95
