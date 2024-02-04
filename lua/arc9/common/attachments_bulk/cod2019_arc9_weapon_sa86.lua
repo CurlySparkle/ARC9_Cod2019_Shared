@@ -102,9 +102,6 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_sa86_reciever"
 ATT.ActivateElements = {"body_none","foregrip_none","sight_none"}
 
-ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
-ATT.MuzzleDevice_Priority = 3
-
 ATT.AimDownSightsTimeMult = 0.9
 ATT.TriggerDelayTime = 0.04
 
