@@ -63,6 +63,7 @@ ATT.AutoStats = true
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_xmags.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
