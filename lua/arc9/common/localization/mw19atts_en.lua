@@ -3399,9 +3399,9 @@ L["mw19_att_wpn_renetti_brl_02.printname"] = "Mk1 Extended"
 L["mw19_att_wpn_renetti_brl_02.compactname"] = "Extended"
 L["mw19_att_wpn_renetti_brl_02.description"] = ARC9:GetPhrase("mw19_att_wpn_x16_brl_02.description")
 
-L["mw19_att_wpn_renetti_brl_03.printname"] = "Mk3 Burst Mod"
-L["mw19_att_wpn_renetti_brl_03.compactname"] = "Burst"
-L["mw19_att_wpn_renetti_brl_03.description"] = "Custom pistol mod features a durable stainless steel barrel, Mk3 series slide, and advanced trigger group that allows a blazing fast 3 round burst."
+L["cod2019_renetti_slide_auto.printname"] = "Mk3 Burst Mod"
+L["cod2019_renetti_slide_auto.compactname"] = "Burst"
+L["cod2019_renetti_slide_auto.description"] = "Custom pistol mod features a durable stainless steel barrel, Mk3 series slide, and advanced trigger group that allows a blazing fast 3 round burst."
 
 /////////////// Muzzle
 L["mw19_att_wpn_renetti_muzzle_comp.printname"] = "Desperado Pro Compensator"
@@ -3422,9 +3422,9 @@ L["mw19_att_wpn_renetti_trigger_match.compactname"] = ARC9:GetPhrase("mw19_att_w
 L["mw19_att_wpn_renetti_trigger_match.description"] = ARC9:GetPhrase("mw19_att_wpn_x16_trigger_match.description")
 
 /////////////// Stocks
-L["mw19_att_wpn_renetti_stock.printname"] = "FTAC SATUS CS-3"
-L["mw19_att_wpn_renetti_stock.compactname"] = "CS-3"
-L["mw19_att_wpn_renetti_stock.description"] = "Tactical stock provides a stable aiming platform and improved recoil control without sacrificing too much mobility."
+L["cod2019_renetti_stock.printname"] = "FTAC SATUS CS-3"
+L["cod2019_renetti_stock.compactname"] = "CS-3"
+L["cod2019_renetti_stock.description"] = "Tactical stock provides a stable aiming platform and improved recoil control without sacrificing too much mobility."
 
 L["mw19_att_wpn_renetti_grip.printname"] = "FTAC G-X"
 L["mw19_att_wpn_renetti_grip.compactname"] = "G-X"
@@ -3435,9 +3435,9 @@ L["mw19_att_wpn_renetti_stock_grip.compactname"] = "CS-X"
 L["mw19_att_wpn_renetti_stock_grip.description"] = "Tactical stock and foregrip combo provide an extremely stable firing platform."
 
 /////////////// Magazine
-L["cod2019_renetti_mag_21.printname"] = string.format(mw19magtext.mag, "21")
-L["cod2019_renetti_mag_21.compactname"] = string.format(mw19magtext.mags, "21")
-L["cod2019_renetti_mag_21.description"] = string.format(mw19magtext.desc, "21", mw19ammotype["919"])
+L["cod2019_renetti_mag_xmag.printname"] = string.format(mw19magtext.mag, "21")
+L["cod2019_renetti_mag_xmag.compactname"] = string.format(mw19magtext.mags, "21")
+L["cod2019_renetti_mag_xmag.description"] = string.format(mw19magtext.desc, "21", mw19ammotype["919"])
 
 L["cod2019_renetti_mag_27.printname"] = string.format(mw19magtext.mag, "27")
 L["cod2019_renetti_mag_27.compactname"] = string.format(mw19magtext.mags, "27")

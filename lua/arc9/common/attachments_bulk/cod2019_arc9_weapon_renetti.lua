@@ -33,8 +33,10 @@ ATT.PhysBulletMuzzleVelocityMult = 1.1
 
 ATT.FiremodesOverride = {
     {
-        Mode = -1,
+        Mode = 3,
 		RPM = 882,
+        RunawayBurst = true,
+		TracerEffect = "ARC9_tracer"
     },
 }
 
