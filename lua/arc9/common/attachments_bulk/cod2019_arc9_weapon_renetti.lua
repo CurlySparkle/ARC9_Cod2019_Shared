@@ -30,6 +30,7 @@ ATT.RecoilMult = 0.95
 ATT.RangeMaxMult = 1.1
 ATT.RangeMinMult = 1.1
 ATT.PhysBulletMuzzleVelocityMult = 1.1
+ATT.PostBurstDelay = 0.2
 
 ATT.FiremodesOverride = {
     {
@@ -73,6 +74,7 @@ ATT.RecoilKickMult = 0.8
 ATT.RecoilkMult = 0.8
 ATT.DeployTimeMult = 1.15
 ATT.AimDownSightsTimeMult = 1.1
+ATT.RecoilModifierCapMult = 0.5
 
 ATT.CustomizeAng = Angle(90, 0, 0)
 ATT.CustomizePos = Vector(17, 25, 3)
@@ -112,7 +114,7 @@ ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.AimDownSightsTimeMult = 1.1
 ATT.ReloadTimeMult = 1.1
-ATT.ClipSizeOverride = 21
+ATT.ClipSizeOverride = 20
 
 ATT.BulletBones = {
     [1] = {"j_bullet1","j_bullet1_l"},
