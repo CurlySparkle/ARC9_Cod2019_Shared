@@ -15,12 +15,11 @@ ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.ActivateElements = {"grip"}
 
-ATT.AimDownSightsTimeAdd = 0.2
+ATT.AimDownSightsTimeAdd = 0.15
+ATT.DeployTimeAdd = 0.2
 ATT.VisualRecoilMult = 0.8
 ATT.RecoilMult = 0.8
 ATT.SpreadMultHipFire = 0.947
-ATT.SpeedMult = 0.99
-ATT.SpeedMultSights = 0.88
 ATT.RecoilRandomSideMult = 0.85
 
 ATT.LHIK_Priority = 10

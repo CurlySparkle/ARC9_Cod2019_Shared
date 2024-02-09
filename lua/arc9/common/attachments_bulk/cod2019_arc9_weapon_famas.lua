@@ -103,9 +103,9 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_famas_stock"
 ATT.ActivateElements = {"stock_tactical"}
 
-ATT.SprintToFireTimeMult = 0.9
-ATT.AimDownSightsTimeMult = 0.9
-ATT.RecoilMult = 1.1
+ATT.AimDownSightsTimeMult = 0.95
+ATT.DeployTimeMult = 1.05
+ATT.RecoilMult = 1.05
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_stock_tactical")
 ---------------------------------------------------------------------------------------
