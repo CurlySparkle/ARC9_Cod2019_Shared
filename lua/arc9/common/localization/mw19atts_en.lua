@@ -2792,9 +2792,9 @@ L["mw19_att_wpn_kar98k_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_
 
 ////////////////////  Crossbow
 /////////////// Optics
-L["mw19_att_wpn_crossbow_optic_midtrak.printname"] = "XRK MidTrak 4.0x Scope"
-L["mw19_att_wpn_crossbow_optic_midtrak.compactname"] = "MidTrak"
-L["mw19_att_wpn_crossbow_optic_midtrak.description"] = "High power <color=100,255,100>4.0x</color> scope converts this crossbow into an accurate long range weapon. <color=255,100,100>Optic glint visible to enemies.</color>"
+L["cod2019_crossbow_scope.printname"] = "XRK MidTrak 4.0x Scope"
+L["cod2019_crossbow_scope.compactname"] = "MidTrak"
+L["cod2019_crossbow_scope.description"] = "High power <color=100,255,100>4.0x</color> scope converts this crossbow into an accurate long range weapon. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 L["mw19_att_wpn_crossbow_optic_rangemaster.printname"] = "XRK Rangemaster VZ"
 L["mw19_att_wpn_crossbow_optic_rangemaster.compactname"] = "Rangemaster"
@@ -2805,9 +2805,9 @@ L["cod2019_crossbow_wires_light.printname"] = "16-Strand Cable"
 L["cod2019_crossbow_wires_light.compactname"] = "16S"
 L["cod2019_crossbow_wires_light.description"] = "Lower-tension lightweight cable fires the bolts with exceptional accuracy at a lower velocity."
 
-L["mw19_att_wpn_crossbow_cable_02.printname"] = "28-Strand Cable"
-L["mw19_att_wpn_crossbow_cable_02.compactname"] = "28S"
-L["mw19_att_wpn_crossbow_cable_02.description"] = "High-tension heavyweight cable fires bolts at a higher velocity, but with less accuracy."
+L["cod2019_crossbow_wires_tact.printname"] = "28-Strand Cable"
+L["cod2019_crossbow_wires_tact.compactname"] = "28S"
+L["cod2019_crossbow_wires_tact.description"] = "High-tension heavyweight cable fires bolts at a higher velocity, but with less accuracy."
 
 /////////////// Arms
 L["mw19_att_wpn_crossbow_arms_01.printname"] = "XRK Thunder 200 Lb"
@@ -2818,9 +2818,9 @@ L["cod2019_crossbow_limbs_light.printname"] = "XRK Quill 100 Lb"
 L["cod2019_crossbow_limbs_light.compactname"] = "Quill"
 L["cod2019_crossbow_limbs_light.description"] = "Lightweight arms fire bolts at a slower velocity, but greatly improve agility and handling."
 
-L["mw19_att_wpn_crossbow_arms_03.printname"] = "XRK Carbon Elite"
-L["mw19_att_wpn_crossbow_arms_03.compactname"] = "Carbon"
-L["mw19_att_wpn_crossbow_arms_03.description"] = "Carbon fiber arms improve handling with a slightly slower bolt velocity."
+L["cod2019_crossbow_limbs_tact.printname"] = "XRK Carbon Elite"
+L["cod2019_crossbow_limbs_tact.compactname"] = "Carbon"
+L["cod2019_crossbow_limbs_tact.description"] = "Carbon fiber arms improve handling with a slightly slower bolt velocity."
 
 /////////////// Stocks
 L["mw19_att_wpn_crossbow_stock_heavy.printname"] = "FORGE TAC Apex"
@@ -2831,9 +2831,9 @@ L["cod2019_crossbow_stock_light.printname"] = "FORGE TAC Dart CB"
 L["cod2019_crossbow_stock_light.compactname"] = "Dart"
 L["cod2019_crossbow_stock_light.description"] = "Lightweight crossbow stock provides exceptional agility while aiming."
 
-L["mw19_att_wpn_crossbow_stock_medium.printname"] = "FORGE TAC SpeedTrak"
-L["mw19_att_wpn_crossbow_stock_medium.compactname"] = "SpeedTrak"
-L["mw19_att_wpn_crossbow_stock_medium.description"] = "Competition stock from FSS designed for rapid target acquisition."
+L["cod2019_crossbow_stock_tact.printname"] = "FORGE TAC SpeedTrak"
+L["cod2019_crossbow_stock_tact.compactname"] = "SpeedTrak"
+L["cod2019_crossbow_stock_tact.description"] = "Competition stock from FSS designed for rapid target acquisition."
 
 /////////////// Bolts
 L["cod2019_ammo_crossbow_expl.printname"] = "FTAC Fury 20\" Bolts"
