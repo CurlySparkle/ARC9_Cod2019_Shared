@@ -112,6 +112,44 @@ ARC9.LoadAttachment(ATT, "cod2019_famas_stock_tactical")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Valorise"
+ATT.CompactName = "Valorise"
+ATT.Description = [[]]
+
+--ATT.Icon = Material("entities/attachs/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_railcust.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_famas_reciever"
+ATT.ActivateElements = {"upper_none","bipod_none","railcust"}
+
+ATT.ActivePos = Vector(-0.5, 0, 1)
+ATT.ActiveAng = Angle(0, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_optic"),
+        Pos = Vector(-7, 0, -1.37),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = "cod2019_optic",
+		Scale = 1
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_famas_upper_railcust")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "50 Round Mags"
 ATT.CompactName = "50-Round"
 ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
