@@ -920,6 +920,11 @@ L["mw19_att_wpn_m4a1_rg_stippled.compactname"] = ARC9:GetPhrase("mw19_att_wpn_ki
 L["mw19_att_wpn_m4a1_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kilo141_rg_stippled.description")
 
 ////////////////////  FR 5.56
+/////////////// Receiver
+L["cod2019_famas_upper_railcust.printname"] = "Valorisé Receiver"
+L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
+L["cod2019_famas_upper_railcust.description"] = "Modified Valorisé receiver for the FR 5.56."
+
 /////////////// Barrels
 L["cod2019_famas_barrel_short.printname"] = "FR 15.9\" Commando"
 L["cod2019_famas_barrel_short.compactname"] = "Commando"

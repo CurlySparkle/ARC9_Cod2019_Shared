@@ -599,6 +599,11 @@ L["mw19_att_wpn_m4a1_mag_socom.compactname"] = "10P SOCOM"
 L["mw19_att_wpn_m4a1_mag_socom.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>.458 SOCOM</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen."
 
 ////////////////////  FR 5.56
+/////////////// Receiver
+L["cod2019_famas_upper_railcust.printname"] = "Valorisé-Låda"
+L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
+L["cod2019_famas_upper_railcust.description"] = "Anpassad Valorisé-låda till FR 5,56."
+
 /////////////// Barrels
 L["cod2019_famas_barrel_short.printname"] = "FR 404mm Kommando"
 L["cod2019_famas_barrel_short.compactname"] = "Kommando"
@@ -718,9 +723,9 @@ L["cod2019_scar_mag_dmr.printname"] = "6.5mm Creedmoor 10P." -- UO
 L["cod2019_scar_mag_dmr.compactname"] = "6.5mm 10P" -- UO
 L["cod2019_scar_mag_dmr.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>6.5mm Creedmoor</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen." -- UO
 
-L["cod2019_scar_mag_ar.printname"] = "30P 5.56 Magasin" -- UO
-L["cod2019_scar_mag_ar.compactname"] = "30P 5.56" -- UO
-L["cod2019_scar_mag_ar.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>5.56mm NATO</color>-ammunition för ökad rekylkontroll med kostnad på stoppkraft." -- UO
+L["cod2019_scar_mag_ar.printname"] = "30P 5,56 Magasin" -- UO
+L["cod2019_scar_mag_ar.compactname"] = "30P 5,56" -- UO
+L["cod2019_scar_mag_ar.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>5,56mm NATO</color>-ammunition för ökad rekylkontroll med kostnad på stoppkraft." -- UO
 
 ////////////////////  AK-47
 /////////////// Barrels
@@ -863,9 +868,9 @@ L["cod2019_cr56_mag_fal.printname"] = "7.62 NATO 30P" -- UO
 L["cod2019_cr56_mag_fal.compactname"] = "7.62 30-P" -- UO
 L["cod2019_cr56_mag_fal.description"] = "<color=255,100,100>30 patroner</color> av <color=255,255,100>7.62 NATO</color>-ammunition matad genom att rakt FAL-magasin." -- UO
 
-L["cod2019_cr56_mag_grau552.printname"] = "5.56 NATO 30P" -- UO
-L["cod2019_cr56_mag_grau552.compactname"] = "5.56 30-P" -- UO
-L["cod2019_cr56_mag_grau552.description"] = "Konverteringskit för att använda <color=255,255,100>5.56 NATO</color> ammunition. Skjuter med en högre hastighet med mindre rekyl." -- UO
+L["cod2019_cr56_mag_grau552.printname"] = "5,56 NATO 30P" -- UO
+L["cod2019_cr56_mag_grau552.compactname"] = "5,56 30-P" -- UO
+L["cod2019_cr56_mag_grau552.description"] = "Konverteringskit för att använda <color=255,255,100>5,56 NATO</color> ammunition. Skjuter med en högre hastighet med mindre rekyl." -- UO
 
 /////////////// Pistol Grips
 L["mw19_att_wpn_cr56_rg_gran.printname"] = "XRK CR-56 Granulated Wrap"
@@ -1000,13 +1005,13 @@ L["mw19_att_wpn_aug_mag_32.printname"] = string.format(mw19magtext.mag, "32")
 L["mw19_att_wpn_aug_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
 L["mw19_att_wpn_aug_mag_32.description"] = string.format(mw19magtext.desc, "32", mw19ammotype["919"])
 
-L["cod2019_aug_mag_ar_30.printname"] = "5.56 NATO 30-Patronersmagasin"
-L["cod2019_aug_mag_ar_30.compactname"] = "30P 5.56"
-L["cod2019_aug_mag_ar_30.description"] = "Konverteringskit för att anvämda 30-patronersmagasin matade med <color=255,255,100>5.56 NATO</color> för ökad stoppkraft. Lätt sänkt eldhastighet hjälper kontrollera rekylen."
+L["cod2019_aug_mag_ar_30.printname"] = "5,56 NATO 30-Patronersmagasin"
+L["cod2019_aug_mag_ar_30.compactname"] = "30P 5,56"
+L["cod2019_aug_mag_ar_30.description"] = "Konverteringskit för att använda 30-patronersmagasin matade med <color=255,255,100>5,56 NATO</color> för ökad stoppkraft. Lätt sänkt eldhastighet hjälper kontrollera rekylen."
 
-L["cod2019_aug_mag_ar_drum.printname"] = "5.56 NATO 60-Patronersmagasin"
-L["cod2019_aug_mag_ar_drum.compactname"] = "60P 5.56"
-L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5.56 NATO</color>-konverteringskit med <color=100,255,100>60 patroners</color>trummor. Lägre rörlighet, maximal ammunitionskapacitet."
+L["cod2019_aug_mag_ar_drum.printname"] = "5,56 NATO 60-Patronersmagasin"
+L["cod2019_aug_mag_ar_drum.compactname"] = "60P 5,56"
+L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5,56 NATO</color>-konverteringskit med <color=100,255,100>60 patroners</color>trummor. Lägre rörlighet, maximal ammunitionskapacitet."
 
 ////////////////////  P90
 /////////////// Optics
