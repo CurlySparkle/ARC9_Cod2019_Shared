@@ -19,12 +19,13 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilMult = 1.1
+ATT.SprintToFireTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
+ATT.DeployTimeMult = 1.1
 
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
+ATT.RecoilMult = 1.08
+ATT.RangeMaxMult = 1.08
+ATT.RangeMinMult = 1.08
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -63,12 +64,12 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 0.85
-ATT.AimDownSightsTimeMult = 0.85
-ATT.RecoilMult = 1.15
+ATT.SprintToFireTimeMult = 0.90
+ATT.AimDownSightsTimeMult = 0.90
 
-ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
+ATT.RecoilMult = 1.1
+ATT.RangeMaxMult = 0.95
+ATT.RangeMinMult = 0.95
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -127,6 +128,9 @@ ATT.ActivateElements = {"upper_none","bipod_none","railcust"}
 
 ATT.ActivePos = Vector(-0.5, 0, 1)
 ATT.ActiveAng = Angle(0, 0, 0)
+
+ATT.SprintPos = Vector(1, 0, 0)
+ATT.SprintAng = Angle(0, 0, 25)
 
 ATT.Attachments = {
     {
@@ -198,6 +202,7 @@ ATT.ClipSizeOverride = 60
 ATT.ReloadTimeMult = 1.15
 ATT.SprintToFireTimeMult = 1.1
 ATT.AimDownSightsTimeMult = 1.1
+ATT.DeployTimeMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_famas_mag","cod2019_mag_xmag"}
