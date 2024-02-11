@@ -7,7 +7,7 @@ ATT.CompactName = "Mk3 Auto Mod"
 ATT.Description = [[]]
 
 ATT.SortOrder = 1
-ATT.Icon = Material("entities/attachs/cod2019_pi_renetti_barauto.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_barauto.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -59,7 +59,7 @@ ATT.CompactName = "Renetti Stock"
 ATT.Description = [[Renetti Stock]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_pi_renetti_stock.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_stock.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -100,7 +100,7 @@ ATT.CompactName = "21 Round"
 ATT.Description = [[]]
 
 ATT.SortOrder = 1
-ATT.Icon = Material("entities/attachs/cod2019_pi_renetti_xmagslrg.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_xmagslrg.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

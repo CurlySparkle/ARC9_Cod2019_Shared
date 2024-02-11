@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = "HDR Scope"
 ATT.CompactName = [[HDR Scope]]
-ATT.Icon = Material("entities/attachs/cod2019_sn_hdr_scope.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/hdr/cod2019_sn_hdr_scope.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 ATT.Pros = {
     "+ 8x Zoom",
@@ -58,7 +58,7 @@ ATT.CompactName = "17.2\" Bull"
 ATT.Description = [[Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility.]]
 ATT.SortOrder = 0
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_hdr_barrel_short.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/hdr/cod2019_sn_hdr_barrel_short.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -98,7 +98,7 @@ ATT.CompactName = "26.9\" Pro"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight helps to stabilize shots at the cost of agility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_hdr_barrel_long.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/hdr/cod2019_sn_hdr_barrel_long.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -144,7 +144,7 @@ ATT.CompactName = "FTAC MAG"
 ATT.Description = [[Special mag designed for special ammo types such as explosiv/thermite, 
 Reduces the total mag use to 5 rounds.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_hdr_xmag2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/hdr/cod2019_sn_hdr_xmag2.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_hdr_mag"

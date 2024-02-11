@@ -7,7 +7,7 @@ ATT.CompactName = "15 Round"
 ATT.Description = [[High capacity magazines hold 15 rounds with a moderate weight increase.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_pi_m1911_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/m1911/cod2019_pi_m1911_xmags.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

@@ -6,7 +6,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "30 Round Mags"
 ATT.CompactName = "30-R Mag"
 ATT.Description = [[]]
-ATT.Icon = Material("entities/attachs/cod2019_lm_holger_armag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger_armag.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
@@ -49,7 +49,7 @@ ATT.CompactName = "Spitfire"
 ATT.Description = [[Medium, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_holger36_barrel_med.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_barrel_med.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

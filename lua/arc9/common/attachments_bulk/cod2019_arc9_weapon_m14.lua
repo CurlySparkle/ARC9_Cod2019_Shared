@@ -7,7 +7,7 @@ ATT.CompactName = "15-R"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_mike14_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/m14/cod2019_mm_mike14_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -33,7 +33,7 @@ ATT.CompactName = "20-R"
 ATT.Description = [[]]
 ATT.SortOrder = 2
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_mike14_xmags2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/m14/cod2019_mm_mike14_xmags2.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

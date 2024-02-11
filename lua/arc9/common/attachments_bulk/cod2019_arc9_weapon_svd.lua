@@ -7,7 +7,7 @@ ATT.PrintName = "660mm Extended Barrel"
 ATT.CompactName = "660mm"
 ATT.Description = [[Extended barrel improves muzzle velocity and range. Additional weight stabilize shots but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_svd_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_barlong.mdl"
 ATT.BoneMerge = false
@@ -49,7 +49,7 @@ ATT.PrintName = "510mm Compact Barrel"
 ATT.CompactName = "510mm"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_svd_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_barshort.mdl"
 ATT.BoneMerge = false
@@ -107,23 +107,6 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_v
 ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "cod2019_svd_mag_30")
----------------------------------------------------------------------------------------
-ATT = {}
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "Sling"
-ATT.CompactName = "Sling"
-ATT.Description = [[]]
-
---ATT.Icon = Material("entities/attachs/go_aug_ammo_9mm.png", "mips smooth")
-
-ATT.SortOrder = 0
-ATT.Category = "cod2019_svd_extras"
-
-ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_sling.mdl"
-ATT.BoneMerge = true
-
-ARC9.LoadAttachment(ATT, "cod2019_svd_sling")
 ----------------------------------------------------------------------------------------
 ATT = {}
 

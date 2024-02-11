@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = "AX50 Scope"
 ATT.CompactName = [[AX50 Scope]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_scope_ax50.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_optic_scope_ax50.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 ATT.Pros = {
     "+ 8x Zoom",
@@ -57,7 +57,7 @@ ATT.CompactName = "17.0\" Barrel"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move.]]
 ATT.SortOrder = 0
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_ax50_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_barshort.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -103,7 +103,7 @@ ATT.CompactName = "32.0\" Barrel"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilize shots but hinders mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_ax50_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_barlong.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -149,7 +149,7 @@ ATT.CompactName = "FTAC MAG"
 ATT.Description = [[Special mag designed for special ammo types such as explosiv/thermite, 
 Reduces the total mag use to 5 rounds.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_ax50_mmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_mmags.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_ax50_mag"
@@ -186,7 +186,7 @@ ATT.PrintName = "Bipod"
 ATT.CompactName = "Bipod"
 ATT.Description = [[Installs the bipod for better recoil and accuracy.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_rytec_bipod.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_bipod.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_ax50_bipod"

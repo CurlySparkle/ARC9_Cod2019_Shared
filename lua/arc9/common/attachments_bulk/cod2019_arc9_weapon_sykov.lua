@@ -7,7 +7,7 @@ ATT.CompactName = "140mm Auto"
 ATT.Description = [[]]
 
 ATT.SortOrder = 1
-ATT.Icon = Material("entities/attachs/cod2019_pi_sykov_barauto.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_barauto.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -58,7 +58,7 @@ ATT.CompactName = "20 Round"
 ATT.Description = [[]]
 
 ATT.SortOrder = 1
-ATT.Icon = Material("entities/attachs/cod2019_pi_sykov_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_xmags.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

@@ -7,7 +7,7 @@ ATT.PrintName = "Tempus Cyclone"
 ATT.CompactName = "Tempus Cyclone"
 ATT.Description = [[Integrated suppressor with a heavy duty monolithic core increases muzzle velocity while maintaining a low sound signature.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_m13_suppressorbarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/m13/cod2019_ar_m13_suppressorbarrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_ar_mcharlie_suppressorbarrel.mdl"
 ATT.BoneMerge = false
@@ -52,7 +52,7 @@ ATT.PrintName = "Tempus Marksman"
 ATT.CompactName = "Tempus Marksman"
 ATT.Description = [[16" chrome-moly barrel with extended guard increases muzzle velocity and range. Additional weight stabilizes shots for the most accurate barrel available.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_m13_longbarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/m13/cod2019_ar_m13_longbarrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_ar_mcharlie_longbarrel.mdl"
 ATT.BoneMerge = false

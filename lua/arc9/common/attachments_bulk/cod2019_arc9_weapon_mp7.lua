@@ -7,7 +7,7 @@ ATT.PrintName = "FSS RECON"
 ATT.CompactName = "FSS RECON"
 ATT.Description = [[Designed for mobile scout operations, 10.5 inch barrel increases muzzle velocity, extends range and adds a moderate weight increase for smoother recoil.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp7_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_barlong.mdl"
 ATT.BoneMerge = false
@@ -50,7 +50,7 @@ ATT.PrintName = "FSS SWAT"
 ATT.CompactName = "FSS SWAT"
 ATT.Description = [[Designed for police enforcements raids, shorter length and larger bore barrel reduces weight for improved handling at the cost of muzzle velocity.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp7_barlight.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_barlight.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_barlight.mdl"
 ATT.BoneMerge = false
@@ -85,7 +85,7 @@ ATT.CompactName = "50 Round"
 ATT.Description = [[Drum magazines hold 50 rounds of 4.6×30mm, maximizing ammo capacity at the expense of mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp7_mmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_mmags.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -125,7 +125,7 @@ ATT.CompactName = "60 Round"
 ATT.Description = [[Drum magazines hold 60 rounds of 4.6×30mm, maximizing ammo capacity at the expense of mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp7_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_xmags.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

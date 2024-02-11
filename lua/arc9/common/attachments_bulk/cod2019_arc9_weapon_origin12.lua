@@ -7,7 +7,7 @@ ATT.PrintName = "FORGE TAC Impaler"
 ATT.CompactName = "Impaler"
 ATT.Description = [[Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_barrellong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_barrellong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_barrellong.mdl"
 ATT.BoneMerge = false
@@ -42,7 +42,7 @@ ATT.PrintName = "FORGE TAC Precision"
 ATT.CompactName = "Precision"
 ATT.Description = [[Heavy duty tapered barrel tightens pellet and slightly extends range with only a minor increase to weight.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_barrelmid.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_barrelmid.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_barrelmid.mdl"
 ATT.BoneMerge = false
@@ -77,7 +77,7 @@ ATT.PrintName = "FORGE TAC Wideshot"
 ATT.CompactName = "Wideshot"
 ATT.Description = [[Lightweight smooth bore barrel widens pellet spread and improves agility with only a minor decrease to range.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_barrelshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_barrelshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_barrelshort.mdl"
 ATT.BoneMerge = false
@@ -114,7 +114,7 @@ ATT.PrintName = "12 Round Mag"
 ATT.CompactName = "12-Round"
 ATT.Description = [[Better capacity magazines that hold 12 rounds with a weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 12
 ATT.ReloadTimeMult = 1.1
@@ -140,7 +140,7 @@ ATT.PrintName = "25 Round Drum"
 ATT.CompactName = "25-Round"
 ATT.Description = [[High capacity magazines hold 25 rounds with a heavy weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_drummag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 25
 ATT.ReloadTimeMult = 1.2
@@ -222,7 +222,7 @@ ATT.PrintName = "Commando Foregrip"
 ATT.CompactName = "Commando"
 ATT.Description = [[Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_sidegripang.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_sidegripang.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_sidegripang.mdl"
 
@@ -250,7 +250,7 @@ ATT.PrintName = "Merc Foregrip"
 ATT.CompactName = "Merc"
 ATT.Description = [[Extended foregrip reduces vertical recoil and provides stability from the hip for fast paced guerilla tactics.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_sidegrip_long.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_sidegrip_long.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_sidegrip_long.mdl"
 
@@ -278,7 +278,7 @@ ATT.PrintName = "Merc Foregrip"
 ATT.CompactName = "Merc"
 ATT.Description = [[Extended foregrip reduces vertical recoil and provides stability from the hip for fast paced guerilla tactics.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_origin12_sidegripang.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_sidegripang.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_sidegrip_long_alt.mdl"
 
@@ -305,7 +305,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = [[FSS Protector Suppressor]]
 ATT.CompactName = [[Protector]]
 ATT.Description = "Lightweight aluminum suppressor type FSS sacrifices range for stealth and agility."
-ATT.Icon = Material("entities/attachs/cod2019_sh_model680_shtgnsilencer.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_shtgnsilencer.png", "mips smooth")
 
 ATT.SortOrder = 2
 ATT.AutoStats = true

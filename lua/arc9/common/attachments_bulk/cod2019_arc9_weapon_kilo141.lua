@@ -7,7 +7,7 @@ ATT.PrintName = "Singuard Arms Whisper"
 ATT.CompactName = "Whisper"
 ATT.Description = [[Heavy duty integrated suppressor with a monolithic core increases muzzle velocity while maintaining a low sound signature.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_kilo141_barsil.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_barsil.mdl"
 ATT.BoneMerge = false
@@ -37,7 +37,7 @@ ATT.PrintName = "Singuard Arms 19.8\" Prowler"
 ATT.CompactName = "Prowler"
 ATT.Description = [[Stainless steel polygonal rifled barrel with guard extension greatly increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_kilo141_long_barrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_long_barrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_long_barrel.mdl"
 ATT.BoneMerge = false
@@ -84,7 +84,7 @@ ATT.PrintName = "100 Round 9mm Drum"
 ATT.CompactName = "100-Round"
 ATT.Description = [[Extended magazines hold 100 rounds with a weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_kilo141_drum_mag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_drum_mag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 100
 ATT.SprintToFireTimeMult = 1.15

@@ -7,7 +7,7 @@ ATT.PrintName = "SA87 18.2 Factory"
 ATT.CompactName = "Barrel 18.2"
 ATT.Description = [[Shorter barrel improves agility at a slight cost to bullet velocity and range.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_sa86_barrel_mid.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_mid.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_barrel_mid.mdl"
 ATT.BoneMerge = true
@@ -50,7 +50,7 @@ ATT.PrintName = "SA87 12.4 Factory"
 ATT.CompactName = "Barrel 12.4"
 ATT.Description = [[Shortest barrel available sacrifices accuracy and range for speed and agility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_sa86_barrel_short.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_short.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_barrel_short.mdl"
 ATT.BoneMerge = true
@@ -93,7 +93,7 @@ ATT.PrintName = "FORGE TAC Reciever"
 ATT.CompactName = "FTAC R"
 ATT.Description = [[]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_sa86_reciever_v2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_reciever_v2.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_v2_receiver_v5.mdl"
 ATT.BoneMerge = true

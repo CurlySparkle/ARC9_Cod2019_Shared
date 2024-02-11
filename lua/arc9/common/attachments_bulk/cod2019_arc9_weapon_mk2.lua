@@ -7,7 +7,7 @@ ATT.PrintName = "FSS 24.0\" Factory"
 ATT.CompactName = "FSS 24.0\""
 ATT.Description = [[24.0" barrel extends muzzle velocity and range to the max, but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_mk2_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_barlong.mdl"
 ATT.BoneMerge = true
@@ -41,7 +41,7 @@ ATT.PrintName = "FSS 20.0\" Factory"
 ATT.CompactName = "FSS 20.0\""
 ATT.Description = [[20.0" barrel is a perfect balance of increased muzzle velocity and increased weight.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_mk2_barmid.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_barmid.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_barmid.mdl"
 ATT.BoneMerge = true
@@ -75,7 +75,7 @@ ATT.PrintName = "FSS MK2 Precision Comb"
 ATT.CompactName = "Precision Comb"
 ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_mk2_stock_tactical.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_stock_tactical.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_stock_tactical.mdl"
 ATT.BoneMerge = true

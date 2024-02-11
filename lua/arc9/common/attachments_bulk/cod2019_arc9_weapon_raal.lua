@@ -7,7 +7,7 @@ ATT.PrintName = "25.0 RAAL Tri-fold Lite"
 ATT.CompactName = "25.0"
 ATT.Description = [[25.0 inch Barrel with aluminum shell, titanium core, and chrome-moly lined bore reduces weight and improves agility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_raal_barlight.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barlight.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_barlight.mdl"
 ATT.BoneMerge = true
@@ -48,7 +48,7 @@ ATT.PrintName = "50 Round Belts"
 ATT.CompactName = "50 Round Belts"
 ATT.Description = [[]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_raal_smag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_smag.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_raal_mag"
@@ -87,7 +87,7 @@ ATT.PrintName = "PMC Grip"
 ATT.CompactName = "PMC"
 ATT.Description = [[Canted grip designed purely for controlling vertical recoil and preventing muzzle climb.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_raal_gripside02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_gripside02.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_gripside02.mdl"
 
@@ -114,7 +114,7 @@ ATT.PrintName = "FSS Oblique"
 ATT.CompactName = "FSS"
 ATT.Description = [[Canted foregrip improves vertical recoil and provides a better stance for raising and lowering the weapon.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_raal_gripside03.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_gripside03.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_gripside03.mdl"
 
@@ -142,7 +142,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Resistor"
 ATT.CompactName = [[Resistor]]
 ATT.Description = [[Stock designed for agility while aiming down sights.]]
-ATT.Icon = Material("entities/attachs/cod2019_lm_raal_stockh.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockh.png", "mips smooth")
 ATT.SortOrder = 5.3
 
 ATT.AutoStats = true

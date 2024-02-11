@@ -2,7 +2,7 @@ local ATT = {}
 ---------------------------------------------------------------------------------------
 ATT.PrintName = "Sniper Scope"
 ATT.CompactName = [[Sniper]]
-ATT.Icon = Material("entities/attachs/cod2019_mm_kar98k_scope.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_scope.png", "mips smooth")
 ATT.Description = [[Long-range classic combat scope. Provides an improved precision at longer ranges.]]
 
 ATT.CustomPros = {
@@ -62,7 +62,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Singuard Custom 27.6\""
 ATT.CompactName = "Singuard Custom 27.6\""
 ATT.Description = [[Custom 27.6" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility.]]
-ATT.Icon = Material("entities/attachs/cod2019_mm_kar98k_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_barlong.mdl"
 ATT.BoneMerge = false
@@ -99,7 +99,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Singuard Custom 21.2\""
 ATT.CompactName = "Singuard Custom 21.2\""
 ATT.Description = [[Custom 21.2" heavyweight barrel with polygonal rifling slightly increases muzzle velocity and extends range with little additional weight.]]
-ATT.Icon = Material("entities/attachs/cod2019_mm_kar98k_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_barshort.mdl"
 ATT.BoneMerge = false

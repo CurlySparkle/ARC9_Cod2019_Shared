@@ -7,7 +7,7 @@ ATT.PrintName = "8.7\" Polygonal"
 ATT.CompactName = "8.7\" Polygonal"
 ATT.Description = [[Slight length increase and polygonal rifling improve muzzle velocity and range with little additional weight.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_bizon_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_barlong.mdl"
 ATT.BoneMerge = false
@@ -49,7 +49,7 @@ ATT.PrintName = "8.7\" Aluminum"
 ATT.CompactName = "8.7\" Aluminum"
 ATT.Description = [[Dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_bizon_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_barshort.mdl"
 ATT.BoneMerge = false
@@ -93,7 +93,7 @@ ATT.CompactName = "84-Round"
 ATT.Description = [[High capacity magazines hold 84 rounds of 9mm Makarov with a moderate weight increase.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_bizon_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

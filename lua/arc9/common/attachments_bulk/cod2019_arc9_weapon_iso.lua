@@ -7,7 +7,7 @@ ATT.PrintName = "FSS Revolution"
 ATT.CompactName = "FSS Revolution"
 ATT.Description = [[Extended 280mm chrome-moly barrel with stepped shroud increases muzzle velocity and greatly improves accuracy.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_iso_longbarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_longbarrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_longbarrel.mdl"
 ATT.BoneMerge = true
@@ -52,7 +52,7 @@ ATT.PrintName = "FSS Nightshade"
 ATT.CompactName = "FSS Nightshade"
 ATT.Description = [[Monolithic integral suppressor keeps weapon silent and increases range for longer distance stealth assaults.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_iso_barsil.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_barsil.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_barsil.mdl"
 ATT.BoneMerge = true
@@ -89,7 +89,7 @@ ATT.PrintName = "FTAC Vagrant"
 ATT.CompactName = "FTAC Vagrant"
 ATT.Description = [[Tactical stock streamlined for close quarters combat. Gets on you target faster.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_iso_fullstock.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_fullstock.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_fullstock.mdl"
 ATT.BoneMerge = true
@@ -112,7 +112,7 @@ ATT.PrintName = "50 Round Drum"
 ATT.CompactName = "50-Round"
 ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_vector_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_drummag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 50
 
@@ -144,7 +144,7 @@ ATT.PrintName = "30-Round .45 ACP Mag"
 ATT.CompactName = "30-R .45 ACP"
 ATT.Description = [[Conversion kit to use bigger caliber .45 ACP ammunition. Better Damage but higher recoil.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_iso_xmag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_xmag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 30
 ATT.DamageMaxMult = 1.15

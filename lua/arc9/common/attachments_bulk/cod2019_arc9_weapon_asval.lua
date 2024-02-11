@@ -8,7 +8,7 @@ ATT.CompactName = "VLK 200mm"
 ATT.Description = [[After-market monolithic integrally suppressed barrel with an aluminum honeycombed shroud significantly increased muzzle velocity and range.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_asval_barhvy.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_barhvy.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_barhvy.mdl"
 ATT.BoneMerge = true
@@ -43,7 +43,7 @@ ATT.CompactName = "30R"
 ATT.Description = [[30-round mags for the AS VAL.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_asval_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_xmags.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

@@ -7,7 +7,7 @@ ATT.CompactName = "tact"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_arms_tac.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_tac.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -28,7 +28,7 @@ ATT.CompactName = "LB"
 ATT.Description = [[Lightweight arms fire bolts at a slower velocity, but greatly improved agility and handling.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_arms_light.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_light.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -53,7 +53,7 @@ ATT.CompactName = "tact"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_wire_tac.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_wire_tac.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -74,7 +74,7 @@ ATT.CompactName = "16-Strand"
 ATT.Description = [[Lower-tension lightweight cable fires the bolts with exceptional accuracy at a lower velocity.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_wire_light.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_wire_light.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -97,7 +97,7 @@ ATT.CompactName = "tact"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_stock_tac.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_stock_tac.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -118,7 +118,7 @@ ATT.CompactName = "Dart CB"
 ATT.Description = [[Lightweight crossbow stock provides exceptional agility while aiming.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_stock_light.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_stock_light.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -138,7 +138,7 @@ ATT = {}
 
 ATT.PrintName = "XRK Rangemaster VZ"
 ATT.CompactName = [[XRK Rangemaster]]
-ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_scope.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_scope.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 
 ATT.CustomPros = {

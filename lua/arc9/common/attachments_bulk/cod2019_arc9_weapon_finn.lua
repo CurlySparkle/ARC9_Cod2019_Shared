@@ -7,7 +7,7 @@ ATT.PrintName = "XRK LongShot Advantage"
 ATT.CompactName = "XRK LongShot"
 ATT.Description = [[Fully shrouded 510mm chrome-moly barrel increases muzzle velocity and greatly improves accuracy.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_finn_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlong.mdl"
 ATT.BoneMerge = false
@@ -51,7 +51,7 @@ ATT.PrintName = "FTAC VC-8 Harrier"
 ATT.CompactName = "FTAC VC-8"
 ATT.Description = [[Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_finn_barlight.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barlight.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlight.mdl"
 ATT.BoneMerge = false
@@ -95,7 +95,7 @@ ATT.PrintName = "XRK Citadel"
 ATT.CompactName = "XRK Citadel"
 ATT.Description = [[Heavy duty stock keeps your aim steady for precision shots.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_finn_stockh.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_stockh.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_stockh.mdl"
 ATT.BoneMerge = false
@@ -117,7 +117,7 @@ ATT.PrintName = "XRK ChainSAW"
 ATT.CompactName = "XRK SAW"
 ATT.Description = [[Combination handled grips allow for highly maneuverable assaults. For operators who care less about where their shot lands and more about getting rounds down range fast.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_finn_stocksaw.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_stocksaw.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_stock"
@@ -167,7 +167,7 @@ ATT.PrintName = "5.56 NATO 100-Round Belts"
 ATT.CompactName = "5.56 100-Round"
 ATT.Description = [[Conversion kit to use 100 round 5.56 NATO for increased stopping power. Slightly lower cycle rate to help control recoil.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_finn_magcalcust2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust2.png", "mips smooth")
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/lmg_finn_556nato_shell.mdl"
 ATT.ShellScale = 0.07

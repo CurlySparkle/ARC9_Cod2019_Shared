@@ -7,7 +7,7 @@ ATT.PrintName = "FORGE TAC Eclipse"
 ATT.CompactName = "FTAC Eclipse"
 ATT.Description = [[Lightweight extended front shroud houses a 16" polygonal rifled barrel, increasing both range and muzzle velocity.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_ram7_barrel_med.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_barrel_med.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_barrel_med.mdl"
 ATT.BoneMerge = false
@@ -50,7 +50,7 @@ ATT.PrintName = "FSS Ranger"
 ATT.CompactName = "FSS Ranger"
 ATT.Description = [[Fully enclosed 460mm barrel provides the ultimate range and accuracy for this weapon. Additional weight affects mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_ram7_barrel_long.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_barrel_long.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_barrel_long.mdl"
 ATT.BoneMerge = false
@@ -94,7 +94,7 @@ ATT.PrintName = "XRK Close Quarters Stock"
 ATT.CompactName = "XRK CQ"
 ATT.Description = [[Tactical stock streamlined for close quarters combat. Gets you on target faster.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_ram7_stock_tactical.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_stock_tactical.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_stock_tactical.mdl"
 ATT.BoneMerge = true
@@ -116,7 +116,7 @@ ATT.PrintName = "60 Round 9mm Drum"
 ATT.CompactName = "60-Round"
 ATT.Description = [[Extended magazines hold 60 rounds of 9mm conversion with a slight weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_ram7_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_drummag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 60
 ATT.ReloadTimeMult = 1.1

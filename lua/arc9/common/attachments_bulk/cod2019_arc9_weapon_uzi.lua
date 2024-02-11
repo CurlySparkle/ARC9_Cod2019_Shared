@@ -7,7 +7,7 @@ ATT.PrintName = ".41 AE 32-Round Mags"
 ATT.CompactName = ".41 AE 32-Round"
 ATT.Description = [[Conversion kit to use 32-round magazines of higher caliber .41 AE ammunition for increased range and stopping power.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_uzi_mag_clip.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_mag_clip.png", "mips smooth")
 
 ATT.RPM = 504
 --ATT.ClipSizeOverride = 32
@@ -74,7 +74,7 @@ ATT.PrintName = "16.5 Factory Carbine"
 ATT.CompactName = "16.5"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilize shots but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_uzi_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_barlong.mdl"
 ATT.BoneMerge = true
@@ -108,7 +108,7 @@ ATT.PrintName = "8.5 Factory Mini"
 ATT.CompactName = "8.5"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Improves performance in close quarters encounters.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_uzi_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_barshort.mdl"
 ATT.BoneMerge = true

@@ -35,7 +35,7 @@ ATT.PrintName = "FSS 14.5\" Tac Lite"
 ATT.CompactName = "Tac Lite"
 ATT.Description = [[Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_m4_barrel_v03.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barrel_v03.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_barrel_v3_alt.mdl"
 ATT.BoneMerge = true
@@ -67,7 +67,7 @@ ATT.PrintName = "FSS 11.5\" Commando"
 ATT.CompactName = "Commando"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_m4_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_shortbarrel.mdl"
 ATT.BoneMerge = false

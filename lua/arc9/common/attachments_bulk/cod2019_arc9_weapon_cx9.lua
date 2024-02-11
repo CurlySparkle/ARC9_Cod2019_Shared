@@ -7,7 +7,7 @@ ATT.CompactName = "CX-38S"
 ATT.Description = [[Long-length Silenced barrel. Offers superior handling at the cost of performance.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_cx9_barrel_silenced.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barrel_silenced.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -70,7 +70,7 @@ ATT = {}
 
 ATT.PrintName = [[Skeletal Stock]]
 ATT.CompactName = [[Skeletal]]
-ATT.Icon = Material("entities/attachs/cod2019_sm_cx9_stock_skeletal.png")
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_stock_skeletal.png")
 ATT.Description = [[Provides more handling speed at the cost of recoil.]]
 ATT.SortOrder = 0.5
 ATT.Free = false
@@ -96,7 +96,7 @@ ATT.CompactName = "50 Round"
 ATT.Description = [[Drum magazines hold 50 rounds of .45 ACP, maximizing ammo capacity at the expense of mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_cx9_drummags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_drummags.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

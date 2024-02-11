@@ -7,7 +7,7 @@ ATT.PrintName = "FORGE TAC 20.0 LB"
 ATT.CompactName = "20.0 LB"
 ATT.Description = [[]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_scar_barrel_long.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_barrel_long.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_barrel_long.mdl"
 ATT.BoneMerge = true
@@ -55,7 +55,7 @@ ATT.PrintName = "FTAC Collapsible Stock"
 ATT.CompactName = "FTAC Collapsible"
 ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Collapsing the stock greatly increases movement.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_scar_stock_light.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_stock_light.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_stock_light.mdl"
 ATT.BoneMerge = true
@@ -78,7 +78,7 @@ ATT.CompactName = "6.5mm 10-Round"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_scar_mag_dmr.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_mag_dmr.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -115,7 +115,7 @@ ATT.CompactName = "30R 5.56"
 ATT.Description = "Extended magazines hold 30 rounds of 5.56 NATO with a slight weight increase."
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_famas_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

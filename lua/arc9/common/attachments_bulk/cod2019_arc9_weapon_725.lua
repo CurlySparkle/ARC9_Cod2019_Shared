@@ -7,7 +7,7 @@ ATT.CompactName = "SlimGrip"
 ATT.Description = [[Ultralight forend grips allows greater control while preforming high-speed maneuvers.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_725_foreendlight.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_foreendlight.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -36,7 +36,7 @@ ATT.CompactName = "Equilibrium"
 ATT.Description = [[Competition stock with adjustable comb and buttplate provide exceptional precision while aiming.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_725_stocktactical.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_stocktactical.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -65,7 +65,7 @@ ATT.CompactName = "Smooth Bore"
 ATT.Description = [[Lightweight smooth bore barrel widens pellet spread and improves agility with only a minor decrease to range.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_725_barrel_mid.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_barrel_mid.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

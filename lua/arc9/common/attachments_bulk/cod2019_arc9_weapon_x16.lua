@@ -7,7 +7,7 @@ ATT.CompactName = "Featherweight"
 ATT.Description = [[Ported slide and large bore barrel reduces weight for faster gun handling at a slight cost to range.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_pi_x16_slide_auto.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/x16/cod2019_pi_x16_slide_auto.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -43,7 +43,7 @@ ATT.CompactName = "26-Round"
 ATT.Description = [[High capacity magazines hold 26 rounds with a moderate weight increase.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_pi_x16_mag_xmags2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/x16/cod2019_pi_x16_mag_xmags2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -73,7 +73,7 @@ ATT.CompactName = "X16 Stock"
 ATT.Description = [[X16 Stock]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_pi_x16_stock.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/x16/cod2019_pi_x16_stock.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -113,7 +113,7 @@ ATT.CompactName = "Granulated Grip"
 ATT.Description = [[Smooth and granulated tape for a relaxed and controlled grip. Keeps you steady and on target.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_attach_grip_pistolgrip_tape01.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/x16/cod2019_attach_grip_pistolgrip_tape01.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

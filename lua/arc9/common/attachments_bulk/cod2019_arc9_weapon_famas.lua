@@ -7,7 +7,7 @@ ATT.PrintName = "FR 24.4\" Sniper"
 ATT.CompactName = "FR 24.4\" Sniper"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes grouping but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_barrellong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barrellong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barrellong_alt.mdl"
 ATT.BoneMerge = false
@@ -51,7 +51,7 @@ ATT.PrintName = "FR 15.9\" Commando"
 ATT.CompactName = "15.9\" Commando"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Improves close range combat.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barshort.mdl"
 ATT.BoneMerge = false
@@ -95,7 +95,7 @@ ATT.PrintName = "FSS Tac-Wrap"
 ATT.CompactName = "FSS Tac-Wrap"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_tactical.mdl"
 ATT.BoneMerge = true
@@ -158,7 +158,7 @@ ATT.PrintName = "50 Round Mags"
 ATT.CompactName = "50-Round"
 ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 50
 ATT.ReloadTimeMult = 1.1
@@ -196,7 +196,7 @@ ATT.PrintName = "60 Round Mags"
 ATT.CompactName = "60-Round"
 ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags2.png", "mips smooth")
 
 ATT.ClipSizeOverride = 60
 ATT.ReloadTimeMult = 1.15

@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = "PU Scope"
 ATT.CompactName = [[PU]]
-ATT.Icon = Material("entities/attachs/cod2019_mm_sks_scope.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/sks/cod2019_mm_sks_scope.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 
 ATT.CustomPros = {
@@ -57,7 +57,7 @@ ATT.PrintName = "22\" FSS M59/66"
 ATT.CompactName = "FSS M59/66"
 ATT.Description = [[A modern take from FSS on the classic Yugoslavian sniper barrel. 22.0" barrel greatly increases muzzle velocity and extends range.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_sks_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/sks/cod2019_mm_sks_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sks/attachment_vm_sn_sksierra_barlong.mdl"
 ATT.BoneMerge = false
@@ -100,7 +100,7 @@ ATT.PrintName = "16\" FSS Para"
 ATT.CompactName = "FSS Para"
 ATT.Description = [[This compact barrel from FSS is a custom version of the classic SKS paratrooper barrel. Better for sniping on the move.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_sks_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/sks/cod2019_mm_sks_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sks/attachment_vm_sn_sksierra_barshort.mdl"
 ATT.BoneMerge = false
@@ -137,7 +137,7 @@ ATT.PrintName = "SKS Rifle Stock"
 ATT.CompactName = "SKS Rifle Stock"
 ATT.Description = [[Traditional rifle stock provides exceptional control while aiming, at the cost of mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_sks_stockhvy2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/sks/cod2019_mm_sks_stockhvy2.png", "mips smooth")
 
 ATT.AimDownSightsTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.1
@@ -176,7 +176,7 @@ ATT.PrintName = "30 Round Mags"
 ATT.CompactName = "30-Round"
 ATT.Description = [[High capacity magazines hold 30 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 30
 -- ATT.ReloadTimeMult = 1.1

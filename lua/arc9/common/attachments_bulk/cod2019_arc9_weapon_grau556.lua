@@ -7,7 +7,7 @@ ATT.PrintName = "Tempus 26.4\" Archangel"
 ATT.CompactName = "Tempus 26.4"
 ATT.Description = [[Partially shrouded 26.4" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_grau556_barxlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barxlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barxlong.mdl"
 ATT.BoneMerge = false
@@ -60,7 +60,7 @@ ATT.PrintName = "FFS 20.8 Nexus"
 ATT.CompactName = "FFS 20.8"
 ATT.Description = [[Stainless steel 20.8" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_grau556_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barlong.mdl"
 ATT.BoneMerge = false
@@ -113,7 +113,7 @@ ATT.PrintName = "XRK CZEN mk2"
 ATT.CompactName = "XRK CZEN"
 ATT.Description = [[Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_grau556_barh.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barh.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barh.mdl"
 ATT.BoneMerge = false
@@ -164,7 +164,7 @@ ATT.PrintName = "FSS Blackjack"
 ATT.CompactName = "FSS Blackjack"
 ATT.Description = [[Heavy duty fixed stock provides reliable stability while aiming.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_grau556_stockh.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_stockh.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_stockh.mdl"
 ATT.BoneMerge = true
@@ -187,7 +187,7 @@ ATT.PrintName = "No Stock"
 ATT.CompactName = "No Stock"
 ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_grau556_stockno.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_stockno.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_stockno.mdl"
 ATT.BoneMerge = true

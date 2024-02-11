@@ -7,7 +7,7 @@ ATT.CompactName = "UMP-45 R"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_receiver_v2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/striker46/cod2019_sm_striker45_receiver_v2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -48,7 +48,7 @@ ATT.CompactName = "UMP-45 S"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_stock_v2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/striker46/cod2019_sm_striker45_stock_v2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -72,7 +72,7 @@ ATT.CompactName = "UMP-45 M"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_mag_v2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/striker46/cod2019_sm_striker45_mag_v2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -124,7 +124,7 @@ ATT.PrintName = "400mm Stainless Steel"
 ATT.CompactName = "400mm"
 ATT.Description = [[Heavy duty extended barrel extends muzzle velocity and range to the max, but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/striker46/cod2019_sm_striker45_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_barlong.mdl"
 ATT.BoneMerge = true
@@ -161,7 +161,7 @@ ATT.PrintName = "150mm Stainless Steel"
 ATT.CompactName = "150mm"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Improves performance in close quarters encounters.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_barrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/striker46/cod2019_sm_striker45_barrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_barshort.mdl"
 ATT.BoneMerge = true
@@ -198,7 +198,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
-ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_xmagslrg.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/striker46/cod2019_sm_striker45_xmagslrg.png", "mips smooth")
 
 ATT.ClipSizeOverride = 45
 ATT.ReloadTimeMult = 1.1
@@ -228,7 +228,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round 9mm Mag"
 ATT.CompactName = "45-Round-9mm"
 ATT.Description = [[Extended magazines hold 45 rounds of 9mm conversion with higher RPM but with a slight weight increase and less damage.]]
-ATT.Icon = Material("entities/attachs/cod2019_sm_striker45_xmagslrg.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/striker46/cod2019_sm_striker45_xmagslrg.png", "mips smooth")
 
 ATT.ClipSizeOverride = 45
 ATT.ReloadTimeMult = 1.1

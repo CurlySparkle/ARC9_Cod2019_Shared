@@ -6,7 +6,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "60 Round Mags"
 ATT.CompactName = "60-Round"
 ATT.Description = [[Conversion kit to use 60 round 5.56 NATO magazines for increased stopping power. Slightly lower cycle rate to help control recoil.]]
-ATT.Icon = Material("entities/attachs/cod2019_lm_mkilo3_smags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_smags.png", "mips smooth")
 
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_762_hr.mdl"
@@ -43,7 +43,7 @@ ATT.PrintName = "Bipod"
 ATT.CompactName = "Bipod"
 ATT.Description = [[Deploys the bipod for better recoil and accuracy.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_raal_bipod.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_bipod.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_bruenmk9_bipod"
@@ -74,7 +74,7 @@ ATT.PrintName = "XRK Summit 26.8"
 ATT.CompactName = "XRK 26.8"
 ATT.Description = [[Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_sa86_barrel_mid.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_mid.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_barlong.mdl"
 ATT.BoneMerge = false
@@ -117,7 +117,7 @@ ATT.PrintName = "Bruen 18.0\" Para"
 ATT.CompactName = "Bruen 18.0"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_lm_sa86_barrel_short.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_short.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_barshort.mdl"
 ATT.BoneMerge = false

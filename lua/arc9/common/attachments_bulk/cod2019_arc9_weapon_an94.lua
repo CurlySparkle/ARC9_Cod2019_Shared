@@ -7,7 +7,7 @@ ATT.PrintName = "AN-94 Factory X-438mm"
 ATT.CompactName = "X-438mm"
 ATT.Description = [[Experimental 438mm extended barrel pushes the operational limit of this weapon with progressive rate springs and a case hardened chrome-moly bore.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_anov94_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_barlong.mdl"
 ATT.BoneMerge = true
@@ -50,7 +50,7 @@ ATT.PrintName = "AN-94 Factory 330mm"
 ATT.CompactName = "330mm"
 ATT.Description = [[Factory installed 330mm barrel has a higher tension spring to compensate for the recoil dampening system's reduced travel. Designed for closer engagements.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_anov94_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_barshort.mdl"
 ATT.BoneMerge = true
@@ -93,7 +93,7 @@ ATT.CompactName = "Skeleton Stock"
 ATT.Description = [[Ultralight stock speeds up weapon handling and movement at the expense of aiming stability.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_anov94_stockskel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_stockskel.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -117,7 +117,7 @@ ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_famas_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 45
 ATT.ReloadTimeMult = 1.1
@@ -155,7 +155,7 @@ ATT.PrintName = "60 Round Casket Mags"
 ATT.CompactName = "60-Round"
 ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_famas_xmags2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_famas_xmags2.png", "mips smooth")
 
 ATT.ClipSizeOverride = 60
 ATT.ReloadTimeMult = 1.15

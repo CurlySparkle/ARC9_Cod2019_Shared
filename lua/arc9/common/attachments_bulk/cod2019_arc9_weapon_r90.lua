@@ -7,7 +7,7 @@ ATT.PrintName = "FORGE TAC Sentry"
 ATT.CompactName = "FTAC Sentry"
 ATT.Description = [[Heavy duty tapered barrels tightens pellet spread and slightly extends range with only a minor increase to weight.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_r90_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/r90/attachment_vm_sh_dpapa12_barlong.mdl"
 
@@ -34,7 +34,7 @@ ATT.PrintName = "FORGE TAC Gemini"
 ATT.CompactName = "FTAC Gemini"
 ATT.Description = [[Dual thin-walled smooth bore barrels widen pellet spread and improve agility with only a minor decrease to range.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_r90_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/r90/attachment_vm_sh_dpapa12_barshort.mdl"
 
@@ -67,7 +67,7 @@ ATT.PrintName = "FTAC Ultralight Pump"
 ATT.CompactName = "FTAC Ultralight Pump"
 ATT.Description = [[Lightweight composite pump allows faster movement while staying on target.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_r90_pump_light.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_pump_light.png", "mips smooth")
 
 ATT.DrawTimeMult = 0.85
 ATT.HolsterTimeMult = 0.85
@@ -91,7 +91,7 @@ ATT.PrintName = "FSS R9-0 Bulldog"
 ATT.CompactName = "FSS Bulldog"
 ATT.Description = [[ustom heavy-duty pump provides a more stable sight picture.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_r90_pump_stable.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_pump_stable.png", "mips smooth")
 
 ATT.DrawTimeMult = 0.85
 ATT.HolsterTimeMult = 0.85

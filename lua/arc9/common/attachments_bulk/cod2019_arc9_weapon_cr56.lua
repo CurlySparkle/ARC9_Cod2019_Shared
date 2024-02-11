@@ -7,7 +7,7 @@ ATT.CompactName = "30-7.62"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_falima_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_falima_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -38,7 +38,7 @@ ATT.CompactName = "30-5.56"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_sierra552_mags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_sierra552_mags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -69,7 +69,7 @@ ATT.PrintName = "FSS 11.8\" Squall"
 ATT.CompactName = "FSS 11.8"
 ATT.Description = [[Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_galima_barlight.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_barlight.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_barlight.mdl"
 ATT.BoneMerge = false
@@ -116,7 +116,7 @@ ATT.PrintName = "XRK Zodiac S440"
 ATT.CompactName = "XRK Zodiac"
 ATT.Description = [[Achieve the pinnacle of range with this precision barrel from XRK. Superior muzzle velocity and stabilization at the cost of agility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_galima_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_barlong.mdl"
 ATT.BoneMerge = false
@@ -160,7 +160,7 @@ ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_galima_xmag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_xmag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 45
 ATT.ReloadTimeMult = 1.1

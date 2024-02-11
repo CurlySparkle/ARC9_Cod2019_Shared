@@ -24,7 +24,7 @@ ATT.CompactName = "10mm 30-Round"
 ATT.Description = [[]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_mag_xmag2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_mag_xmag2.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -61,7 +61,7 @@ ATT.CompactName = "Straight-line"
 ATT.Description = [[Solid body stock provides a more stable sight picture.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_stock_fullstock.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_stock_fullstock.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -87,7 +87,7 @@ ATT.CompactName = "Subsonic"
 ATT.Description = [[Heavy duty monolithic core increases muzzle velocity while maintaining a low sound signature.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_barrel_suppressor_v4.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barrel_suppressor_v4.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -132,7 +132,7 @@ ATT.CompactName = "FSS Light"
 ATT.Description = [[Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_railgrip.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_railgrip.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

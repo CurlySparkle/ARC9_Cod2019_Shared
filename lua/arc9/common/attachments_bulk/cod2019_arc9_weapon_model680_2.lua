@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = "12 Gauge 6-R Mags"
 ATT.CompactName = [[6-R Mags]]
-ATT.Icon = Material("entities/attachs/cod2019_sh_model680_mag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_mag.png", "mips smooth")
 ATT.Description = [[Custom XRK Eagle's Claw receiver with built in mag well to use 6-round detachable magazines for faster reloads.]]
 ATT.Pros = {}
 ATT.Cons = {}
@@ -36,7 +36,7 @@ ATT = {}
 
 ATT.PrintName = "12 Gauge 8-R Mags"
 ATT.CompactName = [[8-R Mags]]
-ATT.Icon = Material("entities/attachs/cod2019_sh_model680_mag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_mag.png", "mips smooth")
 ATT.Description = [[Custom XRK Eagle's Claw receiver with built in mag well to use 6-round detachable magazines for faster reloads.]]
 ATT.Pros = {}
 ATT.Cons = {}
@@ -71,7 +71,7 @@ ATT.CompactName = "XRK 30"
 ATT.Description = [[Longer barrel with a 10 round tube. Tightens pellet spread, extends range, and carries extra ammo at the cost of agility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sh_model680_barrel_long.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_barrel_long.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

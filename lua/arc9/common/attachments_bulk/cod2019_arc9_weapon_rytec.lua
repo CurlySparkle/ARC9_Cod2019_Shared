@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = "Rytec Scope"
 ATT.CompactName = [[Rytec Scope]]
-ATT.Icon = Material("entities/attachs/cod2019_optic_scope_rytec.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_optic_scope_rytec.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 
 ATT.CustomPros = {
@@ -61,7 +61,7 @@ ATT.CompactName = "FTAC Elite"
 ATT.Description = [[FTAC's Elite titanium-cobalt barrel sacrifices accuracy and range for speed and agility.]]
 ATT.SortOrder = 0
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_rytec_barrel_short.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_barrel_short.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -107,7 +107,7 @@ ATT.CompactName = "Harbinger"
 ATT.Description = [[This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_rytec_barrel_long.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_barrel_long.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -153,7 +153,7 @@ ATT.PrintName = "Bipod"
 ATT.CompactName = "Bipod"
 ATT.Description = [[Installs the bipod for better recoil and accuracy.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_rytec_bipod.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_bipod.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_bipod"
@@ -185,7 +185,7 @@ ATT.CompactName = "FTAC MAG"
 ATT.Description = [[Special mag designed for special ammo types such as explosiv/thermite, 
 Reduces the total mag use to 5 rounds.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_rytec_calcust1.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_calcust1.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_mag"
@@ -223,7 +223,7 @@ ATT.PrintName = "XRK Mastadon"
 ATT.CompactName = "XRK Mastadon"
 ATT.Description = [[Heavy duty fixed stock provides exceptional stability while aiming.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_rytec_stocks.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_stocks.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_stock"
@@ -245,7 +245,7 @@ ATT.PrintName = "STOVL Tac-Wrap"
 ATT.CompactName = "STOVL Tac-Wrap"
 ATT.Description = [[Eastern tactical comb wrap streamlined for close quarters combat. Gets you on target faster.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_rytec_stockl.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_stockl.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_stock"

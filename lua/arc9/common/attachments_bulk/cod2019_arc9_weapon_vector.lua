@@ -14,7 +14,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "ZLR Sabre"
 ATT.CompactName = "ZLR Sabre"
 ATT.Description = [["Custom extended suppressor from ZLR greatly increases the muzzle velocity and reduces recoil to help with long range precision"]]
-ATT.Icon = Material("entities/attachs/cod2019_sm_vector_suppressor.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_suppressor.png", "mips smooth")
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
@@ -40,7 +40,7 @@ ATT.PrintName = "ZLR 16\" Apex"
 ATT.CompactName = "ZLR 16\""
 ATT.Description = [[Heavy duty extended barrel extends muzzle velocity and range to the max, but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_vector_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_barlong.mdl"
 ATT.BoneMerge = false
@@ -77,7 +77,7 @@ ATT.CompactName = "40 Round"
 ATT.Description = [[Drum magazines hold 40 rounds of .45 ACP, maximizing ammo capacity at the expense of mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_vector_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_drummag.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

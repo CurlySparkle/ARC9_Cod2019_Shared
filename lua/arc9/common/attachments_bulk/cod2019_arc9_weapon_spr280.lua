@@ -4,7 +4,7 @@ ATT = {}
 
 ATT.PrintName = "Solozero SP-R 28mm"
 ATT.CompactName = [[SP-R 28mm]]
-ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_scope.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_scope.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 
 ATT.CustomPros = {
@@ -61,7 +61,7 @@ ATT.CompactName = "SP-R 26\""
 ATT.Description = [[Sloan Precision's contoured 26 inch barrel improves muzzle velocity and extends the weapon's lethal range.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_barlong.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -107,7 +107,7 @@ ATT.CompactName = "ZLR Asp"
 ATT.Description = [[Ultra light carbon fiber 16.5" barrel from ZLR for rapid close range strikes.]]
 ATT.SortOrder = 0
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_barshort.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_barshort.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -153,7 +153,7 @@ ATT.PrintName = "10 Round Mags"
 ATT.CompactName = "10-Round"
 ATT.Description = [[Extended magazines hold 10 rounds of .300 with a slight weight increase]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_spr208_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 10
 --ATT.ReloadTimeMult = 1.15
@@ -184,7 +184,7 @@ ATT.CompactName = "FTAC MAG"
 ATT.Description = [[Special mag designed for special ammo types such as explosiv/thermite, 
 Reduces the total mag use to 5 rounds.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_magcalcust1.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_magcalcust1.png", "mips smooth")
 
 ATT.ClipSizeOverride = 5
 ATT.AimDownSightsTimeMult = 1.1
@@ -224,7 +224,7 @@ ATT.PrintName = "XRK SP-LITE 208 Blitz"
 ATT.CompactName = "SP-LITE"
 ATT.Description = [[XRK's after-market chassis offers the ultimate in mobility with this rugged and durable ultra-light sniper rifle system.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_spr208_stockskel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_stockskel.png", "mips smooth")
 
 ATT.AimDownSightsTimeMult = 0.85
 ATT.SprintToFireTimeMult = 0.85
@@ -248,7 +248,7 @@ ATT.PrintName = "ZLR SP-R Overseer"
 ATT.CompactName = "ZLR SP-R"
 ATT.Description = [[Perfectly balanced weight distribution allows the highest stability and recoil control available.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_spr208_stockhvy.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_stockhvy.png", "mips smooth")
 
 ATT.AimDownSightsTimeMult = 1.2
 ATT.RecoilMult = 0.8
@@ -289,7 +289,7 @@ ATT.PrintName = "FSS Virtuoso Pro"
 ATT.CompactName = "FSS Virt"
 ATT.Description = [[FSS all-aluminium chassis and fully adjustable stock provides the precision and and strength required for fast moving shot-over-shot accuracy.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sn_spr208_stocktac.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_stocktac.png", "mips smooth")
 
 ATT.AimDownSightsTimeMult = 0.85
 ATT.SprintToFireTimeMult = 0.85
@@ -313,7 +313,7 @@ ATT.PrintName = "Sloan KR-600 Feather"
 ATT.CompactName = "Sloan KR-600"
 ATT.Description = [[Titanium shrouded aluminum core and a skeletalized handle make this bolt assembly lightning fast.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_mm_spr208_boltl.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_boltl.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_spr208_bolt"

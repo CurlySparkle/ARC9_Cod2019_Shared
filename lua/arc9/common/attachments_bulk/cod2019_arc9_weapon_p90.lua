@@ -7,7 +7,7 @@ ATT.CompactName = "Retribution"
 ATT.Description = [[Extended front shroud houses a 16" polygonal rifled barrel. Greatly increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_p90_custombarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/p90/cod2019_sm_p90_custombarrel.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -61,7 +61,7 @@ ATT.PrintName = "Fly Strap"
 ATT.CompactName = "Fly Strap"
 ATT.Description = [[Clip on strap improves fast paced weapon handling.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_p90_stockl.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/p90/cod2019_sm_p90_stockl.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_p90_stock"
