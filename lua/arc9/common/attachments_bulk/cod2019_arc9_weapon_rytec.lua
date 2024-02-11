@@ -1,5 +1,58 @@
 local ATT = {}
+----------------------------------------------------------------------------------------
+ATT = {}
 
+ATT.PrintName = "Rytec Scope"
+ATT.CompactName = [[Rytec Scope]]
+ATT.Icon = Material("entities/attachs/cod2019_optic_scope_rytec.png", "mips smooth")
+ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "6x"
+}
+
+ATT.SortOrder = 4
+ATT.Free = false
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_optic_rytec","cod2019_scope_snipers"}
+ATT.ActivateElements = {"scope_rytec"}
+
+ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_rytec.mdl"
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-0.3, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.AimDownSightsTimeAdd = 0.08
+ATT.VisualRecoilMult = 0.99
+ATT.RecoilMult = 0.99
+
+ATT.Sights = {
+    {
+        Pos = Vector(-0.01, 10, -1.685),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 36,
+        Magnification = 1.15,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeFOV = 36 / 6
+ATT.RTScopeAdjustable = false
+ATT.RTScopeAdjustmentLevels = 3
+ATT.RTScopeFOVMin = 8
+ATT.RTScopeFOVMax = 25
+ATT.RTScopeRes = 1024
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/rytec_crosshair.png", "mips")
+ATT.RTScopeReticleScale = 0.8
+ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_scope_rytec")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -23,12 +76,12 @@ ATT.Category = {"cod2019_rytec_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
 ATT.AimDownSightsTimeMult = 0.85
-ATT.SprintToFireTimeMult = 0.85
-ATT.RecoilMult = 1.25
+ATT.DeployTimeMult = 0.80
 
-ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
-ATT.PhysBulletMuzzleVelocityMult = 0.9
+ATT.RangeMaxMult = 0.82
+ATT.RangeMinMult = 0.82
+ATT.PhysBulletMuzzleVelocityMult = 0.82
+ATT.SpreadMult = 1.15
 
 ATT.Element = {
     AttPosMods = {
@@ -68,13 +121,14 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_rytec_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
-ATT.AimDownSightsTimeMult = 1.25
-ATT.SprintToFireTimeMult = 1.25
-ATT.RecoilMult = 1.5
+ATT.AimDownSightsTimeMult = 1.1
+ATT.DeployTimeMult = 1.1
+ATT.RecoilMult = 0.8
 
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
-ATT.PhysBulletMuzzleVelocityMult = 1.25
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+ATT.PhysBulletMuzzleVelocityMult = 1.1
+ATT.SpreadMult = 0.85
 
 ATT.Element = {
     AttPosMods = {

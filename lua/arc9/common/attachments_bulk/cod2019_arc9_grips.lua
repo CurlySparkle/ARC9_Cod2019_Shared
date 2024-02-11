@@ -288,4 +288,8 @@ ATT.SpreadBipod = -0.06
 ATT.BipodPos = Vector(-1.5, -4, 0.7)
 ATT.BipodAng = Angle(0, 0, 0)
 
+ATT.DrawFunc = function(self, model, wm)
+    model:SetPoseParameter("bipod_slide", self.BipodSlide or 0)
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_grips_bipod_alt")
