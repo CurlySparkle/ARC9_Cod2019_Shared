@@ -354,6 +354,10 @@ L["cod2019_stock_tube_medium.printname"] = "FSS CQ-Bufferrör" -- UO
 L["cod2019_stock_tube_medium.compactname"] = "FSS CQ" -- UO
 L["cod2019_stock_tube_medium.description"] = "Taktisk och effektivt bufferrör tillåter installering av kolvar från eftermarknaden." -- UO
 
+L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms-Bufferrör" -- UO
+L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
+L["cod2019_stock_tube_singuard.description"] = ARC9:GetPhrase("cod2019_stock_tube_light.description")
+
 local stockname = {
 		ultralight = "FORGE TAC Ultralight", -- Kilo 141
 		ultralights = "Ultralight",
@@ -575,8 +579,8 @@ L["mw19_att_wpn_m4a1_stock_heavy.printname"] = "M-16 Kolv"
 L["mw19_att_wpn_m4a1_stock_heavy.compactname"] = "M-16"
 L["mw19_att_wpn_m4a1_stock_heavy.description"] = "Tung, fast kolv erbjuder pålitlig stabilitet under skjutning."
 
-L["mw19_att_wpn_m4a1_stock_vlight.printname"] = "Singuard Arms Invader"
-L["mw19_att_wpn_m4a1_stock_vlight.compactname"] = "Singuard Arms Invader"
+L["cod2019_stock_singuard.printname"] = "Singuard Arms Invader"
+L["cod2019_stock_singuard.compactname"] = "Invader"
 
 L["mw19_att_wpn_m4a1_stock_medium.printname"] = stockname.cqs
 L["mw19_att_wpn_m4a1_stock_medium.compactname"] = stockname.cqss

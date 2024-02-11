@@ -142,7 +142,7 @@ ATT.Icon = Material("entities/attachs/cod2019_mm_crossbow_scope.png", "mips smoo
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 
 ATT.CustomPros = {
-    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "3.0x - 6.1x"
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "4.0x"
 }
 
 ATT.SortOrder = 4.5
@@ -164,7 +164,7 @@ ATT.RecoilMult = 0.99
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 8, -1.37),
+        Pos = Vector(0.01, 8.5, -1.37),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 36,
         Magnification = 1.15,
@@ -178,17 +178,18 @@ ATT.Attachments = {
         Pos = Vector(1, 0, -2.35),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
-        Category = "cod2019_optic",
+        Category = "cod2019_optics_pistols_scope",
 		Scale = 1,
     },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 1
-ATT.RTScopeFOVMin = 36 / 4.1
-ATT.RTScopeFOVMax = 36 / 2.3
+ATT.RTScopeFOV = 36 / 4
+-- ATT.RTScopeAdjustable = true
+-- ATT.RTScopeAdjustmentLevels = 1
+-- ATT.RTScopeFOVMin = 36 / 4.1
+-- ATT.RTScopeFOVMax = 36 / 2.3
 ATT.RTScopeRes = 256
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 0.9

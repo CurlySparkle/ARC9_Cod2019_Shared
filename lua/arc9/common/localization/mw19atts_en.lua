@@ -635,6 +635,10 @@ L["cod2019_stock_tube_medium.printname"] = "FSS CQ Buffer Tube" -- UO
 L["cod2019_stock_tube_medium.compactname"] = "FSS CQ" -- UO
 L["cod2019_stock_tube_medium.description"] = "Tactical, streamlined buffer tube allowing the installation of aftermarket stocks." -- UO
 
+L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms Buffer Tube" -- UO
+L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
+L["cod2019_stock_tube_singuard.description"] = ARC9:GetPhrase("cod2019_stock_tube_light.description")
+
 local stockname = {
 		ultralight = "FORGE TAC Ultralight", -- Kilo 141
 		ultralights = "Ultralight",
@@ -881,9 +885,9 @@ L["mw19_att_wpn_m4a1_stock_heavy.printname"] = "M-16 Stock"
 L["mw19_att_wpn_m4a1_stock_heavy.compactname"] = "M-16"
 L["mw19_att_wpn_m4a1_stock_heavy.description"] = "Heavy duty fixed stock provides reliable stability while aiming."
 
-L["mw19_att_wpn_m4a1_stock_vlight.printname"] = "Singuard Arms Invader"
-L["mw19_att_wpn_m4a1_stock_vlight.compactname"] = "Singuard Arms Invader"
-L["mw19_att_wpn_m4a1_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
+L["cod2019_stock_singuard.printname"] = "Singuard Arms Invader"
+L["cod2019_stock_singuard.compactname"] = "Invader"
+L["cod2019_stock_singuard.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 L["mw19_att_wpn_m4a1_stock_medium.printname"] = stockname.cqs
 L["mw19_att_wpn_m4a1_stock_medium.compactname"] = stockname.cqss
@@ -2752,22 +2756,22 @@ L["mw19_att_wpn_mk2_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_kil
 
 ////////////////////  Kar98k
 /////////////// Optics
-L["cod2019_optic_scope_kar98k.printname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.printname")
-L["cod2019_optic_scope_kar98k.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.compactname")
-L["cod2019_optic_scope_kar98k.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description")
+L["cod2019_kar98k_scope.printname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.printname")
+L["cod2019_kar98k_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.compactname")
+L["cod2019_kar98k_scope.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description")
 
 /////////////// Barrels
-L["mw19_att_wpn_kar98k_brl_01.printname"] = "Singuard Custom 25.1\""
-L["mw19_att_wpn_kar98k_brl_01.compactname"] = "25.1\""
-L["mw19_att_wpn_kar98k_brl_01.description"] = "Custom 25.1\" heavyweight barrel with polygonal rifling balances increased muzzle velocity with increased weight."
+L["cod2019_kar98k_barrel_short.printname"] = "Singuard Custom 25.1\""
+L["cod2019_kar98k_barrel_short.compactname"] = "25.1\""
+L["cod2019_kar98k_barrel_short.description"] = "Custom 25.1\" heavyweight barrel with polygonal rifling balances increased muzzle velocity with increased weight."
 
 L["mw19_att_wpn_kar98k_brl_02.printname"] = "Singuard Custom 21.2\""
 L["mw19_att_wpn_kar98k_brl_02.compactname"] = "21.2\""
 L["mw19_att_wpn_kar98k_brl_02.description"] = "Custom 21.2\" heavyweight barrel with polygonal rifling slightly increases muzzle velocity and extends range with little additional weight"
 
-L["mw19_att_wpn_kar98k_brl_03.printname"] = "Singuard Custom 27.6\""
-L["mw19_att_wpn_kar98k_brl_03.compactname"] = "27.6\""
-L["mw19_att_wpn_kar98k_brl_03.description"] = "Custom 27.6\" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility."
+L["cod2019_kar98k_barrel_long.printname"] = "Singuard Custom 27.6\""
+L["cod2019_kar98k_barrel_long.compactname"] = "27.6\""
+L["cod2019_kar98k_barrel_long.description"] = "Custom 27.6\" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility."
 
 /////////////// Stocks
 L["mw19_att_wpn_kar98k_stock_heavy.printname"] = "STVOL Precision Comb"
