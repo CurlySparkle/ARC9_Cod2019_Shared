@@ -7,7 +7,7 @@ ATT.PrintName = "26.9 Extended Barrel"
 ATT.CompactName = "Barrel 26.9"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
 
-ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_mid.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_barrel_long.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_barrel_long.mdl"
 ATT.BoneMerge = false
@@ -53,7 +53,7 @@ ATT.PrintName = "18.2 Compact Barrel"
 ATT.CompactName = "Barrel 18.2"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
 
-ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_short.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_barrel_short.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_barrel_short.mdl"
 ATT.BoneMerge = false
