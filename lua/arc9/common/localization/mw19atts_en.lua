@@ -294,6 +294,15 @@ L["cod2019_optic_cronen_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_crone
 L["cod2019_optic_cronen_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_cronen.compactname")
 L["cod2019_optic_cronen_sniper.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
 
+-- For Launchers
+L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight"
+L["cod2019_optic_scope_m32.compactname"] = "MGL GLS"
+L["cod2019_optic_scope_m32.description"] = ARC9:GetPhrase("cod2019_optic_cronen_sniper.description")
+
+L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight"
+L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
+L["cod2019_optic_scope_strela.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description")
+
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
 L["mw19_weapon_att_thermal"] = "%s Thermal"
@@ -925,9 +934,9 @@ L["mw19_att_wpn_m4a1_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_ki
 
 ////////////////////  FR 5.56
 /////////////// Receiver
-L["cod2019_famas_upper_railcust.printname"] = "Valorisé Receiver"
-L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
-L["cod2019_famas_upper_railcust.description"] = "Modified Valorisé receiver for the FR 5.56."
+L["cod2019_famas_upper_railcust.printname"] = "Valorisé Receiver" -- UO
+L["cod2019_famas_upper_railcust.compactname"] = "Valorisé" -- UO
+L["cod2019_famas_upper_railcust.description"] = "Modified Valorisé receiver for the FR 5.56." -- UO
 
 /////////////// Barrels
 L["cod2019_famas_barrel_short.printname"] = "FR 15.9\" Commando"
@@ -2581,7 +2590,7 @@ L["mw19_att_wpn_finn_stock_light.printname"] = "XRK M309 Forward Assault"
 L["mw19_att_wpn_finn_stock_light.compactname"] = "M309"
 L["mw19_att_wpn_finn_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_light.description")
 
-L["cod2019_finn_stock_saw.printname"] = "XRK CHainSAW"
+L["cod2019_finn_stock_saw.printname"] = "XRK ChainSAW"
 L["cod2019_finn_stock_saw.compactname"] = "ChainSAW"
 L["cod2019_finn_stock_saw.description"] = "Combination handled grips allow for highly maneuverable assaults. For operators who care less about where their shot lands and more about getting rounds down range fast."
 

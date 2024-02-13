@@ -185,6 +185,30 @@ L["cod2019_optic_vlk3_pistol.description"] = "Russian pistol optic with <color=1
 
 L["cod2019_optic_cronen_pistol.description"] = "Advanced pistol optic with <color=100,255,100>3.0x</color> magnification provides excellent target acquisition."
 
+-- Scopes for Sniper Rifles
+L["cod2019_optic_scope_scout_sniper.description"] = "Lower power <color=100,255,100>3.25x</color> optic when range is less important than agility."
+
+L["cod2019_optic_vlk3_sniper.description"] = "Russian combat optic with <color=100,255,100>3.0x</color> magnification for closer range engagements."
+
+L["mw19_optic_thermal_sniper.printname"] = "Thermal Sniper Scope"
+L["mw19_optic_thermal_sniper.compactname"] = "Thermal"
+L["mw19_optic_thermal_sniper.description"] = "High-powered <color=100,255,100>8x</color> thermal sniper scope uses heat signatures to highlight targets and provides visibility in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
+
+L["cod2019_optic_scope_vz_sniper.description"] = "Advanced scope zooms between <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> for fighting at extreme ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
+
+L["mw19_optic_thermal_vz_sniper.printname"] = "Thermal Dual Power Scope"
+L["mw19_optic_thermal_vz_sniper.compactname"] = "Thermal DP"
+L["mw19_optic_thermal_vz_sniper.description"] = "Advanced thermal imaging scope with variable <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> magnification for fighting at extreme ranges in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
+
+L["cod2019_optic_cronen_sniper.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
+
+-- For Launchers
+L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight"
+L["cod2019_optic_scope_m32.compactname"] = "MGL GLS"
+
+L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight"
+L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
+
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
 L["mw19_weapon_att_thermal"] = "%s Thermal"
@@ -238,10 +262,15 @@ L["cod2019_attach_muzzle_silencer02.printname"] = "Monolithic Suppressor"
 L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolithic"
 L["cod2019_attach_muzzle_silencer02.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
--- FORGE TAC
+-- FORGE TAC, certain shotguns only
 L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
 L["cod2019_attach_muzzle_silencer_shotgun_03.compactname"] = "Marauder"
 L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Box suppressor adds considerable weight to the barrel, but tightens pellet spread and reduces recoil to help with long range precision."
+
+-- Oil Can, Handguns only
+L["cod2019_attach_muzzle_silencer_oilcan.printname"] = "Oil Can Suppressor"
+L["cod2019_attach_muzzle_silencer_oilcan.compactname"] = "Oil Can"
+L["cod2019_attach_muzzle_silencer_oilcan.description"] = "Suppressor crafted from an oil filter. Silences weapon, but <color=255,100,100>blocks visibility</color> when used with ironsights."
 
 ////////////////////  Underbarrel
 ///////// Grips
@@ -349,6 +378,9 @@ L["cod2019_stock_tube_medium.printname"] = "FSS CQ Buffer Tube" -- UO
 L["cod2019_stock_tube_medium.compactname"] = "FSS CQ" -- UO
 L["cod2019_stock_tube_medium.description"] = "Tactical, streamlined buffer tube allowing the installation of aftermarket stocks." -- UO
 
+L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms Buffer Tube" -- UO
+L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
+
 local stockname = {
 		ultralight = "FORGE TAC Ultralight", -- Kilo 141
 		ultralights = "Ultralight",
@@ -439,6 +471,11 @@ mw19ammotype = {
 	["792"] = "7.92 Mauser",
 	["338"] = ".338 Lapua Magnum",
 	["762x39"] = "7.62×39mm",
+	["300"] = ".300 Win Mag",
+	["127x108"] = "12.7×108mm",
+	["50bmg"] = ".50 BMG",
+	["50pistol"] = ".50 pistol",
+	["9makarov"] = "9mm Makarov",
 }
 
 mw19magtext = {
@@ -451,12 +488,15 @@ mw19magtext = {
 	desc = "Extended magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a slight weight increase.",
 	descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
 	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
+	
+	descsmall = "<color=255,100,100>%s round</color> magazines of %s carry less ammunition, but increase mobility and speed up reload times.",
 
 	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.",
 	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.",
 	
 	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
 	descbeltl = "Extended belts hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
+	
 }
 
 ////////////////////////  Assault Rifles
@@ -530,9 +570,11 @@ L["mw19_att_wpn_fal_stock_light.description"] = "Lightweight aluminum stock keep
 
 L["mw19_att_wpn_fal_stock_medium.printname"] = stockname.closequartersstock
 L["mw19_att_wpn_fal_stock_medium.compactname"] = stockname.closequartersstocks
+L["mw19_att_wpn_fal_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_medium.description")
 
 L["mw19_att_wpn_fal_stock_heavy.printname"] = stockname.stalker
 L["mw19_att_wpn_fal_stock_heavy.compactname"] = stockname.stalkers
+L["mw19_att_wpn_fal_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 /////////////// Magazine
 L["mw19_att_wpn_fal_mag_24.printname"] = string.format(mw19magtext.mag, "24")
@@ -543,6 +585,7 @@ L["cod2019_fal_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_fal_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_fal_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["762"])
 
+/////////////// Pistol Grips
 ////////////////////  M4A1
 /////////////// Barrels
 L["cod2019_m4a1_barrel_short.printname"] = "FSS 11.5\" Commando"
@@ -570,8 +613,8 @@ L["mw19_att_wpn_m4a1_stock_heavy.printname"] = "M-16 Stock"
 L["mw19_att_wpn_m4a1_stock_heavy.compactname"] = "M-16"
 L["mw19_att_wpn_m4a1_stock_heavy.description"] = "Heavy duty fixed stock provides reliable stability while aiming."
 
-L["mw19_att_wpn_m4a1_stock_vlight.printname"] = "Singuard Arms Invader"
-L["mw19_att_wpn_m4a1_stock_vlight.compactname"] = "Singuard Arms Invader"
+L["cod2019_stock_singuard.printname"] = "Singuard Arms Invader"
+L["cod2019_stock_singuard.compactname"] = "Invader"
 
 L["mw19_att_wpn_m4a1_stock_medium.printname"] = stockname.cqs
 L["mw19_att_wpn_m4a1_stock_medium.compactname"] = stockname.cqss
@@ -594,6 +637,11 @@ L["mw19_att_wpn_m4a1_mag_socom.compactname"] = "10R SOCOM"
 L["mw19_att_wpn_m4a1_mag_socom.description"] = "Conversion kit to use high caliber <color=255,255,100>.458 SOCOM</color> ammunition for increased stopping power. Slower cyclic rate helps control recoil."
 
 ////////////////////  FR 5.56
+/////////////// Receiver
+L["cod2019_famas_upper_railcust.printname"] = "Valorisé Receiver" -- UO
+L["cod2019_famas_upper_railcust.compactname"] = "Valorisé" -- UO
+L["cod2019_famas_upper_railcust.description"] = "Modified Valorisé receiver for the FR 5.56." -- UO
+
 /////////////// Barrels
 L["cod2019_famas_barrel_short.printname"] = "FR 15.9\" Commando"
 L["cod2019_famas_barrel_short.compactname"] = "Commando"
@@ -642,12 +690,15 @@ L["mw19_att_wpn_oden_muzzle_big.description"] = "Extended suppressor adds consid
 /////////////// Stock
 L["mw19_att_wpn_oden_stock_light.printname"] = stockname.ballast
 L["mw19_att_wpn_oden_stock_light.compactname"] = stockname.ballasts
+L["mw19_att_wpn_oden_stock_light.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_light.description")
 
 L["mw19_att_wpn_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
 L["mw19_att_wpn_oden_stock_heavy.compactname"] = stockname.ultralights
+L["mw19_att_wpn_oden_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_heavy.description")
 
 L["mw19_att_wpn_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
 L["mw19_att_wpn_oden_stock_medium.compactname"] = "XL Elite"
+L["mw19_att_wpn_oden_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
 
 /////////////// Magazine
 L["mw19_att_wpn_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
@@ -696,9 +747,11 @@ L["mw19_att_wpn_scar_brl_03.compactname"] = "CQC Pro"
 /////////////// Stock
 L["cod2019_scar_stock_light.printname"] = stockname.collapsible
 L["cod2019_scar_stock_light.compactname"] = stockname.collapsibles
+L["cod2019_scar_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
 
 L["mw19_att_wpn_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
 L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
+L["mw19_att_wpn_scar_stock_vheavy.description"] = ARC9:GetPhrase("cod2019_stock_vheavy.description")
 
 /////////////// Magazine
 L["cod2019_scar_mag_ext.printname"] = string.format(mw19magtext.mag, "25")
@@ -742,6 +795,7 @@ L["mw19_att_wpn_ak47_bayonet.description"] = "Lethal Melee Attack"
 /////////////// Stock
 L["mw19_att_wpn_ak47_stock_heavy.printname"] = "Field LMG Stock"
 L["mw19_att_wpn_ak47_stock_heavy.compactname"] = "Field LMG"
+L["mw19_att_wpn_ak47_stock_heavy.description"] = ARC9:GetPhrase("cod2019_stock_heavy.description")
 
 L["cod2019_akilo47_stockskel.printname"] = stockname.skeleton
 L["cod2019_akilo47_stockskel.compactname"] = stockname.skeletons
@@ -962,9 +1016,9 @@ L["mw19_att_wpn_asval_mag_spp.description"] = "<color=255,100,100>10 rounds</col
 ////////////////////////  Submachine Guns
 ////////////////////  AUG
 /////////////// Optics
-L["mw19_att_wpn_aug_optic_integral.printname"] = "Integral 2.8x Optic"
-L["mw19_att_wpn_aug_optic_integral.compactname"] = "Integral"
-L["mw19_att_wpn_aug_optic_integral.description"] = "Built in scope with <color=100,255,100>2.8x</color> magnification provides superior target acquisition."
+L["cod2019_aug_optic.printname"] = "Integral 2.8x Optic"
+L["cod2019_aug_optic.compactname"] = "Integral"
+L["cod2019_aug_optic.description"] = "Built in scope with <color=100,255,100>2.8x</color> magnification provides superior target acquisition."
 
 /////////////// Barrels
 L["cod2019_aug_barrel_ar_long.printname"] = "407mm Extended Barrel"
@@ -997,11 +1051,11 @@ L["mw19_att_wpn_aug_mag_32.description"] = string.format(mw19magtext.desc, "32",
 
 L["cod2019_aug_mag_ar_30.printname"] = "5.56 NATO 30-Round Mags"
 L["cod2019_aug_mag_ar_30.compactname"] = "30R 5.56"
-L["cod2019_aug_mag_ar_30.description"] = "Conversion kit to use 30 round <color=255,255,100>5.56 NATO</color> magazines for increased stopping power. Slightly lower cycle rate to help control recoil."
+L["cod2019_aug_mag_ar_30.description"] = "Conversion kit to use 30 round <color=255,255,100>5.56 NATO</color> magazines for increased stopping power. Slightly lower cycle rate to help control recoil." .. changeammo.ar2
 
 L["cod2019_aug_mag_ar_drum.printname"] = "5.56 NATO 60-Round Mags"
 L["cod2019_aug_mag_ar_drum.compactname"] = "60R 5.56"
-L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5.56 NATO</color> conversion kit with <color=100,255,100>60 round</color> drums. Lower mobility, maximize ammunition capacity."
+L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5.56 NATO</color> conversion kit with <color=100,255,100>60 round</color> drums. Lower mobility, maximize ammunition capacity." .. changeammo.ar2
 
 ////////////////////  P90
 /////////////// Optics
@@ -1118,13 +1172,13 @@ L["mw19_att_wpn_pp19_brl_01.printname"] = "8.7\" Steel"
 L["mw19_att_wpn_pp19_brl_01.compactname"] = "Steel"
 L["mw19_att_wpn_pp19_brl_01.description"] = "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
-L["mw19_att_wpn_pp19_brl_02.printname"] = "8.7\" Polygonal"
-L["mw19_att_wpn_pp19_brl_02.compactname"] = "Polygonal"
-L["mw19_att_wpn_pp19_brl_02.description"] = "Slight length increase and polygonal rifling improve muzzle velocity and range with little additional weight."
+L["cod2019_bizon_barrel_long.printname"] = "8.7\" Polygonal"
+L["cod2019_bizon_barrel_long.compactname"] = "Polygonal"
+L["cod2019_bizon_barrel_long.description"] = "Slight length increase and polygonal rifling improve muzzle velocity and range with little additional weight."
 
-L["mw19_att_wpn_pp19_brl_03.printname"] = "8.7\" Aluminium"
-L["mw19_att_wpn_pp19_brl_03.compactname"] = "Aluminium"
-L["mw19_att_wpn_pp19_brl_03.description"] = "Dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_bizon_barrel_short.printname"] = "8.7\" Aluminium"
+L["cod2019_bizon_barrel_short.compactname"] = "Aluminium"
+L["cod2019_bizon_barrel_short.description"] = "Dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
 L["mw19_att_wpn_pp19_stock_light.printname"] = "Factory Aluminium Stock"
@@ -1137,9 +1191,9 @@ L["mw19_att_wpn_pp19_stock_medium.printname"] = stockname.closequartersstock
 L["mw19_att_wpn_pp19_stock_medium.compactname"] = stockname.closequartersstocks
 
 /////////////// Magazine
-L["mw19_att_wpn_pp19_mag_84.printname"] = "84 Round Helical Mags"
-L["mw19_att_wpn_pp19_mag_84.compactname"] = string.format(mw19magtext.mags, "84")
-L["mw19_att_wpn_pp19_mag_84.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
+L["cod2019_bizon_mag_xmag.printname"] = "84 Round Helical Mags"
+L["cod2019_bizon_mag_xmag.compactname"] = string.format(mw19magtext.mags, "84")
+L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
 
 ////////////////////  MP7
 /////////////// Barrels
@@ -1498,6 +1552,10 @@ L["cod2019_origin12_barrel_long.printname"] = "FORGE TAC Impaler"
 L["cod2019_origin12_barrel_long.compactname"] = "Impaler"
 L["cod2019_origin12_barrel_long.description"] = "Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility."
 
+/////////////// Muzzle
+L["cod2019_origin12_silencer.printname"] = "FSS Protector Suppressor"
+L["cod2019_origin12_silencer.compactname"] = "Protector"
+
 /////////////// Stock
 L["mw19_att_wpn_origin12_stock_medium.printname"] = "FORGE TAC Dart"
 L["mw19_att_wpn_origin12_stock_medium.compactname"] = "Dart"
@@ -1715,7 +1773,7 @@ L["mw19_att_wpn_holger_stock_medium.description"] = "Ergonomic stock with a stra
 /////////////// Magazine
 L["cod2019_holger_armag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_holger_armag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["cod2019_holger_armag_30.description"] = "<color=255,100,100>30 round</color> magazines of 5.56 NATO carry less ammunition, but increase mobility and speed up reload times."
+L["cod2019_holger_armag_30.description"] = string.format(mw19magtext.descsmall, "30", mw19ammotype["556"])
 
 ////////////////////  Bruen Mk9
 /////////////// Barrels
@@ -1731,6 +1789,7 @@ L["cod2019_bruenmk9_barrel_short.compactname"] = "Para"
 /////////////// Stocks
 L["mw19_att_wpn_bruen_stock_vlight.printname"] = stockname.skeleton
 L["mw19_att_wpn_bruen_stock_vlight.compactname"] = stockname.skeletons
+L["mw19_att_wpn_bruen_stock_vlight.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 /////////////// Magazine
 L["mw19_att_wpn_bruen_mag_200.printname"] = string.format(mw19magtext.belt, "200")
@@ -1750,34 +1809,34 @@ L["mw19_att_wpn_finn_brl_02.printname"] = "Factory <Adverse>"
 L["mw19_att_wpn_finn_brl_02.compactname"] = "Factory <A>"
 L["mw19_att_wpn_finn_brl_02.description"] = "Standard barrel with the gas regulator opened full throttle, increasing the <color=255,255,100>rate of fire</color> to its maximum potential. Sustained fire can quickly overheat the barrel."
 
-L["mw19_att_wpn_finn_brl_03.printname"] = "XRK LongShot Advantage"
-L["mw19_att_wpn_finn_brl_03.compactname"] = "LongShot"
-L["mw19_att_wpn_finn_brl_03.description"] = "Fully shrouded 510mm chrome-moly barrel increases muzzle velocity and greatly improves accuracy."
+L["cod2019_finn_barrel_long.printname"] = "XRK LongShot Advantage"
+L["cod2019_finn_barrel_long.compactname"] = "LongShot"
+L["cod2019_finn_barrel_long.description"] = "Fully shrouded 510mm chrome-moly barrel increases muzzle velocity and greatly improves accuracy."
 
 L["mw19_att_wpn_finn_brl_04.printname"] = "XRK Pro Twist <Adverse>"
 L["mw19_att_wpn_finn_brl_04.compactname"] = "Twist <A>"
 L["mw19_att_wpn_finn_brl_04.description"] = "XRKs polygonal rifled heavy duty barrel prevents a loss to range when set to Adverse fire mode. Allows for the max <color=255,255,100>rate of fire</color> without losing lethality at a distance."
 
-L["mw19_att_wpn_finn_brl_05.printname"] = "FTAC VC-8 Harrier"
-L["mw19_att_wpn_finn_brl_05.compactname"] = "Harrier"
-L["mw19_att_wpn_finn_brl_05.description"] = "Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_finn_barrel_light.printname"] = "FTAC VC-8 Harrier"
+L["cod2019_finn_barrel_light.compactname"] = "Harrier"
+L["cod2019_finn_barrel_light.description"] = "Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity."
 
-L["mw19_att_wpn_finn_brl_06.printname"] = "XRK LongShot <Adverse>"
-L["mw19_att_wpn_finn_brl_06.compactname"] = "LongShot <A>"
-L["mw19_att_wpn_finn_brl_06.description"] = "Longest available barrel with Adverse fire mode tuning. Improved range and an insane <color=255,255,100>rate of fire</color> with a smaller increase to recoil."
+L["cod2019_finn_barrel_long_adv.printname"] = "XRK LongShot <Adverse>"
+L["cod2019_finn_barrel_long_adv.compactname"] = "LongShot <A>"
+L["cod2019_finn_barrel_long_adv.description"] = "Longest available barrel with Adverse fire mode tuning. Improved range and an insane <color=255,255,100>rate of fire</color> with a smaller increase to recoil."
 
-L["mw19_att_wpn_finn_brl_07.printname"] = "FTAC VC-8 Harrier <Adverse>"
-L["mw19_att_wpn_finn_brl_07.compactname"] = "Harrier <A>"
-L["mw19_att_wpn_finn_brl_07.description"] = "Lightweight, highly maneuverable barrel with a <color=255,255,100>rate of fire</color> pushed to the limit using adverse fire gas regulator settings."
+L["cod2019_finn_barrel_light_adv.printname"] = "FTAC VC-8 Harrier <Adverse>"
+L["cod2019_finn_barrel_light_adv.compactname"] = "Harrier <A>"
+L["cod2019_finn_barrel_light_adv.description"] = "Lightweight, highly maneuverable barrel with a <color=255,255,100>rate of fire</color> pushed to the limit using adverse fire gas regulator settings."
 
 /////////////// Stocks
-L["mw19_att_wpn_finn_stock_heavy.printname"] = "XRK Citadel"
-L["mw19_att_wpn_finn_stock_heavy.compactname"] = "Citadel"
+L["cod2019_finn_stock_heavy.printname"] = "XRK Citadel"
+L["cod2019_finn_stock_heavy.compactname"] = "Citadel"
 
 L["mw19_att_wpn_finn_stock_light.printname"] = "XRK M309 Forward Assault"
 L["mw19_att_wpn_finn_stock_light.compactname"] = "M309"
 
-L["cod2019_finn_stock_saw.printname"] = "XRK CHainSAW"
+L["cod2019_finn_stock_saw.printname"] = "XRK ChainSAW"
 L["cod2019_finn_stock_saw.compactname"] = "ChainSAW"
 L["cod2019_finn_stock_saw.description"] = "Combination handled grips allow for highly maneuverable assaults. For operators who care less about where their shot lands and more about getting rounds down range fast."
 
@@ -1802,7 +1861,7 @@ L["mw19_att_wpn_raal_brl_01.description"] = "26.0 inch heavy duty stainless stee
 
 L["mw19_att_wpn_raal_brl_02.printname"] = "32.0\" RAAL Line Breaker"
 L["mw19_att_wpn_raal_brl_02.compactname"] = "Line B."
-L["mw19_att_wpn_raal_brl_02.description"] = "This formidable 32.0" barrel greatly increases muzzle velocity and extends range."
+L["mw19_att_wpn_raal_brl_02.description"] = "This formidable 32.0\" barrel greatly increases muzzle velocity and extends range."
 
 L["cod2019_raal_barrel_light.printname"] = "25.0\" RAAL Tri-fold Lite"
 L["cod2019_raal_barrel_light.compactname"] = "Tri-fold"
@@ -1842,8 +1901,654 @@ L["cod2019_raal_grip_side_fss.description"] = "Canted foregrip improves vertical
 /////////////// Magazine
 L["mw19_att_wpn_raal_mag_150.printname"] = string.format(mw19magtext.belt, "150")
 L["mw19_att_wpn_raal_mag_150.compactname"] = string.format(mw19magtext.mags, "150")
-L["mw19_att_wpn_raal_mag_150.description"] = string.format(mw19magtext.descbelt "150", mw19ammotype["338"])
+L["mw19_att_wpn_raal_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["338"])
 
 L["cod2019_raal_mag_smag.printname"] = string.format(mw19magtext.belt, "50")
 L["cod2019_raal_mag_smag.compactname"] = string.format(mw19magtext.mags, "50")
 L["cod2019_raal_mag_smag.description"] = "Short <color=255,100,100>50 round</color> .338 Lapua Magnum belts with small capacity box reduce overall weight for improved maneuverability."
+
+////////////////////////  Marksman Rifles
+////////////////////  EBR-14
+/////////////// Barrels
+L["mw19_att_wpn_ebr14_brl_01.printname"] = "FORGE TAC Precision 20.0\""
+L["mw19_att_wpn_ebr14_brl_01.compactname"] = "20.0\""
+L["mw19_att_wpn_ebr14_brl_01.description"] = "Longer barrel increases muzzle velocity and extends range with a slight weight increase."
+
+L["mw19_att_wpn_ebr14_brl_02.printname"] = "FORGE TAC Elite"
+L["mw19_att_wpn_ebr14_brl_02.compactname"] = "Elite"
+L["mw19_att_wpn_ebr14_brl_02.description"] = "MilSpec steel, precision machined dimples, and a wider bore reduce weight for improved handling at the cost of muzzle velocity."
+
+L["mw19_att_wpn_ebr14_brl_03.printname"] = "FORGE TAC Precision 22.0\""
+L["mw19_att_wpn_ebr14_brl_03.compactname"] = "22.0\""
+L["mw19_att_wpn_ebr14_brl_03.description"] = "Longest barrel available increases muzzle velocity and extends range to the max. Added weight stabilizes shots but hinders mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_ebr14_stock_heavy.printname"] = "FTAC Precision Comb"
+L["mw19_att_wpn_ebr14_stock_heavy.compactname"] = "Precision"
+
+L["mw19_att_wpn_ebr14_stock_vlight.printname"] = "FSS Raider Chassis Pro"
+L["mw19_att_wpn_ebr14_stock_vlight.compactname"] = "Pro"
+L["mw19_att_wpn_ebr14_stock_vlight.description"] = "Modular chassis with a Chronen pistol grip and tactical stock helps get on target faster and improves speed while on the move."
+
+L["mw19_att_wpn_ebr14_stock_light.printname"] = "FTAC Lightweight Stock"
+L["mw19_att_wpn_ebr14_stock_light.compactname"] = "Lightweight"
+L["mw19_att_wpn_ebr14_stock_light.description"] = "Lightweight composite stock designed for agility while aiming down sights."
+
+L["mw19_att_wpn_ebr14_stock_vlight2.printname"] = "FSS Raider Chassis Elite"
+L["mw19_att_wpn_ebr14_stock_vlight2.compactname"] = "Elite"
+L["mw19_att_wpn_ebr14_stock_vlight2.description"] = "Modular chassis with a Cronen pistol grip and ultralight stock for superior maneuvering and the cost of stability."
+
+/////////////// Magazine
+L["cod2019_m14_mag_15.printname"] = string.format(mw19magtext.mag, "15")
+L["cod2019_m14_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
+L["cod2019_m14_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762"])
+
+L["cod2019_m14_mag_20.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_m14_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_m14_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762"])
+
+////////////////////  MK2 Carbine
+/////////////// Barrels
+L["mw19_att_wpn_mk2_brl_01.printname"] = "FSS 18.0\" Factory"
+L["mw19_att_wpn_mk2_brl_01.compactname"] = "18.0\""
+L["mw19_att_wpn_mk2_brl_01.description"] = "18.0\" barrel slightly increases muzzle velocity and extends range with very little additional weight."
+
+L["mw19_att_wpn_mk2_brl_02.printname"] = "FSS 20.0\" Factory"
+L["mw19_att_wpn_mk2_brl_02.compactname"] = "20.0\""
+L["mw19_att_wpn_mk2_brl_02.description"] = "20.0\" barrel is a perfect balance of increased muzzle velocity and increased weight."
+
+L["mw19_att_wpn_mk2_brl_03.printname"] = "FSS 24.0\" Factory"
+L["mw19_att_wpn_mk2_brl_03.compactname"] = "24.0\""
+L["mw19_att_wpn_mk2_brl_03.description"] = "24.0\" barrel extends muzzle velocity and range to the max, but hinders mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_mk2_stock_heavy.printname"] = "Cartridge Sleeve"
+L["mw19_att_wpn_mk2_stock_heavy.compactname"] = "Sleeve"
+L["mw19_att_wpn_mk2_stock_heavy.description"] = "Carry <color=100,255,100>6</color> additional rounds. Extra weight slightly improves stability while aiming."
+
+L["mw19_att_wpn_mk2_stock_medium.printname"] = "FSS MK2 Sport Comb"
+L["mw19_att_wpn_mk2_stock_medium.compactname"] = "Sport"
+L["mw19_att_wpn_mk2_stock_medium.description"] = "Adjustable comb designed to improve target acquisition."
+
+L["mw19_att_wpn_mk2_stock_vheavy.printname"] = "FSS MK2 Precision Comb"
+L["mw19_att_wpn_mk2_stock_vheavy.compactname"] = "Precision"
+L["mw19_att_wpn_mk2_stock_vheavy.description"] = "Heavy duty comb add-on provides exceptional precision while aiming."
+
+L["mw19_att_wpn_mk2_stock_light.printname"] = "MK2 Ultralight Hollow"
+L["mw19_att_wpn_mk2_stock_light.compactname"] = "Ultralight"
+L["mw19_att_wpn_mk2_stock_light.description"] = "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
+
+////////////////////  Kar98k
+/////////////// Barrels
+L["cod2019_kar98k_barrel_short.printname"] = "Singuard Custom 25.1\""
+L["cod2019_kar98k_barrel_short.compactname"] = "25.1\""
+L["cod2019_kar98k_barrel_short.description"] = "Custom 25.1\" heavyweight barrel with polygonal rifling balances increased muzzle velocity with increased weight."
+
+L["mw19_att_wpn_kar98k_brl_02.printname"] = "Singuard Custom 21.2\""
+L["mw19_att_wpn_kar98k_brl_02.compactname"] = "21.2\""
+L["mw19_att_wpn_kar98k_brl_02.description"] = "Custom 21.2\" heavyweight barrel with polygonal rifling slightly increases muzzle velocity and extends range with little additional weight"
+
+L["cod2019_kar98k_barrel_long.printname"] = "Singuard Custom 27.6\""
+L["cod2019_kar98k_barrel_long.compactname"] = "27.6\""
+L["cod2019_kar98k_barrel_long.description"] = "Custom 27.6\" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_kar98k_stock_heavy.printname"] = "STVOL Precision Comb"
+L["mw19_att_wpn_kar98k_stock_heavy.compactname"] = "Precision"
+
+L["mw19_att_wpn_kar98k_stock_light.printname"] = "Hollow Stock Mod"
+L["mw19_att_wpn_kar98k_stock_light.compactname"] = "Hollow"
+L["mw19_att_wpn_kar98k_stock_light.description"] = "Hollowed out stock with lightweight recoil pad keeps shooter agile while aiming down sights."
+
+L["mw19_att_wpn_kar98k_stock_medium.printname"] = "FTAC Sport Comb"
+L["mw19_att_wpn_kar98k_stock_medium.compactname"] = "Sport"
+
+////////////////////  Crossbow
+/////////////// Optics
+L["cod2019_crossbow_scope.printname"] = "XRK MidTrak 4.0x Scope"
+L["cod2019_crossbow_scope.compactname"] = "MidTrak"
+L["cod2019_crossbow_scope.description"] = "High power <color=100,255,100>4.0x</color> scope converts this crossbow into an accurate long range weapon. <color=255,100,100>Optic glint visible to enemies.</color>"
+
+L["mw19_att_wpn_crossbow_optic_rangemaster.printname"] = "XRK Rangemaster VZ"
+L["mw19_att_wpn_crossbow_optic_rangemaster.compactname"] = "Rangemaster"
+
+/////////////// Cables
+L["cod2019_crossbow_wires_light.printname"] = "16-Strand Cable"
+L["cod2019_crossbow_wires_light.compactname"] = "16S"
+L["cod2019_crossbow_wires_light.description"] = "Lower-tension lightweight cable fires the bolts with exceptional accuracy at a lower velocity."
+
+L["cod2019_crossbow_wires_tact.printname"] = "28-Strand Cable"
+L["cod2019_crossbow_wires_tact.compactname"] = "28S"
+L["cod2019_crossbow_wires_tact.description"] = "High-tension heavyweight cable fires bolts at a higher velocity, but with less accuracy."
+
+/////////////// Arms
+L["mw19_att_wpn_crossbow_arms_01.printname"] = "XRK Thunder 200 Lb"
+L["mw19_att_wpn_crossbow_arms_01.compactname"] = "Thunder"
+L["mw19_att_wpn_crossbow_arms_01.description"] = "Heavyweight 200 Lb draw for maximum bolt velocity."
+
+L["cod2019_crossbow_limbs_light.printname"] = "XRK Quill 100 Lb"
+L["cod2019_crossbow_limbs_light.compactname"] = "Quill"
+L["cod2019_crossbow_limbs_light.description"] = "Lightweight arms fire bolts at a slower velocity, but greatly improve agility and handling."
+
+L["cod2019_crossbow_limbs_tact.printname"] = "XRK Carbon Elite"
+L["cod2019_crossbow_limbs_tact.compactname"] = "Carbon"
+L["cod2019_crossbow_limbs_tact.description"] = "Carbon fiber arms improve handling with a slightly slower bolt velocity."
+
+/////////////// Stocks
+L["mw19_att_wpn_crossbow_stock_heavy.printname"] = "FORGE TAC Apex"
+L["mw19_att_wpn_crossbow_stock_heavy.compactname"] = "Apex"
+L["mw19_att_wpn_crossbow_stock_heavy.description"] = "Extremely stable heavy weight stock designed specifically for crossbows"
+
+L["cod2019_crossbow_stock_light.printname"] = "FORGE TAC Dart CB"
+L["cod2019_crossbow_stock_light.compactname"] = "Dart"
+L["cod2019_crossbow_stock_light.description"] = "Lightweight crossbow stock provides exceptional agility while aiming."
+
+L["cod2019_crossbow_stock_tact.printname"] = "FORGE TAC SpeedTrak"
+L["cod2019_crossbow_stock_tact.compactname"] = "SpeedTrak"
+L["cod2019_crossbow_stock_tact.description"] = "Competition stock from FSS designed for rapid target acquisition."
+
+/////////////// Bolts
+L["cod2019_ammo_crossbow_expl.printname"] = "FTAC Fury 20\" Bolts"
+L["cod2019_ammo_crossbow_expl.compactname"] = "Fury"
+L["cod2019_ammo_crossbow_expl.description"] = "Carbon bolts with <color=255,255,100>timed explosive tips</color>. Sticky tips deal less damage, but devastate targets on detonation. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
+
+L["mw19_att_wpn_crossbow_bolt_02.printname"] = "FTAC Venom 20\" Bolts"
+L["mw19_att_wpn_crossbow_bolt_02.compactname"] = "Venom"
+L["mw19_att_wpn_crossbow_bolt_02.description"] = "Bolts with <color=255,255,100>high pressure tear gas cartridges</color> that detonate on impact with flesh. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+
+L["mw19_att_wpn_crossbow_bolt_03.printname"] = "FTAC Backburn 20\" Bolts"
+L["mw19_att_wpn_crossbow_bolt_03.compactname"] = "Backburn"
+L["mw19_att_wpn_crossbow_bolt_03.description"] = "<color=255,255,100>Thermite tipped bolts</color> that ignite on impact, stick to metal, and are effective against vehicles. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
+
+////////////////////  SKS
+/////////////// Optics
+L["cod2019_optic_scope_sks.printname"] = "PU Scope"
+L["cod2019_optic_scope_sks.compactname"] = "PU"
+
+/////////////// Barrels
+L["mw19_att_wpn_sks_brl_01.printname"] = "FTAC Landmark"
+L["mw19_att_wpn_sks_brl_01.compactname"] = "Landmark"
+
+L["cod2019_sks_barrel_short.printname"] = "16\" FSS Para"
+L["cod2019_sks_barrel_short.compactname"] = "Para"
+L["cod2019_sks_barrel_short.description"] = "This compact barrel from FSS is a custom version of the classic SKS paratrooper barrel. Better for sniping on the move."
+
+L["cod2019_sks_barrel_long.printname"] = "22\" FSS M59/66"
+L["cod2019_sks_barrel_long.compactname"] = "M59/66"
+L["cod2019_sks_barrel_long.description"] = "A modern take from FSS on the classic Yugoslavian sniper barrel. 22.0\" barrel greatly increases muzzle velocity and extends range."
+
+/////////////// Stocks
+L["cod2019_sks_stock_heavy.printname"] = "SKS Rifle Stock"
+L["cod2019_sks_stock_heavy.compactname"] = "SKS"
+L["cod2019_sks_stock_heavy.description"] = "Traditional rifle stock provides exceptional control while aiming, at the cost of mobility."
+
+L["mw19_att_wpn_sks_stock_medium.printname"] = stockname.hunterscout
+L["mw19_att_wpn_sks_stock_medium.compactname"] = stockname.hunterscouts
+L["mw19_att_wpn_sks_stock_medium.description"] = "Western stock adaptor designed to improve aiming precision."
+
+L["mw19_att_wpn_sks_stock_none.printname"] = stockname.sawed
+L["mw19_att_wpn_sks_stock_none.compactname"] = stockname.saweds
+L["mw19_att_wpn_sks_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+
+/////////////// Magazine
+L["cod2019_sks_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_sks_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_sks_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["762x39"])
+
+L["mw19_att_wpn_sks_mag_10.printname"] = string.format(mw19magtext.mag, "10")
+L["mw19_att_wpn_sks_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
+L["mw19_att_wpn_sks_mag_10.description"] = string.format(mw19magtext.descsmall, "10", mw19ammotype["762x39"])
+
+////////////////////  SP-R 208
+/////////////// Optics
+L["cod2019_optic_scope_spr208.printname"] = "Solozero SP-R 28mm"
+L["cod2019_optic_scope_spr208.compactname"] = "SP-R"
+
+/////////////// Barrels
+L["mw19_att_wpn_spr208_brl_01.printname"] = "ZLR VeraTwist 9.6"
+L["mw19_att_wpn_spr208_brl_01.compactname"] = "VeraTwist"
+L["mw19_att_wpn_spr208_brl_01.description"] = "Stainless steel barrel with chrome lined polygonal rifling holds a 1:9.6 twist rate on higher grain rounds, and significantly improves muzzle velocity and range."
+
+L["cod2019_spr208_barrel_short.printname"] = "ZLR Asp"
+L["cod2019_spr208_barrel_short.compactname"] = "Asp"
+L["cod2019_spr208_barrel_short.description"] = "Ultra light carbon fiber 16.5\" barrel from ZLR for rapid close range strikes."
+
+L["cod2019_spr208_barrel_long.printname"] = "SP-R 26\""
+L["cod2019_spr208_barrel_long.compactname"] = "SP-R"
+L["cod2019_spr208_barrel_long.description"] = "Sloan Precision's contoured 26 inch barrel improves muzzle velocity and extends the weapon's lethal range"
+
+L["mw19_att_wpn_spr208_brl_04.printname"] = "XRK 208 Dragoon"
+L["mw19_att_wpn_spr208_brl_04.compactname"] = "Dragoon"
+L["mw19_att_wpn_spr208_brl_04.description"] = "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a Iow sound signature."
+
+/////////////// Stocks
+L["mw19_att_wpn_spr208_stock_medium.printname"] = "XRK SP-TAC 208 Ultimate"
+L["mw19_att_wpn_spr208_stock_medium.compactname"] = "Ultimate"
+L["mw19_att_wpn_spr208_stock_medium.description"] = "Machine milled titanium body, ergonomic match grade stock, and ported aluminium shroud put your sights on target with exceptional speed and accuracy."
+
+L["cod2019_spr208_stock_tac.printname"] = "FSS Virtuoso Pro"
+L["cod2019_spr208_stock_tac.compactname"] = "Virtuoso"
+L["cod2019_spr208_stock_tac.description"] = "FSS all-aluminium chassis and fully adjustable stock provides the precision and and strength required for fast moving shot-over-shot accuracy."
+
+L["cod2019_spr208_stock_skel.printname"] = "XRK SP-LITE 208 Blitz"
+L["cod2019_spr208_stock_skel.compactname"] = "Blitz"
+L["cod2019_spr208_stock_skel.description"] = "XRK's after-market chassis offers the ultimate in mobility with this rugged and durable ultra-light sniper rifle system."
+
+L["cod2019_spr208_stock_heavy.printname"] = "ZLR SP-R Overseer"
+L["cod2019_spr208_stock_heavy.compactname"] = "Overseer"
+L["cod2019_spr208_stock_heavy.description"] = "Perfectly balanced weight distribution allows the highest stability and recoil control available."
+
+/////////////// Magazine
+L["cod2019_spr208_mag_10.printname"] = string.format(mw19magtext.mag, "10")
+L["cod2019_spr208_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
+L["cod2019_spr208_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["300"])
+
+L["mw19_att_wpn_spr208_mag_norma.printname"] = ".300 Norma Mag 5-R Mags"
+L["mw19_att_wpn_spr208_mag_norma.compactname"] = "5R .300"
+L["mw19_att_wpn_spr208_mag_norma.description"] = "5 Round mags of <color=255,255,100>.300 Norma Mag</color> ammunition with superior external ballistics for a flatter trajectory and longer range."
+
+L["mw19_att_wpn_spr208_mag_lapua.printname"] = ".338 Lapua Mag 5-R Mags"
+L["mw19_att_wpn_spr208_mag_lapua.compactname"] = "5R .338"
+L["mw19_att_wpn_spr208_mag_lapua.description"] = "Powerful 250gr <color=255,255,100>.338 Lapua Mag</color> ammunition hits harder at all ranges."
+
+L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special" -- UO
+L["cod2019_spr208_mag_xmag_alt.compactname"] = "5R Special" -- UO
+L["cod2019_spr208_mag_xmag_alt.description"] = "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>." -- UO
+
+/////////////// Bolt
+L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-800 DeadEye"
+L["cod2019_spr208_bolt_light.compactname"] = "DeadEye"
+L["cod2019_spr208_bolt_light.description"] = "Precision machined chrome-moly assembly with a tungsten core provides an exceptionally controlled re-chamber for accurate follow-up shots."
+
+L["mw19_att_wpn_spr208_bolt_02.printname"] = "Sloan KR-600 Feather"
+L["mw19_att_wpn_spr208_bolt_02.compactname"] = "Feather"
+L["mw19_att_wpn_spr208_bolt_02.description"] = "Titanium shrouded aluminum core and a skeletalized handle make this bolt assembly lightning fast."
+
+L["mw19_bolt_stat_speed"] = "Rechamber Speed"
+L["mw19_bolt_stat_stability"] = "Rechamber Stability"
+
+////////////////////////  Sniper Rifles
+////////////////////  Dragunov
+/////////////// Barrels
+L["mw19_att_wpn_dragunov_brl_01.printname"] = "510mm Compact Barrel"
+L["mw19_att_wpn_dragunov_brl_01.compactname"] = "Compact"
+L["mw19_att_wpn_dragunov_brl_01.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
+
+L["mw19_att_wpn_dragunov_brl_02.printname"] = "660m Extended Barrel"
+L["mw19_att_wpn_dragunov_brl_02.compactname"] = "Extended"
+L["mw19_att_wpn_dragunov_brl_02.description"] = "Extended barrel improves muzzle velocity and range. Additional weight stabilizes shots but hinders mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_dragunov_stock_heavy.printname"] = stockname.hunterscout
+L["mw19_att_wpn_dragunov_stock_heavy.compactname"] = stockname.hunterscouts
+
+L["mw19_att_wpn_dragunov_stock_vlight.printname"] = stockname.skeleton
+L["mw19_att_wpn_dragunov_stock_vlight.compactname"] = stockname.skeletons
+
+L["mw19_att_wpn_dragunov_stock_light.printname"] = "VLK Lightweight Stock"
+L["mw19_att_wpn_dragunov_stock_light.compactname"] = "Lightweight"
+
+L["mw19_att_wpn_dragunov_stock_medium.printname"] = stockname.stalkerscout
+L["mw19_att_wpn_dragunov_stock_medium.compactname"] = stockname.stalkerscouts
+L["mw19_att_wpn_dragunov_stock_medium.description"] = "Western stock adaptor designed to improve target acquisition."
+
+/////////////// Magazine
+L["cod2019_dragunov_mag_15.printname"] = string.format(mw19magtext.mag, "15")
+L["cod2019_dragunov_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
+L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762x54"])
+
+L["cod2019_dragunov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_dragunov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762x54"])
+
+////////////////////  HDR
+/////////////// Barrels
+L["mw19_att_wpn_hdr_brl_01.printname"] = "26.9\" HDR Pro"
+L["mw19_att_wpn_hdr_brl_01.compactname"] = "26.9\""
+L["mw19_att_wpn_hdr_brl_01.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight helps to stabilize shots at the cost of agility."
+
+L["mw19_att_wpn_hdr_brl_02.printname"] = "26.0\" Bull Barrel"
+L["mw19_att_wpn_hdr_brl_02.compactname"] = "26.0\""
+L["mw19_att_wpn_hdr_brl_02.description"] = "This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity."
+
+L["mw19_att_wpn_hdr_brl_03.printname"] = "17.2\" Bull Barrel"
+L["mw19_att_wpn_hdr_brl_03.compactname"] = "17.2\""
+L["mw19_att_wpn_hdr_brl_03.description"] = "Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_hdr_stock_heavy.printname"] = stockname.stalkerscout
+L["mw19_att_wpn_hdr_stock_heavy.compactname"] = stockname.stalkerscouts
+L["mw19_att_wpn_hdr_stock_heavy.description"] = "Sniper variant of the Stalker stock designed to improve target acquisition."
+
+L["mw19_att_wpn_hdr_stock_medium.printname"] = stockname.hunterscout
+L["mw19_att_wpn_hdr_stock_medium.compactname"] = stockname.hunterscouts
+L["mw19_att_wpn_hdr_stock_medium.description"] = "Sniper variant of the Hunter stock designed to improve aiming precision."
+
+L["mw19_att_wpn_hdr_stock_light.printname"] = "FSS Nomad Stock"
+L["mw19_att_wpn_hdr_stock_light.compactname"] = "Nomad"
+
+L["mw19_att_wpn_hdr_stock_vheavy.printname"] = "FTAC Champion"
+L["mw19_att_wpn_hdr_stock_vheavy.compactname"] = "Champion"
+
+/////////////// Magazine
+L["cod2019_hdr_mag_7.printname"] = string.format(mw19magtext.mag, "7")
+L["cod2019_hdr_mag_7.compactname"] = string.format(mw19magtext.mags, "7")
+L["cod2019_hdr_mag_7.description"] = string.format(mw19magtext.desc, "7", mw19ammotype["127x108"])
+
+L["cod2019_hdr_mag_9.printname"] = string.format(mw19magtext.mag, "9")
+L["cod2019_hdr_mag_9.compactname"] = string.format(mw19magtext.mags, "9")
+L["cod2019_hdr_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19ammotype["127x108"])
+
+////////////////////  AX-50
+/////////////// Barrels
+L["mw19_att_wpn_ax50_brl_01.printname"] = "Singuard Arms Pro"
+L["mw19_att_wpn_ax50_brl_01.compactname"] = "Pro"
+L["mw19_att_wpn_ax50_brl_01.description"] = "Custom vanadium barrel with polygonal rifling increases muzzle velocity and improves range with only a minor increase to weight."
+
+L["mw19_att_wpn_ax50_brl_02.printname"] = "17.0\" Factory Barrel"
+L["mw19_att_wpn_ax50_brl_02.compactname"] = "17.0\" F"
+
+L["mw19_att_wpn_ax50_brl_03.printname"] = "32.0\" Factory Barrel"
+L["mw19_att_wpn_ax50_brl_03.compactname"] = "32.0\" F"
+L["mw19_att_wpn_ax50_brl_03.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+
+/////////////// Stocks
+L["mw19_att_wpn_ax50_stock_heavy.printname"] = "Singuard Arms Marksman"
+L["mw19_att_wpn_ax50_stock_heavy.compactname"] = "Marksman"
+
+L["mw19_att_wpn_ax50_stock_light.printname"] = "Singuard Arms Evader"
+L["mw19_att_wpn_ax50_stock_light.compactname"] = "Evader"
+
+L["mw19_att_wpn_ax50_stock_medium.printname"] = "Singuard Arms Assassin"
+L["mw19_att_wpn_ax50_stock_medium.compactname"] = "Assassin"
+L["mw19_att_wpn_ax50_stock_medium.description"] = "Tactical stock designed for rapid target acquisition and engagement."
+
+/////////////// Magazine
+L["cod2019_ax50_mag_7.printname"] = string.format(mw19magtext.mag, "7")
+L["cod2019_ax50_mag_7.compactname"] = string.format(mw19magtext.mags, "7")
+L["cod2019_ax50_mag_7.description"] = string.format(mw19magtext.desc, "7", mw19ammotype["50bmg"])
+
+L["cod2019_ax50_mag_9.printname"] = string.format(mw19magtext.mag, "9")
+L["cod2019_ax50_mag_9.compactname"] = string.format(mw19magtext.mags, "9")
+L["cod2019_ax50_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19ammotype["50bmg"])
+
+////////////////////  Rytec AMR
+/////////////// Barrels
+L["mw19_att_wpn_rytec_brl_01.printname"] = "FTAC Seven Straight"
+L["mw19_att_wpn_rytec_brl_01.compactname"] = "Seven"
+L["mw19_att_wpn_rytec_brl_01.description"] = "Extended 777mm barrel increases muzzle velocity and range. Heavy-weight P7 Chrome-Moly lined stainless steel barrel stabilizes shots at the cost of agility."
+
+L["mw19_att_wpn_rytec_brl_02.printname"] = "FTAC 448mm Dictator"
+L["mw19_att_wpn_rytec_brl_02.compactname"] = "Dictator"
+L["mw19_att_wpn_rytec_brl_02.description"] = "FTAC's 448mm titanium-cobalt barrel sacrifices accuracy and range for speed and agility."
+
+L["mw19_att_wpn_rytec_brl_03.printname"] = "XRK Harbinger"
+L["mw19_att_wpn_rytec_brl_03.compactname"] = "Harbinger"
+L["mw19_att_wpn_rytec_brl_03.description"] = "This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity."
+
+/////////////// Muzzle
+L["mw19_att_wpn_rytec_muzzle_tank.printname"] = "XRK Tank Brake"
+L["mw19_att_wpn_rytec_muzzle_tank.compactname"] = "Tank"
+L["mw19_att_wpn_rytec_muzzle_tank.description"] = "Low pressure 45 degree ports direct gases rearward to greatly control the Rytec's extreme recoil."
+
+L["mw19_att_wpn_rytec_muzzle_suppressor.printname"] = "Rytec AMR Suppressor"
+L["mw19_att_wpn_rytec_muzzle_suppressor.compactname"] = "AMR S."
+L["mw19_att_wpn_rytec_muzzle_suppressor.description"] = "Multi caliber suppressor greatly reduces sound signature and increases muzzle velocity. Moderate weight increase affects agility."
+
+/////////////// Stocks
+L["mw19_att_wpn_rytec_stock_heavy.printname"] = "XRK Mastadon"
+L["mw19_att_wpn_rytec_stock_heavy.compactname"] = "Mastadon"
+L["mw19_att_wpn_rytec_stock_heavy.description"] = "Heavy duty fixed stock provides exceptional stability while aiming."
+
+L["mw19_att_wpn_rytec_stock_light.printname"] = "FTAC Trekker"
+L["mw19_att_wpn_rytec_stock_light.compactname"] = "Trekker"
+L["mw19_att_wpn_rytec_stock_light.description"] = "Ultralight composite stock improves movement while aiming down sights."
+
+L["mw19_att_wpn_rytec_stock_medium.printname"] = "STOVL Tac-Wrap"
+L["mw19_att_wpn_rytec_stock_medium.compactname"] = "Tac-Wrap"
+L["mw19_att_wpn_rytec_stock_medium.description"] = "Eastern tactical comb wrap streamlined for close quarters combat. Gets you on target faster."
+
+/////////////// Magazine
+L["cod2019_rytec_mag_explosive.printname"] = "2.5x59mm Explosive 5-R Mag"
+L["cod2019_rytec_mag_explosive.compactname"] = "5R E."
+L["cod2019_rytec_mag_explosive.description"] = "Conversion kit to use <color=255,255,100>25x59mm Explosive</color> rounds. Slower muzzle velocity, but fast enough to evade trophy systems. Low-yield payload is capable of <color=255,100,100>Dismemberment</color>."
+
+L["cod2019_rytec_mag_thermite.printname"] = "2.5x59mm Thermite 5-R Mag"
+L["cod2019_rytec_mag_thermite.compactname"] = "5R T."
+L["cod2019_rytec_mag_thermite.description"] = "Conversion kit to use <color=255,255,100>25x59mm Thermite</color> grenade rounds. Slow traveling but accurate, these short fuse thermite rounds will incinerate your target at a blistering 4100F."
+
+////////////////////////  Handguns
+////////////////////  X16
+/////////////// Barrels
+L["cod2019_x16_slide_light.printname"] = "Singuard Arms Featherweight"
+L["cod2019_x16_slide_light.compactname"] = "Featherweight"
+L["cod2019_x16_slide_light.description"] = "Ported slide and large bore barrel reduces weight for faster gun handling at a slight cost to range."
+
+L["mw19_att_wpn_x16_brl_02.printname"] = "Vanguard Elite"
+L["mw19_att_wpn_x16_brl_02.compactname"] = "Elite"
+L["mw19_att_wpn_x16_brl_02.description"] = "Military issue heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max."
+
+L["mw19_att_wpn_x16_brl_03.printname"] = "Singuard Arms Advantage"
+L["mw19_att_wpn_x16_brl_03.compactname"] = "Advantage"
+L["mw19_att_wpn_x16_brl_03.description"] = "Extended slide slightly increases muzzle velocity and improves range. Lightweight construction only adds a minor increase to weight."
+
+/////////////// Trigger
+L["mw19_att_wpn_x16_trigger_light.printname"] = "Lightweight Trigger"
+L["mw19_att_wpn_x16_trigger_light.compactname"] = "Lightweight"
+L["mw19_att_wpn_x16_trigger_light.description"] = "Hair trigger for the fastest fire rate available. Not as steady as the stock trigger."
+
+L["mw19_att_wpn_x16_trigger_heavy.printname"] = "Heavy Duty Trigger"
+L["mw19_att_wpn_x16_trigger_heavy.compactname"] = "Heavy"
+L["mw19_att_wpn_x16_trigger_heavy.description"] = "Smooth trigger with a late break allows stable shots at a slower rate of fire."
+
+L["mw19_att_wpn_x16_trigger_match.printname"] = "Match Grade Trigger"
+L["mw19_att_wpn_x16_trigger_match.compactname"] = "Match"
+L["mw19_att_wpn_x16_trigger_match.description"] = "High precision trigger offers a higher rate of fire and steady shots while aiming. Not as accurate from the hip."
+
+/////////////// Magazine
+L["cod2019_x16_mag_17.printname"] = string.format(mw19magtext.mag, "17")
+L["cod2019_x16_mag_17.compactname"] = string.format(mw19magtext.mags, "17")
+L["cod2019_x16_mag_17.description"] = string.format(mw19magtext.desc, "17", mw19ammotype["45acp"])
+
+L["cod2019_x16_mag_xmag2.printname"] = string.format(mw19magtext.mag, "26")
+L["cod2019_x16_mag_xmag2.compactname"] = string.format(mw19magtext.mags, "26")
+L["cod2019_x16_mag_xmag2.description"] = string.format(mw19magtext.descl, "26", mw19ammotype["45acp"])
+
+/////////////// Pistol Grips
+L["cod2019_x16_stock.printname"] = "X16 Stock"
+L["cod2019_x16_stock.compactname"] = "Stock"
+L["cod2019_x16_stock.description"] = "Stock provides a stable sight picture and helps control recoil while aiming down the sights."
+
+////////////////////  1911
+/////////////// Barrels
+L["mw19_att_wpn_1911_brl_01.printname"] = ".45 Compact"
+L["mw19_att_wpn_1911_brl_01.compactname"] = "Compact"
+L["mw19_att_wpn_1911_brl_01.description"] = "Compact slide slightly improves speed and agility with a minimal impact to stability."
+
+L["mw19_att_wpn_1911_brl_02.printname"] = ".45 Match Grade"
+L["mw19_att_wpn_1911_brl_02.compactname"] = "Match G."
+L["mw19_att_wpn_1911_brl_02.description"] = "Extended slide improves muzzle velocity and boosts range, with only a slight increase to weight."
+
+L["mw19_att_wpn_1911_brl_03.printname"] = "1911 Stalker"
+L["mw19_att_wpn_1911_brl_03.compactname"] = "Stalker"
+L["mw19_att_wpn_1911_brl_03.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum."
+
+/////////////// Magazine
+L["cod2019_1911_mag_10.printname"] = string.format(mw19magtext.mag, "10")
+L["cod2019_1911_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
+L["cod2019_1911_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["45acp"])
+
+L["cod2019_1911_mag_15.printname"] = string.format(mw19magtext.mag, "15")
+L["cod2019_1911_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
+L["cod2019_1911_mag_15.description"] = string.format(mw19magtext.descl, "15", mw19ammotype["45acp"])
+
+////////////////////  .357
+/////////////// Optics
+L["cod2019_optic_scope_357.printname"] = "Lockwood Pistol Scope"
+L["cod2019_optic_scope_357.compactname"] = "Lockwood"
+L["cod2019_optic_scope_357.description"] = "High power <color=100,255,100>4.0x</color> scope converts this pistol into an accurate long range weapon. <color=255,100,100>Optic glint visible to enemies.</color>"
+
+/////////////// Barrels
+L["mw19_att_wpn_357_brl_01.printname"] = ".357 Snub Nose"
+L["mw19_att_wpn_357_brl_01.compactname"] = "Snub Nose"
+L["mw19_att_wpn_357_brl_01.description"] = "3 inch barrel sacrifices accuracy and range for speed and agility. Better for close quarters engagements."
+
+L["mw19_att_wpn_357_brl_02.printname"] = "Silverfield Ordnance .357"
+L["mw19_att_wpn_357_brl_02.compactname"] = "Silverfield"
+L["mw19_att_wpn_357_brl_02.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range with little additional weight."
+
+L["mw19_att_wpn_357_brl_03.printname"] = ".357 Long"
+L["mw19_att_wpn_357_brl_03.compactname"] = "Long"
+
+/////////////// Magazine
+L["cod2019_357_mag_snakeshot.printname"] = "Snake Shot"
+L["cod2019_357_mag_snakeshot.compactname"] = "Snake Shot"
+L["cod2019_357_mag_snakeshot.description"] = "Buckshot-Filled Shells."
+
+////////////////////  M19
+/////////////// Barrels
+L["mw19_att_wpn_m19_brl_01.printname"] = "XRK L Super"
+L["mw19_att_wpn_m19_brl_01.compactname"] = "Super"
+L["mw19_att_wpn_m19_brl_01.description"] = "Heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max."
+
+L["mw19_att_wpn_m19_brl_02.printname"] = "XRK V Extended"
+L["mw19_att_wpn_m19_brl_02.compactname"] = "Extended"
+L["mw19_att_wpn_m19_brl_02.description"] = "Extended slide slightly increases muzzle velocity and improves range. Lightweight construction adds only a minor increase to weight."
+
+L["mw19_att_wpn_m19_brl_03.printname"] = "A9-16 Lightweight"
+L["mw19_att_wpn_m19_brl_03.compactname"] = "A9-16"
+L["mw19_att_wpn_m19_brl_03.description"] = "Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity."
+
+/////////////// Magazine
+L["cod2019_m19_mag_21.printname"] = string.format(mw19magtext.mag, "21")
+L["cod2019_m19_mag_21.compactname"] = string.format(mw19magtext.mags, "21")
+L["cod2019_m19_mag_21.description"] = string.format(mw19magtext.desc, "21", mw19ammotype["919"])
+
+L["cod2019_m19_mag_32.printname"] = string.format(mw19magtext.mag, "32")
+L["cod2019_m19_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
+L["cod2019_m19_mag_32.description"] = string.format(mw19magtext.descl, "32", mw19ammotype["919"])
+
+////////////////////  .50 GS
+/////////////// Barrels
+L["mw19_att_wpn_50gs_brl_01.printname"] = "FORGE TAC Extended"
+L["mw19_att_wpn_50gs_brl_01.compactname"] = "Extended"
+L["mw19_att_wpn_50gs_brl_01.description"] = "Slightly Extended barrel increases muzzle velocity and improves range with only a minor addition to weight."
+
+L["mw19_att_wpn_50gs_brl_02.printname"] = "FORGE TAC Enforcer"
+L["mw19_att_wpn_50gs_brl_02.compactname"] = "Enforcer"
+L["mw19_att_wpn_50gs_brl_02.description"] = "Extra long slide extension increases muzzle velocity and extends range to the max. Additional weight helps stabilize shots but hinders mobility."
+
+/////////////// Magazine
+L["cod2019_50gs_mag_10.printname"] = string.format(mw19magtext.mag, "10")
+L["cod2019_50gs_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
+L["cod2019_50gs_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["50pistol"])
+
+L["cod2019_50gs_mag_13.printname"] = string.format(mw19magtext.mag, "13")
+L["cod2019_50gs_mag_13.compactname"] = string.format(mw19magtext.mags, "13")
+L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw19ammotype["50pistol"])
+
+////////////////////  Renetti
+/////////////// Barrels
+L["mw19_att_wpn_renetti_brl_01.printname"] = "Mk1 Competition"
+L["mw19_att_wpn_renetti_brl_01.compactname"] = "Competition"
+L["mw19_att_wpn_renetti_brl_01.description"] = "Ported slide, large bore, and fluted barrel reduce weight for faster gun handling at a slight cost to range."
+
+L["mw19_att_wpn_renetti_brl_02.printname"] = "Mk1 Extended"
+L["mw19_att_wpn_renetti_brl_02.compactname"] = "Extended"
+
+L["cod2019_renetti_slide_auto.printname"] = "Mk3 Burst Mod"
+L["cod2019_renetti_slide_auto.compactname"] = "Burst"
+L["cod2019_renetti_slide_auto.description"] = "Custom pistol mod features a durable stainless steel barrel, Mk3 series slide, and advanced trigger group that allows a blazing fast 3 round burst."
+
+/////////////// Muzzle
+L["mw19_att_wpn_renetti_muzzle_comp.printname"] = "Desperado Pro Compensator"
+L["mw19_att_wpn_renetti_muzzle_comp.compactname"] = "Desperado"
+
+/////////////// Stocks
+L["cod2019_renetti_stock.printname"] = "FTAC SATUS CS-3"
+L["cod2019_renetti_stock.compactname"] = "CS-3"
+L["cod2019_renetti_stock.description"] = "Tactical stock provides a stable aiming platform and improved recoil control without sacrificing too much mobility."
+
+L["mw19_att_wpn_renetti_grip.printname"] = "FTAC G-X"
+L["mw19_att_wpn_renetti_grip.compactname"] = "G-X"
+L["mw19_att_wpn_renetti_grip.description"] = "Solo foregrip helps control recoil without hindering movement or stability."
+
+L["mw19_att_wpn_renetti_stock_grip.printname"] = "FTAC SATUS CS-X"
+L["mw19_att_wpn_renetti_stock_grip.compactname"] = "CS-X"
+L["mw19_att_wpn_renetti_stock_grip.description"] = "Tactical stock and foregrip combo provide an extremely stable firing platform."
+
+/////////////// Magazine
+L["cod2019_renetti_mag_xmag.printname"] = string.format(mw19magtext.mag, "21")
+L["cod2019_renetti_mag_xmag.compactname"] = string.format(mw19magtext.mags, "21")
+L["cod2019_renetti_mag_xmag.description"] = string.format(mw19magtext.desc, "21", mw19ammotype["919"])
+
+L["cod2019_renetti_mag_27.printname"] = string.format(mw19magtext.mag, "27")
+L["cod2019_renetti_mag_27.compactname"] = string.format(mw19magtext.mags, "27")
+L["cod2019_renetti_mag_27.description"] = string.format(mw19magtext.descl, "27", mw19ammotype["919"])
+
+/////////////// Pistol Grips
+L["mw19_att_wpn_renetti_rg_01.printname"] = "XRK Pro Grip"
+L["mw19_att_wpn_renetti_rg_01.compactname"] = "Pro"
+L["mw19_att_wpn_renetti_rg_01.description"] = "Ergonomic pistol grip keeps gun tight in hand. Exceptional recoil control at the cost of aiming stability."
+
+L["mw19_att_wpn_renetti_rg_02.printname"] = "XRK Speed Grip"
+L["mw19_att_wpn_renetti_rg_02.compactname"] = "Speed"
+L["mw19_att_wpn_renetti_rg_02.description"] = "Tactical pistol grip maintains control when performing high-speed maneuvers. Less stable but very agile."
+
+////////////////////  Sykov
+/////////////// Barrels
+L["mw19_att_wpn_sykov_brl_01.printname"] = "SBB 105mm"
+L["mw19_att_wpn_sykov_brl_01.compactname"] = "SBB"
+L["mw19_att_wpn_sykov_brl_01.description"] = "Sykov's Svet Bochka slide improves handling at the cost of muzzle velocity."
+
+L["mw19_att_wpn_sykov_brl_02.printname"] = "SSL 308mm"
+L["mw19_att_wpn_sykov_brl_02.compactname"] = "SSL"
+L["mw19_att_wpn_sykov_brl_02.description"] = "The Sykov Skrytyy Lisa slide with a build-in <color=255,255,100>monolithic suppressor</color> keeps the weapon silent and increases range for longer distance stealth assaults."
+
+L["mw19_att_wpn_sykov_brl_03.printname"] = "Sorokin 140mm Auto"
+L["mw19_att_wpn_sykov_brl_03.compactname"] = "Auto"
+L["mw19_att_wpn_sykov_brl_03.description"] = "Durable stainless steel slide and modified trigger group allow this pistol to fire <color=255,255,100>fully automatic</color>."
+
+/////////////// Trigger
+L["mw19_att_wpn_sykov_trigger_light.printname"] = "Lightweight Single-Action"
+L["mw19_att_wpn_sykov_trigger_light.compactname"] = "Light SA"
+L["mw19_att_wpn_sykov_trigger_light.description"] = "Lightweight trigger set to <color=255,255,100>single-action mode</color> for extremely responsive firing. Requiies slightly slower weapon handling."
+
+L["mw19_att_wpn_sykov_trigger_heavy.printname"] = "Heavyweight Double-Action"
+L["mw19_att_wpn_sykov_trigger_heavy.compactname"] = "Heavy DA"
+L["mw19_att_wpn_sykov_trigger_heavy.description"] = "Double action pistol mode and a heavy trigger pull allow for faster weapon handling."
+
+L["mw19_att_wpn_sykov_trigger_match.printname"] = "Lightweight Double-Action"
+L["mw19_att_wpn_sykov_trigger_match.compactname"] = "Light DA"
+L["mw19_att_wpn_sykov_trigger_match.description"] = "High precision lightweight trigger offers a higher rate of fire and steady shots in double-action mode. Not as accurate from the hip."
+
+/////////////// Stocks
+L["mw19_att_wpn_sykov_stock_light.printname"] = "PP-Skelet"
+L["mw19_att_wpn_sykov_stock_light.compactname"] = "Skelet"
+L["mw19_att_wpn_sykov_stock_light.description"] = "Ultralight Pistolet-Pulemet stock provides a stable aiming platform and improved recoil control without sacrificing too much mobility."
+
+L["mw19_att_wpn_sykov_stock_heavy.printname"] = "PP-Karabin"
+L["mw19_att_wpn_sykov_stock_heavy.compactname"] = "Karabin"
+L["mw19_att_wpn_sykov_stock_heavy.description"] = "Heavy weight Pistolet-Pulemet stock provides the highest available aiming stability and recoil control."
+
+/////////////// Magazine
+L["cod2019_sykov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_sykov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["9makarov"])
+
+L["cod2019_sykov_mag_80.printname"] = string.format(mw19magtext.drum, "80")
+L["cod2019_sykov_mag_80.compactname"] = string.format(mw19magtext.mags, "80")
+L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["9makarov"])
+
+/////////////// Pistol Grips
+L["mw19_att_wpn_sykov_rg_01.printname"] = "VLK Spetznaz"
+L["mw19_att_wpn_sykov_rg_01.compactname"] = "Spetznaz"
+L["mw19_att_wpn_sykov_rg_01.description"] = "Mil-spec grip balanced for relaxed and controlled handling. Keeps you steady and on target."
+
+L["mw19_att_wpn_sykov_rg_02.printname"] = "VLK Prizrak"
+L["mw19_att_wpn_sykov_rg_02.compactname"] = "Prizrak"
+L["mw19_att_wpn_sykov_rg_02.description"] = "Designed for control when performing high-speed maneuvers. Less stable but very agile."
+
+L["mw19_att_wpn_sykov_rg_03.printname"] = "VLK Elita"
+L["mw19_att_wpn_sykov_rg_03.compactname"] = "Elita"
+L["mw19_att_wpn_sykov_rg_03.description"] = "Ergonomic pistol grip keeps gun tight in hand. Exceptional recoil control at the cost of aiming stability."

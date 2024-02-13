@@ -185,6 +185,30 @@ L["cod2019_optic_vlk3_pistol.description"] = "Ryskt pistolsikte med <color=100,2
 
 L["cod2019_optic_cronen_pistol.description"] = "Avancerat pistolsikte med <color=100,255,100>3,0x</color> magnifiering erbjuder utmärkt målförvärv."
 
+-- Scopes for Sniper Rifles
+L["cod2019_optic_scope_scout_sniper.description"] = "Riktmedel med lägre <color=100,255,100>3.25x</color> magnifiering när rörlighet är viktigare än räckvidd."
+
+L["cod2019_optic_vlk3_sniper.description"] = "Ryskt stridssikte med <color=100,255,100>3.0x</color> magnifiering för närdistans strider."
+
+L["mw19_optic_thermal_sniper.printname"] = "Värme-Kikarsikte"
+L["mw19_optic_thermal_sniper.compactname"] = "Värme-K"
+L["mw19_optic_thermal_sniper.description"] = "<color=100,255,100>8x</color> kikarsikte med värmesikte förmåga använder värmeavbildning för att markera måltavlor och erbjuder synlighet i alla ljusförhållanden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon. Riktmedel glimt synlig till fienden.</color>"
+
+L["cod2019_optic_scope_vz_sniper.description"] = "Avancerat riktmedel zoomar mellan <color=100,255,100>5.0x</color> och <color=100,255,100>12.1x</color> för strider på extrema räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
+
+L["mw19_optic_thermal_vz_sniper.printname"] = "Dubbel Värmesikte"
+L["mw19_optic_thermal_vz_sniper.compactname"] = "D. Värme."
+L["mw19_optic_thermal_vz_sniper.description"] = "Avancerad värmeavbildning kikarsikte med variabel <color=100,255,100>5.0x</color> och <color=100,255,100>12.1x</color> magnifiering för stridande på extrema räckvidder i alla ljusförhållanden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon. Riktmedel glimt synlig till fienden.</color>"
+
+L["cod2019_optic_cronen_sniper.description"] = "Avancerat riktmedel med <color=100,255,100>3.5x</color> magnifiering för snabb målförvärv."
+
+-- For Launchers
+L["cod2019_optic_scope_m32.printname"] = "MGL-32 Granattillsats Riktmedel"
+L["cod2019_optic_scope_m32.compactname"] = "MGL GTR"
+
+L["cod2019_optic_scope_strela.printname"] = "Strela-P-Sikte"
+L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
+
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
 L["mw19_weapon_att_thermal"] = "%s Värmesikte"
@@ -604,9 +628,9 @@ L["mw19_att_wpn_m4a1_mag_socom.description"] = "Konverteringskit för att använ
 
 ////////////////////  FR 5.56
 /////////////// Receiver
-L["cod2019_famas_upper_railcust.printname"] = "Valorisé-Låda"
-L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
-L["cod2019_famas_upper_railcust.description"] = "Anpassad Valorisé-låda till FR 5,56."
+L["cod2019_famas_upper_railcust.printname"] = "Valorisé-Låda" -- UO
+L["cod2019_famas_upper_railcust.compactname"] = "Valorisé" -- UO
+L["cod2019_famas_upper_railcust.description"] = "Anpassad Valorisé-låda till FR 5,56." -- UO
 
 /////////////// Barrels
 L["cod2019_famas_barrel_short.printname"] = "FR 404mm Kommando"
