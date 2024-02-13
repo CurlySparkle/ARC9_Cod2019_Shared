@@ -151,7 +151,7 @@ ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_optic"}
-ATT.ActivateElements = {"optic","scope_sniper","optic_scope"}
+ATT.ActivateElements = {"optic","scope_sniper","optic_scope","optic_adapter"}
 ATT.ExcludeElements = {"no_optic_large"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_scope.mdl"
@@ -175,7 +175,7 @@ ATT.Sights = {
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(1, 0, -2.35),
+        Pos = Vector(1, 0, -2.47),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         Category = "cod2019_optics_pistols_scope",

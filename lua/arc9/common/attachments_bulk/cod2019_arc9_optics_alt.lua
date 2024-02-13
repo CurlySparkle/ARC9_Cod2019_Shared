@@ -28,6 +28,12 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 -- ATT.CantPeek = true
 
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic_adapter"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
 ATT.Sights = {
     {
         Pos = Vector(0, 3.5, -0.65),
@@ -73,6 +79,12 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 -- ATT.AimDownSightsTimeMult = 1.15
 
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic_adapter"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
 ATT.Sights = {
     {
         Pos = Vector(0, 3.5, -0.6),
@@ -117,6 +129,12 @@ ATT.ModelOffset = Vector(-1.5, 0, 0.05)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 -- ATT.AimDownSightsTimeMult = 1.15
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic_adapter"] then
+        model:SetBodygroup(1,1)
+    end
+end
 
 ATT.Sights = {
     {

@@ -245,7 +245,8 @@ ATT.Model = "models/weapons/cod2019/attachs/stocks/attachment_vm_ar_mike4_stock_
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.3, 0, 0)
 
-ATT.AimDownSightsTimeAdd = 0.15
+ATT.AimDownSightsTimeAdd = -0.15
+ATT.RecoilAdd = 0.13
 
 ARC9.LoadAttachment(ATT, "cod2019_stock_singuard")
 -------------------------------------------------------------------------------
