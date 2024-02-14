@@ -89,8 +89,8 @@ ATT.RecoilkMult = 0.8
 ATT.DeployTimeMult = 1.15
 ATT.AimDownSightsTimeMult = 1.1
 
-ATT.CustomizeAng = Angle(90, 0, 0)
-ATT.CustomizePos = Vector(17, 25, 3)
+-- ATT.CustomizeAng = Angle(90, 0, 0)
+-- ATT.CustomizePos = Vector(17, 25, 3)
 
 ATT.SprintPos = Vector(1, 2, -3.5)
 ATT.SprintAng = Angle(0, 0, 25)

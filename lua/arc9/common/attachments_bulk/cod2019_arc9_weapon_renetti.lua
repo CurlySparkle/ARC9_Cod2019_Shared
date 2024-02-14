@@ -41,14 +41,14 @@ ATT.FiremodesOverride = {
     },
 }
 
-ATT.Element = {
-    AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
-            Pos = Vector(-0.2, 0, -0.1),
-            Ang = Angle(0,0,0),
-        }
-    }
-}
+-- ATT.Element = {
+    -- AttPosMods = {
+        -- [2] = { -- slot of the weapon's attachment
+            -- Pos = Vector(-0.2, 0, -0.1),
+            -- Ang = Angle(0,0,0),
+        -- }
+    -- }
+-- }
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_auto")
 ----------------------------------------------------------------------------------------
@@ -76,8 +76,8 @@ ATT.DeployTimeMult = 1.15
 ATT.AimDownSightsTimeMult = 1.1
 ATT.RecoilModifierCapMult = 0.5
 
-ATT.CustomizeAng = Angle(90, 0, 0)
-ATT.CustomizePos = Vector(17, 25, 3)
+-- ATT.CustomizeAng = Angle(90, 0, 0)
+-- ATT.CustomizePos = Vector(17, 25, 3)
 
 ATT.SprintPos = Vector(1, 2, -3.5)
 ATT.SprintAng = Angle(0, 0, 25)
