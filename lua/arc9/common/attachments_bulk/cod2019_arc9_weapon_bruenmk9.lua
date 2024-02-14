@@ -12,15 +12,10 @@ ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_smags.png", "m
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_762_hr.mdl"
 ATT.ShellScale = 0.07
 
--- ATT.RPM = 664
 ATT.ClipSizeOverride = 60
-
--- ATT.DamageMaxMult = 1.25
--- ATT.DamageMinMult = 1.15
--- ATT.SpreadMult = 1.15
--- ATT.RecoilMult = 0.85
--- ATT.RecoilKickMult = 0.9
--- ATT.Ammo = "ar2"
+ATT.AimDownSightsTimeAdd = -0.25
+ATT.SprintToFireTimeAdd = -0.20
+ATT.ReloadInSights = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_bruenmk9_mag"
