@@ -70,13 +70,13 @@ ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_grip_bipod")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "XRK Summit 26.8"
-ATT.CompactName = "XRK 26.8"
-ATT.Description = [[Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
+ATT.PrintName = "XRK Horizon 23.0\""
+ATT.CompactName = "Horizon"
+ATT.Description = [[Designed to improve muzzle velocity range with as little additional weight as possible.]]
 
-ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_barhvy.png", "mips smooth")
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_barlong.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_barhvy.mdl"
 ATT.BoneMerge = false
 
 ATT.SortOrder = 0
@@ -86,29 +86,27 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilMult = 0.85
-
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
+ATT.DeployTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.07
+ATT.RecoilMult = 0.82
+ATT.SpreadMult = 0.95
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
-        model:SetBodygroup(2,1)
+        model:SetBodygroup(1,1)
     end
 end
 
-ATT.Element = {
-    AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
-            Pos = Vector(2.2, 0, 0),
-            Ang = Angle(0,0,0),
-        }
-    }
-}
+-- ATT.Element = {
+    -- AttPosMods = {
+        -- [2] = { -- slot of the weapon's attachment
+            -- Pos = Vector(2.2, 0, 0),
+            -- Ang = Angle(0,0,0),
+        -- }
+    -- }
+-- }
 
-ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_barrel_long")
+ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_barrel_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -130,12 +128,12 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 0.85
-ATT.AimDownSightsTimeMult = 0.85
-ATT.RecoilMult = 1.15
+ATT.DeployTimeMult = 0.89
+ATT.AimDownSightsTimeMult = 0.92
+ATT.SpreadMult = 1.2
 
-ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
+ATT.RangeMaxMult = 0.95
+ATT.RangeMinMult = 0.95
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then

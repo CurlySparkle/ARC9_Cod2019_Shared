@@ -32,7 +32,7 @@ ATT.PrintName = "40 Round Mag"
 ATT.CompactName = "40-Round"
 ATT.Description = [[Extended magazines hold 40 rounds of 7.62 Soviet with a slight weight increase.]]
 
-ATT.Icon = Material("entities/attachs/cod2019_ar_akilo47_smgmag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_smgmag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 40
 ATT.ReloadTimeMult = 1.1
@@ -102,7 +102,7 @@ ATT.PrintName = "12-Gauge Mag"
 ATT.CompactName = "12-gauge"
 ATT.Description = [[Conversion kit to use mid caliber 12-gauge ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements.]]
 
-ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_sh_origin12_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_xmags.png", "mips smooth")
 
 --ATT.ShootSound = "Cod2019.ak47.smgcal.fire"
 --ATT.ShootSoundIndoor = "Cod2019.ak47.smgcal.fire"
