@@ -2557,7 +2557,7 @@ L["mw19_att_wpn_finn_heavy.printname"] = "XRK Pro Twist"
 L["mw19_att_wpn_finn_heavy.compactname"] = "Twist"
 L["mw19_att_wpn_finn_heavy.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description")
 
-L["cod2019_finn_barrel_default_adv.printname"] = "Factory (Adverse)"
+L["cod2019_finn_barrel_default_adv.printname"] = "Factory <color=189,225,169>Adverse</color>"
 L["cod2019_finn_barrel_default_adv.compactname"] = "Factory (A)"
 L["cod2019_finn_barrel_default_adv.description"] = "Standard barrel with the gas regulator opened full throttle, increasing the <color=255,255,100>rate of fire</color> to its maximum potential. Sustained fire can quickly overheat the barrel."
 
@@ -2565,7 +2565,7 @@ L["cod2019_finn_barrel_long.printname"] = "XRK LongShot Advantage"
 L["cod2019_finn_barrel_long.compactname"] = "LongShot"
 L["cod2019_finn_barrel_long.description"] = "Fully shrouded 510mm chrome-moly barrel increases muzzle velocity and greatly improves accuracy."
 
-L["mw19_att_wpn_finn_heavy_adv.printname"] = "XRK Pro Twist (Adverse)"
+L["mw19_att_wpn_finn_heavy_adv.printname"] = "XRK Pro Twist <color=189,225,169>Adverse</color>"
 L["mw19_att_wpn_finn_heavy_adv.compactname"] = "Twist (A)"
 L["mw19_att_wpn_finn_heavy_adv.description"] = "XRKs polygonal rifled heavy duty barrel prevents a loss to range when set to Adverse fire mode. Allows for the max <color=255,255,100>rate of fire</color> without losing lethality at a distance."
 
@@ -2573,11 +2573,11 @@ L["cod2019_finn_barrel_light.printname"] = "FTAC VC-8 Harrier"
 L["cod2019_finn_barrel_light.compactname"] = "Harrier"
 L["cod2019_finn_barrel_light.description"] = "Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity."
 
-L["cod2019_finn_barrel_long_adv.printname"] = "XRK LongShot (Adverse)"
+L["cod2019_finn_barrel_long_adv.printname"] = "XRK LongShot <color=189,225,169>Adverse</color>"
 L["cod2019_finn_barrel_long_adv.compactname"] = "LongShot (A)"
 L["cod2019_finn_barrel_long_adv.description"] = "Longest available barrel with Adverse fire mode tuning. Improved range and an insane <color=255,255,100>rate of fire</color> with a smaller increase to recoil."
 
-L["cod2019_finn_barrel_light_adv.printname"] = "FTAC VC-8 Harrier (Adverse)"
+L["cod2019_finn_barrel_light_adv.printname"] = "FTAC VC-8 Harrier <color=189,225,169>Adverse</color>"
 L["cod2019_finn_barrel_light_adv.compactname"] = "Harrier (A)"
 L["cod2019_finn_barrel_light_adv.description"] = "Lightweight, highly maneuverable barrel with a <color=255,255,100>rate of fire</color> pushed to the limit using adverse fire gas regulator settings."
 
