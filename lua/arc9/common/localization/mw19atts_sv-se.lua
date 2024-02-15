@@ -1375,7 +1375,7 @@ L["cod2019_cx9_stock_skeleton.description"] = "\"Ultralight Forward Assault\"-ko
 
 L["mw19_att_wpn_cx9_stock_none.printname"] = "CX-FR"
 L["mw19_att_wpn_cx9_stock_none.compactname"] = "CX-FR"
-L["mw19_att_wpn_cx9_stock_none.description"] = "\"Forward Recon\" konfiguering - Det ultimata \"spring-och-skjut\" modifikationen när rörlighet är viktigare än träffsäkerhet."
+L["mw19_att_wpn_cx9_stock_none.description"] = "\"Forward Recon\"-konfiguering - Det ultimata \"spring-och-skjut\" modifikationen när rörlighet är viktigare än träffsäkerhet."
 
 /////////////// Magazine
 L["mw19_att_wpn_cx9_mag_30.printname"] = string.format(mw19magtext.mag, "30")
