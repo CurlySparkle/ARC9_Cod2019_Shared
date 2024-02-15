@@ -252,7 +252,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic_big"}
 ATT.ExcludeElements = {"no_optic_hybrid"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west02.mdl"
@@ -674,7 +674,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic_big"}
 ATT.ActivateElements = {"optic", "optic_scope"}
 ATT.ExcludeElements = {"no_optic_hybrid"}
 

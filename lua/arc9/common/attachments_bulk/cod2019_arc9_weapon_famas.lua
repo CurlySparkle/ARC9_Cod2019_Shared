@@ -113,9 +113,9 @@ ARC9.LoadAttachment(ATT, "cod2019_famas_stock_tactical")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "Valorise"
-ATT.CompactName = "Valorise"
-ATT.Description = [[]]
+ATT.PrintName = "Valorisé"
+ATT.CompactName = "Valorisé"
+ATT.Description = ""
 
 --ATT.Icon = Material("entities/attachs/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
 
@@ -132,16 +132,25 @@ ATT.ActiveAng = Angle(0, 0, 0)
 ATT.SprintPos = Vector(1, 0, 0)
 ATT.SprintAng = Angle(0, 0, 25)
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_optic"),
-        Pos = Vector(-7, 0, -1.37),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        Category = "cod2019_optic",
-		Scale = 1
-    }
-}
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_optic"),
+        -- Pos = Vector(-7, 0, -1.37),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, 0),
+        -- Category = "cod2019_optic",
+		-- Scale = 1
+    -- }
+-- }
+
+-- ATT.Element = {
+    -- AttPosMods = {
+        -- [3] = { -- slot of the weapon's attachment
+            -- Pos = Vector(1.5, 0, -0.1),
+            -- Ang = Angle(0,0,0),
+        -- }
+    -- }
+-- }
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["optic"] then
