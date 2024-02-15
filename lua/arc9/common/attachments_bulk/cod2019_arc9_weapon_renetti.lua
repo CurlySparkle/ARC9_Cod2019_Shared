@@ -35,7 +35,7 @@ ATT.PostBurstDelay = 0.2
 ATT.FiremodesOverride = {
     {
         Mode = 3,
-		RPM = 882,
+		RPM = 1000,
         RunawayBurst = true,
 		TracerEffect = "ARC9_tracer"
     },
@@ -79,17 +79,17 @@ ATT.RecoilModifierCapMult = 0.5
 -- ATT.CustomizeAng = Angle(90, 0, 0)
 -- ATT.CustomizePos = Vector(17, 25, 3)
 
-ATT.SprintPos = Vector(1, 2, -3.5)
-ATT.SprintAng = Angle(0, 0, 25)
+-- ATT.SprintPos = Vector(1, 2, -3.5)
+-- ATT.SprintAng = Angle(0, 0, 25)
 
-ATT.PeekPos = Vector(0, -3, -5)
-ATT.PeekAng = Angle(0, 0, -45)
+-- ATT.PeekPos = Vector(0, -3, -5)
+-- ATT.PeekAng = Angle(0, 0, -45)
 
-ATT.ActivePos = Vector(-0.15, -0.5, -0.5)
-ATT.ActiveAng = Angle(0, 0, 0)
+-- ATT.ActivePos = Vector(-0.15, -0.5, -0.5)
+-- ATT.ActiveAng = Angle(0, 0, 0)
 
-ATT.MovingPos = Vector(-1, -0.8, -1)
-ATT.MovingAng = Angle(0, 0, -5)
+-- ATT.MovingPos = Vector(-1, -0.8, -1)
+-- ATT.MovingAng = Angle(0, 0, -5)
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_stock")
 ----------------------------------------------------------------------------------------

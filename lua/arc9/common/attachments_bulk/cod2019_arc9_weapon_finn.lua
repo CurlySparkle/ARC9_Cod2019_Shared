@@ -31,11 +31,14 @@ ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
     end
+    if swep:GetElements()["ziptie"] then
+        model:SetBodygroup(2,1)
+    end
 end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [3] = { -- slot of the weapon's attachment
             Pos = Vector(3.1, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -75,11 +78,14 @@ ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
     end
+    if swep:GetElements()["ziptie"] then
+        model:SetBodygroup(2,1)
+    end
 end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [3] = { -- slot of the weapon's attachment
             Pos = Vector(-2, 0, 0),
             Ang = Angle(0,0,0),
         }

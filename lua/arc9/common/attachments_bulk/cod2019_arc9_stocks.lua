@@ -262,7 +262,7 @@ ATT.SortOrder = 5.4
 ATT.AutoStats = true
 ATT.Category = "cod2019_tube"
 
-ATT.ActivateElements = {"stock_adapter"}
+ATT.ActivateElements = {"stock_adapter","stock_none2"}
 ATT.Model = "models/weapons/cod2019/attachs/stocks/attachment_vm_stock_no.mdl"
 
 ATT.Scale = 1
