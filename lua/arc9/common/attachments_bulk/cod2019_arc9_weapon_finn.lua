@@ -8,7 +8,7 @@ ATT.PrintName = "Factory Adverse"
 ATT.CompactName = "Factory Adverse"
 ATT.Description = ""
 
-ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barrel.png", "mips smooth")
 
 ATT.RPMAdd = 368
 ATT.PhysBulletMuzzleVelocityAdd = -243 / ARC9.HUToM
@@ -40,13 +40,10 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 1.23
-ATT.AimDownSightsTimeMult = 1.23
-ATT.DeployTimeMult = 1.23
-
+ATT.AimDownSightsTimeMult = 1.13
+ATT.DeployTimeMult = 1.16
 ATT.RangeMaxMult = 1.15
-ATT.DamageMaxMult = 1.06
-ATT.RangeMinMult = 1.15
+ATT.DamageMinMult = 1.06
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -84,13 +81,10 @@ ATT.ActivateElements = {"barrel_none","muzzle_none", "ziptie"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 1.23
-ATT.AimDownSightsTimeMult = 1.23
-ATT.DeployTimeMult = 1.23
-
+ATT.AimDownSightsTimeMult = 1.13
+ATT.DeployTimeMult = 1.16
 ATT.RangeMaxMult = 1.15
-ATT.DamageMaxMult = 1.06
-ATT.RangeMinMult = 1.15
+ATT.DamageMinMult = 1.06
 
 ATT.RPMAdd = 368
 ATT.PhysBulletMuzzleVelocityAdd = -365 / ARC9.HUToM

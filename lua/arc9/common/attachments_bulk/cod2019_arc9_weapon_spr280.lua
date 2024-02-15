@@ -75,13 +75,13 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_spr208_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
-ATT.AimDownSightsTimeMult = 1.25
-ATT.SprintToFireTimeMult = 1.25
-ATT.RecoilMult = 0.85
+ATT.AimDownSightsTimeMult = 1.12
+ATT.SprintToFireTimeMult = 1.12
+ATT.DeployTimeMult = 1.12
 
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
-ATT.PhysBulletMuzzleVelocityMult = 1.25
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+ATT.PhysBulletMuzzleVelocityMult = 1.1
 
 ATT.Element = {
     AttPosMods = {
@@ -123,11 +123,11 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
 ATT.AimDownSightsTimeMult = 0.85
 ATT.SprintToFireTimeMult = 0.85
-ATT.RecoilMult = 1.25
+ATT.DeployTimeMult = 0.83
 
-ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
-ATT.PhysBulletMuzzleVelocityMult = 0.9
+ATT.RangeMaxMult = 0.5
+ATT.RangeMinMult = 0.5
+ATT.PhysBulletMuzzleVelocityMult = 0.5
 
 ATT.Element = {
     AttPosMods = {
@@ -226,9 +226,11 @@ ATT.Description = [[XRK's after-market chassis offers the ultimate in mobility w
 
 ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_stockskel.png", "mips smooth")
 
-ATT.AimDownSightsTimeMult = 0.85
-ATT.SprintToFireTimeMult = 0.85
-ATT.RecoilMult = 1.15
+ATT.AimDownSightsTimeMult = 0.91
+ATT.SprintToFireTimeMult = 0.91
+ATT.DeployTimeMult = 0.84
+ATT.RecoilMult = 1.12
+ATT.CycleTimeMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_spr208_stock"
@@ -250,8 +252,8 @@ ATT.Description = [[Perfectly balanced weight distribution allows the highest st
 
 ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_stockhvy.png", "mips smooth")
 
-ATT.AimDownSightsTimeMult = 1.2
-ATT.RecoilMult = 0.8
+ATT.AimDownSightsTimeMult = 0.9
+ATT.RecoilMult = 1.1
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_spr208_stock"
@@ -291,9 +293,10 @@ ATT.Description = [[FSS all-aluminium chassis and fully adjustable stock provide
 
 ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_stocktac.png", "mips smooth")
 
-ATT.AimDownSightsTimeMult = 0.85
-ATT.SprintToFireTimeMult = 0.85
-ATT.RecoilMult = 1.1
+ATT.AimDownSightsTimeMult = 0.83
+ATT.DeployTimeMult = 0.95
+ATT.CycleTimeMult = 1.1
+ATT.RecoilKickMult = 0.92
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_spr208_stock"
