@@ -94,7 +94,7 @@ ATT.Description = [[Extended magazines hold 15 rounds of 7.62×54mmR with a slig
 
 --ATT.Icon = Material("entities/attachs/go_aug_ammo_9mm.png", "mips smooth")
 
-ATT.ClipSizeOverride = 20
+ATT.ClipSizeOverride = 15
 ATT.ReloadTimeMult = 1.1
 ATT.AimDownSightsTimeMult = 1.1
 
