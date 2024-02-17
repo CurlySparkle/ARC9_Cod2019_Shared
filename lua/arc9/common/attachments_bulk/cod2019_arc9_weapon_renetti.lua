@@ -31,11 +31,11 @@ ATT.RangeMaxMult = 1.1
 ATT.RangeMinMult = 1.1
 ATT.PhysBulletMuzzleVelocityMult = 1.1
 ATT.PostBurstDelay = 0.2
+ATT.RPMAdd = 529
 
 ATT.FiremodesOverride = {
     {
         Mode = 3,
-		RPM = 1000,
         RunawayBurst = true,
 		TracerEffect = "ARC9_tracer"
     },
