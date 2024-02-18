@@ -8,9 +8,10 @@ local stats_vlight = {
 }
 
 local stats_light = {
-	SpeedMultSights = 1.15,
-	VisualRecoilMult = 1.025,
-	RecoilMult = 1.025,
+	AimDownSightsTimeMult = 0.85,
+	VisualRecoilMult = 1.1,
+	RecoilUpMult = 1.13,
+	RecoilSideMult = 1.13,
 }
 
 local stats_medium = {
@@ -18,9 +19,19 @@ local stats_medium = {
 }
 
 local stats_heavy = {
-	SpeedMultSights = 0.89,
+	DeployTimeMult = 1.09,
+	AimDownSightsTimeMult = 1.14,
+	VisualRecoilMult = 0.9,
+	RecoilUpMult = 0.85,
+	RecoilSideMult = 0.85,
+}
+
+local stats_stalker = {
+	DeployTimeMult = 1.05,
+	AimDownSightsTimeMult = 1.05,
 	VisualRecoilMult = 0.95,
-	RecoilMult = 0.95,
+	RecoilUpMult = 0.95,
+	RecoilSideMult = 0.95,
 }
 
 local stats_vheavy = {
@@ -161,7 +172,7 @@ ATT.Model = "models/weapons/cod2019/attachs/stocks/attachment_vm_stock_heavy.mdl
 ATT.Scale = 1
 ATT.ModelOffset = Vector(-1.3, 0, -0.02)
 
-table.Merge(ATT, stats_heavy)
+table.Merge(ATT, stats_stalker)
 
 ARC9.LoadAttachment(ATT, "cod2019_stock_heavy")
 -------------------------------------------------------------------------------
