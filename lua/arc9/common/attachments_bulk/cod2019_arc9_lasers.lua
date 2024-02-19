@@ -39,6 +39,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser01.mdl"
 table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -88,6 +89,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
 table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -137,6 +139,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
 table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -332,6 +335,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl01.mdl
 table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -380,6 +384,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl02.mdl
 table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -429,6 +434,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl03.mdl
 table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -477,6 +483,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01
 table.Merge(ATT, stats_tac)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -526,6 +533,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02
 table.Merge(ATT, stats_1mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
@@ -575,6 +583,7 @@ ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03
 table.Merge(ATT, stats_5mw)
 
 ATT.ToggleOnF = false -- This attachment is toggleable with the flashlight key.
+ATT.LaserColorPlayer = true -- Laser attachment uses the player's weapon color.
 ATT.ToggleStats = {
     {
         PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
