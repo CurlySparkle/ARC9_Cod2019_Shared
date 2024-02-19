@@ -22,6 +22,7 @@ ATT.MuzzleDevice_Priority = 3
 ATT.DeployTimeMult = 1.05
 ATT.AimDownSightsTimeMult = 1.1
 ATT.RangeMaxMult = 1.1
+ATT.RecoilMult = 0.95
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["sight_back_folded"] then
@@ -47,6 +48,60 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_barrel_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FORGE TAC CQC Pro"
+ATT.CompactName = "FTAC CQC"
+ATT.Description = [[]]
+
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_barrel_pdw.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_barrel_pdw.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_scar_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.DeployTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 0.9
+ATT.RecoilMult = 1.05
+ATT.RangeMaxMult = 0.85
+ATT.RangeMinMult = 0.85
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["sight_back_folded"] then
+        model:SetBodygroup(2,1)
+    end
+	
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(2,2)
+    end
+
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(-6.3, 0, 0),
+            Ang = Angle(0,0,0),
+        },
+        [4] = { -- slot of the weapon's attachment
+            Pos = Vector(-1, 0, -0.1),
+            Ang = Angle(0,0,180),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_scar_barrel_short")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -115,7 +170,7 @@ ATT.CompactName = "30R 5.56"
 ATT.Description = "Extended magazines hold 30 rounds of 5.56 NATO with a slight weight increase."
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_famas_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false

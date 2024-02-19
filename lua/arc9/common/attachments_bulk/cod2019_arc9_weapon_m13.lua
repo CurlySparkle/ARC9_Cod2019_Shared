@@ -24,12 +24,11 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
-ATT.SprintToFireTimeMult = 0.95
-ATT.AimDownSightsTimeMult = 0.95
-ATT.RecoilMult = 1.1
+ATT.DeployTimeMult = 1.05
 
-ATT.RangeMaxMult = 0.95
-ATT.RangeMinMult = 0.95
+ATT.RecoilMult = 1.08
+ATT.RangeMaxMult = 1.08
+ATT.SpreadMult = 0.95
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -64,12 +63,12 @@ ATT.ActivateElements = {"barrel_none","muzzle_none","sights_front_none","barrel_
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
-ATT.SprintToFireTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilMult = 0.9
+ATT.DeployTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
 
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+ATT.SpreadMult = 0.9
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
