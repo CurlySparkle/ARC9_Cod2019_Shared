@@ -592,9 +592,9 @@ L["cod2019_m4a1_barrel_short.printname"] = "FSS 11.5\" Commando"
 L["cod2019_m4a1_barrel_short.compactname"] = "Commando"
 L["cod2019_m4a1_barrel_short.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
-L["mw19_att_wpn_m4a1_brl_02.printname"] = "Stock M16 Grenadier"
-L["mw19_att_wpn_m4a1_brl_02.compactname"] = "Grenadier"
-L["mw19_att_wpn_m4a1_brl_02.description"] = "Heavy duty 20 inch barrel greatly increases muzzle velocity and extends range. M203 handguard adds substantial weight for smoother handling."
+L["cod2019_m4a1_barrel_mid.printname"] = "Stock M16 Grenadier"
+L["cod2019_m4a1_barrel_mid.compactname"] = "Grenadier"
+L["cod2019_m4a1_barrel_mid.description"] = "Heavy duty 20 inch barrel greatly increases muzzle velocity and extends range. M203 handguard adds substantial weight for smoother handling."
 
 L["cod2019_m4a1_barrel_v3.printname"] = "FSS 14.5\" Tac Lite"
 L["cod2019_m4a1_barrel_v3.compactname"] = "Tac Lite"
@@ -628,9 +628,9 @@ L["cod2019_attach_xmag_60.printname"] = string.format(mw19magtext.mag, "60")
 L["cod2019_attach_xmag_60.compactname"] = string.format(mw19magtext.mags, "60")
 L["cod2019_attach_xmag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["556"])
 
-L["mw19_att_wpn_m4a1_mag_9mm.printname"] = "9mm Para 32-Round Mags"
-L["mw19_att_wpn_m4a1_mag_9mm.compactname"] = "32R 9mm"
-L["mw19_att_wpn_m4a1_mag_9mm.description"] = "Conversion kit to use <color=255,255,100>9mm parabellum</color> ammunition. Cycles at a much higher rate with less recoil."
+L["cod2019_m4_mag_9mm.printname"] = "9mm Para 32-Round Mags"
+L["cod2019_m4_mag_9mm.compactname"] = "32R 9mm"
+L["cod2019_m4_mag_9mm.description"] = "Conversion kit to use <color=255,255,100>9mm parabellum</color> ammunition. Cycles at a much higher rate with less recoil."
 
 L["mw19_att_wpn_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Round Mags"
 L["mw19_att_wpn_m4a1_mag_socom.compactname"] = "10R SOCOM"
@@ -674,13 +674,13 @@ L["mw19_att_wpn_oden_brl_01.printname"] = "Oden Factory 810mm"
 L["mw19_att_wpn_oden_brl_01.compactname"] = "810mm"
 L["mw19_att_wpn_oden_brl_01.description"] = "Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility."
 
-L["mw19_att_wpn_oden_brl_02.printname"] = "Oden Factory 730mm"
-L["mw19_att_wpn_oden_brl_02.compactname"] = "730mm"
-L["mw19_att_wpn_oden_brl_02.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but slightly affects mobility."
+L["cod2019_oden_barrel_long.printname"] = "Oden Factory 730mm"
+L["cod2019_oden_barrel_long.compactname"] = "730mm"
+L["cod2019_oden_barrel_long.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but slightly affects mobility."
 
-L["mw19_att_wpn_oden_brl_03.printname"] = "Oden Factory 420mm"
-L["mw19_att_wpn_oden_brl_03.compactname"] = "420mm"
-L["mw19_att_wpn_oden_brl_03.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. When mobility matters more than precision."
+L["cod2019_oden_barrel_short.printname"] = "Oden Factory 420mm"
+L["cod2019_oden_barrel_short.compactname"] = "420mm"
+L["cod2019_oden_barrel_short.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. When mobility matters more than precision."
 
 /////////////// Muzzle
 L["mw19_att_wpn_oden_muzzle_big.printname"] = "Colossus Suppressor"
@@ -688,9 +688,9 @@ L["mw19_att_wpn_oden_muzzle_big.compactname"] = "Colossus"
 L["mw19_att_wpn_oden_muzzle_big.description"] = "Extended suppressor adds considerable weight to the barrel, but greatly increases the muzzle velocity and reduces recoil to help with long range precision."
 
 /////////////// Stock
-L["mw19_att_wpn_oden_stock_light.printname"] = stockname.ballast
-L["mw19_att_wpn_oden_stock_light.compactname"] = stockname.ballasts
-L["mw19_att_wpn_oden_stock_light.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_light.description")
+L["cod2019_oden_stock_heavy.printname"] = stockname.ballast
+L["cod2019_oden_stock_heavy.compactname"] = stockname.ballasts
+L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("mw19_att_wpn_famas_stock_light.description")
 
 L["mw19_att_wpn_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
 L["mw19_att_wpn_oden_stock_heavy.compactname"] = stockname.ultralights
@@ -701,13 +701,13 @@ L["mw19_att_wpn_oden_stock_medium.compactname"] = "XL Elite"
 L["mw19_att_wpn_oden_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
 
 /////////////// Magazine
-L["mw19_att_wpn_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
-L["mw19_att_wpn_oden_mag_25.compactname"] = string.format(mw19magtext.mags, "25")
-L["mw19_att_wpn_oden_mag_25.description"] = string.format(mw19magtext.desc, "25", mw19ammotype["127x55"])
+L["cod2019_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
+L["cod2019_oden_mag_25.compactname"] = string.format(mw19magtext.mags, "25")
+L["cod2019_oden_mag_25.description"] = string.format(mw19magtext.desc, "25", mw19ammotype["127x55"])
 
-L["mw19_att_wpn_oden_mag_30.printname"] = string.format(mw19magtext.mag, "30")
-L["mw19_att_wpn_oden_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["mw19_att_wpn_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["127x55"])
+L["cod2019_oden_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_oden_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["127x55"])
 
 ////////////////////  M13
 /////////////// Barrels
@@ -741,8 +741,8 @@ L["cod2019_scar_barrel_long.printname"] = "FORGE TAC 20.0\" LB"
 L["cod2019_scar_barrel_long.compactname"] = "20.0\" LB"
 L["cod2019_scar_barrel_long.description"] = "20.0\" polygonal rifled barrel with guard extension maxes out muzzle velocity and range. High accuracy comes at the cost of agility."
 
-L["mw19_att_wpn_scar_brl_03.printname"] = "FORGE TAC CQC Pro"
-L["mw19_att_wpn_scar_brl_03.compactname"] = "CQC Pro"
+L["cod2019_scar_barrel_short.printname"] = "FORGE TAC CQC Pro"
+L["cod2019_scar_barrel_short.compactname"] = "CQC Pro"
 
 /////////////// Stock
 L["cod2019_scar_stock_light.printname"] = stockname.collapsible

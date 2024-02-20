@@ -582,9 +582,9 @@ L["cod2019_m4a1_barrel_short.printname"] = "FSS 290mm Commando"
 L["cod2019_m4a1_barrel_short.compactname"] = "Commando"
 L["cod2019_m4a1_barrel_short.description"] = "Kort, kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Bra för att rensa tajta utrymmen."
 
-L["mw19_att_wpn_m4a1_brl_02.printname"] = "Standard M16 Grenadjär"
-L["mw19_att_wpn_m4a1_brl_02.compactname"] = "Grenadjär"
-L["mw19_att_wpn_m4a1_brl_02.description"] = "Tung 510mm pipa ökar starkt mynningshastigheten och förlänger räckvidden. M203-handskydd läger betydande vikt för slätare hantering."
+L["cod2019_m4a1_barrel_mid.printname"] = "Standard M16 Grenadjär"
+L["cod2019_m4a1_barrel_mid.compactname"] = "Grenadjär"
+L["cod2019_m4a1_barrel_mid.description"] = "Tung 510mm pipa ökar starkt mynningshastigheten och förlänger räckvidden. M203-handskydd läger betydande vikt för slätare hantering."
 
 L["cod2019_m4a1_barrel_v3.printname"] = "FSS 370mm Tac Lite"
 L["cod2019_m4a1_barrel_v3.compactname"] = "Tac Lite"
@@ -618,9 +618,9 @@ L["cod2019_attach_xmag_60.printname"] = string.format(mw19magtext.mag, "60")
 L["cod2019_attach_xmag_60.compactname"] = string.format(mw19magtext.mags, "60")
 L["cod2019_attach_xmag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["556"])
 
-L["mw19_att_wpn_m4a1_mag_9mm.printname"] = "9mm Para 32-Patronersmagasin"
-L["mw19_att_wpn_m4a1_mag_9mm.compactname"] = "32P 9mm"
-L["mw19_att_wpn_m4a1_mag_9mm.description"] = "Konverteringskit för att använda <color=255,255,100>9mm parabellum</color> ammunition. Skjuter med en högre hastighet med mindre rekyl."
+L["cod2019_m4_mag_9mm.printname"] = "9mm Para 32-Patronersmagasin"
+L["cod2019_m4_mag_9mm.compactname"] = "32P 9mm"
+L["cod2019_m4_mag_9mm.description"] = "Konverteringskit för att använda <color=255,255,100>9mm parabellum</color> ammunition. Skjuter med en högre hastighet med mindre rekyl."
 
 L["mw19_att_wpn_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Patronersmagasin"
 L["mw19_att_wpn_m4a1_mag_socom.compactname"] = "10P SOCOM"
@@ -664,13 +664,13 @@ L["mw19_att_wpn_oden_brl_01.printname"] = "Oden-Fabrik 810mm"
 L["mw19_att_wpn_oden_brl_01.compactname"] = "810mm"
 L["mw19_att_wpn_oden_brl_01.description"] = "Längsta tillgängliga pipan. Ökar starkt mynningshastigheten och hjälper att bygga ett mer tufft och stadigt vapen med kostnad på rörlighet."
 
-L["mw19_att_wpn_oden_brl_02.printname"] = "Oden-Fabrik 730mm"
-L["mw19_att_wpn_oden_brl_02.compactname"] = "730mm"
-L["mw19_att_wpn_oden_brl_02.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_oden_barrel_long.printname"] = "Oden-Fabrik 730mm"
+L["cod2019_oden_barrel_long.compactname"] = "730mm"
+L["cod2019_oden_barrel_long.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["mw19_att_wpn_oden_brl_03.printname"] = "Oden-Fabrik 420mm"
-L["mw19_att_wpn_oden_brl_03.compactname"] = "420mm"
-L["mw19_att_wpn_oden_brl_03.description"] = "Kort, kompakt pika offrar träffsäkerhet och räckvidd för hastighet och rörlighet. När rörlighet krävs mer än träffsäkerhet."
+L["cod2019_oden_barrel_short.printname"] = "Oden-Fabrik 420mm"
+L["cod2019_oden_barrel_short.compactname"] = "420mm"
+L["cod2019_oden_barrel_short.description"] = "Kort, kompakt pika offrar träffsäkerhet och räckvidd för hastighet och rörlighet. När rörlighet krävs mer än träffsäkerhet."
 
 /////////////// Muzzle
 L["mw19_att_wpn_oden_muzzle_big.printname"] = "Colossus-Ljuddämpare"
@@ -678,8 +678,8 @@ L["mw19_att_wpn_oden_muzzle_big.compactname"] = "Colossus"
 L["mw19_att_wpn_oden_muzzle_big.description"] = "Förlängd ljuddämpare lägger till betydande vikt till pipan, men ökar starkt mynningshastigheten och sänker rekylen för att hjälpa med träffsäkerhet på längre distanser."
 
 /////////////// Stock
-L["mw19_att_wpn_oden_stock_light.printname"] = stockname.ballast
-L["mw19_att_wpn_oden_stock_light.compactname"] = stockname.ballasts
+L["cod2019_oden_stock_heavy.printname"] = stockname.ballast
+L["cod2019_oden_stock_heavy.compactname"] = stockname.ballasts
 
 L["mw19_att_wpn_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
 L["mw19_att_wpn_oden_stock_heavy.compactname"] = stockname.ultralights
@@ -688,13 +688,13 @@ L["mw19_att_wpn_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
 L["mw19_att_wpn_oden_stock_medium.compactname"] = "XL Elite"
 
 /////////////// Magazine
-L["mw19_att_wpn_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
-L["mw19_att_wpn_oden_mag_25.compactname"] = string.format(mw19magtext.mags, "25")
-L["mw19_att_wpn_oden_mag_25.description"] = string.format(mw19magtext.desc, "25", mw19ammotype["127x55"])
+L["cod2019_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
+L["cod2019_oden_mag_25.compactname"] = string.format(mw19magtext.mags, "25")
+L["cod2019_oden_mag_25.description"] = string.format(mw19magtext.desc, "25", mw19ammotype["127x55"])
 
-L["mw19_att_wpn_oden_mag_30.printname"] = string.format(mw19magtext.mag, "30")
-L["mw19_att_wpn_oden_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["mw19_att_wpn_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["127x55"])
+L["cod2019_oden_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_oden_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["127x55"])
 
 ////////////////////  M13
 /////////////// Barrels
@@ -728,8 +728,8 @@ L["cod2019_scar_barrel_long.printname"] = "FORGE TAC 510mm LB"
 L["cod2019_scar_barrel_long.compactname"] = "510mm LB"
 L["cod2019_scar_barrel_long.description"] = "510mm polygonellt räfflad pipa med förlängt skydd maximerar mynningshastigheten och räckvidden. Hög träffsäkerhet med kostnad på rörlighet."
 
-L["mw19_att_wpn_scar_brl_03.printname"] = "FORGE TAC CQC Pro"
-L["mw19_att_wpn_scar_brl_03.compactname"] = "CQC Pro"
+L["cod2019_scar_barrel_short.printname"] = "FORGE TAC CQC Pro"
+L["cod2019_scar_barrel_short.compactname"] = "CQC Pro"
 
 /////////////// Stock
 L["cod2019_scar_stock_light.printname"] = stockname.collapsible
