@@ -193,7 +193,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = [[Monolithic Suppressor]]
 ATT.CompactName = [[Monolithig]]
 ATT.Description = "DESC"
-ATT.Icon = Material("entities/attachs/cod2019_sh_model680_shtgnsilencer.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_suppressor_model680.png", "mips smooth")
 
 ATT.SortOrder = 3
 ATT.AutoStats = true
