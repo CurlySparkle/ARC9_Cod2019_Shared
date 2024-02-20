@@ -31,6 +31,56 @@ local ATT = {}
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Stock M16 Grenadier"
+ATT.CompactName = "M16 Grenadier"
+ATT.Description = [[Heavy duty 20.0 inch barrel greatly increases muzzle velocity and extends range. M203 handguard adds substantial weight for smoother handling.]]
+
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barmid.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_mike203barrel.mdl"
+ATT.BoneMerge = true
+
+ATT.LHIK_Priority = 3
+ATT.LHIK = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_m4_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_m16","barrel_custom"}
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.1
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+ATT.SpreadMult = 0.95
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["sight_front_folded"] then
+        model:SetBodygroup(1,1)
+    end
+	
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(1,2)
+    end
+
+    if swep:GetElements()["muzzle_none2"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- slot of the weapon's attachment
+            Pos = Vector(7.7, 0, 0),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_mid")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS 14.5\" Tac Lite"
 ATT.CompactName = "Tac Lite"
 ATT.Description = [[Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity.]]
@@ -59,7 +109,7 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_v3")
-
+----------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -80,7 +130,7 @@ ATT.MuzzleDevice = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_m4_barrel"
-ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom"}
 
 ATT.DrawTimeMult = 0.85
 ATT.HolsterTimeMult = 0.85
@@ -151,7 +201,7 @@ ATT.ActivateElements = {"mag_none","mag_calsmg"}
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_9mm_hr.mdl"
 ATT.ShellSounds = ARC9.COD2019_9mm_Table
-ATT.ShellScale = 0.07
+ATT.ShellScale = 0.065
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_calsmg.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_calsmg_phys.mdl"
