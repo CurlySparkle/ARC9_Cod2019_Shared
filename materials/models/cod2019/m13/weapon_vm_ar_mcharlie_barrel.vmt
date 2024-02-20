@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\m13\weapon_vm_ar_mcharlie_barrel_long_rgb"
-    "$bumpmap" "models\cod2019\m13\weapon_vm_ar_mcharlie_barrel_long_n"
-    "$phongexponenttexture" "models\cod2019\m13\weapon_vm_ar_mcharlie_barrel_long_e"
+    "$basetexture" "models\cod2019\m13\m13_barrel"
+    "$bumpmap" "models\cod2019\m13\m13_barrel_n"
+    "$phongexponenttexture" "models\cod2019\m13\m13_barrel_exp"
 
     /////////////////
     "$color2" "[1 1 1]"                                     //do not touch this

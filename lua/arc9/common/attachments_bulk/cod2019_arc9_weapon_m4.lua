@@ -98,7 +98,7 @@ ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_m4_barrel"
-ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom"}
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["sight_front_folded"] then
