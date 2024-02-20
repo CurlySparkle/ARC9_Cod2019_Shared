@@ -38,9 +38,9 @@ ATT.Description = [[Heavy duty 20.0 inch barrel greatly increases muzzle velocit
 ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barmid.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_mike203barrel.mdl"
-ATT.BoneMerge = true
+ATT.BoneMerge = false
 
-ATT.LHIK_Priority = 3
+ATT.LHIK_Priority = 10
 ATT.LHIK = true
 
 ATT.SortOrder = 0
@@ -54,16 +54,22 @@ ATT.RangeMinMult = 1.1
 ATT.SpreadMult = 0.95
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["sight_front_folded"] then
+    if swep:GetElements()["muzzle_none2"] then
         model:SetBodygroup(1,1)
     end
-	
-    if swep:GetElements()["optic_scope"] then
-        model:SetBodygroup(1,2)
-    end
-
-    if swep:GetElements()["muzzle_none2"] then
+    if swep:GetElements()["sight_front_folded"] then
         model:SetBodygroup(2,1)
+    end
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(2,2)
+    end
+	
+    if swep:GetElements()["grip_angled"] then 
+     model:SetPoseParameter("gripstyle", 1)
+    elseif swep:GetElements()["grip"] then 
+     model:SetPoseParameter("gripstyle", 2)
+	 else
+	 model:SetPoseParameter("gripstyle", 0)
     end
 end
 
