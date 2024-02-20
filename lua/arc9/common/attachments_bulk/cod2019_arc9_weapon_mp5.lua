@@ -38,10 +38,10 @@ ATT.ActivateElements = {"mag_none"}
 
 -- Outside
 ATT.LayerSound = "layer_AR.Outside"
-ATT.AtmosSound = "distant_AR.Outside"
+ATT.DistanceSound = "distant_AR.Outside"
 -- Inside
 ATT.LayerSoundIndoor = "layer_AR.Inside"
-ATT.AtmosSoundIndoor = "distant_AR.Inside"
+ATT.DistanceSoundIndoor = "distant_AR.Inside"
 
 ATT.RecoilMult = 1.15
 ATT.RecoilkickMult = 1.20

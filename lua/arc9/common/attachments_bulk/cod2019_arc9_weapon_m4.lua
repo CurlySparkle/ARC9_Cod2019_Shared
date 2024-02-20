@@ -125,3 +125,74 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "9mm Para 32-Round Mags"
+ATT.CompactName = "32-Para"
+ATT.Description = [[Conversion kit to use 9mm parabellum ammunition. Cycles at a much higher rate with less recoil.]]
+
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_calsmg.png", "mips smooth")
+
+ATT.ClipSizeOverride = 32
+
+ATT.DamageMaxMult = 0.8
+ATT.DamageMinMult = 0.7
+ATT.RangeMaxMult = 0.6
+ATT.RangeMinMult = 0.6
+ATT.DeployTimeMult = 0.9
+
+ATT.RPMMult = 1.25
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_m4_mag"}
+ATT.ActivateElements = {"mag_none","mag_calsmg"}
+
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_9mm_hr.mdl"
+ATT.ShellSounds = ARC9.COD2019_9mm_Table
+ATT.ShellScale = 0.07
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_calsmg.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_calsmg_phys.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_01.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_02.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_03.ogg",
+}
+
+-- Outside
+ATT.LayerSound = "layer_AR.Outside"
+ATT.DistanceSound = "distant_SMG.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "layer_AR.Inside"
+ATT.DistanceSoundIndoor = "distant_SMG.Inside"
+
+local bulletbones = {
+    [4] = "j_b_015",
+    [3] = "j_b_014",
+    [2] = "j_b_016",
+    [1] = "j_b_017"
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 4 - clip + 1
+
+    for i = 1, 4 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m4_mag_9mm")

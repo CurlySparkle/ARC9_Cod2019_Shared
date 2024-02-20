@@ -133,7 +133,7 @@ ATT.Category = {"cod2019_ram7_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_9mm_hr.mdl"
-ATT.ShellSounds = ARC9.PistolShellSoundsTable
+ATT.ShellSounds = ARC9.COD2019_9mm_Table
 ATT.ShellScale = 0.08
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag.mdl"
