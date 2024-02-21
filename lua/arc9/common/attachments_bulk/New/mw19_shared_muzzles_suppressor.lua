@@ -3,55 +3,39 @@ local ATT = {}
 /////////////////////////// -- Shared
 local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone Stat Variable
 
-local attdetails = { -- Every Suppressor stat
-	Description = "",
-	MenuCategory = "ARC9 - MW2019 Attachments",
-
-	-- SortOrder = 50,
-	Category = "cod2019_muzzle",
-	Folder = ARC9:GetPhrase("mw19_folder_suppressor"),
-	ActivateElements = {"muzzle"},
-
-	Silencer = true,
-	MuzzleParticleOverride = "muzzleflash_suppressed",
-	MuzzleDevice_Priority = 5,
-	MuzzleDevice = true,
-	
-    CustomPros = { 
-		[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
-	},
-}
-
 //////////////////////////////////////////////// -- Tactical Suppressors
-
-local statstac = { -- Shared stats for Tactical Suppressor
-	gmod = {
-		AimDownSightsTimeAdd = 0.013,
-		VisualRecoilMult = 0.97,
-		RecoilMult = 0.97,
-	},
-	wz = {
-		AimDownSightsTimeAdd = 0.013,
-		VisualRecoilMult = 0.97,
-		RecoilMult = 0.97,
-	},
-}
-
 /////////////////////////// -- cod2019_attach_muzzle_silencer04
 ATT = {}
 
 ATT.PrintName = "Tactical Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer04.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 1
+ATT.Category = "cod2019_muzzle"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer04.mdl"
 
-table.Merge(ATT, attdetails)
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
-	table.Merge(ATT, statstac.gmod)
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.VisualRecoilMult = 0.97
+	ATT.RecoilMult = 0.97
 else -- Warzone Stats
-	table.Merge(ATT, statstac.wz)
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.VisualRecoilMult = 0.97
+	ATT.RecoilMult = 0.97
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer04")
@@ -79,13 +63,25 @@ local statslight = { -- Shared stats for Lightweight Suppressors
 ATT = {}
 
 ATT.PrintName = "Lightweight Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 2
+ATT.Category = "cod2019_muzzle"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer03.mdl"
 
-table.Merge(ATT, attdetails)
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statslight.gmod)
@@ -99,13 +95,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer03")
 ATT = {}
 
 ATT.PrintName = "Lightweight Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 2
+ATT.Category = "cod2019_muzzle"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east01.mdl"
 
-table.Merge(ATT, attdetails)
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statslight.gmod)
@@ -119,13 +127,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east01")
 ATT = {}
 
 ATT.PrintName = "Lightweight Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 2
+ATT.Category = "cod2019_muzzle"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east03.mdl"
 
-table.Merge(ATT, attdetails)
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statslight.gmod)
@@ -160,13 +180,25 @@ local statsmono = { -- Shared stats for Monolithic Suppressors
 ATT = {}
 
 ATT.PrintName = "Monolithic Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 3
+ATT.Category = "cod2019_muzzle"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer02.mdl"
 
-table.Merge(ATT, attdetails)
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statsmono.gmod)
@@ -180,13 +212,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer02")
 ATT = {}
 
 ATT.PrintName = "Monolithic Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 3
+ATT.Category = "cod2019_muzzle"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_east02.mdl"
 
-table.Merge(ATT, attdetails)
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statsmono.gmod)
@@ -201,14 +245,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east02")
 ATT = {}
 
 ATT.PrintName = "Monolithic Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_suppressor_model680.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 3
+ATT.Category = "cod2019_muzzle_shot"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_romeo870_shtgnsilencer.mdl"
 
-table.Merge(ATT, attdetails)
-ATT.Category = "cod2019_muzzle_shot"
+ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.048
@@ -230,14 +285,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_01")
 ATT = {}
 
 ATT.PrintName = "Tactical Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_shgn01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 1
+ATT.Category = "cod2019_muzzle_shot"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer02.mdl"
 
-table.Merge(ATT, attdetails)
-ATT.Category = "cod2019_muzzle_shot"
+ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -255,14 +321,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_02")
 ATT = {}
 
 ATT.PrintName = "FORGE TAC Marauder"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_suppressor_origin12.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 2
+ATT.Category = "cod2019_muzzle_shot"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer03.mdl"
 
-table.Merge(ATT, attdetails)
-ATT.Category = "cod2019_muzzle_shot"
+ATT.Silencer = true
 ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.RangeMinMult = 0.75
@@ -289,13 +366,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_03")
 ATT = {}
 
 ATT.PrintName = "Monolithic Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 1
+ATT.Category = "cod2019_muzzle_pistols"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_03.mdl"
 
-table.Merge(ATT, attdetails)
-ATT.Category = "cod2019_muzzle_pistols"
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 75 / ARC9.HUToM
@@ -319,13 +408,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_03")
 ATT = {}
 
 ATT.PrintName = "Lightweight Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 2
+ATT.Category = "cod2019_muzzle_pistols"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_01.mdl"
 
-table.Merge(ATT, attdetails)
-ATT.Category = "cod2019_muzzle_pistols"
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -67 / ARC9.HUToM
@@ -347,13 +448,25 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_01")
 ATT = {}
 
 ATT.PrintName = "Tactical Suppressor"
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.SortOrder = 3
+ATT.Category = "cod2019_muzzle_pistols"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_silencer_pstl_02.mdl"
 
-table.Merge(ATT, attdetails)
-ATT.Category = "cod2019_muzzle_pistols"
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 75 / ARC9.HUToM

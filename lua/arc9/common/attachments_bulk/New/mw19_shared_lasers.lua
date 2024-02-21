@@ -3,37 +3,6 @@ local ATT = {}
 /////////////////////////// -- Shared
 local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone Stat Variable
 
--- Universal details for every attachment. These are applied to every attachment using a "table.Merge". If you want attachments to use this but, for example, have a different icon or model, then add a "ATT.Icon" or "ATT.Model" below the Merge line.
-
-local attdetailslaser = { -- Universal details
-	Description = "",
-	Icon = Material("entities/attachs/cod2019_laser01.png", "mips smooth"),
-	MenuCategory = "ARC9 - MW2019 Attachments",
-	
-	Category = "cod2019_tac",
-	-- Folder = ARC9:GetPhrase("mw19_folder_laser"),
-	ActivateElements = {"laser"},
-	
-	Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser01.mdl",
-	ModelOffset = Vector(-1.5, 0, 0.1),
-	ModelAngleOffset = Angle(0, 0, 180),
-	
-	ToggleOnF = false,
-	LaserColorPlayer = true,
-	LaserStrength = 4,
-	-- LaserColor = Color(255, 255, 0),
-	LaserAttachment = 1,
-	ToggleStats = {
-		{
-			PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
-			Laser = true,
-		},
-		{
-			PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
-		},
-	},
-}
-
 -- Use these to add universal stats to the attachments based on the type. If this is not to your liking, then remove the "table.Merge" line.
 local statstac = { -- Shared stats for Tac Laser
 	gmod = {
@@ -81,8 +50,33 @@ local stats5mw = { -- Shared stats for 5mW Laser
 ATT = {}
 
 ATT.PrintName = "Tac Laser"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_laser01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
-table.Merge(ATT, attdetailslaser)
+ATT.Category = "cod2019_tac"
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
+ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser01.mdl"
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 4
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statstac.gmod)
@@ -96,13 +90,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_01")
 ATT = {}
 
 ATT.PrintName = "1mW Laser"
-
-table.Merge(ATT, attdetailslaser)
-
-ATT.LaserStrength = 1
-
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Category = "cod2019_tac"
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser03.mdl"
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 1
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, stats1mw.gmod)
@@ -116,13 +130,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_02")
 ATT = {}
 
 ATT.PrintName = "5mW Laser"
-
-table.Merge(ATT, attdetailslaser)
-
-ATT.LaserStrength = 5
-
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Category = "cod2019_tac"
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser02.mdl"
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 5
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, stats5mw.gmod)
@@ -137,13 +171,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_03")
 ATT = {}
 
 ATT.PrintName = "Tac Laser"
-
-table.Merge(ATT, attdetailslaser)
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_laser01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = "cod2019_tac_cylinde"
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder01_alt.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 4
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statstac.gmod)
@@ -157,14 +211,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_01_cylinde_alt")
 ATT = {}
 
 ATT.PrintName = "1mW Laser"
-
-table.Merge(ATT, attdetailslaser)
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = "cod2019_tac_cylinde"
-ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder02_alt.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 1
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, stats1mw.gmod)
@@ -178,14 +251,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_02_cylinde_alt")
 ATT = {}
 
 ATT.PrintName = "5mW Laser"
-
-table.Merge(ATT, attdetailslaser)
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_laser02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = "cod2019_tac_cylinde"
-ATT.Icon = Material("entities/attachs/cod2019_laser02.png", "mips smooth")
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_cylinder03_alt.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 5
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, stats5mw.gmod)
@@ -200,14 +292,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_03_cylinde_alt")
 ATT = {}
 
 ATT.PrintName = "Tac Laser"
-
-table.Merge(ATT, attdetailslaser)
-
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_attach_laser_pstl.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.Category = "cod2019_tac_pistols"
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl01.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 4
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, statstac.gmod)
@@ -221,14 +332,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_01")
 ATT = {}
 
 ATT.PrintName = "1mW Laser"
-
-table.Merge(ATT, attdetailslaser)
-
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_attach_laser_pstl02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.Category = "cod2019_tac_pistols"
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl02.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 1
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, stats1mw.gmod)
@@ -242,14 +372,33 @@ ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_02")
 ATT = {}
 
 ATT.PrintName = "5mW Laser"
-
-table.Merge(ATT, attdetailslaser)
-
+ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_attach_laser_pstl04.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
 ATT.Category = "cod2019_tac_pistols"
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
+ATT.ActivateElements = {"laser"}
+
 ATT.Model = "models/weapons/cod2019/attachs/laser/attachment_vm_laser_pstl03.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+-- ATT.ModelOffset = Vector(0, 0, 0)
+-- ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 5
+-- ATT.LaserColor = Color(255, 255, 0)
+ATT.LaserAttachment = 1
+
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
 
 if !warzonestats then -- Regular Stats
 	table.Merge(ATT, stats5mw.gmod)
