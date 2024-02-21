@@ -698,8 +698,8 @@ L["cod2019_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw
 
 ////////////////////  M13
 /////////////// Barrels
-L["mw19_att_wpn_m13_brl_01.printname"] = "Tempus Mini"
-L["mw19_att_wpn_m13_brl_01.compactname"] = "Mini"
+L["cod2019_m13_barrel_short.printname"] = "Tempus Mini"
+L["cod2019_m13_barrel_short.compactname"] = "Mini"
 
 L["cod2019_m13_barrel_supp.printname"] = "Tempus Cyclone"
 L["cod2019_m13_barrel_supp.compactname"] = "Cyclone"
@@ -710,8 +710,8 @@ L["cod2019_m13_barrel_long.compactname"] = "Marksman"
 L["cod2019_m13_barrel_long.description"] = "Denna 410mm kromade pipan, med ett förlängt skydd, ökar mynningshastigheten och räckvidden. Tillagd vikt stabiliserar skotten för den mest träffsäkra, tillgängliga pipan"
 
 /////////////// Stock
-L["mw19_att_wpn_m13_stock_medium.printname"] = "M13 Skelettkolv"
-L["mw19_att_wpn_m13_stock_medium.compactname"] = stockname.skeletons
+L["cod2019_m13_stock_light.printname"] = "M13 Skelettkolv"
+L["cod2019_m13_stock_light.compactname"] = stockname.skeletons
 
 /////////////// Magazine
 L["mw19_att_wpn_m13_mag_blackout.printname"] = ".300 Blackout 30-Patronersmag."

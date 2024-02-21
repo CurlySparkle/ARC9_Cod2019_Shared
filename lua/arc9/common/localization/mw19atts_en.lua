@@ -1033,9 +1033,9 @@ L["mw19_att_wpn_oden_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_ki
 
 ////////////////////  M13
 /////////////// Barrels
-L["mw19_att_wpn_m13_brl_01.printname"] = "Tempus Mini"
-L["mw19_att_wpn_m13_brl_01.compactname"] = "Mini"
-L["mw19_att_wpn_m13_brl_01.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_m13_barrel_short.printname"] = "Tempus Mini"
+L["cod2019_m13_barrel_short.compactname"] = "Mini"
+L["cod2019_m13_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
 
 L["cod2019_m13_barrel_supp.printname"] = "Tempus Cyclone"
 L["cod2019_m13_barrel_supp.compactname"] = "Cyclone"
@@ -1046,9 +1046,9 @@ L["cod2019_m13_barrel_long.compactname"] = "Marksman"
 L["cod2019_m13_barrel_long.description"] = "This 16\" chrome-moly barrel, with an extended guard, increases muzzle velocity and range. Additional weight stabilizes shots for the most accurate barrel available."
 
 /////////////// Stock
-L["mw19_att_wpn_m13_stock_medium.printname"] = "M13 Skeleton Stock"
-L["mw19_att_wpn_m13_stock_medium.compactname"] = stockname.skeletons
-L["mw19_att_wpn_m13_stock_medium.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
+L["cod2019_m13_stock_light.printname"] = "M13 Skeleton Stock"
+L["cod2019_m13_stock_light.compactname"] = stockname.skeletons
+L["cod2019_m13_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_vlight.description")
 
 /////////////// Magazine
 L["mw19_att_wpn_m13_mag_blackout.printname"] = ".300 Blackout 30-Round Mags"

@@ -711,8 +711,8 @@ L["cod2019_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw
 
 ////////////////////  M13
 /////////////// Barrels
-L["mw19_att_wpn_m13_brl_01.printname"] = "Tempus Mini"
-L["mw19_att_wpn_m13_brl_01.compactname"] = "Mini"
+L["cod2019_m13_barrel_short.printname"] = "Tempus Mini"
+L["cod2019_m13_barrel_short.compactname"] = "Mini"
 
 L["cod2019_m13_barrel_supp.printname"] = "Tempus Cyclone"
 L["cod2019_m13_barrel_supp.compactname"] = "Cyclone"
@@ -723,8 +723,8 @@ L["cod2019_m13_barrel_long.compactname"] = "Marksman"
 L["cod2019_m13_barrel_long.description"] = "This 16\" chrome-moly barrel, with an extended guard, increases muzzle velocity and range. Additional weight stabilizes shots for the most accurate barrel available."
 
 /////////////// Stock
-L["mw19_att_wpn_m13_stock_medium.printname"] = "M13 Skeleton Stock"
-L["mw19_att_wpn_m13_stock_medium.compactname"] = stockname.skeletons
+L["cod2019_m13_stock_light.printname"] = "M13 Skeleton Stock"
+L["cod2019_m13_stock_light.compactname"] = stockname.skeletons
 
 /////////////// Magazine
 L["mw19_att_wpn_m13_mag_blackout.printname"] = ".300 Blackout 30-Round Mags"
