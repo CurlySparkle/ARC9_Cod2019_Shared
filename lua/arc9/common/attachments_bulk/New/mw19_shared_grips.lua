@@ -73,7 +73,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 0.9
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.93
+	ATT.SpeedSightsMult = 0.93
 	ATT.RecoilRandomSideMult = 0.9
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.07
@@ -81,7 +81,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.9
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.93
+	ATT.SpeedSightsMult = 0.93
 	ATT.RecoilRandomSideMult = 0.9
 end
 
@@ -116,7 +116,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 0.91
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.88
+	ATT.SpeedSightsMult = 0.88
 	ATT.RecoilRandomSideMult = 0.93
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.021
@@ -124,7 +124,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.91
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.88
+	ATT.SpeedSightsMult = 0.88
 	ATT.RecoilRandomSideMult = 0.93
 end
 
@@ -159,7 +159,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 0.91
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.98
-	ATT.SpeedMultSights = 0.85
+	ATT.SpeedSightsMult = 0.85
 	ATT.RecoilRandomSideMult = 0.95
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.011
@@ -167,7 +167,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.91
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.98
-	ATT.SpeedMultSights = 0.85
+	ATT.SpeedSightsMult = 0.85
 	ATT.RecoilRandomSideMult = 0.95
 end
 
@@ -202,7 +202,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 0.95
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.93
+	ATT.SpeedSightsMult = 0.93
 	ATT.RecoilRandomSideMult = 0.97
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.07
@@ -210,7 +210,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.95
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.93
+	ATT.SpeedSightsMult = 0.93
 	ATT.RecoilRandomSideMult = 0.97
 end
 
@@ -245,7 +245,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 0.94
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.98
+	ATT.SpeedSightsMult = 0.98
 	ATT.RecoilRandomSideMult = 0.95
 	ATT.ReloadTimeMult = 0.85 -- Because Twilight asked for it
 else -- Warzone Stats
@@ -254,7 +254,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.94
 	ATT.SpreadMultHipFire = 0.947
 	ATT.SpeedMult = 0.99
-	ATT.SpeedMultSights = 0.98
+	ATT.SpeedSightsMult = 0.98
 	ATT.RecoilRandomSideMult = 0.95
 end
 
@@ -297,14 +297,14 @@ if !warzonestats then -- Regular Stats
 	ATT.VisualRecoilMult = 0.8
 	ATT.RecoilMult = 0.8
 	ATT.SpeedMult = 0.96
-	ATT.SpeedMultSights = 0.84
+	ATT.SpeedSightsMult = 0.84
 	ATT.SpreadBipod = -0.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.019
 	ATT.VisualRecoilMult = 0.8
 	ATT.RecoilMult = 0.8
 	ATT.SpeedMult = 0.96
-	ATT.SpeedMultSights = 0.84
+	ATT.SpeedSightsMult = 0.84
 	ATT.SpreadBipod = -0.05
 end
 
@@ -338,7 +338,7 @@ if !warzonestats then -- Regular Stats
 	ATT.VisualRecoilMult = 0.8
 	ATT.RecoilMult = 0.8
 	ATT.SpeedMult = 0.96
-	ATT.SpeedMultSights = 0.84
+	ATT.SpeedSightsMult = 0.84
 	ATT.SpreadBipod = -0.05
 else -- Warzone Stats
 
