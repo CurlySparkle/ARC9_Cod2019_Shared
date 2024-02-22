@@ -279,6 +279,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 180)
 ATT.LHIK = true
 ATT.LHIK_Priority = 10
 
+ATT.Bipod = true
 ATT.BipodPos = Vector(-1.5, -4, 0.7)
 ATT.BipodAng = Angle(0, 0, 0)
 
@@ -326,6 +327,7 @@ ATT.Model = "models/weapons/cod2019/attachs/grips/attachment_vm_bipod.mdl"
 ATT.ModelOffset = Vector(2, 0, 0.03)
 ATT.ModelAngleOffset = Angle(0, 0, 180)
 
+ATT.Bipod = true
 ATT.BipodPos = Vector(-1.5, -4, 0.7)
 ATT.BipodAng = Angle(0, 0, 0)
 

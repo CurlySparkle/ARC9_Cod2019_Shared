@@ -203,9 +203,9 @@ L["cod2019_optic_minireddot3_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_
 L["cod2019_optic_minireddot3_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname")
 L["cod2019_optic_minireddot3_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description")
 
-L["cod2019_optic_reflex_west05_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname")
-L["cod2019_optic_reflex_west05_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
-L["cod2019_optic_reflex_west05_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
+L["cod2019_optic_reflex_west05_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.printname")
+L["cod2019_optic_reflex_west05_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname")
+L["cod2019_optic_reflex_west05_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.description")
 
 -- Scopes
 L["cod2019_optic_scope_scout.printname"] = "Scout Combat Optic"
