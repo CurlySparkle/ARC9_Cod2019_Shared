@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\attachments\attachment_vm_flashhider05_rgb"
-    "$bumpmap" "models\cod2019\attachments\attachment_vm_flashhider05_n"
-    "$phongexponenttexture" "models\cod2019\attachments\attachment_vm_flashhider05_e"
+    "$basetexture" "models\cod2019\m91\weapon_vm_lm_kilo121_bipod_rgb"
+    "$bumpmap" "models\cod2019\m91\weapon_vm_lm_kilo121_bipod_n"
+    "$phongexponenttexture" "models\cod2019\m91\weapon_vm_lm_kilo121_bipod_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this
@@ -20,7 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.161 0.157 0.157]"                 
+    "$envmaptint" "[0.122 0.118 0.118]"                 
 
     //remove this if not using MWB
     "Proxies"
@@ -29,7 +29,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.161 0.157 0.157]"
+            "color" "[0.122 0.118 0.118]"
         }
     }
 }
