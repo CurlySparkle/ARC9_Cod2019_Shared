@@ -2163,6 +2163,10 @@ L["cod2019_origin12_silencer.compactname"] = "Protector"
 L["cod2019_origin12_silencer.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
 
 /////////////// Grips
+L["cod2019_origin12_grip_none2.printname"] = "Alternative Holding" -- UO
+L["cod2019_origin12_grip_none2.compactname"] = "Alt. Hold" -- UO
+L["cod2019_origin12_grip_none2.description"] = "Alternative holding style." -- UO
+
 L["cod2019_origin12_grip_side_com.printname"] = ARC9:GetPhrase("cod2019_angled.printname")
 L["cod2019_origin12_grip_side_com.compactname"] = ARC9:GetPhrase("cod2019_angled.compactname")
 L["cod2019_origin12_grip_side_com.description"] = ARC9:GetPhrase("cod2019_angled.description")
@@ -2380,17 +2384,17 @@ L["mw19_att_wpn_sa87_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_ki
 
 ////////////////////  M91
 /////////////// Barrels
-L["mw19_att_wpn_m91_brl_01.printname"] = "M91 Special Forces"
-L["mw19_att_wpn_m91_brl_01.compactname"] = "SF"
-L["mw19_att_wpn_m91_brl_01.description"] = "Designed to improve muzzle velocity range with as little additional weight as possible."
+L["cod2019_m91_barrel_mid.printname"] = "M91 Special Forces"
+L["cod2019_m91_barrel_mid.compactname"] = "SF"
+L["cod2019_m91_barrel_mid.description"] = "Designed to improve muzzle velocity range with as little additional weight as possible."
 
-L["mw19_att_wpn_m91_brl_02.printname"] = "M91 Infantry"
-L["mw19_att_wpn_m91_brl_02.compactname"] = "Infantry"
-L["mw19_att_wpn_m91_brl_02.description"] = "Designed to improve mobility, this compact barrel sacrifices accuracy and range for speed and agility."
+L["cod2019_m91_barrel_short.printname"] = "M91 Infantry"
+L["cod2019_m91_barrel_short.compactname"] = "Infantry"
+L["cod2019_m91_barrel_short.description"] = "Designed to improve mobility, this compact barrel sacrifices accuracy and range for speed and agility."
 
-L["mw19_att_wpn_m91_brl_03.printname"] = "M91 Heavy"
-L["mw19_att_wpn_m91_brl_03.compactname"] = "Heavy"
-L["mw19_att_wpn_m91_brl_03.description"] = "Designed to better hold down positions, this longer barrel improves muzzle velocity, range, and accuracy. Additional weight hinders mobility."
+L["cod2019_m91_barrel_long.printname"] = "M91 Heavy"
+L["cod2019_m91_barrel_long.compactname"] = "Heavy"
+L["cod2019_m91_barrel_long.description"] = "Designed to better hold down positions, this longer barrel improves muzzle velocity, range, and accuracy. Additional weight hinders mobility."
 
 /////////////// Magazine
 L["mw19_att_wpn_m91_mag_120.printname"] = string.format(mw19magtext.belt, "120")
@@ -2509,7 +2513,7 @@ L["mw19_att_wpn_holger_rg_stippled.description"] = ARC9:GetPhrase("mw19_att_wpn_
 /////////////// Barrels
 L["mw19_att_wpn_bruen_brl_01.printname"] = "XRK Horizon 23.0\""
 L["mw19_att_wpn_bruen_brl_01.compactname"] = "Horizon"
-L["mw19_att_wpn_bruen_brl_01.description"] = ARC9:GetPhrase("mw19_att_wpn_m91_brl_01.description")
+L["mw19_att_wpn_bruen_brl_01.description"] = ARC9:GetPhrase("cod2019_m91_barrel_mid.description")
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
