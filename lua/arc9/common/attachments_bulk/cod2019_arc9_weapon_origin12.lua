@@ -326,4 +326,25 @@ ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_silencer")
--------------------------------------------------------------------------------
+------------------------------------------------------------------ GRIP NONE
+ATT = {}
+
+ATT.PrintName = "Alt Hold 2"
+ATT.CompactName = "Alt Hold 2"
+ATT.Description = [[Changes the holding style of the weapon.
+(Based on the holding stance from MW23)]]
+ATT.Icon = Material("entities/attachs/cod2019_grip_none.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/grip_none_origin12_alt.mdl"
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_origin12_grip"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other2")
+
+ATT.LHIK_Priority = 5
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_none2")
