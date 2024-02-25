@@ -694,17 +694,6 @@ ATT.Sights = {
     },
 }
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(1.5, 0, 0),
-        Category = "cod2019_optic_sidemount",
-		Scale = 1,
-    },
-}
-
 ATT.CustomPros = {
     [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "2.5x"
 }
@@ -754,17 +743,6 @@ ATT.Sights = {
         ViewModelFOV = 25,
         Magnification = 1.15,
         IgnoreExtra = false
-    },
-}
-
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0.7, 0, -1.88),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        Category = "cod2019_optics_pistols_scope",
-		Scale = 1,
     },
 }
 

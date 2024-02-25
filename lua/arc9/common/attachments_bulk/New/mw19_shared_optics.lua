@@ -13,7 +13,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03.png", "mips sm
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -56,7 +56,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east02.png", "mips sm
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -99,7 +99,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west.png", "mips smooth
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -142,7 +142,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west02.png", "mips smoo
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -185,7 +185,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east.png", "mips smoo
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -228,7 +228,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smoot
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 3
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"sight_minidot","optic"}
 
@@ -271,7 +271,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smo
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 4
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"sight_minidot","optic"}
 
@@ -314,7 +314,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smo
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 5
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"sight_minidot","optic"}
 
@@ -357,7 +357,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips sm
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -405,7 +405,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips sm
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -453,7 +453,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_reflex.png", "mips s
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -496,7 +496,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_holo_east.png", "mips smooth
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
@@ -801,7 +801,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_4x_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 3
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope"}
 
@@ -864,7 +864,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_west_lw.png", "mips s
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 3.25
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope", "hybrid_scope_int"}
 ATT.ExcludeElements = {"no_optic_hybrid"}
@@ -1026,7 +1026,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 3.25
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope"}
 
@@ -1089,7 +1089,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west02.png", "mips smooth
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 3.5
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope"}
 
@@ -1152,7 +1152,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_thermal_west01.png", "mips s
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 3.25
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope", "optic_thermal"}
 
@@ -1261,7 +1261,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_thermal_east.png", "mips smo
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 3.25
-ATT.Category = {"cod2019_optic"}
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope", "optic_thermal"}
 

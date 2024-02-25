@@ -13,7 +13,7 @@ ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
 ATT.ActivateElements = {"grip"}
-ATT.SortOrder = 2
+ATT.SortOrder = 2.1
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/grip_stubby_tall.mdl"
 ATT.ModelOffset = Vector(0, 0, 0.12)
@@ -54,7 +54,7 @@ ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
 ATT.ActivateElements = {"grip"}
-ATT.SortOrder = 2.1
+ATT.SortOrder = 2
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/grip_vert.mdl"
 ATT.ModelOffset = Vector(0, 0, 0.12)

@@ -73,17 +73,17 @@ L["mw19_optic_stat_toggle_thermal"] = "Växelbar Reflex- & Värmesikte" -- Therm
 L["mw19_optic_stat_thermal"] = "Värmesikte Målidentifiering" -- Soloero NVG Enhanced
 
 -- Picatinny Rails
-L["cod2019_optic_picatinny.printname"] = "Picatinny-Skena Riktmedel Monterare"
-L["cod2019_optic_picatinny.compactname"] = "Picatinny"
-L["cod2019_optic_picatinny.description"] = "Picatinny-adapter designad för att montera ett sekundärt riktmedel med låg profil."
+L["cod2019_optic_picatinny.printname"] = "Skenamonterad Riktmedelmontering" -- UO
+L["cod2019_optic_picatinny.compactname"] = "S. R." -- UO
+L["cod2019_optic_picatinny.description"] = "Skenamonterad adapter designed att montera att reservreflexsikte med låg profil." -- UO
 
 L["cod2019_optic_riser.printname"] = "Platt Toppad Riser"
 L["cod2019_optic_riser.compactname"] = "Platt"
 L["cod2019_optic_riser.description"] = "En platt toppad Riser-adapter designad för att montera ett riktmedel för högre siktvy."
 
-L["cod2019_optic_riser2.printname"] = "Platt Toppad Riser II"
-L["cod2019_optic_riser2.compactname"] = "Platt II"
-L["cod2019_optic_riser2.description"] = "Mindre platt toppad Riser-adapter designad att montera mindre riktmedel.\nKan se konstigt ut när man monterar större riktmedel."
+L["cod2019_optic_riser2.printname"] = "Platt Toppad Riser (Låg Profil)"
+L["cod2019_optic_riser2.compactname"] = "Platt LP"
+L["cod2019_optic_riser2.description"] = "Mindre platt toppad Riser-adapter designad att montera mindre riktmedel."
 
 -- Reflexsiktes
 L["cod2019_optic_reflex_west03.printname"] = "Operatör Reflexsikte"
@@ -94,9 +94,12 @@ L["cod2019_optic_reflex_west.printname"] = "Corp Combat Holo-Sikte"
 L["cod2019_optic_reflex_west.compactname"] = "Corp Combat"
 L["cod2019_optic_reflex_west.description"] = "Avancerat holografiskt sikte av amerikanskt ursprung."
 
-L["cod2019_optic_aimop.printname"] = "Aim-Op Reflexsikte"
+L["cod2019_optic_aimop.printname"] = "Aim-Op-Reflexsikte"
 L["cod2019_optic_aimop.compactname"] = "Aim-Op"
 L["cod2019_optic_aimop.description"] = "Reflexsikte med ursprung från västvärlden. Erbjuder högre träffsäkerhet."
+
+L["cod2019_optic_aimop_alt.printname"] = "Aim-Op-Reflexsikte (Låg Profil)"
+L["cod2019_optic_aimop_alt.compactname"] = "Aim-Op LP"
 
 L["cod2019_optic_minireddot1.printname"] = "G.I. Mini Reflex"
 L["cod2019_optic_minireddot1.compactname"] = "G.I. Mini"
@@ -305,9 +308,9 @@ L["cod2019_bipod.description"] = "Stabila ben förbättrar kontrollen medans man
 L["cod2019_grips_tactical.printname"] = "Task Force-Framgrepp" -- UO
 L["cod2019_grips_tactical.compactname"] = "Task Force" -- UO
 
-L["mw19_att_wpn_grau_ub_shark.printname"] = "Cronen Shark II"
-L["mw19_att_wpn_grau_ub_shark.compactname"] = "Shark II"
-L["mw19_att_wpn_grau_ub_shark.description"] = "Taktiskt framgrepp erbjuder bäst-i-klass kontroll att få fram måltavlor."
+L["cod2019_grau_ub_shark.printname"] = "Cronen Shark II"
+L["cod2019_grau_ub_shark.compactname"] = "Shark II"
+L["cod2019_grau_ub_shark.description"] = "Taktiskt framgrepp erbjuder bäst-i-klass kontroll att få fram måltavlor."
 
 ///////// Weapons
 L["mw19_att_ub_m203_he.printname"] = "M203 40mm Spräng"
@@ -433,27 +436,27 @@ L["cod2019_stock_vlight.printname"] = "REPLACEME - cod2019_stock_vlight.printnam
 L["cod2019_stock_vlight.compactname"] = "REPLACEME - cod2019_stock_vlight.compactname"
 L["cod2019_stock_vlight.description"] = "Ultralätt kolv ökar hastigheten på vapenhantering och rörelse med kostnad på stabilitet i siktet."
 
-L["cod2019_stock_light.printname"] = stockname.ultralight
-L["cod2019_stock_light.compactname"] = stockname.ultralights
+L["cod2019_stock_light.printname"] = "FORGE TAC Ultralight"
+L["cod2019_stock_light.compactname"] = "Ultralight"
 L["cod2019_stock_light.description"] = "Kolv designad för rörlighet i siktet."
 
-L["cod2019_stock_medium.printname"] = stockname.closequartersstock
-L["cod2019_stock_medium.compactname"] = stockname.closequartersstocks
+L["cod2019_stock_medium.printname"] = "FSS Close Quarters Stock"
+L["cod2019_stock_medium.compactname"] = "CQS"
 L["cod2019_stock_medium.description"] = "Taktisk och effektiv kolv designad för närstrid. Får dig snabbare på målet."
 
-L["cod2019_stock_heavy.printname"] = stockname.stalker
-L["cod2019_stock_heavy.compactname"] = stockname.stalkers
+L["cod2019_stock_heavy.printname"] = "FORGE TAC Stalker"
+L["cod2019_stock_heavy.compactname"] = "Stalker"
 L["cod2019_stock_heavy.description"] = "Tung kolv som låter dig hålla ditt sikte stadigt för träffsäkra skott."
 
-L["cod2019_stock_heavy02.printname"] = stockname.hunter
-L["cod2019_stock_heavy02.compactname"] = stockname.hunters
+L["cod2019_stock_heavy02.printname"] = "FTAC Hunter"
+L["cod2019_stock_heavy02.compactname"] = "Hunter"
 
 L["cod2019_stock_vheavy.printname"] = "REPLACEME - cod2019_stock_vheavy.printname"
 L["cod2019_stock_vheavy.compactname"] = "REPLACEME - cod2019_stock_vheavy.compactname"
 L["cod2019_stock_vheavy.description"] = "Den mest stabila kolven tillgänglig erbjuder utmärkt kontroll i siktet med kostnad på rörlighet."
 
-L["cod2019_stock_none.printname"] = stockname.none
-L["cod2019_stock_none.compactname"] = stockname.nones
+L["cod2019_stock_none.printname"] = "No Stock"
+L["cod2019_stock_none.compactname"] = "N/A"
 L["cod2019_stock_none.description"] = "Det ultimata \"spring-och-skjut\" alternativet när rörlighet är viktigare än träffsäkerhet. Att ta bort kolven ökar starkt rörligheten."
 
 ///////////////////////////// Weapon-specific Attachments
@@ -495,9 +498,9 @@ mw19magtext = {
 ////////////////////////  Assault Rifles
 ////////////////////  Kilo 141
 /////////////// Barrels
-L["mw19_att_wpn_kilo141_brl_01.printname"] = "Singuard Arms 422mm SOCOM"
-L["mw19_att_wpn_kilo141_brl_01.compactname"] = "SOCOM"
-L["mw19_att_wpn_kilo141_brl_01.description"] = "Titan-koboltlegerad pipa med förlängt skydd erbjuder mynningshastighet och räckvidd. Måttligt ökad vikt stabiliserar skott men sänker hantering."
+L["cod2019_kilo_141_barrel_medium.printname"] = "Singuard Arms 422mm SOCOM"
+L["cod2019_kilo_141_barrel_medium.compactname"] = "SOCOM"
+L["cod2019_kilo_141_barrel_medium.description"] = "Titan-koboltlegerad pipa med förlängt skydd erbjuder mynningshastighet och räckvidd. Måttligt ökad vikt stabiliserar skott men sänker hantering."
 
 L["cod2019_kilo141_barrel_long.printname"] = "Singuard Arms 510mm Prowler"
 L["cod2019_kilo141_barrel_long.compactname"] = "Prowler"
@@ -508,12 +511,12 @@ L["cod2019_kilo141_barrel_supp.compactname"] = "Whisper"
 L["cod2019_kilo141_barrel_supp.description"] = "Tung <color=255,255,100>intern ljuddämpare</color> med en monolitisk kärna öker mynningshastigheten medans den behåller en låd ljudsignatur."
 
 /////////////// Stock
-L["mw19_att_wpn_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
-L["mw19_att_wpn_kilo141_stock_heavy.compactname"] = "Sniper Pro"
-L["mw19_att_wpn_kilo141_stock_heavy.description"] = "Tung kolv med justerbar kindskydd. Håller ditt sikte stadigt för träffsäkra skott."
+L["cod2019_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
+L["cod2019_kilo141_stock_heavy.compactname"] = "Sniper Pro"
+L["cod2019_kilo141_stock_heavy.description"] = "Tung kolv med justerbar kindskydd. Håller ditt sikte stadigt för träffsäkra skott."
 
-L["mw19_att_wpn_kilo141_stock_medium.printname"] = stockname.closequartersstock
-L["mw19_att_wpn_kilo141_stock_medium.compactname"] = stockname.closequartersstocks
+L["cod2019_kilo141_stock_medium.printname"] = "FSS Close Quarters Stock"
+L["cod2019_kilo141_stock_medium.compactname"] = "CQS"
 
 /////////////// Magazine
 L["cod2019_kilo141_mag_drum.printname"] = string.format(mw19magtext.drum, "100")
@@ -521,17 +524,17 @@ L["cod2019_kilo141_mag_drum.compactname"] = string.format(mw19magtext.mags, "100
 L["cod2019_kilo141_mag_drum.description"] = string.format(mw19magtext.descdrum, "100", mw19ammotype["556"])
 
 /////////////// Pistol Grips
-L["mw19_att_wpn_kilo141_rg_gran.printname"] = "Granulerad Grepptejp"
-L["mw19_att_wpn_kilo141_rg_gran.compactname"] = "Granulerad"
-L["mw19_att_wpn_kilo141_rg_gran.description"] = "Slät och granulerad tejp för en avslappnat och kontrollerat grepp. Håller dig stadigt och på målet."
+L["cod2019_kilo141_griptape_01.printname"] = "Granulerad Grepptejp"
+L["cod2019_kilo141_griptape_01.compactname"] = "Granulerad"
+L["cod2019_kilo141_griptape_01.description"] = "Slät och granulerad tejp för en avslappnat och kontrollerat grepp. Håller dig stadigt och på målet."
 
-L["mw19_att_wpn_kilo141_rg_rubber.printname"] = "Gummerad Grepptejp"
-L["mw19_att_wpn_kilo141_rg_rubber.compactname"] = "Gummerad"
-L["mw19_att_wpn_kilo141_rg_rubber.description"] = "Gummerat grepp håller vapnet tajt i händerna. Mindre stadigt men hjälper rekylkontrollen."
+L["cod2019_kilo141_griptape_02.printname"] = "Gummerad Grepptejp"
+L["cod2019_kilo141_griptape_02.compactname"] = "Gummerad"
+L["cod2019_kilo141_griptape_02.description"] = "Gummerat grepp håller vapnet tajt i händerna. Mindre stadigt men hjälper rekylkontrollen."
 
-L["mw19_att_wpn_kilo141_rg_stippled.printname"] = "Stippad Grepptejp"
-L["mw19_att_wpn_kilo141_rg_stippled.compactname"] = "Stippad"
-L["mw19_att_wpn_kilo141_rg_stippled.description"] = "Stippat pistolgrepptejp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
+L["cod2019_kilo141_griptape_03.printname"] = "Stippad Grepptejp"
+L["cod2019_kilo141_griptape_03.compactname"] = "Stippad"
+L["cod2019_kilo141_griptape_03.description"] = "Stippat pistolgrepptejp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
 
 ////////////////////  FAL
 /////////////// Receivers
@@ -540,37 +543,37 @@ L["cod2019_fal_body_v2.compactname"] = "Dominerare" -- UO
 L["cod2019_fal_body_v2.description"] = "Modern FAL-låda. Endast <color=255,255,100>kosmetisk</color>." -- UO
 
 /////////////// Barrels
-L["mw19_att_wpn_fal_brl_01.printname"] = "460mm Ultralight"
-L["mw19_att_wpn_fal_brl_01.compactname"] = stockname.ultralights
-L["mw19_att_wpn_fal_brl_01.description"] = "Anpassad gropig pipa med långt lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
+L["cod2019_fal_barrel_incomplete01.printname"] = "460mm Ultralight"
+L["cod2019_fal_barrel_incomplete01.compactname"] = "Ultralight"
+L["cod2019_fal_barrel_incomplete01.description"] = "Anpassad gropig pipa med långt lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
-L["mw19_att_wpn_fal_brl_02.printname"] = "XRK Marksman"
-L["mw19_att_wpn_fal_brl_02.compactname"] = "Marksman"
-L["mw19_att_wpn_fal_brl_02.description"] = "Hammarsmidd precisionspipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_fal_barrel_incomplete02.printname"] = "XRK Marksman"
+L["cod2019_fal_barrel_incomplete02.compactname"] = "Marksman"
+L["cod2019_fal_barrel_incomplete02.description"] = "Hammarsmidd precisionspipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["mw19_att_wpn_fal_brl_03.printname"] = "330mm OSW Para"
-L["mw19_att_wpn_fal_brl_03.compactname"] = "OSW Para"
-L["mw19_att_wpn_fal_brl_03.description"] = "Kompakt medelkonturerad pipa förbättrar hastighet och rörlighet med en mindre sänkning på mynningshastigheten och träffsäkerheten."
+L["cod2019_fal_barrel_incomplete03.printname"] = "330mm OSW Para"
+L["cod2019_fal_barrel_incomplete03.compactname"] = "OSW Para"
+L["cod2019_fal_barrel_incomplete03.description"] = "Kompakt medelkonturerad pipa förbättrar hastighet och rörlighet med en mindre sänkning på mynningshastigheten och träffsäkerheten."
 
 /////////////// Stock
 L["cod2019_fal_stock_v2.printname"] = "Slät Dominerare" -- UO
 L["cod2019_fal_stock_v2.compactname"] = "Dominerare" -- UO
 L["cod2019_fal_stock_v2.description"] = "Modern FAL-kolv. Endast <color=255,255,100>kosmetisk</color>." -- UO
 
-L["mw19_att_wpn_fal_stock_light.printname"] = "460mm Aluminium Fabrikskolv"
-L["mw19_att_wpn_fal_stock_light.compactname"] = "Fabrik"
-L["mw19_att_wpn_fal_stock_light.description"] = "Lättvikt kolv av aluminium håller dig rörlig i siktet."
+L["cod2019_fal_stock_light.printname"] = "460mm Aluminium Fabrikskolv"
+L["cod2019_fal_stock_light.compactname"] = "Fabrik"
+L["cod2019_fal_stock_light.description"] = "Lättvikt kolv av aluminium håller dig rörlig i siktet."
 
-L["mw19_att_wpn_fal_stock_medium.printname"] = stockname.closequartersstock
-L["mw19_att_wpn_fal_stock_medium.compactname"] = stockname.closequartersstocks
+L["cod2019_fal_stock_medium.printname"] = "FSS Close Quarters Stock"
+L["cod2019_fal_stock_medium.compactname"] = "CQS"
 
-L["mw19_att_wpn_fal_stock_heavy.printname"] = stockname.stalker
-L["mw19_att_wpn_fal_stock_heavy.compactname"] = stockname.stalkers
+L["cod2019_fal_stock_heavy.printname"] = "FORGE TAC Stalker"
+L["cod2019_fal_stock_heavy.compactname"] = "Stalker"
 
 /////////////// Magazine
-L["mw19_att_wpn_fal_mag_24.printname"] = string.format(mw19magtext.mag, "24")
-L["mw19_att_wpn_fal_mag_24.compactname"] = string.format(mw19magtext.mags, "24")
-L["mw19_att_wpn_fal_mag_24.description"] = string.format(mw19magtext.desc, "24", mw19ammotype["762"])
+L["cod2019_fal_mag_24.printname"] = string.format(mw19magtext.mag, "24")
+L["cod2019_fal_mag_24.compactname"] = string.format(mw19magtext.mags, "24")
+L["cod2019_fal_mag_24.description"] = string.format(mw19magtext.desc, "24", mw19ammotype["762"])
 
 L["cod2019_fal_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_fal_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
@@ -590,24 +593,24 @@ L["cod2019_m4a1_barrel_v3.printname"] = "FSS 370mm Tac Lite"
 L["cod2019_m4a1_barrel_v3.compactname"] = "Tac Lite"
 L["cod2019_m4a1_barrel_v3.description"] = "Lättvikt skydd och pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
-L["mw19_att_wpn_m4a1_brl_04.printname"] = "Corvus Custom Marksman"
-L["mw19_att_wpn_m4a1_brl_04.compactname"] = "Corvus"
-L["mw19_att_wpn_m4a1_brl_04.description"] = "Anpassad 483mm M16A4-liknande pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skott men hindrar rörlighet."
+L["cod2019_m4a1_barrel_incomplete04.printname"] = "Corvus Custom Marksman"
+L["cod2019_m4a1_barrel_incomplete04.compactname"] = "Corvus"
+L["cod2019_m4a1_barrel_incomplete04.description"] = "Anpassad 483mm M16A4-liknande pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skott men hindrar rörlighet."
 
-L["mw19_att_wpn_m4a1_brl_05.printname"] = "FSS 315mm Predator"
-L["mw19_att_wpn_m4a1_brl_05.compactname"] = "Predator"
-L["mw19_att_wpn_m4a1_brl_05.description"] = "<color=255,255,100>Intern ljuddämpare</color> med lättvikta aluminium bafflar håller vapnet tyst och rörlig, men sänker mynningshastigheten."
+L["cod2019_m4a1_barrel_incomplete05.printname"] = "FSS 315mm Predator"
+L["cod2019_m4a1_barrel_incomplete05.compactname"] = "Predator"
+L["cod2019_m4a1_barrel_incomplete05.description"] = "<color=255,255,100>Intern ljuddämpare</color> med lättvikta aluminium bafflar håller vapnet tyst och rörlig, men sänker mynningshastigheten."
 
 /////////////// Stock
-L["mw19_att_wpn_m4a1_stock_heavy.printname"] = "M-16 Kolv"
-L["mw19_att_wpn_m4a1_stock_heavy.compactname"] = "M-16"
-L["mw19_att_wpn_m4a1_stock_heavy.description"] = "Tung, fast kolv erbjuder pålitlig stabilitet under skjutning."
+L["cod2019_m4a1_stock_heavy.printname"] = "M-16 Kolv"
+L["cod2019_m4a1_stock_heavy.compactname"] = "M-16"
+L["cod2019_m4a1_stock_heavy.description"] = "Tung, fast kolv erbjuder pålitlig stabilitet under skjutning."
 
 L["cod2019_stock_singuard.printname"] = "Singuard Arms Invader"
 L["cod2019_stock_singuard.compactname"] = "Invader"
 
-L["mw19_att_wpn_m4a1_stock_medium.printname"] = stockname.cqs
-L["mw19_att_wpn_m4a1_stock_medium.compactname"] = stockname.cqss
+L["cod2019_m4a1_stock_medium.printname"] = "FORGE TAC CQS"
+L["cod2019_m4a1_stock_medium.compactname"] = "CQS"
 
 /////////////// Magazine
 L["cod2019_attach_xmag_50.printname"] = string.format(mw19magtext.mag, "50")
@@ -622,9 +625,9 @@ L["cod2019_m4_mag_9mm.printname"] = "9mm Para 32-Patronersmagasin"
 L["cod2019_m4_mag_9mm.compactname"] = "32P 9mm"
 L["cod2019_m4_mag_9mm.description"] = "Konverteringskit för att använda <color=255,255,100>9mm parabellum</color> ammunition. Skjuter med en högre hastighet med mindre rekyl."
 
-L["mw19_att_wpn_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Patronersmagasin"
-L["mw19_att_wpn_m4a1_mag_socom.compactname"] = "10P SOCOM"
-L["mw19_att_wpn_m4a1_mag_socom.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>.458 SOCOM</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen."
+L["cod2019_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Patronersmagasin"
+L["cod2019_m4a1_mag_socom.compactname"] = "10P SOCOM"
+L["cod2019_m4a1_mag_socom.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>.458 SOCOM</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen."
 
 ////////////////////  FR 5.56
 /////////////// Receiver
@@ -641,18 +644,16 @@ L["cod2019_famas_barrel_long.printname"] = "FR 620mm Prickskytt"
 L["cod2019_famas_barrel_long.compactname"] = "Prickskytt"
 L["cod2019_famas_barrel_long.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar gruppningen men hindrar rörlighet."
 
-L["mw19_att_wpn_famas_brl_03.printname"] = stockname.ultralight
-L["mw19_att_wpn_famas_brl_03.compactname"] = stockname.ultralights
-L["mw19_att_wpn_famas_brl_03.description"] = "Kannelerad pipa med brett lopp sänker vikt för förbättrad hantering med kostnad på mynningshastighet."
+L["cod2019_famas_barrel_incomplete03.description"] = "Kannelerad pipa med brett lopp sänker vikt för förbättrad hantering med kostnad på mynningshastighet."
 
 /////////////// Stock
-L["mw19_att_wpn_famas_stock_heavy.printname"] = "FR Ultralight Hollow"
-L["mw19_att_wpn_famas_stock_heavy.compactname"] = "Hollow"
-L["mw19_att_wpn_famas_stock_heavy.description"] = "Anpassad ihålig kolv med en lättvikt rekylplatta som håller skytten rörlig medans man siktar."
+L["cod2019_famas_stock_heavy.printname"] = "FR Ultralight Hollow"
+L["cod2019_famas_stock_heavy.compactname"] = "Hollow"
+L["cod2019_famas_stock_heavy.description"] = "Anpassad ihålig kolv med en lättvikt rekylplatta som håller skytten rörlig medans man siktar."
 
-L["mw19_att_wpn_famas_stock_light.printname"] = stockname.ballast
-L["mw19_att_wpn_famas_stock_light.compactname"] = stockname.ballasts
-L["mw19_att_wpn_famas_stock_light.description"] = "Tunga packs erbjuder stabilitet i siktet."
+L["cod2019_famas_stock_light.printname"] = "FORGE TAC Ballast Pack"
+L["cod2019_famas_stock_light.compactname"] = "Ballast"
+L["cod2019_famas_stock_light.description"] = "Tunga packs erbjuder stabilitet i siktet."
 
 L["cod2019_famas_stock_tactical.printname"] = "FSS Tac-Wrap"
 L["cod2019_famas_stock_tactical.compactname"] = "Tac-Wrap"
@@ -660,9 +661,9 @@ L["cod2019_famas_stock_tactical.description"] = "Taktisk kam tillbehör gjord f�
 
 ////////////////////  Oden
 /////////////// Barrels
-L["mw19_att_wpn_oden_brl_01.printname"] = "Oden-Fabrik 810mm"
-L["mw19_att_wpn_oden_brl_01.compactname"] = "810mm"
-L["mw19_att_wpn_oden_brl_01.description"] = "Längsta tillgängliga pipan. Ökar starkt mynningshastigheten och hjälper att bygga ett mer tufft och stadigt vapen med kostnad på rörlighet."
+L["cod2019_oden_barrel_incomplete01.printname"] = "Oden-Fabrik 810mm"
+L["cod2019_oden_barrel_incomplete01.compactname"] = "810mm"
+L["cod2019_oden_barrel_incomplete01.description"] = "Längsta tillgängliga pipan. Ökar starkt mynningshastigheten och hjälper att bygga ett mer tufft och stadigt vapen med kostnad på rörlighet."
 
 L["cod2019_oden_barrel_long.printname"] = "Oden-Fabrik 730mm"
 L["cod2019_oden_barrel_long.compactname"] = "730mm"
@@ -673,19 +674,19 @@ L["cod2019_oden_barrel_short.compactname"] = "420mm"
 L["cod2019_oden_barrel_short.description"] = "Kort, kompakt pika offrar träffsäkerhet och räckvidd för hastighet och rörlighet. När rörlighet krävs mer än träffsäkerhet."
 
 /////////////// Muzzle
-L["mw19_att_wpn_oden_muzzle_big.printname"] = "Colossus-Ljuddämpare"
-L["mw19_att_wpn_oden_muzzle_big.compactname"] = "Colossus"
-L["mw19_att_wpn_oden_muzzle_big.description"] = "Förlängd ljuddämpare lägger till betydande vikt till pipan, men ökar starkt mynningshastigheten och sänker rekylen för att hjälpa med träffsäkerhet på längre distanser."
+L["cod2019_oden_muzzle_big.printname"] = "Colossus-Ljuddämpare"
+L["cod2019_oden_muzzle_big.compactname"] = "Colossus"
+L["cod2019_oden_muzzle_big.description"] = "Förlängd ljuddämpare lägger till betydande vikt till pipan, men ökar starkt mynningshastigheten och sänker rekylen för att hjälpa med träffsäkerhet på längre distanser."
 
 /////////////// Stock
-L["cod2019_oden_stock_heavy.printname"] = stockname.ballast
-L["cod2019_oden_stock_heavy.compactname"] = stockname.ballasts
+L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
+L["cod2019_oden_stock_heavy.compactname"] = "Ballast"
 
-L["mw19_att_wpn_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
-L["mw19_att_wpn_oden_stock_heavy.compactname"] = stockname.ultralights
+L["cod2019_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
+L["cod2019_oden_stock_heavy.compactname"] = "Ultralight"
 
-L["mw19_att_wpn_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
-L["mw19_att_wpn_oden_stock_medium.compactname"] = "XL Elite"
+L["cod2019_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
+L["cod2019_oden_stock_medium.compactname"] = "XL Elite"
 
 /////////////// Magazine
 L["cod2019_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
@@ -711,18 +712,18 @@ L["cod2019_m13_barrel_long.description"] = "Denna 410mm kromade pipan, med ett f
 
 /////////////// Stock
 L["cod2019_m13_stock_light.printname"] = "M13 Skelettkolv"
-L["cod2019_m13_stock_light.compactname"] = stockname.skeletons
+L["cod2019_m13_stock_light.compactname"] = "Skeleton"
 
 /////////////// Magazine
-L["mw19_att_wpn_m13_mag_blackout.printname"] = ".300 Blackout 30-Patronersmag."
-L["mw19_att_wpn_m13_mag_blackout.compactname"] = "30P .300"
-L["mw19_att_wpn_m13_mag_blackout.description"] = "Konverteringskit för att använda <color=255,255,100>.300 Blackout</color>-ammunition. Högre kaliber med lägre mynningshastighet, dessa subsoniska patronerna har mer energi över större distanser."
+L["cod2019_m13_mag_blackout.printname"] = ".300 Blackout 30-Patronersmag."
+L["cod2019_m13_mag_blackout.compactname"] = "30P .300"
+L["cod2019_m13_mag_blackout.description"] = "Konverteringskit för att använda <color=255,255,100>.300 Blackout</color>-ammunition. Högre kaliber med lägre mynningshastighet, dessa subsoniska patronerna har mer energi över större distanser."
 
 ////////////////////  FN Scar 17
 /////////////// Barrels
-L["mw19_att_wpn_scar_brl_01.printname"] = "FORGE TAC 440mm LB"
-L["mw19_att_wpn_scar_brl_01.compactname"] = "440mm LB"
-L["mw19_att_wpn_scar_brl_01.description"] = "440mm pipa med förlängt skydd ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten med en mindre kostnad på rörlighet."
+L["cod2019_scar_barrel_incomplete01.printname"] = "FORGE TAC 440mm LB"
+L["cod2019_scar_barrel_incomplete01.compactname"] = "440mm LB"
+L["cod2019_scar_barrel_incomplete01.description"] = "440mm pipa med förlängt skydd ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten med en mindre kostnad på rörlighet."
 
 L["cod2019_scar_barrel_long.printname"] = "FORGE TAC 510mm LB"
 L["cod2019_scar_barrel_long.compactname"] = "510mm LB"
@@ -732,20 +733,20 @@ L["cod2019_scar_barrel_short.printname"] = "FORGE TAC CQC Pro"
 L["cod2019_scar_barrel_short.compactname"] = "CQC Pro"
 
 /////////////// Stock
-L["cod2019_scar_stock_light.printname"] = stockname.collapsible
-L["cod2019_scar_stock_light.compactname"] = stockname.collapsibles
+L["cod2019_scar_stock_light.printname"] = "FTAC Collapsible"
+L["cod2019_scar_stock_light.compactname"] = "Collapsible"
 
-L["mw19_att_wpn_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
-L["mw19_att_wpn_scar_stock_vheavy.compactname"] = "Obelisk Pro"
+L["cod2019_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
+L["cod2019_scar_stock_vheavy.compactname"] = "Obelisk Pro"
 
 /////////////// Magazine
 L["cod2019_scar_mag_ext.printname"] = string.format(mw19magtext.mag, "25")
 L["cod2019_scar_mag_ext.compactname"] = string.format(mw19magtext.mags, "25")
 L["cod2019_scar_mag_ext.description"] = string.format(mw19magtext.desc, "25", mw19ammotype["762"])
 
-L["mw19_att_wpn_scar_mag_30.printname"] = string.format(mw19magtext.mag, "25")
-L["mw19_att_wpn_scar_mag_30.compactname"] = string.format(mw19magtext.mags, "25")
-L["mw19_att_wpn_scar_mag_30.description"] = string.format(mw19magtext.descl, "25", mw19ammotype["762"])
+L["cod2019_scar_mag_30.printname"] = string.format(mw19magtext.mag, "25")
+L["cod2019_scar_mag_30.compactname"] = string.format(mw19magtext.mags, "25")
+L["cod2019_scar_mag_30.description"] = string.format(mw19magtext.descl, "25", mw19ammotype["762"])
 
 L["cod2019_scar_mag_dmr.printname"] = "6.5mm Creedmoor 10P." -- UO
 L["cod2019_scar_mag_dmr.compactname"] = "6.5mm 10P" -- UO
@@ -761,33 +762,33 @@ L["cod2019_akilo47_barrel_custom.printname"] = "Spetsnaz Elite"
 L["cod2019_akilo47_barrel_custom.compactname"] = "Spetsnaz"
 L["cod2019_akilo47_barrel_custom.description"] = "Tung pipa som används av specialstyrkor har ökad mynningshastighet och förbättrad räckvidd med mindre tillagd vikt."
 
-L["mw19_att_wpn_ak47_brl_02.printname"] = "585mm RPK-Pipa"
-L["mw19_att_wpn_ak47_brl_02.compactname"] = "RPK"
-L["mw19_att_wpn_ak47_brl_02.description"] = "Tung 585mm pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_akilo47_barrel_heavy.printname"] = "585mm RPK-Pipa"
+L["cod2019_akilo47_barrel_heavy.compactname"] = "RPK"
+L["cod2019_akilo47_barrel_heavy.description"] = "Tung 585mm pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 L["cod2019_akilo47_barrel_smg.printname"] = "210mm Kompakt Pipa"
 L["cod2019_akilo47_barrel_smg.compactname"] = "Kompakt"
 
-L["mw19_att_wpn_ak47_brl_04.printname"] = "585mm Rumänisk"
-L["mw19_att_wpn_ak47_brl_04.compactname"] = "Rumänisk"
-L["mw19_att_wpn_ak47_brl_04.description"] = "585mm pipa med inbyggt och stabilt trädgrepp är den mest stabila och träffsäkra pipan tillgänglig. Betydande vikt sänker rörlighet och hantering."
+L["cod2019_akilo47_barrel_heavy2.printname"] = "585mm Rumänisk"
+L["cod2019_akilo47_barrel_heavy2.compactname"] = "Rumänisk"
+L["cod2019_akilo47_barrel_heavy2.description"] = "585mm pipa med inbyggt och stabilt trädgrepp är den mest stabila och träffsäkra pipan tillgänglig. Betydande vikt sänker rörlighet och hantering."
 
 /////////////// Muzzle
-L["mw19_att_wpn_ak47_bayonet.printname"] = "Bajonett"
-L["mw19_att_wpn_ak47_bayonet.compactname"] = "Bajonett"
-L["mw19_att_wpn_ak47_bayonet.description"] = "Dödligt Närstridsangrepp"
+L["cod2019_ak47_bayonet.printname"] = "Bajonett"
+L["cod2019_ak47_bayonet.compactname"] = "Bajonett"
+L["cod2019_ak47_bayonet.description"] = "Dödligt Närstridsangrepp"
 
 /////////////// Stock
-L["mw19_att_wpn_ak47_stock_heavy.printname"] = "Fält Kulspruta Kolv"
-L["mw19_att_wpn_ak47_stock_heavy.compactname"] = "Fält KP."
+L["cod2019_ak47_stock_heavy.printname"] = "Fält Kulspruta Kolv"
+L["cod2019_ak47_stock_heavy.compactname"] = "Fält KP."
 
-L["cod2019_akilo47_stockskel.printname"] = stockname.skeleton
-L["cod2019_akilo47_stockskel.compactname"] = stockname.skeletons
+L["cod2019_akilo47_stockskel.printname"] = "Skeleton Stock"
+L["cod2019_akilo47_stockskel.compactname"] = "Skeleton"
 
 /////////////// Magazine
-L["mw19_att_wpn_ak47_mag_40.printname"] = string.format(mw19magtext.mag, "40")
-L["mw19_att_wpn_ak47_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
-L["mw19_att_wpn_ak47_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["762x39"])
+L["cod2019_ak47_mag_40.printname"] = string.format(mw19magtext.mag, "40")
+L["cod2019_ak47_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
+L["cod2019_ak47_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["762x39"])
 
 L["cod2019_akilo47_mag_smg.printname"] = "5.45x39mm 30-Patronersmag."
 L["cod2019_akilo47_mag_smg.compactname"] = "30P 5.45"
@@ -803,8 +804,8 @@ L["cod2019_akilo47_mag_origin12.description"] = "Konverteringskit för att anvä
 
 ////////////////////  RAM-7
 /////////////// Barrels
-L["mw19_att_wpn_ram7_brl_01.printname"] = "FTAC 340mm Compact"
-L["mw19_att_wpn_ram7_brl_01.compactname"] = "Compact"
+L["cod2019_ram7_barrel_incomplete01.printname"] = "FTAC 340mm Compact"
+L["cod2019_ram7_barrel_incomplete01.compactname"] = "Compact"
 
 L["cod2019_ram7_barrel_mid.printname"] = "FORGE TAC Eclipse"
 L["cod2019_ram7_barrel_mid.compactname"] = "Eclipse"
@@ -815,16 +816,16 @@ L["cod2019_ram7_barrel_long.compactname"] = "Ranger"
 L["cod2019_ram7_barrel_long.description"] = "Helt instängd 460mm pipa erbjuder ultimat räckvidd och träffsäkerhet till vapnet. Tillagd vikt påverkar rörlighet."
 
 /////////////// Stock
-L["mw19_att_wpn_ram7_stock_heavy.printname"] = "FTAC Equilibrium"
-L["mw19_att_wpn_ram7_stock_heavy.compactname"] = "Equilibrium"
-L["mw19_att_wpn_ram7_stock_heavy.description"] = "Viktad kolv med vadderad rekylplatta håller ditt sikte stadigt för träffsäkra skott."
+L["cod2019_ram7_stock_heavy.printname"] = "FTAC Equilibrium"
+L["cod2019_ram7_stock_heavy.compactname"] = "Equilibrium"
+L["cod2019_ram7_stock_heavy.description"] = "Viktad kolv med vadderad rekylplatta håller ditt sikte stadigt för träffsäkra skott."
 
-L["mw19_att_wpn_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
-L["mw19_att_wpn_ram7_stock_light.compactname"] = stockname.ultralights
-L["mw19_att_wpn_ram7_stock_light.description"] = "Aluminiumkärna syntetisk kolv designad för rörlighet i siktet."
+L["cod2019_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
+L["cod2019_ram7_stock_light.compactname"] = "Ultralight"
+L["cod2019_ram7_stock_light.description"] = "Aluminiumkärna syntetisk kolv designad för rörlighet i siktet."
 
 L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters-Kolv"
-L["cod2019_ram7_stock_tactical.compactname"] = stockname.closequartersstocks
+L["cod2019_ram7_stock_tactical.compactname"] = "CQS"
 
 /////////////// Magazine
 L["cod2019_ram7_mag_drum_9mm.printname"] = "9mm 60-Patronersmagasin" -- UO
@@ -833,13 +834,13 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "Konverteringskit för att använda
 
 ////////////////////  Grau 5.56
 /////////////// Barrels
-L["mw19_att_wpn_grau_brl_01.printname"] = "ZLR Drifter A-08"
-L["mw19_att_wpn_grau_brl_01.compactname"] = "Drifter"
-L["mw19_att_wpn_grau_brl_01.description"] = "Ultrakort 135mm pipa med inbyggt framgrepp tillåter bäst-i-klass rörlighet och manövrering utan att offra rekylkontroll."
+L["cod2019_grau_barrel_incomplete01.printname"] = "ZLR Drifter A-08"
+L["cod2019_grau_barrel_incomplete01.compactname"] = "Drifter"
+L["cod2019_grau_barrel_incomplete01.description"] = "Ultrakort 135mm pipa med inbyggt framgrepp tillåter bäst-i-klass rörlighet och manövrering utan att offra rekylkontroll."
 
-L["mw19_att_wpn_grau_brl_02.printname"] = "Tempus 670mm Archangel"
-L["mw19_att_wpn_grau_brl_02.compactname"] = "Archangel"
-L["mw19_att_wpn_grau_brl_02.description"] = "Delvis skyddad 670mm pipa från FSS erbjuder det ultimata i räckvidd och träffsäkerhet. Denna tunga pipan är ideal för att förbättra precisionen på längre räckvidder."
+L["cod2019_grau_barrel_incomplete02.printname"] = "Tempus 670mm Archangel"
+L["cod2019_grau_barrel_incomplete02.compactname"] = "Archangel"
+L["cod2019_grau_barrel_incomplete02.description"] = "Delvis skyddad 670mm pipa från FSS erbjuder det ultimata i räckvidd och träffsäkerhet. Denna tunga pipan är ideal för att förbättra precisionen på längre räckvidder."
 
 L["cod2019_grau556_barrel_heavy.printname"] = "ZRK CZEN mk2"
 L["cod2019_grau556_barrel_heavy.compactname"] = "CZEN"
@@ -849,48 +850,48 @@ L["cod2019_grau556_barrel_long.printname"] = "FSS 530mm Nexus"
 L["cod2019_grau556_barrel_long.compactname"] = "Nexus"
 L["cod2019_grau556_barrel_long.description"] = "Rostfri stål 530mm pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["mw19_att_wpn_grau_brl_05.printname"] = "FSS 300mm Squall"
-L["mw19_att_wpn_grau_brl_05.compactname"] = "Squall"
+L["cod2019_grau_barrel_incomplete05.printname"] = "FSS 300mm Squall"
+L["cod2019_grau_barrel_incomplete05.compactname"] = "Squall"
 
 /////////////// Stock
 L["cod2019_grau556_stock_heavy.printname"] = "FSS Blackjack"
 L["cod2019_grau556_stock_heavy.compactname"] = "Blackjack"
 
-L["mw19_att_wpn_grau_stock_light.printname"] = "XRK StrikeLite III"
-L["mw19_att_wpn_grau_stock_light.compactname"] = "StrikeLite III"
-L["mw19_att_wpn_grau_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
+L["cod2019_grau_stock_light.printname"] = "XRK StrikeLite III"
+L["cod2019_grau_stock_light.compactname"] = "StrikeLite III"
+L["cod2019_grau_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
 
-L["cod2019_grau556_stock_none.printname"] = stockname.none
-L["cod2019_grau556_stock_none.compactname"] = stockname.nones
+L["cod2019_grau556_stock_none.printname"] = "No Stock"
+L["cod2019_grau556_stock_none.compactname"] = "N/A"
 
 ////////////////////  CR-56 AMAX
 /////////////// Barrels
-L["mw19_att_wpn_cr56_brl_01.printname"] = "FSS 8.3\" Intruder"
-L["mw19_att_wpn_cr56_brl_01.compactname"] = "Intruder"
-L["mw19_att_wpn_cr56_brl_01.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Excels in CQB and room clearing."
+L["cod2019_cr56_barrel_incomplete01.printname"] = "FSS 8.3\" Intruder"
+L["cod2019_cr56_barrel_incomplete01.compactname"] = "Intruder"
+L["cod2019_cr56_barrel_incomplete01.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Excels in CQB and room clearing."
 
 L["cod2019_cr56_barrel_long.printname"] = "XRK Zodiac S440"
 L["cod2019_cr56_barrel_long.compactname"] = "Zodiac"
 L["cod2019_cr56_barrel_long.description"] = "Nå räckviddens höjdpunkt med denna träffsäkra pipan från XRK. Överlägsen mynningshastighet och stabilisering med kostnad på rörlighet."
 
 /////////////// Stock
-L["mw19_att_wpn_cr56_stock_light.printname"] = "FTAC Spartan"
-L["mw19_att_wpn_cr56_stock_light.compactname"] = "Spartan"
+L["cod2019_cr56_stock_light.printname"] = "FTAC Spartan"
+L["cod2019_cr56_stock_light.compactname"] = "Spartan"
 
-L["mw19_att_wpn_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
-L["mw19_att_wpn_cr56_stock_vheavy.compactname"] = "Gatekeeper"
+L["cod2019_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
+L["cod2019_cr56_stock_vheavy.compactname"] = "Gatekeeper"
 
-L["mw19_att_wpn_cr56_stock_vlight.printname"] = "CR-56 EXO"
-L["mw19_att_wpn_cr56_stock_vlight.compactname"] = "EXO"
+L["cod2019_cr56_stock_vlight.printname"] = "CR-56 EXO"
+L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
 
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = "45-Patronersmagasin"
 L["cod2019_cr56_mag_xmag.compactname"] = "45R"
 L["cod2019_cr56_mag_xmag.description"] = "Förstorade magasin håller <color=100,255,100>45 patroner</color> av 7.62x39mm-ammunition med lätt ökad vikt."
 
-L["mw19_att_wpn_cr56_mag_m67.printname"] = "M67 10-R Mags"
-L["mw19_att_wpn_cr56_mag_m67.compactname"] = "M67 10-R"
-L["mw19_att_wpn_cr56_mag_m67.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>7.62 M67</color> ammunition designed for increased muzzle velocity, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
+L["cod2019_cr56_mag_m67.printname"] = "M67 10-R Mags"
+L["cod2019_cr56_mag_m67.compactname"] = "M67 10-R"
+L["cod2019_cr56_mag_m67.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>7.62 M67</color> ammunition designed for increased muzzle velocity, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
 
 L["cod2019_cr56_mag_fal.printname"] = "7.62 NATO 30P" -- UO
 L["cod2019_cr56_mag_fal.compactname"] = "7.62 30-P" -- UO
@@ -901,16 +902,16 @@ L["cod2019_cr56_mag_grau552.compactname"] = "5,56 30-P" -- UO
 L["cod2019_cr56_mag_grau552.description"] = "Konverteringskit för att använda <color=255,255,100>5,56 NATO</color> ammunition. Skjuter med en högre hastighet med mindre rekyl." -- UO
 
 /////////////// Pistol Grips
-L["mw19_att_wpn_cr56_rg_gran.printname"] = "XRK CR-56 Granulated Wrap"
+L["cod2019_cr56_griptape_01.printname"] = "XRK CR-56 Granulated Wrap"
 
-L["mw19_att_wpn_cr56_rg_rubber.printname"] = "XRK CR-56 Rubberized Wrap"
+L["cod2019_cr56_griptape_02.printname"] = "XRK CR-56 Rubberized Wrap"
 
-L["mw19_att_wpn_cr56_rg_stippled.printname"] = "XRK CR-56 Stippled Wrap"
+L["cod2019_cr56_griptape_03.printname"] = "XRK CR-56 Stippled Wrap"
 
 ////////////////////  AN-94
 /////////////// Optics
-L["mw19_att_wpn_an94_optic_thermal.printname"] = "POS-M3 Värmesikte"
-L["mw19_att_wpn_an94_optic_thermal.compactname"] = "POS-M3"
+L["cod2019_an94_optic_thermal.printname"] = "POS-M3 Värmesikte"
+L["cod2019_an94_optic_thermal.compactname"] = "POS-M3"
 
 /////////////// Barrels
 L["cod2019_an94_barrel_short.printname"] = "AN-94 330mm Fabrik"
@@ -921,28 +922,28 @@ L["cod2019_an94_barrel_long.printname"] = "AN-94 X-438mm Fabrik"
 L["cod2019_an94_barrel_long.compactname"] = "X-438mm"
 L["cod2019_an94_barrel_long.description"] = "Experimental 438mm förlängd pipa som tänjer på vapnets operationsgräns med progressiva fjädrar och ett fallhärdat, kromat lopp."
 
-L["mw19_att_wpn_an94_brl_03.printname"] = "VLK AN-94 Sila"
-L["mw19_att_wpn_an94_brl_03.compactname"] = "Sila"
-L["mw19_att_wpn_an94_brl_03.description"] = "Eftermarknads tung polygonellt räfflad pipa förlänger räckvidden och mynningshastigheten. Städpipa skydd förhindrar att den extra vikten skadar den skyddade fjädern."
+L["cod2019_an94_barrel_incomplete03.printname"] = "VLK AN-94 Sila"
+L["cod2019_an94_barrel_incomplete03.compactname"] = "Sila"
+L["cod2019_an94_barrel_incomplete03.description"] = "Eftermarknads tung polygonellt räfflad pipa förlänger räckvidden och mynningshastigheten. Städpipa skydd förhindrar att den extra vikten skadar den skyddade fjädern."
 
 /////////////// Muzzle
-L["mw19_att_wpn_an94_muzzle_sonic.printname"] = "AN-94 Sonic Brake"
-L["mw19_att_wpn_an94_muzzle_sonic.compactname"] = "Sonic"
-L["mw19_att_wpn_an94_muzzle_sonic.description"] = "Toppmodern mynningsbroms mildrar hyperburst-rekylen utan att öka vapnets ljudsignatur."
+L["cod2019_an94_muzzle_sonic.printname"] = "AN-94 Sonic Brake"
+L["cod2019_an94_muzzle_sonic.compactname"] = "Sonic"
+L["cod2019_an94_muzzle_sonic.description"] = "Toppmodern mynningsbroms mildrar hyperburst-rekylen utan att öka vapnets ljudsignatur."
 
 /////////////// Stock
-L["mw19_att_wpn_an94_stock_heavy.printname"] = "AN-94 Tung Fabrikskolv"
-L["mw19_att_wpn_an94_stock_heavy.compactname"] = "Fabrik"
-L["mw19_att_wpn_an94_stock_heavy.description"] = "Tung kolv med taktisk kamm. Håller ditt sikte stadigt för träffsäkra skott."
+L["cod2019_an94_stock_heavy.printname"] = "AN-94 Tung Fabrikskolv"
+L["cod2019_an94_stock_heavy.compactname"] = "Fabrik"
+L["cod2019_an94_stock_heavy.description"] = "Tung kolv med taktisk kamm. Håller ditt sikte stadigt för träffsäkra skott."
 
-L["mw19_att_wpn_an94_stock_none.printname"] = stockname.folded
-L["mw19_att_wpn_an94_stock_none.compactname"] = stockname.foldeds
+L["cod2019_an94_stock_none.printname"] = "Folded Stock"
+L["cod2019_an94_stock_none.compactname"] = "Folded"
 
-L["mw19_att_wpn_an94_stock_vlight.printname"] = "VLK PX-9 Pero"
-L["mw19_att_wpn_an94_stock_vlight.compactname"] = "Pero"
+L["cod2019_an94_stock_vlight.printname"] = "VLK PX-9 Pero"
+L["cod2019_an94_stock_vlight.compactname"] = "Pero"
 
-L["cod2019_an94_stockskel.printname"] = stockname.skeleton
-L["cod2019_an94_stockskel.compactname"] = stockname.skeletons
+L["cod2019_an94_stockskel.printname"] = "Skeleton Stock"
+L["cod2019_an94_stockskel.compactname"] = "Skeleton"
 
 /////////////// Magazine
 L["cod2019_an94_mag_45.printname"] = string.format(mw19magtext.mag, "45")
@@ -960,42 +961,42 @@ L["cod2019_optic_scope_svd.compactname"] = "Dragunov"
 L["cod2019_optic_scope_svd.description"] = "Högt kraftfull <color=100,255,100>5,5x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 /////////////// Barrels
-L["mw19_att_wpn_asval_brl_01.printname"] = "VLK 105mm Sova"
-L["mw19_att_wpn_asval_brl_01.compactname"] = "Sova"
-L["mw19_att_wpn_asval_brl_01.description"] = "Lättvikt och tyst, bafflar av titan och ett skydd av aluminium förbättrar vapenmanövring."
+L["cod2019_asval_barrel_incomplete01.printname"] = "VLK 105mm Sova"
+L["cod2019_asval_barrel_incomplete01.compactname"] = "Sova"
+L["cod2019_asval_barrel_incomplete01.description"] = "Lättvikt och tyst, bafflar av titan och ett skydd av aluminium förbättrar vapenmanövring."
 
-L["mw19_att_wpn_asval_brl_02.printname"] = "Stovl SOF"
-L["mw19_att_wpn_asval_brl_02.compactname"] = "Stovl"
-L["mw19_att_wpn_asval_brl_02.description"] = "Designad för  räder och spaningsuppdrag för specialstyrkor, en proprietär monokärna erbjuder kvalitet ljuddämpande i en kortare pipa."
+L["cod2019_asval_barrel_incomplete02.printname"] = "Stovl SOF"
+L["cod2019_asval_barrel_incomplete02.compactname"] = "Stovl"
+L["cod2019_asval_barrel_incomplete02.description"] = "Designad för  räder och spaningsuppdrag för specialstyrkor, en proprietär monokärna erbjuder kvalitet ljuddämpande i en kortare pipa."
 
 L["cod2019_asval_barrel_heavy.printname"] = "VLK 200mm Osa"
 L["cod2019_asval_barrel_heavy.compactname"] = "Osa"
 L["cod2019_asval_barrel_heavy.description"] = "Eftermarknads monolitisk internt ljuddämpad pipa med ett ihåligt skydd som drastiskt ökar mynningshastighet och räckvidd."
 
 /////////////// Stock
-L["mw19_att_wpn_asval_stock_heavy.printname"] = "VLK Vintazh"
-L["mw19_att_wpn_asval_stock_heavy.compactname"] = "Vintazh"
-L["mw19_att_wpn_asval_stock_heavy.description"] = "Klassisk träkolv känd för dess stabilitet."
+L["cod2019_asval_stock_heavy.printname"] = "VLK Vintazh"
+L["cod2019_asval_stock_heavy.compactname"] = "Vintazh"
+L["cod2019_asval_stock_heavy.description"] = "Klassisk träkolv känd för dess stabilitet."
 
-L["mw19_att_wpn_asval_stock_medium.printname"] = "FSS Intl. Gen 4 GRU"
-L["mw19_att_wpn_asval_stock_medium.compactname"] = "Gen 4 GRU"
-L["mw19_att_wpn_asval_stock_medium.description"] = "Kommission från FSS International, denna kolv är designad för att förbättra målförvärv tiden för elitstyrkor."
+L["cod2019_asval_stock_medium.printname"] = "FSS Intl. Gen 4 GRU"
+L["cod2019_asval_stock_medium.compactname"] = "Gen 4 GRU"
+L["cod2019_asval_stock_medium.description"] = "Kommission från FSS International, denna kolv är designad för att förbättra målförvärv tiden för elitstyrkor."
 
-L["mw19_att_wpn_asval_stock_vlight.printname"] = "Stovl 6P30 Skelet"
-L["mw19_att_wpn_asval_stock_vlight.compactname"] = "Skelet"
+L["cod2019_asval_stock_vlight.printname"] = "Stovl 6P30 Skelet"
+L["cod2019_asval_stock_vlight.compactname"] = "Skelet"
 
-L["mw19_att_wpn_asval_stock_vheavy.printname"] = "VLK Strelok"
-L["mw19_att_wpn_asval_stock_vheavy.compactname"] = "Strelok"
-L["mw19_att_wpn_asval_stock_vheavy.description"] = "Precision Marksman-kolv erbjuder utmärkt träffsäkerhet och rekyldämpande med kostnad på rörlighet."
+L["cod2019_asval_stock_vheavy.printname"] = "VLK Strelok"
+L["cod2019_asval_stock_vheavy.compactname"] = "Strelok"
+L["cod2019_asval_stock_vheavy.description"] = "Precision Marksman-kolv erbjuder utmärkt träffsäkerhet och rekyldämpande med kostnad på rörlighet."
 
 /////////////// Magazine
 L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
 
-L["mw19_att_wpn_asval_mag_spp.printname"] = "SPP 10-Patronersmagasin"
-L["mw19_att_wpn_asval_mag_spp.compactname"] = "SPP 10-P"
-L["mw19_att_wpn_asval_mag_spp.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>9x39mm SPP</color> pansarbrytande ammunition designad för ökad penetration, förbättrad träffsäkerhet, och överlägsen skada. Vapnet ändras till <color=100,255,100>halvautomat</color>."
+L["cod2019_asval_mag_spp.printname"] = "SPP 10-Patronersmagasin"
+L["cod2019_asval_mag_spp.compactname"] = "SPP 10-P"
+L["cod2019_asval_mag_spp.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>9x39mm SPP</color> pansarbrytande ammunition designad för ökad penetration, förbättrad träffsäkerhet, och överlägsen skada. Vapnet ändras till <color=100,255,100>halvautomat</color>."
 
 ////////////////////////  Submachine Guns
 ////////////////////  AUG
@@ -1009,29 +1010,29 @@ L["cod2019_aug_barrel_ar_long.printname"] = "407mm Förlängd Pipa"
 L["cod2019_aug_barrel_ar_long.compactname"] = "Förlängd"
 L["cod2019_aug_barrel_ar_long.description"] = "Förlängd pipa av rostfritt stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men sänker hantering."
 
-L["mw19_att_wpn_aug_brl_02.printname"] = "407mm Lättvikt"
-L["mw19_att_wpn_aug_brl_02.compactname"] = "Lättvikt"
-L["mw19_att_wpn_aug_brl_02.description"] = "Fördjupad förlängd pipa av aluminiumlegering förlänger räckvidd och mynningshastigheten med minimal tillagd vikt."
+L["cod2019_aug_barrel_incomplete02.printname"] = "407mm Lättvikt"
+L["cod2019_aug_barrel_incomplete02.compactname"] = "Lättvikt"
+L["cod2019_aug_barrel_incomplete02.description"] = "Fördjupad förlängd pipa av aluminiumlegering förlänger räckvidd och mynningshastigheten med minimal tillagd vikt."
 
-L["mw19_att_wpn_aug_brl_03.printname"] = "622mm Lång Pipa"
-L["mw19_att_wpn_aug_brl_03.compactname"] = "Lång"
-L["mw19_att_wpn_aug_brl_03.description"] = "Maximal förlängd pipa trycker detta vapnets räckvidd till det extrema. Tung vikt, slät hantering."
+L["cod2019_aug_barrel_incomplete03.printname"] = "622mm Lång Pipa"
+L["cod2019_aug_barrel_incomplete03.compactname"] = "Lång"
+L["cod2019_aug_barrel_incomplete03.description"] = "Maximal förlängd pipa trycker detta vapnets räckvidd till det extrema. Tung vikt, slät hantering."
 
 /////////////// Stock
-L["mw19_att_wpn_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
-L["mw19_att_wpn_aug_stock_heavy.compactname"] = stockname.ultralights
+L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
+L["cod2019_aug_stock_heavy.compactname"] = "Ultralight"
 
-L["cod2019_aug_stock_tactical.printname"] = stockname.cqbcomb
-L["cod2019_aug_stock_tactical.compactname"] = stockname.cqbcombs
+L["cod2019_aug_stock_tactical.printname"] = "FORGE TAC CQB Comb"
+L["cod2019_aug_stock_tactical.compactname"] = "CQB Comb"
 
-L["mw19_att_wpn_aug_stock_heavy.printname"] = stockname.heavypro
-L["mw19_att_wpn_aug_stock_heavy.compactname"] = stockname.heavypros
-L["mw19_att_wpn_aug_stock_heavy.description"] = "Tung kolvtillbehör erbjuder stabilitet i siktet."
+L["cod2019_aug_stock_heavy.printname"] = "FSS Heavy Stock Pro"
+L["cod2019_aug_stock_heavy.compactname"] = "Heavy Pro"
+L["cod2019_aug_stock_heavy.description"] = "Tung kolvtillbehör erbjuder stabilitet i siktet."
 
 /////////////// Magazine
-L["mw19_att_wpn_aug_mag_32.printname"] = string.format(mw19magtext.mag, "32")
-L["mw19_att_wpn_aug_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
-L["mw19_att_wpn_aug_mag_32.description"] = string.format(mw19magtext.desc, "32", mw19ammotype["919"])
+L["cod2019_aug_mag_32.printname"] = string.format(mw19magtext.mag, "32")
+L["cod2019_aug_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
+L["cod2019_aug_mag_32.description"] = string.format(mw19magtext.desc, "32", mw19ammotype["919"])
 
 L["cod2019_aug_mag_ar_30.printname"] = "5,56 NATO 30-Patronersmagasin"
 L["cod2019_aug_mag_ar_30.compactname"] = "30P 5,56"
@@ -1043,29 +1044,29 @@ L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5,56 NATO</color>
 
 ////////////////////  P90
 /////////////// Optics
-L["mw19_att_wpn_p90_optic_integral.printname"] = "FSS Ring-Sikte"
-L["mw19_att_wpn_p90_optic_integral.compactname"] = "FSS"
-L["mw19_att_wpn_p90_optic_integral.description"] = "Anpassat inbyggt reflexsikte erbjuder högre precision."
+L["cod2019_p90_optic_integral.printname"] = "FSS Ring-Sikte"
+L["cod2019_p90_optic_integral.compactname"] = "FSS"
+L["cod2019_p90_optic_integral.description"] = "Anpassat inbyggt reflexsikte erbjuder högre precision."
 
 /////////////// Barrels
 L["cod2019_p90_barrel_custom.printname"] = "FORGE TAC Retribution"
 L["cod2019_p90_barrel_custom.compactname"] = "Retribution"
 L["cod2019_p90_barrel_custom.description"] = "Förlängd framskydd håller en 406mm polygonellt räfflad pipa. Ökar kraftigt mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["mw19_att_wpn_p90_brl_02.printname"] = "FSS 270mm Pro"
-L["mw19_att_wpn_p90_brl_02.compactname"] = "270mm Pro"
-L["mw19_att_wpn_p90_brl_02.description"] = "270mm pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med väldigt lite tillagd vikt."
+L["cod2019_p90_barrel_incomplete02.printname"] = "FSS 270mm Pro"
+L["cod2019_p90_barrel_incomplete02.compactname"] = "270mm Pro"
+L["cod2019_p90_barrel_incomplete02.description"] = "270mm pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med väldigt lite tillagd vikt."
 
 /////////////// Stock
-L["mw19_att_wpn_p90_stock_medium.printname"] = stockname.cqbcomb
-L["mw19_att_wpn_p90_stock_medium.compactname"] = stockname.cqbcombs
+L["cod2019_p90_stock_medium.printname"] = "FORGE TAC CQB Comb"
+L["cod2019_p90_stock_medium.compactname"] = "CQB Comb"
 
 L["cod2019_p90_stock_sling.printname"] = "Flugrem"
 L["cod2019_p90_stock_sling.compactname"] = "Flugrem"
 L["cod2019_p90_stock_sling.description"] = "Klipprem förbättrar snabb vapenhantering."
 
-L["mw19_att_wpn_p90_stock_heavy.printname"] = stockname.heavypro
-L["mw19_att_wpn_p90_stock_heavy.compactname"] = stockname.heavypros
+L["cod2019_p90_stock_heavy.printname"] = "FSS Heavy Stock Pro"
+L["cod2019_p90_stock_heavy.compactname"] = "Heavy Pro"
 
 ////////////////////  MP5
 /////////////// Misc
@@ -1077,34 +1078,34 @@ L["cod2019_mp5_sight_default_on.description"] = "Tvinga att standard järn & kor
 L["cod2019_mp5_barrel_light.printname"] = "FSS Light"
 L["cod2019_mp5_barrel_light.compactname"] = "Light"
 
-L["mw19_att_wpn_mp5_brl_02.printname"] = "Monolitiskt Intern Ljuddämpade"
-L["mw19_att_wpn_mp5_brl_02.compactname"] = "Monolitisk"
+L["cod2019_mp5_barrel_incomplete02.printname"] = "Monolitiskt Intern Ljuddämpade"
+L["cod2019_mp5_barrel_incomplete02.compactname"] = "Monolitisk"
 
-L["mw19_att_wpn_mp5_brl_03.printname"] = "FSS Mini"
-L["mw19_att_wpn_mp5_brl_03.compactname"] = "Mini"
+L["cod2019_mp5_barrel_incomplete03.printname"] = "FSS Mini"
+L["cod2019_mp5_barrel_incomplete03.compactname"] = "Mini"
 
 L["cod2019_mp5_barrel_supp.printname"] = "Subsoniskt Intern Ljuddämpare"
 L["cod2019_mp5_barrel_supp.compactname"] = "Subsonisk"
 L["cod2019_mp5_barrel_supp.description"] = "Lättvikt <color=255,255,100>ljuddämpare av aluminium</color> sänker mynningshastigheten till subsoniska hastigheter vilker erbjuder en slät rekyl, låg ljudsignatur, och inga synliga spårljus."
 
 /////////////// Stock
-L["mw19_att_wpn_mp5_stock_light.printname"] = stockname.ultralight
-L["mw19_att_wpn_mp5_stock_light.compactname"] = stockname.ultralights
+L["cod2019_mp5_stock_light.printname"] = "FORGE TAC Ultralight"
+L["cod2019_mp5_stock_light.compactname"] = "Ultralight"
 
 L["cod2019_mp5_stock_fullstock.printname"] = "Klassisk Straight-line-Kolv"
 L["cod2019_mp5_stock_fullstock.compactname"] = "Klassisk"
 L["cod2019_mp5_stock_fullstock.description"] = "Helkroppskolv erbjuder en mer stabil siktvy."
 
-L["mw19_att_wpn_mp5_stock_medium.printname"] = stockname.closequartersstock
-L["mw19_att_wpn_mp5_stock_medium.compactname"] = stockname.closequartersstocks
+L["cod2019_mp5_stock_medium.printname"] = "FSS Close Quarters Stock"
+L["cod2019_mp5_stock_medium.compactname"] = "CQS"
 
-L["mw19_att_wpn_mp5_stock_none.printname"] = stockname.collapsible
-L["mw19_att_wpn_mp5_stock_none.compactname"] = stockname.collapsibles
+L["cod2019_mp5_stock_none.printname"] = "FTAC Collapsible"
+L["cod2019_mp5_stock_none.compactname"] = "Collapsible"
 
 /////////////// Magazine
-L["mw19_att_wpn_mp5_mag_45.printname"] = string.format(mw19magtext.mag, "45")
-L["mw19_att_wpn_mp5_mag_45.compactname"] = string.format(mw19magtext.mags, "45")
-L["mw19_att_wpn_mp5_mag_45.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["919"])
+L["cod2019_mp5_mag_45.printname"] = string.format(mw19magtext.mag, "45")
+L["cod2019_mp5_mag_45.compactname"] = string.format(mw19magtext.mags, "45")
+L["cod2019_mp5_mag_45.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["919"])
 
 L["cod2019_mp5_mag_9mm.printname"] = "10mm Auto 30-Patronersmagasin"
 L["cod2019_mp5_mag_9mm.compactname"] = "30P 10mm"
@@ -1112,9 +1113,9 @@ L["cod2019_mp5_mag_9mm.description"] = "Konverteringskit för att använda högr
 
 ////////////////////  Uzi
 /////////////// Barrels
-L["mw19_att_wpn_uzi_brl_01.printname"] = "333mm Blåljuspersonal"
-L["mw19_att_wpn_uzi_brl_01.compactname"] = "Blåljus."
-L["mw19_att_wpn_uzi_brl_01.description"] = "Anpassad pipa med lätt ökad längd och polygonell räffling för ökad mynningshastighet och förbättrad räckvidd. Lägger till lite tillagd vikt."
+L["cod2019_uzi_barrel_incomplete01.printname"] = "333mm Blåljuspersonal"
+L["cod2019_uzi_barrel_incomplete01.compactname"] = "Blåljus."
+L["cod2019_uzi_barrel_incomplete01.description"] = "Anpassad pipa med lätt ökad längd och polygonell räffling för ökad mynningshastighet och förbättrad räckvidd. Lägger till lite tillagd vikt."
 
 L["cod2019_uzi_barrel_short.printname"] = "216mm Fabrik Mini"
 L["cod2019_uzi_barrel_short.compactname"] = "Mini"
@@ -1122,29 +1123,29 @@ L["cod2019_uzi_barrel_short.compactname"] = "Mini"
 L["cod2019_uzi_barrel_long.printname"] = "420mm Fabrikskarbin"
 L["cod2019_uzi_barrel_long.compactname"] = "Karbin"
 
-L["mw19_att_wpn_uzi_brl_04.printname"] = "FSS-Karbine Pro"
-L["mw19_att_wpn_uzi_brl_04.compactname"] = "Karbin Pro"
-L["mw19_att_wpn_uzi_brl_04.description"] = "Tung polygonellt räfflad pipa av rostfritt stål ökar drastiskt mynningshastigheten och förlänger räckvidden till max. Tillagd vikt stabiliserar skotten men påverkar rörligheten."
+L["cod2019_uzi_barrel_incomplete04.printname"] = "FSS-Karbine Pro"
+L["cod2019_uzi_barrel_incomplete04.compactname"] = "Karbin Pro"
+L["cod2019_uzi_barrel_incomplete04.description"] = "Tung polygonellt räfflad pipa av rostfritt stål ökar drastiskt mynningshastigheten och förlänger räckvidden till max. Tillagd vikt stabiliserar skotten men påverkar rörligheten."
 
 /////////////// Stock
-L["mw19_att_wpn_uzi_stock_light.printname"] = stockname.ultralight
-L["mw19_att_wpn_uzi_stock_light.compactname"] = stockname.ultralights
+L["cod2019_uzi_stock_light.printname"] = "FORGE TAC Ultralight"
+L["cod2019_uzi_stock_light.compactname"] = "Ultralight"
 
-L["mw19_att_wpn_uzi_stock_heavy.printname"] = "Standard Träkolv"
-L["mw19_att_wpn_uzi_stock_heavy.compactname"] = "Träkolv"
-L["mw19_att_wpn_uzi_stock_heavy.description"] = "Original helträkolv erbjuder utmärkt stabilitet i siktet."
+L["cod2019_uzi_stock_heavy.printname"] = "Standard Träkolv"
+L["cod2019_uzi_stock_heavy.compactname"] = "Träkolv"
+L["cod2019_uzi_stock_heavy.description"] = "Original helträkolv erbjuder utmärkt stabilitet i siktet."
 
-L["mw19_att_wpn_uzi_stock_medium.printname"] = stockname.closequartersstock
-L["mw19_att_wpn_uzi_stock_medium.compactname"] = stockname.closequartersstocks
+L["cod2019_uzi_stock_medium.printname"] = "FSS Close Quarters Stock"
+L["cod2019_uzi_stock_medium.compactname"] = "CQS"
 
 /////////////// Magazine
-L["mw19_att_wpn_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
-L["mw19_att_wpn_uzi_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
-L["mw19_att_wpn_uzi_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["919"])
+L["cod2019_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
+L["cod2019_uzi_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
+L["cod2019_uzi_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["919"])
 
-L["mw19_att_wpn_uzi_mag_50.printname"] = string.format(mw19magtext.mag, "50")
-L["mw19_att_wpn_uzi_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
-L["mw19_att_wpn_uzi_mag_50.description"] = string.format(mw19magtext.descl, "50", mw19ammotype["919"])
+L["cod2019_uzi_mag_50.printname"] = string.format(mw19magtext.mag, "50")
+L["cod2019_uzi_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_uzi_mag_50.description"] = string.format(mw19magtext.descl, "50", mw19ammotype["919"])
 
 L["cod2019_uzi_mag_cult.printname"] = ".41 AE 32-Patronersmagasin"
 L["cod2019_uzi_mag_cult.compactname"] = "32P .41 AE"
@@ -1152,9 +1153,9 @@ L["cod2019_uzi_mag_cult.description"] = "Konverteringskit för att använda 32-p
 
 ////////////////////  PP19 Bizon
 /////////////// Barrels
-L["mw19_att_wpn_pp19_brl_01.printname"] = "221mm Stål"
-L["mw19_att_wpn_pp19_brl_01.compactname"] = "Stål"
-L["mw19_att_wpn_pp19_brl_01.description"] = "Tung pipa av stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_pp19_barrel_incomplete01.printname"] = "221mm Stål"
+L["cod2019_pp19_barrel_incomplete01.compactname"] = "Stål"
+L["cod2019_pp19_barrel_incomplete01.description"] = "Tung pipa av stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 L["cod2019_bizon_barrel_long.printname"] = "221mm Polygonell"
 L["cod2019_bizon_barrel_long.compactname"] = "Polygonell"
@@ -1165,14 +1166,14 @@ L["cod2019_bizon_barrel_short.compactname"] = "Aluminium"
 L["cod2019_bizon_barrel_short.description"] = "Gropad pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
 /////////////// Stock
-L["mw19_att_wpn_pp19_stock_light.printname"] = "Aluminium Fabrikskolv"
+L["cod2019_pp19_stock_light.printname"] = "Aluminium Fabrikskolv"
 
-L["mw19_att_wpn_pp19_stock_vlight.printname"] = "Corvus-Skelettkolv"
-L["mw19_att_wpn_pp19_stock_vlight.compactname"] = "Corvus"
-L["mw19_att_wpn_pp19_stock_vlight.description"] = "Original helkroppskolv erbjuder utmärkt stabilitet i siktet."
+L["cod2019_pp19_stock_vlight.printname"] = "Corvus-Skelettkolv"
+L["cod2019_pp19_stock_vlight.compactname"] = "Corvus"
+L["cod2019_pp19_stock_vlight.description"] = "Original helkroppskolv erbjuder utmärkt stabilitet i siktet."
 
-L["mw19_att_wpn_pp19_stock_medium.printname"] = stockname.closequartersstock
-L["mw19_att_wpn_pp19_stock_medium.compactname"] = stockname.closequartersstocks
+L["cod2019_pp19_stock_medium.printname"] = "FSS Close Quarters Stock"
+L["cod2019_pp19_stock_medium.compactname"] = "CQS"
 
 /////////////// Magazine
 L["cod2019_bizon_mag_xmag.printname"] = "84-Patroners Spiralformade Magasin"
@@ -1181,9 +1182,9 @@ L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", 
 
 ////////////////////  MP7
 /////////////// Barrels
-L["mw19_att_wpn_mp7_brl_01.printname"] = "FSS STRIKE"
-L["mw19_att_wpn_mp7_brl_01.compactname"] = "STRIKE"
-L["mw19_att_wpn_mp7_brl_01.description"] = "Designad för elit specialoperationer, den ökade längden och polygonala räfflingen öker mynningshastigheten och räckvidden med lätt ökad vikt."
+L["cod2019_mp7_barrel_incomplete01.printname"] = "FSS STRIKE"
+L["cod2019_mp7_barrel_incomplete01.compactname"] = "STRIKE"
+L["cod2019_mp7_barrel_incomplete01.description"] = "Designad för elit specialoperationer, den ökade längden och polygonala räfflingen öker mynningshastigheten och räckvidden med lätt ökad vikt."
 
 L["cod2019_mp7_barrel_long.printname"] = "FSS RECON"
 L["cod2019_mp7_barrel_long.compactname"] = "RECON"
@@ -1217,9 +1218,9 @@ L["cod2019_striker45_mag_ump.compactname"] = "Klassisk" -- UO
 L["cod2019_striker45_mag_ump.description"] = "Klassiska UMP-magasin till Striker 45." -- UO
 
 /////////////// Barrels
-L["mw19_att_wpn_striker45_brl_01.printname"] = "300mm Poly-Pipa"
-L["mw19_att_wpn_striker45_brl_01.compactname"] = "Poly"
-L["mw19_att_wpn_striker45_brl_01.description"] = "Förlängd pipa med lättvikt konstruering och polygonell räffling för ökad mynningshastighet och förbättrad räckvidd. Lägger till lite tillagd vikt."
+L["cod2019_striker45_barrel_incomplete01.printname"] = "300mm Poly-Pipa"
+L["cod2019_striker45_barrel_incomplete01.compactname"] = "Poly"
+L["cod2019_striker45_barrel_incomplete01.description"] = "Förlängd pipa med lättvikt konstruering och polygonell räffling för ökad mynningshastighet och förbättrad räckvidd. Lägger till lite tillagd vikt."
 
 L["cod2019_striker45_barrel_long.printname"] = "400mm Rostfri Stål"
 L["cod2019_striker45_barrel_long.compactname"] = "400mm RS"
@@ -1230,51 +1231,51 @@ L["cod2019_striker45_barrel_short.compactname"] = "150mm RS"
 L["cod2019_striker45_barrel_short.description"] = "Kort, kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Förbättrar prestandan i närstridsangrepp."
 
 /////////////// Stock
-L["mw19_att_wpn_striker45_stock_light.printname"] = "FSS Guardian"
-L["mw19_att_wpn_striker45_stock_light.compactname"] = "Guardian"
-L["mw19_att_wpn_striker45_stock_light.description"] = "Lättvikt, anpassad kolv från FSS blander rörlighet med utmärkt stabilitet."
+L["cod2019_striker45_stock_light.printname"] = "FSS Guardian"
+L["cod2019_striker45_stock_light.compactname"] = "Guardian"
+L["cod2019_striker45_stock_light.description"] = "Lättvikt, anpassad kolv från FSS blander rörlighet med utmärkt stabilitet."
 
-L["mw19_att_wpn_striker45_stock_heavy.printname"] = "FTAC Precision Fast Kolv"
-L["mw19_att_wpn_striker45_stock_heavy.compactname"] = "Fast"
+L["cod2019_striker45_stock_heavy.printname"] = "FTAC Precision Fast Kolv"
+L["cod2019_striker45_stock_heavy.compactname"] = "Fast"
 
-L["mw19_att_wpn_striker45_stock_medium.printname"] = "XRK Gen III Survivalist Series"
-L["mw19_att_wpn_striker45_stock_medium.compactname"] = "Gen III"
-L["mw19_att_wpn_striker45_stock_medium.description"] = "Taktisk kolv designad för snabb målförvärv, för när snabba reflexer är skillnaden mellan liv och död."
+L["cod2019_striker45_stock_medium.printname"] = "XRK Gen III Survivalist Series"
+L["cod2019_striker45_stock_medium.compactname"] = "Gen III"
+L["cod2019_striker45_stock_medium.description"] = "Taktisk kolv designad för snabb målförvärv, för när snabba reflexer är skillnaden mellan liv och död."
 
 /////////////// Magazine
 L["cod2019_striker45_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_striker45_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
 L["cod2019_striker45_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["45acp"])
 
-L["mw19_att_wpn_striker45_mag_hp.printname"] = ".45 Hålspets 12-Patronersm."
-L["mw19_att_wpn_striker45_mag_hp.compactname"] = "12P .45 HS"
-L["mw19_att_wpn_striker45_mag_hp.description"] = "Vapenmodifikation för lätta, enkelstaplade <color=255,100,100>12-patroners</color>magasin. Kommer utrustad med en <color=100,255,100>2-skottsalvo</color> skjutläge och <color=255,255,100>.45 ACP Hålspets</color> ammunition för att försäkra att varje skott räknas."
+L["cod2019_striker45_mag_hp.printname"] = ".45 Hålspets 12-Patronersm."
+L["cod2019_striker45_mag_hp.compactname"] = "12P .45 HS"
+L["cod2019_striker45_mag_hp.description"] = "Vapenmodifikation för lätta, enkelstaplade <color=255,100,100>12-patroners</color>magasin. Kommer utrustad med en <color=100,255,100>2-skottsalvo</color> skjutläge och <color=255,255,100>.45 ACP Hålspets</color> ammunition för att försäkra att varje skott räknas."
 
 L["cod2019_striker45_mag_xmag_9mm.printname"] = "45-Patroners 9x19mm Magasin"
 L["cod2019_striker45_mag_xmag_9mm.compactname"] = "45P 9x19mm"
 L["cod2019_striker45_mag_xmag_9mm.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["919"])
 
 /////////////// Pistol Grips
-L["mw19_att_wpn_striker45_rg_gran.printname"] = "FTAC 60 Series Polymer"
-L["mw19_att_wpn_striker45_rg_gran.compactname"] = "Polymer"
-L["mw19_att_wpn_striker45_rg_gran.description"] = "Texturerat polymer med ett fingerspår för en avslappnad och kontrollerbart grepp. Håller dig stadig och på mål."
+L["cod2019_striker45_griptape_01.printname"] = "FTAC 60 Series Polymer"
+L["cod2019_striker45_griptape_01.compactname"] = "Polymer"
+L["cod2019_striker45_griptape_01.description"] = "Texturerat polymer med ett fingerspår för en avslappnad och kontrollerbart grepp. Håller dig stadig och på mål."
 
-L["mw19_att_wpn_striker45_rg_rubber.printname"] = "FTAC G-5 EXO"
-L["mw19_att_wpn_striker45_rg_rubber.compactname"] = "EXO"
-L["mw19_att_wpn_striker45_rg_rubber.description"] = "Skelettformat grepp med paracord-knop för det ultimata i höghastighet manövrering."
+L["cod2019_striker45_griptape_02.printname"] = "FTAC G-5 EXO"
+L["cod2019_striker45_griptape_02.compactname"] = "EXO"
+L["cod2019_striker45_griptape_02.description"] = "Skelettformat grepp med paracord-knop för det ultimata i höghastighet manövrering."
 
-L["mw19_att_wpn_striker45_rg_stippled.printname"] = "FTAC 60 Series Gummi"
-L["mw19_att_wpn_striker45_rg_stippled.compactname"] = "Gummi"
-L["mw19_att_wpn_striker45_rg_stippled.description"] = "Rak linje gummiformat halkfri grepp håller vapnet tajt till hands. Mindre stadig men hjälper kontrollera rekylen."
+L["cod2019_striker45_griptape_03.printname"] = "FTAC 60 Series Gummi"
+L["cod2019_striker45_griptape_03.compactname"] = "Gummi"
+L["cod2019_striker45_griptape_03.description"] = "Rak linje gummiformat halkfri grepp håller vapnet tajt till hands. Mindre stadig men hjälper kontrollera rekylen."
 
 ////////////////////  Fennec
 /////////////// Barrels
 L["cod2019_vector_barrel_long.printname"] = "ZLR 406mm Apex"
 L["cod2019_vector_barrel_long.compactname"] = "Apex"
 
-L["mw19_att_wpn_vector_brl_02.printname"] = "ZLR 460mm Deadfall"
-L["mw19_att_wpn_vector_brl_02.compactname"] = "Deadfall"
-L["mw19_att_wpn_vector_brl_02.description"] = "Monolitiskt <color=255,255,100>inbyggd ljuddämpare</color> håller vapnet tyst och ökar räckvidden för tysta angrepp på längre distanser."
+L["cod2019_vector_barrel_incomplete02.printname"] = "ZLR 460mm Deadfall"
+L["cod2019_vector_barrel_incomplete02.compactname"] = "Deadfall"
+L["cod2019_vector_barrel_incomplete02.description"] = "Monolitiskt <color=255,255,100>inbyggd ljuddämpare</color> håller vapnet tyst och ökar räckvidden för tysta angrepp på längre distanser."
 
 /////////////// Muzzles
 L["cod2019_vector_suppresor.printname"] = "ZLR Sabre"
@@ -1282,14 +1283,14 @@ L["cod2019_vector_suppresor.compactname"] = "Sabre"
 L["cod2019_vector_suppresor.description"] = "Anpassad, förlängd ljuddämpare från ZLR ökar kraftigt mynningshastigheten och sänker rekylen för att hjälpa med träffsäkerhet på långa räckvidder."
 
 /////////////// Stock
-L["mw19_att_wpn_vector_stock_heavy.printname"] = "FTAC C6 Carbine PRO"
-L["mw19_att_wpn_vector_stock_heavy.compactname"] = "Carbine"
+L["cod2019_vector_stock_heavy.printname"] = "FTAC C6 Carbine PRO"
+L["cod2019_vector_stock_heavy.compactname"] = "Carbine"
 
-L["mw19_att_wpn_vector_stock_light.printname"] = stockname.cqs
-L["mw19_att_wpn_vector_stock_light.compactname"] = stockname.cqss
+L["cod2019_vector_stock_light.printname"] = "FORGE TAC CQS"
+L["cod2019_vector_stock_light.compactname"] = "CQS"
 
-L["mw19_att_wpn_vector_stock_vheavy.printname"] = "ZLR Blade"
-L["mw19_att_wpn_vector_stock_vheavy.compactname"] = "Blade"
+L["cod2019_vector_stock_vheavy.printname"] = "ZLR Blade"
+L["cod2019_vector_stock_vheavy.compactname"] = "Blade"
 
 /////////////// Magazine
 L["cod2019_vector_mag_drum.printname"] = string.format(mw19magtext.drum, "40")
@@ -1302,99 +1303,99 @@ L["cod2019_iso_barrel_long.printname"] = "FTAC 225mm Dominator"
 L["cod2019_iso_barrel_long.compactname"] = "Dominator"
 L["cod2019_iso_barrel_long.description"] = "Helstål pipa med polygonell räffling och extremt lätt förlängt skydd. Ökar mynningshastigheten och förbättrar räckvidd med väldigt lite tillagd vikt."
 
-L["mw19_att_wpn_iso_brl_02.printname"] = "FSS Revolution"
-L["mw19_att_wpn_iso_brl_02.compactname"] = "Revolution"
-L["mw19_att_wpn_iso_brl_02.description"] = "Förlängd 280mm kromad pipa med tampat skydd ökar mynningshastigheten och ökar kraftigt träffsäkerheten."
+L["cod2019_iso_barrel_incomplete02.printname"] = "FSS Revolution"
+L["cod2019_iso_barrel_incomplete02.compactname"] = "Revolution"
+L["cod2019_iso_barrel_incomplete02.description"] = "Förlängd 280mm kromad pipa med tampat skydd ökar mynningshastigheten och ökar kraftigt träffsäkerheten."
 
-L["mw19_att_wpn_iso_brl_03.printname"] = "ISO 140mm CQB"
-L["mw19_att_wpn_iso_brl_03.compactname"] = "CQB"
-L["mw19_att_wpn_iso_brl_03.description"] = "Komapkt fabriksinstallerad, heltäkt pipa med en liten offring av träffsäkerhet och räckvidd för att förbättra närstridsangrepp."
+L["cod2019_iso_barrel_incomplete03.printname"] = "ISO 140mm CQB"
+L["cod2019_iso_barrel_incomplete03.compactname"] = "CQB"
+L["cod2019_iso_barrel_incomplete03.description"] = "Komapkt fabriksinstallerad, heltäkt pipa med en liten offring av träffsäkerhet och räckvidd för att förbättra närstridsangrepp."
 
-L["mw19_att_wpn_iso_brl_04.printname"] = "FSS Nightshade"
-L["mw19_att_wpn_iso_brl_04.compactname"] = "Nightshare"
+L["cod2019_iso_barrel_incomplete04.printname"] = "FSS Nightshade"
+L["cod2019_iso_barrel_incomplete04.compactname"] = "Nightshare"
 
 /////////////// Stock
-L["mw19_att_wpn_iso_stock_medium.printname"] = "FTAC Vagrant"
-L["mw19_att_wpn_iso_stock_medium.compactname"] = "Vagrant"
+L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"
+L["cod2019_iso_stock_medium.compactname"] = "Vagrant"
 
-L["mw19_att_wpn_iso_stock_none.printname"] = "ISO Fällbar"
-L["mw19_att_wpn_iso_stock_none.compactname"] = stockname.collapsibles
+L["cod2019_iso_stock_none.printname"] = "ISO Fällbar"
+L["cod2019_iso_stock_none.compactname"] = "Collapsible"
 
 /////////////// Magazine
-L["mw19_att_wpn_iso_mag_30.printname"] = string.format(mw19magtext.mag, "30")
-L["mw19_att_wpn_iso_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["mw19_att_wpn_iso_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
+L["cod2019_iso_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_iso_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_iso_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
 L["cod2019_iso_mag_drum.printname"] = string.format(mw19magtext.drum, "50")
 L["cod2019_iso_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")
 L["cod2019_iso_mag_drum.description"] = string.format(mw19magtext.descdrum, "50", mw19ammotype["919"])
 
 /////////////// Pistol Grips
-L["mw19_att_wpn_iso_rg_gran.printname"] = "FSS Vice ISO-Grepp"
-L["mw19_att_wpn_iso_rg_gran.compactname"] = "Vice"
-L["mw19_att_wpn_iso_rg_gran.description"] = "Texturerat polymer wrap med ett fingerspår för en avslappnad och kontrollerbart grepp. Håller dig stadig och på mål."
+L["cod2019_iso_griptape_01.printname"] = "FSS Vice ISO-Grepp"
+L["cod2019_iso_griptape_01.compactname"] = "Vice"
+L["cod2019_iso_griptape_01.description"] = "Texturerat polymer wrap med ett fingerspår för en avslappnad och kontrollerbart grepp. Håller dig stadig och på mål."
 
-L["mw19_att_wpn_iso_rg_rubber.printname"] = "FTAC Elite ISO-Grepp"
-L["mw19_att_wpn_iso_rg_rubber.compactname"] = "Elite"
-L["mw19_att_wpn_iso_rg_rubber.description"] = "Helstippat rakt grepp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
+L["cod2019_iso_griptape_02.printname"] = "FTAC Elite ISO-Grepp"
+L["cod2019_iso_griptape_02.compactname"] = "Elite"
+L["cod2019_iso_griptape_02.description"] = "Helstippat rakt grepp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
 
-L["mw19_att_wpn_iso_rg_stippled.printname"] = "ISO Tac-Form"
-L["mw19_att_wpn_iso_rg_stippled.compactname"] = "Tac-Form"
-L["mw19_att_wpn_iso_rg_stippled.description"] = "Slät ergonomiskt grepp håller vapnet tajt till hands. Mindre stadigt men hjälper kontrollera rekylen."
+L["cod2019_iso_griptape_03.printname"] = "ISO Tac-Form"
+L["cod2019_iso_griptape_03.compactname"] = "Tac-Form"
+L["cod2019_iso_griptape_03.description"] = "Slät ergonomiskt grepp håller vapnet tajt till hands. Mindre stadigt men hjälper kontrollera rekylen."
 
 ////////////////////  CX-9
 /////////////// Barrels
-L["mw19_att_wpn_cx9_brl_01.printname"] = "CX-38E"
-L["mw19_att_wpn_cx9_brl_01.compactname"] = "CX-38E"
-L["mw19_att_wpn_cx9_brl_01.description"] = "445mm tung polygonellt räfflad pipa med förlängt skydd maximerar mynningshastigheten för överlägsen räckvidd."
+L["cod2019_cx9_barrel_incomplete01.printname"] = "CX-38E"
+L["cod2019_cx9_barrel_incomplete01.compactname"] = "CX-38E"
+L["cod2019_cx9_barrel_incomplete01.description"] = "445mm tung polygonellt räfflad pipa med förlängt skydd maximerar mynningshastigheten för överlägsen räckvidd."
 
-L["mw19_att_wpn_cx9_brl_02.printname"] = "CX-23S"
-L["mw19_att_wpn_cx9_brl_02.compactname"] = "CX-23S"
-L["mw19_att_wpn_cx9_brl_02.description"] = "Kompakt, <color=255,255,100>monolitiskt ljuddämpad</color> pipa av rostfritt stål. Proprietär baffeldesign erbjuder bäst-i-klass vapen ljuddämpning i ett litet paket."
+L["cod2019_cx9_barrel_incomplete02.printname"] = "CX-23S"
+L["cod2019_cx9_barrel_incomplete02.compactname"] = "CX-23S"
+L["cod2019_cx9_barrel_incomplete02.description"] = "Kompakt, <color=255,255,100>monolitiskt ljuddämpad</color> pipa av rostfritt stål. Proprietär baffeldesign erbjuder bäst-i-klass vapen ljuddämpning i ett litet paket."
 
-L["mw19_att_wpn_cx9_brl_03.printname"] = "CX-23"
-L["mw19_att_wpn_cx9_brl_03.compactname"] = "CX-23"
-L["mw19_att_wpn_cx9_brl_03.description"] = "Kort, kompakt pipa med inbyggt <color=255,255,100>vinklat grepp</color> offrar räckvidd för hastighet och rörlighet. Bra för att rensa ut tajta områden."
+L["cod2019_cx9_barrel_incomplete03.printname"] = "CX-23"
+L["cod2019_cx9_barrel_incomplete03.compactname"] = "CX-23"
+L["cod2019_cx9_barrel_incomplete03.description"] = "Kort, kompakt pipa med inbyggt <color=255,255,100>vinklat grepp</color> offrar räckvidd för hastighet och rörlighet. Bra för att rensa ut tajta områden."
 
-L["mw19_att_wpn_cx9_brl_04.printname"] = "CX-38"
-L["mw19_att_wpn_cx9_brl_04.compactname"] = "CX-38"
-L["mw19_att_wpn_cx9_brl_04.description"] = "412mm pipa med förlängt skydd ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten med en liten kostnad på rörlighet."
+L["cod2019_cx9_barrel_incomplete04.printname"] = "CX-38"
+L["cod2019_cx9_barrel_incomplete04.compactname"] = "CX-38"
+L["cod2019_cx9_barrel_incomplete04.description"] = "412mm pipa med förlängt skydd ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten med en liten kostnad på rörlighet."
 
 L["cod2019_cx9_barrel_silenced.printname"] = "CX-38S"
 L["cod2019_cx9_barrel_silenced.compactname"] = "CX-38S"
 L["cod2019_cx9_barrel_silenced.description"] = "Heltäkt monlitiskt <color=255,255,100>inbyggd ljuddämpare</color> håller vapnet tyst och ökar räckvidden för tysta anfall på längre distanser."
 
 /////////////// Stock
-L["mw19_att_wpn_cx9_stock_medium.printname"] = "CX-MM"
-L["mw19_att_wpn_cx9_stock_medium.compactname"] = "CX-MM"
-L["mw19_att_wpn_cx9_stock_medium.description"] = "Marksman-kolv erbjuder stabilitet i siktet."
+L["cod2019_cx9_stock_medium.printname"] = "CX-MM"
+L["cod2019_cx9_stock_medium.compactname"] = "CX-MM"
+L["cod2019_cx9_stock_medium.description"] = "Marksman-kolv erbjuder stabilitet i siktet."
 
 L["cod2019_cx9_stock_skeleton.printname"] = "CX-FA"
 L["cod2019_cx9_stock_skeleton.compactname"] = "CX-FA"
 L["cod2019_cx9_stock_skeleton.description"] = "\"Ultralight Forward Assault\"-kolven ökar hastigheten på vapenhantering och rörelsen med kostnad på stabilitet i siktet."
 
-L["mw19_att_wpn_cx9_stock_none.printname"] = "CX-FR"
-L["mw19_att_wpn_cx9_stock_none.compactname"] = "CX-FR"
-L["mw19_att_wpn_cx9_stock_none.description"] = "\"Forward Recon\"-konfiguering - Det ultimata \"spring-och-skjut\" modifikationen när rörlighet är viktigare än träffsäkerhet."
+L["cod2019_cx9_stock_none.printname"] = "CX-FR"
+L["cod2019_cx9_stock_none.compactname"] = "CX-FR"
+L["cod2019_cx9_stock_none.description"] = "\"Forward Recon\"-konfiguering - Det ultimata \"spring-och-skjut\" modifikationen när rörlighet är viktigare än träffsäkerhet."
 
 /////////////// Magazine
-L["mw19_att_wpn_cx9_mag_30.printname"] = string.format(mw19magtext.mag, "30")
-L["mw19_att_wpn_cx9_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["mw19_att_wpn_cx9_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
+L["cod2019_cx9_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_cx9_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_cx9_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
 L["cod2019_cx9_mag_drum.printname"] = string.format(mw19magtext.drum, "50")
 L["cod2019_cx9_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")
 L["cod2019_cx9_mag_drum.description"] = string.format(mw19magtext.descdrum, "50", mw19ammotype["919"])
 
 /////////////// Pistol Grips
-L["mw19_att_wpn_cx9_rg_gran.printname"] = "CX-9 Clutch-Grepp"
-L["mw19_att_wpn_cx9_rg_gran.compactname"] = "Clutch"
-L["mw19_att_wpn_cx9_rg_gran.description"] = "Pistolgreppform håller vapnet tajt till hands. Mindre stadigt, men hjälper kontrollera rekylen. Väl balanserat för högre stabilitet under automateld."
+L["cod2019_cx9_griptape_01.printname"] = "CX-9 Clutch-Grepp"
+L["cod2019_cx9_griptape_01.compactname"] = "Clutch"
+L["cod2019_cx9_griptape_01.description"] = "Pistolgreppform håller vapnet tajt till hands. Mindre stadigt, men hjälper kontrollera rekylen. Väl balanserat för högre stabilitet under automateld."
 
-L["mw19_att_wpn_cx9_rg_rubber.printname"] = "CX-9 Ace-Grepp"
-L["mw19_att_wpn_cx9_rg_rubber.compactname"] = "Ace"
-L["mw19_att_wpn_cx9_rg_rubber.description"] = "Gjutet grepp håller vapnet under kontroll under manövrering. Inte likar stadigt som ett normalt grepp."
+L["cod2019_cx9_griptape_02.printname"] = "CX-9 Ace-Grepp"
+L["cod2019_cx9_griptape_02.compactname"] = "Ace"
+L["cod2019_cx9_griptape_02.description"] = "Gjutet grepp håller vapnet under kontroll under manövrering. Inte likar stadigt som ett normalt grepp."
 
-L["mw19_att_wpn_cx9_rg_stippled.printname"] = "CX-9 Tac-Grepp"
-L["mw19_att_wpn_cx9_rg_stippled.compactname"] = "Tac"
-L["mw19_att_wpn_cx9_rg_stippled.description"] = "Slitsad, syntetiskt grepp är effektiv för närstridsangrepp. Får dig snabbare på målet."
+L["cod2019_cx9_griptape_03.printname"] = "CX-9 Tac-Grepp"
+L["cod2019_cx9_griptape_03.compactname"] = "Tac"
+L["cod2019_cx9_griptape_03.description"] = "Slitsad, syntetiskt grepp är effektiv för närstridsangrepp. Får dig snabbare på målet."
