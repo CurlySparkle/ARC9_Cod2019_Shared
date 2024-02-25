@@ -131,3 +131,44 @@ ATT.DrawFunc = function(wep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_mag_drum")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Oden Ultralight Hollow"
+ATT.CompactName = "Oden Ultralight Hollow"
+ATT.Description = [[]]
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_stock_heavy.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_stock_heavy.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_kilo141_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.RecoilUpMult = 0.92
+ATT.RecoilRandomSideMult = 1.08
+
+ARC9.LoadAttachment(ATT, "cod2019_kilo141_stock_heavy")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS Close Quarters Stock"
+ATT.CompactName = "FSS Close Quarters Stock"
+ATT.Description = [[Tactical stock streamlined for close quarters combat. Gets you on target faster.]]
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_stock_v2.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_stock_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_kilo141_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.RecoilMult = 1.13
+ATT.AimDownSightsTimeMult = 0.92
+ATT.DeployTimeMult = 0.92
+
+ARC9.LoadAttachment(ATT, "cod2019_kilo141_stock_light")
