@@ -393,8 +393,8 @@ ATT.RTScopeShadowIntensity = 24
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoShadow = true
-ATT.RTScopeBlackBox = true
-ATT.RTScopeBlackBoxShadow = true
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_scout")
 -------------------------------------------------------------------------
@@ -498,8 +498,8 @@ ATT.RTScopeShadowIntensity = 24
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoShadow = true
-ATT.RTScopeBlackBox = true
-ATT.RTScopeBlackBoxShadow = true
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
 
 ATT.RTScopeNightVision = true
 ATT.RTScopeNightVisionMonochrome = false
@@ -546,12 +546,17 @@ ATT.RTScopeFLIRCCCold = {
 }
 
 
-local pattern = Material("pp/texturize/plain.png")
+local noise = Material("models/cod2019/shared/mw19_thermalnoise")
 
 ATT.RTScopeDrawFunc = function(swep, rtsize)
-    -- render.UpdateScreenEffectTexture()
-    -- DrawTexturize(8, pattern)
-    -- cam.IgnoreZ(true)
+cam.Start2D()
+surface.SetMaterial(noise)
+surface.SetDrawColor(255,255,255)
+surface.DrawTexturedRectRotated((rtsize / 2) + (rtsize * math.Rand(-0.25, 0.25)), (rtsize / 2) + (rtsize * math.Rand(-0.25, 0.25)), rtsize, rtsize, math.Rand(0, 360))
+surface.DrawTexturedRectRotated((rtsize / 2) + (rtsize * math.Rand(-0.5, 0.5)), (rtsize / 2) + (rtsize * math.Rand(-0.5, 0.5)), rtsize * 2, rtsize * 2, math.Rand(0, 360))
+cam.End2D()
+
+--DrawBloom( 0.65, 2, 9, 9, 1, 1, 1, 1, 1 )
 end
 
 ATT.RTScopeMotionBlur = true
@@ -606,22 +611,22 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_thermal_default
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
-ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = true  
+ATT.RTScopeBlackBox = false 
+ATT.RTScopeBlackBoxShadow = false  
 ATT.RTScopeNoShadow = false  
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
 ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
-    ["$pp_colour_addr"] = 0/255,
-    ["$pp_colour_addb"] = 0/255,
-    ["$pp_colour_addg"] = 0/255,
-    ["$pp_colour_brightness"] = 0.5,
-    ["$pp_colour_contrast"] = 0.2,
-    ["$pp_colour_colour"] = 0,
-    ["$pp_colour_mulr"] = 0,
-    ["$pp_colour_mulg"] = 0,
-    ["$pp_colour_mulb"] = 0
+    [ "$pp_colour_addr" ] = 0,
+    [ "$pp_colour_addg" ] = 0,
+    [ "$pp_colour_addb" ] = 0,
+    [ "$pp_colour_brightness" ] = 1.54,
+    [ "$pp_colour_contrast" ] = 0.1,
+    [ "$pp_colour_colour" ] = 0,
+    [ "$pp_colour_mulr" ] = 0,
+    [ "$pp_colour_mulg" ] = 0,
+    [ "$pp_colour_mulb" ] = 0
 }
 ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
     ["$pp_colour_addr"] = 1,
@@ -644,12 +649,17 @@ end
 
 ATT.ScopeScreenRatio = 0.66
 
-local pattern = Material("pp/texturize/plain.png")
+local noise = Material("models/cod2019/shared/mw19_thermalnoise")
 
 ATT.RTScopeDrawFunc = function(swep, rtsize)
-    -- render.UpdateScreenEffectTexture()
-    -- DrawTexturize(8, pattern)
-    -- cam.IgnoreZ(true)
+cam.Start2D()
+surface.SetMaterial(noise)
+surface.SetDrawColor(255,255,255)
+surface.DrawTexturedRectRotated((rtsize / 2) + (rtsize * math.Rand(-0.25, 0.25)), (rtsize / 2) + (rtsize * math.Rand(-0.25, 0.25)), rtsize, rtsize, math.Rand(0, 360))
+surface.DrawTexturedRectRotated((rtsize / 2) + (rtsize * math.Rand(-0.5, 0.5)), (rtsize / 2) + (rtsize * math.Rand(-0.5, 0.5)), rtsize * 2, rtsize * 2, math.Rand(0, 360))
+cam.End2D()
+
+--DrawBloom( 0.65, 2, 9, 9, 1, 1, 1, 1, 1 )
 end
 
 ATT.RTScopeMotionBlur = true
@@ -828,8 +838,8 @@ ATT.RTScopeShadowIntensity = 24
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoShadow = true
-ATT.RTScopeBlackBox = true
-ATT.RTScopeBlackBoxShadow = true
+ATT.RTScopeBlackBox = false
+ATT.RTScopeBlackBoxShadow = false
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_scout_pistol")
 -------------------------------------------------------------------------
