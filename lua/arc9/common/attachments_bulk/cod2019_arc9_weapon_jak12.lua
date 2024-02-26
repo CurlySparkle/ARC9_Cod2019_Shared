@@ -23,7 +23,7 @@ ATT.SprintToFireTimeMult = 1.15
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_jak12_barrel"
-ATT.ActivateElements = {"barrel_none"}
+ATT.ActivateElements = {"barrel_none","barrel_long"}
 
 ATT.Element = {
     AttPosMods = {
