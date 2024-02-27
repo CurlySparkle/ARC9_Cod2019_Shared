@@ -4,10 +4,10 @@ ATT = {}
 
 ATT.PrintName = "CX-38S"
 ATT.CompactName = "CX-38S"
-ATT.Description = [[Long-length Silenced barrel. Offers superior handling at the cost of performance.]]
+ATT.Description = [[Fully shrouded monolithic integral suppressor keeps the weapon silent and increases range for longer distance stealth assaults.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barrel_silenced.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barsillong.png", "mips smooth")
 ATT.AutoStats = true
 
 ATT.Free = false
@@ -24,53 +24,108 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleDevice_Priority = 3
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.25
-ATT.SprintToFireTimeMult = 1.25
-ATT.RecoilMult = 0.85
+ATT.AimDownSightsTimeMult = 1.11
+ATT.DeployTimeMult = 1.12
+ATT.RecoilMult = 0.91
 
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
-ATT.PhysBulletMuzzleVelocityMult = 1.25
+ATT.RangeMaxMult = 1.12
+ATT.RangeMinMult = 1.12
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_silenced")
----------------------------------------------------------------------------------------
--- ATT = {}
+----------------------------------------------------------------------------------------
+ATT = {}
 
--- ATT.PrintName = [[Stock Adapter]]
--- ATT.CompactName = [[Adapter Stock]]
--- ATT.Icon = Material("entities/attachs/cod2019_sm_cx9_stock_adapter.png")
--- ATT.Description = [[Aluminium mounting point, allows for using custom stock options.]]
--- ATT.SortOrder = 0
--- ATT.Free = false
+ATT.PrintName = "CX-38"
+ATT.CompactName = "CX-38"
+ATT.Description = [[412mm barrel with a guard extension increases muzzle velocity and extends range. Additional weight stabilizes shots at a small cost to mobility.]]
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barlong.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
 
--- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
--- ATT.Category = {"cod2019_cx9_stock"}
--- ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/cx9_stock_adapter.mdl"
--- ATT.BoneMerge = true
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_barlong.mdl"
+ATT.BoneMerge = false
 
--- ATT.IconOffset = Vector(0, 0, 0)
--- ATT.ActivateElements = {"stock_none"}
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_cx9_barrel"}
+ATT.ActivateElements = {"barrel_none","barrel_long"}
 
--- ATT.RecoilUpMult = 0.95
+ATT.MuzzleDevice_Priority = 3
+ATT.MuzzleDevice = true
 
--- ATT.Attachments = {
-    -- {
-        -- PrintName = ARC9:GetPhrase("mw19_category_stock2"),
-        -- Pos = Vector(-0.4, 0, 0.6),
-        -- Ang = Angle(0, 0, 0),
-        -- Icon_Offset = Vector(-3, 0, 0),
-        -- Category = {"csgo_stock"},
-		-- Scale = 1
-    -- }
--- }
+ATT.AimDownSightsTimeMult = 1.11
+ATT.DeployTimeMult = 1.12
 
--- ARC9.LoadAttachment(ATT, "cod2019_cx9_stock_adapter")
+ATT.RangeMaxMult = 1.12
+ATT.RangeMinMult = 1.12
+ATT.SpreadMult = 0.9
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- slot of the weapon's attachment
+            Pos = Vector(3, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "CX-38E"
+ATT.CompactName = "CX-38E"
+ATT.Description = [[445mm heavy weight polygonal rifled barrel with guard extension maxes out muzzle velocity for superior range.]]
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barxlong.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_barxlong.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_cx9_barrel"}
+ATT.ActivateElements = {"barrel_none","barrel_long"}
+
+ATT.MuzzleDevice_Priority = 3
+ATT.MuzzleDevice = true
+
+ATT.AimDownSightsTimeMult = 1.21
+ATT.DeployTimeMult = 1.21
+
+ATT.RangeMaxMult = 1.18
+ATT.RangeMinMult = 1.18
+ATT.SpreadMult = 0.9
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- slot of the weapon's attachment
+            Pos = Vector(7, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_xlong")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = [[Skeletal Stock]]
 ATT.CompactName = [[Skeletal]]
-ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_stock_skeletal.png")
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_stockskel.png")
 ATT.Description = [[Provides more handling speed at the cost of recoil.]]
 ATT.SortOrder = 0.5
 ATT.Free = false
