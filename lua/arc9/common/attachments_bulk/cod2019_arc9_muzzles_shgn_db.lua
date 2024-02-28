@@ -195,7 +195,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = [[Lightweight Suppressor]]
 ATT.CompactName = [[Lightweight]]
 ATT.Description = [[Lightweight aluminum suppressor sacrifices range for stealth and agility.]]
-ATT.Icon = Material("entities/attachs/cod2019_sh_725_silencer01.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer01.png", "mips smooth")
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
@@ -220,7 +220,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = [[Tactical Suppressor]]
 ATT.CompactName = [[Tactical]]
 ATT.Description = [[Titanium can with stainless steel baffles. Silences weapon with very little additional weight.]]
-ATT.Icon = Material("entities/attachs/cod2019_sh_725_silencer02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer02.png", "mips smooth")
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
@@ -245,7 +245,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = [[Monolithic Suppressor]]
 ATT.CompactName = [[Monolithic]]
 ATT.Description = [[Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility.]]
-ATT.Icon = Material("entities/attachs/cod2019_sh_725_silencer03.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer03.png", "mips smooth")
 
 ATT.SortOrder = 1
 ATT.AutoStats = true
