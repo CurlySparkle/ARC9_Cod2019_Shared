@@ -182,7 +182,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
-ATT.ActivateElements = {"mag_none","mag_xmag"}
+ATT.ActivateElements = {"mag_none","mag_armag"}
 
 ATT.RPM = 625
 ATT.ClipSizeOverride = 30
