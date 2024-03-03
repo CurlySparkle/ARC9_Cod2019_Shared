@@ -167,7 +167,7 @@ ATT = {}
 
 ATT.PrintName = "Lightweight Suppressor"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_silencer01.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = "cod2019_muzzle_shot_db"
@@ -204,7 +204,7 @@ ATT = {}
 
 ATT.PrintName = "Tactical Suppressor"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_silencer02.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = "cod2019_muzzle_shot_db"
@@ -239,7 +239,7 @@ ATT = {}
 
 ATT.PrintName = "Monolithic Suppressor"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_silencer03.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = "cod2019_muzzle_shot_db"
@@ -314,7 +314,11 @@ if !warzonestats then -- Regular Stats
 	ATT.RangeMinMult = 0.95
 	ATT.PhysBulletMuzzleVelocityMult = 0.95
 else -- Warzone Stats
-	
+	ATT.AimDownSightsTimeAdd = -0.025
+	ATT.SpreadMultSights = 1.15
+	ATT.SpreadMultMove = 1.175
+	ATT.RangeMinMult = 0.93
+	ATT.RangeMaxMult = 0.93
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_barrel_mid")
@@ -354,9 +358,25 @@ ATT.Category = "cod2019_725_barrel"
 -- }
 
 if !warzonestats then -- Regular Stats
-	
+
 else -- Warzone Stats
-	
+	ATT.AimDownSightsTimeAdd = -0.116
+	ATT.RecoilMult = 1.15
+	ATT.VisualRecoilMult = 1.15
+	ATT.SpreadMultSights = 1.3
+	ATT.SpreadMultMove = 1.2
+	ATT.SpeedMult = 1.05
+	-- ATT.SpeedMultSights = 1.21
+	ATT.DamageMaxAdd = -2
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1,
+		[HITGROUP_CHEST] = 1,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 1,
+		[HITGROUP_RIGHTARM] = 1,
+		[HITGROUP_LEFTLEG] = 1,
+		[HITGROUP_RIGHTLEG] = 1,
+	}
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_barrel_short")
@@ -376,7 +396,15 @@ ATT.Category = "cod2019_725_barrel"
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	
+	ATT.AimDownSightsTimeAdd = 0.088
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpreadMultSights = 0.85
+	ATT.SpreadMultMove = 0.9
+	ATT.RangeMinMult = 1.06
+	ATT.RangeMaxMult = 1.06
+	ATT.SpeedMult = 0.94
+	ATT.SpeedMultSights = 0.93
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_barrel_long")
@@ -403,7 +431,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.25
 	ATT.RecoilMult = 0.85
 else -- Warzone Stats
-	
+	ATT.SpeedMultSights = 0.89
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_stock_stable")
@@ -423,7 +451,7 @@ ATT.Category = "cod2019_725_stock"
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	
+	ATT.SpeedMultSights = 1.15
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_stock_tactical")
@@ -443,7 +471,11 @@ ATT.Category = "cod2019_725_stock"
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	
+	ATT.AimDownSightsTimeAdd = -0.054
+	ATT.RecoilMult = 0.7
+	ATT.VisualRecoilMult = 0.7
+	ATT.SpeedMult = 1.04
+	-- ATT.SpeedMultSights = 1.2
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_stock_none")
@@ -463,7 +495,7 @@ ATT.Category = "cod2019_725_stock"
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	
+	ATT.AimDownSightsTimeAdd = -0.034
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_stock_medium")
@@ -488,12 +520,13 @@ ATT.BoneMerge = true
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	
+	ATT.AimDownSightsTimeAdd = -0.018
+	ATT.SprintToFireTimeAdd = -0.037
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_foregrip_light")
 
-/////////////// -- mw19_att_wpn_725_guard_02
+/////////////// -- cod2019_725_guard_02
 ATT = {}
 
 ATT.PrintName = "FORGE TAC Steady Grip"
@@ -508,12 +541,12 @@ ATT.Category = "cod2019_725_foregrip"
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	
+	ATT.SpeedMultSights = 0.96
 end
 
-ARC9.LoadAttachment(ATT, "mw19_att_wpn_725_guard_02")
+ARC9.LoadAttachment(ATT, "cod2019_725_guard_02")
 
-/////////////// -- mw19_att_wpn_725_guard_03
+/////////////// -- cod2019_725_guard_03
 ATT = {}
 
 ATT.PrintName = "FORGE TAC Commander"
@@ -528,7 +561,8 @@ ATT.Category = "cod2019_725_foregrip"
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	
+	ATT.RecoilMult = 0.92
+	ATT.VisualRecoilMult = 0.92
 end
 
-ARC9.LoadAttachment(ATT, "mw19_att_wpn_725_guard_03")
+ARC9.LoadAttachment(ATT, "cod2019_725_guard_03")

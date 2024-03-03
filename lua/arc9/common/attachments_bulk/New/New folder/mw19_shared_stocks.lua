@@ -109,41 +109,6 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_stock_tube_singuard")
 
-/////////////////////////// -- cod2019_stock_tube_singuard
-ATT = {}
-
-ATT.PrintName = "Singuard Buffer Tube"
-ATT.Description = ""
-ATT.Icon = Material("entities/attachs/cod2019_stock_tube_singuard.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-
-ATT.SortOrder = 1.1
-ATT.Category = "cod2019_tube"
-ATT.Folder = ARC9:GetPhrase("mw19_folder_tube")
-ATT.ActivateElements = {"stock_adapter"}
-
-ATT.Model = "models/weapons/cod2019/attachs/stocks/attachment_vm_tube_singuard.mdl"
-
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_stock2"),
-        Pos = Vector(-1.3, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(-3, 0, 0),
-        Category = {"cod2019_stocks"},
-		Scale = 1
-    }
-}
-
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.92
-	ATT.RecoilMult = 1.07
-else -- Warzone Stats
-
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_stock_tube_singuard")
-
 //////////////////////////////////////////////// -- Stocks
 
 local stats_vlight = { -- Shared stats for Stocks

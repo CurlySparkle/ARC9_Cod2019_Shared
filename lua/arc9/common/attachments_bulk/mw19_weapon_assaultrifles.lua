@@ -216,15 +216,20 @@ ATT = {}
 
 ATT.PrintName = "Singuard Arms Sniper Pro"
 ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_stock_heavy.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_kilo141_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_stock_heavy.mdl"
+ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	
+	ATT.RecoilUpMult = 0.92
+	ATT.RecoilRandomSideMult = 1.08
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
@@ -236,15 +241,21 @@ ATT = {}
 
 ATT.PrintName = "FSS Close Quarters Stock"
 ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_stock_v2.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_kilo141_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_stock_v2.mdl"
+ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	
+	ATT.RecoilMult = 1.13
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.92
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.022
 end
@@ -316,71 +327,223 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_mag_drum")
 
-/////////////////////////// -- Pistol Grips
-/////////////// -- cod2019_kilo141_griptape_01
+//////////////////////////////////////////////// -- FAL
+/////////////////////////// -- Receiver
+/////////////// -- cod2019_fal_body_v2
 ATT = {}
 
-ATT.PrintName = "Granulated Grip Tape"
+ATT.PrintName = "Smooth Dominator"
 ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_drum_mag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_reciever_v2.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 1
-ATT.Category = "cod2019_kilo141_pistolgrip"
-ATT.ActivateElements = {"pgrip_none"}
+ATT.Category = "cod2019_fal_reciever"
+ATT.ActivateElements = {"body_none","foregrip_none","sight_adapter_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_reciever_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.Element = {
+    AttPosMods = {
+        [4] = { -- slot of the weapon's attachment
+            Pos = Vector(-1, -0.6, -0.93),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
 
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	ATT.SpeedSightsMult = 0.996
+	
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_kilo141_griptape_01")
+ARC9.LoadAttachment(ATT, "cod2019_fal_body_v2")
 
-/////////////// -- cod2019_kilo141_griptape_02
+/////////////////////////// -- Barrel
+/////////////// -- cod2019_fal_barrel_01
 ATT = {}
 
-ATT.PrintName = "Rubberized Grip Tape"
+ATT.PrintName = "18.0\" Ultralight"
 ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_drum_mag.png", "mips smooth")
+-- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_fal_barrel"
+
+if !warzonestats then -- Regular Stats
+	
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.017
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_01")
+
+/////////////// -- cod2019_fal_barrel_02
+ATT = {}
+
+ATT.PrintName = "XRK Marksman"
+ATT.Description = ""
+-- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 2
-ATT.Category = "cod2019_kilo141_pistolgrip"
-ATT.ActivateElements = {"pgrip_none"}
+ATT.Category = "cod2019_fal_barrel"
 
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	ATT.RecoilMult = 0.994
-	ATT.VisualRecoilMult = 0.994
+
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_kilo141_griptape_02")
+ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_02")
 
-/////////////// -- cod2019_kilo141_griptape_03
+/////////////// -- cod2019_fal_barrel_03
 ATT = {}
 
-ATT.PrintName = "Stippled Grip Tape"
+ATT.PrintName = "13.0\" OSW Para"
 ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_drum_mag.png", "mips smooth")
+-- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 3
-ATT.Category = "cod2019_kilo141_pistolgrip"
-ATT.ActivateElements = {"pgrip_none"}
+ATT.Category = "cod2019_fal_barrel"
 
 if !warzonestats then -- Regular Stats
 	
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.011
-	ATT.SprintToFireTimeAdd = -0.037
+
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_kilo141_griptape_03")
+ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_03")
+
+/////////////////////////// -- Stock
+/////////////// -- cod2019_fal_stock_v2
+ATT = {}
+
+ATT.PrintName = "Smooth Dominator"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stock_v2.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_fal_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_stock_v2.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	
+else -- Warzone Stats
+	
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_stock_v2")
+
+/////////////// -- cod2019_fal_stock_light
+ATT = {}
+
+ATT.PrintName = "Factory 18\" Aluminium Stock"
+ATT.Description = ""
+-- ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stock_v2.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 2
+ATT.Category = {"cod2019_fal_stock"}
+
+if !warzonestats then -- Regular Stats
+	
+else -- Warzone Stats
+	
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_stock_light")
+
+/////////////// -- cod2019_fal_stock_medium
+ATT = {}
+
+ATT.PrintName = "FSS Close Quarters Stock"
+ATT.Description = ""
+-- ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stock_v2.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = {"cod2019_fal_stock"}
+
+if !warzonestats then -- Regular Stats
+	
+else -- Warzone Stats
+	
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_stock_medium")
+
+/////////////// -- cod2019_fal_stock_heavy
+ATT = {}
+
+ATT.PrintName = "FORGE TAC Stalker"
+ATT.Description = ""
+-- ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stock_v2.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = {"cod2019_fal_stock"}
+
+if !warzonestats then -- Regular Stats
+	
+else -- Warzone Stats
+	
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_stock_heavy")
+
+/////////////////////////// -- Magazine
+/////////////// -- cod2019_fal_mag_30
+ATT = {}
+
+ATT.PrintName = "30-Round Mags"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_xmags.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_mag_fal"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeOverride = 30
+	
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 1.13
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.05
+else -- Warzone Stats
+	ATT.CustomCons = {
+		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-10%"
+	}
+	ATT.AimDownSightsTimeAdd = 0.049
+	ATT.SpeedMult = 0.991
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_mag_30")
 
 //////////////////////////////////////////////// -- AK-47
 /////////////////////////// -- Barrel
