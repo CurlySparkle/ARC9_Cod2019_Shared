@@ -382,7 +382,6 @@ L["mw19stockdesc.none"] = "Det ultimata \"spring-och-skjut\" alternativet när r
 
 L["cod2019_stock_none.printname"] = "Ingen Kolv"
 L["cod2019_stock_none.compactname"] = "Ingen"
-L["cod2019_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none")
 
 ////////// Tubes
 L["cod2019_stock_tube_light.printname"] = "Lättvikt Bufferrör" -- UO
@@ -395,7 +394,10 @@ L["cod2019_stock_tube_medium.description"] = "Taktisk och effektivt bufferrör t
 
 L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms-Bufferrör" -- UO
 L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
-L["cod2019_stock_tube_singuard.description"] = ARC9:GetPhrase("cod2019_stock_tube_light.description")
+
+L["cod2019_stock_tube_padded.printname"] = "Vadderat Bufferrör" -- UO
+L["cod2019_stock_tube_padded.compactname"] = "Vadd" -- UO
+L["cod2019_stock_tube_padded.description"] = "Lätt bufferrör med mjuk vaddering. <color=255,100,100>Stödjer ej installering av kolvar</color>." -- UO
 
 //////////////////// Pistol Grip Tape
 L["cod2019_griptape_01.printname"] = "Granulerad Grepptejp"
@@ -463,7 +465,6 @@ L["cod2019_kilo141_barrel_supp.description"] = "Tung <color=255,255,100>intern l
 
 /////////////// Stock
 L["cod2019_kilo141_stock_light.printname"] = "FORGE TAC Ultralight"
-L["cod2019_kilo141_stock_light.compactname"] = "Ultralight"
 
 L["cod2019_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
 L["cod2019_kilo141_stock_heavy.compactname"] = "Sniper Pro"
@@ -754,7 +755,6 @@ L["cod2019_ram7_stock_heavy.compactname"] = "Equilibrium"
 L["cod2019_ram7_stock_heavy.description"] = "Viktad kolv med vadderad rekylplatta håller ditt sikte stadigt för träffsäkra skott."
 
 L["cod2019_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
-L["cod2019_ram7_stock_light.compactname"] = "Ultralight"
 L["cod2019_ram7_stock_light.description"] = "Aluminiumkärna syntetisk kolv designad för rörlighet i siktet."
 
 L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters-Kolv"
@@ -953,7 +953,6 @@ L["cod2019_aug_barrel_03.description"] = "Maximal förlängd pipa trycker detta 
 
 /////////////// Stock
 L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
-L["cod2019_aug_stock_heavy.compactname"] = "Ultralight"
 
 L["cod2019_aug_stock_tactical.printname"] = "FORGE TAC CQB Comb"
 L["cod2019_aug_stock_tactical.compactname"] = "CQB Comb"
@@ -1052,15 +1051,9 @@ L["cod2019_uzi_barrel_04.compactname"] = "Karbin Pro"
 L["cod2019_uzi_barrel_04.description"] = "Tung polygonellt räfflad pipa av rostfritt stål ökar drastiskt mynningshastigheten och förlänger räckvidden till max. Tillagd vikt stabiliserar skotten men påverkar rörligheten."
 
 /////////////// Stock
-L["cod2019_uzi_stock_light.printname"] = "FORGE TAC Ultralight"
-L["cod2019_uzi_stock_light.compactname"] = "Ultralight"
-
 L["cod2019_uzi_stock_heavy.printname"] = "Standard Träkolv"
 L["cod2019_uzi_stock_heavy.compactname"] = "Träkolv"
 L["cod2019_uzi_stock_heavy.description"] = "Original helträkolv erbjuder utmärkt stabilitet i siktet."
-
-L["cod2019_uzi_stock_medium.printname"] = "FSS Close Quarters Stock"
-L["cod2019_uzi_stock_medium.compactname"] = "CQS"
 
 /////////////// Magazine
 L["cod2019_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
@@ -1095,9 +1088,6 @@ L["cod2019_pp19_stock_light.printname"] = "Aluminium Fabrikskolv"
 L["cod2019_pp19_stock_vlight.printname"] = "Corvus-Skelettkolv"
 L["cod2019_pp19_stock_vlight.compactname"] = "Corvus"
 L["cod2019_pp19_stock_vlight.description"] = "Original helkroppskolv erbjuder utmärkt stabilitet i siktet."
-
-L["cod2019_pp19_stock_medium.printname"] = "FSS Close Quarters Stock"
-L["cod2019_pp19_stock_medium.compactname"] = "CQS"
 
 /////////////// Magazine
 L["cod2019_bizon_mag_xmag.printname"] = "84-Patroners Spiralformade Magasin"
@@ -1211,7 +1201,6 @@ L["cod2019_vector_stock_heavy.printname"] = "FTAC C6 Carbine PRO"
 L["cod2019_vector_stock_heavy.compactname"] = "Carbine"
 
 L["cod2019_vector_stock_light.printname"] = "FORGE TAC CQS"
-L["cod2019_vector_stock_light.compactname"] = "CQS"
 
 L["cod2019_vector_stock_vheavy.printname"] = "ZLR Blade"
 L["cod2019_vector_stock_vheavy.compactname"] = "Blade"

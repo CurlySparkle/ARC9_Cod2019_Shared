@@ -27,9 +27,9 @@ ATT.CustomPros = {
 
 ATT.Sights = {
     {
-        Pos = Vector(1.415, 5, -1.265),
-        Ang = Angle(0, -1, -90),
-        ViewModelFOV = 44,
+        Pos = Vector(1.415, 4, -1.255),
+        Ang = Angle(0, -1, -91),
+        ViewModelFOV = 65,
         Magnification = 1.25,
         IgnoreExtra = true
     },

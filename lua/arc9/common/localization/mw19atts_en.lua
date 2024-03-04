@@ -660,6 +660,10 @@ L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms Buffer Tube" -- UO
 L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
 L["cod2019_stock_tube_singuard.description"] = ARC9:GetPhrase("cod2019_stock_tube_light.description")
 
+L["cod2019_stock_tube_padded.printname"] = "Padded Buffer Tube" -- UO
+L["cod2019_stock_tube_padded.compactname"] = "Padded" -- UO
+L["cod2019_stock_tube_padded.description"] = "Lightweight buffer tube with soft padding. <color=255,100,100>Does not support attaching stocks</color>." -- UO
+
 //////////////////// Pistol Grip Tape
 L["cod2019_griptape_01.printname"] = "Granulated Grip Tape"
 L["cod2019_griptape_01.compactname"] = "Granulated"
@@ -734,7 +738,7 @@ L["cod2019_kilo141_barrel_supp.description"] = "Heavy duty <color=255,255,100>in
 
 /////////////// Stock
 L["cod2019_kilo141_stock_light.printname"] = "FORGE TAC Ultralight"
-L["cod2019_kilo141_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
+L["cod2019_kilo141_stock_light.compactname"] = "Ultralight"
 L["cod2019_kilo141_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
 
 L["cod2019_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
@@ -758,7 +762,7 @@ L["cod2019_fal_body_v2.description"] = "Modernized receiver for the FAL. Purely 
 
 /////////////// Barrels
 L["cod2019_fal_barrel_01.printname"] = "18.0\" Ultralight"
-L["cod2019_fal_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
+L["cod2019_fal_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_fal_barrel_01.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 L["cod2019_fal_barrel_02.printname"] = "XRK Marksman"
@@ -1061,11 +1065,11 @@ L["cod2019_ram7_stock_heavy.compactname"] = "Equilibrium"
 L["cod2019_ram7_stock_heavy.description"] = "Weighted stock with cushioned recoil pad keeps your aim steady for precision shots."
 
 L["cod2019_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
-L["cod2019_ram7_stock_light.compactname"] = "UNKNOWN"
+L["cod2019_ram7_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_ram7_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
 
 L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters Stock"
-L["cod2019_ram7_stock_tactical.compactname"] = "UNKNOWN"
+L["cod2019_ram7_stock_tactical.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
 L["cod2019_ram7_stock_tactical.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
 
 /////////////// Magazine
@@ -1287,7 +1291,7 @@ L["cod2019_aug_barrel_03.description"] = "Maximum barrel extension pushes this w
 
 /////////////// Stock
 L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
-L["cod2019_aug_stock_heavy.compactname"] = "UNKNOWN"
+L["cod2019_aug_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_aug_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description")
 
 L["cod2019_aug_stock_tactical.printname"] = "FORGE TAC CQB Comb"
@@ -1420,16 +1424,16 @@ L["cod2019_uzi_barrel_04.compactname"] = "Carbine Pro"
 L["cod2019_uzi_barrel_04.description"] = "Heavy duty stainless steel polygonal rifled barrel greatly increases muzzle velocity and extends range to the max. Additional weight stabilizes shots, but affects mobility."
 
 /////////////// Stock
-L["cod2019_uzi_stock_light.printname"] = "UNKNOWN"
-L["cod2019_uzi_stock_light.compactname"] = "UNKNOWN"
+L["cod2019_uzi_stock_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname")
+L["cod2019_uzi_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_uzi_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
 
 L["cod2019_uzi_stock_heavy.printname"] = "Standard-Issue Wood Stock"
 L["cod2019_uzi_stock_heavy.compactname"] = "Wood"
 L["cod2019_uzi_stock_heavy.description"] = "Original solid wood stock provides exceptional stability while aiming."
 
-L["cod2019_uzi_stock_medium.printname"] = "UNKNOWN"
-L["cod2019_uzi_stock_medium.compactname"] = "UNKNOWN"
+L["cod2019_uzi_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
+L["cod2019_uzi_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
 L["cod2019_uzi_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
 
 /////////////// Magazine
@@ -1468,8 +1472,8 @@ L["cod2019_pp19_stock_vlight.printname"] = "Corvus Skeleton Stock"
 L["cod2019_pp19_stock_vlight.compactname"] = "Corvus"
 L["cod2019_pp19_stock_vlight.description"] = "Original solid wood stock provides exceptional stability while aiming."
 
-L["cod2019_pp19_stock_medium.printname"] = "UNKNOWN"
-L["cod2019_pp19_stock_medium.compactname"] = "UNKNOWN"
+L["cod2019_pp19_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
+L["cod2019_pp19_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
 L["cod2019_pp19_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
 
 /////////////// Magazine
@@ -1587,7 +1591,7 @@ L["cod2019_vector_stock_heavy.compactname"] = "Carbine"
 L["cod2019_vector_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
 
 L["cod2019_vector_stock_light.printname"] = "FORGE TAC CQS"
-L["cod2019_vector_stock_light.compactname"] = "UNKNOWN"
+L["cod2019_vector_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
 L["cod2019_vector_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
 
 L["cod2019_vector_stock_vheavy.printname"] = "ZLR Blade"
@@ -1780,7 +1784,7 @@ L["cod2019_r90_pump_stable.compactname"] = "Bulldog"
 L["cod2019_r90_pump_stable.description"] = "Custom heavy-duty pump provides a more stable sight picture."
 
 L["cod2019_r90_pump_light.printname"] = "FTAC Ultralight Pump"
-L["cod2019_r90_pump_light.compactname"] = "UNKNOWN"
+L["cod2019_r90_pump_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_r90_pump_light.description"] = "Lightweight composite pump allows faster movement while staying on target."
 
 L["cod2019_r90_pump_03.printname"] = "FTAC Close Quarters Pro"
@@ -1943,7 +1947,7 @@ L["cod2019_jak12_stock_medium.compactname"] = "Tsunami"
 L["cod2019_jak12_stock_medium.description"] = "Tactical comb wrap for rapid target acquisition."
 
 L["cod2019_jak12_stock_light.printname"] = "JAK Rabbit Ultralight"
-L["cod2019_jak12_stock_light.compactname"] = "UNKNOWN"
+L["cod2019_jak12_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_jak12_stock_light.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description")
 
 L["cod2019_jak12_stock_stable.printname"] = "FSS Power Wrap"
@@ -2008,7 +2012,7 @@ L["cod2019_sa87_stock_medium.compactname"] = "XRK Pro"
 L["cod2019_sa87_stock_medium.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy.description")
 
 L["cod2019_sa87_stock_heavy.printname"] = "SA87 Ultralight Hollow"
-L["cod2019_sa87_stock_heavy.compactname"] = "UNKNOWN"
+L["cod2019_sa87_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_sa87_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description")
 
 L["cod2019_sa87_stock_medium2.printname"] = "FORGE TAC CQB Comb"
@@ -2078,7 +2082,7 @@ L["cod2019_holger_optic_integral_scope.description"] = "Advanced optic with <col
 
 /////////////// Barrels
 L["cod2019_holger_barrel_01.printname"] = "XRK Ultralight"
-L["cod2019_holger_barrel_01.compactname"] = "UNKNOWN"
+L["cod2019_holger_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_holger_barrel_01.description"] = "Shorter barrel and lightweight guard reduce weight for faster gun handling at a slight cost to range."
 
 L["cod2019_holger_barrel_spitfire.printname"] = "FTAC 8.98\" Spitfire"
@@ -2319,7 +2323,7 @@ L["cod2019_mk2_stock_vheavy.compactname"] = "Precision"
 L["cod2019_mk2_stock_vheavy.description"] = "Heavy duty comb add-on provides exceptional precision while aiming."
 
 L["cod2019_mk2_stock_light.printname"] = "MK2 Ultralight Hollow"
-L["cod2019_mk2_stock_light.compactname"] = "UNKNOWN"
+L["cod2019_mk2_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
 L["cod2019_mk2_stock_light.description"] = "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 ////////////////////  Kar98k
@@ -2733,7 +2737,7 @@ L["cod2019_1911_barrel_02.compactname"] = "Match G."
 L["cod2019_1911_barrel_02.description"] = "Extended slide improves muzzle velocity and boosts range, with only a slight increase to weight."
 
 L["cod2019_1911_barrel_03.printname"] = "1911 Stalker"
-L["cod2019_1911_barrel_03.compactname"] = "UNKNOWN"
+L["cod2019_1911_barrel_03.compactname"] = "Stalker"
 L["cod2019_1911_barrel_03.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum."
 
 /////////////// Trigger

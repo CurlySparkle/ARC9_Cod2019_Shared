@@ -163,7 +163,7 @@ ARC9.LoadAttachment(ATT, "cod2019_fal_stock_medium")
 /////////////////////////// -- cod2019_fal_stock_heavy
 ATT = {}
 
-ATT.PrintName = "FTAC Hunter"
+ATT.PrintName = "FORGE TAC Stalker"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stock_heavy.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"

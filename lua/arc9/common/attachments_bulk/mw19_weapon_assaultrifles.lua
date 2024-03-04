@@ -94,32 +94,6 @@ ARC9.LoadAttachment(ATT, "cod2019_attach_xmag_60")
 
 //////////////////////////////////////////////// -- Kilo 141
 /////////////////////////// -- Barrel
-/////////////// -- cod2019_kilo_141_barrel_medium
-ATT = {}
-
-ATT.PrintName = "Singuard Arms 16.6\" SOCOM"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 1
-ATT.Category = "cod2019_kilo141_barrel"
-
-if !warzonestats then -- Regular Stats
-	
-else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = 319 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = 0.046
-	ATT.RecoilMult = 0.93
-	ATT.VisualRecoilMult = 0.93
-	ATT.SpreadAddMove = 0.019
-	ATT.RangeMinMult = 1.26
-	ATT.RangeMaxMult = 1.26
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_kilo_141_barrel_medium")
-
 /////////////// -- cod2019_kilo141_barrel_long
 ATT = {}
 
@@ -362,70 +336,6 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_fal_body_v2")
 
-/////////////////////////// -- Barrel
-/////////////// -- cod2019_fal_barrel_01
-ATT = {}
-
-ATT.PrintName = "18.0\" Ultralight"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 1
-ATT.Category = "cod2019_fal_barrel"
-
-if !warzonestats then -- Regular Stats
-	
-else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.017
-	ATT.RangeMinMult = 0.9
-	ATT.RangeMaxMult = 0.9
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_01")
-
-/////////////// -- cod2019_fal_barrel_02
-ATT = {}
-
-ATT.PrintName = "XRK Marksman"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 2
-ATT.Category = "cod2019_fal_barrel"
-
-if !warzonestats then -- Regular Stats
-	
-else -- Warzone Stats
-
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_02")
-
-/////////////// -- cod2019_fal_barrel_03
-ATT = {}
-
-ATT.PrintName = "13.0\" OSW Para"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barsil.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 3
-ATT.Category = "cod2019_fal_barrel"
-
-if !warzonestats then -- Regular Stats
-	
-else -- Warzone Stats
-
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_03")
-
 /////////////////////////// -- Stock
 /////////////// -- cod2019_fal_stock_v2
 ATT = {}
@@ -450,66 +360,6 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_fal_stock_v2")
-
-/////////////// -- cod2019_fal_stock_light
-ATT = {}
-
-ATT.PrintName = "Factory 18\" Aluminium Stock"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stock_v2.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 2
-ATT.Category = {"cod2019_fal_stock"}
-
-if !warzonestats then -- Regular Stats
-	
-else -- Warzone Stats
-	
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_fal_stock_light")
-
-/////////////// -- cod2019_fal_stock_medium
-ATT = {}
-
-ATT.PrintName = "FSS Close Quarters Stock"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stock_v2.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 3
-ATT.Category = {"cod2019_fal_stock"}
-
-if !warzonestats then -- Regular Stats
-	
-else -- Warzone Stats
-	
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_fal_stock_medium")
-
-/////////////// -- cod2019_fal_stock_heavy
-ATT = {}
-
-ATT.PrintName = "FORGE TAC Stalker"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stock_v2.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 3
-ATT.Category = {"cod2019_fal_stock"}
-
-if !warzonestats then -- Regular Stats
-	
-else -- Warzone Stats
-	
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_fal_stock_heavy")
 
 /////////////////////////// -- Magazine
 /////////////// -- cod2019_fal_mag_30
@@ -571,27 +421,6 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_custom")
-
-/////////////// -- cod2019_akilo47_barrel_heavy
-ATT = {}
-
-ATT.PrintName = "23.0\" RPK Barrel"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_custombarrel.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 2
-ATT.Category = "cod2019_ak47_barrel"
-
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.RecoilKickMult = 1.1
-else -- Warzone Stats
-	
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_heavy")
 
 /////////////// -- cod2019_akilo47_barrel_smg
 ATT = {}
@@ -659,24 +488,3 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_smg")
-
-/////////////// -- cod2019_akilo47_barrel_heavy2
-ATT = {}
-
-ATT.PrintName = "23.0\" Romanian"
-ATT.Description = ""
--- ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_custombarrel.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 4
-ATT.Category = "cod2019_ak47_barrel"
-
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.RecoilKickMult = 1.1
-else -- Warzone Stats
-	
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_heavy2")
