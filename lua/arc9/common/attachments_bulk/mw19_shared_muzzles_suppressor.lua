@@ -485,3 +485,115 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_02")
+
+////////////////////////////// -- 752 Muzzles
+/////////////// -- cod2019_attach_muzzle_sil_01
+ATT = {}
+
+ATT.PrintName = "Lightweight Suppressor"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer01.mdl"
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.RangeMinMult = 0.75
+    ATT.RangeMaxMult = 0.75
+	ATT.VisualRecoilMult = 0.98
+	ATT.RecoilMult = 0.98
+else -- Warzone Stats
+	ATT.RangeMinMult = 0.75
+    ATT.RangeMaxMult = 0.75
+	ATT.VisualRecoilMult = 0.98
+	ATT.RecoilMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_01")
+
+/////////////// -- cod2019_attach_muzzle_sil_02
+ATT = {}
+
+ATT.PrintName = "Tactical Suppressor"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer02.mdl"
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.02
+	ATT.VisualRecoilMult = 0.97
+	ATT.RecoilMult = 0.97
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.02
+	ATT.VisualRecoilMult = 0.97
+	ATT.RecoilMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_02")
+
+/////////////// -- cod2019_attach_muzzle_sil_03
+ATT = {}
+
+ATT.PrintName = "Monolithic Suppressor"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer03.mdl"
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.051
+    ATT.RangeMinMult = 1.03
+    ATT.RangeMaxMult = 1.03
+	ATT.VisualRecoilMult = 0.95
+	ATT.RecoilMult = 0.95
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.051
+    ATT.RangeMinMult = 1.03
+    ATT.RangeMaxMult = 1.03
+	ATT.VisualRecoilMult = 0.95
+	ATT.RecoilMult = 0.95
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_03")

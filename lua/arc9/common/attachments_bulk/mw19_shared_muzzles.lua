@@ -540,3 +540,163 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_flashhider_psl01")
+
+//////////////////////////////////////////////// -- 725
+/////////////////////////// -- Muzzles
+/////////////// -- cod2019_attach_muzzle_db_brake
+ATT = {}
+
+ATT.PrintName = "Muzzle Brake"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake_shgn01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_muzzlebrake.mdl"
+
+ATT.MuzzleParticleOverride = "muzzleflash_M3"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.012
+	ATT.VisualRecoilMult = 0.88
+	ATT.RecoilMult = 0.88
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.012
+	ATT.VisualRecoilMult = 0.88
+	ATT.RecoilMult = 0.88
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_brake")
+
+/////////////// -- cod2019_attach_muzzle_db_choke
+ATT = {}
+
+ATT.PrintName = "Choke"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_romeo870_choke.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_choke.mdl"
+
+ATT.MuzzleParticleOverride = "muzzleflash_M3"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.011
+	ATT.VisualRecoilMult = 1.1
+	ATT.RecoilMult = 1.1
+	ATT.SpreadMultSights = 0.7
+	ATT.SpreadMult = 0.9
+    ATT.RangeMinMult = 0.96
+    ATT.RangeMaxMult = 0.96
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.011
+	ATT.VisualRecoilMult = 1.1
+	ATT.RecoilMult = 1.1
+	ATT.SpreadMultSights = 0.7
+	ATT.SpreadMult = 0.9
+    ATT.RangeMinMult = 0.96
+    ATT.RangeMaxMult = 0.96
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_choke")
+
+////////////////////////////// -- 752 Muzzles
+/////////////// -- cod2019_attach_muzzle_db_comp
+ATT = {}
+
+ATT.PrintName = "Compensator"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_compensator_shgn01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 0.15
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_comp.mdl"
+
+ATT.MuzzleParticleOverride = "muzzleflash_M3"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.012
+	ATT.VisualRecoilMult = 0.75
+	ATT.RecoilMult = 0.75
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.012
+	ATT.VisualRecoilMult = 0.75
+	ATT.RecoilMult = 0.75
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_comp")
+
+/////////////// -- cod2019_attach_muzzle_db_melee
+ATT = {}
+
+ATT.PrintName = "Breacher Device"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlemelee_shgn01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 0.2
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_muzzlemelee.mdl"
+
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+if !warzonestats then -- Regular Stats
+	ATT.BashDamageAdd = 45
+    ATT.AimDownSightsTimeAdd = 0.016
+else -- Warzone Stats
+	ATT.BashDamageAdd = 45
+    ATT.AimDownSightsTimeAdd = 0.016
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_melee")
+
+/////////////// -- cod2019_attach_muzzle_db_hider
+ATT = {}
+
+ATT.PrintName = "Flash Guard"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider_shtgn01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 0.3
+ATT.Category = "cod2019_muzzle_shot_db"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_flashhider.mdl"
+
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+ATT.NoFlash = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.006
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.006
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_db_hider")

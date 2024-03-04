@@ -1,5 +1,32 @@
 local ATT = {}
+-------------------------------------------------------------------------------
+ATT = {}
 
+ATT.PrintName = "XRK 30.0 Sport"
+ATT.CompactName = "XRK 30"
+ATT.Description = [[Longer barrel with a 10 round tube. Tightens pellet spread, extends range, and carries extra ammo at the cost of agility.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_barrel_long.png", "mips smooth")
+ATT.AutoStats = true
+
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_barrel_long.mdl"
+ATT.BoneMerge = true
+
+ATT.SpreadMult = 0.9
+ATT.ClipSizeOverride = 10
+ATT.AimDownSightsTimeMult = 1.15
+ATT.RangeMaxMult = 1.1
+ATT.RangeMinMult = 1.1
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_model680_barrels"}
+ATT.ActivateElements = {"barrel_none","front_sight_none","barrel_long"}
+
+ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_mid")
+-------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "12 Gauge 6-R Mags"
@@ -63,30 +90,3 @@ ATT.ClipSizeOverride = 8
 ATT.AimDownSightsTimeMult = 1.07
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_mag_8")
--------------------------------------------------------------------------------
-ATT = {}
-
-ATT.PrintName = "XRK 30.0 Sport"
-ATT.CompactName = "XRK 30"
-ATT.Description = [[Longer barrel with a 10 round tube. Tightens pellet spread, extends range, and carries extra ammo at the cost of agility.]]
-ATT.SortOrder = 1
-
-ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_barrel_long.png", "mips smooth")
-ATT.AutoStats = true
-
-ATT.Free = false
-
-ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_barrel_long.mdl"
-ATT.BoneMerge = true
-
-ATT.SpreadMult = 0.9
-ATT.ClipSizeOverride = 10
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RangeMaxMult = 1.1
-ATT.RangeMinMult = 1.1
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_model680_barrels"}
-ATT.ActivateElements = {"barrel_none","front_sight_none","barrel_long"}
-
-ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_mid")
