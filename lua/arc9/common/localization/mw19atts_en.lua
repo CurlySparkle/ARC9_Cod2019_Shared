@@ -2987,3 +2987,232 @@ L["cod2019_sykov_rg_02.description"] = "Designed for control when performing hig
 L["cod2019_sykov_rg_03.printname"] = "VLK Elita"
 L["cod2019_sykov_rg_03.compactname"] = "Elita"
 L["cod2019_sykov_rg_03.description"] = "Ergonomic pistol grip keeps gun tight in hand. Exceptional recoil control at the cost of aiming stability."
+
+////////////////////////  Knives
+////////////////////  Combat Knife
+/////////////// Models
+L["cod2019_knifemodel"] = "Alters the appearance of the weapon.\nPurely <color=100,255,100>cosmetic</color>."
+
+L["cod2019_knife_model_v2.printname"] = "Atom Splitter"
+L["cod2019_knife_model_v2.compactname"] = "Atom S."
+L["cod2019_knife_model_v2.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v3.printname"] = "Blackspike"
+-- L["cod2019_knife_model_v3.compactname"] = "Blackspike"
+L["cod2019_knife_model_v3.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v4.printname"] = "Blue Silence"
+L["cod2019_knife_model_v4.compactname"] = "Blue S."
+L["cod2019_knife_model_v4.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v5.printname"] = "Dive Knife"
+L["cod2019_knife_model_v5.compactname"] = "Dive K."
+L["cod2019_knife_model_v5.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v6.printname"] = "Hold Up"
+-- L["cod2019_knife_model_v6.compactname"] = "Hold Up"
+L["cod2019_knife_model_v6.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v7.printname"] = "Atom Splitter"
+L["cod2019_knife_model_v7.compactname"] = "Atom S."
+L["cod2019_knife_model_v7.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v8.printname"] = "New Steel"
+L["cod2019_knife_model_v8.compactname"] = "New S."
+L["cod2019_knife_model_v8.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v9.printname"] = "Arterial"
+-- L["cod2019_knife_model_v9.compactname"] = "Arterial"
+L["cod2019_knife_model_v9.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v10.printname"] = "Icicle"
+-- L["cod2019_knife_model_v10.compactname"] = "Icicle"
+L["cod2019_knife_model_v10.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v11.printname"] = "Stone Carver"
+L["cod2019_knife_model_v11.compactname"] = "Stone C."
+L["cod2019_knife_model_v11.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v12.printname"] = "Boxcutter"
+-- L["cod2019_knife_model_v12.compactname"] = "Boxcutter"
+L["cod2019_knife_model_v12.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v13.printname"] = "Negotiation"
+L["cod2019_knife_model_v13.compactname"] = "Negot."
+L["cod2019_knife_model_v13.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v14.printname"] = "Blood Letter"
+L["cod2019_knife_model_v14.compactname"] = "Blood L."
+L["cod2019_knife_model_v14.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v15.printname"] = "Consquistador"
+L["cod2019_knife_model_v15.compactname"] = "Consqui."
+L["cod2019_knife_model_v15.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v17.printname"] = "Sandfly"
+-- L["cod2019_knife_model_v17.compactname"] = "Sandfly"
+L["cod2019_knife_model_v17.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v19.printname"] = "The Quiet"
+L["cod2019_knife_model_v19.compactname"] = "The Q."
+L["cod2019_knife_model_v19.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v20.printname"] = "Scythe"
+-- L["cod2019_knife_model_v20.compactname"] = "Scythe"
+L["cod2019_knife_model_v20.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v21.printname"] = "Dainsleif"
+-- L["cod2019_knife_model_v21.compactname"] = "Dainsleif"
+L["cod2019_knife_model_v21.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v22.printname"] = "Espionage"
+-- L["cod2019_knife_model_v22.compactname"] = "Espionage"
+L["cod2019_knife_model_v22.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v23.printname"] = "Ghost Dance"
+L["cod2019_knife_model_v23.compactname"] = "Ghost D."
+L["cod2019_knife_model_v23.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v24.printname"] = "Rasp"
+-- L["cod2019_knife_model_v24.compactname"] = "Rasp"
+L["cod2019_knife_model_v24.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v25.printname"] = "Unspoken Oath"
+L["cod2019_knife_model_v25.compactname"] = "U. Oath"
+L["cod2019_knife_model_v25.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v26.printname"] = "Chisholm"
+-- L["cod2019_knife_model_v26.compactname"] = "Chisholm"
+L["cod2019_knife_model_v26.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v27.printname"] = "Skullblade"
+L["cod2019_knife_model_v27.compactname"] = "Skullbl."
+L["cod2019_knife_model_v27.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v28.printname"] = "Sidesplitter"
+L["cod2019_knife_model_v28.compactname"] = "Sidesp."
+L["cod2019_knife_model_v28.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v29.printname"] = "Ol' Cobber"
+L["cod2019_knife_model_v29.compactname"] = "Ol' C."
+L["cod2019_knife_model_v29.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v30.printname"] = "Preeminence"
+L["cod2019_knife_model_v30.compactname"] = "Preemin."
+L["cod2019_knife_model_v30.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v31.printname"] = "Grassclipper"
+L["cod2019_knife_model_v31.compactname"] = "Grasscl."
+L["cod2019_knife_model_v31.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v32.printname"] = "Toothpick"
+L["cod2019_knife_model_v32.compactname"] = "Toothp."
+L["cod2019_knife_model_v32.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v33.printname"] = "Blood Oath"
+L["cod2019_knife_model_v33.compactname"] = "B. Oath"
+L["cod2019_knife_model_v33.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v34.printname"] = "Night Light"
+L["cod2019_knife_model_v34.compactname"] = "Night L."
+L["cod2019_knife_model_v34.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v37.printname"] = "Close Shave"
+L["cod2019_knife_model_v37.compactname"] = "Close S."
+L["cod2019_knife_model_v37.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v39.printname"] = "Sacrifice"
+-- L["cod2019_knife_model_v39.compactname"] = "Sacrifice"
+L["cod2019_knife_model_v39.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v40.printname"] = "Loose Ends"
+L["cod2019_knife_model_v40.compactname"] = "Loose E."
+L["cod2019_knife_model_v40.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v41.printname"] = "Coffin Nail"
+L["cod2019_knife_model_v41.compactname"] = "Coffin N."
+L["cod2019_knife_model_v41.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v42.printname"] = "Heat Treat"
+L["cod2019_knife_model_v42.compactname"] = "Heat T."
+L["cod2019_knife_model_v42.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v43.printname"] = "Foxy Lady"
+L["cod2019_knife_model_v43.compactname"] = "Foxy L."
+L["cod2019_knife_model_v43.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v44.printname"] = "Prisoner 627"
+L["cod2019_knife_model_v44.compactname"] = "P627"
+L["cod2019_knife_model_v44.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v45.printname"] = "Stinging Nettle"
+L["cod2019_knife_model_v45.compactname"] = "S. Nettle"
+L["cod2019_knife_model_v45.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v46.printname"] = "Pitiful"
+-- L["cod2019_knife_model_v46.compactname"] = "Pitiful"
+L["cod2019_knife_model_v46.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v47.printname"] = "Beamish"
+-- L["cod2019_knife_model_v47.compactname"] = "Beamish"
+L["cod2019_knife_model_v47.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v48.printname"] = "Firecracker"
+L["cod2019_knife_model_v48.compactname"] = "Firec."
+L["cod2019_knife_model_v48.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v49.printname"] = "Shivvie"
+-- L["cod2019_knife_model_v49.compactname"] = "Shivvie"
+L["cod2019_knife_model_v49.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v54.printname"] = "Innocense Lost"
+L["cod2019_knife_model_v54.compactname"] = "I. Lost"
+L["cod2019_knife_model_v54.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v61.printname"] = "Summer Solstice"
+L["cod2019_knife_model_v61.compactname"] = "S. Sol."
+L["cod2019_knife_model_v61.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v62.printname"] = "Box Cutter"
+L["cod2019_knife_model_v62.compactname"] = "Box C."
+L["cod2019_knife_model_v62.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v63.printname"] = "Night Sky"
+L["cod2019_knife_model_v63.compactname"] = "N. Sky"
+L["cod2019_knife_model_v63.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v64.printname"] = "Old Sins"
+L["cod2019_knife_model_v64.compactname"] = "Old S."
+L["cod2019_knife_model_v64.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v65.printname"] = "Dandere"
+-- L["cod2019_knife_model_v65.compactname"] = "Dandere"
+L["cod2019_knife_model_v65.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v66.printname"] = "Thytistor"
+-- L["cod2019_knife_model_v66.compactname"] = "Thytistor"
+L["cod2019_knife_model_v66.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v67.printname"] = "Stalemate"
+-- L["cod2019_knife_model_v67.compactname"] = "Stalemate"
+L["cod2019_knife_model_v67.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v68.printname"] = "Viper's Kiss"
+L["cod2019_knife_model_v68.compactname"] = "V. Kiss"
+L["cod2019_knife_model_v68.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v69.printname"] = "Bloody Mess"
+L["cod2019_knife_model_v69.compactname"] = "B. Mess"
+L["cod2019_knife_model_v69.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v70.printname"] = "Phlebotomist"
+L["cod2019_knife_model_v70.compactname"] = "Phleb."
+L["cod2019_knife_model_v70.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v71.printname"] = "Velorum"
+-- L["cod2019_knife_model_v71.compactname"] = "Velorum"
+L["cod2019_knife_model_v71.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+
+L["cod2019_knife_model_v72.printname"] = "Auxiliary"
+-- L["cod2019_knife_model_v72.compactname"] = "Auxiliary"
+L["cod2019_knife_model_v72.description"] = ARC9:GetPhrase("cod2019_knifemodel")

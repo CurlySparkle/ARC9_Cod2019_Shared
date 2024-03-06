@@ -285,16 +285,17 @@ ATT.DrawFunc = function(wep, model, wm)
 end
 
 ATT.ClipSizeOverride = 100
-	
+
+ATT.CustomCons = {
+	[ ARC9:GetPhrase("autostat.reloadtime") ] = "-15%"
+}
+
 if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.15
 	ATT.AimDownSightsTimeMult = 1.15
 	ATT.DrawTimeMult = 1.2
 	ATT.HolsterTimeMult = 1.2
 else -- Warzone Stats
-	ATT.CustomCons = {
-		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-15%"
-	}
 	ATT.AimDownSightsTimeAdd = 0.049
 	ATT.SpeedMult = 0.991
 end

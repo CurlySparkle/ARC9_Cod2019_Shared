@@ -128,8 +128,7 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.92
 	ATT.RecoilMult = 1.07
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 0.92
-	ATT.RecoilMult = 1.07
+	
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_stock_tube_padded")
