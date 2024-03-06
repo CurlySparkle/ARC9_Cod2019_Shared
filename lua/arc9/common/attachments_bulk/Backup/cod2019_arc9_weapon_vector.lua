@@ -1,12 +1,4 @@
 local ATT = {}
-local stats_tac = {
-    CustomPros = { 
-	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
-	},
-    AimDownSightsTimeAdd = 0.013,
-	VisualRecoilMult = 0.97,
-	RecoilMult = 0.97,
-}
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -24,7 +16,9 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_suppressor.mdl"
 
-table.Merge(ATT, stats_tac)
+ATT.AimDownSightsTimeAdd = 0.013,
+ATT.VisualRecoilMult = 0.97,
+ATT.RecoilMult = 0.97,
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
