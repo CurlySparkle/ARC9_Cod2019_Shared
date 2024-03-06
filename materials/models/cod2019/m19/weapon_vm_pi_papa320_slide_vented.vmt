@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\m19\weapon_vm_pi_papa320_barrel_ext_rgb"
-    "$bumpmap" "models\cod2019\m19\weapon_vm_pi_papa320_barrel_ext_n"
-    "$phongexponenttexture" "models\cod2019\m19\weapon_vm_pi_papa320_barrel_ext_e"
+    "$basetexture" "models\cod2019\m19\weapon_vm_pi_papa320_slide_vented_rgb"
+    "$bumpmap" "models\cod2019\m19\weapon_vm_pi_papa320_slide_vented_n"
+    "$phongexponenttexture" "models\cod2019\m19\weapon_vm_pi_papa320_slide_vented_e"
 
     /////////////////
     "$color2" "[1 1 1]"                                     //do not touch this
@@ -20,10 +20,10 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.094 0.094 0.094]"
+    "$envmaptint" "[0.106 0.106 0.106]"                 
 
     "$detailblendmode" "4"
-    "$detailblendfactor" "0.7"                   
+    "$detailblendfactor" "0.7"      
 
     //remove this if not using MWB
     "Proxies"
@@ -32,7 +32,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.094 0.094 0.094]"
+            "color" "[0.106 0.106 0.106]"
         }
 	   "CustomCamo" 
         {
