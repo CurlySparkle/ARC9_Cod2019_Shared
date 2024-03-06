@@ -1,3 +1,4 @@
+--[[
 local ATT = {}
 //////////////////////////////////////////////// -- Launcher Attachments
 /////////////////////////// -- Shared
@@ -854,3 +855,5 @@ table.Merge(ATT, sameshit)
 -- ATT.Description = SO
 
 ARC9.LoadAttachment(ATT, "cod2019_knife_model_v" .. num)
+
+]]--
