@@ -1,0 +1,10 @@
+Patch
+{
+	include materials\models\cod2019\knife_oscar\soscar_knife.vmt
+	replace
+	{
+		"$basetexture" "models/cod2019/knife_models/textures/weapon_vm_me_tactical_knife_v9_rgb"
+		"$bumpmap" "models/cod2019/knife_models/textures/weapon_vm_me_tactical_knife_v9_n"
+		"$phongexponenttexture" "models/cod2019/knife_models/textures/weapon_vm_me_tactical_knife_v9_e"
+	}
+}
