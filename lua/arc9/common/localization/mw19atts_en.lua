@@ -1379,6 +1379,10 @@ L["cod2019_mp5_barrel_supp.printname"] = "Subsonic Integral Suppressor"
 L["cod2019_mp5_barrel_supp.compactname"] = "Subsonic"
 L["cod2019_mp5_barrel_supp.description"] = "Lightweight <color=255,255,100>aluminum suppressor</color> decreases muzzle velocity to subsonic speeds providing a smooth recoil, low sound signature, and no visible tracers."
 
+L["cod2019_mp5_barrel_alt.printname"] = "Default (No Flashlight)"
+L["cod2019_mp5_barrel_alt.compactname"] = "D. (NF)"
+L["cod2019_mp5_barrel_alt.description"] = "Standard handguard but with the front flashlight removed.\nPurely <color=255,255,100>cosmetic</color>."
+
 /////////////// Stock
 L["cod2019_mp5_stock_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
 L["cod2019_mp5_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
@@ -2991,7 +2995,7 @@ L["cod2019_sykov_rg_03.description"] = "Ergonomic pistol grip keeps gun tight in
 ////////////////////////  Knives
 ////////////////////  Combat Knife
 /////////////// Models
-L["cod2019_knifemodel"] = "Alters the appearance of the weapon.\nPurely <color=100,255,100>cosmetic</color>."
+L["cod2019_knifemodel"] = "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v2.printname"] = "Atom Splitter"
 L["cod2019_knife_model_v2.compactname"] = "Atom S."
