@@ -213,12 +213,12 @@ L["cod2019_optic_scope_scout.compactname"] = "Scout"
 L["cod2019_optic_scope_scout.description"] = "Precision optic with <color=100,255,100>3.25x</color> magnification for long range target acquisition."
 
 L["cod2019_optic_hybrid_west02.printname"] = "4.0x Flip Hybrid"
-L["cod2019_optic_hybrid_west02.compactname"] = "Hybrid"
+L["cod2019_optic_hybrid_west02.compactname"] = "Flip H."
 L["cod2019_optic_hybrid_west02.description"] = "Long range <color=100,255,100>4.0x</color> optic manually flips to closer range holographic sight."
 
-L["cod2019_optic_hybrid_west02.printname"] = "4.0x Flip Thermal"
-L["cod2019_optic_hybrid_west02.compactname"] = "Thermal"
-L["cod2019_optic_hybrid_west02.description"] = "Long range <color=100,255,100>4.0x</color> optic manually flips to closer range holographic sight. (Thermal Variant)"
+L["cod2019_optic_hybrid_west02_thermal.printname"] = "4.0x Flip Thermal" -- UO
+L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Flip T." -- UO
+L["cod2019_optic_hybrid_west02_thermal.description"] = "Long range <color=100,255,100>4.0x</color> scope with thermal imaging manually flips to closer range holographic sight." -- UO, part Merc Thermal Optic desc
 
 L["cod2019_optic_vlk3.printname"] = "VLK 3.0x Optic"
 L["cod2019_optic_vlk3.compactname"] = "VLK"

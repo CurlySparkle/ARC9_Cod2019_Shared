@@ -138,8 +138,12 @@ L["cod2019_optic_scope_scout.compactname"] = "Scout"
 L["cod2019_optic_scope_scout.description"] = "Precisionssikte med <color=100,255,100>3,25x</color> magnifiering för målförvärv på långa distanser."
 
 L["cod2019_optic_hybrid_west02.printname"] = "4,0x Vikbar Hybrid"
-L["cod2019_optic_hybrid_west02.compactname"] = "Hybrid"
+L["cod2019_optic_hybrid_west02.compactname"] = "Vik. H."
 L["cod2019_optic_hybrid_west02.description"] = "Lång distans <color=100,255,100>4,0x</color> riktmedel som manuellt viks till sidan för närmare räckvidd holografiskt sikte."
+
+L["cod2019_optic_hybrid_west02_thermal.printname"] = "4,0x Vikbar Värmesikte" -- UO
+L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Vik. V." -- UO
+L["cod2019_optic_hybrid_west02_thermal.description"] = "Lång distans <color=100,255,100>4,0x</color> riktmedel med värmeavbildning som manuellt viks till sidan för närmare räckvidd holografiskt sikte." -- UO, part Merc Thermal Optic desc
 
 L["cod2019_optic_vlk3.printname"] = "VLK 3,0x Riktmedel"
 L["cod2019_optic_vlk3.compactname"] = "VLK"
