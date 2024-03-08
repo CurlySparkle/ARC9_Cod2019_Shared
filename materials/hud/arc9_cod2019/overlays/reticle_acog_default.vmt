@@ -1,0 +1,8 @@
+"UnlitGeneric"
+
+{
+	"$basetexture"	"hud/arc9_cod2019/overlays/reticle_acog_default"
+	"$translucent"	"1"
+	"$additive"	"1"
+	"$ignorez" "1"
+}

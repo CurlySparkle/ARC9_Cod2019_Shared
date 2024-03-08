@@ -345,7 +345,7 @@ ATT.CompactName = "Default Alt"
 ATT.Description = [[Default foregrip with no flashlight.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_railgrip.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_railgrip.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 

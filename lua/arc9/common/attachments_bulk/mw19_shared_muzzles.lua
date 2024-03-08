@@ -33,7 +33,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake01.mdl"
 
-ATT.MuzzleParticleOverride = "muzzleflash_3"
+ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
@@ -60,7 +60,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake02.mdl"
 
-ATT.MuzzleParticleOverride = "muzzleflash_3"
+ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
@@ -87,7 +87,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake03.mdl"
 
-ATT.MuzzleParticleOverride = "muzzleflash_3"
+ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
