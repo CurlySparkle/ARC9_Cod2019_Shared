@@ -928,94 +928,94 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west")
 
-/////////////////////////// -- cod2019_optic_hybrid_west02
-ATT = {}
+-- /////////////////////////// -- cod2019_optic_hybrid_west02
+-- ATT = {}
 
-ATT.PrintName = "4.0x Flip Hybrid"
-ATT.Description = ""
-ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_west02_lw.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+-- ATT.PrintName = "4.0x Flip Hybrid"
+-- ATT.Description = ""
+-- ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_west02_lw.png", "mips smooth")
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
-ATT.SortOrder = 4
-ATT.Category = {"cod2019_optic_big"}
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
-ATT.ActivateElements = {"optic","scope_sniper","optic_scope", "hybrid_scope"}
-ATT.ExcludeElements = {"no_optic_hybrid"}
+-- ATT.SortOrder = 4
+-- ATT.Category = {"cod2019_optic_big"}
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+-- ATT.ActivateElements = {"optic","scope_sniper","optic_scope","hybrid_scope"}
+-- ATT.ExcludeElements = {"no_optic_hybrid"}
 
-ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west02.mdl"
-ATT.ModelOffset = Vector(-1, 0, 0.1)
+-- ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west02.mdl"
+-- ATT.ModelOffset = Vector(-1, 0, 0.1)
 
-ATT.Sights = {
-    {
-        Pos = Vector(-0.02, 6.25, -1.347),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.15,
-        ViewModelFOV = 36,
-        IgnoreExtra = false
-    },
-    {
-        Pos = Vector(-0.02, 6.25, -1.347),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.15,
-        ViewModelFOV = 36,
-		RTScopeFOV = 36,
-        IgnoreExtra = false,
-		Integral = false,
-		Blur = true,
-		ActivateElements = {"magnifier_off"},
-        Disassociate = true,
-		CantPeek = true,
-    },
-}
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(-0.02, 5.9, -1.347),
+        -- Ang = Angle(0, 0, 0),
+        -- Magnification = 1.15,
+        -- ViewModelFOV = 36,
+        -- IgnoreExtra = false
+    -- },
+    -- {
+        -- Pos = Vector(-0.02, 6.25, -1.347),
+        -- Ang = Angle(0, 0, 0),
+        -- Magnification = 1.15,
+        -- ViewModelFOV = 36,
+		-- RTScopeFOV = 36,
+        -- IgnoreExtra = false,
+		-- Integral = false,
+		-- Blur = true,
+		-- ActivateElements = {"magnifier_off"},
+        -- Disassociate = true,
+		-- CantPeek = true,
+    -- },
+-- }
 
-ATT.CustomPros = {
-    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "1.15x - 4.0x",
-    [ ARC9:GetPhrase("mw19_optic_stat_toggle_holo") ] = "",
-}
+-- ATT.CustomPros = {
+    -- [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "1.15x - 4.0x",
+    -- [ ARC9:GetPhrase("mw19_optic_stat_toggle_holo") ] = "",
+-- }
 
-ATT.DrawFunc = function(swep, model, wm)
-    if !model.playedsomeanim then
-        model:ResetSequence(swep:GetMultiSight() == 1 and "idle" or "idle_off")
-    end
+-- ATT.DrawFunc = function(swep, model, wm)
+    -- if swep.MWHybridSwitching then
+        -- model:ResetSequence(swep:GetMultiSight() == 1 and "hybrid_on" or "hybrid_off")
+        -- model.fuckingcycle = 0
+        -- model.playedsomeanim = true
+        -- swep.MWHybridSwitching = nil 
+    -- end
+	
+    -- if !model.playedsomeanim then
+        -- model:ResetSequence(swep:GetMultiSight() == 1 and "idle" or "idle_off")
+    -- end
 
-    if swep.MWHybridSwitching then
-        model:ResetSequence(swep:GetMultiSight() == 1 and "hybrid_on" or "hybrid_off")
-        model.fuckingcycle = 0
-        model.playedsomeanim = true
-        swep.MWHybridSwitching = nil 
-    end
+    -- model.fuckingcycle = (model.fuckingcycle or 0) + FrameTime()*1
+    -- model:SetCycle(model.fuckingcycle)
+-- end
 
-    model.fuckingcycle = (model.fuckingcycle or 0) + FrameTime()*1
-    model:SetCycle(model.fuckingcycle)
-end
+-- ATT.HoloSight = true
+-- ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_holo")
+-- ATT.HoloSightSize = 512 * 1.3
+-- ATT.HoloSightColorable = false
+-- ATT.HoloSightColor = Color(255, 255, 255)
 
-ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_holo")
-ATT.HoloSightSize = 512 * 1.3
-ATT.HoloSightColorable = false
-ATT.HoloSightColor = Color(255, 255, 255)
+-- ATT.RTScope = true
+-- ATT.RTScopeSubmatIndex = 4
+-- ATT.RTScopeAdjustable = false
+-- ATT.RTScopeFOV = 36 / 1.75
+-- ATT.RTScopeRes = 512
+-- ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
+-- ATT.RTScopeReticleScale = 1
+-- ATT.RTScopeShadowIntensity = 7.5
+-- ATT.RTScopeColorable = false
 
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 36 / 4
-ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
-ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
-ATT.RTScopeColorable = false
+-- if !warzonestats then -- Regular Stats
+	-- ATT.AimDownSightsTimeAdd = 0.042
+	-- ATT.VisualRecoilMult = 0.99
+	-- ATT.RecoilMult = 0.99
+-- else -- Warzone Stats
+	-- ATT.AimDownSightsTimeAdd = 0.042
+	-- ATT.VisualRecoilMult = 0.99
+	-- ATT.RecoilMult = 0.99
+-- end
 
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
-else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west02")
+-- ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west02")
 
 /////////////////////////// -- cod2019_optic_scope_scout
 ATT = {}
@@ -1411,55 +1411,3 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_hybrid")
-
-/////////////////////////// -- cod2019_optic_scope_svd
-ATT = {}
-
-ATT.PrintName = "Dragunov Scope"
-ATT.Description = ""
-ATT.Icon = Material("entities/attachs/cod2019_optic_scope_svd.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-
-ATT.SortOrder = 5.5
-ATT.Category = {"cod2019_optic_svd"}
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
-ATT.ActivateElements = {"scope_svd"}
-
-ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_svd.mdl"
-ATT.ModelOffset = Vector(0.5, 0, -0.8)
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 9, -1.945),
-        Ang = Angle(0, 0, 0),
-        ViewModelFOV = 36,
-        Magnification = 1.15,
-        IgnoreExtra = true
-    },
-}
-
-ATT.CustomPros = {
-   [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "5.5x"
-}
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 5.5
-ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/svd_crosshair.png", "mips smooth")
-ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 5
-ATT.RTScopeNoPP = false
-ATT.RTScopeColorable = false
-
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.08
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
-else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.08
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_optic_scope_svd")

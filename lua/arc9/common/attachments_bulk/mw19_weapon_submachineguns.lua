@@ -235,10 +235,31 @@ ATT.ActivateElements = {"stock_none","stock_main_hide"}
 
 ATT.AimDownSightsTimeMult = 1.1
 ATT.RecoilMult = 0.9
-ATT.DrawTimeMult = 1.06
-ATT.HolsterTimeMult = 1.06
+ATT.DeployTimeMult = 1.06
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_stock_fullstock")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC Collapsible"
+ATT.CompactName = "Collapsed"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Collapsing the stock greatly increases movement.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_stock_nostock.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_mp5_stock"}
+ATT.ActivateElements = {"stock_retract"}
+
+ATT.AimDownSightsTimeMult = 0.74
+ATT.DeployTimeMult = 0.74
+ATT.RecoilKickMult = 1.27
+ATT.RecoilMult = 1.25
+
+ARC9.LoadAttachment(ATT, "cod2019_mp5_stock_none")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -249,7 +270,6 @@ ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barrel_suppressor_v4.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_barrel_suppressor.mdl"
@@ -260,8 +280,8 @@ ATT.Category = {"cod2019_mp5_barrel"}
 ATT.ActivateElements = {"barrel_none","barrel_supp","foregrip_none"}
 
 ATT.AimDownSightsTimeMult = 1.05
-ATT.SprintToFireTimeMult = 1.05
-ATT.RecoilMult = 0.95
+ATT.DeployTimeMult = 1.06
+ATT.RangeMaxMult = 1.1
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -294,7 +314,6 @@ ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_railgrip.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_railgrip.mdl"
@@ -304,12 +323,9 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none","foregrip_none"}
 
-ATT.AimDownSightsTimeMult = 0.9
-ATT.SprintToFireTimeMult = 0.9
-ATT.RecoilMult = 0.9
-
-ATT.RangeMaxMult = 0.9
-ATT.RangeMinMult = 0.9
+ATT.AimDownSightsTimeMult = 0.95
+ATT.DeployTimeMult = 0.95
+ATT.RecoilKickMult = 1.10
 
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
@@ -329,22 +345,13 @@ ATT.CompactName = "Default Alt"
 ATT.Description = [[Default foregrip with no flashlight.]]
 ATT.SortOrder = 1
 
---ATT.Icon = Material("entities/attachs/cod2019_mpapa5_stock_fullstock.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_sm_mp5_railgrip.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
-
---ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_barrel_suppressor.mdl"
---ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
 ATT.ActivateElements = {"foregrip_tac2","barrel_tact"}
-
--- ATT.AimDownSightsTimeMult = 1.1
--- ATT.SprintToFireTimeMult = 1.1
--- ATT.RecoilMult = 0.9
--- ATT.SpreadMult = 1.1
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_alt")
 
