@@ -216,6 +216,32 @@ ARC9.LoadAttachment(ATT, "cod2019_mp5_mag_9mm")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "45 Round Mags"
+ATT.CompactName = "45-Round"
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_mag_xmag_clip.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_mag_xmag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_mag_xmag.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_mag_mp5"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.ClipSizeOverride = 45
+ATT.ReloadTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.05
+ATT.DeployTimeMult = 1.03
+
+ARC9.LoadAttachment(ATT, "cod2019_mp5_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "Classic Straight-line Stock"
 ATT.CompactName = "Straight-line"
 ATT.Description = [[Solid body stock provides a more stable sight picture.]]
