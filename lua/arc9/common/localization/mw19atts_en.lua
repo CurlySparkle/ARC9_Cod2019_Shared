@@ -100,19 +100,19 @@ L["cod2019_optic_aimop.description"] = "Reflex sight of western origin. Provides
 
 L["cod2019_optic_aimop_alt.printname"] = "Aim-Op Reflex Sight (Low Profile)"
 L["cod2019_optic_aimop_alt.compactname"] = "Aim-Op LP"
-L["cod2019_optic_aimop_alt.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
+L["cod2019_optic_aimop_alt.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description") or "Reflex sight of western origin. Provides higher precision."
 
 L["cod2019_optic_minireddot1.printname"] = "G.I. Mini Reflex"
 L["cod2019_optic_minireddot1.compactname"] = "G.I. Mini"
 L["cod2019_optic_minireddot1.description"] = "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
 
-L["cod2019_optic_minireddot1_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname")
-L["cod2019_optic_minireddot1_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
-L["cod2019_optic_minireddot1_alt.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
+L["cod2019_optic_minireddot1_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname") or "G.I. Mini Reflex"
+L["cod2019_optic_minireddot1_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname") or "G.I. Mini"
+L["cod2019_optic_minireddot1_alt.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description") or "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
 
-L["cod2019_optic_minireddot1_scope.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname")
-L["cod2019_optic_minireddot1_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
-L["cod2019_optic_minireddot1_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
+L["cod2019_optic_minireddot1_scope.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname") or "G.I. Mini Reflex"
+L["cod2019_optic_minireddot1_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname") or "G.I. Mini"
+L["cod2019_optic_minireddot1_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description") or "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
 
 L["cod2019_optic_holo_east.printname"] = "APX5 Holographic Sight"
 L["cod2019_optic_holo_east.compactname"] = "APX5"
@@ -122,13 +122,13 @@ L["cod2019_optic_minireddot2.printname"] = "Cronen LP945 Mini Reflex"
 L["cod2019_optic_minireddot2.compactname"] = "Cronen"
 L["cod2019_optic_minireddot2.description"] = "Circular reflex frame from Cronen keeps the focus on the target."
 
-L["cod2019_optic_minireddot2_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname")
-L["cod2019_optic_minireddot2_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname")
-L["cod2019_optic_minireddot2_alt.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description")
+L["cod2019_optic_minireddot2_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname") or "Cronen LP945 Mini Reflex"
+L["cod2019_optic_minireddot2_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname") or "Cronen"
+L["cod2019_optic_minireddot2_alt.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description") or "Circular reflex frame from Cronen keeps the focus on the target."
 
-L["cod2019_optic_minireddot2_scope.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname")
-L["cod2019_optic_minireddot2_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname")
-L["cod2019_optic_minireddot2_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description")
+L["cod2019_optic_minireddot2_scope.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname") or "Cronen LP945 Mini Reflex"
+L["cod2019_optic_minireddot2_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname") or "Cronen"
+L["cod2019_optic_minireddot2_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description") or "Circular reflex frame from Cronen keeps the focus on the target."
 
 L["cod2019_optic_reflex_east.printname"] = "Viper Reflex Sight"
 L["cod2019_optic_reflex_east.compactname"] = "Viper"
@@ -146,66 +146,66 @@ L["cod2019_optic_minireddot3.printname"] = "Solozero Optics Mini Reflex"
 L["cod2019_optic_minireddot3.compactname"] = "Solozero"
 L["cod2019_optic_minireddot3.description"] = "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
 
-L["cod2019_optic_minireddot3_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname")
-L["cod2019_optic_minireddot3_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname")
-L["cod2019_optic_minireddot3_alt.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description")
+L["cod2019_optic_minireddot3_alt.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname") or "Solozero Optics Mini Reflex"
+L["cod2019_optic_minireddot3_alt.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname") or "Solozero"
+L["cod2019_optic_minireddot3_alt.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description") or "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
 
-L["cod2019_optic_minireddot3_scope.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname")
-L["cod2019_optic_minireddot3_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname")
-L["cod2019_optic_minireddot3_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description")
+L["cod2019_optic_minireddot3_scope.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname") or "Solozero Optics Mini Reflex"
+L["cod2019_optic_minireddot3_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname") or "Solozero"
+L["cod2019_optic_minireddot3_scope.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description") or "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
 
 L["cod2019_optic_reflex_west05.printname"] = "Cronen Elite Reflex" -- UO
 L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite" -- UO
-L["cod2019_optic_reflex_west05.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
+L["cod2019_optic_reflex_west05.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description") or "Reflex sight of western origin. Provides higher precision."
 
 -- Reflex Sights (Handguns)
-L["cod2019_optic_reflex_west03_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.printname")
-L["cod2019_optic_reflex_west03_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.compactname")
-L["cod2019_optic_reflex_west03_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.description")
+L["cod2019_optic_reflex_west03_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.printname") or "Operator Reflex Sight"
+L["cod2019_optic_reflex_west03_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.compactname") or "Operator"
+L["cod2019_optic_reflex_west03_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west03.description") or "Reflex sight of American origin. Provides higher precision."
 
-L["cod2019_optic_reflex_west_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west.printname")
-L["cod2019_optic_reflex_west_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west.compactname")
-L["cod2019_optic_reflex_west_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west.description")
+L["cod2019_optic_reflex_west_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west.printname") or "Corp Combat Holo Sight"
+L["cod2019_optic_reflex_west_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west.compactname") or "Corp Combat"
+L["cod2019_optic_reflex_west_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west.description") or "Advanced holographic sight of American origin."
 
-L["cod2019_optic_aimop_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_aimop.printname")
-L["cod2019_optic_aimop_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_aimop.compactname")
-L["cod2019_optic_aimop_pistol.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
+L["cod2019_optic_aimop_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_aimop.printname") or "Aim-Op Reflex Sight"
+L["cod2019_optic_aimop_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_aimop.compactname") or "Aim-Op"
+L["cod2019_optic_aimop_pistol.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description") or "Reflex sight of western origin. Provides higher precision."
 
-L["cod2019_optic_aimop_alt_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_aimop.printname")
-L["cod2019_optic_aimop_alt_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_aimop.compactname")
-L["cod2019_optic_aimop_alt_pistol.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description")
+L["cod2019_optic_aimop_alt_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_aimop_alt.printname") or "Aim-Op Reflex Sight (Low Profile)"
+L["cod2019_optic_aimop_alt_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_aimop_alt.compactname") or "Aim-Op LP"
+L["cod2019_optic_aimop_alt_pistol.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description") or "Reflex sight of western origin. Provides higher precision."
 
-L["cod2019_optic_minireddot1_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname")
-L["cod2019_optic_minireddot1_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname")
-L["cod2019_optic_minireddot1_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description")
+L["cod2019_optic_minireddot1_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.printname") or "G.I. Mini Reflex"
+L["cod2019_optic_minireddot1_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot1.compactname") or "G.I. Mini"
+L["cod2019_optic_minireddot1_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot1.description") or "G.I. Miniature reflex optic features a wide, thin frame for an unobstructed sight picture."
 
-L["cod2019_optic_holo_east_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_holo_east.printname")
-L["cod2019_optic_holo_east_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_holo_east.compactname")
-L["cod2019_optic_holo_east_pistol.description"] = ARC9:GetPhrase("cod2019_optic_holo_east.description")
+L["cod2019_optic_holo_east_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_holo_east.printname") or "APX5 Holographic Sight"
+L["cod2019_optic_holo_east_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_holo_east.compactname") or "APX5"
+L["cod2019_optic_holo_east_pistol.description"] = ARC9:GetPhrase("cod2019_optic_holo_east.description") or "Advanced holographic sight of Russian origin."
 
-L["cod2019_optic_minireddot2_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname")
-L["cod2019_optic_minireddot2_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname")
-L["cod2019_optic_minireddot2_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description")
+L["cod2019_optic_minireddot2_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.printname") or "Cronen LP945 Mini Reflex"
+L["cod2019_optic_minireddot2_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname") or "Cronen"
+L["cod2019_optic_minireddot2_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot2.description") or "Circular reflex frame from Cronen keeps the focus on the target."
 
-L["cod2019_optic_reflex_east_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_east.printname")
-L["cod2019_optic_reflex_east_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_east.compactname")
-L["cod2019_optic_reflex_east_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_east.description")
+L["cod2019_optic_reflex_east_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_east.printname") or "Viper Reflex Sight"
+L["cod2019_optic_reflex_east_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_east.compactname") or "Viper"
+L["cod2019_optic_reflex_east_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_east.description") or "Precision reflex sight of Russian origin."
 
-L["cod2019_optic_reflex_east02_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.printname")
-L["cod2019_optic_reflex_east02_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.compactname")
-L["cod2019_optic_reflex_east02_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.description")
+L["cod2019_optic_reflex_east02_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.printname") or "Monocle Reflex Sight"
+L["cod2019_optic_reflex_east02_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.compactname") or "Monocle"
+L["cod2019_optic_reflex_east02_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_east02.description") or "Russian reflex sight with a low-intrusive frame for improved target tracking."
 
-L["cod2019_optic_reflex_west02_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.printname")
-L["cod2019_optic_reflex_west02_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.compactname")
-L["cod2019_optic_reflex_west02_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.description")
+L["cod2019_optic_reflex_west02_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.printname") or "PBX Holo 7 Sight"
+L["cod2019_optic_reflex_west02_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.compactname") or "PBX"
+L["cod2019_optic_reflex_west02_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.description") or "Advanced holographic sight of American origin."
 
-L["cod2019_optic_minireddot3_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname")
-L["cod2019_optic_minireddot3_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname")
-L["cod2019_optic_minireddot3_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description")
+L["cod2019_optic_minireddot3_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.printname") or "Solozero Optics Mini Reflex"
+L["cod2019_optic_minireddot3_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot3.compactname") or "Solozero"
+L["cod2019_optic_minireddot3_pistol.description"] = ARC9:GetPhrase("cod2019_optic_minireddot3.description") or "Well-rounded precision sight from Solozero Optics provides a balanced sight picture."
 
-L["cod2019_optic_reflex_west05_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.printname")
-L["cod2019_optic_reflex_west05_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname")
-L["cod2019_optic_reflex_west05_pistol.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.description")
+L["cod2019_optic_reflex_west05_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.printname") or "Cronen Elite Reflex"
+L["cod2019_optic_reflex_west05_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname") or "Cronen Elite"
+L["cod2019_optic_reflex_west05_pistol.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description") or "Reflex sight of western origin. Provides higher precision."
 
 -- Scopes
 L["cod2019_optic_scope_scout.printname"] = "Scout Combat Optic"
@@ -253,59 +253,59 @@ L["mw19_optic_canted.compactname"] = "Canted"
 L["mw19_optic_canted.description"] = "<color=100,255,100>3.25x</color> Scout with a side-mounting reflex sight lets you change engagement distances with the flick of the wrist."
 
 L["cod2019_optic_scope_vz.printname"] = "Variable Zoom Scope"
-L["cod2019_optic_scope_vz.compactname"] = "Variable Zoom"
+L["cod2019_optic_scope_vz.compactname"] = "V. Zoom"
 L["cod2019_optic_scope_vz.description"] = "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 L["cod2019_optic_reflex_west05_hybrid.printname"] = "Cronen 2x2 Elite"
-L["cod2019_optic_reflex_west05_hybrid.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname")
+L["cod2019_optic_reflex_west05_hybrid.compactname"] = ARC9:GetPhrase("cod2019_optic_reflex_west05.compactname") or "Cronen Elite"
 L["cod2019_optic_reflex_west05_hybrid.description"] = "Advanced optic with <color=100,255,100>4.0x</color> magnification provides excellent target acquisition."
 
 -- Scopes for Handguns
-L["cod2019_optic_scope_scout_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.printname")
-L["cod2019_optic_scope_scout_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.compactname")
+L["cod2019_optic_scope_scout_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.printname") or "Scout Combat Optic"
+L["cod2019_optic_scope_scout_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.compactname") or "Scout"
 L["cod2019_optic_scope_scout_pistol.description"] = "Precision pistol optic with <color=100,255,100>2.75x</color> magnification for long range target acquisition."
 
 L["cod2019_optic_vlk3_pistol.printname"] = "VLK 2.5x Optic"
-L["cod2019_optic_vlk3_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_vlk3.compactname")
+L["cod2019_optic_vlk3_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_vlk3.compactname") or "VLK"
 L["cod2019_optic_vlk3_pistol.description"] = "Russian pistol optic with <color=100,255,100>2.5x</color> magnification provides reliable target acquisition."
 
-L["cod2019_optic_cronen_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_cronen.printname")
-L["cod2019_optic_cronen_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_cronen.compactname")
+L["cod2019_optic_cronen_pistol.printname"] = ARC9:GetPhrase("cod2019_optic_cronen.printname") or "Cronen C480 Pro Optic"
+L["cod2019_optic_cronen_pistol.compactname"] = ARC9:GetPhrase("cod2019_optic_cronen.compactname") or "Cronen"
 L["cod2019_optic_cronen_pistol.description"] = "Advanced pistol optic with <color=100,255,100>3.0x</color> magnification provides excellent target acquisition."
 
 -- Scopes for Sniper Rifles
-L["cod2019_optic_scope_scout_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.printname")
-L["cod2019_optic_scope_scout_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.compactname")
+L["cod2019_optic_scope_scout_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.printname") or "Scout Combat Optic"
+L["cod2019_optic_scope_scout_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_scout.compactname") or "Scout"
 L["cod2019_optic_scope_scout_sniper.description"] = "Lower power <color=100,255,100>3.25x</color> optic when range is less important than agility."
 
-L["cod2019_optic_vlk3_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_vlk3.printname")
-L["cod2019_optic_vlk3_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_vlk3.compactname")
+L["cod2019_optic_vlk3_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_vlk3.printname") or "VLK 3.0x Optic"
+L["cod2019_optic_vlk3_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_vlk3.compactname") or "VLK"
 L["cod2019_optic_vlk3_sniper.description"] = "Russian combat optic with <color=100,255,100>3.0x</color> magnification for closer range engagements."
 
 L["mw19_optic_thermal_sniper.printname"] = "Thermal Sniper Scope"
 L["mw19_optic_thermal_sniper.compactname"] = "Thermal"
 L["mw19_optic_thermal_sniper.description"] = "High-powered <color=100,255,100>8x</color> thermal sniper scope uses heat signatures to highlight targets and provides visibility in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
 
-L["cod2019_optic_scope_vz_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_scope_vz.printname")
-L["cod2019_optic_scope_vz_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_vz.compactname")
+L["cod2019_optic_scope_vz_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_scope_vz.printname") or "Variable Zoom Scope"
+L["cod2019_optic_scope_vz_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_vz.compactname") or "V. Zoom"
 L["cod2019_optic_scope_vz_sniper.description"] = "Advanced scope zooms between <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> for fighting at extreme ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 L["mw19_optic_thermal_vz_sniper.printname"] = "Thermal Dual Power Scope"
 L["mw19_optic_thermal_vz_sniper.compactname"] = "Thermal DP"
 L["mw19_optic_thermal_vz_sniper.description"] = "Advanced thermal imaging scope with variable <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> magnification for fighting at extreme ranges in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
 
-L["cod2019_optic_cronen_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_cronen.printname")
-L["cod2019_optic_cronen_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_cronen.compactname")
+L["cod2019_optic_cronen_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_cronen.printname") or "Cronen C480 Pro Optic"
+L["cod2019_optic_cronen_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_cronen.compactname") or "Cronen"
 L["cod2019_optic_cronen_sniper.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
 
 -- For Launchers
 L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight"
 L["cod2019_optic_scope_m32.compactname"] = "MGL GLS"
-L["cod2019_optic_scope_m32.description"] = ARC9:GetPhrase("cod2019_optic_cronen_sniper.description")
+L["cod2019_optic_scope_m32.description"] = ARC9:GetPhrase("cod2019_optic_cronen_sniper.description") or "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
 
 L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight"
 L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
-L["cod2019_optic_scope_strela.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description")
+L["cod2019_optic_scope_strela.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
@@ -324,101 +324,101 @@ L["cod2019_attach_flashhider01.printname"] = "Flash Guard"
 L["cod2019_attach_flashhider01.compactname"] = "Flash"
 L["cod2019_attach_flashhider01.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
 
-L["cod2019_attach_flashhider02.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname")
-L["cod2019_attach_flashhider02.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname")
-L["cod2019_attach_flashhider02.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description")
+L["cod2019_attach_flashhider02.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname") or "Flash Guard"
+L["cod2019_attach_flashhider02.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname") or "Flash"
+L["cod2019_attach_flashhider02.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description") or "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
 
-L["cod2019_attach_flashhider03.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname")
-L["cod2019_attach_flashhider03.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname")
-L["cod2019_attach_flashhider03.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description")
+L["cod2019_attach_flashhider03.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname") or "Flash Guard"
+L["cod2019_attach_flashhider03.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname") or "Flash"
+L["cod2019_attach_flashhider03.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description") or "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
 
-L["cod2019_attach_flashhider04.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname")
-L["cod2019_attach_flashhider04.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname")
-L["cod2019_attach_flashhider04.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description")
+L["cod2019_attach_flashhider04.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname") or "Flash Guard"
+L["cod2019_attach_flashhider04.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname") or "Flash"
+L["cod2019_attach_flashhider04.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description") or "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
 
-L["cod2019_attach_flashhider_psl01.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname")
-L["cod2019_attach_flashhider_psl01.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname")
-L["cod2019_attach_flashhider_psl01.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description")
+L["cod2019_attach_flashhider_psl01.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname") or "Flash Guard"
+L["cod2019_attach_flashhider_psl01.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname") or "Flash"
+L["cod2019_attach_flashhider_psl01.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description") or "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
 
-L["cod2019_attach_flashhider_shtgn01.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname")
-L["cod2019_attach_flashhider_shtgn01.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname")
-L["cod2019_attach_flashhider_shtgn01.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description")
+L["cod2019_attach_flashhider_shtgn01.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname") or "Flash Guard"
+L["cod2019_attach_flashhider_shtgn01.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname") or "Flash"
+L["cod2019_attach_flashhider_shtgn01.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description") or "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
 
-L["cod2019_attach_muzzle_db_hider.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname")
-L["cod2019_attach_muzzle_db_hider.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname")
-L["cod2019_attach_muzzle_db_hider.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description")
+L["cod2019_attach_muzzle_db_hider.printname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.printname") or "Flash Guard"
+L["cod2019_attach_muzzle_db_hider.compactname"] = ARC9:GetPhrase("cod2019_attach_flashhider01.compactname") or "Flash"
+L["cod2019_attach_muzzle_db_hider.description"] = ARC9:GetPhrase("cod2019_attach_flashhider01.description") or "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
 
 -- Breacher Device
 L["cod2019_attach_muzzlemelee01.printname"] = "Breacher Device"
 L["cod2019_attach_muzzlemelee01.compactname"] = "Breacher"
 L["cod2019_attach_muzzlemelee01.description"] = "Muzzle attachment that enables 1 hit melee kills."
 
-L["cod2019_attach_muzzlemelee02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.printname")
-L["cod2019_attach_muzzlemelee02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.compactname")
-L["cod2019_attach_muzzlemelee02.description"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.description")
+L["cod2019_attach_muzzlemelee02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.printname") or "Breacher Device"
+L["cod2019_attach_muzzlemelee02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.compactname") or "Breacher"
+L["cod2019_attach_muzzlemelee02.description"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.description") or "Muzzle attachment that enables 1 hit melee kills."
 
-L["cod2019_attach_muzzlemelee_shgn01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.printname")
-L["cod2019_attach_muzzlemelee_shgn01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.compactname")
-L["cod2019_attach_muzzlemelee_shgn01.description"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.description")
+L["cod2019_attach_muzzlemelee_shgn01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.printname") or "Breacher Device"
+L["cod2019_attach_muzzlemelee_shgn01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.compactname") or "Breacher"
+L["cod2019_attach_muzzlemelee_shgn01.description"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.description") or "Muzzle attachment that enables 1 hit melee kills."
 
-L["cod2019_attach_muzzle_db_melee.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.printname")
-L["cod2019_attach_muzzle_db_melee.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.compactname")
-L["cod2019_attach_muzzle_db_melee.description"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.description")
+L["cod2019_attach_muzzle_db_melee.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.printname") or "Breacher Device"
+L["cod2019_attach_muzzle_db_melee.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.compactname") or "Breacher"
+L["cod2019_attach_muzzle_db_melee.description"] = ARC9:GetPhrase("cod2019_attach_muzzlemelee01.description") or "Muzzle attachment that enables 1 hit melee kills."
 
 -- Muzzle Brake
 L["cod2019_attach_muzzlebrake01.printname"] = "Muzzle Brake"
 L["cod2019_attach_muzzlebrake01.compactname"] = "Brake"
 L["cod2019_attach_muzzlebrake01.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
 
-L["cod2019_attach_muzzlebrake02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname")
-L["cod2019_attach_muzzlebrake02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname")
-L["cod2019_attach_muzzlebrake02.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description")
+L["cod2019_attach_muzzlebrake02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname") or "Muzzle Brake"
+L["cod2019_attach_muzzlebrake02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname") or "Brake"
+L["cod2019_attach_muzzlebrake02.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description") or "Redirects gases outward to stabilize the weapon for better control of sustained fire."
 
-L["cod2019_attach_muzzlebrake03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname")
-L["cod2019_attach_muzzlebrake03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname")
-L["cod2019_attach_muzzlebrake03.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description")
+L["cod2019_attach_muzzlebrake03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname") or "Muzzle Brake"
+L["cod2019_attach_muzzlebrake03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname") or "Brake"
+L["cod2019_attach_muzzlebrake03.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description") or "Redirects gases outward to stabilize the weapon for better control of sustained fire."
 
-L["cod2019_attach_muzzlebrake04.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname")
-L["cod2019_attach_muzzlebrake04.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname")
-L["cod2019_attach_muzzlebrake04.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description")
+L["cod2019_attach_muzzlebrake04.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname") or "Muzzle Brake"
+L["cod2019_attach_muzzlebrake04.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname") or "Brake"
+L["cod2019_attach_muzzlebrake04.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description") or "Redirects gases outward to stabilize the weapon for better control of sustained fire."
 
-L["cod2019_attach_muzzlebrake_pstl01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname")
-L["cod2019_attach_muzzlebrake_pstl01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname")
-L["cod2019_attach_muzzlebrake_pstl01.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description")
+L["cod2019_attach_muzzlebrake_pstl01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname") or "Muzzle Brake"
+L["cod2019_attach_muzzlebrake_pstl01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname") or "Brake"
+L["cod2019_attach_muzzlebrake_pstl01.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description") or "Redirects gases outward to stabilize the weapon for better control of sustained fire."
 
-L["cod2019_attach_muzzlebrake_shgn01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname")
-L["cod2019_attach_muzzlebrake_shgn01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname")
-L["cod2019_attach_muzzlebrake_shgn01.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description")
+L["cod2019_attach_muzzlebrake_shgn01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname") or "Muzzle Brake"
+L["cod2019_attach_muzzlebrake_shgn01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname") or "Brake"
+L["cod2019_attach_muzzlebrake_shgn01.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description") or "Redirects gases outward to stabilize the weapon for better control of sustained fire."
 
-L["cod2019_attach_muzzle_db_brake.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname")
-L["cod2019_attach_muzzle_db_brake.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname")
-L["cod2019_attach_muzzle_db_brake.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description")
+L["cod2019_attach_muzzle_db_brake.printname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.printname") or "Muzzle Brake"
+L["cod2019_attach_muzzle_db_brake.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.compactname") or "Brake"
+L["cod2019_attach_muzzle_db_brake.description"] = ARC9:GetPhrase("cod2019_attach_muzzlebrake01.description") or "Redirects gases outward to stabilize the weapon for better control of sustained fire."
 
 -- Compensator
 L["cod2019_muzzle_compensator.printname"] = "Compensator"
 L["cod2019_muzzle_compensator.compactname"] = "Compensator"
 L["cod2019_muzzle_compensator.description"] = "Expels gases upward to aggressively fight muzzle climb."
 
-L["cod2019_attach_compensator_pstl01.printname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.printname")
-L["cod2019_attach_compensator_pstl01.compactname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.compactname")
-L["cod2019_attach_compensator_pstl01.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description")
+L["cod2019_attach_compensator_pstl01.printname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.printname") or "Compensator"
+L["cod2019_attach_compensator_pstl01.compactname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.compactname") or "Compensator"
+L["cod2019_attach_compensator_pstl01.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description") or "Expels gases upward to aggressively fight muzzle climb."
 
-L["cod2019_attach_compensator_shgn01.printname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.printname")
-L["cod2019_attach_compensator_shgn01.compactname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.compactname")
-L["cod2019_attach_compensator_shgn01.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description")
+L["cod2019_attach_compensator_shgn01.printname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.printname") or "Compensator"
+L["cod2019_attach_compensator_shgn01.compactname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.compactname") or "Compensator"
+L["cod2019_attach_compensator_shgn01.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description") or "Expels gases upward to aggressively fight muzzle climb."
 
-L["cod2019_attach_muzzle_db_comp.printname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.printname")
-L["cod2019_attach_muzzle_db_comp.compactname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.compactname")
-L["cod2019_attach_muzzle_db_comp.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description")
+L["cod2019_attach_muzzle_db_comp.printname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.printname") or "Compensator"
+L["cod2019_attach_muzzle_db_comp.compactname"] = ARC9:GetPhrase("cod2019_muzzle_compensator.compactname") or "Compensator"
+L["cod2019_attach_muzzle_db_comp.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description") or "Expels gases upward to aggressively fight muzzle climb."
 
 -- Choke"
 L["cod2019_attach_romeo870_choke.printname"] = "Choke"
 L["cod2019_attach_romeo870_choke.compactname"] = "Choke"
 L["cod2019_attach_romeo870_choke.description"] = "Device used to narrow the spread of shotgun pellets."
 
-L["cod2019_attach_muzzle_db_choke.printname"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.printname")
-L["cod2019_attach_muzzle_db_choke.compactname"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.compactname")
-L["cod2019_attach_muzzle_db_choke.description"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.description")
+L["cod2019_attach_muzzle_db_choke.printname"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.printname") or "Choke"
+L["cod2019_attach_muzzle_db_choke.compactname"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.compactname") or "Choke"
+L["cod2019_attach_muzzle_db_choke.description"] = ARC9:GetPhrase("cod2019_attach_romeo870_choke.description") or "Device used to narrow the spread of shotgun pellets."
 
 ///////// Suppressors
 -- Tactical
@@ -426,59 +426,59 @@ L["cod2019_attach_muzzle_silencer04.printname"] = "Tactical Suppressor"
 L["cod2019_attach_muzzle_silencer04.compactname"] = "Tactical"
 L["cod2019_attach_muzzle_silencer04.description"] = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
 
-L["cod2019_attach_muzzle_silencer_shotgun_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname")
-L["cod2019_attach_muzzle_silencer_shotgun_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
-L["cod2019_attach_muzzle_silencer_shotgun_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
+L["cod2019_attach_muzzle_silencer_shotgun_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname") or "Tactical Suppressor"
+L["cod2019_attach_muzzle_silencer_shotgun_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname") or "Tactical"
+L["cod2019_attach_muzzle_silencer_shotgun_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description") or "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
 
-L["cod2019_attach_muzzle_sil_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname")
-L["cod2019_attach_muzzle_sil_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
-L["cod2019_attach_muzzle_sil_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
+L["cod2019_attach_muzzle_sil_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname") or "Tactical Suppressor"
+L["cod2019_attach_muzzle_sil_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname") or "Tactical"
+L["cod2019_attach_muzzle_sil_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description") or "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
 
-L["cod2019_attach_muzzle_silencer_pstl_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname")
-L["cod2019_attach_muzzle_silencer_pstl_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname")
-L["cod2019_attach_muzzle_silencer_pstl_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description")
+L["cod2019_attach_muzzle_silencer_pstl_02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.printname") or "Tactical Suppressor"
+L["cod2019_attach_muzzle_silencer_pstl_02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.compactname") or "Tactical"
+L["cod2019_attach_muzzle_silencer_pstl_02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer04.description") or "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
 
 -- Lightweight
 L["cod2019_attach_muzzle_silencer03.printname"] = "Lightweight Suppressor"
 L["cod2019_attach_muzzle_silencer03.compactname"] = "Lightweight"
 L["cod2019_attach_muzzle_silencer03.description"] = "Lightweight aluminium suppressor sacrifices range for stealth and agility."
 
-L["cod2019_attach_muzzle_silencer_east01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname")
-L["cod2019_attach_muzzle_silencer_east01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
-L["cod2019_attach_muzzle_silencer_east01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+L["cod2019_attach_muzzle_silencer_east01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname") or "Lightweight Suppressor"
+L["cod2019_attach_muzzle_silencer_east01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname") or "Lightweight"
+L["cod2019_attach_muzzle_silencer_east01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description") or "Lightweight aluminium suppressor sacrifices range for stealth and agility."
 
-L["cod2019_attach_muzzle_silencer_east03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname")
-L["cod2019_attach_muzzle_silencer_east03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
-L["cod2019_attach_muzzle_silencer_east03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+L["cod2019_attach_muzzle_silencer_east03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname") or "Lightweight Suppressor"
+L["cod2019_attach_muzzle_silencer_east03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname") or "Lightweight"
+L["cod2019_attach_muzzle_silencer_east03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description") or "Lightweight aluminium suppressor sacrifices range for stealth and agility."
 
-L["cod2019_attach_muzzle_sil_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname")
-L["cod2019_attach_muzzle_sil_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
-L["cod2019_attach_muzzle_sil_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+L["cod2019_attach_muzzle_sil_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname") or "Lightweight Suppressor"
+L["cod2019_attach_muzzle_sil_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname") or "Lightweight"
+L["cod2019_attach_muzzle_sil_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description") or "Lightweight aluminium suppressor sacrifices range for stealth and agility."
 
-L["cod2019_attach_muzzle_silencer_pstl_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname")
-L["cod2019_attach_muzzle_silencer_pstl_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname")
-L["cod2019_attach_muzzle_silencer_pstl_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+L["cod2019_attach_muzzle_silencer_pstl_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.printname") or "Lightweight Suppressor"
+L["cod2019_attach_muzzle_silencer_pstl_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.compactname") or "Lightweight"
+L["cod2019_attach_muzzle_silencer_pstl_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description") or "Lightweight aluminium suppressor sacrifices range for stealth and agility."
 
 -- Monolithic
 L["cod2019_attach_muzzle_silencer02.printname"] = "Monolithic Suppressor"
 L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolithic"
 L["cod2019_attach_muzzle_silencer02.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
-L["cod2019_attach_muzzle_silencer_east02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
-L["cod2019_attach_muzzle_silencer_east02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
-L["cod2019_attach_muzzle_silencer_east02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
+L["cod2019_attach_muzzle_silencer_east02.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname") or "Monolithic Suppressor"
+L["cod2019_attach_muzzle_silencer_east02.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname") or "Monolithic"
+L["cod2019_attach_muzzle_silencer_east02.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description") or "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
-L["cod2019_attach_muzzle_silencer_shotgun_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
-L["cod2019_attach_muzzle_silencer_shotgun_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
-L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
+L["cod2019_attach_muzzle_silencer_shotgun_01.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname") or "Monolithic Suppressor"
+L["cod2019_attach_muzzle_silencer_shotgun_01.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname") or "Monolithic"
+L["cod2019_attach_muzzle_silencer_shotgun_01.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description") or "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
-L["cod2019_attach_muzzle_sil_03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
-L["cod2019_attach_muzzle_sil_03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
-L["cod2019_attach_muzzle_sil_03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
+L["cod2019_attach_muzzle_sil_03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname") or "Monolithic Suppressor"
+L["cod2019_attach_muzzle_sil_03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname") or "Monolithic"
+L["cod2019_attach_muzzle_sil_03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description") or "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
-L["cod2019_attach_muzzle_silencer_pstl_03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname")
-L["cod2019_attach_muzzle_silencer_pstl_03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname")
-L["cod2019_attach_muzzle_silencer_pstl_03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
+L["cod2019_attach_muzzle_silencer_pstl_03.printname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.printname") or "Monolithic Suppressor"
+L["cod2019_attach_muzzle_silencer_pstl_03.compactname"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.compactname") or "Monolithic"
+L["cod2019_attach_muzzle_silencer_pstl_03.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description") or "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
 -- FORGE TAC, certain shotguns only
 L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
@@ -522,20 +522,20 @@ L["cod2019_grips_bipod_alt.description"] = "Stability legs to improve control wh
 
 L["cod2019_grips_tactical.printname"] = "Task Force Foregrip" -- UO
 L["cod2019_grips_tactical.compactname"] = "Task Force" -- UO
-L["cod2019_grips_tactical.description"] = ARC9:GetPhrase("cod2019_angled_tactical.description")
+L["cod2019_grips_tactical.description"] = ARC9:GetPhrase("cod2019_angled_tactical.description") or "Streamlined foregrip provides superior control acquiring targets."
 
 L["cod2019_grau_ub_shark.printname"] = "Cronen Shark II"
 L["cod2019_grau_ub_shark.compactname"] = "Shark II"
 L["cod2019_grau_ub_shark.description"] = "Tactical foregrip provides best in class control acquiring targets."
 
 -- Side-mounted
-L["cod2019_grips_side_merc.printname"] = ARC9:GetPhrase("cod2019_grips_merc.printname")
-L["cod2019_grips_side_merc.compactname"] = ARC9:GetPhrase("cod2019_grips_merc.compactname")
-L["cod2019_grips_side_merc.description"] = ARC9:GetPhrase("cod2019_grips_merc.description")
+L["cod2019_grips_side_merc.printname"] = ARC9:GetPhrase("cod2019_grips_merc.printname") or "Merc Foregrip"
+L["cod2019_grips_side_merc.compactname"] = ARC9:GetPhrase("cod2019_grips_merc.compactname") or "Merc"
+L["cod2019_grips_side_merc.description"] = ARC9:GetPhrase("cod2019_grips_merc.description") or "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics."
 
-L["cod2019_grips_side_operator.printname"] = ARC9:GetPhrase("cod2019_grips_operator.printname")
-L["cod2019_grips_side_operator.compactname"] = ARC9:GetPhrase("cod2019_grips_operator.compactname")
-L["cod2019_grips_side_operator.description"] = ARC9:GetPhrase("cod2019_grips_operator.description")
+L["cod2019_grips_side_operator.printname"] = ARC9:GetPhrase("cod2019_grips_operator.printname") or "Operator Foregrip"
+L["cod2019_grips_side_operator.compactname"] = ARC9:GetPhrase("cod2019_grips_operator.compactname") or "Operator"
+L["cod2019_grips_side_operator.description"] = ARC9:GetPhrase("cod2019_grips_operator.description") or "No frills foregrip helps control vertical recoil for faster follow-up shots."
 
 ///////// Weapons
 L["mw19_att_ub_m203_he.printname"] = "M203 40mm High-explosive"
@@ -568,27 +568,27 @@ L["mw19_att_ub_shotgun.description"] = "Single fire underbarrel <color=100,255,1
 
 L["mw19_att_ub_gp25_he.printname"] = "GP25 40mm High-explosive"
 L["mw19_att_ub_gp25_he.compactname"] = "GP25 HE"
-L["mw19_att_ub_gp25_he.description"] = ARC9:GetPhrase("mw19_att_ub_m203_he.description")
+L["mw19_att_ub_gp25_he.description"] = ARC9:GetPhrase("mw19_att_ub_m203_he.description") or "Underbarrel mounted grenade launcher loaded with highly <color=100,255,100>explosive</color> rounds."
 
 L["mw19_att_ub_gp25_fb.printname"] = "GP25 40mm Flash"
 L["mw19_att_ub_gp25_fb.compactname"] = "GP25 FB"
-L["mw19_att_ub_gp25_fb.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fb.description")
+L["mw19_att_ub_gp25_fb.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fb.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Flash</color> rounds designed to temporarily blind your enemy."
 
 L["mw19_att_ub_gp25_sg.printname"] = "GP25 40mm Smokescreen"
 L["mw19_att_ub_gp25_sg.compactname"] = "GP25 SG"
-L["mw19_att_ub_gp25_sg.description"] = ARC9:GetPhrase("mw19_att_ub_m203_sg.description")
+L["mw19_att_ub_gp25_sg.description"] = ARC9:GetPhrase("mw19_att_ub_m203_sg.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Smoke</color> rounds designed to conceal your movement."
 
 L["mw19_att_ub_gp25_fire.printname"] = "GP25 40mm Incendiary"
 L["mw19_att_ub_gp25_fire.compactname"] = "GP25 IC"
-L["mw19_att_ub_gp25_fire.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fire.description")
+L["mw19_att_ub_gp25_fire.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fire.description") or "Underbarrel mounted grenade launcher loaded with lethal <color=100,255,100>Incendiary</color> rounds."
 
 L["mw19_att_ub_gp25_stun.printname"] = "GP25 40mm Concussive"
 L["mw19_att_ub_gp25_stun.compactname"] = "GP25 Stun"
-L["mw19_att_ub_gp25_stun.description"] = ARC9:GetPhrase("mw19_att_ub_m203_stun.description")
+L["mw19_att_ub_gp25_stun.description"] = ARC9:GetPhrase("mw19_att_ub_m203_stun.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Concussive</color> rounds designed to stun your enemy."
 
 L["mw19_att_ub_gp25_recon.printname"] = "GP25 40mm Recon"
 L["mw19_att_ub_gp25_recon.compactname"] = "GP25 Recon"
-L["mw19_att_ub_gp25_recon.description"] = ARC9:GetPhrase("mw19_att_ub_m203_recon.description")
+L["mw19_att_ub_gp25_recon.description"] = ARC9:GetPhrase("mw19_att_ub_m203_recon.description") or "Underbarrel mounted grenade launcher loaded with <color=100,255,100>Snapshot</color> rounds. This recon device provides a momentary glimpse of enemies within the blast radius for your squad."
 
 ////////////////////  Lasers
 L["cod2019_laser_01.printname"] = "Tac Laser"
@@ -603,41 +603,41 @@ L["cod2019_laser_03.printname"] = "5mW Laser"
 L["cod2019_laser_03.compactname"] = "5mW"
 L["cod2019_laser_03.description"] = "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
 
-L["cod2019_laser_cylinder_01.printname"] = ARC9:GetPhrase("cod2019_laser_01.printname")
-L["cod2019_laser_cylinder_01.compactname"] = ARC9:GetPhrase("cod2019_laser_01.compactname")
-L["cod2019_laser_cylinder_01.description"] = ARC9:GetPhrase("cod2019_laser_01.description")
+L["cod2019_laser_cylinder_01.printname"] = ARC9:GetPhrase("cod2019_laser_01.printname") or "Tac Laser"
+L["cod2019_laser_cylinder_01.compactname"] = ARC9:GetPhrase("cod2019_laser_01.compactname") or "Tac"
+L["cod2019_laser_cylinder_01.description"] = ARC9:GetPhrase("cod2019_laser_01.description") or "High power 5mW tactical green laser. Improves accuracy while aiming down sights. Exposes position when active."
 
-L["cod2019_laser_cylinder_02.printname"] = ARC9:GetPhrase("cod2019_laser_02.printname")
-L["cod2019_laser_cylinder_02.compactname"] = ARC9:GetPhrase("cod2019_laser_02.compactname")
-L["cod2019_laser_cylinder_02.description"] = ARC9:GetPhrase("cod2019_laser_02.description")
+L["cod2019_laser_cylinder_02.printname"] = ARC9:GetPhrase("cod2019_laser_02.printname") or "1mW Laser"
+L["cod2019_laser_cylinder_02.compactname"] = ARC9:GetPhrase("cod2019_laser_02.compactname") or "1mW"
+L["cod2019_laser_cylinder_02.description"] = ARC9:GetPhrase("cod2019_laser_02.description") or "Low power 1mW red laser slightly speeds up target acquisition after sprinting."
 
-L["cod2019_laser_cylinder_03.printname"] = ARC9:GetPhrase("cod2019_laser_03.printname")
-L["cod2019_laser_cylinder_03.compactname"] = ARC9:GetPhrase("cod2019_laser_03.compactname")
-L["cod2019_laser_cylinder_03.description"] = ARC9:GetPhrase("cod2019_laser_03.description")
+L["cod2019_laser_cylinder_03.printname"] = ARC9:GetPhrase("cod2019_laser_03.printname") or "5mW Laser"
+L["cod2019_laser_cylinder_03.compactname"] = ARC9:GetPhrase("cod2019_laser_03.compactname") or "5mW"
+L["cod2019_laser_cylinder_03.description"] = ARC9:GetPhrase("cod2019_laser_03.description") or "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
 
-L["cod2019_laser_pstl_01.printname"] = ARC9:GetPhrase("cod2019_laser_01.printname")
-L["cod2019_laser_pstl_01.compactname"] = ARC9:GetPhrase("cod2019_laser_01.compactname")
-L["cod2019_laser_pstl_01.description"] = ARC9:GetPhrase("cod2019_laser_01.description")
+L["cod2019_laser_pstl_01.printname"] = ARC9:GetPhrase("cod2019_laser_01.printname") or "Tac Laser"
+L["cod2019_laser_pstl_01.compactname"] = ARC9:GetPhrase("cod2019_laser_01.compactname") or "Tac"
+L["cod2019_laser_pstl_01.description"] = ARC9:GetPhrase("cod2019_laser_01.description") or "High power 5mW tactical green laser. Improves accuracy while aiming down sights. Exposes position when active."
 
-L["cod2019_laser_pstl_02.printname"] = ARC9:GetPhrase("cod2019_laser_02.printname")
-L["cod2019_laser_pstl_02.compactname"] = ARC9:GetPhrase("cod2019_laser_02.compactname")
-L["cod2019_laser_pstl_02.description"] = ARC9:GetPhrase("cod2019_laser_02.description")
+L["cod2019_laser_pstl_02.printname"] = ARC9:GetPhrase("cod2019_laser_02.printname") or "1mW Laser"
+L["cod2019_laser_pstl_02.compactname"] = ARC9:GetPhrase("cod2019_laser_02.compactname") or "1mW"
+L["cod2019_laser_pstl_02.description"] = ARC9:GetPhrase("cod2019_laser_02.description") or "Low power 1mW red laser slightly speeds up target acquisition after sprinting."
 
-L["cod2019_laser_pstl_03.printname"] = ARC9:GetPhrase("cod2019_laser_03.printname")
-L["cod2019_laser_pstl_03.compactname"] = ARC9:GetPhrase("cod2019_laser_03.compactname")
-L["cod2019_laser_pstl_03.description"] = ARC9:GetPhrase("cod2019_laser_03.description")
+L["cod2019_laser_pstl_03.printname"] = ARC9:GetPhrase("cod2019_laser_03.printname") or "5mW Laser"
+L["cod2019_laser_pstl_03.compactname"] = ARC9:GetPhrase("cod2019_laser_03.compactname") or "5mW"
+L["cod2019_laser_pstl_03.description"] = ARC9:GetPhrase("cod2019_laser_03.description") or "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
 
-L["cod2019_laser_01_cylinde_alt.printname"] = ARC9:GetPhrase("cod2019_laser_01.printname")
-L["cod2019_laser_01_cylinde_alt.compactname"] = ARC9:GetPhrase("cod2019_laser_01.compactname")
-L["cod2019_laser_01_cylinde_alt.description"] = ARC9:GetPhrase("cod2019_laser_01.description")
+L["cod2019_laser_01_cylinde_alt.printname"] = ARC9:GetPhrase("cod2019_laser_01.printname") or "Tac Laser"
+L["cod2019_laser_01_cylinde_alt.compactname"] = ARC9:GetPhrase("cod2019_laser_01.compactname") or "Tac"
+L["cod2019_laser_01_cylinde_alt.description"] = ARC9:GetPhrase("cod2019_laser_01.description") or "High power 5mW tactical green laser. Improves accuracy while aiming down sights. Exposes position when active."
 
-L["cod2019_laser_02_cylinde_alt.printname"] = ARC9:GetPhrase("cod2019_laser_02.printname")
-L["cod2019_laser_02_cylinde_alt.compactname"] = ARC9:GetPhrase("cod2019_laser_02.compactname")
-L["cod2019_laser_02_cylinde_alt.description"] = ARC9:GetPhrase("cod2019_laser_02.description")
+L["cod2019_laser_02_cylinde_alt.printname"] = ARC9:GetPhrase("cod2019_laser_02.printname") or "1mW Laser"
+L["cod2019_laser_02_cylinde_alt.compactname"] = ARC9:GetPhrase("cod2019_laser_02.compactname") or "1mW"
+L["cod2019_laser_02_cylinde_alt.description"] = ARC9:GetPhrase("cod2019_laser_02.description") or "Low power 1mW red laser slightly speeds up target acquisition after sprinting."
 
-L["cod2019_laser_03_cylinde_alt.printname"] = ARC9:GetPhrase("cod2019_laser_03.printname")
-L["cod2019_laser_03_cylinde_alt.compactname"] = ARC9:GetPhrase("cod2019_laser_03.compactname")
-L["cod2019_laser_03_cylinde_alt.description"] = ARC9:GetPhrase("cod2019_laser_03.description")
+L["cod2019_laser_03_cylinde_alt.printname"] = ARC9:GetPhrase("cod2019_laser_03.printname") or "5mW Laser"
+L["cod2019_laser_03_cylinde_alt.compactname"] = ARC9:GetPhrase("cod2019_laser_03.compactname") or "5mW"
+L["cod2019_laser_03_cylinde_alt.description"] = ARC9:GetPhrase("cod2019_laser_03.description") or "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
 
 ////////////////////  Stocks
 L["mw19stockdesc.vlight"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
@@ -647,9 +647,9 @@ L["mw19stockdesc.heavy"] = "Heavy duty stock keeps your aim steady for precision
 L["mw19stockdesc.vheavy"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
-L["cod2019_stock_none.printname"] = "No Stock" -- Kilo 141
-L["cod2019_stock_none.compactname"] = "N/A" -- UO
-L["cod2019_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none")
+L["cod2019_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock" -- Kilo 141
+L["cod2019_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A" -- UO
+L["cod2019_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 ////////// Tubes
 L["cod2019_stock_tube_light.printname"] = "Lightweight Buffer Tube" -- UO
@@ -662,7 +662,7 @@ L["cod2019_stock_tube_medium.description"] = "Tactical, streamlined buffer tube 
 
 L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms Buffer Tube" -- UO
 L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
-L["cod2019_stock_tube_singuard.description"] = ARC9:GetPhrase("cod2019_stock_tube_light.description")
+L["cod2019_stock_tube_singuard.description"] = ARC9:GetPhrase("cod2019_stock_tube_light.description") or "Lightweight aluminium buffer tube allowing the installation of aftermarket stocks."
 
 L["cod2019_stock_tube_padded.printname"] = "Padded Buffer Tube" -- UO
 L["cod2019_stock_tube_padded.compactname"] = "Padded" -- UO
@@ -743,7 +743,7 @@ L["cod2019_kilo141_barrel_supp.description"] = "Heavy duty <color=255,255,100>in
 /////////////// Stock
 L["cod2019_kilo141_stock_light.printname"] = "FORGE TAC Ultralight"
 L["cod2019_kilo141_stock_light.compactname"] = "Ultralight"
-L["cod2019_kilo141_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_kilo141_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
 L["cod2019_kilo141_stock_heavy.compactname"] = "Sniper Pro"
@@ -751,7 +751,7 @@ L["cod2019_kilo141_stock_heavy.description"] = "Heavy duty stock with adjustable
 
 L["cod2019_kilo141_stock_medium.printname"] = "FSS Close Quarters Stock"
 L["cod2019_kilo141_stock_medium.compactname"] = "CQS"
-L["cod2019_kilo141_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
+L["cod2019_kilo141_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_kilo141_mag_drum.printname"] = string.format(mw19magtext.drum, "100")
@@ -766,7 +766,7 @@ L["cod2019_fal_body_v2.description"] = "Modernized receiver for the FAL. Purely 
 
 /////////////// Barrels
 L["cod2019_fal_barrel_01.printname"] = "18.0\" Ultralight"
-L["cod2019_fal_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
+L["cod2019_fal_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
 L["cod2019_fal_barrel_01.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 L["cod2019_fal_barrel_02.printname"] = "XRK Marksman"
@@ -778,21 +778,21 @@ L["cod2019_fal_barrel_03.compactname"] = "OSW Para"
 L["cod2019_fal_barrel_03.description"] = "Compact medium contoured barrel improves speed and agility with a minor decrease to muzzle velocity and accuracy."
 
 /////////////// Stock
-L["cod2019_fal_stock_v2.printname"] = ARC9:GetPhrase("cod2019_fal_body_v2.printname")
-L["cod2019_fal_stock_v2.compactname"] = ARC9:GetPhrase("cod2019_fal_body_v2.compactname")
+L["cod2019_fal_stock_v2.printname"] = ARC9:GetPhrase("cod2019_fal_body_v2.printname") or "Smooth Dominator"
+L["cod2019_fal_stock_v2.compactname"] = ARC9:GetPhrase("cod2019_fal_body_v2.compactname") or "Dominator"
 L["cod2019_fal_stock_v2.description"] = "Modernized stock for the FAL. Purely <color=255,255,100>cosmetic</color>." -- UO
 
 L["cod2019_fal_stock_light.printname"] = "Factory 18\" Aluminium Stock"
 L["cod2019_fal_stock_light.compactname"] = "Factory"
 L["cod2019_fal_stock_light.description"] = "Lightweight aluminum stock keeps you agile while aiming down sights."
 
-L["cod2019_fal_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
-L["cod2019_fal_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
-L["cod2019_fal_stock_medium.description"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.description")
+L["cod2019_fal_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_fal_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_fal_stock_medium.description"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.description") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 L["cod2019_fal_stock_heavy.printname"] = "FORGE TAC Stalker"
 L["cod2019_fal_stock_heavy.compactname"] = "Stalker"
-L["cod2019_fal_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_fal_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 /////////////// Magazine
 L["cod2019_fal_mag_24.printname"] = string.format(mw19magtext.mag, "24")
@@ -832,11 +832,11 @@ L["cod2019_m4a1_stock_heavy.description"] = "Heavy duty fixed stock provides rel
 
 L["cod2019_m4a1_stock_vlight.printname"] = "Singuard Arms Invader"
 L["cod2019_m4a1_stock_vlight.compactname"] = "Invader"
-L["cod2019_m4a1_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_m4a1_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 L["cod2019_m4a1_stock_medium.printname"] = "FORGE TAC CQS"
 L["cod2019_m4a1_stock_medium.compactname"] = "CQS"
-L["cod2019_m4a1_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
+L["cod2019_m4a1_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_attach_xmag_50.printname"] = string.format(mw19magtext.mag, "50")
@@ -870,13 +870,13 @@ L["cod2019_famas_barrel_long.printname"] = "FR 24.4\" Sniper"
 L["cod2019_famas_barrel_long.compactname"] = "Sniper"
 L["cod2019_famas_barrel_long.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes grouping but hinders mobility."
 
-L["cod2019_famas_barrel_03.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname")
-L["cod2019_famas_barrel_03.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
+L["cod2019_famas_barrel_03.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname") or "FORGE TAC Ultralight"
+L["cod2019_famas_barrel_03.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
 L["cod2019_famas_barrel_03.description"] = "Fluted barrel with a wider bore reduces weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
 L["cod2019_famas_stock_heavy.printname"] = "FR Ultralight Hollow"
-L["cod2019_famas_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
+L["cod2019_famas_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
 L["cod2019_famas_stock_heavy.description"] = "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_famas_stock_light.printname"] = "FORGE TAC Ballast Pack"
@@ -909,15 +909,15 @@ L["cod2019_oden_muzzle_big.description"] = "Extended suppressor adds considerabl
 /////////////// Stock
 L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
 L["cod2019_oden_stock_heavy.compactname"] = "Ballast"
-L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_light.description")
+L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_light.description") or "Weighted packs provide stability while aiming."
 
 L["cod2019_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
-L["cod2019_oden_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
-L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description")
+L["cod2019_oden_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
 L["cod2019_oden_stock_medium.compactname"] = "XL Elite"
-L["cod2019_oden_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
+L["cod2019_oden_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_oden_mag_25.printname"] = string.format(mw19magtext.mag, "25")
@@ -932,7 +932,7 @@ L["cod2019_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw
 /////////////// Barrels
 L["cod2019_m13_barrel_short.printname"] = "Tempus Mini"
 L["cod2019_m13_barrel_short.compactname"] = "Mini"
-L["cod2019_m13_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_m13_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_m13_barrel_supp.printname"] = "Tempus Cyclone"
 L["cod2019_m13_barrel_supp.compactname"] = "Cyclone"
@@ -945,7 +945,7 @@ L["cod2019_m13_barrel_long.description"] = "This 16\" chrome-moly barrel, with a
 /////////////// Stock
 L["cod2019_m13_stock_light.printname"] = "M13 Skeleton Stock"
 L["cod2019_m13_stock_light.compactname"] = "Skeleton"
-L["cod2019_m13_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_m13_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 /////////////// Magazine
 L["cod2019_m13_mag_blackout.printname"] = ".300 Blackout 30-Round Mags"
@@ -964,20 +964,20 @@ L["cod2019_scar_barrel_long.description"] = "20.0\" polygonal rifled barrel with
 
 L["cod2019_scar_barrel_short.printname"] = "FORGE TAC CQC Pro"
 L["cod2019_scar_barrel_short.compactname"] = "CQC Pro"
-L["cod2019_scar_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_scar_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 /////////////// Stock
 L["cod2019_scar_stock_heavy.printname"] = "FTAC Hunter"
 L["cod2019_scar_stock_heavy.compactname"] = "Hunter"
-L["cod2019_scar_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_scar_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_scar_stock_light.printname"] = "FTAC Collapsible"
 L["cod2019_scar_stock_light.compactname"] = "Collapsible"
-L["cod2019_scar_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_scar_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
 L["cod2019_scar_stock_vheavy.compactname"] = "Obelisk Pro"
-L["cod2019_scar_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy")
+L["cod2019_scar_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy") or "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 
 /////////////// Magazine
 L["cod2019_scar_mag_ext.printname"] = string.format(mw19magtext.mag, "25")
@@ -1008,7 +1008,7 @@ L["cod2019_akilo47_barrel_heavy.description"] = "Heavy duty 23.0\" barrel increa
 
 L["cod2019_akilo47_barrel_smg.printname"] = "8.1\" Compact Barrel"
 L["cod2019_akilo47_barrel_smg.compactname"] = "Compact"
-L["cod2019_akilo47_barrel_smg.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_akilo47_barrel_smg.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_akilo47_barrel_heavy2.printname"] = "23.0\" Romanian"
 L["cod2019_akilo47_barrel_heavy2.compactname"] = "Romanian"
@@ -1022,15 +1022,15 @@ L["cod2019_ak47_bayonet.description"] = "Lethal Melee Attack"
 /////////////// Stock
 L["cod2019_ak47_stock_heavy.printname"] = "Field LMG Stock"
 L["cod2019_ak47_stock_heavy.compactname"] = "Field LMG"
-L["cod2019_ak47_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_ak47_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_akilo47_stockskel.printname"] = "Skeleton Stock"
 L["cod2019_akilo47_stockskel.compactname"] = "Skeleton"
-L["cod2019_akilo47_stockskel.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_akilo47_stockskel.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
-L["cod2019_ak47_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname")
-L["cod2019_ak47_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname")
-L["cod2019_ak47_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_ak47_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
+L["cod2019_ak47_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
+L["cod2019_ak47_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_ak47_mag_40.printname"] = string.format(mw19magtext.mag, "40")
@@ -1053,7 +1053,7 @@ L["cod2019_akilo47_mag_origin12.description"] = "Conversion kit to use <color=25
 /////////////// Barrels
 L["cod2019_ram7_barrel_01.printname"] = "FTAC 13.5\" Compact"
 L["cod2019_ram7_barrel_01.compactname"] = "Compact"
-L["cod2019_ram7_barrel_01.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_ram7_barrel_01.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_ram7_barrel_mid.printname"] = "FORGE TAC Eclipse"
 L["cod2019_ram7_barrel_mid.compactname"] = "Eclipse"
@@ -1069,12 +1069,12 @@ L["cod2019_ram7_stock_heavy.compactname"] = "Equilibrium"
 L["cod2019_ram7_stock_heavy.description"] = "Weighted stock with cushioned recoil pad keeps your aim steady for precision shots."
 
 L["cod2019_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
-L["cod2019_ram7_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
+L["cod2019_ram7_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
 L["cod2019_ram7_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
 
 L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters Stock"
-L["cod2019_ram7_stock_tactical.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
-L["cod2019_ram7_stock_tactical.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
+L["cod2019_ram7_stock_tactical.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_ram7_stock_tactical.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_ram7_mag_drum_9mm.printname"] = "9mm 60-Round Mags" -- UO
@@ -1101,25 +1101,25 @@ L["cod2019_grau556_barrel_long.description"] = "Stainless steel 20.8\" barrel in
 
 L["cod2019_grau_barrel_05.printname"] = "FSS 11.8\" Squall"
 L["cod2019_grau_barrel_05.compactname"] = "Squall"
-L["cod2019_grau_barrel_05.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description")
+L["cod2019_grau_barrel_05.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description") or "Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
 L["cod2019_grau556_stock_heavy.printname"] = "FSS Blackjack"
 L["cod2019_grau556_stock_heavy.compactname"] = "Blackjack"
-L["cod2019_grau556_stock_heavy.description"] = ARC9:GetPhrase("cod2019_m4a1_stock_heavy.description")
+L["cod2019_grau556_stock_heavy.description"] = ARC9:GetPhrase("cod2019_m4a1_stock_heavy.description") or "Heavy duty fixed stock provides reliable stability while aiming."
 
 L["cod2019_grau_stock_light.printname"] = "XRK StrikeLite III"
 L["cod2019_grau_stock_light.compactname"] = "StrikeLite III"
 L["cod2019_grau_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
 
-L["cod2019_grau556_stock_none.printname"] = "No Stock"
-L["cod2019_grau556_stock_none.compactname"] = "N/A"
-L["cod2019_grau556_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_grau556_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
+L["cod2019_grau556_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
+L["cod2019_grau556_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
-L["cod2019_grau556_mag_m13.printname"] = ARC9:GetPhrase("cod2019_m13_mag_blackout.printname")
-L["cod2019_grau556_mag_m13.compactname"] = ARC9:GetPhrase("cod2019_m13_mag_blackout.compactname")
-L["cod2019_grau556_mag_m13.description"] = ARC9:GetPhrase("cod2019_m13_mag_blackout.description")
+L["cod2019_grau556_mag_m13.printname"] = ARC9:GetPhrase("cod2019_m13_mag_blackout.printname") or ".300 Blackout 30-Round Mags"
+L["cod2019_grau556_mag_m13.compactname"] = ARC9:GetPhrase("cod2019_m13_mag_blackout.compactname") or "30R .300"
+L["cod2019_grau556_mag_m13.description"] = ARC9:GetPhrase("cod2019_m13_mag_blackout.description") or "Conversion kit to use <color=255,255,100>.300 Blackout</color> ammunition. Higher caliber with a lower muzzle velocity, these subsonic rounds pack more energy over greater distances."
 
 ////////////////////  CR-56 AMAX
 /////////////// Barrels
@@ -1131,22 +1131,22 @@ L["cod2019_cr56_barrel_long.printname"] = "XRK Zodiac S440"
 L["cod2019_cr56_barrel_long.compactname"] = "Zodiac"
 L["cod2019_cr56_barrel_long.description"] = "Achieve the pinnacle of range with this precision barrel from XRK. Superior muzzle velocity and stabilization at the cost of agility."
 
-L["cod2019_cr56_barrel_light.printname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.printname")
-L["cod2019_cr56_barrel_light.compactname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.compactname")
-L["cod2019_cr56_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description")
+L["cod2019_cr56_barrel_light.printname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.printname") or "FSS 11.8\" Squall"
+L["cod2019_cr56_barrel_light.compactname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.compactname") or "Squall"
+L["cod2019_cr56_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description") or "Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
 L["cod2019_cr56_stock_light.printname"] = "FTAC Spartan"
 L["cod2019_cr56_stock_light.compactname"] = "Spartan"
-L["cod2019_cr56_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_cr56_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
 L["cod2019_cr56_stock_vheavy.compactname"] = "Gatekeeper"
-L["cod2019_cr56_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy")
+L["cod2019_cr56_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy") or "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 
 L["cod2019_cr56_stock_vlight.printname"] = "CR-56 EXO"
 L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
-L["cod2019_cr56_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_cr56_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
@@ -1167,22 +1167,22 @@ L["cod2019_cr56_mag_grau552.description"] = "Conversion kit to use <color=255,25
 
 /////////////// Pistol Grips
 L["cod2019_cr56_griptape_01.printname"] = "XRK CR-56 Granulated Wrap"
-L["cod2019_cr56_griptape_01.compactname"] = ARC9:GetPhrase("cod2019_griptape_01.compactname")
-L["cod2019_cr56_griptape_01.description"] = ARC9:GetPhrase("cod2019_griptape_01.description")
+L["cod2019_cr56_griptape_01.compactname"] = ARC9:GetPhrase("cod2019_griptape_01.compactname") or "Granulated"
+L["cod2019_cr56_griptape_01.description"] = ARC9:GetPhrase("cod2019_griptape_01.description") or "Smooth and granulated tape for a relaxed and controlled grip. Keeps you steady and on target."
 
 L["cod2019_cr56_griptape_02.printname"] = "XRK CR-56 Rubberized Wrap"
-L["cod2019_cr56_griptape_02.compactname"] = ARC9:GetPhrase("cod2019_griptape_02.compactname")
-L["cod2019_cr56_griptape_02.description"] = ARC9:GetPhrase("cod2019_griptape_02.description")
+L["cod2019_cr56_griptape_02.compactname"] = ARC9:GetPhrase("cod2019_griptape_02.compactname") or "Rubberized"
+L["cod2019_cr56_griptape_02.description"] = ARC9:GetPhrase("cod2019_griptape_02.description") or "Rubberized grip keeps gun tight in hand. Less steady, but helps control recoil."
 
 L["cod2019_cr56_griptape_03.printname"] = "XRK CR-56 Stippled Wrap"
-L["cod2019_cr56_griptape_03.compactname"] = ARC9:GetPhrase("cod2019_griptape_03.compactname")
-L["cod2019_cr56_griptape_03.description"] = ARC9:GetPhrase("cod2019_griptape_03.description")
+L["cod2019_cr56_griptape_03.compactname"] = ARC9:GetPhrase("cod2019_griptape_03.compactname") or "Stippled"
+L["cod2019_cr56_griptape_03.description"] = ARC9:GetPhrase("cod2019_griptape_03.description") or "Stippled pistol grip tape maintains control when performing high-speed maneuvers. Less stable but very agile."
 
 ////////////////////  AN-94
 /////////////// Optics
 L["cod2019_an94_optic_thermal.printname"] = "POS-M3 Thermal Scope"
 L["cod2019_an94_optic_thermal.compactname"] = "POS-M3"
-L["cod2019_an94_optic_thermal.description"] = ARC9:GetPhrase("cod2019_optic_thermal_west_01.description")
+L["cod2019_an94_optic_thermal.description"] = ARC9:GetPhrase("cod2019_optic_thermal_west_01.description") or "Advanced <color=100,255,100>3.25x</color> Gen 3 night vision with thermal overlay for enhanced situational awareness. <color=255,100,100>Not compatible with Night Vision Goggles.</color>"
 
 /////////////// Barrels
 L["cod2019_an94_barrel_short.printname"] = "AN-94 Factory 330mm"
@@ -1209,15 +1209,15 @@ L["cod2019_an94_stock_heavy.description"] = "Heavy duty stock with tactical comb
 
 L["cod2019_an94_stock_none.printname"] = "Folded Stock"
 L["cod2019_an94_stock_none.compactname"] = "Folded"
-L["cod2019_an94_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_an94_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_an94_stock_vlight.printname"] = "VLK PX-9 Pero"
 L["cod2019_an94_stock_vlight.compactname"] = "Pero"
-L["cod2019_an94_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_an94_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 L["cod2019_an94_stockskel.printname"] = "Skeleton Stock"
 L["cod2019_an94_stockskel.compactname"] = "Skeleton"
-L["cod2019_an94_stockskel.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_an94_stockskel.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 /////////////// Magazine
 L["cod2019_an94_mag_45.printname"] = string.format(mw19magtext.mag, "45")
@@ -1258,7 +1258,7 @@ L["cod2019_asval_stock_medium.description"] = "On commission from FSS Internatio
 
 L["cod2019_asval_stock_vlight.printname"] = "Stovl 6P30 Skelet"
 L["cod2019_asval_stock_vlight.compactname"] = "Skelet"
-L["cod2019_asval_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_asval_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 L["cod2019_asval_stock_vheavy.printname"] = "VLK Strelok"
 L["cod2019_asval_stock_vheavy.compactname"] = "Strelok"
@@ -1295,12 +1295,12 @@ L["cod2019_aug_barrel_03.description"] = "Maximum barrel extension pushes this w
 
 /////////////// Stock
 L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
-L["cod2019_aug_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
-L["cod2019_aug_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description")
+L["cod2019_aug_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_aug_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_aug_stock_tactical.printname"] = "FORGE TAC CQB Comb"
 L["cod2019_aug_stock_tactical.compactname"] = "CQB Comb"
-L["cod2019_aug_stock_tactical.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
+L["cod2019_aug_stock_tactical.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
 L["cod2019_aug_stock_heavy.printname"] = "FSS Heavy Stock Pro"
 L["cod2019_aug_stock_heavy.compactname"] = "Heavy Pro"
@@ -1337,7 +1337,7 @@ L["cod2019_p90_barrel_02.description"] = "10.6 inch stainless steel barrel with 
 /////////////// Stock
 L["cod2019_p90_stock_medium.printname"] = "FORGE TAC CQB Comb"
 L["cod2019_p90_stock_medium.compactname"] = "CQB Comb"
-L["cod2019_p90_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
+L["cod2019_p90_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
 L["cod2019_p90_stock_sling.printname"] = "Fly Strap"
 L["cod2019_p90_stock_sling.compactname"] = "Fly Strap"
@@ -1345,20 +1345,20 @@ L["cod2019_p90_stock_sling.description"] = "Clip on strap improves fast paced we
 
 L["cod2019_p90_stock_heavy.printname"] = "FSS Heavy Stock Pro"
 L["cod2019_p90_stock_heavy.compactname"] = "Heavy Pro"
-L["cod2019_p90_stock_heavy.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy")
+L["cod2019_p90_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 /////////////// Underbarrel
-L["cod2019_p90_grip_gran.printname"] = ARC9:GetPhrase("cod2019_griptape_01.printname")
-L["cod2019_p90_grip_gran.compactname"] = ARC9:GetPhrase("cod2019_griptape_01.compactname")
-L["cod2019_p90_grip_gran.description"] = ARC9:GetPhrase("cod2019_griptape_01.description")
+L["cod2019_p90_grip_gran.printname"] = ARC9:GetPhrase("cod2019_griptape_01.printname") or "Granulated Grip Tape"
+L["cod2019_p90_grip_gran.compactname"] = ARC9:GetPhrase("cod2019_griptape_01.compactname") or "Granulated"
+L["cod2019_p90_grip_gran.description"] = ARC9:GetPhrase("cod2019_griptape_01.description") or "Smooth and granulated tape for a relaxed and controlled grip. Keeps you steady and on target."
 
-L["cod2019_p90_grip_rubber.printname"] = ARC9:GetPhrase("cod2019_griptape_02.printname")
-L["cod2019_p90_grip_rubber.compactname"] = ARC9:GetPhrase("cod2019_griptape_02.compactname")
-L["cod2019_p90_grip_rubber.description"] = ARC9:GetPhrase("cod2019_griptape_02.description")
+L["cod2019_p90_grip_rubber.printname"] = ARC9:GetPhrase("cod2019_griptape_02.printname") or "Rubberized Grip Tape"
+L["cod2019_p90_grip_rubber.compactname"] = ARC9:GetPhrase("cod2019_griptape_02.compactname") or "Rubberized"
+L["cod2019_p90_grip_rubber.description"] = ARC9:GetPhrase("cod2019_griptape_02.description") or "Rubberized grip keeps gun tight in hand. Less steady, but helps control recoil."
 
-L["cod2019_p90_grip_stippled.printname"] = ARC9:GetPhrase("cod2019_griptape_03.printname")
-L["cod2019_p90_grip_stippled.compactname"] = ARC9:GetPhrase("cod2019_griptape_03.compactname")
-L["cod2019_p90_grip_stippled.description"] = ARC9:GetPhrase("cod2019_griptape_03.description")
+L["cod2019_p90_grip_stippled.printname"] = ARC9:GetPhrase("cod2019_griptape_03.printname") or "Stippled Grip Tape"
+L["cod2019_p90_grip_stippled.compactname"] = ARC9:GetPhrase("cod2019_griptape_03.compactname") or "Stippled"
+L["cod2019_p90_grip_stippled.description"] = ARC9:GetPhrase("cod2019_griptape_03.description") or "Stippled pistol grip tape maintains control when performing high-speed maneuvers. Less stable but very agile."
 
 ////////////////////  MP5
 /////////////// Misc
@@ -1369,15 +1369,15 @@ L["cod2019_mp5_sight_default_on.description"] = "Force the default iron sights t
 /////////////// Barrels
 L["cod2019_mp5_barrel_light.printname"] = "FSS Light"
 L["cod2019_mp5_barrel_light.compactname"] = "Light"
-L["cod2019_mp5_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description")
+L["cod2019_mp5_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description") or "Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity."
 
 L["cod2019_mp5_barrel_02.printname"] = "Monolithic Integral Suppressor"
 L["cod2019_mp5_barrel_02.compactname"] = "Monolithic"
-L["cod2019_mp5_barrel_02.description"] = ARC9:GetPhrase("cod2019_kilo141_barrel_03.description")
+L["cod2019_mp5_barrel_02.description"] = ARC9:GetPhrase("cod2019_kilo141_barrel_supp.description") or "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a low sound signature."
 
 L["cod2019_mp5_barrel_03.printname"] = "FSS Mini"
 L["cod2019_mp5_barrel_03.compactname"] = "Mini"
-L["cod2019_mp5_barrel_03.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_mp5_barrel_03.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_mp5_barrel_supp.printname"] = "Subsonic Integral Suppressor"
 L["cod2019_mp5_barrel_supp.compactname"] = "Subsonic"
@@ -1388,26 +1388,26 @@ L["cod2019_mp5_barrel_alt.compactname"] = "D. (NF)"
 L["cod2019_mp5_barrel_alt.description"] = "Standard handguard but with the front flashlight removed.\nPurely <color=255,255,100>cosmetic</color>."
 
 /////////////// Stock
-L["cod2019_mp5_stock_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
-L["cod2019_mp5_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
-L["cod2019_mp5_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_mp5_stock_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_mp5_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_mp5_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_mp5_stock_fullstock.printname"] = "Classic Straight-line Stock"
 L["cod2019_mp5_stock_fullstock.compactname"] = "Classic"
 L["cod2019_mp5_stock_fullstock.description"] = "Solid body stock provides a more stable sight picture."
 
-L["cod2019_mp5_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
-L["cod2019_mp5_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
-L["cod2019_mp5_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
+L["cod2019_mp5_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_mp5_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_mp5_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
-L["cod2019_mp5_stock_none.printname"] = ARC9:GetPhrase("cod2019_scar_stock_light.printname")
-L["cod2019_mp5_stock_none.compactname"] = ARC9:GetPhrase("cod2019_scar_stock_light.compactname")
-L["cod2019_mp5_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_mp5_stock_none.printname"] = ARC9:GetPhrase("cod2019_scar_stock_light.printname") or "FTAC Collapsible"
+L["cod2019_mp5_stock_none.compactname"] = ARC9:GetPhrase("cod2019_scar_stock_light.compactname") or "Collapsible"
+L["cod2019_mp5_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
-L["cod2019_mp5_mag_45.printname"] = string.format(mw19magtext.mag, "45")
-L["cod2019_mp5_mag_45.compactname"] = string.format(mw19magtext.mags, "45")
-L["cod2019_mp5_mag_45.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["919"])
+L["cod2019_mp5_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
+L["cod2019_mp5_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
+L["cod2019_mp5_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["919"])
 
 L["cod2019_mp5_mag_9mm.printname"] = "10mm Auto 30-Round Mags"
 L["cod2019_mp5_mag_9mm.compactname"] = "30R 10mm"
@@ -1421,28 +1421,28 @@ L["cod2019_uzi_barrel_01.description"] = "Custom barrel with a slight length inc
 
 L["cod2019_uzi_barrel_short.printname"] = "8.5\" Factory Mini"
 L["cod2019_uzi_barrel_short.compactname"] = "Mini"
-L["cod2019_uzi_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_uzi_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_uzi_barrel_long.printname"] = "16.5\" Factory Carbine"
 L["cod2019_uzi_barrel_long.compactname"] = "Carbine"
-L["cod2019_uzi_barrel_long.description"] = ARC9:GetPhrase("cod2019_famas_barrel_long.description")
+L["cod2019_uzi_barrel_long.description"] = ARC9:GetPhrase("cod2019_famas_barrel_long.description") or "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes grouping but hinders mobility."
 
 L["cod2019_uzi_barrel_04.printname"] = "FSS Carbine Pro"
 L["cod2019_uzi_barrel_04.compactname"] = "Carbine Pro"
 L["cod2019_uzi_barrel_04.description"] = "Heavy duty stainless steel polygonal rifled barrel greatly increases muzzle velocity and extends range to the max. Additional weight stabilizes shots, but affects mobility."
 
 /////////////// Stock
-L["cod2019_uzi_stock_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname")
-L["cod2019_uzi_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
-L["cod2019_uzi_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_uzi_stock_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname") or "FORGE TAC Ultralight"
+L["cod2019_uzi_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_uzi_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_uzi_stock_heavy.printname"] = "Standard-Issue Wood Stock"
 L["cod2019_uzi_stock_heavy.compactname"] = "Wood"
 L["cod2019_uzi_stock_heavy.description"] = "Original solid wood stock provides exceptional stability while aiming."
 
-L["cod2019_uzi_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
-L["cod2019_uzi_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
-L["cod2019_uzi_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
+L["cod2019_uzi_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_uzi_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_uzi_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
@@ -1473,16 +1473,16 @@ L["cod2019_bizon_barrel_short.description"] = "Dimpled large bore barrel reduces
 
 /////////////// Stock
 L["cod2019_pp19_stock_light.printname"] = "Factory Aluminium Stock"
-L["cod2019_pp19_stock_light.compactname"] = ARC9:GetPhrase("cod2019_fal_stock_light.compactname")
-L["cod2019_pp19_stock_light.description"] = ARC9:GetPhrase("cod2019_fal_stock_light.description")
+L["cod2019_pp19_stock_light.compactname"] = ARC9:GetPhrase("cod2019_fal_stock_light.compactname") or "Factory"
+L["cod2019_pp19_stock_light.description"] = ARC9:GetPhrase("cod2019_fal_stock_light.description") or "Lightweight aluminum stock keeps you agile while aiming down sights."
 
 L["cod2019_pp19_stock_vlight.printname"] = "Corvus Skeleton Stock"
 L["cod2019_pp19_stock_vlight.compactname"] = "Corvus"
 L["cod2019_pp19_stock_vlight.description"] = "Original solid wood stock provides exceptional stability while aiming."
 
-L["cod2019_pp19_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname")
-L["cod2019_pp19_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
-L["cod2019_pp19_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
+L["cod2019_pp19_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_pp19_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_pp19_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_bizon_mag_xmag.printname"] = "84 Round Helical Mags"
@@ -1546,7 +1546,7 @@ L["cod2019_striker45_stock_light.description"] = "Lightweight custom stock from 
 
 L["cod2019_striker45_stock_heavy.printname"] = "FTAC Precision Fixed Stock"
 L["cod2019_striker45_stock_heavy.compactname"] = "Fixed"
-L["cod2019_striker45_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_striker45_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_striker45_stock_medium.printname"] = "XRK Gen III Survivalist Series"
 L["cod2019_striker45_stock_medium.compactname"] = "Gen III"
@@ -1582,7 +1582,7 @@ L["cod2019_striker45_griptape_03.description"] = "Straight line rubberized no-sl
 /////////////// Barrels
 L["cod2019_vector_barrel_long.printname"] = "ZLR 16\" Apex"
 L["cod2019_vector_barrel_long.compactname"] = "Apex"
-L["cod2019_vector_barrel_long.description"] = ARC9:GetPhrase("cod2019_striker45_barrel_long.description")
+L["cod2019_vector_barrel_long.description"] = ARC9:GetPhrase("cod2019_striker45_barrel_long.description") or "Heavy duty extended barrel extends muzzle velocity and range to the max, but hinders mobility."
 
 L["cod2019_vector_barrel_02.printname"] = "ZLR 18\" Deadfall"
 L["cod2019_vector_barrel_02.compactname"] = "Deadfall"
@@ -1596,24 +1596,24 @@ L["cod2019_vector_suppresor.description"] = "Custom extended suppressor from ZLR
 /////////////// Stock
 L["cod2019_vector_stock_heavy.printname"] = "FTAC C6 Carbine PRO"
 L["cod2019_vector_stock_heavy.compactname"] = "Carbine"
-L["cod2019_vector_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_vector_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_vector_stock_light.printname"] = "FORGE TAC CQS"
-L["cod2019_vector_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname")
-L["cod2019_vector_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_vector_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_vector_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_vector_stock_vheavy.printname"] = "ZLR Blade"
 L["cod2019_vector_stock_vheavy.compactname"] = "Blade"
-L["cod2019_vector_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy")
+L["cod2019_vector_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy") or "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 
 /////////////// Magazine
 L["cod2019_vector_mag_drum.printname"] = string.format(mw19magtext.drum, "40")
 L["cod2019_vector_mag_drum.compactname"] = string.format(mw19magtext.mags, "40")
 L["cod2019_vector_mag_drum.description"] = string.format(mw19magtext.descdrum, "40", mw19ammotype["45acp"])
 
-L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname")
-L["cod2019_vector_mag_hp.compactname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.compactname")
-L["cod2019_vector_mag_hp.description"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.description")
+L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname") or ".45 Hollow Point 12-R Mags"
+L["cod2019_vector_mag_hp.compactname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.compactname") or "12R .45 HP"
+L["cod2019_vector_mag_hp.description"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.description") or "Gun mod for lightweight single stack <color=255,100,100>12 round</color> magazines. Comes equipped with a <color=100,255,100>2-round burst</color> fire mode and <color=255,255,100>.45 ACP Hollow Point</color> ammunition to ensure every shot counts."
 
 ////////////////////  ISO
 /////////////// Barrels
@@ -1631,16 +1631,16 @@ L["cod2019_iso_barrel_03.description"] = "Compact factory installed fully shroud
 
 L["cod2019_iso_barrel_04.printname"] = "FSS Nightshade"
 L["cod2019_iso_barrel_04.compactname"] = "Nightshare"
-L["cod2019_iso_barrel_04.description"] = ARC9:GetPhrase("cod2019_vector_barrel_02.description")
+L["cod2019_iso_barrel_04.description"] = ARC9:GetPhrase("cod2019_vector_barrel_02.description") or "Monolithic <color=255,255,100>integral suppressor</color> keeps the weapon silent and increases range for longer distance stealth assaults."
 
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"
 L["cod2019_iso_stock_medium.compactname"] = "Vagrant"
-L["cod2019_iso_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium")
+L["cod2019_iso_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 L["cod2019_iso_stock_none.printname"] = "ISO Collapsible"
 L["cod2019_iso_stock_none.compactname"] = "Collapsible"
-L["cod2019_iso_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_iso_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_iso_mag_30.printname"] = string.format(mw19magtext.mag, "30")
@@ -1704,9 +1704,9 @@ L["cod2019_cx9_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_cx9_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_cx9_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
-L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname")
-L["cod2019_cx9_mag_hp.compactname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.compactname")
-L["cod2019_cx9_mag_hp.description"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.description")
+L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname") or ".45 Hollow Point 12-R Mags"
+L["cod2019_cx9_mag_hp.compactname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.compactname") or "12R .45 HP"
+L["cod2019_cx9_mag_hp.description"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.description") or "Gun mod for lightweight single stack <color=255,100,100>12 round</color> magazines. Comes equipped with a <color=100,255,100>2-round burst</color> fire mode and <color=255,255,100>.45 ACP Hollow Point</color> ammunition to ensure every shot counts."
 
 L["cod2019_cx9_mag_drum.printname"] = string.format(mw19magtext.drum, "50")
 L["cod2019_cx9_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")
@@ -1741,17 +1741,17 @@ L["cod2019_model680_barrel_mid.compactname"] = "Sport"
 L["cod2019_model680_barrel_mid.description"] = "Longer barrel with a <color=100,255,100>10 round</color> tube. Tightens pellet spread, extends range, and carries extra ammo at the cost of agility."
 
 /////////////// Stock
-L["cod2019_model680_stock_none.printname"] = "No Stock"
-L["cod2019_model680_stock_none.compactname"] = "N/A"
-L["cod2019_model680_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_model680_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
+L["cod2019_model680_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
+L["cod2019_model680_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_model680_stock_heavy.printname"] = "Lockwood Precision Series"
 L["cod2019_model680_stock_heavy.compactname"] = "Lockwood"
 L["cod2019_model680_stock_heavy.description"] = "Solid wood rifle stock provides exceptional control while aiming at the cost of mobility."
 
 /////////////// Underbarrels
-L["cod2019_model680_grip_lockwood.printname"] = ARC9:GetPhrase("cod2019_model680_stock_heavy.printname")
-L["cod2019_model680_grip_lockwood.compactname"] = ARC9:GetPhrase("cod2019_model680_stock_heavy.compactname")
+L["cod2019_model680_grip_lockwood.printname"] = ARC9:GetPhrase("cod2019_model680_stock_heavy.printname") or "Lockwood Precision Series"
+L["cod2019_model680_grip_lockwood.compactname"] = ARC9:GetPhrase("cod2019_model680_stock_heavy.compactname") or "Lockwood"
 L["cod2019_model680_grip_lockwood.description"] = "Handcrafted solid wood forend reduces vertical recoil and stabilizes weapon while aiming for improved long range combat."
 
 L["cod2019_model680_grip_truegrip.printname"] = "XRK Truegrip Tactical"
@@ -1778,9 +1778,9 @@ L["cod2019_r90_barrel_short.compactname"] = "Gemini"
 L["cod2019_r90_barrel_short.description"] = "Dual thin-walled smooth bore barrels widen pellet spread and improve agility with only a minor decrease to range."
 
 /////////////// Stock
-L["cod2019_r90_stock_none.printname"] = "No Stock"
-L["cod2019_r90_stock_none.compactname"] = "N/A"
-L["cod2019_r90_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_r90_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
+L["cod2019_r90_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
+L["cod2019_r90_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_r90_stock_heavy.printname"] = "Lockwood Precision Series"
 L["cod2019_r90_stock_heavy.compactname"] = "Lockwood"
@@ -1792,7 +1792,7 @@ L["cod2019_r90_pump_stable.compactname"] = "Bulldog"
 L["cod2019_r90_pump_stable.description"] = "Custom heavy-duty pump provides a more stable sight picture."
 
 L["cod2019_r90_pump_light.printname"] = "FTAC Ultralight Pump"
-L["cod2019_r90_pump_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
+L["cod2019_r90_pump_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
 L["cod2019_r90_pump_light.description"] = "Lightweight composite pump allows faster movement while staying on target."
 
 L["cod2019_r90_pump_03.printname"] = "FTAC Close Quarters Pro"
@@ -1834,7 +1834,7 @@ L["cod2019_725_stock_tactical.description"] = "Ultralight adjustable stock confi
 
 L["cod2019_725_stock_none.printname"] = "Sawed-off Stock"
 L["cod2019_725_stock_none.compactname"] = "Sawed-off"
-L["cod2019_725_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_725_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_725_stock_medium.printname"] = "Tempus Sport"
 L["cod2019_725_stock_medium.compactname"] = "Sport"
@@ -1870,20 +1870,20 @@ L["cod2019_origin12_barrel_long.description"] = "Extended barrel increases muzzl
 /////////////// Muzzle
 L["cod2019_origin12_silencer.printname"] = "FSS Protector Suppressor"
 L["cod2019_origin12_silencer.compactname"] = "Protector"
-L["cod2019_origin12_silencer.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description")
+L["cod2019_origin12_silencer.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer03.description") or "Lightweight aluminium suppressor sacrifices range for stealth and agility."
 
 /////////////// Grips
 L["cod2019_origin12_grip_none2.printname"] = "Alternative Holding" -- UO
 L["cod2019_origin12_grip_none2.compactname"] = "Alt. Hold" -- UO
 L["cod2019_origin12_grip_none2.description"] = "Alternative holding style." -- UO
 
-L["cod2019_origin12_grip_side_com.printname"] = ARC9:GetPhrase("cod2019_angled.printname")
-L["cod2019_origin12_grip_side_com.compactname"] = ARC9:GetPhrase("cod2019_angled.compactname")
-L["cod2019_origin12_grip_side_com.description"] = ARC9:GetPhrase("cod2019_angled.description")
+L["cod2019_origin12_grip_side_com.printname"] = ARC9:GetPhrase("cod2019_angled.printname") or "Commando Foregrip"
+L["cod2019_origin12_grip_side_com.compactname"] = ARC9:GetPhrase("cod2019_angled.compactname") or "Commando"
+L["cod2019_origin12_grip_side_com.description"] = ARC9:GetPhrase("cod2019_angled.description") or "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire."
 
-L["cod2019_origin12_grip_side_merc.printname"] = ARC9:GetPhrase("cod2019_grips_merc.printname")
-L["cod2019_origin12_grip_side_merc.compactname"] = ARC9:GetPhrase("cod2019_grips_merc.compactname")
-L["cod2019_origin12_grip_side_merc.description"] = ARC9:GetPhrase("cod2019_grips_merc.description")
+L["cod2019_origin12_grip_side_merc.printname"] = ARC9:GetPhrase("cod2019_grips_merc.printname") or "Merc Foregrip"
+L["cod2019_origin12_grip_side_merc.compactname"] = ARC9:GetPhrase("cod2019_grips_merc.compactname") or "Merc"
+L["cod2019_origin12_grip_side_merc.description"] = ARC9:GetPhrase("cod2019_grips_merc.description") or "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics."
 
 /////////////// Stock
 L["cod2019_origin12_stock_medium.printname"] = "FORGE TAC Dart"
@@ -1939,7 +1939,7 @@ L["cod2019_vlk_mag_4.description"] = "<color=255,100,100>4 round</color> magazin
 /////////////// Barrels
 L["cod2019_jak12_barrel_01.printname"] = "ZLR J-2800 Influx"
 L["cod2019_jak12_barrel_01.compactname"] = "Influx"
-L["cod2019_jak12_barrel_01.description"] = ARC9:GetPhrase("cod2019_vlk_barrel_03")
+L["cod2019_jak12_barrel_01.description"] = ARC9:GetPhrase("cod2019_vlk_barrel_03.description") or "Extended barrel increases muzzle velocity and range. Light alloy barrel keeps additional weight to a minimum."
 
 L["cod2019_jak12_barrel_short.printname"] = "JAK Urban King"
 L["cod2019_jak12_barrel_short.compactname"] = "Urban"
@@ -1955,8 +1955,8 @@ L["cod2019_jak12_stock_medium.compactname"] = "Tsunami"
 L["cod2019_jak12_stock_medium.description"] = "Tactical comb wrap for rapid target acquisition."
 
 L["cod2019_jak12_stock_light.printname"] = "JAK Rabbit Ultralight"
-L["cod2019_jak12_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
-L["cod2019_jak12_stock_light.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description")
+L["cod2019_jak12_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_jak12_stock_light.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_jak12_stock_stable.printname"] = "FSS Power Wrap"
 L["cod2019_jak12_stock_stable.compactname"] = "Power"
@@ -1964,7 +1964,7 @@ L["cod2019_jak12_stock_stable.description"] = "Lead lined weighted wrap balances
 
 /////////////// Magazine
 L["cod2019_jak12_mag_20.printname"] = string.format(mw19magtext.drummag, "20")
-L["cod2019_jak12_mag_20.compactname"] = string.format(mw19magtext.mags, "12")
+L["cod2019_jak12_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
 L["cod2019_jak12_mag_20.description"] = "Drum magazines hold <color=100,255,100>20 shells</color> of 12 gauge, increasing ammo capacity and weight."
 
 L["cod2019_jak12_mag_drum.printname"] = string.format(mw19magtext.drummag, "32")
@@ -1976,11 +1976,11 @@ L["cod2019_jak12_mag_drum.description"] = "Drum magazines hold <color=100,255,10
 /////////////// Barrels
 L["cod2019_pkm_barrel_short.printname"] = "18.2\" Compact Barrel"
 L["cod2019_pkm_barrel_short.compactname"] = "Compact"
-L["cod2019_pkm_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_pkm_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_pkm_barrel_long.printname"] = "26.9\" Extended Barrel"
 L["cod2019_pkm_barrel_long.compactname"] = "Extended"
-L["cod2019_pkm_barrel_long.description"] = ARC9:GetPhrase("cod2019_725_barrel_long.description")
+L["cod2019_pkm_barrel_long.description"] = ARC9:GetPhrase("cod2019_725_barrel_long.description") or "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_pkm_barrel_03.printname"] = "25.9\" Heavy Barrel"
 L["cod2019_pkm_barrel_03.compactname"] = "Heavy"
@@ -2008,7 +2008,7 @@ L["cod2019_sa86_barrel_mid.description"] = "Shorter barrel improves agility at a
 
 L["cod2019_sa87_barrel_02.printname"] = "SA87 25.4\" Factory"
 L["cod2019_sa87_barrel_02.compactname"] = "25.4\""
-L["cod2019_sa87_barrel_02.description"] = ARC9:GetPhrase("cod2019_725_barrel_long.description")
+L["cod2019_sa87_barrel_02.description"] = ARC9:GetPhrase("cod2019_725_barrel_long.description") or "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_sa86_barrel_short.printname"] = "SA87 12.4\" Factory"
 L["cod2019_sa86_barrel_short.compactname"] = "12.4\""
@@ -2017,15 +2017,15 @@ L["cod2019_sa86_barrel_short.description"] = "Shortest barrel available sacrific
 /////////////// Stocks
 L["cod2019_sa87_stock_medium.printname"] = "XRK SA87 Heavy Stock Pro"
 L["cod2019_sa87_stock_medium.compactname"] = "XRK Pro"
-L["cod2019_sa87_stock_medium.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy.description")
+L["cod2019_sa87_stock_medium.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy.description") or "Heavy weight stock attachment provides stability while aiming."
 
 L["cod2019_sa87_stock_heavy.printname"] = "SA87 Ultralight Hollow"
-L["cod2019_sa87_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
-L["cod2019_sa87_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description")
+L["cod2019_sa87_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_sa87_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_sa87_stock_medium2.printname"] = "FORGE TAC CQB Comb"
 L["cod2019_sa87_stock_medium2.compactname"] = "CQB Comb"
-L["cod2019_sa87_stock_medium2.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
+L["cod2019_sa87_stock_medium2.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
 ////////////////////  M91
 /////////////// Barrels
@@ -2090,21 +2090,21 @@ L["cod2019_holger_optic_integral_scope.description"] = "Advanced optic with <col
 
 /////////////// Barrels
 L["cod2019_holger_barrel_01.printname"] = "XRK Ultralight"
-L["cod2019_holger_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
+L["cod2019_holger_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
 L["cod2019_holger_barrel_01.description"] = "Shorter barrel and lightweight guard reduce weight for faster gun handling at a slight cost to range."
 
 L["cod2019_holger_barrel_spitfire.printname"] = "FTAC 8.98\" Spitfire"
 L["cod2019_holger_barrel_spitfire.compactname"] = "Spitfire"
-L["cod2019_holger_barrel_spitfire.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_holger_barrel_spitfire.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 /////////////// Stocks
 L["cod2019_holger_stock_heavy.printname"] = "FSS Ranger"
 L["cod2019_holger_stock_heavy.compactname"] = "Ranger"
-L["cod2019_holger_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_holger_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_holger_stock_light.printname"] = "FSS Infantry"
 L["cod2019_holger_stock_light.compactname"] = "Infantry"
-L["cod2019_holger_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_holger_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_holger_stock_medium.printname"] = "XRK Axis"
 L["cod2019_holger_stock_medium.compactname"] = "Axis"
@@ -2119,25 +2119,25 @@ L["cod2019_holger_armag_30.description"] = string.format(mw19magtext.descsmall, 
 /////////////// Barrels
 L["cod2019_bruen_barrel_01.printname"] = "XRK Horizon 23.0\""
 L["cod2019_bruen_barrel_01.compactname"] = "Horizon"
-L["cod2019_bruen_barrel_01.description"] = ARC9:GetPhrase("cod2019_m91_barrel_mid.description")
+L["cod2019_bruen_barrel_01.description"] = ARC9:GetPhrase("cod2019_m91_barrel_mid.description") or "Designed to improve muzzle velocity range with as little additional weight as possible."
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
-L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("cod2019_pp19_barrel_01.description")
+L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("cod2019_pp19_barrel_01.description") or "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_bruenmk9_barrel_short.printname"] = "Bruen 18.0\" Para"
 L["cod2019_bruenmk9_barrel_short.compactname"] = "Para"
-L["cod2019_bruenmk9_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description")
+L["cod2019_bruenmk9_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 /////////////// Underbarrel
-L["cod2019_bruenmk9_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname")
-L["cod2019_bruenmk9_grip_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname")
-L["cod2019_bruenmk9_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description")
+L["cod2019_bruenmk9_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_bruenmk9_grip_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_bruenmk9_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
 
 /////////////// Stocks
 L["cod2019_bruen_stock_vlight.printname"] = "Skeleton Stock"
 L["cod2019_bruen_stock_vlight.compactname"] = "Skeleton"
-L["cod2019_bruen_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_bruen_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 /////////////// Magazine
 L["cod2019_bruen_mag_200.printname"] = string.format(mw19magtext.belt, "200")
@@ -2152,7 +2152,7 @@ L["cod2019_bruenmk9_mag_60.description"] = "<color=255,100,100>60 round</color> 
 /////////////// Barrels
 L["cod2019_finn_heavy.printname"] = "XRK Pro Twist"
 L["cod2019_finn_heavy.compactname"] = "Twist"
-L["cod2019_finn_heavy.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description")
+L["cod2019_finn_heavy.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description") or "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
 
 L["cod2019_finn_barrel_default_adv.printname"] = "Factory <color=189,225,169>Adverse</color>"
 L["cod2019_finn_barrel_default_adv.compactname"] = "Factory (A)"
@@ -2181,11 +2181,11 @@ L["cod2019_finn_barrel_light_adv.description"] = "Lightweight, highly maneuverab
 /////////////// Stocks
 L["cod2019_finn_stock_heavy.printname"] = "XRK Citadel"
 L["cod2019_finn_stock_heavy.compactname"] = "Citadel"
-L["cod2019_finn_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_finn_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_finn_stock_light.printname"] = "XRK M309 Forward Assault"
 L["cod2019_finn_stock_light.compactname"] = "M309"
-L["cod2019_finn_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_finn_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_finn_stock_saw.printname"] = "XRK ChainSAW"
 L["cod2019_finn_stock_saw.compactname"] = "ChainSAW"
@@ -2221,20 +2221,20 @@ L["cod2019_raal_barrel_light.description"] = "25.0 inch Barrel with aluminum she
 /////////////// Muzzle
 L["cod2019_raal_muzzle_mono.printname"] = "RAAL Monocore"
 L["cod2019_raal_muzzle_mono.compactname"] = "Monocore"
-L["cod2019_raal_muzzle_mono.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description")
+L["cod2019_raal_muzzle_mono.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description") or "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
 /////////////// Stocks
 L["cod2019_stock_raal_heavy.printname"] = "FSS Resistor"
 L["cod2019_stock_raal_heavy.compactname"] = "Resistor"
-L["cod2019_stock_raal_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_stock_raal_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_raal_stock_light.printname"] = "FTAC Sandpiper Pro"
 L["cod2019_raal_stock_light.compactname"] = "Sandpiper"
-L["cod2019_raal_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_raal_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_raal_stock_none.printname"] = "Folded Stock"
 L["cod2019_raal_stock_none.compactname"] = "Folded"
-L["cod2019_raal_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_raal_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_raal_stock_medium.printname"] = "FTAC Elevate"
 L["cod2019_raal_stock_medium.compactname"] = "Elevate"
@@ -2280,7 +2280,7 @@ L["cod2019_ebr14_barrel_03.description"] = "Longest barrel available increases m
 /////////////// Stocks
 L["cod2019_ebr14_stock_heavy.printname"] = "FTAC Precision Comb"
 L["cod2019_ebr14_stock_heavy.compactname"] = "Precision"
-L["cod2019_ebr14_stock_heavy.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy.description")
+L["cod2019_ebr14_stock_heavy.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy.description") or "Heavy weight stock attachment provides stability while aiming."
 
 L["cod2019_ebr14_stock_vlight.printname"] = "FSS Raider Chassis Pro"
 L["cod2019_ebr14_stock_vlight.compactname"] = "Pro"
@@ -2331,14 +2331,14 @@ L["cod2019_mk2_stock_vheavy.compactname"] = "Precision"
 L["cod2019_mk2_stock_vheavy.description"] = "Heavy duty comb add-on provides exceptional precision while aiming."
 
 L["cod2019_mk2_stock_light.printname"] = "MK2 Ultralight Hollow"
-L["cod2019_mk2_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname")
+L["cod2019_mk2_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
 L["cod2019_mk2_stock_light.description"] = "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 ////////////////////  Kar98k
 /////////////// Optics
-L["cod2019_kar98k_scope.printname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.printname")
-L["cod2019_kar98k_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.compactname")
-L["cod2019_kar98k_scope.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description")
+L["cod2019_kar98k_scope.printname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.printname") or "Sniper Scope"
+L["cod2019_kar98k_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.compactname") or "Sniper"
+L["cod2019_kar98k_scope.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Barrels
 L["cod2019_kar98k_barrel_short.printname"] = "Singuard Custom 25.1\""
@@ -2356,7 +2356,7 @@ L["cod2019_kar98k_barrel_long.description"] = "Custom 27.6\" heavyweight barrel 
 /////////////// Stocks
 L["cod2019_kar98k_stock_heavy.printname"] = "STVOL Precision Comb"
 L["cod2019_kar98k_stock_heavy.compactname"] = "Precision"
-L["cod2019_kar98k_stock_heavy.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy.description")
+L["cod2019_kar98k_stock_heavy.description"] = ARC9:GetPhrase("cod2019_aug_stock_heavy.description") or "Heavy weight stock attachment provides stability while aiming."
 
 L["cod2019_kar98k_stock_light.printname"] = "Hollow Stock Mod"
 L["cod2019_kar98k_stock_light.compactname"] = "Hollow"
@@ -2364,7 +2364,7 @@ L["cod2019_kar98k_stock_light.description"] = "Hollowed out stock with lightweig
 
 L["cod2019_kar98k_stock_medium.printname"] = "FTAC Sport Comb"
 L["cod2019_kar98k_stock_medium.compactname"] = "Sport"
-L["cod2019_kar98k_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description")
+L["cod2019_kar98k_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
 ////////////////////  Crossbow
 /////////////// Optics
@@ -2374,7 +2374,7 @@ L["cod2019_crossbow_scope.description"] = "High power <color=100,255,100>4.0x</c
 
 L["cod2019_crossbow_optic_rangemaster.printname"] = "XRK Rangemaster VZ"
 L["cod2019_crossbow_optic_rangemaster.compactname"] = "Rangemaster"
-L["cod2019_crossbow_optic_rangemaster.description"] = ARC9:GetPhrase("cod2019_optic_scope_vz.description")
+L["cod2019_crossbow_optic_rangemaster.description"] = ARC9:GetPhrase("cod2019_optic_scope_vz.description") or "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Cables
 L["cod2019_crossbow_wires_light.printname"] = "16-Strand Cable"
@@ -2428,12 +2428,12 @@ L["cod2019_crossbow_bolt_03.description"] = "<color=255,255,100>Thermite tipped 
 /////////////// Optics
 L["cod2019_optic_scope_sks.printname"] = "PU Scope"
 L["cod2019_optic_scope_sks.compactname"] = "PU"
-L["cod2019_optic_scope_sks.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description")
+L["cod2019_optic_scope_sks.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Barrels
 L["cod2019_sks_barrel_01.printname"] = "FTAC Landmark"
 L["cod2019_sks_barrel_01.compactname"] = "Landmark"
-L["cod2019_sks_barrel_01.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description")
+L["cod2019_sks_barrel_01.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description") or "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
 
 L["cod2019_sks_barrel_short.printname"] = "16\" FSS Para"
 L["cod2019_sks_barrel_short.compactname"] = "Para"
@@ -2454,7 +2454,7 @@ L["cod2019_sks_stock_medium.description"] = "Western stock adaptor designed to i
 
 L["cod2019_sks_stock_none.printname"] = "Sawed-off Stock"
 L["cod2019_sks_stock_none.compactname"] = "Sawed-off"
-L["cod2019_sks_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description")
+L["cod2019_sks_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_sks_mag_30.printname"] = string.format(mw19magtext.mag, "30")
@@ -2469,7 +2469,7 @@ L["cod2019_sks_mag_10.description"] = string.format(mw19magtext.descsmall, "10",
 /////////////// Optics
 L["cod2019_optic_scope_spr208.printname"] = "Solozero SP-R 28mm"
 L["cod2019_optic_scope_spr208.compactname"] = "SP-R"
-L["cod2019_optic_scope_spr208.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description")
+L["cod2019_optic_scope_spr208.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Barrels
 L["cod2019_spr208_barrel_01.printname"] = "ZLR VeraTwist 9.6"
@@ -2548,15 +2548,15 @@ L["cod2019_dragunov_barrel_02.description"] = "Extended barrel improves muzzle v
 /////////////// Stocks
 L["cod2019_dragunov_stock_heavy.printname"] = "FTAC Hunter-Scout"
 L["cod2019_dragunov_stock_heavy.compactname"] = "Hunter-Scout"
-L["cod2019_dragunov_stock_heavy.description"] = ARC9:GetPhrase("cod2019_sks_stock_heavy.description")
+L["cod2019_dragunov_stock_heavy.description"] = ARC9:GetPhrase("cod2019_sks_stock_heavy.description") or "Traditional rifle stock provides exceptional control while aiming, at the cost of mobility."
 
 L["cod2019_dragunov_stock_vlight.printname"] = "Skeleton Stock"
 L["cod2019_dragunov_stock_vlight.compactname"] = "Skeleton"
-L["cod2019_dragunov_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight")
+L["cod2019_dragunov_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 L["cod2019_dragunov_stock_light.printname"] = "VLK Lightweight Stock"
 L["cod2019_dragunov_stock_light.compactname"] = "Lightweight"
-L["cod2019_dragunov_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_dragunov_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_dragunov_stock_medium.printname"] = "FTAC Stalker-Scout"
 L["cod2019_dragunov_stock_medium.compactname"] = "Stalker-S."
@@ -2586,8 +2586,8 @@ L["cod2019_hdr_barrel_03.compactname"] = "17.2\""
 L["cod2019_hdr_barrel_03.description"] = "Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility."
 
 /////////////// Stocks
-L["cod2019_hdr_stock_heavy.printname"] = ARC9:GetPhrase("cod2019_dragunov_stock_medium.printname")
-L["cod2019_hdr_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_dragunov_stock_medium.compactname")
+L["cod2019_hdr_stock_heavy.printname"] = ARC9:GetPhrase("cod2019_dragunov_stock_medium.printname") or "FTAC Stalker-Scout"
+L["cod2019_hdr_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_dragunov_stock_medium.compactname") or "Stalker-S."
 L["cod2019_hdr_stock_heavy.description"] = "Sniper variant of the Stalker stock designed to improve target acquisition."
 
 L["cod2019_hdr_stock_medium.printname"] = "FTAC Hunter-Scout"
@@ -2596,11 +2596,11 @@ L["cod2019_hdr_stock_medium.description"] = "Sniper variant of the Hunter stock 
 
 L["cod2019_hdr_stock_light.printname"] = "FSS Nomad Stock"
 L["cod2019_hdr_stock_light.compactname"] = "Nomad"
-L["cod2019_hdr_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_hdr_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_hdr_stock_vheavy.printname"] = "FTAC Champion"
 L["cod2019_hdr_stock_vheavy.compactname"] = "Champion"
-L["cod2019_hdr_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy")
+L["cod2019_hdr_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy") or "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 
 /////////////// Magazine
 L["cod2019_hdr_mag_7.printname"] = string.format(mw19magtext.mag, "7")
@@ -2619,7 +2619,7 @@ L["cod2019_ax50_barrel_01.description"] = "Custom vanadium barrel with polygonal
 
 L["cod2019_ax50_barrel_02.printname"] = "17.0\" Factory Barrel"
 L["cod2019_ax50_barrel_02.compactname"] = "17.0\" F"
-L["cod2019_ax50_barrel_02.description"] = ARC9:GetPhrase("cod2019_dragunov_barrel_01.description")
+L["cod2019_ax50_barrel_02.description"] = ARC9:GetPhrase("cod2019_dragunov_barrel_01.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
 
 L["cod2019_ax50_barrel_03.printname"] = "32.0\" Factory Barrel"
 L["cod2019_ax50_barrel_03.compactname"] = "32.0\" F"
@@ -2628,11 +2628,11 @@ L["cod2019_ax50_barrel_03.description"] = "Longer barrel increases muzzle veloci
 /////////////// Stocks
 L["cod2019_ax50_stock_heavy.printname"] = "Singuard Arms Marksman"
 L["cod2019_ax50_stock_heavy.compactname"] = "Marksman"
-L["cod2019_ax50_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy")
+L["cod2019_ax50_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_ax50_stock_light.printname"] = "Singuard Arms Evader"
 L["cod2019_ax50_stock_light.compactname"] = "Evader"
-L["cod2019_ax50_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light")
+L["cod2019_ax50_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_ax50_stock_medium.printname"] = "Singuard Arms Assassin"
 L["cod2019_ax50_stock_medium.compactname"] = "Assassin"
@@ -2693,6 +2693,20 @@ L["cod2019_rytec_mag_thermite.compactname"] = "5R T."
 L["cod2019_rytec_mag_thermite.description"] = "Conversion kit to use <color=255,255,100>25x59mm Thermite</color> grenade rounds. Slow traveling but accurate, these short fuse thermite rounds will incinerate your target at a blistering 4100F."
 
 ////////////////////////  Handguns
+////////////////////  Universal
+/////////////// Trigger
+L["cod2019_trigger_light.printname"] = "Lightweight Trigger"
+L["cod2019_trigger_light.compactname"] = "Lightweight"
+L["cod2019_trigger_light.description"] = "Hair trigger for the fastest fire rate available. Not as steady as the stock trigger."
+
+L["cod2019_trigger_heavy.printname"] = "Heavy Duty Trigger"
+L["cod2019_trigger_heavy.compactname"] = "Heavy"
+L["cod2019_trigger_heavy.description"] = "Smooth trigger with a late break allows stable shots at a slower rate of fire."
+
+L["cod2019_trigger_match.printname"] = "Match Grade Trigger"
+L["cod2019_trigger_match.compactname"] = "Match"
+L["cod2019_trigger_match.description"] = "High precision trigger offers a higher rate of fire and steady shots while aiming. Not as accurate from the hip."
+
 ////////////////////  X16
 /////////////// Barrels
 L["cod2019_x16_slide_light.printname"] = "Singuard Arms Featherweight"
@@ -2706,19 +2720,6 @@ L["cod2019_x16_barrel_02.description"] = "Military issue heavy weight slide prov
 L["cod2019_x16_barrel_03.printname"] = "Singuard Arms Advantage"
 L["cod2019_x16_barrel_03.compactname"] = "Advantage"
 L["cod2019_x16_barrel_03.description"] = "Extended slide slightly increases muzzle velocity and improves range. Lightweight construction only adds a minor increase to weight."
-
-/////////////// Trigger
-L["cod2019_x16_trigger_light.printname"] = "Lightweight Trigger"
-L["cod2019_x16_trigger_light.compactname"] = "Lightweight"
-L["cod2019_x16_trigger_light.description"] = "Hair trigger for the fastest fire rate available. Not as steady as the stock trigger."
-
-L["cod2019_x16_trigger_heavy.printname"] = "Heavy Duty Trigger"
-L["cod2019_x16_trigger_heavy.compactname"] = "Heavy"
-L["cod2019_x16_trigger_heavy.description"] = "Smooth trigger with a late break allows stable shots at a slower rate of fire."
-
-L["cod2019_x16_trigger_match.printname"] = "Match Grade Trigger"
-L["cod2019_x16_trigger_match.compactname"] = "Match"
-L["cod2019_x16_trigger_match.description"] = "High precision trigger offers a higher rate of fire and steady shots while aiming. Not as accurate from the hip."
 
 /////////////// Magazine
 L["cod2019_x16_mag_17.printname"] = string.format(mw19magtext.mag, "17")
@@ -2748,19 +2749,6 @@ L["cod2019_1911_barrel_03.printname"] = "1911 Stalker"
 L["cod2019_1911_barrel_03.compactname"] = "Stalker"
 L["cod2019_1911_barrel_03.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum."
 
-/////////////// Trigger
-L["cod2019_1911_trigger_light.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.printname")
-L["cod2019_1911_trigger_light.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.compactname")
-L["cod2019_1911_trigger_light.description"] = ARC9:GetPhrase("cod2019_x16_trigger_light.description")
-
-L["cod2019_1911_trigger_heavy.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.printname")
-L["cod2019_1911_trigger_heavy.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.compactname")
-L["cod2019_1911_trigger_heavy.description"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.description")
-
-L["cod2019_1911_trigger_match.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.printname")
-L["cod2019_1911_trigger_match.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.compactname")
-L["cod2019_1911_trigger_match.description"] = ARC9:GetPhrase("cod2019_x16_trigger_match.description")
-
 /////////////// Magazine
 L["cod2019_1911_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_1911_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
@@ -2787,20 +2775,7 @@ L["cod2019_357_barrel_02.description"] = "Heavy weight barrel with polygonal rif
 
 L["cod2019_357_barrel_03.printname"] = ".357 Long"
 L["cod2019_357_barrel_03.compactname"] = "Long"
-L["cod2019_357_barrel_03.description"] = ARC9:GetPhrase("cod2019_725_barrel_long.description")
-
-/////////////// Trigger
-L["cod2019_357_trigger_light.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.printname")
-L["cod2019_357_trigger_light.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.compactname")
-L["cod2019_357_trigger_light.description"] = ARC9:GetPhrase("cod2019_x16_trigger_light.description")
-
-L["cod2019_357_trigger_heavy.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.printname")
-L["cod2019_357_trigger_heavy.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.compactname")
-L["cod2019_357_trigger_heavy.description"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.description")
-
-L["cod2019_357_trigger_match.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.printname")
-L["cod2019_357_trigger_match.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.compactname")
-L["cod2019_357_trigger_match.description"] = ARC9:GetPhrase("cod2019_x16_trigger_match.description")
+L["cod2019_357_barrel_03.description"] = ARC9:GetPhrase("cod2019_725_barrel_long.description") or "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 /////////////// Magazine
 L["cod2019_357_mag_snakeshot.printname"] = "Snake Shot"
@@ -2821,19 +2796,6 @@ L["cod2019_m19_barrel_03.printname"] = "A9-16 Lightweight"
 L["cod2019_m19_barrel_03.compactname"] = "A9-16"
 L["cod2019_m19_barrel_03.description"] = "Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity."
 
-/////////////// Trigger
-L["cod2019_m19_trigger_light.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.printname")
-L["cod2019_m19_trigger_light.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.compactname")
-L["cod2019_m19_trigger_light.description"] = ARC9:GetPhrase("cod2019_x16_trigger_light.description")
-
-L["cod2019_m19_trigger_heavy.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.printname")
-L["cod2019_m19_trigger_heavy.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.compactname")
-L["cod2019_m19_trigger_heavy.description"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.description")
-
-L["cod2019_m19_trigger_match.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.printname")
-L["cod2019_m19_trigger_match.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.compactname")
-L["cod2019_m19_trigger_match.description"] = ARC9:GetPhrase("cod2019_x16_trigger_match.description")
-
 /////////////// Magazine
 L["cod2019_m19_mag_21.printname"] = string.format(mw19magtext.mag, "21")
 L["cod2019_m19_mag_21.compactname"] = string.format(mw19magtext.mags, "21")
@@ -2853,19 +2815,6 @@ L["cod2019_50gs_barrel_02.printname"] = "FORGE TAC Enforcer"
 L["cod2019_50gs_barrel_02.compactname"] = "Enforcer"
 L["cod2019_50gs_barrel_02.description"] = "Extra long slide extension increases muzzle velocity and extends range to the max. Additional weight helps stabilize shots but hinders mobility."
 
-/////////////// Trigger
-L["cod2019_50gs_trigger_light.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.printname")
-L["cod2019_50gs_trigger_light.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.compactname")
-L["cod2019_50gs_trigger_light.description"] = ARC9:GetPhrase("cod2019_x16_trigger_light.description")
-
-L["cod2019_50gs_trigger_heavy.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.printname")
-L["cod2019_50gs_trigger_heavy.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.compactname")
-L["cod2019_50gs_trigger_heavy.description"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.description")
-
-L["cod2019_50gs_trigger_match.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.printname")
-L["cod2019_50gs_trigger_match.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.compactname")
-L["cod2019_50gs_trigger_match.description"] = ARC9:GetPhrase("cod2019_x16_trigger_match.description")
-
 /////////////// Magazine
 L["cod2019_50gs_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_50gs_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
@@ -2883,7 +2832,7 @@ L["cod2019_renetti_barrel_01.description"] = "Ported slide, large bore, and flut
 
 L["cod2019_renetti_barrel_02.printname"] = "Mk1 Extended"
 L["cod2019_renetti_barrel_02.compactname"] = "Extended"
-L["cod2019_renetti_barrel_02.description"] = ARC9:GetPhrase("cod2019_x16_barrel_02.description")
+L["cod2019_renetti_barrel_02.description"] = ARC9:GetPhrase("cod2019_x16_barrel_02.description") or "Military issue heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max."
 
 L["cod2019_renetti_slide_auto.printname"] = "Mk3 Burst Mod"
 L["cod2019_renetti_slide_auto.compactname"] = "Burst"
@@ -2892,20 +2841,7 @@ L["cod2019_renetti_slide_auto.description"] = "Custom pistol mod features a dura
 /////////////// Muzzle
 L["cod2019_renetti_muzzle_comp.printname"] = "Desperado Pro Compensator"
 L["cod2019_renetti_muzzle_comp.compactname"] = "Desperado"
-L["cod2019_renetti_muzzle_comp.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description")
-
-/////////////// Trigger
-L["cod2019_renetti_trigger_light.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.printname")
-L["cod2019_renetti_trigger_light.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_light.compactname")
-L["cod2019_renetti_trigger_light.description"] = ARC9:GetPhrase("cod2019_x16_trigger_light.description")
-
-L["cod2019_renetti_trigger_heavy.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.printname")
-L["cod2019_renetti_trigger_heavy.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.compactname")
-L["cod2019_renetti_trigger_heavy.description"] = ARC9:GetPhrase("cod2019_x16_trigger_heavy.description")
-
-L["cod2019_renetti_trigger_match.printname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.printname")
-L["cod2019_renetti_trigger_match.compactname"] = ARC9:GetPhrase("cod2019_x16_trigger_match.compactname")
-L["cod2019_renetti_trigger_match.description"] = ARC9:GetPhrase("cod2019_x16_trigger_match.description")
+L["cod2019_renetti_muzzle_comp.description"] = ARC9:GetPhrase("cod2019_muzzle_compensator.description") or "Expels gases upward to aggressively fight muzzle climb."
 
 /////////////// Stocks
 L["cod2019_renetti_stock.printname"] = "FTAC SATUS CS-3"
@@ -3003,224 +2939,224 @@ L["cod2019_knifemodel"] = "Alters the appearance of the weapon.\nPurely <color=2
 
 L["cod2019_knife_model_v2.printname"] = "Atom Splitter"
 L["cod2019_knife_model_v2.compactname"] = "Atom S."
-L["cod2019_knife_model_v2.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v2.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v3.printname"] = "Blackspike"
 -- L["cod2019_knife_model_v3.compactname"] = "Blackspike"
-L["cod2019_knife_model_v3.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v3.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v4.printname"] = "Blue Silence"
 L["cod2019_knife_model_v4.compactname"] = "Blue S."
-L["cod2019_knife_model_v4.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v4.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v5.printname"] = "Dive Knife"
 L["cod2019_knife_model_v5.compactname"] = "Dive K."
-L["cod2019_knife_model_v5.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v5.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v6.printname"] = "Hold Up"
 -- L["cod2019_knife_model_v6.compactname"] = "Hold Up"
-L["cod2019_knife_model_v6.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v6.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v7.printname"] = "Atom Splitter"
 L["cod2019_knife_model_v7.compactname"] = "Atom S."
-L["cod2019_knife_model_v7.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v7.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v8.printname"] = "New Steel"
 L["cod2019_knife_model_v8.compactname"] = "New S."
-L["cod2019_knife_model_v8.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v8.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v9.printname"] = "Arterial"
 -- L["cod2019_knife_model_v9.compactname"] = "Arterial"
-L["cod2019_knife_model_v9.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v9.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v10.printname"] = "Icicle"
 -- L["cod2019_knife_model_v10.compactname"] = "Icicle"
-L["cod2019_knife_model_v10.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v10.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v11.printname"] = "Stone Carver"
 L["cod2019_knife_model_v11.compactname"] = "Stone C."
-L["cod2019_knife_model_v11.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v11.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v12.printname"] = "Boxcutter"
 -- L["cod2019_knife_model_v12.compactname"] = "Boxcutter"
-L["cod2019_knife_model_v12.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v12.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v13.printname"] = "Negotiation"
 L["cod2019_knife_model_v13.compactname"] = "Negot."
-L["cod2019_knife_model_v13.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v13.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v14.printname"] = "Blood Letter"
 L["cod2019_knife_model_v14.compactname"] = "Blood L."
-L["cod2019_knife_model_v14.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v14.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v15.printname"] = "Consquistador"
 L["cod2019_knife_model_v15.compactname"] = "Consqui."
-L["cod2019_knife_model_v15.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v15.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v17.printname"] = "Sandfly"
 -- L["cod2019_knife_model_v17.compactname"] = "Sandfly"
-L["cod2019_knife_model_v17.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v17.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v19.printname"] = "The Quiet"
 L["cod2019_knife_model_v19.compactname"] = "The Q."
-L["cod2019_knife_model_v19.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v19.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v20.printname"] = "Scythe"
 -- L["cod2019_knife_model_v20.compactname"] = "Scythe"
-L["cod2019_knife_model_v20.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v20.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v21.printname"] = "Dainsleif"
 -- L["cod2019_knife_model_v21.compactname"] = "Dainsleif"
-L["cod2019_knife_model_v21.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v21.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v22.printname"] = "Espionage"
 -- L["cod2019_knife_model_v22.compactname"] = "Espionage"
-L["cod2019_knife_model_v22.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v22.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v23.printname"] = "Ghost Dance"
 L["cod2019_knife_model_v23.compactname"] = "Ghost D."
-L["cod2019_knife_model_v23.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v23.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v24.printname"] = "Rasp"
 -- L["cod2019_knife_model_v24.compactname"] = "Rasp"
-L["cod2019_knife_model_v24.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v24.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v25.printname"] = "Unspoken Oath"
 L["cod2019_knife_model_v25.compactname"] = "U. Oath"
-L["cod2019_knife_model_v25.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v25.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v26.printname"] = "Chisholm"
 -- L["cod2019_knife_model_v26.compactname"] = "Chisholm"
-L["cod2019_knife_model_v26.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v26.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v27.printname"] = "Skullblade"
 L["cod2019_knife_model_v27.compactname"] = "Skullbl."
-L["cod2019_knife_model_v27.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v27.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v28.printname"] = "Sidesplitter"
 L["cod2019_knife_model_v28.compactname"] = "Sidesp."
-L["cod2019_knife_model_v28.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v28.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v29.printname"] = "Ol' Cobber"
 L["cod2019_knife_model_v29.compactname"] = "Ol' C."
-L["cod2019_knife_model_v29.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v29.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v30.printname"] = "Preeminence"
 L["cod2019_knife_model_v30.compactname"] = "Preemin."
-L["cod2019_knife_model_v30.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v30.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v31.printname"] = "Grassclipper"
 L["cod2019_knife_model_v31.compactname"] = "Grasscl."
-L["cod2019_knife_model_v31.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v31.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v32.printname"] = "Toothpick"
 L["cod2019_knife_model_v32.compactname"] = "Toothp."
-L["cod2019_knife_model_v32.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v32.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v33.printname"] = "Blood Oath"
 L["cod2019_knife_model_v33.compactname"] = "B. Oath"
-L["cod2019_knife_model_v33.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v33.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v34.printname"] = "Night Light"
 L["cod2019_knife_model_v34.compactname"] = "Night L."
-L["cod2019_knife_model_v34.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v34.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v37.printname"] = "Close Shave"
 L["cod2019_knife_model_v37.compactname"] = "Close S."
-L["cod2019_knife_model_v37.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v37.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v39.printname"] = "Sacrifice"
 -- L["cod2019_knife_model_v39.compactname"] = "Sacrifice"
-L["cod2019_knife_model_v39.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v39.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v40.printname"] = "Loose Ends"
 L["cod2019_knife_model_v40.compactname"] = "Loose E."
-L["cod2019_knife_model_v40.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v40.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v41.printname"] = "Coffin Nail"
 L["cod2019_knife_model_v41.compactname"] = "Coffin N."
-L["cod2019_knife_model_v41.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v41.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v42.printname"] = "Heat Treat"
 L["cod2019_knife_model_v42.compactname"] = "Heat T."
-L["cod2019_knife_model_v42.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v42.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v43.printname"] = "Foxy Lady"
 L["cod2019_knife_model_v43.compactname"] = "Foxy L."
-L["cod2019_knife_model_v43.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v43.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v44.printname"] = "Prisoner 627"
 L["cod2019_knife_model_v44.compactname"] = "P627"
-L["cod2019_knife_model_v44.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v44.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v45.printname"] = "Stinging Nettle"
 L["cod2019_knife_model_v45.compactname"] = "S. Nettle"
-L["cod2019_knife_model_v45.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v45.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v46.printname"] = "Pitiful"
 -- L["cod2019_knife_model_v46.compactname"] = "Pitiful"
-L["cod2019_knife_model_v46.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v46.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v47.printname"] = "Beamish"
 -- L["cod2019_knife_model_v47.compactname"] = "Beamish"
-L["cod2019_knife_model_v47.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v47.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v48.printname"] = "Firecracker"
 L["cod2019_knife_model_v48.compactname"] = "Firec."
-L["cod2019_knife_model_v48.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v48.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v49.printname"] = "Shivvie"
 -- L["cod2019_knife_model_v49.compactname"] = "Shivvie"
-L["cod2019_knife_model_v49.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v49.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v54.printname"] = "Innocense Lost"
 L["cod2019_knife_model_v54.compactname"] = "I. Lost"
-L["cod2019_knife_model_v54.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v54.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v61.printname"] = "Summer Solstice"
 L["cod2019_knife_model_v61.compactname"] = "S. Sol."
-L["cod2019_knife_model_v61.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v61.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v62.printname"] = "Box Cutter"
 L["cod2019_knife_model_v62.compactname"] = "Box C."
-L["cod2019_knife_model_v62.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v62.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v63.printname"] = "Night Sky"
 L["cod2019_knife_model_v63.compactname"] = "N. Sky"
-L["cod2019_knife_model_v63.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v63.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v64.printname"] = "Old Sins"
 L["cod2019_knife_model_v64.compactname"] = "Old S."
-L["cod2019_knife_model_v64.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v64.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v65.printname"] = "Dandere"
 -- L["cod2019_knife_model_v65.compactname"] = "Dandere"
-L["cod2019_knife_model_v65.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v65.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v66.printname"] = "Thytistor"
 -- L["cod2019_knife_model_v66.compactname"] = "Thytistor"
-L["cod2019_knife_model_v66.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v66.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v67.printname"] = "Stalemate"
 -- L["cod2019_knife_model_v67.compactname"] = "Stalemate"
-L["cod2019_knife_model_v67.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v67.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v68.printname"] = "Viper's Kiss"
 L["cod2019_knife_model_v68.compactname"] = "V. Kiss"
-L["cod2019_knife_model_v68.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v68.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v69.printname"] = "Bloody Mess"
 L["cod2019_knife_model_v69.compactname"] = "B. Mess"
-L["cod2019_knife_model_v69.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v69.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v70.printname"] = "Phlebotomist"
 L["cod2019_knife_model_v70.compactname"] = "Phleb."
-L["cod2019_knife_model_v70.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v70.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v71.printname"] = "Velorum"
 -- L["cod2019_knife_model_v71.compactname"] = "Velorum"
-L["cod2019_knife_model_v71.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v71.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
 L["cod2019_knife_model_v72.printname"] = "Auxiliary"
 -- L["cod2019_knife_model_v72.compactname"] = "Auxiliary"
-L["cod2019_knife_model_v72.description"] = ARC9:GetPhrase("cod2019_knifemodel")
+L["cod2019_knife_model_v72.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."

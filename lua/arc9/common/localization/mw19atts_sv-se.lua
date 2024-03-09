@@ -178,7 +178,7 @@ L["mw19_optic_canted.compactname"] = "Sidom."
 L["mw19_optic_canted.description"] = "<color=100,255,100>3,25x</color> Scout med sidomonterat reflexsikte låter dig ändra stridsdistansen med ett knyck med handleden."
 
 L["cod2019_optic_scope_vz.printname"] = "Variabel Zoom Kikarsikte"
-L["cod2019_optic_scope_vz.compactname"] = "Variabel"
+L["cod2019_optic_scope_vz.compactname"] = "V. Zoom"
 L["cod2019_optic_scope_vz.description"] = "Avancerat kikarsikte zoomar mellan <color=100,255,100>3,0x</color> och <color=100,255,100>6.1x</color> för strider på förlängda räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 L["cod2019_optic_reflex_west05_hybrid.printname"] = "Cronen 2x2 Elite"
