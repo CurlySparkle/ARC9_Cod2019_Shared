@@ -1974,7 +1974,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "No Stock"
 ATT.CompactName = "No Stock"
 ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
-
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_stockno.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_stockno.mdl"
@@ -2025,7 +2024,6 @@ ATT.PrintName = "7.62 Type"
 ATT.CompactName = "30-7.62"
 ATT.Description = [[]]
 ATT.SortOrder = 1
-
 ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_falima_xmags.png", "mips smooth")
 ATT.AutoStats = true
 
@@ -2087,7 +2085,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS 11.8\" Squall"
 ATT.CompactName = "FSS 11.8"
 ATT.Description = [[Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity.]]
-
 ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_barlight.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_barlight.mdl"
@@ -2134,7 +2131,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Zodiac S440"
 ATT.CompactName = "XRK Zodiac"
 ATT.Description = [[Achieve the pinnacle of range with this precision barrel from XRK. Superior muzzle velocity and stabilization at the cost of agility.]]
-
 ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_barlong.mdl"
@@ -2178,7 +2174,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
-
 ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_xmag.png", "mips smooth")
 
 ATT.ClipSizeOverride = 45
@@ -2217,7 +2212,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "AN-94 Factory X-438mm"
 ATT.CompactName = "X-438mm"
 ATT.Description = [[Experimental 438mm extended barrel pushes the operational limit of this weapon with progressive rate springs and a case hardened chrome-moly bore.]]
-
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_barlong.mdl"
@@ -2260,7 +2254,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "AN-94 Factory 330mm"
 ATT.CompactName = "330mm"
 ATT.Description = [[Factory installed 330mm barrel has a higher tension spring to compensate for the recoil dampening system's reduced travel. Designed for closer engagements.]]
-
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_barshort.mdl"
@@ -2327,7 +2320,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
-
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_famas_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 45
@@ -2365,7 +2357,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "60 Round Casket Mags"
 ATT.CompactName = "60-Round"
 ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
-
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_famas_xmags2.png", "mips smooth")
 
 ATT.ClipSizeOverride = 60
@@ -2405,7 +2396,6 @@ ATT.PrintName = "VLK 200mm Osa"
 ATT.CompactName = "VLK 200mm"
 ATT.Description = [[After-market monolithic integrally suppressed barrel with an aluminum honeycombed shroud significantly increased muzzle velocity and range.]]
 ATT.SortOrder = 1
-
 ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_barhvy.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_barhvy.mdl"
@@ -2467,3 +2457,25 @@ ATT.BulletBones = {
 
 ARC9.LoadAttachment(ATT, "cod2019_asval_mag_30")
 ---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "VLK Vintazh"
+ATT.CompactName = "VLK Vintazh"
+ATT.Description = [[Classic wooden stock renowned for stability.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_stockh.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_stockh.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_asval_stocks"}
+ATT.ActivateElements = {"stock_none","pistgrip_none"}
+
+ATT.AimDownSightsTimeMult = 1.12
+ATT.RecoilMult = 0.91
+
+ARC9.LoadAttachment(ATT, "cod2019_asval_stock_heavy")
