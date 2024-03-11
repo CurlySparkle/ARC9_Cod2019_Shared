@@ -604,6 +604,49 @@ ARC9.LoadAttachment(ATT, "cod2019_aug_optic")
 /////////////////////////// -- P90
 ATT = {}
 
+ATT.PrintName = "FSS 10.6\" Pro"
+ATT.CompactName = "FSS 10.6\" Pro"
+ATT.Description = [[10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sm/p90/cod2019_sm_p90_longbarrel.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/attachment_vm_sm_papa90_longbarrel.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_p90_barrel"}
+ATT.ActivateElements = {"muzzle_none","barrel_none"}
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.05
+ATT.RangeMaxMult = 1.05
+ATT.PhysBulletMuzzleVelocityMult = 1.05
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(0.8, 0, 0),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_p90_barrel_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "FORGE TAC Retribution"
 ATT.CompactName = "Retribution"
 ATT.Description = [[Extended front shroud houses a 16" polygonal rifled barrel. Greatly increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
@@ -676,6 +719,70 @@ ATT.AimDownSightsTimeMult = 0.95
 ATT.SprintToFireTimeMult = 0.95
 
 ARC9.LoadAttachment(ATT, "cod2019_p90_stock_sling")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FORGE TAC CQB Comb"
+ATT.CompactName = "FTAC CQB Comb"
+ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+
+ATT.Icon = Material("entities/attachs/sm/p90/cod2019_sm_p90_stock_tactical.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_p90_stock"
+ATT.ActivateElements = {"stock_tactical"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/attachment_vm_sm_papa90_stock_tactical.mdl"
+ATT.BoneMerge = true
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.05
+ATT.RecoilMult = 0.91
+
+ARC9.LoadAttachment(ATT, "cod2019_p90_stock_tactical")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FSS Ring Sight"
+ATT.CompactName = "Ring Sight"
+ATT.Description = "Custom integral reflex sight provides higher precision."
+ATT.Icon = Material("entities/attachs/sm/p90/cod2019_sm_p90_reddotscope.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 3
+ATT.Category = {"cod2019_p90_optic"}
+ATT.ActivateElements = {"top_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/attachment_vm_sm_papa90_reddotscope.mdl"
+ATT.BoneMerge = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 11, -0.6),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 54,
+        IgnoreExtra = false
+    },
+}
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128
+ATT.HoloSightColorable = false
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.08
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.007
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_p90_optic")
 
 /////////////////////////// -- UZI
 ATT = {}

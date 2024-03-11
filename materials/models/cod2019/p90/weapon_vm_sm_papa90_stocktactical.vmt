@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\p90\weapon_vm_sm_papa90_shroudcust_rgb"
-    "$bumpmap" "models\cod2019\p90\weapon_vm_sm_papa90_shroudcust_n"
-    "$phongexponenttexture" "models\cod2019\p90\weapon_vm_sm_papa90_shroudcust_e"
+    "$basetexture" "models\cod2019\p90\weapon_vm_sm_papa90_stocktactical_rgb"
+    "$bumpmap" "models\cod2019\p90\weapon_vm_sm_papa90_stocktactical_n"
+    "$phongexponenttexture" "models\cod2019\p90\weapon_vm_sm_papa90_stocktactical_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this
