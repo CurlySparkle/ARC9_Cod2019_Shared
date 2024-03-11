@@ -38,8 +38,8 @@ L["mw19_category_pump"] = "Помпы" -- UO?
 
 //////////////////// Folder Names
 -- Optics
--- L["mw19_folder_rds"] = "Reflex" -- UO
--- L["mw19_folder_scope"] = "Scope" -- UO
+L["mw19_folder_rds"] = "Зеркал." -- UO
+L["mw19_folder_scope"] = "Прицел" -- UO
 
 -- Muzzles
 -- L["mw19_folder_muzzle"] = "Muzzle" -- UO
@@ -64,20 +64,21 @@ L["mw19_category_pump"] = "Помпы" -- UO?
 
 ///////////////////////////// Attachments
 ////////////////////  Optics
--- Stats -- Old, OG commented out, new by Darsu
--- L["mw19_optic_stat_precision"] = "Качество изображения в прецизионном прицеле" -- Most reflex
--- L["mw19_optic_stat_zoom"] = "Кратность прицела" -- Most scopes
--- L["mw19_optic_stat_toggle_holo"] = "Переключение между голографическим прицелом и прицелом разведчика" -- 4.0x Flip Hybrid
--- L["mw19_optic_stat_toggle_rds"] = "Переключение между зеркальным прицелом и прицелом разведчика" -- Integral Hybrid
--- L["mw19_optic_stat_toggle_thermal"] = "Переключение между зеркальным и ИК-прицелом" -- Thermal Hybrid
--- L["mw19_optic_stat_thermal"] = "Опознание целей по тепловым сигнатурам" -- Soloero NVG Enhanced
+-- Stats -- Old, OG
+L["mw19_optic_stat_precision"] = "Качество изображения в прецизионном прицеле" -- Most reflex
+L["mw19_optic_stat_zoom"] = "Кратность прицела" -- Most scopes
+L["mw19_optic_stat_toggle_holo"] = "Переключение между голографическим прицелом и прицелом разведчика" -- 4.0x Flip Hybrid
+L["mw19_optic_stat_toggle_rds"] = "Переключение между зеркальным прицелом и прицелом разведчика" -- Integral Hybrid
+L["mw19_optic_stat_toggle_thermal"] = "Переключение между зеркальным и ИК-прицелом" -- Thermal Hybrid
+L["mw19_optic_stat_thermal"] = "Опознание целей по тепловым сигнатурам" -- Soloero NVG Enhanced
 
-L["mw19_optic_stat_precision"] = "Точное перекрестие в прицеле" -- Most reflex
-L["mw19_optic_stat_zoom"] = "Кратность оптики" -- Most scopes
-L["mw19_optic_stat_toggle_holo"] = "Откидной увеличитель прицела" -- 4.0x Flip Hybrid
-L["mw19_optic_stat_toggle_rds"] = "Дополнительный коллим. прицел" -- Integral Hybrid
-L["mw19_optic_stat_toggle_thermal"] = "Переключаемый тепловизор" -- Thermal Hybrid
-L["mw19_optic_stat_thermal"] = "Тепловизор" -- Soloero NVG Enhanced
+-- New, by Darsu
+-- L["mw19_optic_stat_precision"] = "Точное перекрестие в прицеле" -- Most reflex
+-- L["mw19_optic_stat_zoom"] = "Кратность оптики" -- Most scopes
+-- L["mw19_optic_stat_toggle_holo"] = "Откидной увеличитель прицела" -- 4.0x Flip Hybrid
+-- L["mw19_optic_stat_toggle_rds"] = "Дополнительный коллим. прицел" -- Integral Hybrid
+-- L["mw19_optic_stat_toggle_thermal"] = "Переключаемый тепловизор" -- Thermal Hybrid
+-- L["mw19_optic_stat_thermal"] = "Тепловизор" -- Soloero NVG Enhanced
 
 -- Picatinny Rails
 -- L["cod2019_optic_picatinny.printname"] = "Rail-Mounted Sight Mount" -- UO
@@ -124,7 +125,7 @@ L["cod2019_optic_reflex_east.printname"] = "Зеркальный прицел \"
 L["cod2019_optic_reflex_east.compactname"] = "Гюрза"
 L["cod2019_optic_reflex_east.description"] = "Зеркальный прицел российского производства."
 
-L["cod2019_optic_reflex_east02.printname"] = "Зеркальный прицел прицел \"монокль\""
+L["cod2019_optic_reflex_east02.printname"] = "Зеркальный прицел прицел \"Монокль\""
 L["cod2019_optic_reflex_east02.compactname"] = "Монокль"
 L["cod2019_optic_reflex_east02.description"] = "Зеркальный прицел российского производства с тонкой рамкой, облегчающей слежение за целями."
 
@@ -192,29 +193,29 @@ L["cod2019_optic_reflex_west05_hybrid.printname"] = "Cronen 2x2 Elite"
 L["cod2019_optic_reflex_west05_hybrid.description"] = "Улучшенный оптический прицел кратностью <color=100,255,100>4x</color>, обеспечивающий превосходную точность стрельбы."
 
 -- Scopes for Handguns
-L["cod2019_optic_scope_scout_pistol.description"] = "Precision pistol optic with <color=100,255,100>2.75x</color> magnification for long range target acquisition."
+L["cod2019_optic_scope_scout_pistol.description"] = "Оптический прицел для пистолета кратностью <color=100,255,100>2,75x</color> для стрельбы на дальние дистанции."
 
-L["cod2019_optic_vlk3_pistol.printname"] = "VLK 2.5x Optic"
-L["cod2019_optic_vlk3_pistol.description"] = "Russian pistol optic with <color=100,255,100>2.5x</color> magnification provides reliable target acquisition."
+L["cod2019_optic_vlk3_pistol.printname"] = "Прицел VLK 2,5х"
+L["cod2019_optic_vlk3_pistol.description"] = "Надежный и эффективный пистолетный прицел российского производства кратностью <color=100,255,100>2,5x</color>."
 
-L["cod2019_optic_cronen_pistol.description"] = "Advanced pistol optic with <color=100,255,100>3.0x</color> magnification provides excellent target acquisition."
+L["cod2019_optic_cronen_pistol.description"] = "Улучшенный пистолетный прицел кратностью <color=100,255,100>3,0x</color>, обеспечивающий превосходную точность стрельбы."
 
 -- Scopes for Sniper Rifles
-L["cod2019_optic_scope_scout_sniper.description"] = "Lower power <color=100,255,100>3.25x</color> optic when range is less important than agility."
+L["cod2019_optic_scope_scout_sniper.description"] = "Компактный прицел кратностью <color=100,255,100>3,25x</color>, оптимальный для маневренного боя."
 
-L["cod2019_optic_vlk3_sniper.description"] = "Russian combat optic with <color=100,255,100>3.0x</color> magnification for closer range engagements."
+L["cod2019_optic_vlk3_sniper.description"] = "Боевой прицел российского производства кратностью <color=100,255,100>3,0x</color>, предназначенный для ближних дистанций."
 
-L["mw19_optic_thermal_sniper.printname"] = "Thermal Sniper Scope"
-L["mw19_optic_thermal_sniper.compactname"] = "Thermal"
-L["mw19_optic_thermal_sniper.description"] = "High-powered <color=100,255,100>8x</color> thermal sniper scope uses heat signatures to highlight targets and provides visibility in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
+L["mw19_optic_thermal_sniper.printname"] = "Снайперский ИК-прицел"
+L["mw19_optic_thermal_sniper.compactname"] = "ИК-прицел"
+L["mw19_optic_thermal_sniper.description"] = "Мощный снайперский прицел кратностью <color=100,255,100>8x</color>, оснащенный тепловизором для поиска целей и контроля обстановки в любых условиях освещенности. <color=255,100,100>Несовместим с очками ночного видения. Блеск оптики виден противнику.</color>"
 
-L["cod2019_optic_scope_vz_sniper.description"] = "Advanced scope zooms between <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> for fighting at extreme ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
+L["cod2019_optic_scope_vz_sniper.description"] = "Улучшенный прицел, поддерживающий режимы кратности <color=100,255,100>5,5х</color> и <color=100,255,100>12,6х</color>. оптимален для сверхдальних дистанций боя. <color=255,100,100>Блеск оптики виден противнику.</color>"
 
-L["mw19_optic_thermal_vz_sniper.printname"] = "Thermal Dual Power Scope"
-L["mw19_optic_thermal_vz_sniper.compactname"] = "Thermal DP"
-L["mw19_optic_thermal_vz_sniper.description"] = "Advanced thermal imaging scope with variable <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> magnification for fighting at extreme ranges in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
+L["mw19_optic_thermal_vz_sniper.printname"] = "ИК-прицел переменной кратности"
+L["mw19_optic_thermal_vz_sniper.compactname"] = "П. ИК"
+L["mw19_optic_thermal_vz_sniper.description"] = "Улучшенный инфракрасный прицел, поддерживающий режимы кратности <color=100,255,100>5х</color> и <color=100,255,100>12,1х</color>. Позволяет вести бой на любых дистанциях и в любых условиях освещенности. <color=255,100,100>Несовместим с очками ночного видения. Блеск оптики виден противнику.</color>"
 
-L["cod2019_optic_cronen_sniper.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
+L["cod2019_optic_cronen_sniper.description"] = "Улучшенный оптический прицел кратностью <color=100,255,100>3,5x</color> для ситуаций, требующих быстрого наведения оружия."
 
 -- For Launchers
 -- L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight" -- UO
@@ -230,145 +231,145 @@ L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Thermal"
 L["mw19_weapon_att_variable"] = "%s Variable Zoom"
 
 ////////////////////  Muzzle
-///////// Stats"
-L["mw19_muzzle_stat_muzzleflash"] = "Muzzle Flash Concealment" -- Flash Guard
-L["mw19_muzzle_stat_sound"] = "Sound Suppression" -- Suppressors
+///////// Stats
+L["mw19_muzzle_stat_muzzleflash"] = "Маскировка дульного пламени" -- Flash Guard
+L["mw19_muzzle_stat_sound"] = "Снижение уровня шума" -- Suppressors
 
 ///////// Muzzle Brakes
 -- Flash Guard
-L["cod2019_attach_flashhider01.printname"] = "Flash Guard"
-L["cod2019_attach_flashhider01.compactname"] = "Flash"
-L["cod2019_attach_flashhider01.description"] = "Suppresses the flash of your weapon to help keep your target visible and your position concealed. Slightly lowers muzzle velocity."
+L["cod2019_attach_flashhider01.printname"] = "Пламегаситель"
+L["cod2019_attach_flashhider01.compactname"] = "Пламега."
+L["cod2019_attach_flashhider01.description"] = "Гасит дульное пламя оружия, помогая сохранять визуальный контакт с целью и маскируя ваше местоположение, немного снижает начальную скорость пули."
 
 -- Breacher Device
-L["cod2019_attach_muzzlemelee01.printname"] = "Breacher Device"
-L["cod2019_attach_muzzlemelee01.compactname"] = "Breacher"
-L["cod2019_attach_muzzlemelee01.description"] = "Muzzle attachment that enables 1 hit melee kills."
+L["cod2019_attach_muzzlemelee01.printname"] = "Штурмовое приспособление"
+L["cod2019_attach_muzzlemelee01.compactname"] = "Штурм."
+L["cod2019_attach_muzzlemelee01.description"] = "Наствольный модуль, позволяющий убивать противников в рукопашной с 1 удара."
 
 -- Muzzle Brake
-L["cod2019_attach_muzzlebrake01.printname"] = "Muzzle Brake"
-L["cod2019_attach_muzzlebrake01.compactname"] = "Brake"
-L["cod2019_attach_muzzlebrake01.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
+L["cod2019_attach_muzzlebrake01.printname"] = "Дульный тормоз"
+L["cod2019_attach_muzzlebrake01.compactname"] = "Дульн."
+L["cod2019_attach_muzzlebrake01.description"] = "Перенаправление пороховых газов в стороны помогает компенсировать отдачу при продолжительной стрельбе."
 
 -- Compensator
-L["cod2019_muzzle_compensator.printname"] = "Compensator"
-L["cod2019_muzzle_compensator.compactname"] = "Compensator"
-L["cod2019_muzzle_compensator.description"] = "Expels gases upward to aggressively fight muzzle climb."
+L["cod2019_muzzle_compensator.printname"] = "Компенсатор"
+L["cod2019_muzzle_compensator.compactname"] = "Компенсатор"
+L["cod2019_muzzle_compensator.description"] = "Перенаправление пороховых газов вверх активно компенсирует вертикальный компонент отдачи."
 
 -- Choke
-L["cod2019_attach_romeo870_choke.printname"] = "Choke"
-L["cod2019_attach_romeo870_choke.compactname"] = "Choke"
-L["cod2019_attach_romeo870_choke.description"] = "Device used to narrow the spread of shotgun pellets."
+L["cod2019_attach_romeo870_choke.printname"] = "Чок-бор"
+L["cod2019_attach_romeo870_choke.compactname"] = "Чок-бор"
+L["cod2019_attach_romeo870_choke.description"] = "Приспособление, уменьшающее радиус разлета дроби."
 
 ///////// Suppressors
 -- Tactical
-L["cod2019_attach_muzzle_silencer04.printname"] = "Tactical Suppressor"
-L["cod2019_attach_muzzle_silencer04.compactname"] = "Tactical"
-L["cod2019_attach_muzzle_silencer04.description"] = "Titanium can with stainless steel baffles. Silences weapon with very little additional weight."
+L["cod2019_attach_muzzle_silencer04.printname"] = "Тактический глушитель"
+L["cod2019_attach_muzzle_silencer04.compactname"] = "Такти."
+L["cod2019_attach_muzzle_silencer04.description"] = "Титановый глушитель со стальными перегородками, почти не добавляющий веса и подавляющий звуки выстрелов."
 
 -- Lightweight
-L["cod2019_attach_muzzle_silencer03.printname"] = "Lightweight Suppressor"
-L["cod2019_attach_muzzle_silencer03.compactname"] = "Lightweight"
-L["cod2019_attach_muzzle_silencer03.description"] = "Lightweight aluminium suppressor sacrifices range for stealth and agility."
+L["cod2019_attach_muzzle_silencer03.printname"] = "Легкий глушитель"
+L["cod2019_attach_muzzle_silencer03.compactname"] = "Легкий"
+L["cod2019_attach_muzzle_silencer03.description"] = "Легкий алюминиевый глушитель для тех, кто готов пожертвовать дальностью ради скрытности и подвижности."
 
 -- Monolithic
-L["cod2019_attach_muzzle_silencer02.printname"] = "Monolithic Suppressor"
-L["cod2019_attach_muzzle_silencer02.compactname"] = "Monolithic"
-L["cod2019_attach_muzzle_silencer02.description"] = "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
+L["cod2019_attach_muzzle_silencer02.printname"] = "Монолитный глушитель"
+L["cod2019_attach_muzzle_silencer02.compactname"] = "Монолит."
+L["cod2019_attach_muzzle_silencer02.description"] = "Монолитный глушитель снижает шум выстрелов и увеличивает дальнобойность. Существенный вес ограничивает подвижность бойца."
 
 -- FORGE TAC, certain shotguns only
-L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "FORGE TAC Marauder"
-L["cod2019_attach_muzzle_silencer_shotgun_03.compactname"] = "Marauder"
-L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Box suppressor adds considerable weight to the barrel, but tightens pellet spread and reduces recoil to help with long range precision."
+L["cod2019_attach_muzzle_silencer_shotgun_03.printname"] = "\"ФОРДЖ-ТАК - Мародер\""
+L["cod2019_attach_muzzle_silencer_shotgun_03.compactname"] = "Мародер"
+L["cod2019_attach_muzzle_silencer_shotgun_03.description"] = "Коробчатый глушитель, заметно увеличивающий вес оружия, но при этом повышающий кучность и ослабляющий отдачу, что особенно полезно при стрельбе на дальние дистанции."
 
 -- Oil Can, Handguns only
-L["cod2019_attach_muzzle_silencer_oilcan.printname"] = "Oil Can Suppressor"
-L["cod2019_attach_muzzle_silencer_oilcan.compactname"] = "Oil Can"
-L["cod2019_attach_muzzle_silencer_oilcan.description"] = "Suppressor crafted from an oil filter. Silences weapon, but <color=255,100,100>blocks visibility</color> when used with ironsights."
+L["cod2019_attach_muzzle_silencer_oilcan.printname"] = "Самодельный глушитель"
+L["cod2019_attach_muzzle_silencer_oilcan.compactname"] = "Самодел."
+L["cod2019_attach_muzzle_silencer_oilcan.description"] = "Самодельный глушитель, сделанный из масляного фильтра, заглушает звук выстрелов, но <color=255,100,100>ухудшает видимость</color> при использовании прицела."
 
 ////////////////////  Underbarrel
 ///////// Grips
-L["cod2019_angled.printname"] = "Commando Foregrip"
-L["cod2019_angled.compactname"] = "Commando"
-L["cod2019_angled.description"] = "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire."
+L["cod2019_angled.printname"] = "Рукоять коммандос"
+L["cod2019_angled.compactname"] = "Коммандос"
+L["cod2019_angled.description"] = "Тяжелая скошенная рукоять помогает стабилизировать оружие при прицеливании и контролировать его при интенсивной стрельбе."
 
-L["cod2019_grips_merc.printname"] = "Merc Foregrip"
-L["cod2019_grips_merc.compactname"] = "Merc"
-L["cod2019_grips_merc.description"] = "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics."
+L["cod2019_grips_merc.printname"] = "Рукоять наемника"
+L["cod2019_grips_merc.compactname"] = "Наемника"
+L["cod2019_grips_merc.description"] = "Удлиненная рукоять ослабляет вертикальный компонент отдачи и повышает стабильность стрельбы от бедра при внезапных нападениях из засады."
 
-L["cod2019_angled_tactical.printname"] = "Tactical Foregrip"
-L["cod2019_angled_tactical.compactname"] = "Tactical"
-L["cod2019_angled_tactical.description"] = "Streamlined foregrip provides superior control acquiring targets."
+L["cod2019_angled_tactical.printname"] = "Тактическая рукоять"
+L["cod2019_angled_tactical.compactname"] = "Тактич."
+L["cod2019_angled_tactical.description"] = "Эргономичная рукоять позволяет лучше контролировать оружие при прицеливании."
 
-L["cod2019_grips_ranger.printname"] = "Ranger Foregrip"
-L["cod2019_grips_ranger.compactname"] = "Ranger"
-L["cod2019_grips_ranger.description"] = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat."
+L["cod2019_grips_ranger.printname"] = "Рейнджерская рукоять"
+L["cod2019_grips_ranger.compactname"] = "Рейнджер"
+L["cod2019_grips_ranger.description"] = "Стандартная рукоять ослабляет вертикальный компонент отдачи и помогает стабилизировать оружие при прицеливании на дальние дистанции."
 
-L["cod2019_grips_operator.printname"] = "Operator Foregrip"
-L["cod2019_grips_operator.compactname"] = "Operator"
-L["cod2019_grips_operator.description"] = "No frills foregrip helps control vertical recoil for faster follow-up shots."
+L["cod2019_grips_operator.printname"] = "Рукоять исполнителя"
+L["cod2019_grips_operator.compactname"] = "Испол."
+L["cod2019_grips_operator.description"] = "Упрощенная рукоять помогает контролировать вертикальный компонент отдачи, тем самым ускоряя последующие выстрелы."
 
-L["cod2019_grips_bipod.printname"] = "Bipod Foregrip"
-L["cod2019_grips_bipod.compactname"] = "Bipod F"
-L["cod2019_grips_bipod.description"] = "Helps control recoil, especially from the crouch and prone stance."
+L["cod2019_grips_bipod.printname"] = "Сошки с тактической рукоятью"
+L["cod2019_grips_bipod.compactname"] = "Сошки Р."
+L["cod2019_grips_bipod.description"] = "Этот модуль помогает контролировать отдачу, особенно в положении присев и лежа."
 
-L["cod2019_grips_bipod_alt.printname"] = "Bipod"
-L["cod2019_grips_bipod_alt.compactname"] = "Bipod"
-L["cod2019_grips_bipod_alt.description"] = "Stability legs to improve control while using the weapon from the ground."
+L["cod2019_grips_bipod_alt.printname"] = "Сошки"
+L["cod2019_grips_bipod_alt.compactname"] = "Сошки"
+L["cod2019_grips_bipod_alt.description"] = "Специальные упоры, позволяющие лучше контролировать оружие при стрельбе с земли."
 
--- L["cod2019_grips_tactical.printname"] = "Task Force Foregrip" -- UO
--- L["cod2019_grips_tactical.compactname"] = "Task Force" -- UO
+L["cod2019_grips_tactical.printname"] = "Рукоять \"Task Force\"" -- UO
+L["cod2019_grips_tactical.compactname"] = "Task Force" -- UO
 
 L["cod2019_grau_ub_shark.printname"] = "Cronen Shark II"
 L["cod2019_grau_ub_shark.compactname"] = "Shark II"
 L["cod2019_grau_ub_shark.description"] = "Tactical foregrip provides best in class control acquiring targets."
 
 ///////// Weapons
-L["mw19_att_ub_m203_he.printname"] = "M203 40mm High-explosive"
-L["mw19_att_ub_m203_he.compactname"] = "M203 HE"
-L["mw19_att_ub_m203_he.description"] = "Underbarrel mounted grenade launcher loaded with highly <color=100,255,100>explosive</color> rounds."
+L["mw19_att_ub_m203_he.printname"] = "40-мм фугасная М203"
+L["mw19_att_ub_m203_he.compactname"] = "M203 фугас."
+L["mw19_att_ub_m203_he.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>фугасными</color> боеприпасами."
 
-L["mw19_att_ub_m203_fb.printname"] = "M203 40mm Flash"
-L["mw19_att_ub_m203_fb.compactname"] = "M203 FB"
-L["mw19_att_ub_m203_fb.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Flash</color> rounds designed to temporarily blind your enemy."
+L["mw19_att_ub_m203_fb.printname"] = "40-мм световая М203"
+L["mw19_att_ub_m203_fb.compactname"] = "M203 свет."
+L["mw19_att_ub_m203_fb.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые временно <color=100,255,100>ослепляют</color> противника."
 
-L["mw19_att_ub_m203_sg.printname"] = "M203 40mm Smokescreen"
-L["mw19_att_ub_m203_sg.compactname"] = "M203 SG"
-L["mw19_att_ub_m203_sg.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Smoke</color> rounds designed to conceal your movement."
+L["mw19_att_ub_m203_sg.printname"] = "40-мм дымовая М203"
+L["mw19_att_ub_m203_sg.compactname"] = "M203 дым."
+L["mw19_att_ub_m203_sg.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>дымовыми</color> боеприпасами несмертельного действия, которые позволяют маскировать ваши перемещения."
 
-L["mw19_att_ub_m203_fire.printname"] = "M203 40mm Incendiary"
-L["mw19_att_ub_m203_fire.compactname"] = "M203 IC"
-L["mw19_att_ub_m203_fire.description"] = "Underbarrel mounted grenade launcher loaded with lethal <color=100,255,100>Incendiary</color> rounds."
+L["mw19_att_ub_m203_fire.printname"] = "40-мм зажигательная М203"
+L["mw19_att_ub_m203_fire.compactname"] = "M203 зажи."
+L["mw19_att_ub_m203_fire.description"] = "Подствольный гранатомет, стреляющий боевыми <color=100,255,100>зажигательными</color> боеприпасами."
 
-L["mw19_att_ub_m203_stun.printname"] = "M203 40mm Concussive"
-L["mw19_att_ub_m203_stun.compactname"] = "M203 Stun"
-L["mw19_att_ub_m203_stun.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Concussive</color> rounds designed to stun your enemy."
+L["mw19_att_ub_m203_stun.printname"] = "40-мм оглушающая М203"
+L["mw19_att_ub_m203_stun.compactname"] = "M203 оглуш."
+L["mw19_att_ub_m203_stun.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые <color=100,255,100>оглушают</color> противника,"
 
-L["mw19_att_ub_m203_recon.printname"] = "M203 40mm Recon"
-L["mw19_att_ub_m203_recon.compactname"] = "M203 Recon"
-L["mw19_att_ub_m203_recon.description"] = "Underbarrel mounted grenade launcher loaded with <color=100,255,100>Snapshot</color> rounds. This recon device provides a momentary glimpse of enemies within the blast radius for your squad."
+L["mw19_att_ub_m203_recon.printname"] = "40-мм сканирующая М203"
+L["mw19_att_ub_m203_recon.compactname"] = "M203 скан."
+L["mw19_att_ub_m203_recon.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>сканирующими</color> боеприпасами, которые собирают информацию о местонахождении всех противников в зоне поражения."
 
-L["mw19_att_ub_shotgun.printname"] = "12-Gauge Deputy"
-L["mw19_att_ub_shotgun.compactname"] = "12G Deputy"
-L["mw19_att_ub_shotgun.description"] = "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+L["mw19_att_ub_shotgun.printname"] = "”3аместитель” 12-го калибра"
+L["mw19_att_ub_shotgun.compactname"] = "12-го 3ам."
+L["mw19_att_ub_shotgun.description"] = "Однозарядный подствольный <color=100,255,100>дробовик</color>, представляющий собой надежный запасной вариант на случай ближнего боя."
 
-L["mw19_att_ub_gp25_he.printname"] = "GP25 40mm High-explosive"
-L["mw19_att_ub_gp25_he.compactname"] = "GP25 HE"
+L["mw19_att_ub_gp25_he.printname"] = "40-мм фугасная GP25"
+L["mw19_att_ub_gp25_he.compactname"] = "GP25 фугас."
 
-L["mw19_att_ub_gp25_fb.printname"] = "GP25 40mm Flash"
-L["mw19_att_ub_gp25_fb.compactname"] = "GP25 FB"
+L["mw19_att_ub_gp25_fb.printname"] = "40-мм световая GP25"
+L["mw19_att_ub_gp25_fb.compactname"] = "GP25 свет."
 
-L["mw19_att_ub_gp25_sg.printname"] = "GP25 40mm Smokescreen"
-L["mw19_att_ub_gp25_sg.compactname"] = "GP25 SG"
+L["mw19_att_ub_gp25_sg.printname"] = "40-мм дымовая GP25"
+L["mw19_att_ub_gp25_sg.compactname"] = "GP25 дым."
 
-L["mw19_att_ub_gp25_fire.printname"] = "GP25 40mm Incendiary"
-L["mw19_att_ub_gp25_fire.compactname"] = "GP25 IC"
+L["mw19_att_ub_gp25_fire.printname"] = "40-мм зажигательная GP25"
+L["mw19_att_ub_gp25_fire.compactname"] = "GP25 зажи."
 
-L["mw19_att_ub_gp25_stun.printname"] = "GP25 40mm Concussive"
-L["mw19_att_ub_gp25_stun.compactname"] = "GP25 Stun"
+L["mw19_att_ub_gp25_stun.printname"] = "40-мм оглушающая GP25"
+L["mw19_att_ub_gp25_stun.compactname"] = "GP25 оглуш."
 
-L["mw19_att_ub_gp25_recon.printname"] = "GP25 40mm Recon"
-L["mw19_att_ub_gp25_recon.compactname"] = "GP25 Recon"
+L["mw19_att_ub_gp25_recon.printname"] = "40-мм сканирующая GP25"
+L["mw19_att_ub_gp25_recon.compactname"] = "GP25 скан."
 
 ////////////////////  Lasers
 L["cod2019_laser_01.printname"] = "Tac Laser"
