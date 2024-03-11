@@ -618,7 +618,7 @@ ATT.Free = true
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_firebolt.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootEnt = "arc9_cod2019_proj_crossbow_thermite"
+ATT.ShootEnt = "arc9_cod2019_arrow_thermite"
 
 ATT.Category = {"cod2019_ammo_crossbow"}
 ATT.ActivateElements = {"bolt_none"}
