@@ -1,4 +1,4 @@
-L = {}
+L = {} -- English, UO by Moka
 
 -- Stats from https://sym.gg
 
@@ -81,9 +81,9 @@ L["cod2019_optic_riser.printname"] = "Flat-Top Riser" -- UO
 L["cod2019_optic_riser.compactname"] = "Flat-Top" -- UO
 L["cod2019_optic_riser.description"] = "Flat-Top Riser adapter that is designed for mounting a sight for more tall sighting." -- UO
 
-L["cod2019_optic_riser2.printname"] = "Flat-Top Riser (Low Profile)"
-L["cod2019_optic_riser2.compactname"] = "Flat-Top LP"
-L["cod2019_optic_riser2.description"] = "Small Flat-Top Riser adapter designed for mounting smaller optics."
+L["cod2019_optic_riser2.printname"] = "Flat-Top Riser (Low Profile)" -- UO
+L["cod2019_optic_riser2.compactname"] = "Flat-Top LP" -- UO
+L["cod2019_optic_riser2.description"] = "Small Flat-Top Riser adapter designed for mounting smaller optics." -- UO
 
 -- Reflex Sights
 L["cod2019_optic_reflex_west03.printname"] = "Operator Reflex Sight"
@@ -299,12 +299,12 @@ L["cod2019_optic_cronen_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_cro
 L["cod2019_optic_cronen_sniper.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
 
 -- For Launchers
-L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight"
-L["cod2019_optic_scope_m32.compactname"] = "MGL GLS"
+L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight" -- UO
+L["cod2019_optic_scope_m32.compactname"] = "MGL GLS" -- UO
 L["cod2019_optic_scope_m32.description"] = ARC9:GetPhrase("cod2019_optic_cronen_sniper.description") or "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
 
-L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight"
-L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
+L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight" -- UO
+L["cod2019_optic_scope_strela.compactname"] = "Strela-P" -- UO
 L["cod2019_optic_scope_strela.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 -- Weapon Name Alterations
@@ -647,8 +647,8 @@ L["mw19stockdesc.heavy"] = "Heavy duty stock keeps your aim steady for precision
 L["mw19stockdesc.vheavy"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
-L["cod2019_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock" -- Kilo 141
-L["cod2019_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A" -- UO
+L["cod2019_stock_none.printname"] = "No Stock" -- Kilo 141
+L["cod2019_stock_none.compactname"] = "N/A" -- UO
 L["cod2019_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 ////////// Tubes

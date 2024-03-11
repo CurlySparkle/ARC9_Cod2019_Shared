@@ -206,11 +206,11 @@ L["mw19_optic_thermal_vz_sniper.description"] = "Avancerad värmeavbildning kika
 L["cod2019_optic_cronen_sniper.description"] = "Avancerat riktmedel med <color=100,255,100>3.5x</color> magnifiering för snabb målförvärv."
 
 -- For Launchers
-L["cod2019_optic_scope_m32.printname"] = "MGL-32 Granattillsats Riktmedel"
-L["cod2019_optic_scope_m32.compactname"] = "MGL GTR"
+L["cod2019_optic_scope_m32.printname"] = "MGL-32 Granattillsats Riktmedel" -- UO
+L["cod2019_optic_scope_m32.compactname"] = "MGL GTR" -- UO
 
-L["cod2019_optic_scope_strela.printname"] = "Strela-P-Sikte"
-L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
+L["cod2019_optic_scope_strela.printname"] = "Strela-P-Sikte" -- UO
+L["cod2019_optic_scope_strela.compactname"] = "Strela-P" -- UO
 
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"

@@ -1061,6 +1061,7 @@ ATT.Sights = {
 ATT.CustomPros = {
     [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "1.15x - 4.0x",
     [ ARC9:GetPhrase("mw19_optic_stat_toggle_holo") ] = "",
+    [ ARC9:GetPhrase("mw19_optic_stat_thermal") ] = "",
 }
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -1175,7 +1176,7 @@ ATT.Sights = {
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0.7, 0, -1.88),
+        Pos = Vector(0.25, 0, -1.88),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         Category = "cod2019_optics_pistols_scope",
