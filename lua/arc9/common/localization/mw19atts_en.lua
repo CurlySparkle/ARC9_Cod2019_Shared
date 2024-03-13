@@ -640,12 +640,12 @@ L["cod2019_laser_03_cylinde_alt.compactname"] = ARC9:GetPhrase("cod2019_laser_03
 L["cod2019_laser_03_cylinde_alt.description"] = ARC9:GetPhrase("cod2019_laser_03.description") or "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
 
 ////////////////////  Stocks
-L["mw19stockdesc.vlight"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
-L["mw19stockdesc.light"] = "Stock designed for agility while aiming down sights."
-L["mw19stockdesc.medium"] = "Tactical stock streamlined for close quarters combat. Gets you on target faster."
-L["mw19stockdesc.heavy"] = "Heavy duty stock keeps your aim steady for precision shots."
-L["mw19stockdesc.vheavy"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
-L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["mw19stockdesc.vlight"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability." -- M4A1, Stock 2
+L["mw19stockdesc.light"] = "Stock designed for agility while aiming down sights." -- Kilo 141, Stock 1
+L["mw19stockdesc.medium"] = "Tactical stock streamlined for close quarters combat. Gets you on target faster." -- Kilo 141, Stock 3
+L["mw19stockdesc.heavy"] = "Heavy duty stock keeps your aim steady for precision shots." -- FAL, Stock 3
+L["mw19stockdesc.vheavy"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility." -- FN Scar 17, Stock 3
+L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement." -- Kilo 141, Stock 3
 
 L["cod2019_stock_none.printname"] = "No Stock" -- Kilo 141
 L["cod2019_stock_none.compactname"] = "N/A" -- UO
@@ -687,42 +687,46 @@ L["cod2019_griptape_03.description"] = "Stippled pistol grip tape maintains cont
 mw19ammotype = {
 	["556"] = "5.56 NATO",
 	["762"] = "7.62 NATO",
-	["919"] = "9×19mm Parabellum",
-	["939"] = "9×39mm",
-	["127x55"] = "12.7×55mm",
+	["762soviet"] = "7.62 Soviet",
+	["762mmr"] = "7.62×54mmR",
+	["762mauser"] = "7.62 Mauser",
 	["545"] = "5.45×39mm",
+	["127x55"] = "12.7×55mm",
+	["127x108"] = "12.7×108mm",
+	["939"] = "9×39mm",
+	["919"] = "9mm Parabellum",
+	["57x28"] = "5.7×28mm",
+	["918"] = "9mm Makarov",
 	["46x30"] = "4.6×30mm",
 	["45acp"] = ".45 ACP",
-	["762x54"] = "7.62×54mmR",
-	["792"] = "7.92 Mauser",
+	["12gauge"] = "12 Gauge",
 	["338"] = ".338 Lapua Magnum",
-	["762x39"] = "7.62×39mm",
+	["45-70"] = ".45-70 Government",
+	["bolt"] = "20.0\" Bolt",
 	["300"] = ".300 Win Mag",
-	["127x108"] = "12.7×108mm",
 	["50bmg"] = ".50 BMG",
-	["50pistol"] = ".50 pistol",
-	["9makarov"] = "9mm Makarov",
+	["357"] = ".357 Magnum",
+	["50p"] = ".50 pistol",
 }
 
 mw19magtext = {
-	mag = "%s Round Mags",
-	mags = "%sR",
-	drum = "%s Round Drums",
-	drummag = "%s Round Drum Mags",
-	belt = "%s Round Belt",
+	mag = "%s Round Mags", -- Kilo 141, Mag 1-2
+	mags = "%sR", -- UO
+	drum = "%s Round Drums", -- Kilo 141, Mag 3
+	drummag = "%s Round Drum Mags", -- AK-47, Mag 3
+	belt = "%s Round Belt", -- PKM, Mag 1
 	
-	desc = "Extended magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a slight weight increase.",
-	descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
-	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
+	desc = "Extended magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a slight weight increase.", -- Kilo 141, 50-Round Mag
+	descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.", -- Kilo 141, 60-Round Mag
+	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.", -- Kilo 141, 100-Round Drum
 	
-	descsmall = "<color=255,100,100>%s round</color> magazines of %s carry less ammunition, but increase mobility and speed up reload times.",
+	descsmall = "<color=255,100,100>%s round</color> magazines of %s carry less ammunition, but increase mobility and speed up reload times.", -- Holger-26, 30-Round Mag
 
-	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.",
-	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.",
+	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.", -- Origin 12 Shotgun, 12-Round Mags
+	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.", -- Origin 12, 25-Round Drums
 	
-	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
-	descbeltl = "Extended belts hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
-	
+	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.", -- PKM, 150-Round Belt
+	descbeltl = "Extended belts hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.", -- PKM, 200-Round Belt
 }
 
 ////////////////////////  Assault Rifles
@@ -788,7 +792,7 @@ L["cod2019_fal_stock_light.description"] = "Lightweight aluminum stock keeps you
 
 L["cod2019_fal_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
 L["cod2019_fal_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
-L["cod2019_fal_stock_medium.description"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.description") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
+L["cod2019_fal_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 L["cod2019_fal_stock_heavy.printname"] = "FORGE TAC Stalker"
 L["cod2019_fal_stock_heavy.compactname"] = "Stalker"
@@ -1989,11 +1993,11 @@ L["cod2019_pkm_barrel_03.description"] = "Heavy weight forced-air-cooled barrel 
 /////////////// Magazine
 L["cod2019_pkm_mag_150.printname"] = string.format(mw19magtext.belt, "150")
 L["cod2019_pkm_mag_150.compactname"] = string.format(mw19magtext.mags, "150")
-L["cod2019_pkm_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["762x54"])
+L["cod2019_pkm_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["762mmr"])
 
 L["cod2019_pkm_mag_200.printname"] = string.format(mw19magtext.belt, "200")
 L["cod2019_pkm_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
-L["cod2019_pkm_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["762x54"])
+L["cod2019_pkm_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["762mmr"])
 
 ////////////////////  SA87
 /////////////// Receiver
@@ -2565,11 +2569,11 @@ L["cod2019_dragunov_stock_medium.description"] = "Western stock adaptor designed
 /////////////// Magazine
 L["cod2019_dragunov_mag_15.printname"] = string.format(mw19magtext.mag, "15")
 L["cod2019_dragunov_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
-L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762x54"])
+L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762mmr"])
 
 L["cod2019_dragunov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
 L["cod2019_dragunov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762x54"])
+L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762mmr"])
 
 ////////////////////  HDR
 /////////////// Barrels
@@ -2818,11 +2822,11 @@ L["cod2019_50gs_barrel_02.description"] = "Extra long slide extension increases 
 /////////////// Magazine
 L["cod2019_50gs_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_50gs_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
-L["cod2019_50gs_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["50pistol"])
+L["cod2019_50gs_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["50p"])
 
 L["cod2019_50gs_mag_13.printname"] = string.format(mw19magtext.mag, "13")
 L["cod2019_50gs_mag_13.compactname"] = string.format(mw19magtext.mags, "13")
-L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw19ammotype["50pistol"])
+L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw19ammotype["50p"])
 
 ////////////////////  Renetti
 /////////////// Barrels
@@ -2913,11 +2917,11 @@ L["cod2019_sykov_stock_heavy.description"] = "Heavy weight Pistolet-Pulemet stoc
 /////////////// Magazine
 L["cod2019_sykov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
 L["cod2019_sykov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["9makarov"])
+L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["918"])
 
 L["cod2019_sykov_mag_80.printname"] = string.format(mw19magtext.drum, "80")
 L["cod2019_sykov_mag_80.compactname"] = string.format(mw19magtext.mags, "80")
-L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["9makarov"])
+L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["918"])
 
 /////////////// Pistol Grips
 L["cod2019_sykov_rg_01.printname"] = "VLK Spetznaz"

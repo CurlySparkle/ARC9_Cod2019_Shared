@@ -422,39 +422,46 @@ L["cod2019_griptape_03.description"] = "Stippat pistolgrepptejp behåller kontro
 mw19ammotype = {
 	["556"] = "5,56 NATO",
 	["762"] = "7,62 NATO",
-	["919"] = "9×19 mm Parabellum",
-	["939"] = "9×39 mm",
-	["127x55"] = "12,7×55 mm",
-	["545"] = "5,45×39 mm",
-	["46x30"] = "4,6×30 mm",
+	["762soviet"] = "7,62 Sovjet",
+	["762mmr"] = "7,62 × 54 mm R",
+	["762mauser"] = "7,62 Mauser",
+	["545"] = "5,45 × 39 mm",
+	["127x55"] = "12,7 × 55 mm",
+	["127x108"] = "12,7 × 108 mm",
+	["939"] = "9 × 39 mm",
+	["919"] = "9mm Parabellum",
+	["57x28"] = "5,7 × 28 mm",
+	["918"] = "9 mm Makarov",
+	["46x30"] = "4,6 × 30 mm",
 	["45acp"] = ".45 ACP",
-	["762x54"] = "7,62×54 mm R",
-	["792"] = "7,92 Mauser",
-	["338"] = ".338 Lapua Magnum",
-	["762x39"] = "7,62×39 mm",
+	["12gauge"] = "Kaliber 12",
+	["338"] = ".338 Norma Mag",
+	["45-70"] = ".45-70 Regering",
+	["bolt"] = "508mm Pil",
 	["300"] = ".300 Win Mag",
-	["127x108"] = "12,7×108mm",
 	["50bmg"] = ".50 BMG",
-	["50pistol"] = ".50 Pistol",
-	["9makarov"] = "9mm Makarov",
+	["357"] = ".357 Magnum",
+	["50p"] = ".50 Pistol",
 }
 
 mw19magtext = {
-	mag = "%s-Patronersmagasin",
-	mags = "%sP",
-	drum = "%s-Patroner Trumma",
-	drummag = "%s-Patroners Trummagasin",
-	belt = "%s-Patroners Bälte",
+	mag = "%s-Patronersmagasin", -- Kilo 141, Mag 1-2
+	mags = "%sP", -- UO
+	drum = "%s-Patroner Trumma", -- Kilo 141, Mag 3
+	drummag = "%s-Patroners Trummagasin", -- AK-47, Mag 3
+	belt = "%s-Patroners Bälte", -- PKM, Mag 1
 	
-	desc = "Förstorade magasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med lätt ökad vikt.",
-	descl = "Hög kapacitetsmagasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med måttlig ökad vikt.",
-	descdrum = "Trummagasin håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.",
+	desc = "Förstorade magasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med lätt ökad vikt.", -- Kilo 141, 50-Round Mag
+	descl = "Hög kapacitetsmagasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med måttlig ökad vikt.", -- Kilo 141, 60-Round Mag
+	descdrum = "Trummagasin håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.", -- Kilo 141, 100-Round Drum
 
-	desc12 = "Förstorade magasin håller <color=100,255,100>%s patroner</color> med lätt ökad vikt.",
-	descdrum12 = "Trummagasin håller <color=100,255,100>%s shells</color> av hagelskott vilket maximerar ammunitionskapacitet med kostnad på rörlighet.",
+	descsmall = "<color=255,100,100>%s patronersmagasin</color> med %s-ammunition har mindre ammunition, men ökar rörligheten och ökar omladdningshastigheten.", -- Holger-26, 30-Round Mag
+
+	desc12 = "Förstorade magasin håller <color=100,255,100>%s patroner</color> med lätt ökad vikt.", -- Origin 12 Shotgun, 12-Round Mags
+	descdrum12 = "Trummagasin håller <color=100,255,100>%s shells</color> av hagelskott vilket maximerar ammunitionskapacitet med kostnad på rörlighet.", -- Origin 12, 25-Round Drums
 	
-	descbelt = "Längre bälten håller <color=100,255,100>%s patroner</color> av %s av %s-ammunition med måttlig ökad vikt.",
-	descbeltl = "Förlängrade bälten håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.",
+	descbelt = "Längre bälten håller <color=100,255,100>%s patroner</color> av %s-ammunition med måttlig ökad vikt.", -- PKM, 150-Round Belt
+	descbeltl = "Förlängrade bälten håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.", -- PKM, 200-Round Belt
 }
 
 ////////////////////////  Assault Rifles
@@ -1592,11 +1599,11 @@ L["cod2019_pkm_barrel_03.description"] = "Heavy weight forced-air-cooled barrel 
 /////////////// Magazine
 L["cod2019_pkm_mag_150.printname"] = string.format(mw19magtext.belt, "150")
 L["cod2019_pkm_mag_150.compactname"] = string.format(mw19magtext.mags, "150")
-L["cod2019_pkm_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["762x54"])
+L["cod2019_pkm_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["762mmr"])
 
 L["cod2019_pkm_mag_200.printname"] = string.format(mw19magtext.belt, "200")
 L["cod2019_pkm_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
-L["cod2019_pkm_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["762x54"])
+L["cod2019_pkm_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["762mmr"])
 
 ////////////////////  SA87
 /////////////// Receiver
@@ -2130,11 +2137,11 @@ L["cod2019_dragunov_stock_medium.description"] = "Western stock adaptor designed
 /////////////// Magazine
 L["cod2019_dragunov_mag_15.printname"] = string.format(mw19magtext.mag, "15")
 L["cod2019_dragunov_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
-L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762x54"])
+L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762mmr"])
 
 L["cod2019_dragunov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
 L["cod2019_dragunov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762x54"])
+L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762mmr"])
 
 ////////////////////  HDR
 /////////////// Barrels
@@ -2375,11 +2382,11 @@ L["cod2019_50gs_barrel_02.description"] = "Extra long slide extension increases 
 /////////////// Magazine
 L["cod2019_50gs_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_50gs_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
-L["cod2019_50gs_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["50pistol"])
+L["cod2019_50gs_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["50p"])
 
 L["cod2019_50gs_mag_13.printname"] = string.format(mw19magtext.mag, "13")
 L["cod2019_50gs_mag_13.compactname"] = string.format(mw19magtext.mags, "13")
-L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw19ammotype["50pistol"])
+L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw19ammotype["50p"])
 
 ////////////////////  Renetti
 /////////////// Barrels
@@ -2468,11 +2475,11 @@ L["cod2019_sykov_stock_heavy.description"] = "Heavy weight Pistolet-Pulemet stoc
 /////////////// Magazine
 L["cod2019_sykov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
 L["cod2019_sykov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["9makarov"])
+L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["918"])
 
 L["cod2019_sykov_mag_80.printname"] = string.format(mw19magtext.drum, "80")
 L["cod2019_sykov_mag_80.compactname"] = string.format(mw19magtext.mags, "80")
-L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["9makarov"])
+L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["918"])
 
 /////////////// Pistol Grips
 L["cod2019_sykov_rg_01.printname"] = "VLK Spetznaz"

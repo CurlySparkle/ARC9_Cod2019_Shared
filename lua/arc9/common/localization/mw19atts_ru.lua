@@ -42,22 +42,22 @@ L["mw19_folder_rds"] = "Зеркал." -- UO
 L["mw19_folder_scope"] = "Прицел" -- UO
 
 -- Muzzles
--- L["mw19_folder_muzzle"] = "Muzzle" -- UO
--- L["mw19_folder_suppressor"] = "Suppressor" -- UO
+L["mw19_folder_muzzle"] = "Дульная" -- UO
+L["mw19_folder_suppressor"] = "Глушитель" -- UO
 
 -- Stocks
 -- L["mw19_folder_tube"] = "Tube" -- UO
 
 -- Underbarrels
--- L["mw19_folder_40mm"] = "40MM" -- UO
+L["mw19_folder_40mm"] = "40-мм" -- UO
 
 -- Other
--- L["mw19_folder_other"] = "Other" -- UO
+L["mw19_folder_other"] = "Другой" -- UO
 -- L["mw19_folder_side"] = "Side" -- UO
 
 //////////////////// Toggle Stats Names
--- L["mw19_togglestat_off"] = "Off" -- UO
--- L["mw19_togglestat_on"] = "On" -- UO
+L["mw19_togglestat_off"] = "Выключен" -- UO
+L["mw19_togglestat_on"] = "Включен" -- UO
 
 //////////////////// Firemodes
 -- L["mw19_firemode_pump"] = "PUMP"
@@ -225,10 +225,10 @@ L["cod2019_optic_cronen_sniper.description"] = "Улучшенный оптич�
 -- L["cod2019_optic_scope_strela.compactname"] = "Strela-P" -- UO
 
 -- Weapon Name Alterations
-L["mw19_weapon_att_hybrid"] = "%s Hybrid"
-L["mw19_weapon_att_thermal"] = "%s Thermal"
-L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Thermal"
-L["mw19_weapon_att_variable"] = "%s Variable Zoom"
+L["mw19_weapon_att_hybrid"] = "%s Гибрид"
+L["mw19_weapon_att_thermal"] = "%s Тепловизор"
+L["mw19_weapon_att_hybrid_thermal"] = "%s Гибридный ИК-прицел"
+L["mw19_weapon_att_variable"] = "%s Прицел переменной кратности"
 
 ////////////////////  Muzzle
 ///////// Stats
@@ -343,7 +343,7 @@ L["mw19_att_ub_m203_fire.description"] = "Подствольный гранат�
 
 L["mw19_att_ub_m203_stun.printname"] = "40-мм оглушающая М203"
 L["mw19_att_ub_m203_stun.compactname"] = "M203 оглуш."
-L["mw19_att_ub_m203_stun.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые <color=100,255,100>оглушают</color> противника,"
+L["mw19_att_ub_m203_stun.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые <color=100,255,100>оглушают</color> противника."
 
 L["mw19_att_ub_m203_recon.printname"] = "40-мм сканирующая М203"
 L["mw19_att_ub_m203_recon.compactname"] = "M203 скан."
@@ -372,28 +372,28 @@ L["mw19_att_ub_gp25_recon.printname"] = "40-мм сканирующая GP25"
 L["mw19_att_ub_gp25_recon.compactname"] = "GP25 скан."
 
 ////////////////////  Lasers
-L["cod2019_laser_01.printname"] = "Tac Laser"
-L["cod2019_laser_01.compactname"] = "Tac"
-L["cod2019_laser_01.description"] = "High power 5mW tactical green laser. Improves accuracy while aiming down sights. Exposes position when active."
+L["cod2019_laser_01.printname"] = "Тактический лазер"
+L["cod2019_laser_01.compactname"] = "Такт."
+L["cod2019_laser_01.description"] = "Тактический зеленый лазер мощностью 5 мвт. повышает точность стрельбы в режиме прицеливания. Демаскирует стрелка."
 
-L["cod2019_laser_02.printname"] = "1mW Laser"
-L["cod2019_laser_02.compactname"] = "1mW"
-L["cod2019_laser_02.description"] = "Low power 1mW red laser slightly speeds up target acquisition after sprinting."
+L["cod2019_laser_02.printname"] = "Лазер 1 мВт"
+L["cod2019_laser_02.compactname"] = "1 мВт"
+L["cod2019_laser_02.description"] = "Красный лазер мощностью 1 мВт, повышающий точность стрельбы от бедра и не демаскирующий стрелка."
 
-L["cod2019_laser_03.printname"] = "5mW Laser"
-L["cod2019_laser_03.compactname"] = "5mW"
-L["cod2019_laser_03.description"] = "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
+L["cod2019_laser_03.printname"] = "Лазер 5 мВт"
+L["cod2019_laser_03.compactname"] = "5 мВт"
+L["cod2019_laser_03.description"] = "Сверхъяркий зеленый лазер мощностью 5 мвт, значительно повышающий точность стрельбы от бедра и скорость прицеливания после бега. Демаскирует стрелка. Для агрессивных игроков."
 
 ////////////////////  Stocks
-L["mw19stockdesc.vlight"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
-L["mw19stockdesc.light"] = "Stock designed for agility while aiming down sights."
-L["mw19stockdesc.medium"] = "Tactical stock streamlined for close quarters combat. Gets you on target faster."
-L["mw19stockdesc.heavy"] = "Heavy duty stock keeps your aim steady for precision shots."
-L["mw19stockdesc.vheavy"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
-L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["mw19stockdesc.vlight"] = "Пластиковый приклад с алюминиевым каркасом, улучшающий подвижность бойца при прицеливании."
+L["mw19stockdesc.light"] = "Этот приклад повышает ловкость в режиме прицеливания."
+L["mw19stockdesc.medium"] = "Тактический приклад, разработанный специально для ближнего боя. Позволяет быстрее наводить оружие на цель."
+L["mw19stockdesc.heavy"] = "Усиленный приклад, помогающий стабилизировать оружие для точной стрельбы."
+L["mw19stockdesc.vheavy"] = "Самый надежный приклад. обеспечивает невероятно высокий уровень управляемости, однако снижает подвижность бойца."
+L["mw19stockdesc.none"] = "Оптимальное решение для ситуаций, когда скорость и маневренность важнее точности стрельбы. со снятым прикладом боец может двигаться намного быстрее."
 
-L["cod2019_stock_none.printname"] = "No Stock" -- Kilo 141
--- L["cod2019_stock_none.compactname"] = "N/A" -- UO
+L["cod2019_stock_none.printname"] = "Без приклада" -- Kilo 141
+L["cod2019_stock_none.compactname"] = "Без п." -- UO
 
 ////////// Tubes
 -- L["cod2019_stock_tube_light.printname"] = "Lightweight Buffer Tube" -- UO
@@ -412,87 +412,91 @@ L["cod2019_stock_none.printname"] = "No Stock" -- Kilo 141
 -- L["cod2019_stock_tube_padded.description"] = "Lightweight buffer tube with soft padding. <color=255,100,100>Does not support attaching stocks</color>." -- UO
 
 //////////////////// Pistol Grip Tape
-L["cod2019_griptape_01.printname"] = "Granulated Grip Tape"
-L["cod2019_griptape_01.compactname"] = "Granulated"
-L["cod2019_griptape_01.description"] = "Smooth and granulated tape for a relaxed and controlled grip. Keeps you steady and on target."
+L["cod2019_griptape_01.printname"] = "Зернистое покрытие рукоятки"
+L["cod2019_griptape_01.compactname"] = "Зернистое"
+L["cod2019_griptape_01.description"] = "Передняя рукоятка с шершавой поверхностью, обеспечивающая более расслабленный хват. Помогает стабилизировать оружие в движении. Снижает стабильность, но повышает маневренность."
 
-L["cod2019_griptape_02.printname"] = "Rubberized Grip Tape"
-L["cod2019_griptape_02.compactname"] = "Rubberized"
-L["cod2019_griptape_02.description"] = "Rubberized grip keeps gun tight in hand. Less steady, but helps control recoil."
+L["cod2019_griptape_02.printname"] = "Обрезиненное покрытие рукоятки"
+L["cod2019_griptape_02.compactname"] = "Обрезин."
+L["cod2019_griptape_02.description"] = "Прорезиненная рукоятка, позволяющая крепко держать оружие в руке. Менее устойчивая, но помогает справиться с отдачей."
 
-L["cod2019_griptape_03.printname"] = "Stippled Grip Tape"
-L["cod2019_griptape_03.compactname"] = "Stippled"
-L["cod2019_griptape_03.description"] = "Stippled pistol grip tape maintains control when performing high-speed maneuvers. Less stable but very agile."
+L["cod2019_griptape_03.printname"] = "Покрытие рукоятки с накаткой"
+L["cod2019_griptape_03.compactname"] = "Покрытие"
+L["cod2019_griptape_03.description"] = "Пистолетная рукоятка с накаткой, позволяющая лучше контролировать оружие в движении. снижает стабильность, но повышает маневренность."
 
 ///////////////////////////// Weapon-specific Attachments
 ////////////////////////  Universal Strings
 ////////////////////  Magazines
 mw19ammotype = {
-	["556"] = "5.56 NATO",
-	["762"] = "7.62 NATO",
-	["919"] = "9×19mm Parabellum",
-	["939"] = "9×39mm",
-	["127x55"] = "12.7×55mm",
-	["545"] = "5.45×39mm",
-	["46x30"] = "4.6×30mm",
+	["556"] = "5,56 мм НАТО",
+	["762"] = "7,62 мм НАТО",
+	["762soviet"] = "7,62 мм СССР",
+	["762mmr"] = "7,62×54 мм R",
+	["762mauser"] = "7,62 мм \"Маузер\"",
+	["545"] = "5,45×39 мм",
+	["127x55"] = "12,7×55 мм",
+	["127x108"] = "12,7×108 мм",
+	["939"] = "9×39 мм",
+	["919"] = "9 мм \"Парабеллум\"",
+	["57x28"] = "5.7×28 мм",
+	["918"] = "9 мм \"Макаров\"",
+	["46x30"] = "4.6×30 мм",
 	["45acp"] = ".45 ACP",
-	["762x54"] = "7.62×54mmR",
-	["792"] = "7.92 Mauser",
-	["338"] = ".338 Lapua Magnum",
-	["762x39"] = "7.62×39mm",
-	["300"] = ".300 Win Mag",
-	["127x108"] = "12.7×108mm",
+	["12gauge"] = "12-й калибр",
+	["338"] = ".338 Норма Магнум",
+	["45-70"] = ".45-70 Government",
+	["bolt"] = "20-дюймовый болт",
+	["300"] = ".300 Винчестер Магнум",
 	["50bmg"] = ".50 BMG",
-	["50pistol"] = ".50 pistol",
-	["9makarov"] = "9mm Makarov",
+	["357"] = ".357 \"Магнум\"",
+	["50p"] = "Пистолетный патрон калибра 50",
 }
 
 mw19magtext = {
-	mag = "%s Round Mags",
-	mags = "%sR",
-	drum = "%s Round Drums",
-	drummag = "%s Round Drum Mags",
-	belt = "%s Round Belt",
+	mag = "Магазины на %s патронов", -- Kilo 141, Mag 1-2
+	mags = "%sП", -- UO
+	drum = "Барабанные магазины на %s патронов", -- Kilo 141, Mag 3
+	drummag = "Барабанные магазины на %s патронов", -- AK-47, Mag 3
+	belt = "Лента на %s патронов", -- PKM, Mag 1
 	
-	desc = "Extended magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a slight weight increase.",
-	descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
-	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
-	
-	descsmall = "<color=255,100,100>%s round</color> magazines of %s carry less ammunition, but increase mobility and speed up reload times.",
+	desc = "Увеличенные магазины на <color=100,255,100>%s патронов</color> калибра %s, слегка утяжеляющие оружие.", -- Kilo 141, 50-Round Mag
+	descl = "магазины большой емкости на <color=100,255,100>%s патронов</color> калибра %s, ощутимо утяжеляющие оружие.", -- Kilo 141, 60-Round Mag
+	descdrum = "Барабанный магазин на <color=100,255,100>%s патронов</color> калибра %s, ограничивающий подвижность бойца.", -- Kilo 141, 100-Round Drum
 
-	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.",
-	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.",
+	descsmall = "Магазины на <color=255,100,100>%s патронов</color> %s имеют меньший боезапас, но улучшают мобильность и сокращают время перезарядки.", -- Holger-26, 30-Round Mag
+
+	desc12 = "Увеличенные магазины на <color=100,255,100>%s патронов</color>, слегка утяжеляющие оружие.", -- Origin 12 Shotgun, 12-Round Mags
+	descdrum12 = "Барабанный магазин на <color=100,255,100>%s патронов</color> 12-го калибра, ограничивающий подвижность бойца.", -- Origin 12, 25-Round Drums
 	
-	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
-	descbeltl = "Extended belts hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
-	
+	descbelt = "Удлиненные ленты на <color=100,255,100>%s патронов</color> калибра %s, ощутимо утяжеляющие оружие.", -- PKM, 150-Round Belt
+	descbeltl = "Удлиненные ленты на <color=100,255,100>%s патронов</color> калибра %s, ограничивающий подвижность бойца.", -- PKM, 200-Round Belt
 }
 
 ////////////////////////  Assault Rifles
 ////////////////////  Kilo 141
 /////////////// Barrels
-L["cod2019_kilo_141_barrel_medium.printname"] = "Singuard Arms 16.6\" SOCOM"
+L["cod2019_kilo_141_barrel_medium.printname"] = "\"Сингвард Армс\" 16,6 дюйма SOCOM"
 L["cod2019_kilo_141_barrel_medium.compactname"] = "SOCOM"
-L["cod2019_kilo_141_barrel_medium.description"] = "Titanium-cobalt alloy barrel with guard extension improves muzzle velocity and range. Moderate weight increase stabilizes shots but slows handling."
+L["cod2019_kilo_141_barrel_medium.description"] = "Этот ствол из сплава титана с кобальтом повышает начальную скорость пули и, как следствие, дальность эффективного поражения. Умеренный дополнительный вес стабилизирует оружие, но ухудшает эргономику."
 
-L["cod2019_kilo141_barrel_long.printname"] = "Singuard Arms 19.8\" Prowler"
-L["cod2019_kilo141_barrel_long.compactname"] = "Prowler"
-L["cod2019_kilo141_barrel_long.description"] = "Stainless steel polygonal rifled barrel with guard extension greatly increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+L["cod2019_kilo141_barrel_long.printname"] = "\"Сингвард армс\" - \"охотник\" 19,8 дюйма"
+L["cod2019_kilo141_barrel_long.compactname"] = "Охотник"
+L["cod2019_kilo141_barrel_long.description"] = "Этот стальной ствол с рифленой нарезкой и увеличенным щитком значительно повышает начальную скорость пули и, как следствие, дальность эффективного поражения. Дополнительный вес стабилизирует оружие, но ограничивает подвижность бойца."
 
-L["cod2019_kilo141_barrel_supp.printname"] = "Singuard Arms Whisper"
-L["cod2019_kilo141_barrel_supp.compactname"] = "Whisper"
-L["cod2019_kilo141_barrel_supp.description"] = "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a low sound signature."
+L["cod2019_kilo141_barrel_supp.printname"] = "\"Сингвард армс\" - \"Шепот\""
+L["cod2019_kilo141_barrel_supp.compactname"] = "Шепот"
+L["cod2019_kilo141_barrel_supp.description"] = "Надежный <color=255,255,100>интегрированный глушитель</color>, интегрированный в конструкцию оружия, снижает громкость выстрелов и повышает начальную скорость пули."
 
 /////////////// Stock
-L["cod2019_kilo141_stock_light.printname"] = "FORGE TAC Ultralight"
-L["cod2019_kilo141_stock_light.compactname"] = "Ultralight"
+L["cod2019_kilo141_stock_light.printname"] = "\"ФОРДЖ-ТАК\" - Ультралегкий"
+L["cod2019_kilo141_stock_light.compactname"] = "Ультрал."
 
-L["cod2019_kilo141_stock_heavy.printname"] = "Singuard Arms Sniper Pro"
-L["cod2019_kilo141_stock_heavy.compactname"] = "Sniper Pro"
-L["cod2019_kilo141_stock_heavy.description"] = "Heavy duty stock with adjustable cheek rest. Keeps your aim steady for precision shots."
+L["cod2019_kilo141_stock_heavy.printname"] = "\"Сингвард армс\" - \"Снайпер-профи\""
+L["cod2019_kilo141_stock_heavy.compactname"] = "Сн.-профи."
+L["cod2019_kilo141_stock_heavy.description"] = "Усиленный приклад с регулируемой щекой. Помогает стабилизировать оружие для точной стрельбы."
 
-L["cod2019_kilo141_stock_medium.printname"] = "FSS Close Quarters Stock"
-L["cod2019_kilo141_stock_medium.compactname"] = "CQS"
+L["cod2019_kilo141_stock_medium.printname"] = "Приклад для ближнего боя FSS"
+L["cod2019_kilo141_stock_medium.compactname"] = "ПДББ"
 
 /////////////// Magazine
 L["cod2019_kilo141_mag_drum.printname"] = string.format(mw19magtext.drum, "100")
@@ -1603,11 +1607,11 @@ L["cod2019_pkm_barrel_03.description"] = "Heavy weight forced-air-cooled barrel 
 /////////////// Magazine
 L["cod2019_pkm_mag_150.printname"] = string.format(mw19magtext.belt, "150")
 L["cod2019_pkm_mag_150.compactname"] = string.format(mw19magtext.mags, "150")
-L["cod2019_pkm_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["762x54"])
+L["cod2019_pkm_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["762mmr"])
 
 L["cod2019_pkm_mag_200.printname"] = string.format(mw19magtext.belt, "200")
 L["cod2019_pkm_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
-L["cod2019_pkm_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["762x54"])
+L["cod2019_pkm_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["762mmr"])
 
 ////////////////////  SA87
 /////////////// Receiver
@@ -2141,11 +2145,11 @@ L["cod2019_dragunov_stock_medium.description"] = "Western stock adaptor designed
 /////////////// Magazine
 L["cod2019_dragunov_mag_15.printname"] = string.format(mw19magtext.mag, "15")
 L["cod2019_dragunov_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
-L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762x54"])
+L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762mmr"])
 
 L["cod2019_dragunov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
 L["cod2019_dragunov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762x54"])
+L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762mmr"])
 
 ////////////////////  HDR
 /////////////// Barrels
@@ -2386,11 +2390,11 @@ L["cod2019_50gs_barrel_02.description"] = "Extra long slide extension increases 
 /////////////// Magazine
 L["cod2019_50gs_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_50gs_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
-L["cod2019_50gs_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["50pistol"])
+L["cod2019_50gs_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["50p"])
 
 L["cod2019_50gs_mag_13.printname"] = string.format(mw19magtext.mag, "13")
 L["cod2019_50gs_mag_13.compactname"] = string.format(mw19magtext.mags, "13")
-L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw19ammotype["50pistol"])
+L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw19ammotype["50p"])
 
 ////////////////////  Renetti
 /////////////// Barrels
@@ -2479,11 +2483,11 @@ L["cod2019_sykov_stock_heavy.description"] = "Heavy weight Pistolet-Pulemet stoc
 /////////////// Magazine
 L["cod2019_sykov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
 L["cod2019_sykov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["9makarov"])
+L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["918"])
 
 L["cod2019_sykov_mag_80.printname"] = string.format(mw19magtext.drum, "80")
 L["cod2019_sykov_mag_80.compactname"] = string.format(mw19magtext.mags, "80")
-L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["9makarov"])
+L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["918"])
 
 /////////////// Pistol Grips
 L["cod2019_sykov_rg_01.printname"] = "VLK Spetznaz"

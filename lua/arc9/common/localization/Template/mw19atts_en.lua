@@ -378,12 +378,12 @@ L["cod2019_laser_03.compactname"] = "5mW"
 L["cod2019_laser_03.description"] = "Ultra bright 5mW green laser greatly speeds up target acquisition after sprinting. Exposes position when active. Only for aggressive operators who don't rely on concealment."
 
 ////////////////////  Stocks
-L["mw19stockdesc.vlight"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
-L["mw19stockdesc.light"] = "Stock designed for agility while aiming down sights."
-L["mw19stockdesc.medium"] = "Tactical stock streamlined for close quarters combat. Gets you on target faster."
-L["mw19stockdesc.heavy"] = "Heavy duty stock keeps your aim steady for precision shots."
-L["mw19stockdesc.vheavy"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
-L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["mw19stockdesc.vlight"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability." -- M4A1, Stock 2
+L["mw19stockdesc.light"] = "Stock designed for agility while aiming down sights." -- Kilo 141, Stock 1
+L["mw19stockdesc.medium"] = "Tactical stock streamlined for close quarters combat. Gets you on target faster." -- Kilo 141, Stock 3
+L["mw19stockdesc.heavy"] = "Heavy duty stock keeps your aim steady for precision shots." -- FAL, Stock 3
+L["mw19stockdesc.vheavy"] = "The most stable stock available, provides exceptional control while aiming at the cost of mobility." -- FN Scar 17, Stock 3
+L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement." -- Kilo 141, Stock 3
 
 L["cod2019_stock_none.printname"] = "No Stock" -- Kilo 141
 -- L["cod2019_stock_none.compactname"] = "N/A" -- UO
@@ -441,24 +441,23 @@ mw19ammotype = {
 }
 
 mw19magtext = {
-	mag = "%s Round Mags",
-	mags = "%sR",
-	drum = "%s Round Drums",
-	drummag = "%s Round Drum Mags",
-	belt = "%s Round Belt",
+	mag = "%s Round Mags", -- Kilo 141, Mag 1-2
+	mags = "%sR", -- UO
+	drum = "%s Round Drums", -- Kilo 141, Mag 3
+	drummag = "%s Round Drum Mags", -- AK-47, Mag 3
+	belt = "%s Round Belt", -- PKM, Mag 1
 	
-	desc = "Extended magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a slight weight increase.",
-	descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
-	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
+	desc = "Extended magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a slight weight increase.", -- Kilo 141, 50-Round Mag
+	descl = "High capacity magazines hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.", -- Kilo 141, 60-Round Mag
+	descdrum = "Drum magazines hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.", -- Kilo 141, 100-Round Drum
 	
-	descsmall = "<color=255,100,100>%s round</color> magazines of %s carry less ammunition, but increase mobility and speed up reload times.",
+	descsmall = "<color=255,100,100>%s round</color> magazines of %s carry less ammunition, but increase mobility and speed up reload times.", -- Holger-26, 30-Round Mag
 
-	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.",
-	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.",
+	desc12 = "Extended magazines hold <color=100,255,100>%s shells</color> with a slight weight increase.", -- Origin 12 Shotgun, 12-Round Mags
+	descdrum12 = "Drum magazines hold <color=100,255,100>%s shells</color> of 12 gauge, maximizing ammo capacity at the expense of mobility.", -- Origin 12, 25-Round Drums
 	
-	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.",
-	descbeltl = "Extended belts hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.",
-	
+	descbelt = "Longer belts hold <color=100,255,100>%s rounds</color> of %s ammunition with a moderate weight increase.", -- PKM, 150-Round Belt
+	descbeltl = "Extended belts hold <color=100,255,100>%s rounds</color> of %s, maximizing ammo capacity at the expense of mobility.", -- PKM, 200-Round Belt
 }
 
 ////////////////////////  Assault Rifles
