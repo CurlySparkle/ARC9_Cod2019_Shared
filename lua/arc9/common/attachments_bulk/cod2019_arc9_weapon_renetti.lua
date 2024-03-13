@@ -37,7 +37,7 @@ ATT.FiremodesOverride = {
     {
         Mode = 3,
         RunawayBurst = true,
-		TracerEffect = "ARC9_tracer"
+		--TracerEffect = "ARC9_tracer"
     },
 }
 
@@ -92,6 +92,82 @@ ATT.RecoilModifierCapMult = 0.5
 -- ATT.MovingAng = Angle(0, 0, -5)
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_stock")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Pro Grip"
+ATT.CompactName = "XRK Pro Grip"
+ATT.Description = [[Ergonomic pistol grip keeps gun tight in hand. Exceptional recoil control at the cost of aiming stability.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_pstlgrpcust.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_pstlgrpcust.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_grip"}
+ATT.ActivateElements = {"grip_none"}
+
+ATT.AimDownSightsTimeMult = 1.12
+ATT.DeployTimeMult = 1.07
+ATT.RecoilMult = 0.9
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_grip_custom")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Speed Grip"
+ATT.CompactName = "XRK Speed Grip"
+ATT.Description = [[Tactical pistol grip maintains control when performing high-speed maneuvers. Less stabile but very agile.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_pstlgrplght.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_pstlgrplght.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_grip"}
+ATT.ActivateElements = {"grip_none"}
+
+ATT.AimDownSightsTimeMult = 0.92
+ATT.DeployTimeMult = 0.92
+ATT.RecoilMult = 1.05
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_grip_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC SATUS CS-X"
+ATT.CompactName = "FTAC CS-X"
+ATT.Description = [[Tactical stock and foregrip combo provide an extremely stable firing platform.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_pstlgrpcust_v2.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_gripvert.mdl"
+ATT.BoneMerge = true
+ATT.LHIK = true
+ATT.LHIK_Priority = 5
+ATT.RHIK = false
+ATT.RHIK_Priority = 5
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_foregrip"}
+ATT.ActivateElements = {"grip_none"}
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.07
+ATT.RecoilMult = 0.92
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_foregrip")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
