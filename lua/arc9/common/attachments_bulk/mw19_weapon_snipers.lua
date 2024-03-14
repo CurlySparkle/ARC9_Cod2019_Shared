@@ -550,7 +550,7 @@ ATT = {}
 
 ATT.PrintName = "Rytec Scope"
 ATT.CompactName = [[Rytec Scope]]
-ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_optic_scope_rytec.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_scope.png", "mips smooth")
 ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
 
 ATT.CustomPros = {

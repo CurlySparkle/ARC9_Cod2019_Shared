@@ -783,6 +783,51 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_p90_optic")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FSS Rail"
+ATT.CompactName = "FSS Rail"
+ATT.Description = "Custom FSS made rail."
+ATT.Icon = Material("entities/attachs/sm/p90/cod2019_sm_p90_rail_alt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 3
+ATT.Category = {"cod2019_p90_optic"}
+ATT.ActivateElements = {"top_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/attachment_vm_sm_papa90_rail_alt.mdl"
+ATT.BoneMerge = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 12, -1.69),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 54 * 0.8,
+        IgnoreExtra = false,
+		IsIronSight = true
+    },
+}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_optic"),
+        Pos = Vector(-1, 0, -0.59),
+        Ang = Angle(0, 0, 0),
+        --Icon_Offset = Vector(-3, 0, 0),
+        Category = {"cod2019_optic"},
+		Scale = 1
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_p90_rail_custom")
 
 /////////////////////////// -- UZI
 ATT = {}
