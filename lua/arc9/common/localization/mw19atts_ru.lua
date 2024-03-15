@@ -288,6 +288,13 @@ L["cod2019_attach_muzzle_silencer_oilcan.compactname"] = "Самодел."
 L["cod2019_attach_muzzle_silencer_oilcan.description"] = "Самодельный глушитель, сделанный из масляного фильтра, заглушает звук выстрелов, но <color=255,100,100>ухудшает видимость</color> при использовании прицела."
 
 ////////////////////  Underbarrel
+///////// Stats
+L["mw19_grip_stat_gl"] = "Подствольный гранатомет" -- Grenade Launcher
+
+-- Weapon Name Alterations
+L["mw19_weapon_att_m203"] = "%s M203"
+L["mw19_weapon_att_gp25"] = "%s GP25"
+
 ///////// Grips
 L["cod2019_angled.printname"] = "Рукоять коммандос"
 L["cod2019_angled.compactname"] = "Коммандос"
@@ -325,51 +332,51 @@ L["cod2019_grau_ub_shark.compactname"] = "Shark II"
 L["cod2019_grau_ub_shark.description"] = "Tactical foregrip provides best in class control acquiring targets."
 
 ///////// Weapons
-L["mw19_att_ub_m203_he.printname"] = "40-мм фугасная М203"
-L["mw19_att_ub_m203_he.compactname"] = "M203 фугас."
-L["mw19_att_ub_m203_he.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>фугасными</color> боеприпасами."
+L["cod2019_attach_m203_he.printname"] = "40-мм фугасная М203"
+L["cod2019_attach_m203_he.compactname"] = "M203 фугас."
+L["cod2019_attach_m203_he.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>фугасными</color> боеприпасами."
 
-L["mw19_att_ub_m203_fb.printname"] = "40-мм световая М203"
-L["mw19_att_ub_m203_fb.compactname"] = "M203 свет."
-L["mw19_att_ub_m203_fb.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые временно <color=100,255,100>ослепляют</color> противника."
+L["cod2019_attach_m203_fb.printname"] = "40-мм световая М203"
+L["cod2019_attach_m203_fb.compactname"] = "M203 свет."
+L["cod2019_attach_m203_fb.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые временно <color=100,255,100>ослепляют</color> противника."
 
-L["mw19_att_ub_m203_sg.printname"] = "40-мм дымовая М203"
-L["mw19_att_ub_m203_sg.compactname"] = "M203 дым."
-L["mw19_att_ub_m203_sg.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>дымовыми</color> боеприпасами несмертельного действия, которые позволяют маскировать ваши перемещения."
+L["cod2019_attach_m203_sg.printname"] = "40-мм дымовая М203"
+L["cod2019_attach_m203_sg.compactname"] = "M203 дым."
+L["cod2019_attach_m203_sg.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>дымовыми</color> боеприпасами несмертельного действия, которые позволяют маскировать ваши перемещения."
 
-L["mw19_att_ub_m203_fire.printname"] = "40-мм зажигательная М203"
-L["mw19_att_ub_m203_fire.compactname"] = "M203 зажиг."
-L["mw19_att_ub_m203_fire.description"] = "Подствольный гранатомет, стреляющий боевыми <color=100,255,100>зажигательными</color> боеприпасами."
+L["cod2019_attach_m203_fire.printname"] = "40-мм зажигательная М203"
+L["cod2019_attach_m203_fire.compactname"] = "M203 зажиг."
+L["cod2019_attach_m203_fire.description"] = "Подствольный гранатомет, стреляющий боевыми <color=100,255,100>зажигательными</color> боеприпасами."
 
-L["mw19_att_ub_m203_stun.printname"] = "40-мм оглушающая М203"
-L["mw19_att_ub_m203_stun.compactname"] = "M203 оглуш."
-L["mw19_att_ub_m203_stun.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые <color=100,255,100>оглушают</color> противника."
+L["cod2019_attach_m203_stun.printname"] = "40-мм оглушающая М203"
+L["cod2019_attach_m203_stun.compactname"] = "M203 оглуш."
+L["cod2019_attach_m203_stun.description"] = "Подствольный гранатомет, стреляющий боеприпасами несмертельного действия, которые <color=100,255,100>оглушают</color> противника."
 
-L["mw19_att_ub_m203_recon.printname"] = "40-мм сканирующая М203"
-L["mw19_att_ub_m203_recon.compactname"] = "M203 скан."
-L["mw19_att_ub_m203_recon.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>сканирующими</color> боеприпасами, которые собирают информацию о местонахождении всех противников в зоне поражения."
+L["cod2019_attach_m203_recon.printname"] = "40-мм сканирующая М203"
+L["cod2019_attach_m203_recon.compactname"] = "M203 скан."
+L["cod2019_attach_m203_recon.description"] = "Подствольный гранатомет, стреляющий <color=100,255,100>сканирующими</color> боеприпасами, которые собирают информацию о местонахождении всех противников в зоне поражения."
 
-L["mw19_att_ub_shotgun.printname"] = "”3аместитель” 12-го калибра"
-L["mw19_att_ub_shotgun.compactname"] = "12-го 3ам."
-L["mw19_att_ub_shotgun.description"] = "Однозарядный подствольный <color=100,255,100>дробовик</color>, представляющий собой надежный запасной вариант на случай ближнего боя."
+L["cod2019_attach_shotgun.printname"] = "”3аместитель” 12-го калибра"
+L["cod2019_attach_shotgun.compactname"] = "12-го 3ам."
+L["cod2019_attach_shotgun.description"] = "Однозарядный подствольный <color=100,255,100>дробовик</color>, представляющий собой надежный запасной вариант на случай ближнего боя."
 
-L["mw19_att_ub_gp25_he.printname"] = "40-мм фугасная GP25"
-L["mw19_att_ub_gp25_he.compactname"] = "GP25 фугас."
+L["cod2019_attach_gp25_he.printname"] = "40-мм фугасная GP25"
+L["cod2019_attach_gp25_he.compactname"] = "GP25 фугас."
 
-L["mw19_att_ub_gp25_fb.printname"] = "40-мм световая GP25"
-L["mw19_att_ub_gp25_fb.compactname"] = "GP25 свет."
+L["cod2019_attach_gp25_fb.printname"] = "40-мм световая GP25"
+L["cod2019_attach_gp25_fb.compactname"] = "GP25 свет."
 
-L["mw19_att_ub_gp25_sg.printname"] = "40-мм дымовая GP25"
-L["mw19_att_ub_gp25_sg.compactname"] = "GP25 дым."
+L["cod2019_attach_gp25_sg.printname"] = "40-мм дымовая GP25"
+L["cod2019_attach_gp25_sg.compactname"] = "GP25 дым."
 
-L["mw19_att_ub_gp25_fire.printname"] = "40-мм зажигательная GP25"
-L["mw19_att_ub_gp25_fire.compactname"] = "GP25 зажиг."
+L["cod2019_attach_gp25_fire.printname"] = "40-мм зажигательная GP25"
+L["cod2019_attach_gp25_fire.compactname"] = "GP25 зажиг."
 
-L["mw19_att_ub_gp25_stun.printname"] = "40-мм оглушающая GP25"
-L["mw19_att_ub_gp25_stun.compactname"] = "GP25 оглуш."
+L["cod2019_attach_gp25_stun.printname"] = "40-мм оглушающая GP25"
+L["cod2019_attach_gp25_stun.compactname"] = "GP25 оглуш."
 
-L["mw19_att_ub_gp25_recon.printname"] = "40-мм сканирующая GP25"
-L["mw19_att_ub_gp25_recon.compactname"] = "GP25 скан."
+L["cod2019_attach_gp25_recon.printname"] = "40-мм сканирующая GP25"
+L["cod2019_attach_gp25_recon.compactname"] = "GP25 скан."
 
 ////////////////////  Lasers
 L["cod2019_laser_01.printname"] = "Тактический лазер"

@@ -280,6 +280,13 @@ L["cod2019_attach_muzzle_silencer_oilcan.compactname"] = "Oljekanna"
 L["cod2019_attach_muzzle_silencer_oilcan.description"] = "Ljuddämpare tillverkad från en oljekanna. Dämpar vapnet, men <color=255,100,100>blockerar vyn</color> när den används med järn och korn."
 
 ////////////////////  Underbarrel
+///////// Stats
+L["mw19_grip_stat_gl"] = "Undermonterad Granattillsats" -- Grenade Launcher
+
+-- Weapon Name Alterations
+L["mw19_weapon_att_m203"] = "%s M203"
+L["mw19_weapon_att_gp25"] = "%s GP25"
+
 ///////// Grips
 L["cod2019_angled.printname"] = "Kommando Framgrepp"
 L["cod2019_angled.compactname"] = "Kommando"
@@ -317,51 +324,51 @@ L["cod2019_grau_ub_shark.compactname"] = "Shark II"
 L["cod2019_grau_ub_shark.description"] = "Taktiskt framgrepp erbjuder bäst-i-klass kontroll att få fram måltavlor."
 
 ///////// Weapons
-L["mw19_att_ub_m203_he.printname"] = "M203 40mm Spräng"
-L["mw19_att_ub_m203_he.compactname"] = "M203 SG"
-L["mw19_att_ub_m203_he.description"] = "Undermonterad granattillsats laddad med <color=100,255,100>spräng</color>granater."
+L["cod2019_attach_m203_he.printname"] = "M203 40mm Spräng"
+L["cod2019_attach_m203_he.compactname"] = "M203 SG"
+L["cod2019_attach_m203_he.description"] = "Undermonterad granattillsats laddad med <color=100,255,100>spräng</color>granater."
 
-L["mw19_att_ub_m203_fb.printname"] = "M203 40mm Chock"
-L["mw19_att_ub_m203_fb.compactname"] = "M203 CG"
-L["mw19_att_ub_m203_fb.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Chock</color>granater designade att temporärligt blända din fiende."
+L["cod2019_attach_m203_fb.printname"] = "M203 40mm Chock"
+L["cod2019_attach_m203_fb.compactname"] = "M203 CG"
+L["cod2019_attach_m203_fb.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Chock</color>granater designade att temporärligt blända din fiende."
 
-L["mw19_att_ub_m203_sg.printname"] = "M203 40mm Rökskärm"
-L["mw19_att_ub_m203_sg.compactname"] = "M203 RG"
-L["mw19_att_ub_m203_sg.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Rök</color>granater designade att gömma din rörelse."
+L["cod2019_attach_m203_sg.printname"] = "M203 40mm Rökskärm"
+L["cod2019_attach_m203_sg.compactname"] = "M203 RG"
+L["cod2019_attach_m203_sg.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Rök</color>granater designade att gömma din rörelse."
 
-L["mw19_att_ub_m203_fire.printname"] = "M203 40mm Brand"
-L["mw19_att_ub_m203_fire.compactname"] = "M203 BG"
-L["mw19_att_ub_m203_fire.description"] = "Undermonterad granattillsats laddad med dödliga <color=100,255,100>Brand</color>granater."
+L["cod2019_attach_m203_fire.printname"] = "M203 40mm Brand"
+L["cod2019_attach_m203_fire.compactname"] = "M203 BG"
+L["cod2019_attach_m203_fire.description"] = "Undermonterad granattillsats laddad med dödliga <color=100,255,100>Brand</color>granater."
 
-L["mw19_att_ub_m203_stun.printname"] = "M203 40mm Dämpande"
-L["mw19_att_ub_m203_stun.compactname"] = "M203 DG"
-L["mw19_att_ub_m203_stun.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Dämpande</color> granater designade att chocka din fiender."
+L["cod2019_attach_m203_stun.printname"] = "M203 40mm Dämpande"
+L["cod2019_attach_m203_stun.compactname"] = "M203 DG"
+L["cod2019_attach_m203_stun.description"] = "Undermonterad granattillsats laddad med ícke-dödliga <color=100,255,100>Dämpande</color> granater designade att chocka din fiender."
 
-L["mw19_att_ub_m203_recon.printname"] = "M203 40mm Underrättelse"
-L["mw19_att_ub_m203_recon.compactname"] = "M203 Under."
-L["mw19_att_ub_m203_recon.description"] = "Undermonterad granattillsats laddad med <color=100,255,100>Snapshot</color>-granater. Denna underrättelseenhet erbjuder en momuntär glimt av fiender inne i sprängradien till din trupp."
+L["cod2019_attach_m203_recon.printname"] = "M203 40mm Underrättelse"
+L["cod2019_attach_m203_recon.compactname"] = "M203 Under."
+L["cod2019_attach_m203_recon.description"] = "Undermonterad granattillsats laddad med <color=100,255,100>Snapshot</color>-granater. Denna underrättelseenhet erbjuder en momuntär glimt av fiender inne i sprängradien till din trupp."
 
-L["mw19_att_ub_shotgun.printname"] = "Deputy 12-Patroners"
-L["mw19_att_ub_shotgun.compactname"] = "Deputy 12P"
-L["mw19_att_ub_shotgun.description"] = "Enkelskott, undermonterad <color=100,255,100>hagelbössa</color> erbjuder pålitlig understöd för bemötanden på nära distans."
+L["cod2019_attach_shotgun.printname"] = "Deputy 12-Patroners"
+L["cod2019_attach_shotgun.compactname"] = "Deputy 12P"
+L["cod2019_attach_shotgun.description"] = "Enkelskott, undermonterad <color=100,255,100>hagelbössa</color> erbjuder pålitlig understöd för bemötanden på nära distans."
 
-L["mw19_att_ub_gp25_he.printname"] = "GP25 40mm Spränggranat"
-L["mw19_att_ub_gp25_he.compactname"] = "GP25 SG"
+L["cod2019_attach_gp25_he.printname"] = "GP25 40mm Spränggranat"
+L["cod2019_attach_gp25_he.compactname"] = "GP25 SG"
 
-L["mw19_att_ub_gp25_fb.printname"] = "GP25 40mm Chock"
-L["mw19_att_ub_gp25_fb.compactname"] = "GP25 CG"
+L["cod2019_attach_gp25_fb.printname"] = "GP25 40mm Chock"
+L["cod2019_attach_gp25_fb.compactname"] = "GP25 CG"
 
-L["mw19_att_ub_gp25_sg.printname"] = "GP25 40mm Rökskärm"
-L["mw19_att_ub_gp25_sg.compactname"] = "GP25 RG"
+L["cod2019_attach_gp25_sg.printname"] = "GP25 40mm Rökskärm"
+L["cod2019_attach_gp25_sg.compactname"] = "GP25 RG"
 
-L["mw19_att_ub_gp25_fire.printname"] = "GP25 40mm Brand"
-L["mw19_att_ub_gp25_fire.compactname"] = "GP25 BG"
+L["cod2019_attach_gp25_fire.printname"] = "GP25 40mm Brand"
+L["cod2019_attach_gp25_fire.compactname"] = "GP25 BG"
 
-L["mw19_att_ub_gp25_stun.printname"] = "GP25 40mm Dämpande"
-L["mw19_att_ub_gp25_stun.compactname"] = "GP25 DG"
+L["cod2019_attach_gp25_stun.printname"] = "GP25 40mm Dämpande"
+L["cod2019_attach_gp25_stun.compactname"] = "GP25 DG"
 
-L["mw19_att_ub_gp25_recon.printname"] = "GP25 40mm Underrättelse"
-L["mw19_att_ub_gp25_recon.compactname"] = "GP25 Under."
+L["cod2019_attach_gp25_recon.printname"] = "GP25 40mm Underrättelse"
+L["cod2019_attach_gp25_recon.compactname"] = "GP25 Under."
 
 ////////////////////  Lasers
 L["cod2019_laser_01.printname"] = "Taktisk Laser"

@@ -92,6 +92,180 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_xmag_60")
 
+/////////////////////////// -- Underbarrel
+/////////////// -- cod2019_attach_m203_he
+ATT = {}
+
+ATT.PrintName = "M203 High-Explosive 40MM"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_smoke.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_m203"}
+ATT.ActivateElements = {"grip", "m203"}
+ATT.Folder = ARC9:GetPhrase("mw19_folder_40mm")
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
+}
+
+ATT.Model = "models/weapons/cod2019/attachs/ubgl/attachment_vm_ub_mike203.mdl"
+ATT.LHIK = true
+ATT.LHIK_Priority = 100
+
+ATT.ReloadInSightsUBGL = false 
+
+ATT.MuzzleEffectQCAUBGL = 1
+-- ATT.DropMagazineAmountUBGL = 1 
+-- ATT.DropMagazineModelUBGL = "models/weapons/arc9/uplp_ubgl_m203_casing.mdl"
+-- ATT.DropMagazineTimeUBGL = 0.75
+-- ATT.DropMagazinePosUBGL = Vector(0, -9, 5)
+-- ATT.DropMagazineVelocityUBGL = Vector(0, -30, 0)
+-- ATT.DropMagazineAngUBGL = Angle(90, 100, 80)
+
+local path = "uplp_urban_temp/m203/"
+local pathUTC = "uplp_urban_temp/common/"
+
+ATT.DropMagazineSoundsUBGL = {
+    path .. "40mm_casing_1.ogg",
+}
+
+ATT.IKAnimationProxy = {
+    ["fire_ubgl"] = {
+        Source = "fire",
+        EventTable = {
+            { s = "uplp_urban_temp/scar/mech-03.ogg", t = 0 },
+        }
+    },
+    ["fire_empty_ubgl"] = {
+        Source = "fire",
+    },
+    ["reload_ubgl"] = {
+        Source = "reload",
+		MinProgress = 0.95,
+		FireASAP = true,
+		RefillProgress = 0.75,
+        EventTable = {
+            { s = pathUTC .. "movement-rifle-04.ogg", t = 0/30, v = 0.8 },
+            { s = path .. "breaker_open.ogg", t = 13/30 },
+            { s = path .. "gl_remove.ogg", t = 14/30 },
+            { s = pathUTC .. "magpouch.ogg", t = 25/30, v = 0.6 },
+            { s = path .. "gl_insert.ogg", t = 30/30 },
+            { s = path .. "breaker_close.ogg", t = 55/30 },
+            { s = pathUTC .. "cloth_1.ogg", t = 70 / 30, c = ca, v = 1 },
+            { s = pathUTC .. "movement-rifle-02.ogg", t = 70/30, v = 0.8 },
+        }
+    },
+    ["enter_ubgl"] = {
+        Source = "to_armed",
+		MinProgress = 0.65,
+		FireASAP = true,
+        EventTable = {
+            { s = pathUTC .. "cloth_1.ogg", t = 0 / 30, c = ca, v = 1 },
+            { s = pathUTC .. "movement-rifle-02.ogg", t = 2/30, v = 0.8 },
+        }
+    },
+    ["idle_ubgl"] = {
+        Source = "idle_armed"
+    },
+    ["exit_ubgl"] = {
+        Source = "to_idle",
+		MinProgress = 0.65,
+		FireASAP = true,
+        EventTable = {
+            { s = pathUTC .. "cloth_2.ogg", t = 0 / 30, c = ca, v = 1 },
+            { s = pathUTC .. "movement-rifle-04.ogg", t = 2/30, v = 0.3 },
+        }
+    },
+    ["enter_sights_ubgl"] = {
+        Source = "idle_armed"
+    },
+    ["exit_sights_ubgl"] = {
+        Source = "idle_armed"
+    },
+} -- When an animation event plays, override it with one based on this LHIK model.
+
+ATT.IKGunMotionQCA = 2
+
+ATT.IKGunMotionMult = 0.5
+ATT.IKGunMotionAngleMult = 0.5
+
+ATT.IKCameraMotionQCA = 3
+ATT.IKCameraMotionOffsetAngle = Angle(0, 0, 90)
+
+ATT.CamCoolViewUBGL = false
+
+ATT.ActivePosHook = function(wep, vec)
+    return vec + Vector(0, 0, 0)
+end
+
+ATT.UBGL = true
+ATT.UBGLAmmo = "smg1_grenade"
+ATT.UBGLClipSize = 1
+ATT.UBGLFiremode = 1
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_he.compactname")
+ATT.UBGLChamberSize = 0
+-- ATT.ShootVolumeUBGL = 111
+
+ATT.SpreadUBGL = 0.02
+
+ATT.FirstShootSoundUBGL = false
+ATT.ShootSoundUBGL = path.."gl_fire.ogg"
+ATT.DistantShootSoundUBGL = path.."gl_fire_dist.ogg"
+ATT.ShootSoundIndoorUBGL = path.."gl_fire.ogg"
+ATT.DistantShootSoundIndoorUBGL = path.."gl_fire_dist.ogg"
+ATT.HasSightsUBGL = true
+
+ATT.TriggerDelayUBGL = false
+
+-- ATT.EnterUBGLSound = path.."m203_hand_out_tube.ogg"
+-- ATT.ExitUBGLSound = path.."m203_hand_on_tube.ogg"
+
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
+ATT.ShootEntForceUBGL = 20000
+
+ATT.MuzzleParticleUBGL = "muzzleflash_m79"
+
+ATT.ModelOffset = Vector(-0.55, 0.05, 1.5)
+ATT.ModelAngleOffset = Angle(0, 180, 0)
+
+ATT.CantPeekUBGL = true
+ATT.NoAimAssistUBGL = true
+
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 15, -1),
+        Ang = Angle(0, 0, -10),
+        Magnification = 1.1,
+        ViewModelFOV = 50,
+        CrosshairInSights = true,
+        Blur = false,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+ATT.DrawFunc = function(swep, model) 
+local eles = swep:GetElements()
+
+    if eles["cod2019_m203_alt"] then
+        model:SetBodygroup(0, 1)
+    end
+
+end
+
+if !warzonestats then -- Regular Stats
+
+else -- Warzone Stats
+
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_m203_he")
+
 //////////////////////////////////////////////// -- Kilo 141
 /////////////////////////// -- Barrel
 /////////////// -- cod2019_kilo141_barrel_long

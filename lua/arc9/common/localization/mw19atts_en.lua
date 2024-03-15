@@ -491,6 +491,13 @@ L["cod2019_attach_muzzle_silencer_oilcan.compactname"] = "Oil Can"
 L["cod2019_attach_muzzle_silencer_oilcan.description"] = "Suppressor crafted from an oil filter. Silences weapon, but <color=255,100,100>blocks visibility</color> when used with ironsights."
 
 ////////////////////  Underbarrel
+///////// Stats
+L["mw19_grip_stat_gl"] = "Underbarrel Grenade Launcher" -- Grenade Launcher
+
+-- Weapon Name Alterations
+L["mw19_weapon_att_m203"] = "%s M203"
+L["mw19_weapon_att_gp25"] = "%s GP25"
+
 ///////// Grips
 L["cod2019_angled.printname"] = "Commando Foregrip"
 L["cod2019_angled.compactname"] = "Commando"
@@ -538,57 +545,57 @@ L["cod2019_grips_side_operator.compactname"] = ARC9:GetPhrase("cod2019_grips_ope
 L["cod2019_grips_side_operator.description"] = ARC9:GetPhrase("cod2019_grips_operator.description") or "No frills foregrip helps control vertical recoil for faster follow-up shots."
 
 ///////// Weapons
-L["mw19_att_ub_m203_he.printname"] = "M203 40mm High-explosive"
-L["mw19_att_ub_m203_he.compactname"] = "M203 HE"
-L["mw19_att_ub_m203_he.description"] = "Underbarrel mounted grenade launcher loaded with highly <color=100,255,100>explosive</color> rounds."
+L["cod2019_attach_m203_he.printname"] = "M203 40mm High-explosive"
+L["cod2019_attach_m203_he.compactname"] = "M203 HE"
+L["cod2019_attach_m203_he.description"] = "Underbarrel mounted grenade launcher loaded with highly <color=100,255,100>explosive</color> rounds."
 
-L["mw19_att_ub_m203_fb.printname"] = "M203 40mm Flash"
-L["mw19_att_ub_m203_fb.compactname"] = "M203 FB"
-L["mw19_att_ub_m203_fb.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Flash</color> rounds designed to temporarily blind your enemy."
+L["cod2019_attach_m203_fb.printname"] = "M203 40mm Flash"
+L["cod2019_attach_m203_fb.compactname"] = "M203 FB"
+L["cod2019_attach_m203_fb.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Flash</color> rounds designed to temporarily blind your enemy."
 
-L["mw19_att_ub_m203_sg.printname"] = "M203 40mm Smokescreen"
-L["mw19_att_ub_m203_sg.compactname"] = "M203 SG"
-L["mw19_att_ub_m203_sg.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Smoke</color> rounds designed to conceal your movement."
+L["cod2019_attach_m203_sg.printname"] = "M203 40mm Smokescreen"
+L["cod2019_attach_m203_sg.compactname"] = "M203 SG"
+L["cod2019_attach_m203_sg.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Smoke</color> rounds designed to conceal your movement."
 
-L["mw19_att_ub_m203_fire.printname"] = "M203 40mm Incendiary"
-L["mw19_att_ub_m203_fire.compactname"] = "M203 IC"
-L["mw19_att_ub_m203_fire.description"] = "Underbarrel mounted grenade launcher loaded with lethal <color=100,255,100>Incendiary</color> rounds."
+L["cod2019_attach_m203_fire.printname"] = "M203 40mm Incendiary"
+L["cod2019_attach_m203_fire.compactname"] = "M203 IC"
+L["cod2019_attach_m203_fire.description"] = "Underbarrel mounted grenade launcher loaded with lethal <color=100,255,100>Incendiary</color> rounds."
 
-L["mw19_att_ub_m203_stun.printname"] = "M203 40mm Concussive"
-L["mw19_att_ub_m203_stun.compactname"] = "M203 Stun"
-L["mw19_att_ub_m203_stun.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Concussive</color> rounds designed to stun your enemy."
+L["cod2019_attach_m203_stun.printname"] = "M203 40mm Concussive"
+L["cod2019_attach_m203_stun.compactname"] = "M203 Stun"
+L["cod2019_attach_m203_stun.description"] = "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Concussive</color> rounds designed to stun your enemy."
 
-L["mw19_att_ub_m203_recon.printname"] = "M203 40mm Recon"
-L["mw19_att_ub_m203_recon.compactname"] = "M203 Recon"
-L["mw19_att_ub_m203_recon.description"] = "Underbarrel mounted grenade launcher loaded with <color=100,255,100>Snapshot</color> rounds. This recon device provides a momentary glimpse of enemies within the blast radius for your squad."
+L["cod2019_attach_m203_recon.printname"] = "M203 40mm Recon"
+L["cod2019_attach_m203_recon.compactname"] = "M203 Recon"
+L["cod2019_attach_m203_recon.description"] = "Underbarrel mounted grenade launcher loaded with <color=100,255,100>Snapshot</color> rounds. This recon device provides a momentary glimpse of enemies within the blast radius for your squad."
 
-L["mw19_att_ub_shotgun.printname"] = "12-Gauge Deputy"
-L["mw19_att_ub_shotgun.compactname"] = "12G Deputy"
-L["mw19_att_ub_shotgun.description"] = "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+L["cod2019_attach_shotgun.printname"] = "12-Gauge Deputy"
+L["cod2019_attach_shotgun.compactname"] = "12G Deputy"
+L["cod2019_attach_shotgun.description"] = "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
 
-L["mw19_att_ub_gp25_he.printname"] = "GP25 40mm High-explosive"
-L["mw19_att_ub_gp25_he.compactname"] = "GP25 HE"
-L["mw19_att_ub_gp25_he.description"] = ARC9:GetPhrase("mw19_att_ub_m203_he.description") or "Underbarrel mounted grenade launcher loaded with highly <color=100,255,100>explosive</color> rounds."
+L["cod2019_attach_gp25_he.printname"] = "GP25 40mm High-explosive"
+L["cod2019_attach_gp25_he.compactname"] = "GP25 HE"
+L["cod2019_attach_gp25_he.description"] = ARC9:GetPhrase("cod2019_attach_m203_he.description") or "Underbarrel mounted grenade launcher loaded with highly <color=100,255,100>explosive</color> rounds."
 
-L["mw19_att_ub_gp25_fb.printname"] = "GP25 40mm Flash"
-L["mw19_att_ub_gp25_fb.compactname"] = "GP25 FB"
-L["mw19_att_ub_gp25_fb.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fb.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Flash</color> rounds designed to temporarily blind your enemy."
+L["cod2019_attach_gp25_fb.printname"] = "GP25 40mm Flash"
+L["cod2019_attach_gp25_fb.compactname"] = "GP25 FB"
+L["cod2019_attach_gp25_fb.description"] = ARC9:GetPhrase("cod2019_attach_m203_fb.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Flash</color> rounds designed to temporarily blind your enemy."
 
-L["mw19_att_ub_gp25_sg.printname"] = "GP25 40mm Smokescreen"
-L["mw19_att_ub_gp25_sg.compactname"] = "GP25 SG"
-L["mw19_att_ub_gp25_sg.description"] = ARC9:GetPhrase("mw19_att_ub_m203_sg.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Smoke</color> rounds designed to conceal your movement."
+L["cod2019_attach_gp25_sg.printname"] = "GP25 40mm Smokescreen"
+L["cod2019_attach_gp25_sg.compactname"] = "GP25 SG"
+L["cod2019_attach_gp25_sg.description"] = ARC9:GetPhrase("cod2019_attach_m203_sg.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Smoke</color> rounds designed to conceal your movement."
 
-L["mw19_att_ub_gp25_fire.printname"] = "GP25 40mm Incendiary"
-L["mw19_att_ub_gp25_fire.compactname"] = "GP25 IC"
-L["mw19_att_ub_gp25_fire.description"] = ARC9:GetPhrase("mw19_att_ub_m203_fire.description") or "Underbarrel mounted grenade launcher loaded with lethal <color=100,255,100>Incendiary</color> rounds."
+L["cod2019_attach_gp25_fire.printname"] = "GP25 40mm Incendiary"
+L["cod2019_attach_gp25_fire.compactname"] = "GP25 IC"
+L["cod2019_attach_gp25_fire.description"] = ARC9:GetPhrase("cod2019_attach_m203_fire.description") or "Underbarrel mounted grenade launcher loaded with lethal <color=100,255,100>Incendiary</color> rounds."
 
-L["mw19_att_ub_gp25_stun.printname"] = "GP25 40mm Concussive"
-L["mw19_att_ub_gp25_stun.compactname"] = "GP25 Stun"
-L["mw19_att_ub_gp25_stun.description"] = ARC9:GetPhrase("mw19_att_ub_m203_stun.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Concussive</color> rounds designed to stun your enemy."
+L["cod2019_attach_gp25_stun.printname"] = "GP25 40mm Concussive"
+L["cod2019_attach_gp25_stun.compactname"] = "GP25 Stun"
+L["cod2019_attach_gp25_stun.description"] = ARC9:GetPhrase("cod2019_attach_m203_stun.description") or "Underbarrel mounted grenade launcher loaded with non-lethal <color=100,255,100>Concussive</color> rounds designed to stun your enemy."
 
-L["mw19_att_ub_gp25_recon.printname"] = "GP25 40mm Recon"
-L["mw19_att_ub_gp25_recon.compactname"] = "GP25 Recon"
-L["mw19_att_ub_gp25_recon.description"] = ARC9:GetPhrase("mw19_att_ub_m203_recon.description") or "Underbarrel mounted grenade launcher loaded with <color=100,255,100>Snapshot</color> rounds. This recon device provides a momentary glimpse of enemies within the blast radius for your squad."
+L["cod2019_attach_gp25_recon.printname"] = "GP25 40mm Recon"
+L["cod2019_attach_gp25_recon.compactname"] = "GP25 Recon"
+L["cod2019_attach_gp25_recon.description"] = ARC9:GetPhrase("cod2019_attach_m203_recon.description") or "Underbarrel mounted grenade launcher loaded with <color=100,255,100>Snapshot</color> rounds. This recon device provides a momentary glimpse of enemies within the blast radius for your squad."
 
 ////////////////////  Lasers
 L["cod2019_laser_01.printname"] = "Tac Laser"
