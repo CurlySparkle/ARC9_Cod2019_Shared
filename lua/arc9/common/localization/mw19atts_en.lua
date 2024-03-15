@@ -1039,7 +1039,7 @@ L["cod2019_ak47_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.de
 /////////////// Magazine
 L["cod2019_ak47_mag_40.printname"] = string.format(mw19magtext.mag, "40")
 L["cod2019_ak47_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
-L["cod2019_ak47_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["762x39"])
+L["cod2019_ak47_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["762soviet"])
 
 L["cod2019_akilo47_mag_smg.printname"] = "5.45x39mm 30-Round Mags"
 L["cod2019_akilo47_mag_smg.compactname"] = "30R 5.45"
@@ -1047,7 +1047,7 @@ L["cod2019_akilo47_mag_smg.description"] = "Conversion kit to use lower caliber 
 
 L["cod2019_akilo47_mag_drum.printname"] = string.format(mw19magtext.drummag, "75")
 L["cod2019_akilo47_mag_drum.compactname"] = string.format(mw19magtext.mags, "75")
-L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762x39"])
+L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762soviet"])
 
 L["cod2019_akilo47_mag_origin12.printname"] = "12-Gauge 12-Round Mags" -- UO
 L["cod2019_akilo47_mag_origin12.compactname"] = "12R 12G" -- UO
@@ -2463,11 +2463,11 @@ L["cod2019_sks_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.des
 /////////////// Magazine
 L["cod2019_sks_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_sks_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["cod2019_sks_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["762x39"])
+L["cod2019_sks_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["762soviet"])
 
 L["cod2019_sks_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_sks_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
-L["cod2019_sks_mag_10.description"] = string.format(mw19magtext.descsmall, "10", mw19ammotype["762x39"])
+L["cod2019_sks_mag_10.description"] = string.format(mw19magtext.descsmall, "10", mw19ammotype["762soviet"])
 
 ////////////////////  SP-R 208
 /////////////// Optics
