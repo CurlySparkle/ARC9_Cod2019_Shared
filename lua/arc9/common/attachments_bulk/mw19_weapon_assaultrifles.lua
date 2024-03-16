@@ -185,6 +185,15 @@ ATT.IKAnimationProxy = {
     ["exit_sights_ubgl"] = {
         Source = "idle_armed"
     },
+    ["enter_sprint_ubgl"] = {
+        Source = ""
+    },
+    ["exit_sprint_ubgl"] = {
+        Source = ""
+    },
+    ["idle_sprint_ubgl"] = {
+        Source = "sprint"
+    },
 } -- When an animation event plays, override it with one based on this LHIK model.
 
 ATT.IKGunMotionQCA = 2
@@ -200,6 +209,9 @@ ATT.CamCoolViewUBGL = false
 ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(0, 0, 0)
 end
+
+ATT.SprintPos = Vector(0, -2.3, -1.5)
+ATT.SprintAng = Angle(35, 10, -35)
 
 ATT.UBGL = true
 ATT.UBGLAmmo = "smg1_grenade"
@@ -2345,6 +2357,51 @@ ARC9.LoadAttachment(ATT, "cod2019_cr56_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS 8.3\" Intruder"
+ATT.CompactName = "FSS 8.3\""
+ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and accuracy. Excels in CQB and room clearing.]]
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_barshort.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_cr56_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none","rail_grip","rail_laser"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_barshort.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DeployTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 0.9
+ATT.RecoilMult = 1.1
+
+ATT.RangeMaxMult = 0.9
+ATT.RangeMinMult = 0.9
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["grip"] or swep:GetElements()["grip_angled"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(-4, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_cr56_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
@@ -2378,6 +2435,28 @@ ATT.BulletBones = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_cr56_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Gatekeeper"
+ATT.CompactName = "XRK Gatekeeper"
+ATT.Description = [[The most stable stock available, provides exceptional control while aiming at the cost of mobility.]]
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_stocksn.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_cr56_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_stocksn.mdl"
+ATT.BoneMerge = true
+
+ATT.DeployTimeMult = 1.2
+ATT.AimDownSightsTimeMult = 1.2
+ATT.RecoilMult = 0.84
+ATT.RecoilSideMult = 0.9
+
+ARC9.LoadAttachment(ATT, "cod2019_cr56_stock_sniper")
 
 //////////////////////////////////////////////// -- AN-94
 ATT = {}
