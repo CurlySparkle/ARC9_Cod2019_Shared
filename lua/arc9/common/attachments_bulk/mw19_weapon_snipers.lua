@@ -1,4 +1,5 @@
 local ATT = {}
+local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone Stat Variable
 //////////////////////////////////////////////// -- Snipers Attachments
 /////////////////////////// -- SVD
 ATT = {}
