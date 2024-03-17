@@ -1151,9 +1151,9 @@ L["cod2019_cr56_stock_light.printname"] = "FTAC Spartan"
 L["cod2019_cr56_stock_light.compactname"] = "Spartan"
 L["cod2019_cr56_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
-L["cod2019_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
-L["cod2019_cr56_stock_vheavy.compactname"] = "Gatekeeper"
-L["cod2019_cr56_stock_vheavy.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy") or "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
+L["cod2019_cr56_stock_sniper.printname"] = "XRK Gatekeeper"
+L["cod2019_cr56_stock_sniper.compactname"] = "Gatekeeper"
+L["cod2019_cr56_stock_sniper.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy") or "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 
 L["cod2019_cr56_stock_vlight.printname"] = "CR-56 EXO"
 L["cod2019_cr56_stock_vlight.compactname"] = "EXO"

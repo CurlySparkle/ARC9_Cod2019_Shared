@@ -91,190 +91,232 @@ end
 ARC9.LoadAttachment(ATT, "cod2019_attach_xmag_60")
 
 /////////////////////////// -- Underbarrel
+/////////////// -- Grenade Launcher Code
+glcode = {
+	Description = "",
+	Icon = Material("entities/attachs/cod2019_ammo_gl_smoke.png", "mips smooth"),
+	MenuCategory = "ARC9 - MW2019 Attachments",
+	Free = false,
+
+	SortOrder = 1,
+	Category = {"cod2019_m203"},
+	ActivateElements = {"grip", "m203"},
+	Folder = ARC9:GetPhrase("mw19_folder_40mm"),
+
+	CustomPros = {
+		[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
+	},
+
+	Model = "models/weapons/cod2019/attachs/ubgl/attachment_vm_ub_mike203.mdl",
+	LHIK = true,
+	LHIK_Priority = 100,
+
+	ReloadInSightsUBGL = false,
+
+	MuzzleEffectQCAUBGL = 1,
+
+	DropMagazineSoundsUBGL = {
+	   "weapons/cod2019/m32/40mm_shell_02.ogg",
+	},
+
+	IKAnimationProxy = {
+		["fire_ubgl"] = {
+			Source = "fire",
+			EventTable = {
+				-- { s = "uplp_urban_temp/scar/mech-03.ogg", t = 0 },
+			}
+		},
+		["fire_empty_ubgl"] = {
+			Source = "fire",
+		},
+		["reload_ubgl"] = {
+			Source = "reload",
+			MinProgress = 0.95,
+			FireASAP = true,
+			RefillProgress = 0.75,
+			EventTable = {
+				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_start.ogg", t = 0/30 },
+				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_armup.ogg", t = 5/30 },
+				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_open_01.ogg", t = 7.5/30 },
+				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsout_01.ogg", t = 14/30 },
+				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsin_01.ogg", t = 37.5/30 },
+				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_close_01.ogg", t = 62.5/30 },
+				{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_grab2.ogg", t = 67.5/30},
+				{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_end.ogg", t = 70/30},
+			}
+		},
+		["enter_ubgl"] = {
+			Source = "to_armed",
+			MinProgress = 0.65,
+			FireASAP = true,
+			EventTable = {
+				-- { s = pathUTC .. "cloth_1.ogg", t = 0 / 30, c = ca, v = 1 },
+				-- { s = pathUTC .. "movement-rifle-02.ogg", t = 2/30, v = 0.8 },
+			}
+		},
+		["idle_ubgl"] = {
+			Source = "idle_armed"
+		},
+		["exit_ubgl"] = {
+			Source = "to_idle",
+			MinProgress = 0.65,
+			FireASAP = true,
+			EventTable = {
+				-- { s = pathUTC .. "cloth_2.ogg", t = 0 / 30, c = ca, v = 1 },
+				-- { s = pathUTC .. "movement-rifle-04.ogg", t = 2/30, v = 0.3 },
+			}
+		},
+		["enter_sights_ubgl"] = {
+			Source = "idle_armed"
+		},
+		["exit_sights_ubgl"] = {
+			Source = "idle_armed"
+		},
+		["enter_sprint_ubgl"] = {
+			Source = ""
+		},
+		["exit_sprint_ubgl"] = {
+			Source = ""
+		},
+		["idle_sprint_ubgl"] = {
+			Source = "sprint"
+		},
+	},
+
+	IKGunMotionQCA = 2,
+
+	IKGunMotionMult = 0.5,
+	IKGunMotionAngleMult = 0.5,
+
+	IKCameraMotionQCA = 3,
+	IKCameraMotionOffsetAngle = Angle(0, 0, 90),
+
+	CamCoolViewUBGL = false,
+
+	ActivePosHook = function(wep, vec)
+		return vec + Vector(0, 0, 0)
+	end,
+
+	SprintPosUBGL = Vector(0, -2.3, -1.5),
+	SprintAngUBGL = Angle(35, 10, -35),
+	
+	UBGL = true,
+	UBGLAmmo = "smg1_grenade",
+	UBGLClipSize = 1,
+	UBGLFiremode = 1,
+	UBGLChamberSize = 0,
+	-- ShootVolumeUBGL = 111,
+
+	SpreadUBGL = 0.02,
+
+	FirstShootSoundUBGL = false,
+	ShootSoundUBGL = "COD2019.M32.Fire",
+	DistantShootSoundUBGL = "Distant_Launcher.Outside",
+	ShootSoundIndoorUBGL =  "COD2019.M32.Fire",
+	DistantShootSoundIndoorUBGL = "Distant_Launcher.Inside",
+
+	EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg",
+	ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg",
+
+	TriggerDelayUBGL = false,
+
+	ShootEntForceUBGL = 2500,
+
+	MuzzleParticleUBGL = "muzzleflash_m79",
+
+	ModelOffset = Vector(-0.55, 0.05, 1.5),
+	ModelAngleOffset = Angle(0, 180, 0),
+
+	CantPeekUBGL = true,
+	NoAimAssistUBGL = true,
+
+	HasSightsUBGL = false,
+
+	DrawFunc = function(swep, model) 
+		local eles = swep:GetElements()
+		if eles["cod2019_m203_alt"] then
+			model:SetBodygroup(0, 1)
+		end
+	end,
+}
+
 /////////////// -- cod2019_attach_m203_he
 ATT = {}
 
-ATT.PrintName = "M203 High-Explosive 40MM"
-ATT.Description = ""
-ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_smoke.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
+table.Merge(ATT, glcode)
 
-ATT.SortOrder = 1
-ATT.Category = {"cod2019_m203"}
-ATT.ActivateElements = {"grip", "m203"}
-ATT.Folder = ARC9:GetPhrase("mw19_folder_40mm")
+ATT.PrintName = "M203 40MM High-Explosive"
 
-ATT.CustomPros = {
-	[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
-}
-
-ATT.Model = "models/weapons/cod2019/attachs/ubgl/attachment_vm_ub_mike203.mdl"
-ATT.LHIK = true
-ATT.LHIK_Priority = 100
-
-ATT.ReloadInSightsUBGL = false 
-
-ATT.MuzzleEffectQCAUBGL = 1
--- ATT.DropMagazineAmountUBGL = 1 
--- ATT.DropMagazineModelUBGL = "models/weapons/arc9/uplp_ubgl_m203_casing.mdl"
--- ATT.DropMagazineTimeUBGL = 0.75
--- ATT.DropMagazinePosUBGL = Vector(0, -9, 5)
--- ATT.DropMagazineVelocityUBGL = Vector(0, -30, 0)
--- ATT.DropMagazineAngUBGL = Angle(90, 100, 80)
-
-local path = "uplp_urban_temp/m203/"
-local pathUTC = "uplp_urban_temp/common/"
-
-ATT.DropMagazineSoundsUBGL = {
-    path .. "40mm_casing_1.ogg",
-}
-
-ATT.IKAnimationProxy = {
-    ["fire_ubgl"] = {
-        Source = "fire",
-        EventTable = {
-            { s = "uplp_urban_temp/scar/mech-03.ogg", t = 0 },
-        }
-    },
-    ["fire_empty_ubgl"] = {
-        Source = "fire",
-    },
-    ["reload_ubgl"] = {
-        Source = "reload",
-		MinProgress = 0.95,
-		FireASAP = true,
-		RefillProgress = 0.75,
-        EventTable = {
-            { s = pathUTC .. "movement-rifle-04.ogg", t = 0/30, v = 0.8 },
-            { s = path .. "breaker_open.ogg", t = 13/30 },
-            { s = path .. "gl_remove.ogg", t = 14/30 },
-            { s = pathUTC .. "magpouch.ogg", t = 25/30, v = 0.6 },
-            { s = path .. "gl_insert.ogg", t = 30/30 },
-            { s = path .. "breaker_close.ogg", t = 55/30 },
-            { s = pathUTC .. "cloth_1.ogg", t = 70 / 30, c = ca, v = 1 },
-            { s = pathUTC .. "movement-rifle-02.ogg", t = 70/30, v = 0.8 },
-        }
-    },
-    ["enter_ubgl"] = {
-        Source = "to_armed",
-		MinProgress = 0.65,
-		FireASAP = true,
-        EventTable = {
-            { s = pathUTC .. "cloth_1.ogg", t = 0 / 30, c = ca, v = 1 },
-            { s = pathUTC .. "movement-rifle-02.ogg", t = 2/30, v = 0.8 },
-        }
-    },
-    ["idle_ubgl"] = {
-        Source = "idle_armed"
-    },
-    ["exit_ubgl"] = {
-        Source = "to_idle",
-		MinProgress = 0.65,
-		FireASAP = true,
-        EventTable = {
-            { s = pathUTC .. "cloth_2.ogg", t = 0 / 30, c = ca, v = 1 },
-            { s = pathUTC .. "movement-rifle-04.ogg", t = 2/30, v = 0.3 },
-        }
-    },
-    ["enter_sights_ubgl"] = {
-        Source = "idle_armed"
-    },
-    ["exit_sights_ubgl"] = {
-        Source = "idle_armed"
-    },
-    ["enter_sprint_ubgl"] = {
-        Source = ""
-    },
-    ["exit_sprint_ubgl"] = {
-        Source = ""
-    },
-    ["idle_sprint_ubgl"] = {
-        Source = "sprint"
-    },
-} -- When an animation event plays, override it with one based on this LHIK model.
-
-ATT.IKGunMotionQCA = 2
-
-ATT.IKGunMotionMult = 0.5
-ATT.IKGunMotionAngleMult = 0.5
-
-ATT.IKCameraMotionQCA = 3
-ATT.IKCameraMotionOffsetAngle = Angle(0, 0, 90)
-
-ATT.CamCoolViewUBGL = false
-
-ATT.ActivePosHook = function(wep, vec)
-    return vec + Vector(0, 0, 0)
-end
-
-ATT.SprintPos = Vector(0, -2.3, -1.5)
-ATT.SprintAng = Angle(35, 10, -35)
-
-ATT.UBGL = true
-ATT.UBGLAmmo = "smg1_grenade"
-ATT.UBGLClipSize = 1
-ATT.UBGLFiremode = 1
 ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_he.compactname")
-ATT.UBGLChamberSize = 0
--- ATT.ShootVolumeUBGL = 111
-
-ATT.SpreadUBGL = 0.02
-
-ATT.FirstShootSoundUBGL = false
-ATT.ShootSoundUBGL = path.."gl_fire.ogg"
-ATT.DistantShootSoundUBGL = path.."gl_fire_dist.ogg"
-ATT.ShootSoundIndoorUBGL = path.."gl_fire.ogg"
-ATT.DistantShootSoundIndoorUBGL = path.."gl_fire_dist.ogg"
-ATT.HasSightsUBGL = true
-
-ATT.TriggerDelayUBGL = false
-
--- ATT.EnterUBGLSound = path.."m203_hand_out_tube.ogg"
--- ATT.ExitUBGLSound = path.."m203_hand_on_tube.ogg"
 
 ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
-ATT.ShootEntForceUBGL = 20000
-
-ATT.MuzzleParticleUBGL = "muzzleflash_m79"
-
-ATT.ModelOffset = Vector(-0.55, 0.05, 1.5)
-ATT.ModelAngleOffset = Angle(0, 180, 0)
-
-ATT.CantPeekUBGL = true
-ATT.NoAimAssistUBGL = true
-
-ATT.UBGLExclusiveSightsUBGL = true
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 15, -1),
-        Ang = Angle(0, 0, -10),
-        Magnification = 1.1,
-        ViewModelFOV = 50,
-        CrosshairInSights = true,
-        Blur = false,
-        UBGLOnly = true,
-        Disassociate = true,
-    },
-}
-
-ATT.DrawFunc = function(swep, model) 
-local eles = swep:GetElements()
-
-    if eles["cod2019_m203_alt"] then
-        model:SetBodygroup(0, 1)
-    end
-
-end
-
-if !warzonestats then -- Regular Stats
-
-else -- Warzone Stats
-
-end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_m203_he")
+
+/////////////// -- cod2019_attach_m203_fb
+ATT = {}
+
+table.Merge(ATT, glcode)
+
+ATT.PrintName = "M203 40MM Flash"
+
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_fb.compactname")
+
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_flash"
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_m203_fb")
+
+/////////////// -- cod2019_attach_m203_sg
+ATT = {}
+
+table.Merge(ATT, glcode)
+
+ATT.PrintName = "M203 40MM Smokescreen"
+
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_sg.compactname")
+
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_smoke"
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_m203_sg")
+
+/////////////// -- cod2019_attach_m203_fire
+ATT = {}
+
+table.Merge(ATT, glcode)
+
+ATT.PrintName = "M203 40MM Incendiary"
+
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_fire.compactname")
+
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_inc"
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_m203_fire")
+
+/////////////// -- cod2019_attach_m203_stun
+-- ATT = {}
+
+-- table.Merge(ATT, glcode)
+
+-- ATT.PrintName = "M203 40MM Concussive"
+
+-- ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_stun.compactname")
+
+-- ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_flash"
+
+-- ARC9.LoadAttachment(ATT, "cod2019_attach_m203_stun")
+
+/////////////// -- cod2019_attach_m203_recon
+-- ATT = {}
+
+-- table.Merge(ATT, glcode)
+
+-- ATT.PrintName = "M203 40MM Recon"
+
+-- ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_recon.compactname")
+
+-- ATT.ShootEntUBGL = "arc9_cod2019_thrownsnapshot"
+
+-- ARC9.LoadAttachment(ATT, "cod2019_attach_m203_recon")
 
 //////////////////////////////////////////////// -- Kilo 141
 /////////////////////////// -- Barrel
@@ -506,9 +548,11 @@ ATT.BoneMerge = true
 
 ATT.Element = {
     AttPosMods = {
-        [4] = { -- slot of the weapon's attachment
-            Pos = Vector(-1, -0.6, -0.93),
-            Ang = Angle(0,0,0),
+        [3] = { -- Muzzle
+            Pos = Vector(-1, -0.35, -0.93),
+        },
+        [6] = { -- Underbarrel
+            Pos = Vector(-2, 0, 0),
         },
     }
 }
@@ -557,7 +601,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 1
-ATT.Category = "cod2019_mag_fal"
+ATT.Category = "cod2019_fal_mag"
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_xmags.mdl"
@@ -625,7 +669,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-2.7, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -695,7 +739,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(7.7, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -879,9 +923,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.3, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -923,9 +966,9 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-2.1, 0, 0),
-            Ang = Angle(0,0,0),
+            Icon_Offset = Vector(1.5, 0, 0),
         }
     }
 }
@@ -987,14 +1030,17 @@ ATT.SprintAng = Angle(0, 0, 25)
     -- }
 -- }
 
--- ATT.Element = {
-    -- AttPosMods = {
-        -- [3] = { -- slot of the weapon's attachment
-            -- Pos = Vector(1.5, 0, -0.1),
-            -- Ang = Angle(0,0,0),
-        -- }
-    -- }
--- }
+ATT.Element = {
+    AttPosMods = {
+        [4] = { -- Optics
+            Pos = Vector(-8, 0, 0.635),
+        },
+        [19] = { -- Stats
+            Pos = Vector(5.5, -0.7, -2.2),
+            Icon_Offset = Vector(-12.5, 0, 5),
+        },
+    }
+}
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["optic"] then
@@ -1214,7 +1260,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -1281,7 +1327,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-4, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -1544,6 +1590,13 @@ ATT.ActivateElements = {"barrel_none","barrel_custom"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_custombarrel.mdl"
 ATT.BoneMerge = true
 
+ATT.Element = {
+    AttPosMods = {
+        [6] = { Pos = Vector(-2, 0, -0.1) }, -- Underbarrel
+        [20] = { Pos = Vector(21.75, 0, 1.875) }, -- GL
+    }
+}
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.RecoilKickMult = 1.1
@@ -1597,14 +1650,9 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
-            Pos = Vector(-8.4, 0, -0.1),
-            Ang = Angle(0,0,0),
-        },
-        [5] = { -- slot of the weapon's attachment
-            Pos = Vector(-3.5, 0, -0.2),
-            Ang = Angle(0,0,180),
-        }
+        [1] = { Pos = Vector(-8.4, 0, -0.1) }, -- Muzzle
+        [6] = { Pos = Vector(-3.5, 0, -0.2) }, -- Underbarrel
+        [20] = { Pos = Vector(21.5, 0, 1.875) }, -- GL
     }
 }
 
@@ -2300,7 +2348,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-0.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -2343,7 +2391,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(6, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -2388,7 +2436,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-4, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -2490,7 +2538,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(1.9, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -2532,7 +2580,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-1.9, 0, 0),
             Ang = Angle(0,0,0),
         }

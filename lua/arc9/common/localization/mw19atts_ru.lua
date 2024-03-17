@@ -850,8 +850,8 @@ L["cod2019_cr56_barrel_long.description"] = "Achieve the pinnacle of range with 
 L["cod2019_cr56_stock_light.printname"] = "FTAC Spartan"
 L["cod2019_cr56_stock_light.compactname"] = "Spartan"
 
-L["cod2019_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
-L["cod2019_cr56_stock_vheavy.compactname"] = "Gatekeeper"
+L["cod2019_cr56_stock_sniper.printname"] = "XRK Gatekeeper"
+L["cod2019_cr56_stock_sniper.compactname"] = "Gatekeeper"
 
 L["cod2019_cr56_stock_vlight.printname"] = "CR-56 EXO"
 L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
