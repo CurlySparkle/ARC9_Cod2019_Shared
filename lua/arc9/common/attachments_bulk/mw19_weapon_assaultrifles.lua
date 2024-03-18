@@ -1331,7 +1331,10 @@ ATT.Element = {
         [6] = { -- Underbarrel
             Pos = Vector(-5.8, 0, -0.05),
             Ang = Angle(0,0,180),
-        }
+        },
+        [20] = { -- Grenade Launcher
+            Pos = Vector(11.5, 0, -2.45),
+        },
     }
 }
 
@@ -1890,7 +1893,10 @@ ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
             Pos = Vector(3.5, 0, 0),
-        }
+        },
+        [3] = { -- Laser
+            Pos = Vector(7.5, 1.2, -2.23),
+        },
     }
 }
 
@@ -1933,7 +1939,10 @@ ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
             Pos = Vector(6.3, 0, 0),
-        }
+        },
+        [3] = { -- Laser
+            Pos = Vector(9.5, 1.2, -2.23),
+        },
     }
 }
 
