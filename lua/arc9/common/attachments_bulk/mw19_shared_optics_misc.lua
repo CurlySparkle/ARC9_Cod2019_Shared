@@ -80,7 +80,7 @@ ARC9.LoadAttachment(ATT, "cod2019_optic_riser")
 /////////////////////////// -- cod2019_optic_riser2
 ATT = {}
 
-ATT.PrintName = "Flat-Top Riser"
+ATT.PrintName = "Flat-Top Riser (Low Profile)"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_rail_west03_riser.png", "mips smooth")
 
@@ -97,7 +97,7 @@ ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("mw19_category_optic2"),
-        Pos = Vector(0, 0, -0.42),
+        Pos = Vector(0.4, 0, -0.42),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1),
         Category = "cod2019_optic_raised",

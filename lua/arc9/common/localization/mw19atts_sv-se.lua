@@ -223,7 +223,7 @@ L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Värmesikte"
 L["mw19_weapon_att_variable"] = "%s Variabel Zoom"
 
 ////////////////////  Muzzle
-///////// Stats"
+///////// Stats
 L["mw19_muzzle_stat_muzzleflash"] = "Mynningseld Skyddande" -- Flash Guard
 L["mw19_muzzle_stat_sound"] = "Ljuddämpande" -- Suppressors
 

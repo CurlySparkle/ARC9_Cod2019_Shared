@@ -313,8 +313,172 @@ L["mw19_weapon_att_thermal"] = "%s Thermal"
 L["mw19_weapon_att_hybrid_thermal"] = "%s Hybrid Thermal"
 L["mw19_weapon_att_variable"] = "%s Variable Zoom"
 
+////////////////////  Optic Reticles
+///////// Holo Reticle, Corp Combat Holo Sight
+L["mw19_optic_reticle_01.printname"] = "Downward Curve"
+L["mw19_optic_reticle_01.compactname"] = "D.C."
+
+L["mw19_optic_reticle_07.printname"] = "Witch"
+L["mw19_optic_reticle_07.compactname"] = "W."
+
+L["mw19_optic_reticle_11.printname"] = "Islet"
+L["mw19_optic_reticle_11.compactname"] = "I."
+
+L["mw19_optic_reticle_12.printname"] = "Summoner"
+L["mw19_optic_reticle_12.compactname"] = "S."
+
+L["mw19_optic_reticle_13.printname"] = "Orbit"
+L["mw19_optic_reticle_13.compactname"] = "O."
+
+L["mw19_optic_reticle_23.printname"] = "Close Quarters"
+L["mw19_optic_reticle_23.compactname"] = "C. Q."
+
+L["mw19_optic_reticle_25.printname"] = "Sunrise"
+L["mw19_optic_reticle_25.compactname"] = "S."
+
+L["mw19_optic_reticle_26.printname"] = "Evil Eye"
+L["mw19_optic_reticle_26.compactname"] = "E. E."
+
+L["mw19_optic_reticle_32.printname"] = "Blue Dot"
+L["mw19_optic_reticle_32.compactname"] = "B. D."
+
+///////// Reflex Reticle, Operator Reflex Sight
+L["mw19_optic_reticle_02.printname"] = "Carrot"
+L["mw19_optic_reticle_02.compactname"] = "C."
+
+L["mw19_optic_reticle_03.printname"] = "Add Point"
+L["mw19_optic_reticle_03.compactname"] = "A. P."
+
+L["mw19_optic_reticle_04.printname"] = "Sunspot"
+L["mw19_optic_reticle_04.compactname"] = "S."
+
+L["mw19_optic_reticle_05.printname"] = "Golden Bell"
+L["mw19_optic_reticle_05.compactname"] = "G. B."
+
+L["mw19_optic_reticle_06.printname"] = "Standard Fare"
+L["mw19_optic_reticle_06.compactname"] = "S. F."
+
+L["mw19_optic_reticle_08.printname"] = "Perfect Balance"
+L["mw19_optic_reticle_08.compactname"] = "P. B."
+
+L["mw19_optic_reticle_09.printname"] = "Division"
+L["mw19_optic_reticle_09.compactname"] = "D."
+
+L["mw19_optic_reticle_10.printname"] = "Flare"
+L["mw19_optic_reticle_10.compactname"] = "F."
+
+L["mw19_optic_reticle_24.printname"] = "Green V"
+L["mw19_optic_reticle_24.compactname"] = "G. V"
+
+///////// ACOG Reticle, Scout Combat Optic
+L["mw19_optic_reticle_14.printname"] = "Cross Dot"
+L["mw19_optic_reticle_14.compactname"] = "C. D."
+
+L["mw19_optic_reticle_15.printname"] = "Angle Eye"
+L["mw19_optic_reticle_15.compactname"] = "A. E."
+
+L["mw19_optic_reticle_16.printname"] = "T Pose"
+L["mw19_optic_reticle_16.compactname"] = "T P."
+
+L["mw19_optic_reticle_17.printname"] = "Double Cross"
+L["mw19_optic_reticle_17.compactname"] = "D. C."
+
+L["mw19_optic_reticle_18.printname"] = "Green Cross"
+L["mw19_optic_reticle_18.compactname"] = "G. C."
+
+L["mw19_optic_reticle_21.printname"] = "Redeye"
+L["mw19_optic_reticle_21.compactname"] = "R."
+
+L["mw19_optic_reticle_22.printname"] = "Blue V"
+L["mw19_optic_reticle_22.compactname"] = "B. V"
+
+///////// Hybrid Reticle -- (alt. for non-flip hybrids)
+L["mw19_optic_reticle_14_hybrid.printname"] = "Chevron Tactical"
+L["mw19_optic_reticle_14_hybrid.compactname"] = "C. T."
+-- alt. reticle_33
+
+L["mw19_optic_reticle_15_hybrid.printname"] = "Confine"
+L["mw19_optic_reticle_15_hybrid.compactname"] = "C."
+-- alt. reticle_reflex_default3
+
+L["mw19_optic_reticle_16_hybrid.printname"] = "Heroic"
+L["mw19_optic_reticle_16_hybrid.compactname"] = "H."
+-- alt. reticle_04
+
+L["mw19_optic_reticle_17_hybrid.printname"] = "Apotheosis"
+L["mw19_optic_reticle_17_hybrid.compactname"] = "A."
+-- reticle_17_hybrid_a and b
+
+L["mw19_optic_reticle_18_hybrid.printname"] = "Central Focus"
+L["mw19_optic_reticle_18_hybrid.compactname"] = "C. F."
+-- alt. reticle_reflex_default3
+
+L["mw19_optic_reticle_21_hybrid.printname"] = "Target Line"
+L["mw19_optic_reticle_21_hybrid.compactname"] = "T. L."
+-- alt. reticle_reflex_default
+
+L["mw19_optic_reticle_22_hybrid.printname"] = "Elegance"
+L["mw19_optic_reticle_22_hybrid.compactname"] = "E."
+-- alt. reticle_32
+
+///////// Thermal Reticle
+L["mw19_optic_reticle_19.printname"] = "Weave"
+L["mw19_optic_reticle_19.compactname"] = "W."
+
+L["mw19_optic_reticle_20.printname"] = "Drop Pad"
+L["mw19_optic_reticle_20.compactname"] = "D. P."
+
+L["mw19_optic_reticle_27.printname"] = "Cerberus"
+L["mw19_optic_reticle_27.compactname"] = "C."
+
+L["mw19_optic_reticle_28.printname"] = "Zip Pad"
+L["mw19_optic_reticle_28.compactname"] = "Z. P."
+
+L["mw19_optic_reticle_29.printname"] = "Wright Sight"
+L["mw19_optic_reticle_29.compactname"] = "W. S."
+
+L["mw19_optic_reticle_30.printname"] = "Optical Illusion"
+L["mw19_optic_reticle_30.compactname"] = "O. I."
+
+L["mw19_optic_reticle_31.printname"] = "Beasts of Prey"
+L["mw19_optic_reticle_31.compactname"] = "B.o.P."
+
+///////// Sniper Reticle
+L["mw19_optic_snp_reticle_01.printname"] = "Crossthread"
+L["mw19_optic_snp_reticle_01.compactname"] = "C."
+
+L["mw19_optic_snp_reticle_02.printname"] = "Pinpoint"
+L["mw19_optic_snp_reticle_02.compactname"] = "P."
+
+L["mw19_optic_snp_reticle_03.printname"] = "One Breath"
+L["mw19_optic_snp_reticle_03.compactname"] = "O. B."
+
+L["mw19_optic_snp_reticle_04.printname"] = "Hangman"
+L["mw19_optic_snp_reticle_04.compactname"] = "H."
+
+L["mw19_optic_snp_reticle_05.printname"] = "Drop Angle"
+L["mw19_optic_snp_reticle_05.compactname"] = "D. A."
+
+L["mw19_optic_snp_reticle_06.printname"] = "Circle Pit"
+L["mw19_optic_snp_reticle_06.compactname"] = "C. P."
+
+L["mw19_optic_snp_reticle_07.printname"] = "Cover Shot"
+L["mw19_optic_snp_reticle_07.compactname"] = "C. S."
+
+L["mw19_optic_snp_reticle_08.printname"] = "Top Notch"
+L["mw19_optic_snp_reticle_08.compactname"] = "T. N."
+
+L["mw19_optic_snp_reticle_09.printname"] = "Marksman"
+L["mw19_optic_snp_reticle_09.compactname"] = "M."
+
+L["mw19_optic_snp_reticle_10.printname"] = "Grid Line"
+L["mw19_optic_snp_reticle_10.compactname"] = "G. L."
+
+L["mw19_optic_snp_reticle_11.printname"] = "Critical"
+L["mw19_optic_snp_reticle_11.compactname"] = "C."
+
 ////////////////////  Muzzle
-///////// Stats"
+///////// Stats
 L["mw19_muzzle_stat_muzzleflash"] = "Muzzle Flash Concealment" -- Flash Guard
 L["mw19_muzzle_stat_sound"] = "Sound Suppression" -- Suppressors
 
