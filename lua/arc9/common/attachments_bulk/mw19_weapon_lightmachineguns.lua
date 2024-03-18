@@ -325,7 +325,7 @@ ATT.BoneMerge = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_mg34_barrel"
-ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none"}
+ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_custom"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
@@ -368,7 +368,7 @@ ATT.BoneMerge = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_mg34_barrel"
-ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none"}
+ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_custom"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
@@ -420,6 +420,42 @@ ATT.DeployTimeMult = 1.20
 ATT.ReloadTimeMult = 1.1
 
 ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_xmag")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Bipod"
+ATT.CompactName = "Bipod"
+ATT.Description = [[Deploys the bipod for better recoil and accuracy.]]
+
+ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_bipod.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_mg34_bipod"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_bipod.mdl"
+ATT.BoneMerge = false
+ATT.ActivateElements = {"bipod_none"}
+
+ATT.Bipod = true
+
+ATT.AimDownSightsTimeAdd = 0.19
+ATT.VisualRecoilMult = 0.8
+ATT.RecoilMult = 0.8
+ATT.SpeedMult = 0.96
+ATT.SpeedMultSights = 0.84
+ATT.SpreadBipod = -0.05
+
+ATT.BipodPos = Vector(-1.5, -4, 1)
+ATT.BipodAng = Angle(0, 0, 0)
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["barrel_custom"] then 
+     model:SetPoseParameter("bipod_pose", 1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_mg34_grip_bipod")
 
 /////////////////////////// -- Holger-26
 ATT = {}
