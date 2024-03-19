@@ -87,12 +87,12 @@ ATT.CustomPros = {
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2
 
 table.Merge(ATT, reticleatts.reflex)
 
@@ -139,8 +139,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
 ATT.HoloSightSize = 1024 * 1.2
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2
 
 table.Merge(ATT, reticleatts.reflex)
 
@@ -187,8 +187,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_holo")
 ATT.HoloSightSize = 512 * 1.3
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1.5
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1.5
 
 table.Merge(ATT, reticleatts.holo)
 
@@ -235,8 +235,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
 ATT.HoloSightSize = 512
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1.5
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1.5
 
 table.Merge(ATT, reticleatts.holo)
 
@@ -283,8 +283,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/kobra_reticle")
 ATT.HoloSightSize = 128 * 2
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2
 
 table.Merge(ATT, reticleatts.reflex)
 
@@ -331,8 +331,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2
 
 table.Merge(ATT, reticleatts.reflex)
 
@@ -379,8 +379,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2
 
 table.Merge(ATT, reticleatts.reflex)
 
@@ -427,8 +427,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2
 
 table.Merge(ATT, reticleatts.reflex)
 
@@ -579,8 +579,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default2.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1.25
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default2.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1.25
 
 table.Merge(ATT, reticleatts.reflex)
 
@@ -687,8 +687,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 3
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 3
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.003
@@ -740,8 +740,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 3
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 3
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.003
@@ -793,8 +793,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 3
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 3
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.003
@@ -849,7 +849,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
 
 table.Merge(ATT, reticleatts.sniper)
 
@@ -904,7 +904,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
 
 table.Merge(ATT, reticleatts.sniper)
 
@@ -976,7 +976,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.021
@@ -1039,8 +1039,8 @@ ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
@@ -1054,7 +1054,7 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoBlur = true
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 table.Merge(ATT, reticleatts.hybrid)
 
@@ -1137,8 +1137,8 @@ ATT.HoloSightSize = 512 * 1.3
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1.5
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1.5
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
@@ -1150,7 +1150,7 @@ ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default.png", "mips smooth")
 
 table.Merge(ATT, reticleatts.hybrid)
 
@@ -1235,8 +1235,8 @@ ATT.HoloSightSize = 512 * 1.3
 ATT.HoloSightColorable = false
 ATT.HoloSightColor = Color(255, 255, 255)
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1.5
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1.5
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
@@ -1360,7 +1360,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.027
@@ -1432,7 +1432,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.03
@@ -1504,7 +1504,7 @@ ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default.png", "mips smooth")
 
 ATT.RTScopeNightVision = true
 ATT.RTScopeNightVisionMonochrome = false
@@ -1618,7 +1618,7 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeMotionBlur = true
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default2.png", "mips smooth")
 
 table.Merge(ATT, reticleatts.thermal)
 
@@ -1716,7 +1716,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_bravo4.png")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_bravo4.png")
 
 table.Merge(ATT, reticleatts.acog)
 

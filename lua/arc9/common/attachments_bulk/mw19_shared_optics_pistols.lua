@@ -41,8 +41,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 / (pistolrangemod * 0.75)
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -87,8 +87,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
 ATT.HoloSightSize = 1024
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -133,8 +133,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_holo")
 ATT.HoloSightSize = 512 * 0.85
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -179,8 +179,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
 ATT.HoloSightSize = 512 * 1.25
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -225,8 +225,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/kobra_reticle")
 ATT.HoloSightSize = 128 * 1.5
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -271,8 +271,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -317,8 +317,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -363,8 +363,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -414,7 +414,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -464,7 +464,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -509,8 +509,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 * 0.75
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default2.png", "mips smooth")
-ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default2.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -560,7 +560,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -606,8 +606,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.003
@@ -652,8 +652,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+--ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.003
@@ -698,8 +698,8 @@ ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
 ATT.HoloSightSize = 128 * 1.3
 ATT.HoloSightColorable = false
 
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
-ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
+--ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
+----ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.003
@@ -750,7 +750,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.021
@@ -804,7 +804,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.027
@@ -858,7 +858,7 @@ ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.03
