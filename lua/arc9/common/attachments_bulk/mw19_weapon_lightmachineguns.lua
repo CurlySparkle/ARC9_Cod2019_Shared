@@ -470,7 +470,7 @@ ATT.AutoStats = true
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_barrel_med.mdl"
-ATT.BoneMerge = true
+ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_barrel"}
@@ -523,7 +523,47 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_spitfire")
+ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_mid")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Ultralight"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Shorter barrel and lightweight guard reduces weight for faster gun handling at a slight cost to range.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_barrel_short.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_barrel_short.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_barrel"}
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.AimDownSightsTimeMult = 0.92
+ATT.DeployTimeMult = 0.89
+ATT.RangeMaxMult = 0.9
+ATT.SpreadMult = 1.15
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(-7, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -537,8 +577,8 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
 ATT.ActivateElements = {"mag_none","mag_armag"}
 
-ATT.Model = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/mag/holger_armag.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag.mdl"
 ATT.BoneMerge = true
 
 ATT.ClipSizeOverride = 30
@@ -566,6 +606,67 @@ ATT.DistantShootSoundIndoor = "Distant_AR.Inside"
 -- end
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_armag_30")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "No Top"
+ATT.CompactName = "No Top"
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_receiver_v2.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_receiver_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_optic"}
+ATT.ActivateElements = {"body_none","sight_none"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_optic"),
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        --Icon_Offset = Vector(-3, 0, 0),
+        Category = {"cod2019_optic"},
+		Scale = 1
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_reciever_v2")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Axis"
+ATT.CompactName = "XRK Axis"
+ATT.Description = [[Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_stock_tactical.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+ATT.DeployTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.07
+ATT.RecoilMult = 0.92
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_stock_v2")
 
 /////////////////////////// --  Bruen Mk9
 ATT = {}

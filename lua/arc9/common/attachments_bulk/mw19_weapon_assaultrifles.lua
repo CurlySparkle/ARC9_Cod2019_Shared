@@ -785,7 +785,7 @@ ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_c
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_barrel_v3_alt.mdl"
 ATT.BoneMerge = false
-ATT.LHIK = true
+ATT.LHIK = false
 ATT.LHIK_Priority = 10
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -909,9 +909,9 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_m4_stock"
 ATT.ActivateElements = {"stock_none"}
 
-ATT.AimDownSightsTimeMult = 0.95
-ATT.DeployTimeMult = 1.05
-ATT.RecoilMult = 1.05
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.07
+ATT.RecoilMult = 0.92
 
 ARC9.LoadAttachment(ATT, "cod2019_m4_stock_m16")
 ---------------------------------------------------------------------------------------
