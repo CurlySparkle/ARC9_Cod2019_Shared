@@ -542,6 +542,11 @@ L["cod2019_fal_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_fal_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["762"])
 
 ////////////////////  M4A1
+/////////////// Optics
+L["cod2019_m4_carryhandle.printname"] = "Old Faithful" -- UO
+L["cod2019_m4_carryhandle.compactname"] = "Old F." -- UO
+L["cod2019_m4_carryhandle.description"] = "Classic M16-style carrying handle.\nPurely <color=175,175,255>cosmetic</color>." -- UO
+
 /////////////// Barrels
 L["cod2019_m4a1_barrel_short.printname"] = "FSS 11.5\" Commando"
 L["cod2019_m4a1_barrel_short.compactname"] = "Commando"
@@ -564,9 +569,9 @@ L["cod2019_m4a1_barrel_05.compactname"] = "Predator"
 L["cod2019_m4a1_barrel_05.description"] = "<color=255,255,100>Integral suppressor</color> with lightweight aluminum baffles keep the weapon silent and agile, but reduce the muzzle velocity."
 
 /////////////// Stock
-L["cod2019_m4a1_stock_heavy.printname"] = "M-16 Stock"
-L["cod2019_m4a1_stock_heavy.compactname"] = "M-16"
-L["cod2019_m4a1_stock_heavy.description"] = "Heavy duty fixed stock provides reliable stability while aiming."
+L["cod2019_m4_stock_m16.printname"] = "M-16 Stock"
+L["cod2019_m4_stock_m16.compactname"] = "M-16"
+L["cod2019_m4_stock_m16.description"] = "Heavy duty fixed stock provides reliable stability while aiming."
 
 L["cod2019_m4a1_stock_vlight.printname"] = "Singuard Arms Invader"
 L["cod2019_m4a1_stock_vlight.compactname"] = "Invader"
@@ -1669,13 +1674,13 @@ L["cod2019_m91_stock_medium.description"] = "High performance stock designed for
 
 ////////////////////  MG34
 /////////////// Barrels
-L["cod2019_mg34_barrel_01.printname"] = "FSS Brute"
-L["cod2019_mg34_barrel_01.compactname"] = "Brute"
-L["cod2019_mg34_barrel_01.description"] = "Solid steel barrel with polygonal rifling, wrapped in chrome-moly vanadium. Increases muzzle velocity and improves range with little additional weight."
+L["cod2019_mg34_barrel_long.printname"] = "FSS Brute"
+L["cod2019_mg34_barrel_long.compactname"] = "Brute"
+L["cod2019_mg34_barrel_long.description"] = "Solid steel barrel with polygonal rifling, wrapped in chrome-moly vanadium. Increases muzzle velocity and improves range with little additional weight."
 
-L["cod2019_mg34_barrel_02.printname"] = "FSS Stubby"
-L["cod2019_mg34_barrel_02.compactname"] = "Stubby"
-L["cod2019_mg34_barrel_02.description"] = "Shortest modernized barrel available for the MG34, the stubby sacrifices accuracy and range for speed and agility."
+L["cod2019_mg34_barrel_short.printname"] = "FSS Stubby"
+L["cod2019_mg34_barrel_short.compactname"] = "Stubby"
+L["cod2019_mg34_barrel_short.description"] = "Shortest modernized barrel available for the MG34, the stubby sacrifices accuracy and range for speed and agility."
 
 L["cod2019_mg34_barrel_03.printname"] = "FSS Elite"
 L["cod2019_mg34_barrel_03.compactname"] = "Elite"
@@ -1684,11 +1689,11 @@ L["cod2019_mg34_barrel_03.description"] = "Lightweight barrel with precision-mac
 /////////////// Magazine
 L["cod2019_mg34_mag_75.printname"] = string.format(mw19magtext.belt, "75")
 L["cod2019_mg34_mag_75.compactname"] = string.format(mw19magtext.mags, "75")
-L["cod2019_mg34_mag_75.description"] = string.format(mw19magtext.descbelt, "75", mw19ammotype["792"])
+L["cod2019_mg34_mag_75.description"] = string.format(mw19magtext.descbelt, "75", mw19ammotype["762mauser"])
 
-L["cod2019_mg34_mag_100.printname"] = string.format(mw19magtext.belt, "100")
-L["cod2019_mg34_mag_100.compactname"] = string.format(mw19magtext.mags, "100")
-L["cod2019_mg34_mag_100.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["792"])
+L["cod2019_mg34_mag_xmag.printname"] = string.format(mw19magtext.belt, "100")
+L["cod2019_mg34_mag_xmag.compactname"] = string.format(mw19magtext.mags, "100")
+L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["762mauser"])
 
 ////////////////////  Holger-26
 /////////////// Optics
@@ -1701,9 +1706,9 @@ L["cod2019_holger_optic_integral_scope.compactname"] = "I. K498"
 L["cod2019_holger_optic_integral_scope.description"] = "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
 
 /////////////// Barrels
-L["cod2019_holger_barrel_01.printname"] = "XRK Ultralight"
+L["cod2019_holger_barrel_short.printname"] = "XRK Ultralight"
 
-L["cod2019_holger_barrel_01.description"] = "Shorter barrel and lightweight guard reduce weight for faster gun handling at a slight cost to range."
+L["cod2019_holger_barrel_short.description"] = "Shorter barrel and lightweight guard reduce weight for faster gun handling at a slight cost to range."
 
 L["cod2019_holger_barrel_spitfire.printname"] = "FTAC 8.98\" Spitfire"
 L["cod2019_holger_barrel_spitfire.compactname"] = "Spitfire"
@@ -1715,9 +1720,9 @@ L["cod2019_holger_stock_heavy.compactname"] = "Ranger"
 L["cod2019_holger_stock_light.printname"] = "FSS Infantry"
 L["cod2019_holger_stock_light.compactname"] = "Infantry"
 
-L["cod2019_holger_stock_medium.printname"] = "XRK Axis"
-L["cod2019_holger_stock_medium.compactname"] = "Axis"
-L["cod2019_holger_stock_medium.description"] = "Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly."
+L["cod2019_holger_stock_v2.printname"] = "XRK Axis"
+L["cod2019_holger_stock_v2.compactname"] = "Axis"
+L["cod2019_holger_stock_v2.description"] = "Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly."
 
 /////////////// Magazine
 L["cod2019_holger_armag_30.printname"] = string.format(mw19magtext.mag, "30")

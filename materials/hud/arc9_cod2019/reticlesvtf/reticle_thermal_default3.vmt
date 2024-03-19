@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "hud/arc9_cod2019/reticlesvtf/reticle_thermal_default3"
+	"$translucent" 	"1"
+	"$ignorez" "0"
+	"$additive" "1"
+}
