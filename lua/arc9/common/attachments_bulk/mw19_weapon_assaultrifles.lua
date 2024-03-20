@@ -528,6 +528,84 @@ end
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_mag_drum")
 
 //////////////////////////////////////////////// -- FAL
+/////////////////////////// -- Barrels
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Marksman"
+ATT.CompactName = "XRK Marksman"
+ATT.Description = [[Hammer forged precision barrel increases muzzle velocity and extends range. Additional weight stabilize shots but hinders mobility.]]
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_barlong.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_fal_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_barlong.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.AimDownSightsTimeMult = 1.09
+ATT.RangeMaxMult = 1.05
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(0,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- slot of the weapon's attachment
+            Pos = Vector(1.5, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_long")
+-------------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "13.0\" OSW Para"
+ATT.CompactName = "13.0\" OSW Para"
+ATT.Description = [[Compact medium contoured barrel improves speed and agility with a minor decrease to muzzle velocity and accuracy.]]
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_barsmg.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_fal_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_barsmg.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.AimDownSightsTimeMult = 0.9
+ATT.DeployTimeMult = 0.95
+ATT.RangeMaxMult = 0.92
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(0,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- slot of the weapon's attachment
+            Pos = Vector(-2.3, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_short")
+
 /////////////////////////// -- Receiver
 /////////////// -- cod2019_fal_body_v2
 ATT = {}
@@ -588,6 +666,36 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_fal_stock_v2")
+-------------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Factory 18\" Aluminum Stock"
+ATT.CompactName = "Factory 18\""
+ATT.Description = "Lightweight aluminum stock keeps you agile while aiming down sights."
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_stockl.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_fal_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_stockl.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+   ATT.AimDownSightsTimeMult = 0.93
+   ATT.DeployTimeMult = 0.93
+   ATT.RecoilUpMult = 1.04
+   ATT.RecoilSideMult = 1.04
+else -- Warzone Stats
+   ATT.AimDownSightsTimeMult = 0.93
+   ATT.DeployTimeMult = 0.93
+   ATT.RecoilUpMult = 1.04
+   ATT.RecoilSideMult = 1.04
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_stock_light")
 
 /////////////////////////// -- Magazine
 /////////////// -- cod2019_fal_mag_30
@@ -932,11 +1040,12 @@ ATT.BoneMerge = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 11, -1.5),
+        Pos = Vector(0, 7.5, -1.5),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 54,
-        IgnoreExtra = false
+        IgnoreExtra = false,
+		IsIronSight = true
     },
 }
 

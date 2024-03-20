@@ -758,7 +758,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = [[FSS Protector Suppressor]]
 ATT.CompactName = [[Protector]]
 ATT.Description = "Lightweight aluminum suppressor type FSS sacrifices range for stealth and agility."
-ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_shtgnsilencer.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_suppressor.png", "mips smooth")
 
 ATT.SortOrder = 2
 ATT.AutoStats = true

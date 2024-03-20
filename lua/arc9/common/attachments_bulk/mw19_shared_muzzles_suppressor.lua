@@ -322,7 +322,7 @@ ATT = {}
 
 ATT.PrintName = "FORGE TAC Marauder"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/cod2019_muzzle_suppressor_origin12.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_suppressor_model680.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 2
