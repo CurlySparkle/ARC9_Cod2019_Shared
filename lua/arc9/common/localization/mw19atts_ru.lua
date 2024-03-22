@@ -520,13 +520,13 @@ L["cod2019_kilo141_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 L["cod2019_fal_barrel_01.printname"] = "18.0\" Ultralight"
 L["cod2019_fal_barrel_01.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
-L["cod2019_fal_barrel_02.printname"] = "XRK Marksman"
-L["cod2019_fal_barrel_02.compactname"] = "Marksman"
-L["cod2019_fal_barrel_02.description"] = "Hammer forged precision barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_fal_barrel_long.printname"] = "XRK Marksman"
+L["cod2019_fal_barrel_long.compactname"] = "Marksman"
+L["cod2019_fal_barrel_long.description"] = "Hammer forged precision barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
 
-L["cod2019_fal_barrel_03.printname"] = "13.0\" OSW Para"
-L["cod2019_fal_barrel_03.compactname"] = "OSW Para"
-L["cod2019_fal_barrel_03.description"] = "Compact medium contoured barrel improves speed and agility with a minor decrease to muzzle velocity and accuracy."
+L["cod2019_fal_barrel_short.printname"] = "13.0\" OSW Para"
+L["cod2019_fal_barrel_short.compactname"] = "OSW Para"
+L["cod2019_fal_barrel_short.description"] = "Compact medium contoured barrel improves speed and agility with a minor decrease to muzzle velocity and accuracy."
 
 /////////////// Stock
 -- L["cod2019_fal_stock_v2.description"] = "Modernized stock for the FAL. Purely <color=255,255,100>cosmetic</color>." -- UO
@@ -839,6 +839,17 @@ L["cod2019_grau_stock_light.description"] = "Aluminum core synthetic stock desig
 
 -- L["cod2019_grau556_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 
+/////////////// Pistol Grips
+L["cod2019_grau556_pistgrip_light.printname"] = "XRK Void II"
+L["cod2019_grau556_pistgrip_light.compactname"] = "Void"
+L["cod2019_grau556_pistgrip_light.description"] = "Skeletonized grip for the ultimate in high speed maneuvering,"
+
+L["cod2019_grau556_griptape_02.printname"] = "Cronen Sniper Elite"
+L["cod2019_grau556_griptape_02.description"] = "Textured polymer with ап adjustable palm shelf keeps the weapon incredibly stable while aiming."
+
+L["cod2019_grau556_pistgrip_heavy.printname"] = "FTAC R-89 Rubber"
+L["cod2019_grau556_pistgrip_heavy.description"] = "Rubberized no-slip grip keeps gun tight in hand. Less steady, but helps control recoil."
+
 ////////////////////  CR-56 AMAX
 /////////////// Barrels
 L["cod2019_cr56_barrel_01.printname"] = "FSS 8.3\" Intruder"
@@ -1020,9 +1031,13 @@ L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5.56 NATO</color>
 
 ////////////////////  P90
 /////////////// Optics
-L["cod2019_p90_optic_integral.printname"] = "FSS Ring Sight"
-L["cod2019_p90_optic_integral.compactname"] = "FSS"
-L["cod2019_p90_optic_integral.description"] = "Custom integral reflex sight provides higher precision."
+L["cod2019_p90_optic.printname"] = "FSS Ring Sight"
+L["cod2019_p90_optic.compactname"] = "Ring"
+L["cod2019_p90_optic.description"] = "Custom integral reflex sight provides higher precision."
+
+L["cod2019_p90_rail_custom.printname"] = "FSS Raised Rail" -- UO
+L["cod2019_p90_rail_custom.compactname"] = "Raised" -- UO
+L["cod2019_p90_rail_custom.description"] = "Raised top receiver allowing for optics to be mounted higher than before." -- UO
 
 /////////////// Barrels
 L["cod2019_p90_barrel_custom.printname"] = "FORGE TAC Retribution"
@@ -1032,6 +1047,10 @@ L["cod2019_p90_barrel_custom.description"] = "Extended front shroud houses a 16\
 L["cod2019_p90_barrel_02.printname"] = "FSS 10.6\" Pro"
 L["cod2019_p90_barrel_02.compactname"] = "10.6\" Pro"
 L["cod2019_p90_barrel_02.description"] = "10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight."
+
+L["cod2019_p90_barrel_long_rail.printname"] = "FTAC Series IX 14.5\"" -- UO
+L["cod2019_p90_barrel_long_rail.compactname"] = "14.5\" IX" -- UO
+L["cod2019_p90_barrel_long_rail.description"] = "14.5 inch stainless steel barrel with a metal RIS handguard allows installation of foregrips. Additional weight stabilizes shots, but hinders mobility." -- UO
 
 /////////////// Stock
 L["cod2019_p90_stock_medium.printname"] = "FORGE TAC CQB Comb"
@@ -2358,13 +2377,22 @@ L["cod2019_357_barrel_02.printname"] = "Silverfield Ordnance .357"
 L["cod2019_357_barrel_02.compactname"] = "Silverfield"
 L["cod2019_357_barrel_02.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range with little additional weight."
 
-L["cod2019_357_barrel_03.printname"] = ".357 Long"
-L["cod2019_357_barrel_03.compactname"] = "Long"
+L["cod2019_357_barrel_long.printname"] = ".357 Long"
+L["cod2019_357_barrel_long.compactname"] = "Long"
 
 /////////////// Magazine
 L["cod2019_357_mag_snakeshot.printname"] = "Snake Shot"
 L["cod2019_357_mag_snakeshot.compactname"] = "Snake Shot"
 L["cod2019_357_mag_snakeshot.description"] = "Buckshot-Filled Shells."
+
+/////////////// Pistol Grip
+L["cod2019_357_grip_stock.printname"] = "Lockwood .357 Custom Stock"
+L["cod2019_357_grip_stock.compactname"] = ARC9:GetPhrase("cod2019_model680_stock_heavy.compactname") or "Lockwood"
+L["cod2019_357_grip_stock.description"] = "Solid wood stock provides а superior and stable sight picture while aiming down the sights."
+
+L["cod2019_357_grip_stock_light.printname"] = "FSS Raider Stock"
+L["cod2019_357_grip_stock_light.compactname"] = "Raider"
+L["cod2019_357_grip_stock_light.description"] = "Polymer stock provides а stable aiming platform without sacrificing too much mobility."
 
 ////////////////////  M19
 /////////////// Barrels
@@ -2414,16 +2442,16 @@ L["cod2019_renetti_barrel_01.printname"] = "Mk1 Competition"
 L["cod2019_renetti_barrel_01.compactname"] = "Competition"
 L["cod2019_renetti_barrel_01.description"] = "Ported slide, large bore, and fluted barrel reduce weight for faster gun handling at a slight cost to range."
 
-L["cod2019_renetti_barrel_02.printname"] = "Mk1 Extended"
-L["cod2019_renetti_barrel_02.compactname"] = "Extended"
+L["cod2019_renetti_slide_long.printname"] = "Mk1 Extended"
+L["cod2019_renetti_slide_long.compactname"] = "Extended"
 
 L["cod2019_renetti_slide_auto.printname"] = "Mk3 Burst Mod"
 L["cod2019_renetti_slide_auto.compactname"] = "Burst"
 L["cod2019_renetti_slide_auto.description"] = "Custom pistol mod features a durable stainless steel barrel, Mk3 series slide, and advanced trigger group that allows a blazing fast 3 round burst."
 
 /////////////// Muzzle
-L["cod2019_renetti_muzzle_comp.printname"] = "Desperado Pro Compensator"
-L["cod2019_renetti_muzzle_comp.compactname"] = "Desperado"
+L["cod2019_renetti_muzzle.printname"] = "Desperado Pro Compensator"
+L["cod2019_renetti_muzzle.compactname"] = "Desperado"
 
 /////////////// Stocks
 L["cod2019_renetti_stock.printname"] = "FTAC SATUS CS-3"

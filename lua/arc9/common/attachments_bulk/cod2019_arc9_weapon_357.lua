@@ -53,7 +53,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_357_grip"}
-ATT.ActivateElements = {"grip_none"}
+ATT.ActivateElements = {"grip_none", "357_stock"}
 
 ATT.AimDownSightsTimeMult = 1.2
 ATT.DeployTimeMult = 1.2
