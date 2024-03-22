@@ -2211,8 +2211,7 @@ ATT.AimDownSightsTimeMult = 1.2
 ATT.RangeMaxMult = 1.2
 ATT.RangeMinMult = 1.2
 ATT.SpreadMult = 0.9
-ATT.DrawTimeMult = 1.2
-ATT.HolsterTimeMult = 1.2
+ATT.DeployTimeMult = 1.2
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -2262,8 +2261,7 @@ ATT.AimDownSightsTimeMult = 1.1
 ATT.RangeMaxMult = 1.1
 ATT.RangeMinMult = 1.1
 ATT.SpreadMult = 0.95
-ATT.DrawTimeMult = 1.1
-ATT.HolsterTimeMult = 1.1
+ATT.DeployTimeMult = 1.1
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -2311,8 +2309,7 @@ ATT.MuzzleDevice = true
 
 ATT.AimDownSightsTimeMult = 0.92
 ATT.RecoilKickMult = 1.1
-ATT.DrawTimeMult = 0.92
-ATT.HolsterTimeMult = 0.92
+ATT.DeployTimeMult = 0.92
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -2354,8 +2351,7 @@ ATT.ActivateElements = {"stock_none"}
 
 ATT.AimDownSightsTimeMult = 1.25
 ATT.RecoilMult = 0.9
-ATT.DrawTimeMult = 1.25
-ATT.HolsterTimeMult = 1.25
+ATT.DeployTimeMult = 1.25
 
 ARC9.LoadAttachment(ATT, "cod2019_grau556_stock_heavy")
 ----------------------------------------------------------------------------------------
@@ -2376,10 +2372,53 @@ ATT.ActivateElements = {"stock_none2"}
 
 ATT.AimDownSightsTimeMult = 0.85
 ATT.RecoilKickMult = 1.25
-ATT.DrawTimeMult = 0.85
-ATT.HolsterTimeMult = 0.85
+ATT.DeployTimeMult = 0.85
 
 ARC9.LoadAttachment(ATT, "cod2019_grau556_stock_none")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Void II"
+ATT.CompactName = "XRK Void II"
+ATT.Description = [[Skeletonized grip for the ultimate in high speed maneuvering.]]
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_pstlgripl.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_pstlgripl.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_pstlgrip"
+ATT.ActivateElements = {"pistol_grip_none"}
+
+ATT.AimDownSightsTimeMult = 0.92
+ATT.DrawTimeMult = 0.95
+ATT.RecoilKickMult = 1.05
+ATT.RecoilMult = 1.07
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_pistgrip_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC R-89 Rubber"
+ATT.CompactName = "FTAC R-89 Rubber"
+ATT.Description = [[Rubberized no-slip grip keeps gun tight in hand. Less steady, but helps control recoil.]]
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_pstlgriph.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_pstlgriph.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_pstlgrip"
+ATT.ActivateElements = {"pistol_grip_none"}
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DrawTimeMult = 1.05
+ATT.RecoilKickMult = 0.95
+ATT.RecoilMult = 0.92
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_pistgrip_heavy")
 ----------------------------------------------------------------------------------------
 -- ATT = {}
 

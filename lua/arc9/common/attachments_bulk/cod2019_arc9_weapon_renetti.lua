@@ -2,6 +2,70 @@ local ATT = {}
 ----------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "Desperado Pro Compensator"
+ATT.CompactName = "Desperado"
+ATT.Description = [[Expels gases upward to aggressively fight muzzle climb.]]
+
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_compensator_v2.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_compensator.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_muzzle"}
+ATT.ActivateElements = {"muzzle_none"}
+
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.AimDownSightsTimeMult = 1.1
+ATT.RangeMaxMult = 1.05
+ATT.SpreadMult = 0.9
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_muzzle")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Mk1 Extended"
+ATT.CompactName = "Mk1 Extended"
+ATT.Description = [[Military issue heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max.]]
+
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_barlong.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_barlong.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_slide"}
+ATT.ActivateElements = {"slide_none","slide_long"}
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.AimDownSightsTimeMult = 1.15
+ATT.DeployTimeMult = 1.1
+ATT.RangeMaxMult = 1.07
+ATT.SpreadMult = 0.9
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(1.4, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "Mk3 Auto Mod"
 ATT.CompactName = "Mk3 Auto Mod"
 ATT.Description = [[]]
@@ -21,15 +85,8 @@ ATT.ActivateElements = {"slide_none","slide_auto"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-ATT.DeployTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.15
 ATT.RecoilKickMult = 1.3
-
-ATT.RecoilMult = 0.95
-ATT.RangeMaxMult = 1.1
-ATT.RangeMinMult = 1.1
-ATT.PhysBulletMuzzleVelocityMult = 1.1
 ATT.PostBurstDelay = 0.2
 ATT.RPMAdd = 529
 
