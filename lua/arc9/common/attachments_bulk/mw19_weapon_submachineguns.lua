@@ -605,6 +605,57 @@ ARC9.LoadAttachment(ATT, "cod2019_aug_optic")
 /////////////////////////// -- P90
 ATT = {}
 
+ATT.PrintName = "FTAC Series IX 14.5\""
+ATT.CompactName = "FTAC Series IX 14.5\""
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sm/p90/cod2019_sm_p90_custombarrel.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/att_vm_p07_sm_papa90_barxlong_v0.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_p90_barrel"}
+ATT.ActivateElements = {"muzzle_none","barrel_none"}
+
+ATT.MuzzleDevice_Priority = 3
+ATT.MuzzleDevice = true
+
+ATT.AimDownSightsTimeMult = 1.12
+ATT.RangeMaxMult = 1.12
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(7, 0, -0.2),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_underbarrel"),
+        Pos = Vector(-3, 0, 1.5),
+        Ang = Angle(0, 0, -180),
+        Category = {"cod2019_grip"},
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_p90_barrel_long_rail")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "FSS 10.6\" Pro"
 ATT.CompactName = "FSS 10.6\" Pro"
 ATT.Description = [[10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight.]]
