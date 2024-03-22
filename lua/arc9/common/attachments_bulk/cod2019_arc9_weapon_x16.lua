@@ -105,22 +105,3 @@ ATT.MovingPos = Vector(-1, -0.8, -1)
 ATT.MovingAng = Angle(0, 0, -5)
 
 ARC9.LoadAttachment(ATT, "cod2019_x16_stock")
-----------------------------------------------------------------------------------------
-ATT = {}
-
-ATT.PrintName = "Granulated Grip"
-ATT.CompactName = "Granulated Grip"
-ATT.Description = [[Smooth and granulated tape for a relaxed and controlled grip. Keeps you steady and on target.]]
-ATT.SortOrder = 1
-
-ATT.Icon = Material("entities/attachs/pi/x16/cod2019_attach_grip_pistolgrip_tape01.png", "mips smooth")
-ATT.AutoStats = true
-ATT.Free = false
-
-ATT.Model = "models/weapons/cod2019/attachs/weapons/x16/attachment_vm_pi_golf21_pistolgrip_tape.mdl"
-ATT.BoneMerge = true
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_x16_grip"}
-
-ARC9.LoadAttachment(ATT, "cod2019_x16_griptape_01")

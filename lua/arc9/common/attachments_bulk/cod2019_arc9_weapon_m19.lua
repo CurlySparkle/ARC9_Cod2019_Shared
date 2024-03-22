@@ -16,7 +16,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_m19_slide"}
-ATT.ActivateElements = {"slide_none","slide_extended"}
+ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
 
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
@@ -57,7 +57,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_m19_slide"}
-ATT.ActivateElements = {"slide_none","slide_super"}
+ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
 
 ARC9.LoadAttachment(ATT, "cod2019_m19_slide_vented")
 ----------------------------------------------------------------------------------------
@@ -77,7 +77,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_m19_slide"}
-ATT.ActivateElements = {"slide_none","slide_vented"}
+ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
 
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
