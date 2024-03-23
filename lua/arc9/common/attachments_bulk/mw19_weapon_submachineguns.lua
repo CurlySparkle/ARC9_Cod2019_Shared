@@ -468,6 +468,8 @@ ATT.ShellSounds = ARC9.COD2019_556_Table
 
 ATT.RPM = 800 
 ATT.ClipSizeOverride = 60
+ATT.ReloadTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.1
 
 ATT.DamageMaxMult = 1.25
 ATT.DamageMinMult = 1.15
