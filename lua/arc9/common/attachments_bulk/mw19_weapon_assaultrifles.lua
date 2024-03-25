@@ -1744,7 +1744,7 @@ ATT = {}
 
 ATT.PrintName = "Spetsnaz Elite"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_custombarrel.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_custombarrel.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
@@ -1771,12 +1771,98 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_custom")
 
+/////////////// -- cod2019_akilo47_barrel_lmg
+ATT = {}
+
+ATT.PrintName = "23.0\" Romanian"
+ATT.CompactName = "Romanian RPK"
+ATT.Description = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_lmgbarrel.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_ak47_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_rpk"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_lmgbarrel_akilo47.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { Pos = Vector(6.3, 0, 0) }, -- Muzzle
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.SprintToFireTimeMult = 1.07
+	ATT.DeployTimeMult = 1.05
+	ATT.RecoilMult = 0.95
+	ATT.RangeMaxMult = 1.08
+else -- Warzone Stats
+	
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["grip"] then
+        model:SetBodygroup(0,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_lmg")
+
+/////////////// -- cod2019_akilo47_barrel_lmg_grip
+ATT = {}
+
+ATT.PrintName = "Spetsnaz RPK Barrel (Grip)"
+ATT.CompactName = "Spetsnaz RPK G"
+ATT.Description = "Heavy duty 23.0\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_gripvert.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_ak47_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_rpk_grip"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_lmgbarrel_grip.mdl"
+ATT.BoneMerge = false
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { Pos = Vector(6.3, 0, 0) }, -- Muzzle
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.DeployTimeMult = 1.07
+	ATT.RecoilMult = 0.9
+	ATT.RangeMaxMult = 1.08
+else -- Warzone Stats
+	
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_lmg_grip")
+
 /////////////// -- cod2019_akilo47_barrel_smg
 ATT = {}
 
 ATT.PrintName = "8.1\" Compact Barrel"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_barsmg.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_smgbarrel.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
@@ -1839,7 +1925,7 @@ ATT = {}
 
 ATT.PrintName = "Skeleton Stock"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_smgstock_unfolded.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_smgstock_unfolded.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
@@ -1866,7 +1952,7 @@ ATT = {}
 
 ATT.PrintName = "40-Round Mag"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_smgmag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_smgmag.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
@@ -1895,7 +1981,7 @@ ATT = {}
 
 ATT.PrintName = "5.45x39mm 30-Round Mags"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_smgmag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_smgmag.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
@@ -1944,7 +2030,7 @@ ATT = {}
 
 ATT.PrintName = "75-Round Drum Mags"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_akilo47_drums.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_drums.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
