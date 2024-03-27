@@ -1652,11 +1652,34 @@ ATT.Category = "cod2019_scar_stock"
 ATT.ActivateElements = {"stock_none"}
 
 ATT.AimDownSightsTimeMult = 0.89
-ATT.DrawTimeMult = 0.87
+ATT.DeployTimeMult = 0.87
 ATT.HolsterTimeMult = 0.87
 ATT.RecoilKickMult = 1.25
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_stock_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Obelisk Pro"
+ATT.CompactName = "Obelisk Pro"
+ATT.Description = [[The most stable stock available, provides exceptional control while aiming at the cost of mobility.]]
+
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_stock_dmr.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_stock_dmr.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_scar_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 1.1
+ATT.DeployTimeMult = 1.1
+ATT.RecoilUpMult = 0.9
+ATT.RecoilSideMult = 0.9
+
+ARC9.LoadAttachment(ATT, "cod2019_scar_stock_dmr")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1679,6 +1702,7 @@ ATT.Category = {"cod2019_scar_mag"}
 ATT.ActivateElements = {"mag_none","mag_dmr"}
 
 ATT.ClipSizeOverride = 10
+ATT.RPM = 400
 
 ATT.RecoilMult = 1.15
 ATT.RecoilkickMult = 1.20
@@ -1692,6 +1716,28 @@ ATT.BulletBones = {
     [2] = "j_bullet2",
 	[3] = "j_bullet3",
 }
+
+ATT.Firemodes = {
+    {
+        Mode = 1,
+		PoseParam = 1,
+    },
+}
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_Shotgun.Outside"
+ATT.DistantShootSound = "Distant_BR1.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_Shotgun.Inside"
+ATT.DistantShootSoundIndoor = "Distant_Shotgun.Inside"
+---------------------------------------------------
+-- Silenced Outside
+ATT.LayerSoundSilenced = "Layer_Sniper.Outside"
+ATT.DistantShootSoundSilenced = "Distant_DMR_Sup.Outside"
+-- Inside
+ATT.LayerSoundSilencedIndoor = "Layer_Sniper.Inside"
+ATT.DistantShootSoundSilencedIndoor = "Distant_DMR_Sup.Inside"
+---------------------------------------------------
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_mag_dmr")
 ---------------------------------------------------------------------------------------
@@ -1735,7 +1781,61 @@ ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
 }
 
+-- Non-Silenced
+ATT.LayerSound = "Layer_AR.Outside"
+ATT.DistantShootSound = "Distant_AR2.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_AR.Inside"
+ATT.DistantShootSoundIndoor = "Distant_AR.Inside"
+---------------------------------------------------
+-- Silenced
+ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
+ATT.DistantShootSoundSilenced = "Distant_AR_Sup.Outside"
+-- Inside
+ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
+ATT.DistantShootSoundSilencedIndoor = "Distant_AR_Sup.Inside"
+---------------------------------------------------
+
 ARC9.LoadAttachment(ATT, "cod2019_scar_mag_ar")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "50-Round Drum Mag"
+ATT.CompactName = "50-Round"
+ATT.Description = "Extended drum mag that can hold 50 rounds with a medium weight increase."
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_mag_drum.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_drum_mags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_drum_mags.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_scar_mag"}
+ATT.ActivateElements = {"mag_none","mag_drum"}
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.08
+ATT.ClipSizeOverride = 50
+ATT.RecoilMult = 1.07
+ATT.ReloadTimeMult = 1.1
+
+ATT.BulletBones = {
+    [1] = "j_ammo01",
+    [2] = "j_ammo02",
+	[3] = "j_ammo03",
+}
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_scar_mag_drum")
 
 //////////////////////////////////////////////// -- AK-47
 /////////////////////////// -- Barrel
