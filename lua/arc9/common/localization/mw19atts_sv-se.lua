@@ -704,8 +704,8 @@ L["cod2019_scar_stock_heavy.compactname"] = "Hunter"
 L["cod2019_scar_stock_light.printname"] = "FTAC Collapsible"
 L["cod2019_scar_stock_light.compactname"] = "Collapsible"
 
-L["cod2019_scar_stock_vheavy.printname"] = "XRK Obelisk Pro"
-L["cod2019_scar_stock_vheavy.compactname"] = "Obelisk Pro"
+L["cod2019_scar_stock_dmr.printname"] = "XRK Obelisk Pro"
+L["cod2019_scar_stock_dmr.compactname"] = "Obelisk Pro"
 
 /////////////// Magazine
 L["cod2019_scar_mag_ext.printname"] = string.format(mw19magtext.mag, "25")
@@ -724,22 +724,26 @@ L["cod2019_scar_mag_ar.printname"] = "30R 5.56 Mags" -- UO
 L["cod2019_scar_mag_ar.compactname"] = "30R 5.56" -- UO
 L["cod2019_scar_mag_ar.description"] = "Conversion kit to use lower caliber <color=255,255,100>5.56mm NATO</color> ammunition for improved recoil control at the cost of stopping power." -- UO
 
+L["cod2019_scar_mag_drum.printname"] = string.format(mw19magtext.drummag, "75") -- UO
+L["cod2019_scar_mag_drum.compactname"] = string.format(mw19magtext.mags, "75") -- UO
+L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762"]) -- UO
+
 ////////////////////  AK-47
 /////////////// Barrels
 L["cod2019_akilo47_barrel_custom.printname"] = "Spetsnaz Elite"
 L["cod2019_akilo47_barrel_custom.compactname"] = "Spetsnaz"
 L["cod2019_akilo47_barrel_custom.description"] = "Heavy weight barrel used by special forces has increased muzzle velocity and improved range with little additional weight."
 
-L["cod2019_akilo47_barrel_heavy.printname"] = "23.0\" RPK Barrel"
-L["cod2019_akilo47_barrel_heavy.compactname"] = "RPK"
-L["cod2019_akilo47_barrel_heavy.description"] = "Heavy duty 23.0\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_akilo47_barrel_lmg.printname"] = "23.0\" RPK Barrel"
+L["cod2019_akilo47_barrel_lmg.compactname"] = "RPK"
+L["cod2019_akilo47_barrel_lmg.description"] = "Heavy duty 23.0\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
 
 L["cod2019_akilo47_barrel_smg.printname"] = "8.1\" Compact Barrel"
 L["cod2019_akilo47_barrel_smg.compactname"] = "Compact"
 
-L["cod2019_akilo47_barrel_heavy2.printname"] = "23.0\" Romanian"
-L["cod2019_akilo47_barrel_heavy2.compactname"] = "Romanian"
-L["cod2019_akilo47_barrel_heavy2.description"] = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
+L["cod2019_akilo47_barrel_lmg_grip.printname"] = "23.0\" Romanian"
+L["cod2019_akilo47_barrel_lmg_grip.compactname"] = "Romanian"
+L["cod2019_akilo47_barrel_lmg_grip.description"] = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
 
 /////////////// Muzzle
 L["cod2019_ak47_bayonet.printname"] = "Bayonet"
@@ -1655,13 +1659,13 @@ L["cod2019_sa86_barrel_short.compactname"] = "12.4\""
 L["cod2019_sa86_barrel_short.description"] = "Shortest barrel available sacrifices accuracy and range for speed and agility."
 
 /////////////// Stocks
-L["cod2019_sa87_stock_medium.printname"] = "XRK SA87 Heavy Stock Pro"
-L["cod2019_sa87_stock_medium.compactname"] = "XRK Pro"
+L["cod2019_sa86_stock_tactical.printname"] = "XRK SA87 Heavy Stock Pro"
+L["cod2019_sa86_stock_tactical.compactname"] = "XRK Pro"
 
-L["cod2019_sa87_stock_heavy.printname"] = "SA87 Ultralight Hollow"
+L["cod2019_sa86_stock_light.printname"] = "SA87 Ultralight Hollow"
 
-L["cod2019_sa87_stock_medium2.printname"] = "FORGE TAC CQB Comb"
-L["cod2019_sa87_stock_medium2.compactname"] = "CQB Comb"
+L["cod2019_sa86_stock_stable.printname"] = "FORGE TAC CQB Comb"
+L["cod2019_sa86_stock_stable.compactname"] = "CQB Comb"
 
 ////////////////////  M91
 /////////////// Barrels
@@ -1909,9 +1913,9 @@ L["cod2019_ebr14_stock_light.printname"] = "FTAC Lightweight Stock"
 L["cod2019_ebr14_stock_light.compactname"] = "Lightweight"
 L["cod2019_ebr14_stock_light.description"] = "Lightweight composite stock designed for agility while aiming down sights."
 
-L["cod2019_ebr14_stock_vlight2.printname"] = "FSS Raider Chassis Elite"
-L["cod2019_ebr14_stock_vlight2.compactname"] = "Elite"
-L["cod2019_ebr14_stock_vlight2.description"] = "Modular chassis with a Cronen pistol grip and ultralight stock for superior maneuvering and the cost of stability."
+L["cod2019_m14_stock_ebr.printname"] = "FSS Raider Chassis Elite"
+L["cod2019_m14_stock_ebr.compactname"] = "Elite"
+L["cod2019_m14_stock_ebr.description"] = "Modular chassis with a Cronen pistol grip and ultralight stock for superior maneuvering and the cost of stability."
 
 /////////////// Magazine
 L["cod2019_m14_mag_15.printname"] = string.format(mw19magtext.mag, "15")
@@ -2430,9 +2434,9 @@ L["cod2019_50gs_mag_13.description"] = string.format(mw19magtext.descl, "13", mw
 
 ////////////////////  Renetti
 /////////////// Barrels
-L["cod2019_renetti_barrel_01.printname"] = "Mk1 Competition"
-L["cod2019_renetti_barrel_01.compactname"] = "Competition"
-L["cod2019_renetti_barrel_01.description"] = "Ported slide, large bore, and fluted barrel reduce weight for faster gun handling at a slight cost to range."
+L["cod2019_renetti_slide_light.printname"] = "Mk1 Competition"
+L["cod2019_renetti_slide_light.compactname"] = "Competition"
+L["cod2019_renetti_slide_light.description"] = "Ported slide, large bore, and fluted barrel reduce weight for faster gun handling at a slight cost to range."
 
 L["cod2019_renetti_slide_long.printname"] = "Mk1 Extended"
 L["cod2019_renetti_slide_long.compactname"] = "Extended"

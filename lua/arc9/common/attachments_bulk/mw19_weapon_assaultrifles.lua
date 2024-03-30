@@ -1870,9 +1870,9 @@ ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_custom")
 /////////////// -- cod2019_akilo47_barrel_lmg
 ATT = {}
 
-ATT.PrintName = "23.0\" Romanian"
-ATT.CompactName = "Romanian RPK"
-ATT.Description = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
+ATT.PrintName = "23.0\" RPK Barrel"
+ATT.CompactName = "RPK"
+ATT.Description = "Heavy duty 23.0\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
 ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_lmgbarrel.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -1916,9 +1916,9 @@ ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_lmg")
 /////////////// -- cod2019_akilo47_barrel_lmg_grip
 ATT = {}
 
-ATT.PrintName = "Spetsnaz RPK Barrel (Grip)"
-ATT.CompactName = "Spetsnaz RPK G"
-ATT.Description = "Heavy duty 23.0\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+ATT.PrintName = "23.0\" Romanian"
+ATT.CompactName = "Romanian"
+ATT.Description = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
 ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_gripvert.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false

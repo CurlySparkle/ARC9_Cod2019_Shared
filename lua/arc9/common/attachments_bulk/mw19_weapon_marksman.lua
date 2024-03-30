@@ -87,9 +87,9 @@ ARC9.LoadAttachment(ATT, "cod2019_m14_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "FSS MK2 Precision Comb"
-ATT.CompactName = "Precision Comb"
-ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]
+ATT.PrintName = "FSS Raider Chassis Elite"
+ATT.CompactName = "Raider"
+ATT.Description = [[Modular chassis with a Cronen pistol grip and ultralight stock for superior maneuvering and the cost of stability.]]
 
 ATT.Icon = Material("entities/attachs/mm/m14/cod2019_mm_m14_stockcqb.png", "mips smooth")
 
