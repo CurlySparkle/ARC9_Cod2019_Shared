@@ -1725,17 +1725,13 @@ ATT.Firemodes = {
 }
 
 -- Non-Silenced Outside
-ATT.LayerSound = "Layer_Shotgun.Outside"
 ATT.DistantShootSound = "Distant_BR1.Outside"
 -- Inside
-ATT.LayerSoundIndoor = "Layer_Shotgun.Inside"
 ATT.DistantShootSoundIndoor = "Distant_Shotgun.Inside"
 ---------------------------------------------------
 -- Silenced Outside
-ATT.LayerSoundSilenced = "Layer_Sniper.Outside"
 ATT.DistantShootSoundSilenced = "Distant_DMR_Sup.Outside"
 -- Inside
-ATT.LayerSoundSilencedIndoor = "Layer_Sniper.Inside"
 ATT.DistantShootSoundSilencedIndoor = "Distant_DMR_Sup.Inside"
 ---------------------------------------------------
 

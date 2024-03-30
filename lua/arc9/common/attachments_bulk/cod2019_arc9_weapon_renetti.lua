@@ -2,6 +2,34 @@ local ATT = {}
 ----------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "Sight Rail Mount"
+ATT.CompactName = "Rail Mount"
+ATT.Description = [[]]
+ATT.SortOrder = 3
+
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_rail_sight.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_optic"}
+ATT.ActivateElements = {"rail_sight"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_optic"),
+        Pos = Vector(-1.5, 0, -0.47),
+        Ang = Angle(0, 0, 0),
+        --Icon_Offset = Vector(-3, 0, 0),
+        Category = {"cod2019_optic_pistol"},
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_sight_rail")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "Desperado Pro Compensator"
 ATT.CompactName = "Desperado"
 ATT.Description = [[Expels gases upward to aggressively fight muzzle climb.]]
@@ -63,6 +91,41 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Mk1 Competition"
+ATT.CompactName = "Competition"
+ATT.Description = [[Ported slide, large bore, and fluted barrel reduce weight for faster gun handling at a slight cost to range.]]
+
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_barlight.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_barlight.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_slide"}
+ATT.ActivateElements = {"slide_none","slide_light"}
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.AimDownSightsTimeMult = 1.1
+ATT.SpreadMult = 0.5
+
+-- ATT.Element = {
+    -- AttPosMods = {
+        -- [2] = { -- slot of the weapon's attachment
+            -- Pos = Vector(1.4, 0, 0),
+            -- Ang = Angle(0,0,0),
+        -- }
+    -- }
+-- }
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_light")
 ----------------------------------------------------------------------------------------
 ATT = {}
 

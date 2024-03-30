@@ -181,6 +181,73 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_sa86_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK SA87 Heavy Stock Pro"
+ATT.CompactName = "Heavy Stock Pro"
+ATT.Description = [[Heavy weight stock attachment provides stability while aiming.]]
+
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stock_tactical.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stock_tactical.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_sa87_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 1.14
+ATT.DeployTimeMult = 1.09
+ATT.RecoilUpMult = 0.85
+ATT.RecoilSideMult = 0.85
+
+ARC9.LoadAttachment(ATT, "cod2019_sa86_stock_tactical")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FORGE TAC CQB Comb"
+ATT.CompactName = "FTAC CQB Comb"
+ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stocks.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stocks.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_sa87_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 0.91
+ATT.RecoilUpMult = 1.05
+ATT.RecoilSideMult = 1.05
+
+ARC9.LoadAttachment(ATT, "cod2019_sa86_stock_stable")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "SA87 Ultralight Hollow"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stockl.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stockl.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_sa87_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 0.85
+ATT.RecoilUpMult = 1.1
+ATT.RecoilSideMult = 1.1
+
+ARC9.LoadAttachment(ATT, "cod2019_sa86_stock_light")
 
 /////////////////////////// -- M91
 ATT = {}

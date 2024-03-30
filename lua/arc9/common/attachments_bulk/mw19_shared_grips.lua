@@ -139,7 +139,7 @@ ATT.Icon = Material("entities/attachs/cod2019_attach_grip_angledgrip.png", "mips
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
-ATT.ActivateElements = {"grip"}
+ATT.ActivateElements = {"grip_angled"}
 ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/grip_angled.mdl"
@@ -182,7 +182,7 @@ ATT.Icon = Material("entities/attachs/cod2019_attach_grip_angledgrip02.png", "mi
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
-ATT.ActivateElements = {"grip"}
+ATT.ActivateElements = {"grip_angled"}
 ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/grip_angled02.mdl"

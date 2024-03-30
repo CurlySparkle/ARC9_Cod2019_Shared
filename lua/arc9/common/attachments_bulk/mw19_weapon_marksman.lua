@@ -21,12 +21,10 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.AimDownSightsTimeMult = 1.15
-ATT.DeployTimeMult = 1.1
-ATT.RecoilMult = 0.9
-
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
+ATT.AimDownSightsTimeMult = 1.1
+ATT.DeployTimeMult = 1.07
+ATT.RecoilMult = 0.95
+ATT.RangeMaxMult = 1.04
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -64,9 +62,10 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.AimDownSightsTimeMult = 0.9
-ATT.RangeMaxMult = 0.9
-ATT.RangeMinMult = 0.9
+ATT.AimDownSightsTimeMult = 0.95
+ATT.DeployTimeMult = 0.95
+ATT.RangeMaxMult = 0.97
+ATT.RecoilKickMult = 1.15
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -84,6 +83,28 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_m14_barrel_short")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS MK2 Precision Comb"
+ATT.CompactName = "Precision Comb"
+ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]
+
+ATT.Icon = Material("entities/attachs/mm/m14/cod2019_mm_m14_stockcqb.png", "mips smooth")
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/m14/attachment_vm_sn_mike14_stockcqb.mdl"
+--ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_m14_stock"
+ATT.ActivateElements = {"stock_ebr","stock_none"}
+
+ATT.AimDownSightsTimeMult = 0.93
+ATT.DeployTimeMult = 0.9
+ATT.RecoilKickMult = 1.18
+
+ARC9.LoadAttachment(ATT, "cod2019_m14_stock_ebr")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -106,6 +127,8 @@ ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.ClipSizeOverride = 15
 ATT.ReloadTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.04
+ATT.DeployTimeMult = 1.04
 
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m14/attachment_vm_sn_mike14_xmags.mdl"
 
@@ -132,6 +155,8 @@ ATT.ActivateElements = {"mag_none","mag_xmag2"}
 
 ATT.ClipSizeOverride = 20
 ATT.ReloadTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.08
 
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m14/attachment_vm_sn_mike14_xmags2.mdl"
 

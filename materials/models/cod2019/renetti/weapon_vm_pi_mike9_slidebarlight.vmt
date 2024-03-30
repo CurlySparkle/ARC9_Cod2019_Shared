@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\renetti\weapon_vm_pi_mike9_slidebarlong_rgb"
-    "$bumpmap" "models\cod2019\renetti\weapon_vm_pi_mike9_slidebarlong_n"
-    "$phongexponenttexture" "models\cod2019\renetti\weapon_vm_pi_mike9_slidebarlong_e"
+    "$basetexture" "models\cod2019\renetti\weapon_vm_pi_mike9_slidebarlight_rgb"
+    "$bumpmap" "models\cod2019\renetti\weapon_vm_pi_mike9_slidebarlight_n"
+    "$phongexponenttexture" "models\cod2019\renetti\weapon_vm_pi_mike9_slidebarlight_e"
 
     /////////////////
     "$color2" "[1 1 1]"                                     //do not touch this
@@ -20,7 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.098 0.098 0.098]"                 
+    "$envmaptint" "[0.427 0.365 0.247]"                 
 
     "$detailblendmode" "4"
     "$detailblendfactor" "0.7"   
@@ -32,7 +32,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.098 0.098 0.098]"
+            "color" "[0.427 0.365 0.247]"
         }
 	   "CustomCamo" 
         {
