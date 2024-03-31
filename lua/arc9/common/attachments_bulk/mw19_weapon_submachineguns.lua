@@ -1159,7 +1159,7 @@ ATT.BoneMerge = true
 ATT.ViewModel = "models/weapons/cod2019/c_smg_striker45_ump.mdl"
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_striker45_reciever"}
+ATT.Category = {"cod2019_striker45_receiver"}
 ATT.ActivateElements = {"body_none","sights_none","grip_none","body_ump"}
 
 ATT.AimDownSightsTimeMult = 1.1
@@ -1182,7 +1182,7 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_striker45_reciever_ump")
+ARC9.LoadAttachment(ATT, "cod2019_striker45_receiver_ump")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

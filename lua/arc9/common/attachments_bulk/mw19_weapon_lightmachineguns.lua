@@ -39,9 +39,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.1, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -86,9 +85,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-3, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -130,9 +128,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-4.8, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -173,9 +170,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-8.3, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -285,9 +281,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(2.6, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -326,9 +321,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-2.8, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -369,9 +363,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-5.5, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -413,9 +406,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-3, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -456,9 +448,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-7.5, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -548,38 +539,10 @@ ATT.DeployTimeMult = 0.95
 ATT.RangeMaxMult = 0.95
 ATT.SpreadMult = 1.05
 
--- ATT.Attachments = {
-    -- {
-        -- PrintName = ARC9:GetPhrase("mw19_category_muzzle2"),
-        -- Pos = Vector(-10.5, 0, 0.35),
-        -- Ang = Angle(0, 0, 0),
-        -- Icon_Offset = Vector(0, 0, 0),
-        -- Category = "cod2019_muzzle",
-		-- Scale = 1,
-    -- },
-    -- {
-        -- PrintName = ARC9:GetPhrase("mw19_category_laser2"),
-        -- Pos = Vector(-7, 1.2, 0.3),
-        -- Ang = Angle(0, 0, -90),
-        -- Icon_Offset = Vector(0, 0, 0),
-        -- Category = "cod2019_tac",
-		-- Scale = 1
-    -- },
-    -- {
-        -- PrintName = ARC9:GetPhrase("mw19_category_underbarrel2"),
-        -- Pos = Vector(-6.5, 0, 1.77),
-        -- Ang = Angle(0, 0, 180),
-        -- Icon_Offset = Vector(0, 0, 0),
-        -- Category = "cod2019_grip",
-		-- Scale = 1
-    -- }
--- }
-
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-4, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -617,9 +580,11 @@ ATT.SpreadMult = 1.15
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-7, 0, 0),
-            Ang = Angle(0,0,0),
+        },
+        [6] = { -- Underbarrel
+            Pos = Vector(-4, 0, 0),
         }
     }
 }
@@ -676,9 +641,9 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_armag_30")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "No Top"
-ATT.CompactName = "No Top"
-ATT.Description = [[]]
+ATT.PrintName = "Holger-556 Receiver"
+ATT.CompactName = "Holger-556"
+ATT.Description = ""
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_receiver_v2.png", "mips smooth")
@@ -689,19 +654,8 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mg
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_holger_optic"}
-ATT.ActivateElements = {"body_none","sight_none"}
-
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_optic"),
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        --Icon_Offset = Vector(-3, 0, 0),
-        Category = {"cod2019_optic"},
-		Scale = 1
-    }
-}
+ATT.Category = {"cod2019_holger_receiver"}
+ATT.ActivateElements = {"body_none", "sights_none"}
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["optic"] then
@@ -709,7 +663,7 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_holger_reciever_v2")
+ARC9.LoadAttachment(ATT, "cod2019_holger_receiver_v2")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -768,7 +722,7 @@ end
 
 -- ATT.Element = {
     -- AttPosMods = {
-        -- [2] = { -- slot of the weapon's attachment
+        -- [1] = { -- Muzzle
             -- Pos = Vector(2.2, 0, 0),
             -- Ang = Angle(0,0,0),
         -- }
@@ -812,9 +766,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-3.7, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -898,6 +851,14 @@ ATT.PhysBulletMuzzleVelocityAdd = -243 / ARC9.HUToM
 ATT.DamageMinMult = 0.775
 ATT.DamageMaxMult = 0.775
 
+ATT.Overheat = true
+ATT.HeatCapacity = 45
+ATT.HeatDissipation = 22.5
+ATT.HeatDelayTime = 0.25
+ATT.HeatPerShot = 1
+ATT.HeatLockout = false
+ATT.MalfunctionWait = 0.25
+
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_barrel"
 ATT.ActivateElements = {"ziptie"}
@@ -936,9 +897,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.1, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -972,6 +932,14 @@ ATT.DamageMinMult = 1.06
 ATT.RPMAdd = 368
 ATT.PhysBulletMuzzleVelocityAdd = -365 / ARC9.HUToM
 
+ATT.Overheat = true
+ATT.HeatCapacity = 45
+ATT.HeatDissipation = 22.5
+ATT.HeatDelayTime = 0.25
+ATT.HeatPerShot = 1
+ATT.HeatLockout = false
+ATT.MalfunctionWait = 0.25
+
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
@@ -983,9 +951,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.1, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -1027,9 +994,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-2, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -1066,6 +1032,14 @@ ATT.SpreadMult = 1.20
 ATT.RPMAdd = 368
 ATT.PhysBulletMuzzleVelocityAdd = -328 / ARC9.HUToM
 
+ATT.Overheat = true
+ATT.HeatCapacity = 45
+ATT.HeatDissipation = 22.5
+ATT.HeatDelayTime = 0.25
+ATT.HeatPerShot = 1
+ATT.HeatLockout = false
+ATT.MalfunctionWait = 0.25
+
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
@@ -1077,9 +1051,8 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-2, 0, 0),
-            Ang = Angle(0,0,0),
         }
     }
 }
@@ -1168,6 +1141,7 @@ ATT.Description = [[Conversion kit to use 100 round 5.56 NATO for increased stop
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust2.png", "mips smooth")
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/lmg_finn_556nato_shell.mdl"
+ATT.ShellCorrectAng = Angle(0, 0, 90)
 ATT.ShellScale = 0.07
 
 -- ATT.RPM = 995 
@@ -1238,7 +1212,7 @@ end
 
 -- ATT.Element = {
     -- AttPosMods = {
-        -- [2] = { -- slot of the weapon's attachment
+        -- [1] = { -- Muzzle
             -- Pos = Vector(0, 0, 0),
             -- Ang = Angle(0,0,0),
         -- }

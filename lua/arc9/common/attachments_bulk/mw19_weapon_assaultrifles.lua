@@ -621,7 +621,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 1
-ATT.Category = "cod2019_fal_reciever"
+ATT.Category = "cod2019_fal_receiver"
 ATT.ActivateElements = {"body_none","foregrip_none","sight_adapter_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_reciever_v2.mdl"
@@ -1178,7 +1178,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falph
 ATT.BoneMerge = true
 
 ATT.SortOrder = 0
-ATT.Category = "cod2019_famas_reciever"
+ATT.Category = "cod2019_famas_receiver"
 ATT.ActivateElements = {"upper_none","bipod_none","railcust"}
 
 ATT.ActivePos = Vector(-0.5, 0, 1)

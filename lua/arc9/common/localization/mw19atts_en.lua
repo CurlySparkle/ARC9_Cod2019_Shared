@@ -2304,6 +2304,11 @@ L["cod2019_mg34_mag_xmag.compactname"] = string.format(mw19magtext.mags, "100")
 L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["762mauser"])
 
 ////////////////////  Holger-26
+/////////////// Receiver
+L["cod2019_holger_reciever_v2.printname"] = "Holger-556 Receiver"
+L["cod2019_holger_reciever_v2.compactname"] = "Holger-556"
+L["cod2019_holger_reciever_v2.description"] = "Compact receiver with a shortened top rail for the Holger-26."
+
 /////////////// Optics
 L["cod2019_holger_optic_integral_reflex.printname"] = "FSS Integral Reflex"
 L["cod2019_holger_optic_integral_reflex.compactname"] = "I. Reflex"
