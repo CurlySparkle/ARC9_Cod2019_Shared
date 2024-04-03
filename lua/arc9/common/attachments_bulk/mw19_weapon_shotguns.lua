@@ -450,6 +450,118 @@ ATT.ClipSizeOverride = 8
 ATT.AimDownSightsTimeMult = 1.07
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_mag_8")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Truegrip Tactical"
+ATT.CompactName = [[XRK Truegrip]]
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_pump_custom.png", "mips smooth")
+ATT.Description = [[Granulated forend with recessed grip keep the gun in control while firing, and helps get on target faster.]]
+ATT.SortOrder = 0
+ATT.Free = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_model680_pump"}
+ATT.ActivateElements = {"pump_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_pump_custom.mdl"
+ATT.BoneMerge = true
+
+ATT.CycleTimeMult = 0.9
+ATT.RecoilKickMult = 1.2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["grip"] or swep:GetElements()["grip_angled"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_model680_pump_custom")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Lockwood Precision"
+ATT.CompactName = [[Lockwood]]
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_pump_wood.png", "mips smooth")
+ATT.Description = [[Handcrafted solid wood forend reduces vertical recoil and stabilizes weapon while aiming for improved long range combat.]]
+ATT.SortOrder = 0
+ATT.Free = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_model680_pump"}
+ATT.ActivateElements = {"pump_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_pump_wood.mdl"
+ATT.BoneMerge = true
+
+ATT.AimDownSightsTimeMult = 0.9
+ATT.CycleTimeMult = 1.1
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["grip"] or swep:GetElements()["grip_angled"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_model680_pump_wood")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Lockwood Stock"
+ATT.CompactName = [[Lockwood]]
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_stock_wood.png", "mips smooth")
+ATT.Description = [[Solid wood rifle stock provides exceptional control while aiming at the cost of mobility.]]
+ATT.SortOrder = 0
+ATT.Free = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_model680_stock"}
+ATT.ActivateElements = {"stock_none","stock_wood"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_stock_wood.mdl"
+ATT.BoneMerge = true
+ATT.RHIK_Priority = 5
+ATT.RHIK = true
+
+ATT.AimDownSightsTimeMult = 1.08
+ATT.DeployTimeMult = 1.08
+ATT.RecoilSideMult = 0.9
+ATT.RecoilUpMult = 0.9
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["stock_poly"] then
+        model:SetSkin(1)
+    else
+        model:SetSkin(0)
+    end
+end
+
+ATT.Attachments = {
+    {
+        PrintName = "Stock (Opt)",
+        Pos = Vector(1, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = {"cod2019_model680_stock_opt"},
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_model680_stock_wood")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Polymer Stock"
+ATT.CompactName = [[Polymer]]
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_stock_wood.png", "mips smooth")
+ATT.Description = [[Changes the stock with a polymer material.]]
+ATT.SortOrder = 0
+ATT.Free = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_model680_stock_opt"}
+ATT.ActivateElements = {"stock_poly"}
+
+ARC9.LoadAttachment(ATT, "cod2019_model680_stock_wood_poly")
 
 /////////////////////////// -- Origin 12
 -----------------------------------------------------------
