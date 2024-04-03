@@ -476,7 +476,7 @@ ATT.RTScopeFOV = 36 / 2.2
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -528,7 +528,7 @@ ATT.RTScopeFOV = 36 / 2.2
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -628,7 +628,7 @@ ATT.RTScopeFOV = 36 / 1.5
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
 ATT.RTScopeReticleScale = 1.25
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -845,7 +845,7 @@ ATT.RTScopeFOVMax = 36 / 6.1
 ATT.RTScopeRes = 256
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sniper_crosshair")
 ATT.RTScopeReticleScale = 0.8
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -900,7 +900,7 @@ ATT.RTScopeFOV = 36 / 4.4
 ATT.RTScopeRes = 256
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sniper_crosshair")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -972,7 +972,7 @@ ATT.RTScopeFOV = 36 / 3
 ATT.RTScopeRes = 513
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/vlk_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 0.8
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1049,7 +1049,7 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/integral_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoBlur = true
@@ -1147,7 +1147,7 @@ ATT.RTScopeFOV = 36 / 1.75
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeColorable = false
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default.png", "mips smooth")
@@ -1245,7 +1245,7 @@ ATT.RTScopeFOV = 36 / 1.75
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeColorable = false
 
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default_nvg.png", "mips smooth")
@@ -1356,7 +1356,7 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 513
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_vzscope_default2.png", "mips")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1428,7 +1428,7 @@ ATT.RTScopeFOV = 36 / 3.5
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3.png")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1500,7 +1500,7 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_nvg.png")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeShadowIntensity = 1
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1613,7 +1613,7 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_thermal_default2.png")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeShadowIntensity = 1
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeMotionBlur = true
@@ -1712,7 +1712,7 @@ ATT.RTScopeFOV = 36 / 4
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
