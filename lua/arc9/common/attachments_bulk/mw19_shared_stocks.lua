@@ -225,3 +225,23 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_stock_vlight")
+
+/////////////////////////// -- cod2019_m4a1_stock_vlight
+ATT = {}
+
+ATT.PrintName = "Colt Type 3"
+ATT.CompactName = "Colt Type 3"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_stocks_xm4.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_stocks"
+
+ATT.Model = "models/weapons/cod2019/attachs/stocks/attachment_vm_ar_t9standard_stock.mdl"
+ATT.ModelOffset = Vector(-0.1, 0, 0)
+
+ATT.AimDownSightsTimeMult = 0.92
+ATT.RecoilMult = 1.08
+
+ARC9.LoadAttachment(ATT, "cod2019_xm4_stock")
