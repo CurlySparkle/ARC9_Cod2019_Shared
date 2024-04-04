@@ -925,6 +925,64 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_v3")
 
+/////////////// -- cod2019_m4a1_barrel_v4
+ATT = {}
+
+ATT.PrintName = "14.5\" Carbine Shroud"
+ATT.CompactName = "Carbine Shroud"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barrel_v03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_m4_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom","barrel_custom2"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/att_vm_p01_ar_mike4_barhvyshort_v0.mdl"
+ATT.ModelOffset = Vector(-0.02, 0, 1.15)
+ATT.BoneMerge = false
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["carry_handle"] then
+        model:SetBodygroup(2,0)
+	elseif swep:GetElements()["sight_front_folded"] then
+	model:SetBodygroup(2,1)
+    end
+    if swep:GetElements()["muzzle_none2"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.016
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(2.2, 0, -0.025),
+        },
+        [6] = { -- Grips
+            Pos = Vector(-3, 0, -0.6),
+        },
+        [3] = { -- Lasers
+            Pos = Vector(4.5, 0.85, -1.35),
+            Ang = Angle(0, 0, -90),
+        },
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_v4")
+
 /////////////////////////// -- Magazines
 /////////////// -- cod2019_m4_mag_9mm
 ATT = {}
@@ -1054,6 +1112,36 @@ ATT.Sights = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_m4_carryhandle")
+---------------------------------------------------------------------------------------
+-- ATT = {}
+
+-- ATT.PrintName = "Carry Handle"
+-- ATT.CompactName = "Carry Handle"
+-- ATT.Description = [[]]
+-- ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_carryhandle.png", "mips smooth")
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+-- ATT.SortOrder = 3
+-- ATT.Category = {"cod2019_m4_optic"}
+-- ATT.ActivateElements = {"carry_handle"}
+
+-- ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/att_vm_p01_ar_mike16_carryhandle.mdl"
+-- ATT.BoneMerge = false
+-- ATT.Scale = 1.05
+-- ATT.ModelOffset = Vector(6.4, 0, -1.56)
+
+-- ATT.Sights = {
+    -- {
+        -- Pos = Vector(0, 10, -1.5),
+        -- Ang = Angle(0, 0, 0),
+        -- Magnification = 1.15,
+        -- ViewModelFOV = 54,
+        -- IgnoreExtra = false,
+		-- IsIronSight = true
+    -- },
+-- }
+
+-- ARC9.LoadAttachment(ATT, "cod2019_m4_carryhandle_v2")
 
 //////////////////////////////////////////////// -- FR 5.56
 ATT = {}
