@@ -191,7 +191,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86
 ATT.BoneMerge = false
 
 ATT.SortOrder = 0
-ATT.Category = "cod2019_sa87_stock"
+ATT.Category = "cod2019_sa86_stock"
 ATT.ActivateElements = {"stock_none"}
 
 ATT.AimDownSightsTimeMult = 1.14
@@ -214,7 +214,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86
 ATT.BoneMerge = false
 
 ATT.SortOrder = 0
-ATT.Category = "cod2019_sa87_stock"
+ATT.Category = "cod2019_sa86_stock"
 ATT.ActivateElements = {"stock_none"}
 
 ATT.AimDownSightsTimeMult = 0.91
@@ -236,7 +236,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86
 ATT.BoneMerge = false
 
 ATT.SortOrder = 0
-ATT.Category = "cod2019_sa87_stock"
+ATT.Category = "cod2019_sa86_stock"
 ATT.ActivateElements = {"stock_none"}
 
 ATT.AimDownSightsTimeMult = 0.85

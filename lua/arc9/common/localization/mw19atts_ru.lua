@@ -1418,16 +1418,20 @@ L["cod2019_model680_barrel_mid.description"] = "Longer barrel with a <color=100,
 /////////////// Stock
 -- L["cod2019_model680_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 
-L["cod2019_model680_stock_heavy.printname"] = "Lockwood Precision Series"
-L["cod2019_model680_stock_heavy.compactname"] = "Lockwood"
-L["cod2019_model680_stock_heavy.description"] = "Solid wood rifle stock provides exceptional control while aiming at the cost of mobility."
+L["cod2019_model680_stock_wood.printname"] = "Lockwood Precision Series"
+L["cod2019_model680_stock_wood.compactname"] = "Lockwood"
+L["cod2019_model680_stock_wood.description"] = "Solid wood rifle stock provides exceptional control while aiming at the cost of mobility."
+
+-- L["cod2019_model680_stock_wood_poly.printname"] = "Lockwood Lightweight Series" -- UO
+-- L["cod2019_model680_stock_wood_poly.compactname"] = "Lockwood L." -- UO
+-- L["cod2019_model680_stock_wood_poly.description"] = "Changes the appearance of the Lockwood Precision Series to one made out of polymer.\nPurely <color=255,255,100>cosmetic</color>." -- UO
 
 /////////////// Underbarrels
-L["cod2019_model680_grip_lockwood.description"] = "Handcrafted solid wood forend reduces vertical recoil and stabilizes weapon while aiming for improved long range combat."
+L["cod2019_model680_pump_wood.description"] = "Handcrafted solid wood forend reduces vertical recoil and stabilizes weapon while aiming for improved long range combat."
 
-L["cod2019_model680_grip_truegrip.printname"] = "XRK Truegrip Tactical"
-L["cod2019_model680_grip_truegrip.compactname"] = "Truegrip"
-L["cod2019_model680_grip_truegrip.description"] = "Granulated forend with recessed grip keep the gun in control while firing, and helps get on target faster."
+L["cod2019_model680_pump_custom.printname"] = "XRK Truegrip Tactical"
+L["cod2019_model680_pump_custom.compactname"] = "Truegrip"
+L["cod2019_model680_pump_custom.description"] = "Granulated forend with recessed grip keep the gun in control while firing, and helps get on target faster."
 
 /////////////// Magazine
 L["cod2019_model680_mag_ext.printname"] = "Tube Extention"
@@ -2326,13 +2330,13 @@ L["cod2019_x16_slide_light.printname"] = "Singuard Arms Featherweight"
 L["cod2019_x16_slide_light.compactname"] = "Featherweight"
 L["cod2019_x16_slide_light.description"] = "Ported slide and large bore barrel reduces weight for faster gun handling at a slight cost to range."
 
-L["cod2019_x16_barrel_02.printname"] = "Vanguard Elite"
-L["cod2019_x16_barrel_02.compactname"] = "Elite"
-L["cod2019_x16_barrel_02.description"] = "Military issue heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max."
+L["cod2019_x16_slide_heavy.printname"] = "Vanguard Elite"
+L["cod2019_x16_slide_heavy.compactname"] = "Elite"
+L["cod2019_x16_slide_heavy.description"] = "Military issue heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max."
 
-L["cod2019_x16_barrel_03.printname"] = "Singuard Arms Advantage"
-L["cod2019_x16_barrel_03.compactname"] = "Advantage"
-L["cod2019_x16_barrel_03.description"] = "Extended slide slightly increases muzzle velocity and improves range. Lightweight construction only adds a minor increase to weight."
+L["cod2019_x16_slide_slong.printname"] = "Singuard Arms Advantage"
+L["cod2019_x16_slide_slong.compactname"] = "Advantage"
+L["cod2019_x16_slide_slong.description"] = "Extended slide slightly increases muzzle velocity and improves range. Lightweight construction only adds a minor increase to weight."
 
 /////////////// Magazine
 L["cod2019_x16_mag_17.printname"] = string.format(mw19magtext.mag, "17")
@@ -2396,7 +2400,7 @@ L["cod2019_357_mag_snakeshot.description"] = "Buckshot-Filled Shells."
 
 /////////////// Pistol Grip
 L["cod2019_357_grip_stock.printname"] = "Lockwood .357 Custom Stock"
-L["cod2019_357_grip_stock.compactname"] = ARC9:GetPhrase("cod2019_model680_stock_heavy.compactname") or "Lockwood"
+L["cod2019_357_grip_stock.compactname"] = ARC9:GetPhrase("cod2019_model680_stock_wood.compactname") or "Lockwood"
 L["cod2019_357_grip_stock.description"] = "Solid wood stock provides а superior and stable sight picture while aiming down the sights."
 
 L["cod2019_357_grip_stock_light.printname"] = "FSS Raider Stock"
@@ -2724,3 +2728,9 @@ L["cod2019_knife_model_v71.printname"] = "Velorum"
 
 L["cod2019_knife_model_v72.printname"] = "Auxiliary"
 -- L["cod2019_knife_model_v72.compactname"] = "Auxiliary"
+
+////////////////////////  Non-MW19 Assault Rifles
+////////////////////  BOCW XM4
+/////////////// Stock
+L["cod2019_xm4_stock.printname"] = "Colt Type III"
+L["cod2019_xm4_stock.compactname"] = "Type III"
