@@ -1076,16 +1076,16 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4_mag_9mm")
 
-/////////////// -- cod2019_m4_mag_9mm
+/////////////// -- cod2019_m4_mag_alt
 ATT = {}
 
-ATT.PrintName = "Alt Mag"
+ATT.PrintName = "Kilo 141 Magazine"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
-ATT.SortOrder = 3
+ATT.SortOrder = 100
 ATT.Category = "cod2019_m4_mag"
 ATT.ActivateElements = {"mag_none"}
 

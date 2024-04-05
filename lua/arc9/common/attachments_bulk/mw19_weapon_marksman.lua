@@ -34,7 +34,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.1, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -75,7 +75,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-0.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -188,7 +188,7 @@ ATT.AimDownSightsTimeMult = 1.1
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(5.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -222,7 +222,7 @@ ATT.AimDownSightsTimeMult = 1.05
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -354,7 +354,7 @@ ATT.RangeMinMult = 1.11
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(2, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -390,11 +390,11 @@ ATT.RangeMinMult = 0.92
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-1, 0, 0),
             Ang = Angle(0,0,0),
         },
-        [4] = { -- slot of the weapon's attachment
+        [3] = { -- Laser
             Pos = Vector(-1, -1.34, 0),
             Ang = Angle(0,0,0),
         }
@@ -736,7 +736,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(2.2, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -773,7 +773,7 @@ ATT.RangeMinMult = 0.9
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-3.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -812,7 +812,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [5] = { -- slot of the weapon's attachment
+        [5] = { -- Underbarrel
             Pos = Vector(-3, 0, 0),
             Ang = Angle(0,0,180),
         }
@@ -945,7 +945,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.1
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.9, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -991,7 +991,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.5
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-6, 0, 0),
             Ang = Angle(0,0,0),
         },

@@ -1035,6 +1035,10 @@ L["cod2019_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Round Mags"
 L["cod2019_m4a1_mag_socom.compactname"] = "10R SOCOM"
 L["cod2019_m4a1_mag_socom.description"] = "Conversion kit to use high caliber <color=255,255,100>.458 SOCOM</color> ammunition for increased stopping power. Slower cyclic rate helps control recoil."
 
+L["cod2019_m4_mag_alt.printname"] = "Kilo 141 Magazine" -- UO
+L["cod2019_m4_mag_alt.compactname"] = "Kilo 141" -- UO
+L["cod2019_m4_mag_alt.description"] = "Changes the appearance of the default magazine to the one used on the Kilo 141.\nPurely <color=255,255,100>cosmetic</color>."
+
 ////////////////////  FR 5.56
 /////////////// Receiver
 L["cod2019_famas_upper_railcust.printname"] = "Valorisé Receiver" -- UO
@@ -1975,6 +1979,10 @@ L["cod2019_model680_mag_ext.description"] = "Tube extension carries an extra <co
 L["cod2019_model680_mag_6.printname"] = "12 Gauge 6-R Mags"
 L["cod2019_model680_mag_6.compactname"] = "12G 6R"
 L["cod2019_model680_mag_6.description"] = "Custom XRK Eagle's Claw receiver with built in mag well to use <color=100,255,100>6-round</color> detachable magazines for faster reloads. <color=255,100,100>Not compatible with custom barrels.</color>"
+
+L["cod2019_model680_mag_8.printname"] = "12 Gauge 8-R Mags" -- UO
+L["cod2019_model680_mag_8.compactname"] = "12G 8R" -- UO
+L["cod2019_model680_mag_8.description"] = "Custom XRK Eagle's Claw receiver with built in mag well to use <color=100,255,100>8-round</color> detachable magazines for faster reloads. <color=255,100,100>Not compatible with custom barrels.</color>" -- UO
 
 ////////////////////  R9-0
 /////////////// Barrels
