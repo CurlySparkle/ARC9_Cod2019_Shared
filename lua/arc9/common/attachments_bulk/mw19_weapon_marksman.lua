@@ -73,14 +73,14 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
-ATT.Element = {
-    AttPosMods = {
-        [1] = { -- Muzzle
-            Pos = Vector(-0.5, 0, 0),
-            Ang = Angle(0,0,0),
-        }
-    }
-}
+-- ATT.Element = {
+    -- AttPosMods = {
+        -- [1] = { -- Muzzle
+            -- Pos = Vector(-0.5, 0, 0),
+            -- Ang = Angle(0,0,0),
+        -- }
+    -- }
+-- }
 
 ARC9.LoadAttachment(ATT, "cod2019_m14_barrel_short")
 ----------------------------------------------------------------------------------------
@@ -687,7 +687,7 @@ ATT.ActivateElements = {"scope_sks"}
 
 ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_sks.mdl"
 ATT.Scale = 1
-ATT.ModelOffset = Vector(-1.5, 0, 0)
+ATT.ModelOffset = Vector(-0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.AimDownSightsTimeAdd = 0.08
@@ -696,7 +696,7 @@ ATT.RecoilMult = 0.99
 
 ATT.Sights = {
     {
-        Pos = Vector(-0.001, 6, -0.58),
+        Pos = Vector(-0.001, 6.5, -0.58),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 36,
         Magnification = 1.15,
