@@ -384,7 +384,7 @@ ATT.RangeMinMult = 0.92
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
-            Pos = Vector(-1, 0, 0),
+            Pos = Vector(-2.9, 0, 0),
             Ang = Angle(0,0,0),
         },
         [3] = { -- Laser
@@ -399,8 +399,8 @@ ARC9.LoadAttachment(ATT, "cod2019_kar98k_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "FSS MK2 Precision Comb"
-ATT.CompactName = "Precision Comb"
+ATT.PrintName = "STVOL Precision Comb"
+ATT.CompactName = "Precision"
 ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]
 
 ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_stock_tactical.png", "mips smooth")
@@ -420,9 +420,9 @@ ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_tactical")
 /////////////////////////// -- Crossbow
 ATT = {}
 
-ATT.PrintName = "tact"
-ATT.CompactName = "tact"
-ATT.Description = [[]]
+ATT.PrintName = "XRK Carbon Elite"
+ATT.CompactName = "Carbon"
+ATT.Description = "Carbon fiber arms improve handling with a slightly slower bolt velocity."
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_tac.png", "mips smooth")
@@ -466,9 +466,9 @@ ARC9.LoadAttachment(ATT, "cod2019_crossbow_limbs_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "tact"
-ATT.CompactName = "tact"
-ATT.Description = [[]]
+ATT.PrintName = "28-Strand Cable"
+ATT.CompactName = "28S"
+ATT.Description = "High-tension heavyweight cable fires bolts at a higher velocity, but with less accuracy."
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_wire_tac.png", "mips smooth")
@@ -488,7 +488,7 @@ ARC9.LoadAttachment(ATT, "cod2019_crossbow_wires_tact")
 ATT = {}
 
 ATT.PrintName = "16-Strand Cable"
-ATT.CompactName = "16-Strand"
+ATT.CompactName = "16S"
 ATT.Description = [[Lower-tension lightweight cable fires the bolts with exceptional accuracy at a lower velocity.]]
 ATT.SortOrder = 1
 
@@ -510,9 +510,9 @@ ARC9.LoadAttachment(ATT, "cod2019_crossbow_wires_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "tact"
-ATT.CompactName = "tact"
-ATT.Description = [[]]
+ATT.PrintName = "FORGE TAC SpeedTrak"
+ATT.CompactName = "SpeedTrak"
+ATT.Description = "Competition stock from FSS designed for rapid target acquisition."
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_stock_tac.png", "mips smooth")
@@ -619,8 +619,8 @@ ARC9.LoadAttachment(ATT, "cod2019_crossbow_scope")
 ------------------------------------------------------------------------------- AMMO TYPE
 ATT = {}
 
-ATT.PrintName = "FTAC Fury 20"
-ATT.CompactName = "Fury EXT"
+ATT.PrintName = "FTAC Fury 20\" Bolts"
+ATT.CompactName = "Fury"
 ATT.Description = [[Carbon bolts with timed explosive tips. Sticky tips deal less damage, but devastate targets on detonation. 
 Bolts cannot be recovered.]]
 ATT.SortOrder = 0.5

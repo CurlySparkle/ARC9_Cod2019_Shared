@@ -1976,7 +1976,7 @@ ATT.Attachments = {
         PrintName = ARC9:GetPhrase("mw19_category_optic"),
         Pos = Vector(0, 0, 0.35),
         Ang = Angle(0, 0, 0),
-        --Icon_Offset = Vector(-3, 0, 0),
+        Icon_Offset = Vector(0, 0, 2.5),
         Category = {"cod2019_optic"},
 		Scale = 1
     }

@@ -734,6 +734,11 @@ L["cod2019_scar_mag_drum.compactname"] = string.format(mw19magtext.mags, "75") -
 L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762"]) -- UO
 
 ////////////////////  AK-47
+/////////////// Optics
+L["cod2019_akilo47_rail_sight.printname"] = "Upper Sight Rail" -- UO
+L["cod2019_akilo47_rail_sight.compactname"] = "U.S.R." -- UO
+L["cod2019_akilo47_rail_sight.description"] = "Adds an RIS rail on top of the top cover." -- UO
+
 /////////////// Barrels
 L["cod2019_akilo47_barrel_custom.printname"] = "Spetsnaz Elite"
 L["cod2019_akilo47_barrel_custom.compactname"] = "Spetsnaz"
@@ -1577,13 +1582,13 @@ L["cod2019_vlk_barrel_03.compactname"] = "Warlord"
 L["cod2019_vlk_barrel_03.description"] = "Extended barrel increases muzzle velocity and range. Light alloy barrel keeps additional weight to a minimum."
 
 /////////////// Pumps
-L["cod2019_vlk_pump_01.printname"] = "XRK Race Grip"
-L["cod2019_vlk_pump_01.compactname"] = "Race"
-L["cod2019_vlk_pump_01.description"] = "Light-weight tactical pump grip keeps the gun in control while firing, and helps get on target faster."
+L["cod2019_vlk_pump_light.printname"] = "XRK Race Grip"
+L["cod2019_vlk_pump_light.compactname"] = "Race"
+L["cod2019_vlk_pump_light.description"] = "Light-weight tactical pump grip keeps the gun in control while firing, and helps get on target faster."
 
-L["cod2019_vlk_pump_02.printname"] = "VLK Prime Pump Grip"
-L["cod2019_vlk_pump_02.compactname"] = "Prime"
-L["cod2019_vlk_pump_02.description"] = "No frills pump grip helps control vertical recoil for faster follow-up shots."
+L["cod2019_vlk_pump_heavy.printname"] = "VLK Prime Pump Grip"
+L["cod2019_vlk_pump_heavy.compactname"] = "Prime"
+L["cod2019_vlk_pump_heavy.description"] = "No frills pump grip helps control vertical recoil for faster follow-up shots."
 
 L["cod2019_vlk_pump_03.printname"] = "XRK ReliaGrip"
 L["cod2019_vlk_pump_03.compactname"] = "ReliaGrip"
@@ -1976,21 +1981,21 @@ L["cod2019_mk2_stock_light.description"] = "Custom hollowed out stock with a lig
 
 ////////////////////  Kar98k
 /////////////// Barrels
-L["cod2019_kar98k_barrel_short.printname"] = "Singuard Custom 25.1\""
-L["cod2019_kar98k_barrel_short.compactname"] = "25.1\""
-L["cod2019_kar98k_barrel_short.description"] = "Custom 25.1\" heavyweight barrel with polygonal rifling balances increased muzzle velocity with increased weight."
+L["cod2019_kar98k_barrel_medium.printname"] = "Singuard Custom 25.1\""
+L["cod2019_kar98k_barrel_medium.compactname"] = "25.1\""
+L["cod2019_kar98k_barrel_medium.description"] = "Custom 25.1\" heavyweight barrel with polygonal rifling balances increased muzzle velocity with increased weight."
 
-L["cod2019_kar98k_barrel_02.printname"] = "Singuard Custom 21.2\""
-L["cod2019_kar98k_barrel_02.compactname"] = "21.2\""
-L["cod2019_kar98k_barrel_02.description"] = "Custom 21.2\" heavyweight barrel with polygonal rifling slightly increases muzzle velocity and extends range with little additional weight"
+L["cod2019_kar98k_barrel_short.printname"] = "Singuard Custom 21.2\""
+L["cod2019_kar98k_barrel_short.compactname"] = "21.2\""
+L["cod2019_kar98k_barrel_short.description"] = "Custom 21.2\" heavyweight barrel with polygonal rifling slightly increases muzzle velocity and extends range with little additional weight"
 
 L["cod2019_kar98k_barrel_long.printname"] = "Singuard Custom 27.6\""
 L["cod2019_kar98k_barrel_long.compactname"] = "27.6\""
 L["cod2019_kar98k_barrel_long.description"] = "Custom 27.6\" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility."
 
 /////////////// Stocks
-L["cod2019_kar98k_stock_heavy.printname"] = "STVOL Precision Comb"
-L["cod2019_kar98k_stock_heavy.compactname"] = "Precision"
+L["cod2019_kar98k_stock_tactical.printname"] = "STVOL Precision Comb"
+L["cod2019_kar98k_stock_tactical.compactname"] = "Precision"
 
 L["cod2019_kar98k_stock_light.printname"] = "Hollow Stock Mod"
 L["cod2019_kar98k_stock_light.compactname"] = "Hollow"
