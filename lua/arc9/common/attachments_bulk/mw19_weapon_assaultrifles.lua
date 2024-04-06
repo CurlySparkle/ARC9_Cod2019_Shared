@@ -1129,7 +1129,7 @@ ATT.SortOrder = 3
 ATT.Category = {"cod2019_m4_optic"}
 ATT.ActivateElements = {"carry_handle"}
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_carryhandle.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_aliascus_carryhandle.mdl"
 ATT.BoneMerge = true
 
 ATT.Sights = {
@@ -1954,6 +1954,36 @@ ATT.DropMagazineSounds = {
 ARC9.LoadAttachment(ATT, "cod2019_scar_mag_drum")
 
 //////////////////////////////////////////////// -- AK-47
+/////////////// -- cod2019_akilo47_rail_sight
+ATT = {}
+
+ATT.PrintName = "Upper Sight Rail"
+ATT.CompactName = "Sight Rail"
+ATT.Description = "Adds an upper rail on the reciever for custom optics."
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_upper_rail.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_ak47_optics"
+ATT.ActivateElements = {"reciever_rail"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_akilo47_sight_rail.mdl"
+ATT.BoneMerge = true
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("mw19_category_optic"),
+        Pos = Vector(0, 0, 0.35),
+        Ang = Angle(0, 0, 0),
+        --Icon_Offset = Vector(-3, 0, 0),
+        Category = {"cod2019_optic"},
+		Scale = 1
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_rail_sight")
+
 /////////////////////////// -- Barrel
 /////////////// -- cod2019_akilo47_barrel_custom
 ATT = {}

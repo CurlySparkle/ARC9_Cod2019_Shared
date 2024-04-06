@@ -31,7 +31,7 @@
         "Arc9EnvMapTint"
         {
             "min" "0"
-            "max" "1"
+            "max" "0.7"
             "color" "[0.122 0.122 0.122]"
         }
 	   "CustomCamo" 

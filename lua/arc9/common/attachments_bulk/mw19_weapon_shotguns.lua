@@ -1171,44 +1171,36 @@ ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_barheavy.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_barheavy.mdl"
-ATT.BoneMerge = true
+ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_vlk_barrel"}
 ATT.ActivateElements = {"muzzle_none","barrel_none","barrel_vlk","vlk_barrel_heavy"}
 
---ATT.Silencer = true
---ATT.MuzzleParticleOverride = "weapon_muzzle_flash_assaultrifle_silenced2"
---ATT.MuzzleParticleOverride_Priority = 10
-ATT.Override_MuzzleEffectAttachment = 1
-ATT.Override_MuzzleEffectAttachmentPriority = 3
---ATT.MuzzleDevice = true
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
 
 ATT.AimDownSightsTimeMult = 1.25
-ATT.SprintToFireTimeMult = 1.25
 ATT.RecoilMult = 0.85
 
 ATT.RangeMaxMult = 1.25
 ATT.RangeMinMult = 1.25
 ATT.PhysBulletMuzzleVelocityMult = 1.25
 
--- ATT.Attachments = {
-    -- {
-        -- PrintName = ARC9:GetPhrase("mw19_category_muzzle2"),
-        -- Pos = Vector(-7.5, 0, 0),
-        -- Ang = Angle(0, 0, 0),
-        -- Icon_Offset = Vector(0, 0, 0),
-        -- Category = {"muzzle_shotgun","muzzle"},
-		-- Scale = 1
-    -- }
--- }
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- Muzzle
+            Pos = Vector(2, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["muzzle_none"] then
+    if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
     end
 end
@@ -1246,3 +1238,43 @@ ATT.BulletBones = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "VLK Prime Pump Grip"
+ATT.CompactName = "VLK Prime"
+ATT.Description = [[No frills pump grip helps control vertical recoil for faster for faster follow-up shots.]]
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_pumph.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_vlk_pump"
+ATT.ActivateElements = {"pump_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_pumph.mdl"
+ATT.BoneMerge = true
+
+ATT.AimDownSightsTimeMult = 0.9
+ATT.CycleTimeMult = 1.2
+
+ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Race Grip"
+ATT.CompactName = "XRK Race"
+ATT.Description = [[Light-weight tactical pump grip keeps the gun in control while firing, and helps get on target faster.]]
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_pumpl.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_vlk_pump"
+ATT.ActivateElements = {"pump_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_pumpl.mdl"
+ATT.BoneMerge = true
+
+ATT.RecoilKickMult = 1.25
+ATT.CycleTimeMult = 0.75
+
+ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_light")

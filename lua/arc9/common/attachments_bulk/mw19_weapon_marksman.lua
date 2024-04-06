@@ -253,7 +253,6 @@ ATT.AimDownSightsTimeMult = 1.1
 ARC9.LoadAttachment(ATT, "cod2019_mk2_stock_tactical")
 ------------------------------------------------------------------
 ATT = {}
-
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Alternative View"
 ATT.CompactName = "Alt View"
@@ -268,8 +267,10 @@ ATT.ActivePos = Vector(0, 2, 0)
 ATT.ActiveAng = Angle(0, 0, 0)
 
 ARC9.LoadAttachment(ATT, "cod2019_mk2_alt_view")
+------------------------------------------------------------------
 
 /////////////////////////// -- Kar98k
+ATT = {}
 ATT.PrintName = "Sniper Scope"
 ATT.CompactName = [[Sniper]]
 ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_scope.png", "mips smooth")
@@ -281,24 +282,19 @@ ATT.CustomPros = {
 
 ATT.SortOrder = 4
 ATT.Free = false
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_optic_kar98k"}
+ATT.Category = {"cod2019_kar98k_optic"}
 ATT.ActivateElements = {"scope_kar98k"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 
 ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_kar98k.mdl"
-ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
-ATT.AimDownSightsTimeAdd = 0.08
--- ATT.VisualRecoilMult = 0.99
-ATT.RecoilMult = 0.99
-
--- ATT.ShotgunReload = true
+ATT.ShotgunReload = true
 ATT.BoneMerge = true
+
+ATT.AimDownSightsTimeAdd = 0.25
+ATT.VisualRecoilMult = 0.92
+ATT.RecoilMult = 0.91
 
 ATT.Sights = {
     {
@@ -314,9 +310,6 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 36 / 4.4
 ATT.RTScopeAdjustable = false
--- ATT.RTScopeAdjustmentLevels = 3
--- ATT.RTScopeFOVMin = 8
--- ATT.RTScopeFOVMax = 25
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/mosin_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.18
@@ -324,7 +317,7 @@ ATT.RTScopeShadowIntensity = 1.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ARC9.LoadAttachment(ATT, "cod2019_kar98k_scope")
+ARC9.LoadAttachment(ATT, "cod2019_kar98k_scop")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -402,6 +395,27 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_kar98k_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS MK2 Precision Comb"
+ATT.CompactName = "Precision Comb"
+ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]
+
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_stock_tactical.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_stock_tactical.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_kar98k_stock"
+--ATT.ActivateElements = {"barrel_none"}
+
+ATT.RecoilMult = 1.1
+ATT.AimDownSightsTimeMult = 1.1
+
+ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_tactical")
 
 /////////////////////////// -- Crossbow
 ATT = {}
