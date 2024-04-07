@@ -1741,9 +1741,9 @@ L["cod2019_striker45_mag_ump.compactname"] = "Classic" -- UO
 L["cod2019_striker45_mag_ump.description"] = "Classic UMP magazines for the Striker 45." -- UO
 
 /////////////// Barrels
-L["cod2019_striker45_barrel_01.printname"] = "300mm Poly Barrel"
-L["cod2019_striker45_barrel_01.compactname"] = "Poly"
-L["cod2019_striker45_barrel_01.description"] = "Extended barrel with lightweight construction and polygonal rifling for increased muzzle velocity and improved range. Adds little additional weight."
+L["cod2019_striker45_barrel_mid.printname"] = "300mm Poly Barrel"
+L["cod2019_striker45_barrel_mid.compactname"] = "Poly"
+L["cod2019_striker45_barrel_mid.description"] = "Extended barrel with lightweight construction and polygonal rifling for increased muzzle velocity and improved range. Adds little additional weight."
 
 L["cod2019_striker45_barrel_long.printname"] = "400mm Stainless Steel"
 L["cod2019_striker45_barrel_long.compactname"] = "400mm SS"
