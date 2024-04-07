@@ -1180,6 +1180,9 @@ ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["sights"] then
         model:SetBodygroup(1,1)
     end
+    if swep:GetElements()["grip_none"] then
+        model:SetBodygroup(2,1)
+    end
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_receiver_ump")
@@ -1279,12 +1282,10 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilMult = 1.1
-
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
+ATT.DeployTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.09
+ATT.RangeMaxMult = 1.13
+ATT.SpreadMult = 0.80
 
 ATT.Element = {
     AttPosMods = {
@@ -1296,6 +1297,41 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_barrel_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "300mm Poly Barrel"
+ATT.CompactName = "300mm"
+ATT.Description = [[Extended barrel with lightweight construction and polygonal rifling for increased muzzle velocity and improved range. Adds little additional weight.]]
+
+ATT.Icon = Material("entities/attachs/sm/striker45/cod2019_sm_striker45_barmid.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_barmid.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_striker45_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.AimDownSightsTimeMult = 1.08
+ATT.DeployTimeMult = 1.07
+ATT.RecoilKickMult = 0.85
+ATT.RangeMaxMult = 1.07
+
+ATT.Element = {
+    AttPosMods = {
+        [2] = { -- slot of the weapon's attachment
+            Pos = Vector(5.7, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_barrel_mid")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1317,12 +1353,9 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 0.85
-ATT.AimDownSightsTimeMult = 0.85
-ATT.RecoilMult = 1.15
-
-ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
+ATT.DeployTimeMult = 0.95
+ATT.AimDownSightsTimeMult = 0.92
+ATT.RangeMaxMult = 0.95
 
 ATT.Element = {
     AttPosMods = {
@@ -1398,6 +1431,115 @@ ATT.BulletBones = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_mag_xmag_9mm")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = [[XRK Gen III Survivalist Series]]
+ATT.CompactName = [[XRK Gen III]]
+ATT.Icon = Material("entities/attachs/sm/striker45/cod2019_sm_striker45_stockcqb.png")
+ATT.Description = [[Tactical stock designed for rapid target acquisition, for when fast reflexes mean the difference between life and death.]]
+
+ATT.SortOrder = 0.5
+ATT.Free = false
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_striker45_stock"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_stockcqb.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 1.12
+ATT.DeployTimeMult = 0.95
+ATT.SprintToFireTimeMult = 0.90
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_stock_cqb")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = [[FSS Guardian]]
+ATT.CompactName = [[FSS Guardian]]
+ATT.Icon = Material("entities/attachs/sm/striker45/cod2019_sm_striker45_stockl.png")
+ATT.Description = [[Lightweight custom stock from FSS blends mobility with exceptional stability.]]
+
+ATT.SortOrder = 0.5
+ATT.Free = false
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_striker45_stock"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_stockl.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_none","grip_none","stock_light"}
+
+ATT.AimDownSightsTimeMult = 1.12
+ATT.DeployTimeMult = 1.05
+ATT.RecoilSideMult = 0.84
+ATT.VisualRecoilSideMult = 0.92
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_stock_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Alt Hold"
+ATT.CompactName = "Alt Hold"
+ATT.Description = "Alt Holding based on the Striker-9"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/striker45_striker9_lhik.mdl"
+
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other2")
+
+ATT.SortOrder = 2.1
+ATT.Category = "cod2019_striker45_grip"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_hold1")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Alt Hold 2"
+ATT.CompactName = "Alt Hold 2"
+ATT.Description = "Alt Holding based on the Striker-45"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/striker45_lhik.mdl"
+
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other2")
+
+ATT.SortOrder = 2.1
+ATT.Category = "cod2019_striker45_grip"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_hold2")
+------------------------------------------------------------------
+ATT = {}
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Alternative View"
+ATT.CompactName = "Alt View"
+ATT.Description = [[Changes the view.]]
+
+--ATT.Icon = Material("entities/attachs/go_g3_stock_collapsible.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_striker45_view"
+
+ATT.ActivePos = Vector(0, 0, 0.5)
+ATT.ActiveAng = Angle(0, 0, 0)
+
+ATT.MovingPos = Vector(-1, -0.8, -1)
+ATT.MovingAng = Angle(0, 0, -10)
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_alt_view")
+----------------------------------------------------
 
 /////////////////////////// -- Fennec Vector
 ATT = {}

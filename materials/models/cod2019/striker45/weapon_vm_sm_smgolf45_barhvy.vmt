@@ -1,11 +1,11 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\striker45\striker45_v2_body_rgb"
-    "$bumpmap" "models\cod2019\striker45\striker45_v2_body_n"
-    "$phongexponenttexture" "models\cod2019\striker45\striker45_v2_body_e"
+    "$basetexture" "models\cod2019\striker45\weapon_vm_sm_smgolf45_barhvy_rgb"
+    "$bumpmap" "models\cod2019\striker45\weapon_vm_sm_smgolf45_barhvy_n"
+    "$phongexponenttexture" "models\cod2019\striker45\weapon_vm_sm_smgolf45_barhvy_e"
 
     /////////////////
-    "$color2" "[1 1 1]"                                     //do not touch this
+    "$color2" "[0 0 0]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
@@ -20,10 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.106 0.102 0.102]"       
-
-    "$detailblendmode" "4"
-    "$detailblendfactor" "0.7"                 
+    "$envmaptint" "[0.11 0.11 0.11]"                 
 
     //remove this if not using MWB
     "Proxies"
@@ -32,14 +29,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.106 0.102 0.102]"
+            "color" "[0.11 0.11 0.11]"
         }
-	   "CustomCamo" 
-        {
-		  "camoTexture" $detail
-	       "camoScale" $detailscale
-            "blend" $detailblendfactor
-            "color2" "[0.8 0.8 0.8]"
-	   }
     }
 }
