@@ -212,7 +212,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_357_grip"}
 ATT.ActivateElements = {"grip_none", "357_stock"}
 
-ATT.CustomizePos = Vector(10, 30, 4.5)
+ATT.CustomizePos = Vector(10, 25, 4.5)
+ATT.CustomizeRotateAnchor = Vector(10, -3.5, -4.5)
 
 ATT.AimDownSightsTimeMult = 1.2
 ATT.DeployTimeMult = 1.2
@@ -514,9 +515,9 @@ ATT.ActivateElements = {"rail_sight"}
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("mw19_category_optic"),
-        Pos = Vector(-1.5, 0, -0.47),
+        Pos = Vector(-2, 0, 0.8),
         Ang = Angle(0, 0, 0),
-        --Icon_Offset = Vector(-3, 0, 0),
+        Icon_Offset = Vector(1, 0, -1.25),
         Category = {"cod2019_optic_pistol"},
 		Scale = 1
     }
@@ -670,9 +671,9 @@ ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_auto")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "Renetti Stock"
-ATT.CompactName = "Renetti Stock"
-ATT.Description = [[Renetti Stock]]
+ATT.PrintName = "FTAC SATUS CS-3"
+ATT.CompactName = "CS-3"
+ATT.Description = ""
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_stock.png", "mips smooth")
@@ -685,6 +686,13 @@ ATT.BoneMerge = true
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_renetti_stock"}
 ATT.ActivateElements = {"stock_none","stock"}
+
+ATT.CustomizeAng = Angle(90, 0, 0)
+ATT.CustomizePos = Vector(12, 30, 3)
+ATT.CustomizeRotateAnchor = Vector(12, -2.5, -4.5)
+
+ATT.PeekPos = Vector(-0.5, -1.5, -4)
+ATT.PeekAng = Angle(0, 0, -45)
 
 ATT.RecoilKickMult = 0.8
 ATT.RecoilkMult = 0.8
@@ -777,7 +785,7 @@ ATT.RHIK_Priority = 5
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_renetti_foregrip"}
-ATT.ActivateElements = {"grip_none"}
+-- ATT.ActivateElements = {"grip_none"}
 
 ATT.AimDownSightsTimeMult = 1.07
 ATT.DeployTimeMult = 1.07
