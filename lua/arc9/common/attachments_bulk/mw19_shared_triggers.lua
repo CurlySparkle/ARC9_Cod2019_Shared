@@ -21,9 +21,10 @@ ATT.ActivateElements = {"trigger_none"}
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.RPMMult = 1.25
+	ATT.RPMMult = 1.13
 	ATT.PostBurstDelayMult = 0.9
 	ATT.TriggerDelayTimeMult = 0.25
+	ATT.RecoilMult = 1.17
 else -- Warzone Stats
 	ATT.RPMMult = 1.25
 	ATT.PostBurstDelayMult = 0.9
@@ -52,6 +53,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RPMMult = 0.75
 	ATT.PostBurstDelayMult = 1.05
 	ATT.TriggerDelayTimeMult = 1.1
+	ATT.RecoilMult = 0.87
 else -- Warzone Stats
 	ATT.RPMMult = 0.75
 	ATT.PostBurstDelayMult = 1.05
@@ -81,6 +83,7 @@ if !warzonestats then -- Regular Stats
 	ATT.PostBurstDelayMult = 0.95
 	ATT.SpreadMoveAdd = 1
 	ATT.TriggerDelayTimeMult = 0.45
+	ATT.RecoilMult = 1.11
 else -- Warzone Stats
 	ATT.RPMMult = 1.15
 	ATT.PostBurstDelayMult = 0.95

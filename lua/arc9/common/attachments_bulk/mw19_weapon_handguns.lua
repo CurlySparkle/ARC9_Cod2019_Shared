@@ -906,8 +906,8 @@ ATT.FiremodesOverride = {
 
 ATT.Element = {
     AttPosMods = {
-        [1] = { -- Muzzle
-            Pos = Vector(0.9, 0, 0),
+        [2] = { -- Muzzle
+            Pos = Vector(1, 0, 0),
             Ang = Angle(0,0,0),
         }
     }
