@@ -122,6 +122,7 @@ glcode = {
 	IKAnimationProxy = {
 		["fire_ubgl"] = {
 			Source = "fire",
+			MinProgress = 0.9,
 			EventTable = {
 				-- { s = "uplp_urban_temp/scar/mech-03.ogg", t = 0 },
 			}
@@ -206,6 +207,8 @@ glcode = {
 	UBGLFiremode = 1,
 	UBGLChamberSize = 0,
 	-- ShootVolumeUBGL = 111,
+
+	RPMUBGL = 200,
 
 	SpreadUBGL = 0.02,
 

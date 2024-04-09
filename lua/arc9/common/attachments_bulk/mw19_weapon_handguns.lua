@@ -857,7 +857,7 @@ ATT.FiremodesOverride = {
 }
 
 ATT.RecoilMult = 1.1
-ATT.RPMMult = 1.2
+ATT.RPMMult = 1.75
 ATT.RecoilKickMult = 1.2
 ATT.AimDownSightsTimeMult = 1.1
 

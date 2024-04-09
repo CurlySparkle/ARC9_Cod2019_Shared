@@ -2504,17 +2504,17 @@ L["cod2019_renetti_rg_02.description"] = "Tactical pistol grip maintains control
 
 ////////////////////  Sykov
 /////////////// Barrels
-L["cod2019_sykov_barrel_01.printname"] = "SBB 105mm"
-L["cod2019_sykov_barrel_01.compactname"] = "SBB"
-L["cod2019_sykov_barrel_01.description"] = "Sykov's Svet Bochka slide improves handling at the cost of muzzle velocity."
+L["cod2019_sykov_slide_light.printname"] = "SBB 105mm"
+L["cod2019_sykov_slide_light.compactname"] = "SBB"
+L["cod2019_sykov_slide_light.description"] = "Sykov's Svet Bochka slide improves handling at the cost of muzzle velocity."
 
-L["cod2019_sykov_barrel_02.printname"] = "SSL 308mm"
-L["cod2019_sykov_barrel_02.compactname"] = "SSL"
-L["cod2019_sykov_barrel_02.description"] = "The Sykov Skrytyy Lisa slide with a build-in <color=255,255,100>monolithic suppressor</color> keeps the weapon silent and increases range for longer distance stealth assaults."
+L["cod2019_sykov_slide_silencer.printname"] = "SSL 308mm"
+L["cod2019_sykov_slide_silencer.compactname"] = "SSL"
+L["cod2019_sykov_slide_silencer.description"] = "The Sykov Skrytyy Lisa slide with a build-in <color=255,255,100>monolithic suppressor</color> keeps the weapon silent and increases range for longer distance stealth assaults."
 
-L["cod2019_sykov_barrel_03.printname"] = "Sorokin 140mm Auto"
-L["cod2019_sykov_barrel_03.compactname"] = "Auto"
-L["cod2019_sykov_barrel_03.description"] = "Durable stainless steel slide and modified trigger group allow this pistol to fire <color=255,255,100>fully automatic</color>."
+L["cod2019_sykov_slide_auto.printname"] = "Sorokin 140mm Auto"
+L["cod2019_sykov_slide_auto.compactname"] = "Auto"
+L["cod2019_sykov_slide_auto.description"] = "Durable stainless steel slide and modified trigger group allow this pistol to fire <color=255,255,100>fully automatic</color>."
 
 /////////////// Trigger
 L["cod2019_sykov_trigger_light.printname"] = "Lightweight Single-Action"
@@ -2539,13 +2539,13 @@ L["cod2019_sykov_stock_heavy.compactname"] = "Karabin"
 L["cod2019_sykov_stock_heavy.description"] = "Heavy weight Pistolet-Pulemet stock provides the highest available aiming stability and recoil control."
 
 /////////////// Magazine
-L["cod2019_sykov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
-L["cod2019_sykov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_sykov_mag_20.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["918"])
+L["cod2019_sykov_mag_xmag.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_sykov_mag_xmag.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_sykov_mag_xmag.description"] = string.format(mw19magtext.desc, "20", mw19ammotype["918"])
 
-L["cod2019_sykov_mag_80.printname"] = string.format(mw19magtext.drum, "80")
-L["cod2019_sykov_mag_80.compactname"] = string.format(mw19magtext.mags, "80")
-L["cod2019_sykov_mag_80.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["918"])
+L["cod2019_sykov_mag_drum.printname"] = string.format(mw19magtext.drum, "80")
+L["cod2019_sykov_mag_drum.compactname"] = string.format(mw19magtext.mags, "80")
+L["cod2019_sykov_mag_drum.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["918"])
 
 /////////////// Pistol Grips
 L["cod2019_sykov_rg_01.printname"] = "VLK Spetznaz"
