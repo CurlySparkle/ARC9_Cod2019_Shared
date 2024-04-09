@@ -999,7 +999,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_stock"}
-ATT.ActivateElements = {"stock_none"}
+ATT.ActivateElements = {"stock_none","stock"}
 
 ATT.RecoilKickMult = 0.8
 ATT.RecoilkMult = 0.8
@@ -1009,4 +1009,17 @@ ATT.AimDownSightsTimeMult = 1.1
 -- ATT.CustomizeAng = Angle(90, 0, 0)
 -- ATT.CustomizePos = Vector(17, 25, 3)
 
+ATT.SprintPos = Vector(1, 2, -3.5)
+ATT.SprintAng = Angle(0, 0, 25)
+
+ATT.PeekPos = Vector(0, -3, -5)
+ATT.PeekAng = Angle(0, 0, -45)
+
+ATT.ActivePos = Vector(-0.15, -0.5, -0.5)
+ATT.ActiveAng = Angle(0, 0, 0)
+
+ATT.MovingPos = Vector(-1, -0.8, -1)
+ATT.MovingAng = Angle(0, 0, -5)
+
 ARC9.LoadAttachment(ATT, "cod2019_x16_stock")
+----------------------------------------------------------------------------------------
