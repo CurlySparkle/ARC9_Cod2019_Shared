@@ -828,6 +828,255 @@ ATT.BulletBones = {
 ARC9.LoadAttachment(ATT, "cod2019_renetti_mag_xmag")
 
 /////////////////////////// -- Sykov
+---------------------------
+ATT = {}
+
+ATT.PrintName = "Sorokin 140mm Auto"
+ATT.CompactName = "Sorokin"
+ATT.Description = [[Durable stainless steel slide and modified trigger group allow this pistol to fire fully automatic.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_barauto.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_barauto.mdl"
+ATT.BoneMerge = true
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_slide"}
+ATT.ActivateElements = {"slide_none"}
+
+ATT.FiremodesOverride = {
+    {
+        Mode = -1,
+    },
+}
+
+ATT.RecoilMult = 1.1
+ATT.RPMMult = 1.2
+ATT.RecoilKickMult = 1.2
+ATT.AimDownSightsTimeMult = 1.1
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(1.6, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_slide_auto")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "SSL 308mm"
+ATT.CompactName = "SSL"
+ATT.Description = [[The Sykov Skrytyy Lisa slide with a built-in monolithic suppressor keeps the weapon silent and increases range for longer distance stealth assaults.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_barsil.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_barsil.mdl"
+ATT.BoneMerge = true
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_slide"}
+ATT.ActivateElements = {"slide_none","slide_silencer"}
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_slide_silencer")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "SSB 105mm"
+ATT.CompactName = "SSB"
+ATT.Description = [[Sykov's Svet Bochka slide improves handling at the cost of muzzle velocity.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_barlight.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_barlight.mdl"
+ATT.BoneMerge = true
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_slide"}
+ATT.ActivateElements = {"slide_none"}
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(0, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_slide_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "20 Round Mags"
+ATT.CompactName = "20-Round"
+ATT.Description = [[High capacity magazines hold 20 rounds with a moderate weight increase.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_xmags.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
+
+ATT.AimDownSightsTimeMult = 1.11
+ATT.ClipSizeOverride = 26
+ATT.ReloadTimeMult = 1.1
+
+ATT.BulletBones = {
+    [1] = "j_bullet",
+    [2] = "j_bullet2",
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "80 Round Drum"
+ATT.CompactName = "80-Round"
+ATT.Description = [[High capacity drum that holds 80 rounds with a heavy weight increase.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_drummag.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_drummag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_drummag.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_mag"}
+ATT.ActivateElements = {"mag_none","mag_drum"}
+
+ATT.AimDownSightsTimeMult = 1.15
+ATT.ClipSizeOverride = 80
+ATT.ReloadTimeMult = 1.15
+
+ATT.BulletBones = {
+    [1] = "j_bullet",
+    [2] = "j_bullet2",
+}
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_mag_drum")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "PP-Skelet"
+ATT.CompactName = "PP-Skelet"
+ATT.Description = [[Ultralight Pistolet-Pulemet stock provides a stable aiming platform and improved recoil control without sacrificing too much mobility.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_stockl.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_stockl.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_stock"}
+ATT.ActivateElements = {"stock_none","stock"}
+
+ATT.RecoilKickMult = 0.85
+ATT.RecoilMult = 0.85
+ATT.VisualRecoilMult = 0.93
+ATT.DeployTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.1
+
+-- ATT.CustomizeAng = Angle(90, 0, 0)
+-- ATT.CustomizePos = Vector(17, 25, 3)
+
+--ATT.SprintPos = Vector(0, 0, -2)
+--ATT.SprintAng = Angle(0, 0, 25)
+
+--ATT.PeekPos = Vector(0, -3, -5)
+--ATT.PeekAng = Angle(0, 0, -45)
+
+-- ATT.ActivePos = Vector(2.5, 0, 1.5)
+-- ATT.ActiveAng = Angle(0, 0, 17)
+
+-- ATT.MovingPos = Vector(-1,-2,-1)
+-- ATT.MovingAng = Angle(0,0,-8)
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_stock_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "PP-Karabin"
+ATT.CompactName = "PP-Karabin"
+ATT.Description = [[Heavy weight Pistolet-Pulemet stock provides the highest available aiming stability and recoil control.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_stockh.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_stockh.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_stock"}
+ATT.ActivateElements = {"stock_none","stock"}
+
+ATT.RecoilKickMult = 0.80
+ATT.RecoilMult = 0.80
+ATT.VisualRecoilMult = 0.90
+ATT.DeployTimeMult = 1.17
+ATT.AimDownSightsTimeMult = 1.17
+
+-- ATT.CustomizeAng = Angle(90, 0, 0)
+-- ATT.CustomizePos = Vector(17, 25, 3)
+
+--ATT.SprintPos = Vector(0, 0, -2)
+--ATT.SprintAng = Angle(0, 0, 25)
+
+--ATT.PeekPos = Vector(0, -3, -5)
+--ATT.PeekAng = Angle(0, 0, -45)
+
+-- ATT.ActivePos = Vector(2.5, 0, 1.5)
+-- ATT.ActiveAng = Angle(0, 0, 17)
+
+-- ATT.MovingPos = Vector(-1,-2,-1)
+-- ATT.MovingAng = Angle(0,0,-8)
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_stock_heavy")
+----------------------------------------------------------------------------------------
 
 /////////////////////////// -- X16
 ATT = {}
