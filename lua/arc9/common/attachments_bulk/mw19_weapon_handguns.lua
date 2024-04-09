@@ -1077,6 +1077,74 @@ ATT.AimDownSightsTimeMult = 1.17
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_stock_heavy")
 ----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "VLK Spetznaz"
+ATT.CompactName = "VLK Spetznaz"
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_pistolgrip01.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_pistolgrip01.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_grip"}
+ATT.ActivateElements = {"grip_none"}
+
+ATT.RecoilUpMult = 0.90
+ATT.AimDownSightsTimeMult = 1.07
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_grip_01")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "VLK Prizrak"
+ATT.CompactName = "VLK Prizrak"
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_pistolgrip02.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_pistolgrip02.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_grip"}
+ATT.ActivateElements = {"grip_none"}
+
+ATT.RecoilKickMult = 1.1
+ATT.AimDownSightsTimeMult = 0.95
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_grip_02")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "VLK Elita"
+ATT.CompactName = "VLK Elita"
+ATT.Description = [[]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/sykov/cod2019_pi_sykov_pistolgrip03.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sykov/attachment_vm_pi_mike_pistolgrip03.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_sykov_grip"}
+ATT.ActivateElements = {"grip_none"}
+
+ATT.RecoilKickMult = 1.08
+ATT.DeployTimeMult = 0.9
+
+ARC9.LoadAttachment(ATT, "cod2019_sykov_grip_03")
 
 /////////////////////////// -- X16
 ATT = {}
