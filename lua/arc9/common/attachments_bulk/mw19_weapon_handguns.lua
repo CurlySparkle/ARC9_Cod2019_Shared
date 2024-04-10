@@ -952,10 +952,29 @@ ATT.AimDownSightsTimeMult = 1.11
 ATT.ClipSizeOverride = 26
 ATT.ReloadTimeMult = 1.1
 
-ATT.BulletBones = {
-    [1] = "j_bullet",
+local bulletbones = {
+    [3] = "j_bullet3",
     [2] = "j_bullet2",
+    [1] = "j_bullet1"
 }
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 3 - clip + 1
+
+    for i = 1, 3 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_mag_xmag")
 ---------------------------------------------------------------------------------------
@@ -978,20 +997,47 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.35
+ATT.DeployTimeMult = 1.30
 ATT.ClipSizeOverride = 80
 ATT.ReloadTimeMult = 1.15
-
-ATT.BulletBones = {
-    [1] = "j_bullet",
-    [2] = "j_bullet2",
-}
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg", 
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg", 
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
 }
+
+local bulletbones = {
+    [10] = "j_bullet1",
+    [9] = "j_bullet2",
+    [8] = "j_bullet3",
+    [7] = "j_bullet4",
+    [6] = "j_bullet5",
+    [5] = "j_bullet6",
+    [4] = "j_bullet7",
+    [3] = "j_bullet8",
+    [2] = "j_bullet9",
+    [1] = "j_bullet10"
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 10 - clip + 1
+
+    for i = 1, 10 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_mag_drum")
 ----------------------------------------------------------------------------------------
