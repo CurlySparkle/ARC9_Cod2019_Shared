@@ -98,7 +98,7 @@ ATT.Icon = Material("entities/attachs/mm/m14/cod2019_mm_m14_stockcqb.png", "mips
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_m14_stock"
-ATT.ActivateElements = {"stock_ebr","stock_none"}
+ATT.ActivateElements = {"stock_ebr"}
 
 ATT.AimDownSightsTimeMult = 0.93
 ATT.DeployTimeMult = 0.9
@@ -122,7 +122,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/m14/attachment_vm_sn_mike14_
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_mag_m14"}
+ATT.Category = {"cod2019_m14_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.ClipSizeOverride = 15
@@ -150,7 +150,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/m14/attachment_vm_sn_mike14_
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_mag_m14"}
+ATT.Category = {"cod2019_m14_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag2"}
 
 ATT.ClipSizeOverride = 20
