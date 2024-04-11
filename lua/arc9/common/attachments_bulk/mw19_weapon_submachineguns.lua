@@ -1608,6 +1608,67 @@ ARC9.LoadAttachment(ATT, "cod2019_vector_barrel_long")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "FTAC C6 Carbine PRO"
+ATT.CompactName = "Carbine PRO"
+ATT.Description = "Tactical stock streamline for close quarters combat. Gets you on target faster."
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_stockh.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_stocks"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_stockh.mdl"
+ATT.ModelOffset = Vector(-0.8, 0, 0)
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.RecoilSideMult = 0.92
+ATT.RecoilUpMult = 1.05
+
+ARC9.LoadAttachment(ATT, "cod2019_vector_stock_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FORGE TAC CQS"
+ATT.CompactName = "FTAC CQS"
+ATT.Description = "Tactical stock streamlined for close quarters combat. Gets you on target faster."
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_stocks.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_stocks"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_stocks.mdl"
+ATT.ModelOffset = Vector(-0.8, 0, 0)
+
+ATT.AimDownSightsTimeMult = 0.91
+ATT.RecoilSideMult = 1.07
+ATT.RecoilUpMult = 0.93
+
+ARC9.LoadAttachment(ATT, "cod2019_vector_stock_stable")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "ZLR Blade"
+ATT.CompactName = "ZLR Blade"
+ATT.Description = "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_stocksn.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_vector_stock"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_stocksn.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_none"}
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.08
+ATT.RecoilKickMult = 0.85
+
+ARC9.LoadAttachment(ATT, "cod2019_vector_stock_sniper")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "40 Round Drums"
 ATT.CompactName = "40 Round"
 ATT.Description = [[Drum magazines hold 40 rounds of .45 ACP, maximizing ammo capacity at the expense of mobility.]]

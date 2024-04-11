@@ -5,7 +5,7 @@
     "$phongexponenttexture" "models\cod2019\ram7\weapon_vm_ar_tango21_barlong_e"
 
     /////////////////
-    "$color2" "[0.8 0.8 0.8]"                                     //do not touch this
+    "$color2" "[1 1 1]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
@@ -23,7 +23,7 @@
     "$envmaptint" "[0.204 0.208 0.204]"
 
     "$detailblendmode" "4"
-    "$detailblendfactor" "0.4"                    
+    "$detailblendfactor" "0.7"                    
 
     //remove this if not using MWB
     "Proxies"
