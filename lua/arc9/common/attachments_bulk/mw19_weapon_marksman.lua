@@ -1111,6 +1111,8 @@ ATT.Category = "cod2019_spr208_stock"
 ATT.ActivateElements = {"stock_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_stockskel.mdl"
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
 ATT.RHIK_Priority = 5
 ATT.RHIK = true
 --ATT.BoneMerge = true
@@ -1134,6 +1136,8 @@ ATT.Category = "cod2019_spr208_stock"
 ATT.ActivateElements = {"stock_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_stockhvy.mdl"
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
 ATT.RHIK_Priority = 5
 ATT.RHIK = true
 --ATT.BoneMerge = true
@@ -1177,11 +1181,37 @@ ATT.Category = "cod2019_spr208_stock"
 ATT.ActivateElements = {"stock_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_stocktac.mdl"
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
 ATT.RHIK_Priority = 5
 ATT.RHIK = true
 --ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "cod2019_spr208_stock_tac")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK SP-TAC 208 Ultimate"
+ATT.CompactName = "XRK SP-TAC"
+ATT.Description = [[Machine milled titanium body, ergonomic match grade stock, and ported aluminium shroud put your sights on target with exceptional speed and accuracy.]]
+
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_stocksn.png", "mips smooth")
+
+ATT.AimDownSightsTimeMult = 1.07
+ATT.CycleTimeMult = 0.89
+ATT.RecoilSightsMult = 0.80
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_spr208_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_stocksn.mdl"
+ATT.BoneMerge = true
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ARC9.LoadAttachment(ATT, "cod2019_spr208_stock_sniper")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
