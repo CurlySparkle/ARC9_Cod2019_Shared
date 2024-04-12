@@ -1211,6 +1211,30 @@ ATT.BoneMerge = true
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
+ATT.Attachments = {
+    { -- 1
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/cod2019/attachs/weapons/spr208/stickers/attachment_vm_sn_romeo700_stocksn_decal_a.mdl",
+        Category = "stickers",
+		Pos = Vector(0, 0, 0),
+		Ang = Angle(0, 0, 0),
+    },
+    { -- 2
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/cod2019/attachs/weapons/spr208/stickers/attachment_vm_sn_romeo700_stocksn_decal_b.mdl",
+        Category = "stickers",
+		Pos = Vector(2, 0, 0),
+		Ang = Angle(0, 0, 0),
+    },
+    { -- 3
+        PrintName = "Sticker",
+        StickerModel = "models/weapons/cod2019/attachs/weapons/spr208/stickers/attachment_vm_sn_romeo700_stocksn_decal_c.mdl",
+        Category = "stickers",
+		Pos = Vector(4, 0, 0),
+		Ang = Angle(0, 0, 0),
+    },
+}
+
 ARC9.LoadAttachment(ATT, "cod2019_spr208_stock_sniper")
 ---------------------------------------------------------------------------------------
 ATT = {}
