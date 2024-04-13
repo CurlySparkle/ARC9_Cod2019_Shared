@@ -1160,7 +1160,7 @@ ATT.ViewModel = "models/weapons/cod2019/c_smg_striker45_ump.mdl"
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_striker45_receiver"}
-ATT.ActivateElements = {"body_none","sights_none","grip_none","body_ump"}
+ATT.ActivateElements = {"body_none","sights_none","body_ump"}
 
 ATT.AimDownSightsTimeMult = 1.1
 ATT.RecoilMult = 1.15
@@ -1180,8 +1180,10 @@ ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["sights"] then
         model:SetBodygroup(1,1)
     end
-    if swep:GetElements()["grip_none"] then
+    if swep:GetElements()["pgrip_none"] then
         model:SetBodygroup(2,1)
+    elseif swep:GetElements()["stock_light"] then
+	    model:SetBodygroup(2,1)
     end
 end
 
@@ -1245,17 +1247,11 @@ ATT.ActivateElements = {"mag_none"}
 -- ATT.DistantShootSoundSilencedIndoor = "Distant_AR_Sup.Inside"
 -- ---------------------------------------------------
 
--- ATT.AimDownSightsTimeMult = 1.05
--- ATT.SprintToFireTimeMult = 1.05
--- ATT.RecoilMult = 1.1
--- ATT.RPM = 666
-
--- ATT.DamageMaxMult = 1.1
--- ATT.DamageMinMult = 1.1
-
--- ATT.RangeMaxMult = 1.15
--- ATT.RangeMinMult = 1.15
--- ATT.PhysBulletMuzzleVelocityMult = 1.15
+ATT.RPM = 666
+ATT.AimDownSightsTimeMult = 1.07
+ATT.RecoilMult = 1.1
+ATT.DamageMaxMult = 1.1
+ATT.DamageMinMult = 1.1
 
 ATT.BulletBones = {
     [1] = "j_bullet1",
@@ -1378,7 +1374,7 @@ ATT.Icon = Material("entities/attachs/sm/striker45/cod2019_sm_striker45_xmagslrg
 
 ATT.ClipSizeOverride = 45
 ATT.ReloadTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.05
+ATT.DeployTimeMult = 1.05
 ATT.AimDownSightsTimeMult = 1.05
 
 ATT.SortOrder = 0
@@ -1408,7 +1404,7 @@ ATT.Icon = Material("entities/attachs/sm/striker45/cod2019_sm_striker45_xmagslrg
 
 ATT.ClipSizeOverride = 45
 ATT.ReloadTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.05
+ATT.DeployTimeMult = 1.05
 ATT.AimDownSightsTimeMult = 1.05
 ATT.RPM = 900
 
@@ -1891,7 +1887,7 @@ ATT.AutoStats = true
 
 ATT.Free = false
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/cx9_barrel_silenced.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_barsillong.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -2002,8 +1998,8 @@ ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_xlong")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = [[Skeletal Stock]]
-ATT.CompactName = [[Skeletal]]
+ATT.PrintName = [[CX-FA]]
+ATT.CompactName = [[CX-FA]]
 ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_stockskel.png")
 ATT.Description = [[Provides more handling speed at the cost of recoil.]]
 ATT.SortOrder = 0.5
@@ -2011,17 +2007,90 @@ ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_cx9_stock"}
-ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/cx9_stock_skeleton.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_stockskel.mdl"
 ATT.BoneMerge = true
 
 ATT.IconOffset = Vector(0, 0, 0)
 ATT.ActivateElements = {"stock_none"}
 
-ATT.RecoilUpMult = 1.15
-ATT.AimDownSightsTimeMult = 0.85
-ATT.SprintToFireTimeMult = 0.85
+ATT.RecoilSideMult = 0.81
+ATT.AimDownSightsTimeMult = 1.08
+ATT.DeployTimeMult = 1.07
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_stock_skeleton")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = [[CX-FR]]
+ATT.CompactName = [[CX-FR]]
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_stockskel.png")
+ATT.Description = [[Provides more handling speed at the cost of recoil.]]
+
+ATT.SortOrder = 0.5
+ATT.Free = false
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_cx9_stock"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_stockno.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_none"}
+
+ATT.RecoilUpMult = 1.15
+ATT.RecoilKickMult = 1.3
+ATT.AimDownSightsTimeMult = 0.82
+ATT.DeployTimeMult = 0.82
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_stock_no")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "30 Round Mags"
+ATT.CompactName = "30 Round"
+ATT.Description = [[Bigger magazine that holds 30 rounds of .45 ACP, maximizing ammo capacity at the expense of mobility.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_xmags.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_cx9_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.AimDownSightsTimeMult = 1.05
+ATT.SprintToFireTimeMult = 1.05
+ATT.ReloadTimeMult = 1.1
+ATT.ClipSizeOverride = 30
+
+local bulletbones = {
+    [3] = "j_bullet3",
+    [2] = "j_bullet2",
+    [1] = "j_bullet1"
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 3 - clip + 1
+
+    for i = 1, 3 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_mag_xmag")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -2042,22 +2111,40 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_cx9_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SprintToFireTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.08
+ATT.DeployTimeMult = 1.08
 ATT.RecoilMult = 1.1
-
+ATT.ReloadTimeMult = 1.15
 ATT.ClipSizeOverride = 50
-
-ATT.BulletBones = {
-    [1] = "j_bullet1",
-    [2] = "j_bullet2",
-    [3] = "j_bullet3",
-}
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg", 
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg", 
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
 }
+
+local bulletbones = {
+    [3] = "j_bullet3",
+    [2] = "j_bullet2",
+    [1] = "j_bullet1"
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 3 - clip + 1
+
+    for i = 1, 3 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_mag_drum")

@@ -17,6 +17,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = {"cod2019_optic_sidemount"}
 ATT.ActivateElements = {"optic_sidemount"}
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_picatinny.mdl"
 ATT.ModelOffset = Vector(-1, 0, 0.1)
@@ -33,9 +34,9 @@ ATT.Attachments = {
 }
 
 if !warzonestats then -- Regular Stats
-
+   ATT.AimDownSightsTimeMult = 1.08
 else -- Warzone Stats
-
+   ATT.AimDownSightsTimeMult = 1.05
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_picatinny")
