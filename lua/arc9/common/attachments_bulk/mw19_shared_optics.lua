@@ -1316,7 +1316,7 @@ ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_4x_west_tall.mdl"
-ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 
 ATT.Sights = {
     {
