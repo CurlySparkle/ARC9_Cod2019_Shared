@@ -30,12 +30,15 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-3.1, 0, 0),
             Ang = Angle(0,0,0),
         }
     }
 }
+
+ATT.CustomizePos = Vector(13, 40, 3)
+ATT.CustomizeRotateAnchor = Vector(13, -2.5, -4)
 
 if !warzonestats then -- Regular Stats
 	ATT.SpreadMult = 1.15
@@ -79,12 +82,15 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-14.5, 0, 0),
             Ang = Angle(0,0,0),
         }
     }
 }
+
+ATT.CustomizePos = Vector(7, 35, 3)
+ATT.CustomizeRotateAnchor = Vector(7, -3, -4)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.85
@@ -141,12 +147,15 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(1.3, 0, 0),
             Ang = Angle(0,0,0),
         }
     }
 }
+
+ATT.CustomizePos = Vector(16.5, 40, 3)
+ATT.CustomizeRotateAnchor = Vector(16.5, -2.5, -4)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
@@ -375,6 +384,15 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_barrel_long.mdl"
 ATT.BoneMerge = true
 
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(6, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
 ATT.SpreadMult = 0.9
 ATT.ClipSizeOverride = 10
 ATT.AimDownSightsTimeMult = 1.15
@@ -382,7 +400,7 @@ ATT.RangeMaxMult = 1.1
 ATT.RangeMinMult = 1.1
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_model680_barrels"}
+ATT.Category = {"cod2019_model680_barrel"}
 ATT.ActivateElements = {"barrel_none","front_sight_none","barrel_long"}
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_mid")
@@ -943,7 +961,7 @@ ATT.ActivateElements = {"barrel_none","barrel_long"}
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(8, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -982,7 +1000,7 @@ ATT.ActivateElements = {"barrel_none"}
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-1.1, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1103,7 +1121,7 @@ ATT.ActivateElements = {"barrel_none"}
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(0.95, 0, 0),
             Ang = Angle(0,0,0),
         }

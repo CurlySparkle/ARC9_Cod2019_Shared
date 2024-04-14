@@ -744,7 +744,7 @@ L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "75
 /////////////// Optics
 -- L["cod2019_akilo47_rail_sight.printname"] = "Upper Sight Rail" -- UO
 -- L["cod2019_akilo47_rail_sight.compactname"] = "U.S.R." -- UO
--- L["cod2019_akilo47_rail_sight.description"] = "Displays the sight rail regardless if an optic is equipped or not." -- UO
+-- L["cod2019_akilo47_rail_sight.description"] = "Adds an RIS rail on top of the top cover." -- UO
 
 /////////////// Barrels
 L["cod2019_akilo47_barrel_custom.printname"] = "Spetsnaz Elite"
@@ -772,7 +772,6 @@ L["cod2019_ak47_stock_heavy.printname"] = "Field LMG Stock"
 L["cod2019_ak47_stock_heavy.compactname"] = "Field LMG"
 
 L["cod2019_akilo47_stockskel.printname"] = "Skeleton Stock"
-L["cod2019_akilo47_stockskel.compactname"] = "Skeleton"
 
 -- L["cod2019_ak47_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 
@@ -943,8 +942,7 @@ L["cod2019_an94_stock_none.compactname"] = "Folded"
 L["cod2019_an94_stock_vlight.printname"] = "VLK PX-9 Pero"
 L["cod2019_an94_stock_vlight.compactname"] = "Pero"
 
-L["cod2019_an94_stockskel.printname"] = "Skeleton Stock"
-L["cod2019_an94_stockskel.compactname"] = "Skeleton"
+-- L["cod2019_an94_stockskel.printname"] = ARC9:GetPhrase("cod2019_akilo47_stockskel.printname") or "Skeleton Stock"
 
 /////////////// Magazine
 L["cod2019_an94_mag_45.printname"] = string.format(mw19magtext.mag, "45")
@@ -962,13 +960,13 @@ L["cod2019_optic_scope_svd.compactname"] = "Dragunov"
 L["cod2019_optic_scope_svd.description"] = "High power <color=100,255,100>5.5x</color> scope for longer range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Barrels
-L["cod2019_asval_barrel_01.printname"] = "VLK 105mm Sova"
-L["cod2019_asval_barrel_01.compactname"] = "Sova"
-L["cod2019_asval_barrel_01.description"] = "Lightweight and stealthy, titanium baffles and an aluminium shroud improve weapon maneuvering."
+L["cod2019_asval_barrel_short.printname"] = "VLK 105mm Sova"
+L["cod2019_asval_barrel_short.compactname"] = "Sova"
+L["cod2019_asval_barrel_short.description"] = "Lightweight and stealthy, titanium baffles and an aluminium shroud improve weapon maneuvering."
 
-L["cod2019_asval_barrel_02.printname"] = "Stovl SOF"
-L["cod2019_asval_barrel_02.compactname"] = "Stovl"
-L["cod2019_asval_barrel_02.description"] = "Designed for special forces' raids and reconnaissance, a proprietary monocore provides quality sound suppression in a shorter barrel."
+L["cod2019_asval_barrel_light.printname"] = "Stovl SOF"
+L["cod2019_asval_barrel_light.compactname"] = "Stovl"
+L["cod2019_asval_barrel_light.description"] = "Designed for special forces' raids and reconnaissance, a proprietary monocore provides quality sound suppression in a shorter barrel."
 
 L["cod2019_asval_barrel_heavy.printname"] = "VLK 200mm Osa"
 L["cod2019_asval_barrel_heavy.compactname"] = "Osa"
@@ -1158,6 +1156,10 @@ L["cod2019_uzi_mag_cult.printname"] = ".41 AE 32-Round Mags"
 L["cod2019_uzi_mag_cult.compactname"] = "32R .41 AE"
 L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazines of higher caliber <color=255,255,100>.41 AE</color> ammunition for increased range and stopping power."
 
+-- L["cod2019_uzi_mag_cult_9mm.printname"] = "9x19mm 32-Round Mags" -- UO
+-- L["cod2019_uzi_mag_cult_9mm.compactname"] = "32R 9x19mm" -- UO
+-- L["cod2019_uzi_mag_cult_9mm.description"] = "Conversion kit to use 32-round magazines of higher caliber <color=255,255,100>9x19mm</color> ammunition for increased range and stopping power." -- UO
+
 ////////////////////  PP19 Bizon
 /////////////// Barrels
 L["cod2019_pp19_barrel_01.printname"] = "8.7\" Steel"
@@ -1292,10 +1294,10 @@ L["cod2019_vector_suppresor.description"] = "Custom extended suppressor from ZLR
 L["cod2019_vector_stock_heavy.printname"] = "FTAC C6 Carbine PRO"
 L["cod2019_vector_stock_heavy.compactname"] = "Carbine"
 
-L["cod2019_vector_stock_light.printname"] = "FORGE TAC CQS"
+L["cod2019_vector_stock_stable.printname"] = "FORGE TAC CQS"
 
-L["cod2019_vector_stock_vheavy.printname"] = "ZLR Blade"
-L["cod2019_vector_stock_vheavy.compactname"] = "Blade"
+L["cod2019_vector_stock_sniper.printname"] = "ZLR Blade"
+L["cod2019_vector_stock_sniper.compactname"] = "Blade"
 
 /////////////// Magazine
 L["cod2019_vector_mag_drum.printname"] = string.format(mw19magtext.drum, "40")
@@ -1381,14 +1383,14 @@ L["cod2019_cx9_stock_skeleton.printname"] = "CX-FA"
 L["cod2019_cx9_stock_skeleton.compactname"] = "CX-FA"
 L["cod2019_cx9_stock_skeleton.description"] = "Ultralight Forward Assault Stock speeds up weapon handling and movement at the expense of aiming stability."
 
-L["cod2019_cx9_stock_none.printname"] = "CX-FR"
-L["cod2019_cx9_stock_none.compactname"] = "CX-FR"
-L["cod2019_cx9_stock_none.description"] = "Forward Recon configuration - The ultimate run and gun modification when agility is more important than precision."
+L["cod2019_cx9_stock_no.printname"] = "CX-FR"
+L["cod2019_cx9_stock_no.compactname"] = "CX-FR"
+L["cod2019_cx9_stock_no.description"] = "Forward Recon configuration - The ultimate run and gun modification when agility is more important than precision."
 
 /////////////// Magazine
-L["cod2019_cx9_mag_30.printname"] = string.format(mw19magtext.mag, "30")
-L["cod2019_cx9_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["cod2019_cx9_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
+L["cod2019_cx9_mag_xmag.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_cx9_mag_xmag.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_cx9_mag_xmag.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
 -- L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname") or ".45 Hollow Point 12-R Mags"
 
@@ -1796,10 +1798,6 @@ L["cod2019_bruenmk9_barrel_short.compactname"] = "Para"
 /////////////// Underbarrel
 -- L["cod2019_bruenmk9_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
 
-/////////////// Stocks
-L["cod2019_bruen_stock_vlight.printname"] = "Skeleton Stock"
-L["cod2019_bruen_stock_vlight.compactname"] = "Skeleton"
-
 /////////////// Magazine
 L["cod2019_bruen_mag_200.printname"] = string.format(mw19magtext.belt, "200")
 L["cod2019_bruen_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
@@ -2129,9 +2127,9 @@ L["cod2019_spr208_barrel_04.compactname"] = "Dragoon"
 L["cod2019_spr208_barrel_04.description"] = "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a Iow sound signature."
 
 /////////////// Stocks
-L["cod2019_spr208_stock_medium.printname"] = "XRK SP-TAC 208 Ultimate"
-L["cod2019_spr208_stock_medium.compactname"] = "Ultimate"
-L["cod2019_spr208_stock_medium.description"] = "Machine milled titanium body, ergonomic match grade stock, and ported aluminium shroud put your sights on target with exceptional speed and accuracy."
+L["cod2019_spr208_stock_sniper.printname"] = "XRK SP-TAC 208 Ultimate"
+L["cod2019_spr208_stock_sniper.compactname"] = "Ultimate"
+L["cod2019_spr208_stock_sniper.description"] = "Machine milled titanium body, ergonomic match grade stock, and ported aluminium shroud put your sights on target with exceptional speed and accuracy."
 
 L["cod2019_spr208_stock_tac.printname"] = "FSS Virtuoso Pro"
 L["cod2019_spr208_stock_tac.compactname"] = "Virtuoso"
@@ -2189,8 +2187,7 @@ L["cod2019_dragunov_barrel_02.description"] = "Extended barrel improves muzzle v
 L["cod2019_dragunov_stock_heavy.printname"] = "FTAC Hunter-Scout"
 L["cod2019_dragunov_stock_heavy.compactname"] = "Hunter-Scout"
 
-L["cod2019_dragunov_stock_vlight.printname"] = "Skeleton Stock"
-L["cod2019_dragunov_stock_vlight.compactname"] = "Skeleton"
+-- L["cod2019_dragunov_stock_vlight.printname"] = ARC9:GetPhrase("cod2019_akilo47_stockskel.printname") or "Skeleton Stock"
 
 L["cod2019_dragunov_stock_light.printname"] = "VLK Lightweight Stock"
 L["cod2019_dragunov_stock_light.compactname"] = "Lightweight"
@@ -2556,17 +2553,17 @@ L["cod2019_sykov_mag_drum.compactname"] = string.format(mw19magtext.mags, "80")
 L["cod2019_sykov_mag_drum.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["918"])
 
 /////////////// Pistol Grips
-L["cod2019_sykov_rg_01.printname"] = "VLK Spetznaz"
-L["cod2019_sykov_rg_01.compactname"] = "Spetznaz"
-L["cod2019_sykov_rg_01.description"] = "Mil-spec grip balanced for relaxed and controlled handling. Keeps you steady and on target."
+L["cod2019_sykov_grip_01.printname"] = "VLK Spetznaz"
+L["cod2019_sykov_grip_01.compactname"] = "Spetznaz"
+L["cod2019_sykov_grip_01.description"] = "Mil-spec grip balanced for relaxed and controlled handling. Keeps you steady and on target."
 
-L["cod2019_sykov_rg_02.printname"] = "VLK Prizrak"
-L["cod2019_sykov_rg_02.compactname"] = "Prizrak"
-L["cod2019_sykov_rg_02.description"] = "Designed for control when performing high-speed maneuvers. Less stable but very agile."
+L["cod2019_sykov_grip_02.printname"] = "VLK Prizrak"
+L["cod2019_sykov_grip_02.compactname"] = "Prizrak"
+L["cod2019_sykov_grip_02.description"] = "Designed for control when performing high-speed maneuvers. Less stable but very agile."
 
-L["cod2019_sykov_rg_03.printname"] = "VLK Elita"
-L["cod2019_sykov_rg_03.compactname"] = "Elita"
-L["cod2019_sykov_rg_03.description"] = "Ergonomic pistol grip keeps gun tight in hand. Exceptional recoil control at the cost of aiming stability."
+L["cod2019_sykov_grip_03.printname"] = "VLK Elita"
+L["cod2019_sykov_grip_03.compactname"] = "Elita"
+L["cod2019_sykov_grip_03.description"] = "Ergonomic pistol grip keeps gun tight in hand. Exceptional recoil control at the cost of aiming stability."
 
 ////////////////////////  Knives
 ////////////////////  Combat Knife
