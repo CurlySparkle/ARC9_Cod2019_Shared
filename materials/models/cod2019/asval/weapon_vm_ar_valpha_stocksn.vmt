@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\asval\weapon_vm_ar_valpha_barhvy_rgb"
-    "$bumpmap" "models\cod2019\asval\weapon_vm_ar_valpha_barhvy_n"
-    "$phongexponenttexture" "models\cod2019\asval\weapon_vm_ar_valpha_barhvy_e"
+    "$basetexture" "models\cod2019\asval\weapon_vm_ar_valpha_stocksn_rgb"
+    "$bumpmap" "models\cod2019\asval\weapon_vm_ar_valpha_stocksn_n"
+    "$phongexponenttexture" "models\cod2019\asval\weapon_vm_ar_valpha_stocksn_e"
 
     /////////////////
     "$color2" "[1 1 1]"                                     //do not touch this
@@ -20,7 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.098 0.098 0.098]"                 
+    "$envmaptint" "[0.102 0.102 0.102]"                 
 
     "$detailblendmode" "4"
     "$detailblendfactor" "0.7"
@@ -32,7 +32,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.098 0.098 0.098]"
+            "color" "[0.102 0.102 0.102]"
         }
 	   "CustomCamo" 
         {

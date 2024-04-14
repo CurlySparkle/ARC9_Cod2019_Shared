@@ -3236,11 +3236,9 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.AimDownSightsTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.11
 ATT.RecoilMult = 1.1
-
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
+ATT.RangeMaxMult = 1.12
 
 -- ATT.Element = {
     -- AttPosMods = {
@@ -3252,6 +3250,79 @@ ATT.RangeMinMult = 1.25
 -- }
 
 ARC9.LoadAttachment(ATT, "cod2019_asval_barrel_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Stovl SOF"
+ATT.CompactName = "Stovl SOF"
+ATT.Description = [[Designed for special forces' raids and reconnaissance, a proprietary monocore provides quality sound suppression in a shorter barrel.]]
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_barlight.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_barlight.mdl"
+ATT.BoneMerge = true
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.Category = "cod2019_asval_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.AimDownSightsTimeMult = 0.87
+ATT.DeployTimeMult = 0.8
+ATT.RecoilKickMult = 1.125
+ATT.RangeMaxMult = 0.9
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- Laser
+            Pos = Vector(-3, 2.04, 1.15),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_asval_barrel_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "VLK 105mm Sova"
+ATT.CompactName = "VLK 105mm"
+ATT.Description = [[Lightweight and stealthy, titanium baffles and an aluminium shroud improve weapon manuevering.]]
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_barshort.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_barshort.mdl"
+ATT.BoneMerge = true
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.Category = "cod2019_asval_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.AimDownSightsTimeMult = 0.88
+ATT.DeployTimeMult = 0.87
+ATT.RecoilKickMult = 1.125
+ATT.RangeMaxMult = 0.95
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- Laser
+            Pos = Vector(-3.2, 2.04, 1.15),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+
+ARC9.LoadAttachment(ATT, "cod2019_asval_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -3301,10 +3372,11 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valph
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_asval_stocks"}
+ATT.Category = {"cod2019_asval_stock"}
 ATT.ActivateElements = {"stock_none","pistgrip_none"}
 
 ATT.AimDownSightsTimeMult = 1.12
-ATT.RecoilMult = 0.91
+ATT.RecoilUpMult = 0.91
+ATT.RecoilSideMult = 0.91
 
 ARC9.LoadAttachment(ATT, "cod2019_asval_stock_heavy")
