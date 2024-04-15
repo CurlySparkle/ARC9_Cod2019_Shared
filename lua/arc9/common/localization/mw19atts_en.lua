@@ -2263,6 +2263,15 @@ L["cod2019_sa86_stock_stable.printname"] = "FORGE TAC CQB Comb"
 L["cod2019_sa86_stock_stable.compactname"] = "CQB Comb"
 L["cod2019_sa86_stock_stable.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
+/////////////// Mags
+L["cod2019_sa87_mag_50.printname"] = string.format(mw19magtext.mag, "50")
+L["cod2019_sa87_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_sa87_mag_50.description"] = string.format(mw19magtext.desc, "50", mw19ammotype["5.56 NATO"])
+
+L["cod2019_sa87_mag_60.printname"] = string.format(mw19magtext.mag, "60")
+L["cod2019_sa87_mag_60.compactname"] = string.format(mw19magtext.mags, "60")
+L["cod2019_sa87_mag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["5.56 NATO"])
+
 ////////////////////  M91
 /////////////// Barrels
 L["cod2019_m91_barrel_mid.printname"] = "M91 Special Forces"

@@ -180,6 +180,127 @@ ARC9.LoadAttachment(ATT, "cod2019_sa86_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "50-Round Mags"
+ATT.CompactName = "50R"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_xmags.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_sa87_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
+}
+
+ATT.ClipSizeOverride = 50
+
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 1.07
+	ATT.SprintToFireTimeMult = 1.05
+	ATT.AimDownSightsTimeMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.04
+	ATT.SpeedMult = 0.998
+end
+
+local bulletbones = {
+    [4] = "j_magextbullet04",
+    [3] = "j_magextbullet03",
+    [2] = "j_magextbullet02",
+    [1] = "j_magextbullet01"
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 4 - clip + 1
+
+    for i = 1, 4 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_sa87_mag_50")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "60-Round Mags"
+ATT.CompactName = "60R"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_xmags2.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_sa87_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags2.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
+}
+
+ATT.ClipSizeOverride = 60
+
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 1.13
+	ATT.DeployTimeMult = 1.08
+	ATT.AimDownSightsTimeMult = 1.08
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.04
+	ATT.SpeedMult = 0.998
+end
+
+local bulletbones = {
+    [3] = "j_magextbullet04",
+    [2] = "j_magextbullet03",
+    [1] = "j_magextbullet02"
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 3 - clip + 1
+
+    for i = 1, 3 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_sa87_mag_60")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK SA87 Heavy Stock Pro"
 ATT.CompactName = "Heavy Stock Pro"

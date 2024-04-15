@@ -2,93 +2,6 @@ local ATT = {}
 local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone Stat Variable
 //////////////////////////////////////////////// -- Assault Rifle Attachments
 //////////////////////////////////////////////// -- Universal / Multi-Weapon
-/////////////////////////// -- Magazine
-/////////////// -- cod2019_attach_xmag_50
-ATT = {}
-
-ATT.PrintName = "50-Round Mags"
-ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 1
-ATT.Category = {"cod2019_famas_mag","cod2019_mag_xmag"}
-ATT.ActivateElements = {"mag_none","mag_xmag"}
-
-ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags.mdl"
-ATT.BoneMerge = true
-
-ATT.DropMagazineSounds = {
-"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
-"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
-"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
-}
-
-ATT.BulletBones = {
-    [1] = {"j_bullet1","j_ammo1"},
-    [2] = {"j_bullet2","j_ammo2"},
-	[3] = {"j_bullet3","j_ammo3"},
-	[4] = {"j_bullet4","j_ammo4"},
-}
-
-ATT.ClipSizeOverride = 50
-
-if !warzonestats then -- Regular Stats
-	ATT.ReloadTimeMult = 1.1
-	ATT.SprintToFireTimeMult = 1.05
-	ATT.AimDownSightsTimeMult = 1.05
-else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.04
-	ATT.SpeedMult = 0.998
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_attach_xmag_50")
-
-/////////////// -- cod2019_attach_xmag_60
-ATT = {}
-
-ATT.PrintName = "60-Round Mags"
-ATT.Description = ""
-ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags2.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Free = false
-
-ATT.SortOrder = 1
-ATT.Category = {"cod2019_famas_mag","cod2019_mag_xmag"}
-ATT.ActivateElements = {"mag_none","mag_xmag"}
-
-ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags2.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags2.mdl"
-ATT.BoneMerge = true
-
-ATT.DropMagazineSounds = {
-"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
-"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
-"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
-}
-
-ATT.BulletBones = {
-    [1] = {"j_bullet1","j_ammo1","j_magextbullet01"},
-    [2] = {"j_bullet2","j_ammo2","j_magextbullet02"},
-	[3] = {"j_bullet3","j_ammo3","j_magextbullet03"},
-	[4] = {"j_bullet4","j_ammo4","j_magextbullet04"},
-}
-
-ATT.ClipSizeOverride = 60
-
-if !warzonestats then -- Regular Stats
-	ATT.ReloadTimeMult = 1.15
-	ATT.SprintToFireTimeMult = 1.1
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.DeployTimeMult = 1.1
-else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.07
-	ATT.SpeedMult = 0.997
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_attach_xmag_60")
 
 /////////////////////////// -- Underbarrel
 /////////////// -- Grenade Launcher Code
@@ -3149,7 +3062,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
-ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_famas_xmags.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 45
 ATT.ReloadTimeMult = 1.1
@@ -3186,7 +3099,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "60 Round Casket Mags"
 ATT.CompactName = "60-Round"
 ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
-ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_famas_xmags2.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_xmagslrg.png", "mips smooth")
 
 ATT.ClipSizeOverride = 60
 ATT.ReloadTimeMult = 1.15
@@ -3209,10 +3122,10 @@ ATT.DropMagazineSounds = {
 }
 
 ATT.BulletBones = {
-    [1] = {"j_bullet1","j_ammo1","j_magextbullet01"},
-    [2] = {"j_bullet2","j_ammo2","j_magextbullet02"},
-	[3] = {"j_bullet3","j_ammo3","j_magextbullet03"},
-	[4] = {"j_bullet4","j_ammo4","j_magextbullet04"},
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_an94_mag_60")
