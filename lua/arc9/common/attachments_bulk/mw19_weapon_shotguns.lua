@@ -609,7 +609,7 @@ ATT.ActivateElements = {"barrel_none"}
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- slot of the weapon's attachment
             Pos = Vector(10, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -644,7 +644,7 @@ ATT.ActivateElements = {"barrel_none"}
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- slot of the weapon's attachment
             Pos = Vector(2.67, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -681,7 +681,7 @@ ATT.ActivateElements = {"barrel_none"}
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- slot of the weapon's attachment
             Pos = Vector(1.2, 0, 0),
             Ang = Angle(0,0,0),
         }
