@@ -1185,6 +1185,9 @@ ATT.DrawFunc = function(swep, model, wm)
     elseif swep:GetElements()["stock_light"] then
 	    model:SetBodygroup(2,1)
     end
+    if swep:GetElements()["trigger_none"] then
+        model:SetBodygroup(3,1)
+    end
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_receiver_ump")
