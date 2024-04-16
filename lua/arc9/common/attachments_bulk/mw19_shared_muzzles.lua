@@ -396,7 +396,7 @@ ATT = {}
 
 ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
-ATT.Icon = Material("entities/attachs/cod2019_muzzle_compensator_shgn01.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlemelee_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
@@ -404,7 +404,7 @@ ATT.Category = "cod2019_muzzle_shot"
 ATT.Folder = ARC9:GetPhrase("mw19_folder_muzzle")
 ATT.ActivateElements = {"muzzle"}
 
-ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_compensator_shgn01.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee_shgn01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
 ATT.MuzzleDevice_Priority = 5

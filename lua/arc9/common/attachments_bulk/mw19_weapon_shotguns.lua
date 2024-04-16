@@ -1095,6 +1095,15 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_r90_barrel"
 ATT.ActivateElements = {"barrel_none"}
 
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(0.95, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
 ARC9.LoadAttachment(ATT, "cod2019_r90_barrel_long")
 -----------------------------------------------------------
 ATT = {}
@@ -1196,7 +1205,7 @@ ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_vlk_barrel"}
-ATT.ActivateElements = {"muzzle_none","barrel_none","barrel_vlk","vlk_barrel_heavy"}
+ATT.ActivateElements = {"muzzle_none","barrel_vlk","vlk_barrel_heavy"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
@@ -1210,7 +1219,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.25
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- Muzzle
+        [1] = { -- Muzzle
             Pos = Vector(2, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1218,7 +1227,7 @@ ATT.Element = {
 }
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["muzzle"] then
+    if swep:GetElements()["muzzle_none"] then
         model:SetBodygroup(1,1)
     end
 end

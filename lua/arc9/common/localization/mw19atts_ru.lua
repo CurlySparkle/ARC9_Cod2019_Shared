@@ -1685,6 +1685,15 @@ L["cod2019_sa86_barrel_short.printname"] = "SA87 12.4\" Factory"
 L["cod2019_sa86_barrel_short.compactname"] = "12.4\""
 L["cod2019_sa86_barrel_short.description"] = "Shortest barrel available sacrifices accuracy and range for speed and agility."
 
+/////////////// Mags
+L["cod2019_sa87_mag_50.printname"] = string.format(mw19magtext.mag, "50")
+L["cod2019_sa87_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_sa87_mag_50.description"] = string.format(mw19magtext.desc, "50", mw19ammotype["556"])
+
+L["cod2019_sa87_mag_60.printname"] = string.format(mw19magtext.mag, "60")
+L["cod2019_sa87_mag_60.compactname"] = string.format(mw19magtext.mags, "60")
+L["cod2019_sa87_mag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["556"])
+
 /////////////// Stocks
 L["cod2019_sa86_stock_tactical.printname"] = "XRK SA87 Heavy Stock Pro"
 L["cod2019_sa86_stock_tactical.compactname"] = "XRK Pro"
