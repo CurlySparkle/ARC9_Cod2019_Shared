@@ -838,38 +838,46 @@ ARC9.LoadAttachment(ATT, "cod2019_sks_stock_heavy")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "10 Round Mags"
+ATT.CompactName = "10-Round"
+ATT.Description = [[High capacity magazines hold 10 rounds with a light weight increase.]]
+ATT.Icon = Material("entities/attachs/mm/sks/cod2019_mm_sks_smag.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sks/attachment_vm_sn_sksierra_smag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sks/attachment_vm_sn_sksierra_smag.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeOverride = 10
+ATT.ReloadTimeMult = 0.9
+ATT.DeployTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 0.9
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_sks_mag"}
+ATT.ActivateElements = {"mag_none","mag_smag"}
+
+ARC9.LoadAttachment(ATT, "cod2019_sks_mag_10")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "30 Round Mags"
 ATT.CompactName = "30-Round"
 ATT.Description = [[High capacity magazines hold 30 rounds with a moderate weight increase.]]
+ATT.Icon = Material("entities/attachs/mm/sks/cod2019_mm_sks_xmag.png", "mips smooth")
 
-ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags.png", "mips smooth")
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sks/attachment_vm_sn_sksierra_xmag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sks/attachment_vm_sn_sksierra_xmag.mdl"
+ATT.BoneMerge = true
 
 ATT.ClipSizeOverride = 30
--- ATT.ReloadTimeMult = 1.1
--- ATT.SprintToFireTimeMult = 1.05
--- ATT.AimDownSightsTimeMult = 1.05
+ATT.ReloadTimeMult = 1.1
+ATT.DeployTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.05
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_sks_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
-
--- ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmags.mdl"
--- ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmags.mdl"
--- ATT.BoneMerge = true
---ATT.ModelOffset = Vector(1, 0, 1)
-
--- ATT.DropMagazineSounds = {
--- "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
--- "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
--- "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
--- }
-
--- ATT.BulletBones = {
-    -- [1] = {"j_bullet1","j_ammo1"},
-    -- [2] = {"j_bullet2","j_ammo2"},
-	-- [3] = {"j_bullet3","j_ammo3"},
-	-- [4] = {"j_bullet4","j_ammo4"},
--- }
 
 ARC9.LoadAttachment(ATT, "cod2019_sks_mag_30")
 
