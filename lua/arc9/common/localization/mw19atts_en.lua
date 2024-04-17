@@ -2519,13 +2519,13 @@ L["cod2019_ebr14_barrel_01.printname"] = "FORGE TAC Precision 20.0\""
 L["cod2019_ebr14_barrel_01.compactname"] = "20.0\""
 L["cod2019_ebr14_barrel_01.description"] = "Longer barrel increases muzzle velocity and extends range with a slight weight increase."
 
-L["cod2019_ebr14_barrel_02.printname"] = "FORGE TAC Elite"
-L["cod2019_ebr14_barrel_02.compactname"] = "Elite"
-L["cod2019_ebr14_barrel_02.description"] = "MilSpec steel, precision machined dimples, and a wider bore reduce weight for improved handling at the cost of muzzle velocity."
+L["cod2019_m14_barrel_short.printname"] = "FORGE TAC Elite"
+L["cod2019_m14_barrel_short.compactname"] = "Elite"
+L["cod2019_m14_barrel_short.description"] = "MilSpec steel, precision machined dimples, and a wider bore reduce weight for improved handling at the cost of muzzle velocity."
 
-L["cod2019_ebr14_barrel_03.printname"] = "FORGE TAC Precision 22.0\""
-L["cod2019_ebr14_barrel_03.compactname"] = "22.0\""
-L["cod2019_ebr14_barrel_03.description"] = "Longest barrel available increases muzzle velocity and extends range to the max. Added weight stabilizes shots but hinders mobility."
+L["cod2019_m14_barrel_long.printname"] = "FORGE TAC Precision 22.0\""
+L["cod2019_m14_barrel_long.compactname"] = "22.0\""
+L["cod2019_m14_barrel_long.description"] = "Longest barrel available increases muzzle velocity and extends range to the max. Added weight stabilizes shots but hinders mobility."
 
 /////////////// Stocks
 L["cod2019_ebr14_stock_heavy.printname"] = "FTAC Precision Comb"
@@ -2559,13 +2559,13 @@ L["cod2019_mk2_barrel_01.printname"] = "FSS 18.0\" Factory"
 L["cod2019_mk2_barrel_01.compactname"] = "18.0\""
 L["cod2019_mk2_barrel_01.description"] = "18.0\" barrel slightly increases muzzle velocity and extends range with very little additional weight."
 
-L["cod2019_mk2_barrel_02.printname"] = "FSS 20.0\" Factory"
-L["cod2019_mk2_barrel_02.compactname"] = "20.0\""
-L["cod2019_mk2_barrel_02.description"] = "20.0\" barrel is a perfect balance of increased muzzle velocity and increased weight."
+L["cod2019_mk2_barrel_mid.printname"] = "FSS 20.0\" Factory"
+L["cod2019_mk2_barrel_mid.compactname"] = "20.0\""
+L["cod2019_mk2_barrel_mid.description"] = "20.0\" barrel is a perfect balance of increased muzzle velocity and increased weight."
 
-L["cod2019_mk2_barrel_03.printname"] = "FSS 24.0\" Factory"
-L["cod2019_mk2_barrel_03.compactname"] = "24.0\""
-L["cod2019_mk2_barrel_03.description"] = "24.0\" barrel extends muzzle velocity and range to the max, but hinders mobility."
+L["cod2019_mk2_barrel_long.printname"] = "FSS 24.0\" Factory"
+L["cod2019_mk2_barrel_long.compactname"] = "24.0\""
+L["cod2019_mk2_barrel_long.description"] = "24.0\" barrel extends muzzle velocity and range to the max, but hinders mobility."
 
 /////////////// Stocks
 L["cod2019_mk2_stock_heavy.printname"] = "Cartridge Sleeve"
@@ -2576,9 +2576,9 @@ L["cod2019_mk2_stock_medium.printname"] = "FSS MK2 Sport Comb"
 L["cod2019_mk2_stock_medium.compactname"] = "Sport"
 L["cod2019_mk2_stock_medium.description"] = "Adjustable comb designed to improve target acquisition."
 
-L["cod2019_mk2_stock_vheavy.printname"] = "FSS MK2 Precision Comb"
-L["cod2019_mk2_stock_vheavy.compactname"] = "Precision"
-L["cod2019_mk2_stock_vheavy.description"] = "Heavy duty comb add-on provides exceptional precision while aiming."
+L["cod2019_mk2_stock_tactical.printname"] = "FSS MK2 Precision Comb"
+L["cod2019_mk2_stock_tactical.compactname"] = "Precision"
+L["cod2019_mk2_stock_tactical.description"] = "Heavy duty comb add-on provides exceptional precision while aiming."
 
 L["cod2019_mk2_stock_light.printname"] = "MK2 Ultralight Hollow"
 L["cod2019_mk2_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
@@ -2909,7 +2909,7 @@ L["cod2019_rytec_barrel_02.description"] = "FTAC's 448mm titanium-cobalt barrel 
 
 L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
 L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
-L["cod2019_rytec_barrel_03.description"] = "This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity."
+L["cod2019_rytec_barrel_03.description"] = ARC9:GetPhrase("cod2019_hdr_barrel_02.description")
 
 /////////////// Muzzle
 L["cod2019_rytec_muzzle_tank.printname"] = "XRK Tank Brake"
@@ -3150,7 +3150,7 @@ L["cod2019_sykov_slide_auto.description"] = "Durable stainless steel slide and m
 /////////////// Trigger
 L["cod2019_sykov_trigger_light.printname"] = "Lightweight Single-Action"
 L["cod2019_sykov_trigger_light.compactname"] = "Light SA"
-L["cod2019_sykov_trigger_light.description"] = "Lightweight trigger set to <color=255,255,100>single-action mode</color> for extremely responsive firing. Requiies slightly slower weapon handling."
+L["cod2019_sykov_trigger_light.description"] = "Lightweight trigger set to <color=255,255,100>single-action mode</color> for extremely responsive firing. Requires slightly slower weapon handling."
 
 L["cod2019_sykov_trigger_heavy.printname"] = "Heavyweight Double-Action"
 L["cod2019_sykov_trigger_heavy.compactname"] = "Heavy DA"
