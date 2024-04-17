@@ -2407,7 +2407,7 @@ L["cod2019_357_grip_stock_light.description"] = "Kolv av polymer erbjuder en sta
 /////////////// Barrels
 L["cod2019_m19_barrel_01.printname"] = "XRK L Super"
 L["cod2019_m19_barrel_01.compactname"] = "Super"
-L["cod2019_m19_barrel_01.description"] = "Tungt slutstycke erbjuder utmärkt stabilitet. Förlängd pipa med polygonell räffling ökar vapnets räckvidd till det högsta.""
+L["cod2019_m19_barrel_01.description"] = "Tungt slutstycke erbjuder utmärkt stabilitet. Förlängd pipa med polygonell räffling ökar vapnets räckvidd till det högsta."
 
 L["cod2019_m19_barrel_02.printname"] = "XRK V Extended"
 L["cod2019_m19_barrel_02.compactname"] = "Extended"
