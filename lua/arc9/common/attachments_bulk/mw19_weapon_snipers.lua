@@ -72,11 +72,10 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilMult = 0.9
-
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
+ATT.AimDownSightsTimeMult = 1.10
+ATT.DeployTimeMult = 1.08
+ATT.RecoilMult = 0.94
+ATT.RangeMaxMult = 1.1
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -98,10 +97,51 @@ ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "510mm Compact Barrel"
+ATT.PrintName = "510mm Mid Barrel"
 ATT.CompactName = "510mm"
-ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move.]]
+ATT.Description = [[Medium barrel with less accuracy and range for speed and agility. Better for sniping on the move.]]
 
+ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_barmid.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_barmid.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_svd_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.AimDownSightsTimeMult = 0.95
+ATT.DeployTimeMult = 0.95
+ATT.RecoilMult = 1.05
+ATT.RangeMaxMult = 0.95
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- slot of the weapon's attachment
+            Pos = Vector(-2.2, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_mid")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "440mm Compact Barrel"
+ATT.CompactName = "440mm"
+ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move.]]
 ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_barshort.mdl"
@@ -115,11 +155,9 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.AimDownSightsTimeMult = 0.85
-ATT.RecoilMult = 1.15
-
+ATT.AimDownSightsTimeMult = 0.91
+ATT.DeployTimeMult = 0.91
 ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -141,15 +179,56 @@ ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Skeleton Stock"
+ATT.CompactName = "Skeleton"
+ATT.Description = [[Extended magazines hold 15 rounds of 7.62×54mmR with a slight weight increase.]]
+ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_stock_light.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_svd_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_stock_light.mdl"
+ATT.BoneMerge = true
+
+ATT.AimDownSightsTimeMult = 0.8
+ATT.DeployTimeMult = 0.9
+ATT.RecoilKickMult = 1.2
+
+ARC9.LoadAttachment(ATT, "cod2019_svd_stock_skeleton")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "VLK Lightweight Stock"
+ATT.CompactName = "Lightweight"
+ATT.Description = [[Extended magazines hold 15 rounds of 7.62×54mmR with a slight weight increase.]]
+ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_stock_short.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_svd_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_stock_short.mdl"
+ATT.BoneMerge = true
+
+ATT.AimDownSightsTimeMult = 0.93
+ATT.DeployTimeMult = 0.97
+ATT.RecoilKickMult = 0.95
+
+ARC9.LoadAttachment(ATT, "cod2019_svd_stock_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "15 Round Mag"
 ATT.CompactName = "15-Round"
 ATT.Description = [[Extended magazines hold 15 rounds of 7.62×54mmR with a slight weight increase.]]
-
---ATT.Icon = Material("entities/attachs/go_aug_ammo_9mm.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_xmags.png", "mips smooth")
 
 ATT.ClipSizeOverride = 15
-ATT.ReloadTimeMult = 1.1
-ATT.AimDownSightsTimeMult = 1.1
+ATT.ReloadTimeMult = 1.05
+ATT.AimDownSightsTimeMult = 1.07
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_svd_mag"
@@ -160,6 +239,30 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_v
 ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "cod2019_svd_mag_15")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "20 Round Mag"
+ATT.CompactName = "20-Round"
+ATT.Description = [[Extended magazines hold 20 rounds of 7.62×54mmR with a slight weight increase.]]
+ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_xmags2.png", "mips smooth")
+
+ATT.ClipSizeOverride = 20
+ATT.ReloadTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.15
+ATT.DeployTimeMult = 1.10
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_svd_mag"
+ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags2.mdl"
+ATT.BoneMerge = true
+
+ARC9.LoadAttachment(ATT, "cod2019_svd_mag_20")
+
 /////////////////////////// -- HDR
 ATT = {}
 
