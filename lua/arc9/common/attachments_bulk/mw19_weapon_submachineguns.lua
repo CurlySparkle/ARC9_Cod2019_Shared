@@ -36,7 +36,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(2.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -526,7 +526,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(4.1, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -637,7 +637,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(7, 0, -0.2),
             Ang = Angle(0,0,0),
         },
@@ -690,7 +690,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(0.8, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -740,11 +740,11 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(6.7, 0, 0),
             Ang = Angle(0,0,0),
         },
-        [4] = { -- slot of the weapon's attachment
+        [3] = { -- Laser
             Pos = Vector(6, -2.45, 0.03),
             Ang = Angle(0,0,0),
         },
@@ -909,7 +909,7 @@ ATT.AimDownSightsTimeMult = 1.08
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(2, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -945,7 +945,7 @@ ATT.HolsterTimeMult = 0.9
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-2, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1055,7 +1055,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(1, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1099,7 +1099,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(1, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1288,7 +1288,7 @@ ATT.SpreadMult = 0.80
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(7.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1323,7 +1323,7 @@ ATT.RangeMaxMult = 1.07
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(5.7, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1358,7 +1358,7 @@ ATT.RangeMaxMult = 0.95
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-0.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1596,7 +1596,7 @@ ATT.RangeMinMult = 1.25
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(9.5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1739,11 +1739,11 @@ ATT.RangeMaxMult = 1.1
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(4.8, 0, 0),
             Ang = Angle(0,0,0),
         },
-        [4] = { -- slot of the weapon's attachment
+        [3] = { -- Laser
             Pos = Vector(5, -0.55, -0.9),
             Ang = Angle(0,0,-90),
         }
@@ -1940,7 +1940,7 @@ ATT.SpreadMult = 0.9
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -1984,7 +1984,7 @@ ATT.SpreadMult = 0.9
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(7, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -2151,3 +2151,91 @@ ATT.DrawFunc = function(wep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_mag_drum")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "CX-9 Clutch Grip"
+ATT.Description = "Clutch"
+ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_cx9_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_01"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_pistolgrip03.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.SpeedSightsMult = 0.996
+else -- Warzone Stats
+	ATT.RecoilKickMult = 0.92
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_griptape_01")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "CX-9 Ace Grip"
+ATT.Description = "Ace"
+ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 2
+ATT.Category = "cod2019_cx9_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_02"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_pistolgrip01.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilMult = 0.994
+	ATT.VisualRecoilMult = 0.994
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.96
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["pgrip_02"] then
+        model:SetSkin(1)
+    else
+        model:SetSkin(0)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_griptape_02")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "CX-9 Tac Grip"
+ATT.Description = "Tac"
+ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_cx9_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_03"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_pistolgrip02.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+		ATT.AimDownSightsTimeAdd = -0.011
+	ATT.SprintToFireTimeAdd = -0.037
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.009
+	ATT.SprintToFireTimeAdd = -0.038
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["pgrip_03"] then
+        model:SetSkin(2)
+    else
+        model:SetSkin(0)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_griptape_03")
