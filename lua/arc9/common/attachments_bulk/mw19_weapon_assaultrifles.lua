@@ -1362,6 +1362,7 @@ ATT.Description = [[]]
 ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_xxmags.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags.mdl"
 ATT.BoneMerge = true
 
 ATT.SortOrder = 0
@@ -1371,9 +1372,65 @@ ATT.ActivateElements = {"mag_none"}
 ATT.ClipSizeOverride = 30
 ATT.AimDownSightsTimeMult = 1.07
 ATT.DeployTimeMult = 1.1
-ATT.ReloadTimeMult = 1.15
+ATT.ReloadTimeMult = 1.1
 
 ARC9.LoadAttachment(ATT, "cod2019_oden_mag_30")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "50 Round Mags"
+ATT.CompactName = "50-Round"
+ATT.Description = [[]]
+ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_xxmags.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags2.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_oden_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.ClipSizeOverride = 50
+ATT.AimDownSightsTimeMult = 1.11
+ATT.DeployTimeMult = 1.13
+ATT.ReloadTimeMult = 1.15
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_mag_50")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "10 TP Round Mags"
+ATT.CompactName = "10-Round TP"
+ATT.Description = [[]]
+ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_mag_sniper.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_mag_sniper.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_mag_sniper.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_oden_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.ClipSizeOverride = 10
+ATT.ReloadTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 0.93
+ATT.RPM = 380
+ATT.DamageMaxMult = 1.35
+ATT.DamageMinMult = 1.35
+ATT.RangeMaxMult = 1.50
+
+ATT.Firemodes = {
+    {
+        Mode = 1,
+		PoseParam = 1,
+    },
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_mag_10")
 
 //////////////////////////////////////////////// -- M13
 ATT = {}
