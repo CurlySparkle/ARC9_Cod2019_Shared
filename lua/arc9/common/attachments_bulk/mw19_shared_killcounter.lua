@@ -29,26 +29,25 @@ ATT.Hook_OnKill = function(self, ent)
         sql.Query("CREATE TABLE arc9_killcounter (weapon TEXT, npckills INTEGER, playerkills INTEGER)")
     end
 
-    local npckills, playerkills = 0, 0
+    local playerkills = 0
 
     -- check whether the weapon is already in the table
 
     if sql.QueryValue("SELECT weapon FROM arc9_killcounter WHERE weapon = '" .. weapon .. "'") then
-        npckills = sql.QueryValue("SELECT npckills FROM arc9_killcounter WHERE weapon = '" .. weapon .. "'")
         playerkills = sql.QueryValue("SELECT playerkills FROM arc9_killcounter WHERE weapon = '" .. weapon .. "'")
     else
         sql.Query("INSERT INTO arc9_killcounter (weapon, npckills, playerkills) VALUES ('" .. weapon .. "', 0, 0)")
     end
 
-    if ent:IsNPC() or ent:IsNextBot() then
-        npckills = npckills + 1
-        sql.Query("UPDATE arc9_killcounter SET npckills = " .. npckills .. " WHERE weapon = '" .. weapon .. "'")
-    else
+    -- if ent:IsNPC() or ent:IsNextBot() then
+        -- npckills = npckills + 1
+        -- sql.Query("UPDATE arc9_killcounter SET npckills = " .. npckills .. " WHERE weapon = '" .. weapon .. "'")
+    -- else
         playerkills = playerkills + 1
         sql.Query("UPDATE arc9_killcounter SET playerkills = " .. playerkills .. " WHERE weapon = '" .. weapon .. "'")
-    end
+    -- end
 
-    self.NPCKills = npckills
+    -- self.NPCKills = npckills
     self.PlayerKills = playerkills
 end
 
@@ -64,45 +63,27 @@ if CLIENT then
 
         cam.Start2D()
 
-        local text = "KILLS"
+        local text = ARC9:GetPhrase("cod2019_killcounter_kills")
 
         surface.SetFont("ARC9_32_LCD")
 
         local w, h = surface.GetTextSize(text)
 
-        surface.SetTextPos(128 - w / 2, 32 + 40)
+        surface.SetTextPos(128 - w / 2, 100)
         surface.SetTextColor(255, 255, 255, 255)
         surface.DrawText(text)
 
-        local text_pk = "PLY | NPC"
+        local kills = tostring(self.PlayerKills or ARC9:GetPhrase("cod2019_killcounter_none"))
 
-        surface.SetFont("ARC9_32_LCD")
-
-        local wpk, hpk = surface.GetTextSize(text_pk)
-
-        surface.SetTextPos(128 - wpk / 2, 64 + 50)
-        surface.SetTextColor(255, 255, 255, 255)
-        surface.DrawText(text_pk)
-
-        local text2 = tostring(self.PlayerKills or 0)
+		-- if (self.PlayerKills and self.PlayerKills > 99) then kills = "99+" end -- If the number should change to "99+" if over 99 kills.
 
         surface.SetFont("ARC9_48_LCD")
 
-        local w2, h2 = surface.GetTextSize(text2)
+        local w2, h2 = surface.GetTextSize(kills)
 
-        surface.SetTextPos(38, 128 + 30)
+        surface.SetTextPos(130 - (w2 / 2), 150)
         surface.SetTextColor(255, 255, 255, 255)
-        surface.DrawText(text2)
-
-        local text3 = tostring(self.NPCKills or 0)
-
-        surface.SetFont("ARC9_48_LCD")
-
-        local w3, h3 = surface.GetTextSize(text3)
-
-        surface.SetTextPos(236 - w3 - 16, 128 + 30)
-        surface.SetTextColor(255, 255, 255, 255)
-        surface.DrawText(text3)
+        surface.DrawText(kills)
 
         cam.End2D()
 

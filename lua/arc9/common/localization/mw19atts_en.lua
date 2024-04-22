@@ -3420,7 +3420,21 @@ L["cod2019_knife_model_v72.printname"] = "Auxiliary"
 -- L["cod2019_knife_model_v72.compactname"] = "Auxiliary"
 L["cod2019_knife_model_v72.description"] = ARC9:GetPhrase("cod2019_knifemodel") or "Alters the appearance of the weapon.\nPurely <color=255,255,100>cosmetic</color>."
 
-//////////////////////// Non-MW19 Assault Rifles
+//////////////////////// Unofficial
+//////////////////// Charms
+///////////////// Items
+L["cod2019_cosmetic_killcounter.printname"] = "Gun Screen (Kill Counter)"
+L["cod2019_cosmetic_killcounter.compactname"] = ARC9:GetPhrase("charm_gs_killcounter.compactname") or "KILL"
+L["cod2019_cosmetic_killcounter.description"] = ARC9:GetPhrase("charm_gs_killcounter.description") or "Device for tracking your weapon's kill stats."
+
+L["cod2019_cosmetic_clock.printname"] = "Gun Screen (Time Clock)"
+L["cod2019_cosmetic_clock.compactname"] = ARC9:GetPhrase("charm_gs_clock.compactname") or "CLOCK"
+L["cod2019_cosmetic_clock.description"] = ARC9:GetPhrase("charm_gs_clock.description") or "Device that displays the real-world time."
+
+///////////////// Internal Strings
+L["cod2019_killcounter_kills"] = "KILLS"
+L["cod2019_killcounter_none"] = "N/A"
+
 //////////////////// BOCW XM4
 /////////////// Stock
 L["cod2019_xm4_stock.printname"] = "Colt Type III"

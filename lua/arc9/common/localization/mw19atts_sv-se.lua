@@ -2725,7 +2725,17 @@ L["cod2019_knife_model_v71.printname"] = "Velorum"
 L["cod2019_knife_model_v72.printname"] = "Auxiliary"
 -- L["cod2019_knife_model_v72.compactname"] = "Auxiliary"
 
-//////////////////////// Non-MW19 Assault Rifles
+//////////////////////// Unofficial
+//////////////////// Charms
+///////////////// Items
+L["cod2019_cosmetic_killcounter.printname"] = "Vapenskärm (Dråp Räknare)"
+
+L["cod2019_cosmetic_clock.printname"] = "Vapenskärm (Tidsklocka)"
+
+///////////////// Internal Strings
+L["cod2019_killcounter_kills"] = "DRÅP"
+L["cod2019_killcounter_none"] = "N/A"
+
 //////////////////// BOCW XM4
 /////////////// Stock
 L["cod2019_xm4_stock.printname"] = "Colt Typ III"
