@@ -1430,6 +1430,17 @@ ATT.Firemodes = {
     },
 }
 
+-- Non-Silenced Outside
+ATT.DistantShootSound = "Distant_BR1.Outside"
+-- Inside
+ATT.DistantShootSoundIndoor = "Distant_Shotgun.Inside"
+---------------------------------------------------
+-- Silenced Outside
+ATT.DistantShootSoundSilenced = "Distant_DMR_Sup.Outside"
+-- Inside
+ATT.DistantShootSoundSilencedIndoor = "Distant_DMR_Sup.Inside"
+---------------------------------------------------
+
 ARC9.LoadAttachment(ATT, "cod2019_oden_mag_10")
 
 //////////////////////////////////////////////// -- M13

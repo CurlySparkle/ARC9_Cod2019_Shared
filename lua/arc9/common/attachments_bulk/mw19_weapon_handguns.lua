@@ -113,6 +113,7 @@ ATT.AutoStats = true
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/50gs/attachment_vm_pi_decho_xmags2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/50gs/attachment_vm_pi_decho_xmags2.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"

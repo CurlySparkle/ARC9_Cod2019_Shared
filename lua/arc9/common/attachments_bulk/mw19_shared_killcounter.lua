@@ -16,7 +16,7 @@ ATT.ModelOffset = Vector(0, 0.1, 0)
 ATT.BoneMerge = false
 ATT.Category = {"charm", "gunscreen"}
 
-local rtsurf = Material("models/cod2019/shared/gunscreen")
+local rtsurf = Material("models/cod2019/gunscreen/gunscreen")
 
 ATT.Hook_OnKill = function(self, ent)
     if SERVER then return end
@@ -39,13 +39,13 @@ ATT.Hook_OnKill = function(self, ent)
         sql.Query("INSERT INTO arc9_killcounter (weapon, npckills, playerkills) VALUES ('" .. weapon .. "', 0, 0)")
     end
 
-    -- if ent:IsNPC() or ent:IsNextBot() then
-        -- npckills = npckills + 1
-        -- sql.Query("UPDATE arc9_killcounter SET npckills = " .. npckills .. " WHERE weapon = '" .. weapon .. "'")
-    -- else
+    if ent:IsNPC() or ent:IsNextBot() then
         playerkills = playerkills + 1
         sql.Query("UPDATE arc9_killcounter SET playerkills = " .. playerkills .. " WHERE weapon = '" .. weapon .. "'")
-    -- end
+    else
+        playerkills = playerkills + 1
+        sql.Query("UPDATE arc9_killcounter SET playerkills = " .. playerkills .. " WHERE weapon = '" .. weapon .. "'")
+    end
 
     -- self.NPCKills = npckills
     self.PlayerKills = playerkills
@@ -93,7 +93,7 @@ if CLIENT then
 
         model:SetSubMaterial()
 
-        model:SetSubMaterial(1, "models/cod2019/shared/gunscreen")
+        model:SetSubMaterial(3, "models/cod2019/gunscreen/gunscreen")
     end
 end
 
@@ -159,8 +159,37 @@ if CLIENT then
 
         model:SetSubMaterial()
 
-        model:SetSubMaterial(1, "models/cod2019/shared/gunscreen")
+        model:SetSubMaterial(3, "models/cod2019/gunscreen/gunscreen")
     end
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_cosmetic_clock")
+------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Gun Screen (Stickers)"
+ATT.CompactName = "Gun Screen S"
+ATT.Icon = Material("entities/attachs/cod2019_attach_cosmetic_killcounter.png", "mips smooth")
+ATT.Free = true
+
+ATT.Description = [[Device that can use your own sticker.]]
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Folder = "MW19"
+
+ATT.Model = "models/weapons/cod2019/attachs/cosmetic/cos_vm_iw9_mounteddisplay01_v0.mdl"
+ATT.ModelOffset = Vector(0, 0.1, 0)
+ATT.BoneMerge = false
+ATT.Category = {"charm", "gunscreen"}
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("attachment.sticker"),
+        StickerModel = "models/weapons/cod2019/attachs/cosmetic/sticker/cos_vm_iw9_mounteddisplay01_v0_sticker.mdl",
+        Category = "stickers",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-2, 0, 0)
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_cosmetic_sticker")

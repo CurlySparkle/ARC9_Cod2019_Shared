@@ -1,0 +1,24 @@
+UnLitGeneric
+{
+	$basetexture 			"models\cod2019\gunscreen\stat_digit"
+	$basealphaenvmapmask 	"1"
+	$additive 	"1"
+	$decal 	"1"
+//	$envmap 				"env_cubemap"
+//	$envmaptint				"[0.2 0.2 0.2]"
+	Proxies
+	{
+		StatTrakDigitARC9
+		{
+			resultVar	$frame
+			trimzeros		0
+			displayDigit		7
+		}
+		StatTrakIllumARC9
+		{
+			resultVar	$color
+			minVal		0.5
+			maxVal		1.5
+		}
+	}
+}
