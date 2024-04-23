@@ -173,7 +173,7 @@ ATT.AutoStats = true
 ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_mp5_alt"}
+ATT.Category = {"cod2019_mp5_receiver"}
 ATT.ActivateElements = {"sight_default"}
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_sight_default_on")
@@ -194,7 +194,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_mag_mp5"}
+ATT.Category = {"cod2019_mp5_mag"}
 ATT.ActivateElements = {"mag_none"}
 
 -- Outside
@@ -231,7 +231,7 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mp5/attachment_v
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_mag_mp5"}
+ATT.Category = {"cod2019_mp5_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.ClipSizeOverride = 45
