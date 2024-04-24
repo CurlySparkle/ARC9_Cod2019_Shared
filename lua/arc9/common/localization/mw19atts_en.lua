@@ -3431,6 +3431,10 @@ L["cod2019_cosmetic_clock.printname"] = "Gun Screen (Time Clock)"
 L["cod2019_cosmetic_clock.compactname"] = ARC9:GetPhrase("charm_gs_clock.compactname") or "CLOCK"
 L["cod2019_cosmetic_clock.description"] = ARC9:GetPhrase("charm_gs_clock.description") or "Device that displays the real-world time."
 
+L["cod2019_cosmetic_sticker.printname"] = "Gun Screen (Sticker)"
+L["cod2019_cosmetic_sticker.compactname"] = ARC9:GetPhrase("charm_gs_sticker.compactname") or "STICKER"
+L["cod2019_cosmetic_sticker.description"] = ARC9:GetPhrase("charm_gs_sticker.description") or "Device that allows a custom sticker to be applied onto its screen."
+
 ///////////////// Internal Strings
 L["cod2019_killcounter_kills"] = "KILLS"
 L["cod2019_killcounter_none"] = "N/A"

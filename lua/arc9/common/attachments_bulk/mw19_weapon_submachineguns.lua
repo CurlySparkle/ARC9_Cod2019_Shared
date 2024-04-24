@@ -78,6 +78,15 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-0.3, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
 ARC9.LoadAttachment(ATT, "cod2019_mp7_barrel_light")
 ---------------------------------------------------------------------------------------
 ATT = {}

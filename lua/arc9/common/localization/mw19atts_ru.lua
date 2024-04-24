@@ -2742,6 +2742,8 @@ L["cod2019_cosmetic_killcounter.printname"] = "Gun Screen (Kill Counter)"
 
 L["cod2019_cosmetic_clock.printname"] = "Gun Screen (Time Clock)"
 
+L["cod2019_cosmetic_sticker.printname"] = "Gun Screen (Sticker)"
+
 ///////////////// Internal Strings
 L["cod2019_killcounter_kills"] = "УБИЙСТВА"
 L["cod2019_killcounter_none"] = "Н/Д"

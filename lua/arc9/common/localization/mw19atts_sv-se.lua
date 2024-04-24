@@ -2732,6 +2732,8 @@ L["cod2019_cosmetic_killcounter.printname"] = "Vapenskärm (Dråp Räknare)"
 
 L["cod2019_cosmetic_clock.printname"] = "Vapenskärm (Tidsklocka)"
 
+L["cod2019_cosmetic_sticker.printname"] = "Vapenskärm (Klistermärke)"
+
 ///////////////// Internal Strings
 L["cod2019_killcounter_kills"] = "DRÅP"
 L["cod2019_killcounter_none"] = "N/A"
