@@ -1,22 +1,9 @@
-L = {} -- Swedish (Unofficial) by Moka
-
--- Stats from https://sym.gg
-
-local lineb = "\n"
-
-local changeammo = { -- UO
-pistol = lineb .. "Byter patrontyp till <color=255,255,100>Pistol Ammo</color>.",
-["357"] = lineb .. "Byter patrontyp till <color=255,255,100>Magnum Ammo</color>.",
-smg1 = lineb .. "Byter patrontyp till <color=255,255,100>Karbin Ammo</color>.",
-ar2 = lineb .. "Byter patrontyp till <color=255,255,100>Gevärs Ammo</color>.",
-buckshot = lineb .. "Byter patrontyp till <color=255,255,100>Hagelbössa Ammo</color>.",
-sniperpenetratedround = lineb .. "Byter patrontyp till <color=255,255,100>Prickskytt. Ammo</color>.",
-smg1_grenade = lineb .. "Byter patrontyp till <color=255,255,100>Gevärsgranater</color>.",
-xbowbolt = lineb .. "Byter patrontyp till <color=255,255,100>Armborst Bultar</color>.",
-}
+L = {} -- Unofficial Swedish by Moka
 
 //////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////// Notes
+-- Stats from https://sym.gg/legacy/?game=warzone&page=gunsmith
+
 -- 1) If "-- UO" is listed after the string, it is unofficial and its translation is not taken from MW19.
 -- Therefore they will either remain untranslated (and remain in English) or require community contribution to fix.
 
@@ -72,19 +59,6 @@ L["mw19_optic_stat_toggle_rds"] = "Växelbar Reflex- & Scout-sikte" -- Integral 
 L["mw19_optic_stat_toggle_thermal"] = "Växelbar Reflex- & Värmesikte" -- Thermal Hybrid
 L["mw19_optic_stat_thermal"] = "Värmesikte Målidentifiering" -- Soloero NVG Enhanced
 
--- Picatinny Rails
-L["cod2019_optic_picatinny.printname"] = "Skenamonterad Riktmedelmontering" -- UO
-L["cod2019_optic_picatinny.compactname"] = "S. R." -- UO
-L["cod2019_optic_picatinny.description"] = "Skenamonterad adapter designed att montera att reservreflexsikte med låg profil." -- UO
-
-L["cod2019_optic_riser.printname"] = "Platt Toppad Riser" -- UO
-L["cod2019_optic_riser.compactname"] = "Platt" -- UO
-L["cod2019_optic_riser.description"] = "En platt toppad Riser-adapter designad för att montera ett riktmedel för högre siktvy." -- UO
-
-L["cod2019_optic_riser2.printname"] = "Platt Toppad Riser (Låg Profil)" -- UO
-L["cod2019_optic_riser2.compactname"] = "Platt LP" -- UO
-L["cod2019_optic_riser2.description"] = "Mindre platt toppad Riser-adapter designad att montera mindre riktmedel." -- UO
-
 -- Reflexsiktes
 L["cod2019_optic_reflex_west03.printname"] = "Operatör Reflexsikte"
 L["cod2019_optic_reflex_west03.compactname"] = "Operatör"
@@ -129,9 +103,6 @@ L["cod2019_optic_minireddot3.printname"] = "Solozero Optics Mini Reflex"
 L["cod2019_optic_minireddot3.compactname"] = "Solozero"
 L["cod2019_optic_minireddot3.description"] = "Väl avrundat precisionssikte från Solozero Optics erbjuder en balanserad siktvy."
 
-L["cod2019_optic_reflex_west05.printname"] = "Cronen Elite Reflex" -- UO
-L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite" -- UO
-
 -- Scopes
 L["cod2019_optic_scope_scout.printname"] = "Scout Combat Riktmedel"
 L["cod2019_optic_scope_scout.compactname"] = "Scout"
@@ -140,10 +111,6 @@ L["cod2019_optic_scope_scout.description"] = "Precisionssikte med <color=100,255
 L["cod2019_optic_hybrid_west02.printname"] = "4,0x Vikbar Hybrid"
 L["cod2019_optic_hybrid_west02.compactname"] = "Vik. H."
 L["cod2019_optic_hybrid_west02.description"] = "Lång distans <color=100,255,100>4,0x</color> riktmedel som manuellt viks till sidan för närmare räckvidd holografiskt sikte."
-
-L["cod2019_optic_hybrid_west02_thermal.printname"] = "4,0x Vikbar Värmesikte" -- UO
-L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Vik. V." -- UO
-L["cod2019_optic_hybrid_west02_thermal.description"] = "Lång distans <color=100,255,100>4,0x</color> riktmedel med värmeavbildning som manuellt viks till sidan för närmare räckvidd holografiskt sikte." -- UO, part Merc Thermal Optic desc
 
 L["cod2019_optic_vlk3.printname"] = "VLK 3,0x Riktmedel"
 L["cod2019_optic_vlk3.compactname"] = "VLK"
@@ -316,9 +283,6 @@ L["cod2019_bipod.printname"] = "Skjutstöd"
 L["cod2019_bipod.compactname"] = "Skjutstöd"
 L["cod2019_bipod.description"] = "Stabila ben förbättrar kontrollen medans man använder vapnet på marken."
 
-L["cod2019_grips_tactical.printname"] = "Task Force-Framgrepp" -- UO
-L["cod2019_grips_tactical.compactname"] = "Task Force" -- UO
-
 L["cod2019_grau_ub_shark.printname"] = "Cronen Shark II"
 L["cod2019_grau_ub_shark.compactname"] = "Shark II"
 L["cod2019_grau_ub_shark.description"] = "Taktiskt framgrepp erbjuder bäst-i-klass kontroll att få fram måltavlor."
@@ -394,22 +358,6 @@ L["mw19stockdesc.none"] = "Det ultimata \"spring-och-skjut\" alternativet när r
 L["cod2019_stock_none.printname"] = "Ingen Kolv"
 L["cod2019_stock_none.compactname"] = "Ingen"
 
-////////// Tubes
-L["cod2019_stock_tube_light.printname"] = "Lättvikt Bufferrör" -- UO
-L["cod2019_stock_tube_light.compactname"] = "Lättvikt" -- UO
-L["cod2019_stock_tube_light.description"] = "Lättvikt bufferrör av aluminium tillåter installering av kolvar från eftermarknaden." -- UO
-
-L["cod2019_stock_tube_medium.printname"] = "FSS CQ-Bufferrör" -- UO
-L["cod2019_stock_tube_medium.compactname"] = "FSS CQ" -- UO
-L["cod2019_stock_tube_medium.description"] = "Taktisk och effektivt bufferrör tillåter installering av kolvar från eftermarknaden." -- UO
-
-L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms-Bufferrör" -- UO
-L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
-
-L["cod2019_stock_tube_padded.printname"] = "Vadderat Bufferrör" -- UO
-L["cod2019_stock_tube_padded.compactname"] = "Vadd" -- UO
-L["cod2019_stock_tube_padded.description"] = "Lätt bufferrör med mjuk vaddering. <color=255,100,100>Stödjer ej installering av kolvar</color>." -- UO
-
 //////////////////// Pistol Grip Tape
 L["cod2019_griptape_01.printname"] = "Granulerad Grepptejp"
 L["cod2019_griptape_01.compactname"] = "Granulerad"
@@ -426,7 +374,7 @@ L["cod2019_griptape_03.description"] = "Stippat pistolgrepptejp behåller kontro
 ///////////////////////////// Weapon-specific Attachments
 //////////////////////// Universal Strings
 //////////////////// Magazines
-mw19ammotype = {
+local mw19ammotype = {
 	["556"] = "5,56 NATO",
 	["762"] = "7,62 NATO",
 	["762soviet"] = "7,62 Sovjet",
@@ -451,7 +399,7 @@ mw19ammotype = {
 	["50p"] = ".50 Pistol",
 }
 
-mw19magtext = {
+local mw19magtext = {
 	mag = "%s-Patronersmagasin", -- Kilo 141, Mag 1-2
 	mags = "%sP", -- UO
 	drum = "%s-Patroner Trumma", -- Kilo 141, Mag 3
@@ -469,6 +417,17 @@ mw19magtext = {
 	
 	descbelt = "Längre bälten håller <color=100,255,100>%s patroner</color> av %s-ammunition med måttlig ökad vikt.", -- PKM, 150-Round Belt
 	descbeltl = "Förlängrade bälten håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.", -- PKM, 200-Round Belt
+}
+
+local changeammo = { -- UO
+pistol = "\n" .. "Byter patrontyp till <color=255,255,100>Pistol Ammo</color>.",
+["357"] = "\n" .. "Byter patrontyp till <color=255,255,100>Magnum Ammo</color>.",
+smg1 = "\n" .. "Byter patrontyp till <color=255,255,100>Karbin Ammo</color>.",
+ar2 = "\n" .. "Byter patrontyp till <color=255,255,100>Gevärs Ammo</color>.",
+buckshot = "\n" .. "Byter patrontyp till <color=255,255,100>Hagelbössa Ammo</color>.",
+sniperpenetratedround = "\n" .. "Byter patrontyp till <color=255,255,100>Prickskytt. Ammo</color>.",
+smg1_grenade = "\n" .. "Byter patrontyp till <color=255,255,100>Gevärsgranater</color>.",
+xbowbolt = "\n" .. "Byter patrontyp till <color=255,255,100>Armborst Bultar</color>.",
 }
 
 //////////////////////// Assault Rifles
@@ -503,11 +462,6 @@ L["cod2019_kilo141_mag_drum.compactname"] = string.format(mw19magtext.mags, "100
 L["cod2019_kilo141_mag_drum.description"] = string.format(mw19magtext.descdrum, "100", mw19ammotype["556"])
 
 //////////////////// FAL
-/////////////// Receivers
-L["cod2019_fal_body_v2.printname"] = "Smooth Dominator" -- UO
-L["cod2019_fal_body_v2.compactname"] = "Dominator" -- UO
-L["cod2019_fal_body_v2.description"] = "Modern FAL-låda. Endast <color=255,255,100>kosmetisk</color>." -- UO
-
 /////////////// Barrels
 L["cod2019_fal_barrel_01.printname"] = "457 mm Ultralight"
 L["cod2019_fal_barrel_01.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
@@ -521,8 +475,6 @@ L["cod2019_fal_barrel_short.compactname"] = "OSW Para"
 L["cod2019_fal_barrel_short.description"] = "Kompakt medelkonturerad pipa förbättrar hastighet och rörlighet med en mindre sänkning på mynningshastigheten och träffsäkerheten."
 
 /////////////// Stock
-L["cod2019_fal_stock_v2.description"] = "Modern FAL-kolv. Endast <color=255,255,100>kosmetisk</color>." -- UO
-
 L["cod2019_fal_stock_light.printname"] = "460 mm Aluminium Fabrikskolv"
 L["cod2019_fal_stock_light.compactname"] = "Fabrik"
 L["cod2019_fal_stock_light.description"] = "Lättvikt kolv av aluminium håller dig rörlig i siktet."
@@ -542,11 +494,6 @@ L["cod2019_fal_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_fal_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["762"])
 
 //////////////////// M4A1
-/////////////// Optics
-L["cod2019_m4_carryhandle.printname"] = "Old Faithful" -- UO
-L["cod2019_m4_carryhandle.compactname"] = "Old F." -- UO
-L["cod2019_m4_carryhandle.description"] = "Klassiskt bärhandtag av M16-stil.\nEndast <color=255,255,100>kosmetisk</color>." -- UO
-
 /////////////// Barrels
 L["cod2019_m4a1_barrel_short.printname"] = "FSS 290 mm Commando"
 L["cod2019_m4a1_barrel_short.compactname"] = "Commando"
@@ -596,16 +543,7 @@ L["cod2019_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Patronersmagasin"
 L["cod2019_m4a1_mag_socom.compactname"] = "10P SOCOM"
 L["cod2019_m4a1_mag_socom.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>.458 SOCOM</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen."
 
-L["cod2019_m4_mag_alt.printname"] = "Kilo 141-Magasin" -- UO
-L["cod2019_m4_mag_alt.compactname"] = "Kilo 141" -- UO
-L["cod2019_m4_mag_alt.description"] = "Ändrar utseendet på standardmagasinet till den som används på Kilo 141.\nEndast <color=255,255,100>kosmetiskt</color>."
-
 //////////////////// FR 5.56
-/////////////// Receiver
-L["cod2019_famas_upper_railcust.printname"] = "Valorisé-Låda" -- UO
-L["cod2019_famas_upper_railcust.compactname"] = "Valorisé" -- UO
-L["cod2019_famas_upper_railcust.description"] = "Anpassad Valorisé-låda till FR 5,56." -- UO
-
 /////////////// Barrels
 L["cod2019_famas_barrel_short.printname"] = "FR 404 mm Kommando"
 L["cod2019_famas_barrel_short.compactname"] = "Kommando"
@@ -716,28 +654,11 @@ L["cod2019_scar_mag_ext.printname"] = string.format(mw19magtext.mag, "25")
 L["cod2019_scar_mag_ext.compactname"] = string.format(mw19magtext.mags, "25")
 L["cod2019_scar_mag_ext.description"] = string.format(mw19magtext.desc, "25", mw19ammotype["762"])
 
-L["cod2019_scar_mag_30.printname"] = string.format(mw19magtext.mag, "25")
-L["cod2019_scar_mag_30.compactname"] = string.format(mw19magtext.mags, "25")
-L["cod2019_scar_mag_30.description"] = string.format(mw19magtext.descl, "25", mw19ammotype["762"])
-
-L["cod2019_scar_mag_dmr.printname"] = "6.5 mm Creedmoor 10P." -- UO
-L["cod2019_scar_mag_dmr.compactname"] = "6.5 mm 10P" -- UO
-L["cod2019_scar_mag_dmr.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>6.5 mm Creedmoor</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen." -- UO
-
-L["cod2019_scar_mag_ar.printname"] = "30P 5,56 Magasin" -- UO
-L["cod2019_scar_mag_ar.compactname"] = "30P 5,56" -- UO
-L["cod2019_scar_mag_ar.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>5,56 NATO</color>-ammunition för ökad rekylkontroll med kostnad på stoppkraft." -- UO
-
-L["cod2019_scar_mag_drum.printname"] = string.format(mw19magtext.drummag, "75") -- UO
-L["cod2019_scar_mag_drum.compactname"] = string.format(mw19magtext.mags, "75") -- UO
-L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762"]) -- UO
+L["cod2019_scar_mag_30.printname"] = string.format(mw19magtext.mag, "30")
+L["cod2019_scar_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
+L["cod2019_scar_mag_30.description"] = string.format(mw19magtext.descl, "30", mw19ammotype["762"])
 
 //////////////////// AK-47
-/////////////// Optics
-L["cod2019_akilo47_rail_sight.printname"] = "Upper Sight Rail" -- UO
-L["cod2019_akilo47_rail_sight.compactname"] = "U.S.R." -- UO
-L["cod2019_akilo47_rail_sight.description"] = "Adds an RIS rail on top of the top cover." -- UO
-
 /////////////// Barrels
 L["cod2019_akilo47_barrel_custom.printname"] = "Spetsnaz Elite"
 L["cod2019_akilo47_barrel_custom.compactname"] = "Spetsnaz"
@@ -780,10 +701,6 @@ L["cod2019_akilo47_mag_drum.printname"] = string.format(mw19magtext.drummag, "75
 L["cod2019_akilo47_mag_drum.compactname"] = string.format(mw19magtext.mags, "75")
 L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762x39"])
 
-L["cod2019_akilo47_mag_origin12.printname"] = "Kaliber 12 12-Patronersmagasin" -- UO
-L["cod2019_akilo47_mag_origin12.compactname"] = "K12 12P" -- UO
-L["cod2019_akilo47_mag_origin12.description"] = "Konverteringskit för att använda <color=255,255,100>Kaliber 12</color> ammunition. Kortare räckvidd, snabbare eldhastighet och mindre rekyl för att dominera strider på nära distanser." -- UO
-
 //////////////////// RAM-7
 /////////////// Barrels
 L["cod2019_ram7_barrel_01.printname"] = "FTAC 340 mm Compact"
@@ -806,11 +723,6 @@ L["cod2019_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
 L["cod2019_ram7_stock_light.description"] = "Aluminiumkärna syntetisk kolv designad för rörlighet i siktet."
 
 L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters-Kolv"
-
-/////////////// Magazine
-L["cod2019_ram7_mag_drum_9mm.printname"] = "9 mm 60-Patronersmagasin" -- UO
-L["cod2019_ram7_mag_drum_9mm.compactname"] = "60R 9 mm" -- UO
-L["cod2019_ram7_mag_drum_9mm.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>9 mm parabellum</color>-ammunition. Kortare räckvidd, snabbare eldhastighet och mindre rekyl för att dominera strider på nära distanser." -- UO
 
 //////////////////// Grau 5.56
 /////////////// Barrels
@@ -884,14 +796,6 @@ L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", m
 L["cod2019_cr56_mag_m67.printname"] = "M67 10-Patronersmagasin"
 L["cod2019_cr56_mag_m67.compactname"] = "M67 10-P"
 L["cod2019_cr56_mag_m67.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>7,62 M67</color>-ammunition designad för ökad mynningshastighet, förbättrad träffsäkerhet och överlägsen skada. Vapnet låses till <color=100,255,100>halvautomat</color>."
-
-L["cod2019_cr56_mag_fal.printname"] = "7,62 NATO 30P" -- UO
-L["cod2019_cr56_mag_fal.compactname"] = "7,62 30-P" -- UO
-L["cod2019_cr56_mag_fal.description"] = "<color=255,100,100>30 patroner</color> av <color=255,255,100>7,62 NATO</color>-ammunition matad genom att rakt FAL-magasin." -- UO
-
-L["cod2019_cr56_mag_grau552.printname"] = "5,56 NATO 30P" -- UO
-L["cod2019_cr56_mag_grau552.compactname"] = "5,56 30-P" -- UO
-L["cod2019_cr56_mag_grau552.description"] = "Konverteringskit för att använda <color=255,255,100>5,56 NATO</color> ammunition. Skjuter med en högre hastighet med mindre rekyl." -- UO
 
 /////////////// Pistol Grips
 L["cod2019_cr56_griptape_01.printname"] = "XRK CR-56 Granulerad Lindning"
@@ -1038,10 +942,6 @@ L["cod2019_p90_optic.printname"] = "FSS Ring-Sikte"
 L["cod2019_p90_optic.compactname"] = "FSS"
 L["cod2019_p90_optic.description"] = "Anpassat inbyggt reflexsikte erbjuder högre precision."
 
-L["cod2019_p90_rail_custom.printname"] = "FSS Höjd Skena" -- UO
-L["cod2019_p90_rail_custom.compactname"] = "Höjd" -- UO
-L["cod2019_p90_rail_custom.description"] = "Höjd övre låda vilket tillåter att riktmedel monteras högre än innan." -- UO
-
 /////////////// Barrels
 L["cod2019_p90_barrel_custom.printname"] = "FORGE TAC Retribution"
 L["cod2019_p90_barrel_custom.compactname"] = "Retribution"
@@ -1050,10 +950,6 @@ L["cod2019_p90_barrel_custom.description"] = "Förlängd framskydd håller en 40
 L["cod2019_p90_barrel_02.printname"] = "FSS 270 mm Pro"
 L["cod2019_p90_barrel_02.compactname"] = "270 mm Pro"
 L["cod2019_p90_barrel_02.description"] = "270 mm pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med väldigt lite tillagd vikt."
-
-L["cod2019_p90_barrel_long_rail.printname"] = "FTAC Series IX 368 mm" -- UO
-L["cod2019_p90_barrel_long_rail.compactname"] = "368 mm IX" -- UO
-L["cod2019_p90_barrel_long_rail.description"] = "368 mm pipa rostfritt stål med ett RIS-handskydd av metall tillåter installering av framgrepp. Tillagd vikt stabiliserar skotten men hindrar rörligheten." -- UO
 
 /////////////// Stock
 L["cod2019_p90_stock_medium.printname"] = "FORGE TAC CQB Axelskydd"
@@ -1148,10 +1044,6 @@ L["cod2019_uzi_mag_cult.printname"] = ".41 AE 32-Patronersmagasin"
 L["cod2019_uzi_mag_cult.compactname"] = "32P .41 AE"
 L["cod2019_uzi_mag_cult.description"] = "Konverteringskit för att använda 32-patronersmagasin av högre kaliber <color=255,255,100>.41 AE</color>-ammunition för ökad räckvidd och stoppkraft."
 
-L["cod2019_uzi_mag_cult_9mm.printname"] = "9x19 mm 32-Round Mags" -- UO
-L["cod2019_uzi_mag_cult_9mm.compactname"] = "32R 9x19 mm" -- UO
-L["cod2019_uzi_mag_cult_9mm.description"] = "Konverteringskit för att använda 32-patronersmagasin av högre kaliber <color=255,255,100>9x19mm</color>-ammunition för ökad räckvidd och stoppkraft." -- UO
-
 //////////////////// PP19 Bizon
 /////////////// Barrels
 L["cod2019_pp19_barrel_01.printname"] = "221 mm Stål"
@@ -1204,19 +1096,6 @@ L["cod2019_mp7_mag_60.compactname"] = string.format(mw19magtext.mags, "60")
 L["cod2019_mp7_mag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["46x30"])
 
 //////////////////// Striker 45
-/////////////// Cosmetics
-L["cod2019_striker45_reciever_ump.printname"] = "Klassisk UMP-Låda" -- UO
-L["cod2019_striker45_reciever_ump.compactname"] = "Klassisk" -- UO
-L["cod2019_striker45_reciever_ump.description"] = "Klassisk UMP-låda till Striker 45." -- UO
-
-L["cod2019_striker45_stock_ump.printname"] = "Klassisk UMP-Kolv" -- UO
-L["cod2019_striker45_stock_ump.compactname"] = "Klassisk" -- UO
-L["cod2019_striker45_stock_ump.description"] = "Klassisk UMP-kolv till Striker 45." -- UO
-
-L["cod2019_striker45_mag_ump.printname"] = "Klassiska UMP-Magasin" -- UO
-L["cod2019_striker45_mag_ump.compactname"] = "Klassisk" -- UO
-L["cod2019_striker45_mag_ump.description"] = "Klassiska UMP-magasin till Striker 45." -- UO
-
 /////////////// Barrels
 L["cod2019_striker45_barrel_mid.printname"] = "300 mm Poly-Pipa"
 L["cod2019_striker45_barrel_mid.compactname"] = "Poly"
@@ -1425,10 +1304,6 @@ L["cod2019_model680_stock_wood.printname"] = "Lockwood Precision Series"
 L["cod2019_model680_stock_wood.compactname"] = "Lockwood"
 L["cod2019_model680_stock_wood.description"] = "Helträ gevärskolv erbjuder utmärkt kontroll i siktet med kostnad på rörlighet."
 
-L["cod2019_model680_stock_wood_poly.printname"] = "Lockwood Lightweight Series" -- UO
-L["cod2019_model680_stock_wood_poly.compactname"] = "Lockwood L." -- UO
-L["cod2019_model680_stock_wood_poly.description"] = "Ändrar utseendet på Lockwood Precision Series till en utav polymer.\nEndast <color=255,255,100>kosmetiskt</color>." -- UO
-
 /////////////// Underbarrels
 L["cod2019_model680_pump_wood.description"] = "Handskapat framgrepp av solitt trä som sänker vertikala rekylen och stabiliserar vapnet i siktet för förbättrad långdistans prestanda."
 
@@ -1444,10 +1319,6 @@ L["cod2019_model680_mag_ext.description"] = "Förlängda rör håller <color=100
 L["cod2019_model680_mag_6.printname"] = "Kaliber 12 6-Patronersm."
 L["cod2019_model680_mag_6.compactname"] = "K12 6P."
 L["cod2019_model680_mag_6.description"] = "Anpassad XRK Eagle's Claw-låda med inbyggd magasinlåda för att använd bortplockbara <color=100,255,100>6 patronersmagasin</color> för snabbare omladdningar. <color=255,100,100>Ej kompatibla med anpassade pipor.</color>"
-
-L["cod2019_model680_mag_8.printname"] = "Kaliber 12 8-Patronersm." -- UO
-L["cod2019_model680_mag_8.compactname"] = "K12 8P." -- UO
-L["cod2019_model680_mag_8.description"] = "Anpassad XRK Eagle's Claw-låda med inbyggd magasinlåda för att använd bortplockbara <color=100,255,100>8 patronersmagasin</color> för snabbare omladdningar. <color=255,100,100>Ej kompatibla med anpassade pipor.</color>" -- UO
 
 //////////////////// R9-0
 /////////////// Barrels
@@ -1539,11 +1410,6 @@ L["cod2019_origin12_barrel_long.description"] = "Förlängd pipa ökar mynningsh
 /////////////// Muzzle
 L["cod2019_origin12_silencer.printname"] = "FSS Protector-Ljuddämpare"
 L["cod2019_origin12_silencer.compactname"] = "Protector"
-
-/////////////// Grips
-L["cod2019_origin12_grip_none2.printname"] = "Alternativt Hållande" -- UO
-L["cod2019_origin12_grip_none2.compactname"] = "Alt. Håll." -- UO
-L["cod2019_origin12_grip_none2.description"] = "Alternativ hållningsstil." -- UO
 
 /////////////// Stock
 L["cod2019_origin12_stock_medium.printname"] = "FORGE TAC Dart"
@@ -2143,10 +2009,6 @@ L["cod2019_spr208_mag_lapua.printname"] = ".338 Lapua Mag 5-Patronersm."
 L["cod2019_spr208_mag_lapua.compactname"] = ".338 5P."
 L["cod2019_spr208_mag_lapua.description"] = "Kraftfull 250 gr <color=255,255,100>.338 Lapua Mag</color>-ammunition träffar hårdare vid all räckvidd."
 
-L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-Patronm. Special" -- UO
-L["cod2019_spr208_mag_xmag_alt.compactname"] = "5P. Special" -- UO
-L["cod2019_spr208_mag_xmag_alt.description"] = "5-Patronersmagasin tillåter användningen av <color=255,255,100>speciell ammunition</color>." -- UO
-
 /////////////// Bolt
 L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-800 DeadEye"
 L["cod2019_spr208_bolt_light.compactname"] = "DeadEye"
@@ -2724,21 +2586,3 @@ L["cod2019_knife_model_v71.printname"] = "Velorum"
 
 L["cod2019_knife_model_v72.printname"] = "Auxiliary"
 -- L["cod2019_knife_model_v72.compactname"] = "Auxiliary"
-
-//////////////////////// Unofficial
-//////////////////// Charms
-///////////////// Items
-L["cod2019_cosmetic_killcounter.printname"] = "Vapenskärm (Dråp Räknare)"
-
-L["cod2019_cosmetic_clock.printname"] = "Vapenskärm (Tidsklocka)"
-
-L["cod2019_cosmetic_sticker.printname"] = "Vapenskärm (Klistermärke)"
-
-///////////////// Internal Strings
-L["cod2019_killcounter_kills"] = "DRÅP"
-L["cod2019_killcounter_none"] = "N/A"
-
-//////////////////// BOCW XM4
-/////////////// Stock
-L["cod2019_xm4_stock.printname"] = "Colt Typ III"
-L["cod2019_xm4_stock.compactname"] = "Typ III"

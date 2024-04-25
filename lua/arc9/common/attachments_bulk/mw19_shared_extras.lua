@@ -113,9 +113,14 @@ ATT.ActivateElements = {"pgrip_none","pgrip_01"}
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.SpeedSightsMult = 0.996
+	
 else -- Warzone Stats
-	ATT.SpeedSightsMult = 0.996
+	ATT.AimDownSightsTimeAdd = -0.006
+	ATT.RecoilMult = 0.95
+	ATT.VisualRecoilMult = 0.95
+	ATT.SpreadAddMove = -0.01
+	ATT.SpeedMult = 0.99
+	ATT.SpeedSightsMult = 0.93
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_griptape_front_01")
@@ -137,11 +142,14 @@ ATT.ActivateElements = {"pgrip_none","pgrip_02"}
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.RecoilMult = 0.994
-	ATT.VisualRecoilMult = 0.994
+	
 else -- Warzone Stats
-	ATT.RecoilMult = 0.994
-	ATT.VisualRecoilMult = 0.994
+	ATT.AimDownSightsTimeAdd = 0.017
+	ATT.RecoilMult = 0.83
+	ATT.VisualRecoilMult = 0.83
+	ATT.SpreadAddMove = -0.01
+	ATT.SpeedMult = 0.99
+	ATT.SpeedSightsMult = 0.88
 end
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -171,11 +179,14 @@ ATT.ActivateElements = {"pgrip_none","pgrip_03"}
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-		ATT.AimDownSightsTimeAdd = -0.011
-	ATT.SprintToFireTimeAdd = -0.037
+	
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.011
-	ATT.SprintToFireTimeAdd = -0.037
+	ATT.AimDownSightsTimeAdd = 0.022
+	ATT.RecoilMult = 0.83
+	ATT.VisualRecoilMult = 0.83
+	ATT.SpreadAddMove = -0.01
+	ATT.SpeedMult = 0.99
+	ATT.SpeedSightsMult = 0.98
 end
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -455,3 +466,98 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_trigger_match")
+
+//////////////////////////////////////////////// -- Striker 45 Rear Grips
+/////////////////////////// -- cod2019_striker45_griptape_01
+ATT = {}
+
+ATT.PrintName = "FTAC 60 Series Polymer"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_striker45_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_01"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_pistolgrip03.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.SpeedSightsMult = 0.996
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.996
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_griptape_01")
+
+/////////////// -- cod2019_striker45_griptape_02
+ATT = {}
+
+ATT.PrintName = "FTAC G-5 EXO"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 2
+ATT.Category = "cod2019_striker45_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_02"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_pistolgrip02.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilMult = 0.994
+	ATT.VisualRecoilMult = 0.994
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.011
+	ATT.SprintToFireTimeAdd = -0.05
+	ATT.RecoilMult = 1.07
+	ATT.VisualRecoilMult = 1.07
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["pgrip_02"] then
+        model:SetSkin(1)
+    else
+        model:SetSkin(0)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_griptape_02")
+
+/////////////// -- cod2019_striker45_griptape_03
+ATT = {}
+
+ATT.PrintName = "FTAC 60 Series Rubber"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_striker45_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_03"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_pistolgrip04.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+		ATT.AimDownSightsTimeAdd = -0.011
+	ATT.SprintToFireTimeAdd = -0.037
+else -- Warzone Stats
+	ATT.RecoilMult = 0.92
+	ATT.VisualRecoilMult = 0.92
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["pgrip_03"] then
+        model:SetSkin(2)
+    else
+        model:SetSkin(0)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_griptape_03")
