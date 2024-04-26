@@ -1754,8 +1754,8 @@ ATT.Element = {
             Ang = Angle(0,0,0),
         },
         [3] = { -- Laser
-            Pos = Vector(5, -0.55, -0.9),
-            Ang = Angle(0,0,-90),
+            Pos = Vector(0, -1.5, 0.5),
+            Ang = Angle(0,0,0),
         }
     }
 }
@@ -1781,7 +1781,7 @@ ATT.MuzzleDevice = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_iso_barrel"
-ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","Barrel_supp"}
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_supp"}
 
 ATT.DeployTimeMult = 1.1
 ATT.AimDownSightsTimeMult = 1.15
