@@ -626,6 +626,7 @@ ATT.AutoStats = true
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/att_vm_p07_sm_papa90_barxlong_v0.mdl"
+ATT.ModelOffset = Vector(-0.2, 0, 0)
 ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
