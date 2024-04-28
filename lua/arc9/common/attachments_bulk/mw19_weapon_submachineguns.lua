@@ -983,7 +983,8 @@ ATT.RangeMaxMult = 1.15
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_uzi_mag"
-ATT.ActivateElements = {"mag_none","mag_xmag"}
+-- ATT.ActivateElements = {"mag_none","mag_xmag"}
+ATT.ActivateElements = {"mag_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"
@@ -1017,7 +1018,8 @@ ATT.RangeMaxMult = 0.89
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_uzi_mag"
-ATT.ActivateElements = {"mag_none","mag_xmag"}
+-- ATT.ActivateElements = {"mag_none","mag_xmag"}
+ATT.ActivateElements = {"mag_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_magcalcust.mdl"

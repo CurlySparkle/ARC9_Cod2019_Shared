@@ -481,7 +481,7 @@ ATT.SortOrder = 1
 ATT.Category = "cod2019_striker45_pistolgrip"
 ATT.ActivateElements = {"pgrip_none","pgrip_01"}
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_pistolgrip03.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_pistolgrip02.mdl"
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
@@ -505,7 +505,7 @@ ATT.SortOrder = 2
 ATT.Category = "cod2019_striker45_pistolgrip"
 ATT.ActivateElements = {"pgrip_none","pgrip_02"}
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_pistolgrip02.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_pistolgrip03.mdl"
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
