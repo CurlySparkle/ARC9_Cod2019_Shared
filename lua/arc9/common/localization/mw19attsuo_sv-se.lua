@@ -33,13 +33,11 @@ L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Vik. V."
 L["cod2019_optic_hybrid_west02_thermal.description"] = "Lång distans <color=100,255,100>4,0x</color> riktmedel med värmeavbildning som manuellt viks till sidan för närmare räckvidd holografiskt sikte." -- Part Merc Thermal Optic desc
 
 -- For Launchers
-L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight"
-L["cod2019_optic_scope_m32.compactname"] = "MGL GLS"
-L["cod2019_optic_scope_m32.description"] = ARC9:GetPhrase("cod2019_optic_cronen_sniper.description") or "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
+L["cod2019_optic_scope_m32.printname"] = "MGL-32 Granattillsats Sikte"
+L["cod2019_optic_scope_m32.compactname"] = "MGL GTS"
 
-L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight"
+L["cod2019_optic_scope_strela.printname"] = "Strela-P-Sikte"
 L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
-L["cod2019_optic_scope_strela.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 //////////////////// Underbarrel
 L["cod2019_grips_tactical.printname"] = "Task Force-Framgrepp"
@@ -184,9 +182,9 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "Konverteringskit för att använda
 
 //////////////////// CR-56 AMAX
 /////////////// Magazine
-L["cod2019_cr56_mag_fal.printname"] = "7,62 NATO 30P"
+L["cod2019_cr56_mag_fal.printname"] = "7,62 Sovjet 30P"
 L["cod2019_cr56_mag_fal.compactname"] = "7,62 30-P"
-L["cod2019_cr56_mag_fal.description"] = "<color=255,100,100>30 patroner</color> av <color=255,255,100>7,62 NATO</color>-ammunition matad genom att rakt FAL-magasin."
+L["cod2019_cr56_mag_fal.description"] = "30 patroner av <color=255,255,100>7,62 Sovjet</color>-ammunition matad genom att rakt FAL-magasin."
 
 L["cod2019_cr56_mag_grau552.printname"] = "5,56 NATO 30P"
 L["cod2019_cr56_mag_grau552.compactname"] = "5,56 30-P"

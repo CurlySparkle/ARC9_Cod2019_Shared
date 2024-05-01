@@ -196,9 +196,9 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "Conversion kit to use lower calibe
 
 //////////////////// CR-56 AMAX
 /////////////// Magazine
-L["cod2019_cr56_mag_fal.printname"] = "7.62 NATO 30R"
+L["cod2019_cr56_mag_fal.printname"] = "7.62 Soviet 30R"
 L["cod2019_cr56_mag_fal.compactname"] = "7.62 30-R"
-L["cod2019_cr56_mag_fal.description"] = "<color=255,100,100>30 rounds</color> of <color=255,255,100>7.62 NATO</color> ammunition fed through a straight FAL magazine."
+L["cod2019_cr56_mag_fal.description"] = "30 rounds of <color=255,255,100>7.62 Soviet</color> ammunition fed through a straight FAL magazine."
 
 L["cod2019_cr56_mag_grau552.printname"] = "5.56 NATO 30R"
 L["cod2019_cr56_mag_grau552.compactname"] = "5.56 30-R"
@@ -262,3 +262,10 @@ L["cod2019_model680_mag_8.description"] = "Custom XRK Eagle's Claw receiver with
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"
 L["cod2019_spr208_mag_xmag_alt.compactname"] = "5R Special"
 L["cod2019_spr208_mag_xmag_alt.description"] = "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."
+
+//////////////////////// Sniper Rifles
+//////////////////// Rytec AMR
+/////////////// Magazine
+L["cod2019_rytec_mag_special.printname"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.printname") or "FORGE TAC 5-R Special"
+L["cod2019_rytec_mag_special.compactname"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.compactname") or "5R Special"
+L["cod2019_rytec_mag_special.description"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.description") or "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."

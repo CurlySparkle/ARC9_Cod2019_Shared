@@ -185,7 +185,7 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "Conversion kit to use lower calibe
 /////////////// Magazine
 L["cod2019_cr56_mag_fal.printname"] = "7.62 NATO 30R"
 L["cod2019_cr56_mag_fal.compactname"] = "7.62 30-R"
-L["cod2019_cr56_mag_fal.description"] = "<color=255,100,100>30 rounds</color> of <color=255,255,100>7.62 NATO</color> ammunition fed through a straight FAL magazine."
+L["cod2019_cr56_mag_fal.description"] = "30 rounds of <color=255,255,100>7.62 NATO</color> ammunition fed through a straight FAL magazine."
 
 L["cod2019_cr56_mag_grau552.printname"] = "5.56 NATO 30R"
 L["cod2019_cr56_mag_grau552.compactname"] = "5.56 30-R"
