@@ -17,7 +17,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Category = {"cod2019_optic_sidemount"}
 ATT.ActivateElements = {"optic_sidemount"}
-ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
+-- ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_picatinny.mdl"
 ATT.ModelOffset = Vector(-1, 0, 0.1)

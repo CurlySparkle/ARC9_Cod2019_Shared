@@ -32,13 +32,6 @@ L["cod2019_optic_hybrid_west02_thermal.printname"] = "4.0x Flip Thermal"
 L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Flip T."
 L["cod2019_optic_hybrid_west02_thermal.description"] = "Long range <color=100,255,100>4.0x</color> scope with thermal imaging manually flips to closer range holographic sight." -- Part Merc Thermal Optic desc
 
--- For Launchers
-L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight"
-L["cod2019_optic_scope_m32.compactname"] = "MGL GLS"
-
-L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight"
-L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
-
 //////////////////// Underbarrel
 L["cod2019_grips_tactical.printname"] = "Task Force Foregrip"
 L["cod2019_grips_tactical.compactname"] = "Task Force"

@@ -1,58 +1,7 @@
 local ATT = {}
 local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone Stat Variable
 //////////////////////////////////////////////// -- Snipers Attachments
-/////////////////////////// -- SVD
-ATT = {}
-
-ATT.PrintName = "Dragunov Scope"
-ATT.Description = ""
-ATT.Icon = Material("entities/attachs/cod2019_optic_scope_svd.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-
-ATT.SortOrder = 5.5
-ATT.Category = {"cod2019_optic_svd"}
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
-ATT.ActivateElements = {"scope_svd"}
-
-ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_svd.mdl"
-ATT.ModelOffset = Vector(0.5, 0, -0.8)
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 9, -1.945),
-        Ang = Angle(0, 0, 0),
-        ViewModelFOV = 36,
-        Magnification = 1.15,
-        IgnoreExtra = true
-    },
-}
-
-ATT.CustomPros = {
-   [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "5.5x"
-}
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 5.5
-ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/svd_crosshair.png", "mips smooth")
-ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 5
-ATT.RTScopeNoPP = false
-ATT.RTScopeColorable = false
-
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.08
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
-else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.08
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
-end
-
-ARC9.LoadAttachment(ATT, "cod2019_optic_scope_svd")
----------------------------------------------------------------------------------------
+/////////////////////////// -- Dragunov
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -266,57 +215,6 @@ ARC9.LoadAttachment(ATT, "cod2019_svd_mag_20")
 /////////////////////////// -- HDR
 ATT = {}
 
-ATT.PrintName = "HDR Scope"
-ATT.CompactName = [[HDR Scope]]
-ATT.Icon = Material("entities/attachs/sn/hdr/cod2019_sn_hdr_scope.png", "mips smooth")
-ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
-ATT.Pros = {
-    "+ 8x Zoom",
-    "+ Clearer sight picture"
-}
-ATT.Cons = {}
-ATT.SortOrder = 4
-ATT.Free = false
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_optic_hdr","cod2019_scope_snipers"}
-ATT.ActivateElements = {"scope_hdr"}
-
-ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_hdr.mdl"
-ATT.Scale = 1
-ATT.ModelOffset = Vector(-0.3, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
-ATT.AimDownSightsTimeMult = 1.25
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 16, -1.95),
-        Ang = Angle(0, 0, 0),
-        ViewModelFOV = 15,
-        Magnification = 2,
-        IgnoreExtra = true
-    },
-}
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 3
-ATT.RTScopeFOVMin = 7
-ATT.RTScopeFOVMax = 36
-ATT.RTScopeRes = 1024
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/ax50_crosshair")
-ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 2
-ATT.RTScopeNoPP = false
-ATT.RTScopeColorable = false
-
-ARC9.LoadAttachment(ATT, "cod2019_optic_scope_hdr")
-----------------------------------------------------------------------------------------
-ATT = {}
-
 ATT.PrintName = "17.2\" Bull"
 ATT.CompactName = "17.2\" Bull"
 ATT.Description = [[Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility.]]
@@ -439,56 +337,6 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "cod2019_hdr_mag_special")
 /////////////////////////// -- AX50
-ATT = {}
-
-ATT.PrintName = "AX50 Scope"
-ATT.CompactName = [[AX50 Scope]]
-ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_optic_scope_ax50.png", "mips smooth")
-ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
-ATT.Pros = {
-    "+ 8x Zoom",
-    "+ Clearer sight picture"
-}
-ATT.Cons = {}
-ATT.SortOrder = 4
-ATT.Free = false
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_optic_ax50","cod2019_scope_snipers"}
-ATT.ActivateElements = {"scope_ax50"}
-
-ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_ax50.mdl"
-ATT.BoneMerge = true
-ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
-ATT.Sights = {
-    {
-        Pos = Vector(0, 9, -1.86),
-        Ang = Angle(0, 0, 0),
-        ViewModelFOV = 35,
-        Magnification = 2,
-        IgnoreExtra = true,
-    },
-}
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 3
-ATT.RTScopeFOVMin = 7
-ATT.RTScopeFOVMax = 26
-ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/ax50_crosshair")
-ATT.RTScopeReticleScale = 1.05
-ATT.RTScopeShadowIntensity = 1
-ATT.RTScopeNoPP = false
-ATT.RTScopeColorable = false
-
-ARC9.LoadAttachment(ATT, "cod2019_optic_scope_ax50")
-----------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "17.0\" Factory Barrel"
@@ -650,60 +498,6 @@ ATT.BipodAng = Angle(0, 0, 0)
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_bipod")
 /////////////////////////// -- RYTEC
-ATT = {}
-
-ATT.PrintName = "Rytec Scope"
-ATT.CompactName = [[Rytec Scope]]
-ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_scope.png", "mips smooth")
-ATT.Description = [[Long-range combat scope. Provides an improved precision at longer ranges.]]
-
-ATT.CustomPros = {
-    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "6x"
-}
-
-ATT.SortOrder = 4
-ATT.Free = false
-ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_optic_rytec","cod2019_scope_snipers"}
-ATT.ActivateElements = {"scope_rytec"}
-
-ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_rytec.mdl"
-ATT.Scale = 1
-ATT.ModelOffset = Vector(-0.3, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
-ATT.AimDownSightsTimeAdd = 0.08
-ATT.VisualRecoilMult = 0.99
-ATT.RecoilMult = 0.99
-
-ATT.Sights = {
-    {
-        Pos = Vector(-0.01, 10, -1.685),
-        Ang = Angle(0, 0, 0),
-        ViewModelFOV = 36,
-        Magnification = 1.15,
-        IgnoreExtra = true,
-    },
-}
-
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 36 / 6
-ATT.RTScopeAdjustable = false
-ATT.RTScopeAdjustmentLevels = 3
-ATT.RTScopeFOVMin = 8
-ATT.RTScopeFOVMax = 25
-ATT.RTScopeRes = 1024
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/rytec_crosshair.png", "mips")
-ATT.RTScopeReticleScale = 0.8
-ATT.RTScopeShadowIntensity = 1
-ATT.RTScopeNoPP = false
-ATT.RTScopeColorable = false
-
-ARC9.LoadAttachment(ATT, "cod2019_optic_scope_rytec")
-----------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "FTAC Elite"

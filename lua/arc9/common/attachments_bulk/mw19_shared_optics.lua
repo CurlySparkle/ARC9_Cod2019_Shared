@@ -1731,3 +1731,58 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_hybrid")
+
+/////////////////////////// -- cod2019_optic_scope_svd
+
+if not ARC9MW19BaseInstalled then return end -- If the base is not installed for whatever reason, then this, and everything below it, is ignored.
+
+ATT = {}
+
+ATT.PrintName = "Dragunov Scope"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_optic_scope_svd.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 5.5
+ATT.Category = {"cod2019_asval_optic"}
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+ATT.ActivateElements = {"scope_svd"}
+
+ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_svd.mdl"
+ATT.ModelOffset = Vector(0.5, 0, -0.8)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.945),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 36,
+        Magnification = 1.15,
+        IgnoreExtra = true
+    },
+}
+
+ATT.CustomPros = {
+   [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "5.5x"
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeFOV = 36 / 5.5
+ATT.RTScopeRes = 512
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/svd_crosshair.png", "mips smooth")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.08
+	ATT.VisualRecoilMult = 0.99
+	ATT.RecoilMult = 0.99
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.077
+	ATT.VisualRecoilMult = 0.99
+	ATT.RecoilMult = 0.99
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_scope_svd")

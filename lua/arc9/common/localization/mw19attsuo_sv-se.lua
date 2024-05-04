@@ -32,13 +32,6 @@ L["cod2019_optic_hybrid_west02_thermal.printname"] = "4,0x Vikbar Värmesikte"
 L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Vik. V."
 L["cod2019_optic_hybrid_west02_thermal.description"] = "Lång distans <color=100,255,100>4,0x</color> riktmedel med värmeavbildning som manuellt viks till sidan för närmare räckvidd holografiskt sikte." -- Part Merc Thermal Optic desc
 
--- For Launchers
-L["cod2019_optic_scope_m32.printname"] = "MGL-32 Granattillsats Sikte"
-L["cod2019_optic_scope_m32.compactname"] = "MGL GTS"
-
-L["cod2019_optic_scope_strela.printname"] = "Strela-P-Sikte"
-L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
-
 //////////////////// Underbarrel
 L["cod2019_grips_tactical.printname"] = "Task Force-Framgrepp"
 L["cod2019_grips_tactical.compactname"] = "Task Force"

@@ -32,13 +32,6 @@ L["cod2019_optic_hybrid_west02_thermal.printname"] = "Складываемый �
 L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Склад. Т."
 L["cod2019_optic_hybrid_west02_thermal.description"] = "Инфракрасный прицел кратностью <color=100,255,100>4,0x</color> для поиска целей и контроля обстановки в любых условиях освещенности с возможностью ручного переключения на голографический прицел для ближнего боя." -- Part Merc Thermal Optic desc
 
--- For Launchers
-L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight"
-L["cod2019_optic_scope_m32.compactname"] = "MGL GLS"
-
-L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight"
-L["cod2019_optic_scope_strela.compactname"] = "Strela-P"
-
 //////////////////// Underbarrel
 L["cod2019_grips_tactical.printname"] = "Рукоять \"Task Force\""
 L["cod2019_grips_tactical.compactname"] = "Task Force"
