@@ -2644,6 +2644,11 @@ L["cod2019_dragunov_barrel_02.printname"] = "660m Extended Barrel"
 L["cod2019_dragunov_barrel_02.compactname"] = "Extended"
 L["cod2019_dragunov_barrel_02.description"] = "Extended barrel improves muzzle velocity and range. Additional weight stabilizes shots but hinders mobility."
 
+/////////////// Underbarrel
+L["cod2019_dragunov_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_dragunov_grip_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_dragunov_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
+
 /////////////// Stocks
 L["cod2019_dragunov_stock_heavy.printname"] = "FTAC Hunter-Scout"
 L["cod2019_dragunov_stock_heavy.compactname"] = "Hunter-Scout"
@@ -2683,6 +2688,11 @@ L["cod2019_hdr_barrel_02.description"] = "This beast of a barrel provides maximu
 L["cod2019_hdr_barrel_03.printname"] = "17.2\" Bull Barrel"
 L["cod2019_hdr_barrel_03.compactname"] = "17.2\""
 L["cod2019_hdr_barrel_03.description"] = "Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility."
+
+/////////////// Underbarrel
+L["cod2019_hdr_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_hdr_grip_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_hdr_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
 
 /////////////// Stocks
 L["cod2019_hdr_stock_heavy.printname"] = ARC9:GetPhrase("cod2019_dragunov_stock_medium.printname") or "FTAC Stalker-Scout"
@@ -2724,6 +2734,11 @@ L["cod2019_ax50_barrel_03.printname"] = "32.0\" Factory Barrel"
 L["cod2019_ax50_barrel_03.compactname"] = "32.0\" F"
 L["cod2019_ax50_barrel_03.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
 
+/////////////// Underbarrel
+L["cod2019_ax50_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_ax50_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_ax50_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
+
 /////////////// Stocks
 L["cod2019_ax50_stock_heavy.printname"] = "Singuard Arms Marksman"
 L["cod2019_ax50_stock_heavy.compactname"] = "Marksman"
@@ -2759,6 +2774,11 @@ L["cod2019_rytec_barrel_02.description"] = "FTAC's 448mm titanium-cobalt barrel 
 L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
 L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
 L["cod2019_rytec_barrel_03.description"] = ARC9:GetPhrase("cod2019_hdr_barrel_02.description")
+
+/////////////// Underbarrel
+L["cod2019_rytec_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_rytec_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_rytec_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
 
 /////////////// Muzzle
 L["cod2019_rytec_muzzle_tank.printname"] = "XRK Tank Brake"

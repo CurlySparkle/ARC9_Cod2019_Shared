@@ -279,9 +279,9 @@ L["cod2019_grips_bipod.printname"] = "Skjutstöd Framgrepp"
 L["cod2019_grips_bipod.compactname"] = "Skjutstöd F."
 L["cod2019_grips_bipod.description"] = "Hjälper kontrollera rekylen, speciellt från hukad eller benägen position."
 
-L["cod2019_bipod.printname"] = "Skjutstöd"
-L["cod2019_bipod.compactname"] = "Skjutstöd"
-L["cod2019_bipod.description"] = "Stabila ben förbättrar kontrollen medans man använder vapnet på marken."
+L["cod2019_grips_bipod_alt.printname"] = "Skjutstöd"
+L["cod2019_grips_bipod_alt.compactname"] = "Skjutstöd"
+L["cod2019_grips_bipod_alt.description"] = "Stabila ben förbättrar kontrollen medans man använder vapnet på marken."
 
 L["cod2019_grau_ub_shark.printname"] = "Cronen Shark II"
 L["cod2019_grau_ub_shark.compactname"] = "Shark II"

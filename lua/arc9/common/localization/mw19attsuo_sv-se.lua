@@ -238,6 +238,6 @@ L["cod2019_model680_mag_8.description"] = "Anpassad XRK Eagle's Claw-låda med i
 //////////////////////// Marksman Rifles
 //////////////////// SP-R 208
 /////////////// Magazine
-L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"
-L["cod2019_spr208_mag_xmag_alt.compactname"] = "5R Special"
-L["cod2019_spr208_mag_xmag_alt.description"] = "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."
+L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-P Special"
+L["cod2019_spr208_mag_xmag_alt.compactname"] = "5P Special"
+L["cod2019_spr208_mag_xmag_alt.description"] = "5-patronersmagasin som tillåter användningen av <color=255,255,100>special ammunition</color>."

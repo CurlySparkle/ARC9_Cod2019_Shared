@@ -34,7 +34,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.1, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -76,7 +76,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-2.2, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -116,7 +116,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-5, 0, 0),
             Ang = Angle(0,0,0),
         }
@@ -244,7 +244,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.9
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-0.1, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -284,7 +284,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.25
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(2.5, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -317,25 +317,26 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/hdr/attachment_v
 ATT.BoneMerge = true
 ATT.ActivateElements = {"mag_none","mag_ftac","mag_xmag"}
 
-ATT.ClipSizeOverride = 5
+-- ATT.ClipSizeOverride = 5
 
 ATT.BulletBones = {
     [1] = "j_bullet1",
     [2] = "j_bullet2",
 }
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, -2),
-        Category = "cod2019_ammo_special",
-		Scale = 1
-    }
-}
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+        -- Pos = Vector(0, 0, 0),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, -2),
+        -- Category = "cod2019_ammo_special",
+		-- Scale = 1
+    -- }
+-- }
 
 ARC9.LoadAttachment(ATT, "cod2019_hdr_mag_special")
+
 /////////////////////////// -- AX50
 ATT = {}
 
@@ -368,7 +369,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.9
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-6.7, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -414,7 +415,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.25
 
 ATT.Element = {
     AttPosMods = {
-        [2] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(3.5, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -447,23 +448,23 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ax50/attachment_
 ATT.BoneMerge = true
 ATT.ActivateElements = {"mag_none","mag_ftac"}
 
-ATT.ClipSizeOverride = 5
+-- ATT.ClipSizeOverride = 5
 
 ATT.BulletBones = {
     [1] = "j_bullet_01",
     [2] = "j_bullet_02",
 }
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, -2),
-        Category = "cod2019_ammo_special",
-		Scale = 1
-    }
-}
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+        -- Pos = Vector(0, 0, 0),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, -2),
+        -- Category = "cod2019_ammo_special",
+		-- Scale = 1
+    -- }
+-- }
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_mag_special")
 ----------------------------------------------------------------------------------------
@@ -529,7 +530,7 @@ ATT.SpreadMult = 1.15
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(-3.4, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -576,7 +577,7 @@ ATT.SpreadMult = 0.85
 
 ATT.Element = {
     AttPosMods = {
-        [3] = { -- slot of the weapon's attachment
+        [1] = { -- Muzzle
             Pos = Vector(5, 0, 0),
             Ang = Angle(0,0,0),
         },
@@ -640,7 +641,7 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/rytec/attachment
 ATT.BoneMerge = true
 ATT.ActivateElements = {"mag_none","mag_ftac"}
 
-ATT.ClipSizeOverride = 5
+-- ATT.ClipSizeOverride = 5
 
 ATT.BulletBones = {
     [1] = "j_he_round_01",
@@ -648,16 +649,16 @@ ATT.BulletBones = {
     [3] = "j_he_round_03",
 }
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, -2),
-        Category = "cod2019_ammo_special",
-		Scale = 1
-    }
-}
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+        -- Pos = Vector(0, 0, 0),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, -2),
+        -- Category = "cod2019_ammo_special",
+		-- Scale = 1
+    -- }
+-- }
 
 ARC9.LoadAttachment(ATT, "cod2019_rytec_mag_special")
 ----------------------------------------------------------------------------------------

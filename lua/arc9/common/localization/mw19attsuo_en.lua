@@ -255,6 +255,18 @@ L["cod2019_spr208_mag_xmag_alt.compactname"] = "5R Special"
 L["cod2019_spr208_mag_xmag_alt.description"] = "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."
 
 //////////////////////// Sniper Rifles
+//////////////////// AX-50
+/////////////// Magazine
+L["cod2019_ax50_mag_special.printname"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.printname") or "FORGE TAC 5-R Special"
+L["cod2019_ax50_mag_special.compactname"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.compactname") or "5R Special"
+L["cod2019_ax50_mag_special.description"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.description") or "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."
+
+//////////////////// HDR
+/////////////// Magazine
+L["cod2019_hdr_mag_special.printname"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.printname") or "FORGE TAC 5-R Special"
+L["cod2019_hdr_mag_special.compactname"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.compactname") or "5R Special"
+L["cod2019_hdr_mag_special.description"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.description") or "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."
+
 //////////////////// Rytec AMR
 /////////////// Magazine
 L["cod2019_rytec_mag_special.printname"] = ARC9:GetPhrase("cod2019_spr208_mag_xmag_alt.printname") or "FORGE TAC 5-R Special"
