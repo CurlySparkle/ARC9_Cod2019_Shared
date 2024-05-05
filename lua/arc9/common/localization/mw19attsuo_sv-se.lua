@@ -142,6 +142,16 @@ L["cod2019_famas_upper_railcust.printname"] = "Valorisé-Låda"
 L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
 L["cod2019_famas_upper_railcust.description"] = "Anpassad Valorisé-låda till FR 5,56."
 
+//////////////////// Oden
+/////////////// Magazine
+L["cod2019_oden_mag_50.printname"] = string.format(mw19magtext.mag, "50")
+L["cod2019_oden_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_oden_mag_50.description"] = string.format(mw19magtext.descl, "50", mw19ammotype["127x55"])
+
+L["cod2019_oden_mag_10.printname"] = "10-Patronersmagasin (TP)"
+L["cod2019_oden_mag_10.compactname"] = "10P (TP)"
+L["cod2019_oden_mag_10.description"] = "Konverteringskit för att använda 30-patronersmagasin av <color=255,255,100>12,7 x 55 mm</color>-ammunition med högre mynningshastighet för ökad räckvidd och stoppkraft."
+
 //////////////////// FN Scar 17
 /////////////// Magazine
 L["cod2019_scar_mag_dmr.printname"] = "6.5 mm Creedmoor 10P."

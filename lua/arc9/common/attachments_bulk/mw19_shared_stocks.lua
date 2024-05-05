@@ -241,7 +241,12 @@ ATT.Category = "cod2019_stocks"
 ATT.Model = "models/weapons/cod2019/attachs/stocks/attachment_vm_ar_t9standard_stock.mdl"
 ATT.ModelOffset = Vector(-0.1, 0, 0)
 
-ATT.AimDownSightsTimeMult = 0.92
-ATT.RecoilMult = 1.08
+if !warzonestats then -- Regular Stats
+	-- table.Merge(ATT, stats_vlight.gmod)
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.RecoilMult = 1.08
+else -- Warzone Stats
+	table.Merge(ATT, stats_vlight.wz)
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_xm4_stock")

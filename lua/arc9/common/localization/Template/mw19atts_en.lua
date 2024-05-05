@@ -755,9 +755,9 @@ L["cod2019_grau_barrel_01.printname"] = "ZLR Drifter A-08"
 L["cod2019_grau_barrel_01.compactname"] = "Drifter"
 L["cod2019_grau_barrel_01.description"] = "Ultra short 5.3\" barrel with a built in foregrip allows first class agility and maneuverability without sacrificing recoil control."
 
-L["cod2019_grau_barrel_02.printname"] = "Tempus 26.4\" Archangel"
-L["cod2019_grau_barrel_02.compactname"] = "Archangel"
-L["cod2019_grau_barrel_02.description"] = "Partially shrouded 26.4\" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship."
+L["cod2019_grau556_barrel_barxlong.printname"] = "Tempus 26.4\" Archangel"
+L["cod2019_grau556_barrel_barxlong.compactname"] = "Archangel"
+L["cod2019_grau556_barrel_barxlong.description"] = "Partially shrouded 26.4\" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship."
 
 L["cod2019_grau556_barrel_heavy.printname"] = "ZRK CZEN mk2"
 L["cod2019_grau556_barrel_heavy.compactname"] = "CZEN"
@@ -860,10 +860,8 @@ L["cod2019_an94_stock_heavy.description"] = "Heavy duty stock with tactical comb
 L["cod2019_an94_stock_none.printname"] = "Folded Stock"
 L["cod2019_an94_stock_none.compactname"] = "Folded"
 
-L["cod2019_an94_stock_vlight.printname"] = "VLK PX-9 Pero"
-L["cod2019_an94_stock_vlight.compactname"] = "Pero"
-
--- L["cod2019_an94_stockskel.printname"] = ARC9:GetPhrase("cod2019_akilo47_stockskel.printname") or "Skeleton Stock"
+L["cod2019_an94_stockskel.printname"] = "VLK PX-9 Pero"
+L["cod2019_an94_stockskel.compactname"] = "Pero"
 
 /////////////// Magazine
 L["cod2019_an94_mag_45.printname"] = string.format(mw19magtext.mag, "45")

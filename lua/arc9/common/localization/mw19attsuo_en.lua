@@ -154,6 +154,16 @@ L["cod2019_famas_upper_railcust.printname"] = "Valorisé Receiver"
 L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
 L["cod2019_famas_upper_railcust.description"] = "Modified Valorisé receiver for the FR 5.56."
 
+//////////////////// Oden
+/////////////// Magazine
+L["cod2019_oden_mag_50.printname"] = string.format(mw19magtext.mag, "50")
+L["cod2019_oden_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_oden_mag_50.description"] = string.format(mw19magtext.descl, "50", mw19ammotype["127x55"])
+
+L["cod2019_oden_mag_10.printname"] = "10 Round TP Mags"
+L["cod2019_oden_mag_10.compactname"] = "10R TP"
+L["cod2019_oden_mag_10.description"] = "Conversion kit to use 10 round magazines of higher velocity <color=255,255,100>12.7x55mm</color> ammunition for increased range and stopping power."
+
 //////////////////// FN Scar 17
 /////////////// Magazine
 L["cod2019_scar_mag_dmr.printname"] = "6.5mm Creedmoor 10R Mags"
