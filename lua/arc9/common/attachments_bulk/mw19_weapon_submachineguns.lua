@@ -21,12 +21,9 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilMult = 1.1
-
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
+ATT.DeployTimeMult = 1.04
+ATT.AimDownSightsTimeMult = 1.08
+ATT.RangeMaxMult = 1.08
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -65,12 +62,9 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
 
-ATT.SprintToFireTimeMult = 0.9
-ATT.AimDownSightsTimeMult = 0.9
-ATT.RecoilMult = 1.05
-
+ATT.DeployTimeMult = 0.95
+ATT.AimDownSightsTimeMult = 0.93
 ATT.RangeMaxMult = 0.95
-ATT.RangeMinMult = 0.95
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
