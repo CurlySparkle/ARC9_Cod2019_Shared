@@ -360,12 +360,11 @@ ATT.Category = {"cod2019_ax50_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
 ATT.AimDownSightsTimeMult = 0.85
-ATT.SprintToFireTimeMult = 0.85
-ATT.RecoilMult = 1.25
-
-ATT.RangeMaxMult = 0.85
-ATT.RangeMinMult = 0.85
-ATT.PhysBulletMuzzleVelocityMult = 0.9
+ATT.DeployTimeMult = 0.80
+ATT.RangeMaxMult = 0.70
+ATT.DamageMaxMult = 0.85
+ATT.PhysBulletMuzzleVelocityMult = 0.65
+ATT.SpreadMult = 1.50
 
 ATT.Element = {
     AttPosMods = {
@@ -405,13 +404,12 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_ax50_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
-ATT.AimDownSightsTimeMult = 1.25
-ATT.SprintToFireTimeMult = 1.25
-ATT.RecoilMult = 0.85
-
-ATT.RangeMaxMult = 1.25
-ATT.RangeMinMult = 1.25
-ATT.PhysBulletMuzzleVelocityMult = 1.25
+ATT.AimDownSightsTimeMult = 1.30
+ATT.DeployTimeMult = 1.20
+ATT.RangeMaxMult = 1.35
+ATT.DamageMaxMult = 1.15
+ATT.SpreadMult = 0.75
+ATT.PhysBulletMuzzleVelocityMult = 1.35
 
 ATT.Element = {
     AttPosMods = {
