@@ -23,14 +23,6 @@ ATT.ActivateElements = {"slide_none","slide_extended2"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-
-ATT.RecoilMult = 0.95
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
-ATT.PhysBulletMuzzleVelocityMult = 1.15
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -46,6 +38,20 @@ ATT.DrawFunc = function(swep, model, wm)
     else
         model:SetSkin(0)
     end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.RecoilMult = 0.95
+	ATT.RangeMaxMult = 1.15
+	ATT.RangeMinMult = 1.15
+	ATT.PhysBulletMuzzleVelocityMult = 1.15
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 94 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.017
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_50gs_slide_ext")
@@ -74,14 +80,6 @@ ATT.MuzzleDevice_Priority = 1
 --ATT.Override_MuzzleEffectAttachment = 1
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-
-ATT.RecoilMult = 0.95
-ATT.RangeMaxMult = 1.15
-ATT.RangeMinMult = 1.15
-ATT.PhysBulletMuzzleVelocityMult = 1.15
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -97,6 +95,25 @@ ATT.DrawFunc = function(swep, model, wm)
     else
         model:SetSkin(0)
     end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.RecoilMult = 0.95
+	ATT.RangeMaxMult = 1.15
+	ATT.RangeMinMult = 1.15
+	ATT.PhysBulletMuzzleVelocityMult = 1.15
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 235 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.044
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpreadAddMove = 0.0015
+	ATT.RangeMinMult = 1.35
+	ATT.RangeMaxMult = 1.35
+	ATT.SpeedMult = 0.97
+	ATT.SpeedSightsMult = 0.94
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_50gs_slide_ext2")
@@ -120,16 +137,20 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_50gs_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 
-
-ATT.AimDownSightsTimeMult = 1.05
-ATT.SprintToFireTimeMult = 1.05
-ATT.ReloadTimeMult = 1.1
-
-ATT.ClipSizeOverride = 13
-
 ATT.BulletBones = {
     [1] = "j_bullet",
 }
+
+ATT.ClipSizeAdd = 6
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.SprintToFireTimeMult = 1.05
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.007
+	ATT.SpeedMult = 0.97
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_50gs_mag_13")
 ----------------------------------------------------------------------------------------
@@ -179,11 +200,6 @@ ATT.ActivateElements = {"barrel_none"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-ATT.RecoilMult = 0.92
-ATT.RangeMaxMult = 1.07
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -192,6 +208,23 @@ ATT.Element = {
         }
     }
 }
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.RecoilMult = 0.92
+	ATT.RangeMaxMult = 1.07
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 220 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.048
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpreadAddMove = -0.00336
+	ATT.RangeMinMult = 1.35
+	ATT.RangeMaxMult = 1.35
+	ATT.SpeedMult = 0.96
+	ATT.SpeedSightsMult = 0.93
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_357_barrel_long")
 ----------------------------------------------------------------------------------------
@@ -216,10 +249,18 @@ ATT.ActivateElements = {"grip_none", "357_stock"}
 ATT.CustomizePos = Vector(10, 25, 4.5)
 ATT.CustomizeRotateAnchor = Vector(10, -3.5, -4.5)
 
-ATT.AimDownSightsTimeMult = 1.2
-ATT.DeployTimeMult = 1.2
-ATT.RecoilMult = 0.85
-ATT.VisualRecoilMult = 0.87
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.2
+	ATT.DeployTimeMult = 1.2
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.87
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.028
+	ATT.RecoilMult = 0.8
+	ATT.VisualRecoilMult = 0.8
+	ATT.SpeedMult = 0.87
+	ATT.SpeedSightsMult = 0.73
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_357_grip_stock")
 ----------------------------------------------------------------------------------------
@@ -242,19 +283,43 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_357_mag"}
 ATT.ActivateElements = {"mag_none"}
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-ATT.RangeMaxMult = 0.5
-ATT.RangeMinMult = 0.5
-ATT.Penetration = 1
-ATT.Num = 6
-ATT.RicochetChance = 0
-ATT.SpreadMult = 1
-ATT.SpreadSights = 0.06
-ATT.DistributeDamage = true
-
 ATT.CustomCrosshair = true
 ATT.CustomCrosshairSize = 10
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.RangeMaxMult = 0.5
+	ATT.RangeMinMult = 0.5
+	ATT.Penetration = 1
+	ATT.Num = 6
+	ATT.RicochetChance = 0
+	ATT.SpreadMult = 1
+	ATT.SpreadSights = 0.06
+	ATT.DistributeDamage = true
+else -- Warzone Stats
+	-- ATT.PhysBulletMuzzleVelocityAdd = "∞" -- How do one do unlimited velocity?
+	ATT.NumAdd = 7
+	ATT.SpreadMult = 1
+	ATT.SpreadSights = 0.0715
+	ATT.SpreadAddMove = 0.008
+	
+	ATT.DamageMaxAdd = -48
+	ATT.DamageMinAdd = -38
+	
+	ATT.RangeMinAdd = -18 / ARC9.HUToM
+	ATT.RangeMaxAdd = -2 / ARC9.HUToM
+	
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1,
+		[HITGROUP_CHEST] = 1,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 0.65,
+		[HITGROUP_RIGHTARM] = 0.65,
+		[HITGROUP_LEFTLEG] = 0.65,
+		[HITGROUP_RIGHTLEG] = 0.65,
+	}
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_357_mag_snakeshot")
 
@@ -280,15 +345,6 @@ ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.06
-ATT.DeployTimeMult = 1.05
-
-ATT.RecoilMult = 0.95
-ATT.VisualRecoilMult = 0.92
-ATT.RangeMaxMult = 1.05
-ATT.RangeMinMult = 1.05
-ATT.PhysBulletMuzzleVelocityMult = 1.05
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -297,6 +353,21 @@ ATT.Element = {
         }
     }
 }
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.06
+	ATT.DeployTimeMult = 1.05
+	ATT.RecoilMult = 0.95
+	ATT.VisualRecoilMult = 0.92
+	ATT.RangeMaxMult = 1.05
+	ATT.RangeMinMult = 1.05
+	ATT.PhysBulletMuzzleVelocityMult = 1.05
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 72 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.011
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_m19_slide_ext")
 ----------------------------------------------------------------------------------------
@@ -317,6 +388,20 @@ ATT.BoneMerge = true
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_m19_slide"}
 ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
+
+if !warzonestats then -- Regular Stats
+ -- INSERT STATS
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 135 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.02
+	ATT.RecoilMult = 0.89
+	ATT.VisualRecoilMult = 0.89
+	ATT.SpreadAddMove = 0.0063
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.95
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_m19_slide_vented")
 ----------------------------------------------------------------------------------------
@@ -341,13 +426,6 @@ ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.04
-ATT.DeployTimeMult = 1.04
-
-ATT.RangeMaxMult = 1.02
-ATT.RangeMinMult = 1.02
-ATT.PhysBulletMuzzleVelocityMult = 1.02
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -356,6 +434,19 @@ ATT.Element = {
         }
     }
 }
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.04
+	ATT.DeployTimeMult = 1.04
+	ATT.RangeMaxMult = 1.02
+	ATT.RangeMinMult = 1.02
+	ATT.PhysBulletMuzzleVelocityMult = 1.02
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -54 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.01
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_m19_slide_light")
 ----------------------------------------------------------------------------------------
@@ -378,16 +469,21 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_m19_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.DeployTimeMult = 1.12
-
-ATT.ClipSizeOverride = 32
-ATT.ReloadTimeMult = 1.15
-
 ATT.BulletBones = {
     [1] = "j_bullet",
     [2] = "j_bullet2",
 }
+
+ATT.ClipSizeAdd = 15
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.12
+	ATT.ReloadTimeMult = 1.15
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.005
+	ATT.SpeedMult = 0.97
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_m19_mag_ext2")
 
@@ -413,15 +509,6 @@ ATT.ActivateElements = {"slide_none","slide_long"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.06
-ATT.DeployTimeMult = 1.05
-
-ATT.RecoilMult = 0.95
-ATT.VisualRecoilMult = 0.92
-ATT.RangeMaxMult = 1.05
-ATT.RangeMinMult = 1.05
-ATT.PhysBulletMuzzleVelocityMult = 1.05
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -430,6 +517,26 @@ ATT.Element = {
         }
     }
 }
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.06
+	ATT.DeployTimeMult = 1.05
+	ATT.RecoilMult = 0.95
+	ATT.VisualRecoilMult = 0.92
+	ATT.RangeMaxMult = 1.05
+	ATT.RangeMinMult = 1.05
+	ATT.PhysBulletMuzzleVelocityMult = 1.05
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 63 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.RecoilMult = 1.07
+	ATT.VisualRecoilMult = 1.07
+	ATT.SpreadAddMove = -0.0042
+	ATT.RangeMinMult = 1.18
+	ATT.RangeMaxMult = 1.18
+	ATT.SpeedMult = 0.99
+	ATT.SpeedSightsMult = 0.96
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_m1911_slide_long")
 ----------------------------------------------------------------------------------------
@@ -463,6 +570,20 @@ ATT.Element = {
     }
 }
 
+if !warzonestats then -- Regular Stats
+ -- INSERT STATS
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -38 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.012
+	ATT.RecoilMult = 0.93
+	ATT.VisualRecoilMult = 0.93
+	ATT.SpreadAddMove = -0.0056
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.04
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_m1911_slide_short")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -484,16 +605,21 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_m1911_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
-
-ATT.ClipSizeOverride = 15
-ATT.ReloadTimeMult = 1.1
-
 ATT.BulletBones = {
     [1] = "j_bullet",
     [2] = "j_bullet2",
 }
+
+ATT.ClipSizeAdd = 8
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.02
+	ATT.SpeedMult = 0.98
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_m1911_mag_15")
 
@@ -547,9 +673,15 @@ ATT.ActivateElements = {"muzzle_none"}
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.RangeMaxMult = 1.05
-ATT.SpreadMult = 0.9
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.RangeMaxMult = 1.05
+	ATT.SpreadMult = 0.9
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.005
+	ATT.RecoilMult = 1.3
+	ATT.VisualRecoilMult = 1.3
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_muzzle")
 ----------------------------------------------------------------------------------------
@@ -574,11 +706,6 @@ ATT.ActivateElements = {"slide_none","slide_long"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.15
-ATT.DeployTimeMult = 1.1
-ATT.RangeMaxMult = 1.07
-ATT.SpreadMult = 0.9
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -587,6 +714,23 @@ ATT.Element = {
         }
     }
 }
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.1
+	ATT.RangeMaxMult = 1.07
+	ATT.SpreadMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 95 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.02
+	ATT.RecoilMult = 0.89
+	ATT.VisualRecoilMult = 0.89
+	ATT.SpreadAddMove = -0.0063
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.95
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_long")
 ----------------------------------------------------------------------------------------
@@ -611,9 +755,6 @@ ATT.ActivateElements = {"slide_none","slide_light"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SpreadMult = 0.5
-
 -- ATT.Element = {
     -- AttPosMods = {
         -- [1] = { -- Muzzle
@@ -622,6 +763,17 @@ ATT.SpreadMult = 0.5
         -- }
     -- }
 -- }
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SpreadMult = 0.5
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -51 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.014
+	ATT.RangeMinMult = 0.85
+	ATT.RangeMaxMult = 0.85
+	ATT.SpeedSightsMult = 1.05
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_light")
 ----------------------------------------------------------------------------------------
@@ -646,10 +798,14 @@ ATT.ActivateElements = {"slide_none","slide_auto"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
-ATT.AimDownSightsTimeMult = 1.15
-ATT.RecoilKickMult = 1.3
-ATT.PostBurstDelay = 0.2
-ATT.RPMAdd = 529
+-- ATT.Element = {
+    -- AttPosMods = {
+        -- [1] = { -- Muzzle
+            -- Pos = Vector(-0.2, 0, -0.1),
+            -- Ang = Angle(0,0,0),
+        -- }
+    -- }
+-- }
 
 ATT.FiremodesOverride = {
     {
@@ -659,14 +815,32 @@ ATT.FiremodesOverride = {
     },
 }
 
--- ATT.Element = {
-    -- AttPosMods = {
-        -- [1] = { -- Muzzle
-            -- Pos = Vector(-0.2, 0, -0.1),
-            -- Ang = Angle(0,0,0),
-        -- }
-    -- }
--- }
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.RecoilKickMult = 1.3
+	ATT.PostBurstDelay = 0.2
+	ATT.RPMAdd = 529
+else -- Warzone Stats
+	ATT.RPMAdd = 529
+	ATT.PostBurstDelay = 0.17
+	ATT.SpreadAddMove = -0.001
+	
+	ATT.DamageMaxAdd = -7
+	ATT.DamageMinAdd = -3
+
+	ATT.RangeMinAdd = -2 / ARC9.HUToM
+	ATT.RangeMaxAdd = -3 / ARC9.HUToM
+
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1.275,
+		[HITGROUP_CHEST] = 1.275,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 1,
+		[HITGROUP_RIGHTARM] = 1,
+		[HITGROUP_LEFTLEG] = 1,
+		[HITGROUP_RIGHTLEG] = 1,
+	}
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_auto")
 ----------------------------------------------------------------------------------------
@@ -691,26 +865,20 @@ ATT.ActivateElements = {"stock_none","stock"}
 ATT.PeekPos = Vector(-0.5, -1.5, -4)
 ATT.PeekAng = Angle(0, 0, -45)
 
-ATT.RecoilKickMult = 0.8
-ATT.RecoilkMult = 0.8
-ATT.DeployTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.1
-ATT.RecoilModifierCapMult = 0.5
-
--- ATT.CustomizeAng = Angle(90, 0, 0)
--- ATT.CustomizePos = Vector(17, 25, 3)
-
--- ATT.SprintPos = Vector(1, 2, -3.5)
--- ATT.SprintAng = Angle(0, 0, 25)
-
--- ATT.PeekPos = Vector(0, -3, -5)
--- ATT.PeekAng = Angle(0, 0, -45)
-
--- ATT.ActivePos = Vector(-0.15, -0.5, -0.5)
--- ATT.ActiveAng = Angle(0, 0, 0)
-
--- ATT.MovingPos = Vector(-1, -0.8, -1)
--- ATT.MovingAng = Angle(0, 0, -5)
+if !warzonestats then -- Regular Stats
+	ATT.RecoilKickMult = 0.8
+	ATT.RecoilkMult = 0.8
+	ATT.DeployTimeMult = 1.15
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.RecoilModifierCapMult = 0.5
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.017
+	ATT.SprintToFireTimeAdd = -0.084
+	ATT.RecoilMult = 0.9
+	ATT.VisualRecoilMult = 0.9
+	ATT.SpeedMult = 0.9
+	ATT.SpeedSightsMult = 0.81
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_stock")
 ----------------------------------------------------------------------------------------
@@ -732,9 +900,14 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_renetti_grip"}
 ATT.ActivateElements = {"grip_none"}
 
-ATT.AimDownSightsTimeMult = 1.12
-ATT.DeployTimeMult = 1.07
-ATT.RecoilMult = 0.9
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.12
+	ATT.DeployTimeMult = 1.07
+	ATT.RecoilMult = 0.9
+else -- Warzone Stats
+	ATT.RecoilMult = 0.6
+	ATT.VisualRecoilMult = 0.6
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_grip_custom")
 ----------------------------------------------------------------------------------------
@@ -756,17 +929,22 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_renetti_grip"}
 ATT.ActivateElements = {"grip_none"}
 
-ATT.AimDownSightsTimeMult = 0.92
-ATT.DeployTimeMult = 0.92
-ATT.RecoilMult = 1.05
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.92
+	ATT.RecoilMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.025
+	ATT.SprintToFireTimeAdd = -0.037
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_grip_light")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "FTAC SATUS CS-X"
-ATT.CompactName = "FTAC CS-X"
-ATT.Description = [[Tactical stock and foregrip combo provide an extremely stable firing platform.]]
+ATT.PrintName = "FTAC G-X"
+ATT.CompactName = "FTAC G-X"
+ATT.Description = [[Solo foregrip helps control recoil without hindering movement or stability.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_pstlgrpcust_v2.png", "mips smooth")
@@ -784,9 +962,17 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_renetti_foregrip"}
 -- ATT.ActivateElements = {"grip_none"}
 
-ATT.AimDownSightsTimeMult = 1.07
-ATT.DeployTimeMult = 1.07
-ATT.RecoilMult = 0.92
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.DeployTimeMult = 1.07
+	ATT.RecoilMult = 0.92
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.016
+	ATT.RecoilMult = 0.55
+	ATT.VisualRecoilMult = 0.55
+	ATT.SpeedMult = 0.99
+	ATT.SpeedSightsMult = 0.12
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_foregrip")
 ----------------------------------------------------------------------------------------
@@ -809,10 +995,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_renetti_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.ReloadTimeMult = 1.1
-ATT.ClipSizeOverride = 20
-
 ATT.BulletBones = {
     [1] = {"j_bullet1","j_bullet1_l"},
     [2] = {"j_bullet2","j_bullet2_l"},
@@ -826,10 +1008,19 @@ ATT.BulletBones = {
     [10] = {"j_bullet10","j_bullet10_l"},
 }
 
+ATT.ClipSizeAdd = 6
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.002
+	ATT.SpeedMult = 0.98
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_renetti_mag_xmag")
 
 /////////////////////////// -- Sykov
----------------------------
 ATT = {}
 
 ATT.PrintName = "Sorokin 140mm Auto"
@@ -851,17 +1042,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_slide"}
 ATT.ActivateElements = {"slide_none"}
 
-ATT.FiremodesOverride = {
-    {
-        Mode = -1,
-    },
-}
-
-ATT.RecoilMult = 1.1
-ATT.RPMMult = 1.75
-ATT.RecoilKickMult = 1.2
-ATT.AimDownSightsTimeMult = 1.1
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -870,6 +1050,37 @@ ATT.Element = {
         }
     }
 }
+
+ATT.FiremodesOverride = {
+    {
+        Mode = -1,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilMult = 1.1
+	ATT.RPMMult = 1.75
+	ATT.RecoilKickMult = 1.2
+	ATT.AimDownSightsTimeMult = 1.1
+else -- Warzone Stats
+	ATT.RPMAdd = 482
+	ATT.PostBurstDelay = 0
+	ATT.SpreadAddMove = -0.013
+	
+	ATT.DamageMaxAdd = -12
+	ATT.DamageMinAdd = -13
+
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1.3,
+		[HITGROUP_CHEST] = 1.3,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 1,
+		[HITGROUP_RIGHTARM] = 1,
+		[HITGROUP_LEFTLEG] = 1,
+		[HITGROUP_RIGHTLEG] = 1,
+	}
+
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_slide_auto")
 ----------------------------------------------------------------------------------------
@@ -895,6 +1106,20 @@ ATT.MuzzleDevice = true
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_slide"}
 ATT.ActivateElements = {"slide_none","slide_silencer"}
+
+if !warzonestats then -- Regular Stats
+ -- INSERT STATS
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 131 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.038
+	ATT.RecoilMult = 0.83
+	ATT.VisualRecoilMult = 0.83
+	ATT.SpreadAddMove = -0.0098
+	ATT.RangeMinMult = 1.4
+	ATT.RangeMaxMult = 1.4
+	ATT.SpeedMult = 0.96
+	ATT.SpeedSightsMult = 0.93
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_slide_silencer")
 ----------------------------------------------------------------------------------------
@@ -928,6 +1153,15 @@ ATT.Element = {
     }
 }
 
+if !warzonestats then -- Regular Stats
+ -- INSERT STATS
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -34 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.01
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_sykov_slide_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -948,10 +1182,6 @@ ATT.BoneMerge = true
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
-
-ATT.AimDownSightsTimeMult = 1.11
-ATT.ClipSizeOverride = 26
-ATT.ReloadTimeMult = 1.1
 
 local bulletbones = {
     [3] = "j_bullet3",
@@ -977,6 +1207,16 @@ ATT.DrawFunc = function(wep, model, wm)
     end
 end
 
+ATT.ClipSizeAdd = 8
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.11
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.002
+	ATT.SpeedMult = 0.98
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_sykov_mag_xmag")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -997,11 +1237,6 @@ ATT.BoneMerge = true
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
-
-ATT.AimDownSightsTimeMult = 1.35
-ATT.DeployTimeMult = 1.30
-ATT.ClipSizeOverride = 80
-ATT.ReloadTimeMult = 1.15
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg", 
@@ -1040,6 +1275,22 @@ ATT.DrawFunc = function(wep, model, wm)
     end
 end
 
+ATT.ClipSizeAdd = 68
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.35
+	ATT.DeployTimeMult = 1.30
+	ATT.ReloadTimeMult = 1.15
+else -- Warzone Stats
+	ATT.CustomCons = {
+		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-12.5%"
+	}
+	ATT.AimDownSightsTimeAdd = -0.026
+	ATT.SprintToFireTimeAdd = 0.038
+	ATT.SpeedMult = 0.89
+	ATT.SpeedSightsMult = 0.85
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_sykov_mag_drum")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -1060,26 +1311,20 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_stock"}
 ATT.ActivateElements = {"stock_none","stock"}
 
-ATT.RecoilKickMult = 0.85
-ATT.RecoilMult = 0.85
-ATT.VisualRecoilMult = 0.93
-ATT.DeployTimeMult = 1.15
-ATT.AimDownSightsTimeMult = 1.1
-
--- ATT.CustomizeAng = Angle(90, 0, 0)
--- ATT.CustomizePos = Vector(17, 25, 3)
-
---ATT.SprintPos = Vector(0, 0, -2)
---ATT.SprintAng = Angle(0, 0, 25)
-
---ATT.PeekPos = Vector(0, -3, -5)
---ATT.PeekAng = Angle(0, 0, -45)
-
--- ATT.ActivePos = Vector(2.5, 0, 1.5)
--- ATT.ActiveAng = Angle(0, 0, 17)
-
--- ATT.MovingPos = Vector(-1,-2,-1)
--- ATT.MovingAng = Angle(0,0,-8)
+if !warzonestats then -- Regular Stats
+	ATT.RecoilKickMult = 0.85
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.93
+	ATT.DeployTimeMult = 1.15
+	ATT.AimDownSightsTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.SprintToFireTimeAdd = -0.084
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpeedMult = 0.9
+	ATT.SpeedSightsMult = 0.8
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_stock_light")
 ----------------------------------------------------------------------------------------
@@ -1101,26 +1346,20 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_stock"}
 ATT.ActivateElements = {"stock_none","stock"}
 
-ATT.RecoilKickMult = 0.80
-ATT.RecoilMult = 0.80
-ATT.VisualRecoilMult = 0.90
-ATT.DeployTimeMult = 1.17
-ATT.AimDownSightsTimeMult = 1.17
-
--- ATT.CustomizeAng = Angle(90, 0, 0)
--- ATT.CustomizePos = Vector(17, 25, 3)
-
---ATT.SprintPos = Vector(0, 0, -2)
---ATT.SprintAng = Angle(0, 0, 25)
-
---ATT.PeekPos = Vector(0, -3, -5)
---ATT.PeekAng = Angle(0, 0, -45)
-
--- ATT.ActivePos = Vector(2.5, 0, 1.5)
--- ATT.ActiveAng = Angle(0, 0, 17)
-
--- ATT.MovingPos = Vector(-1,-2,-1)
--- ATT.MovingAng = Angle(0,0,-8)
+if !warzonestats then -- Regular Stats
+	ATT.RecoilKickMult = 0.80
+	ATT.RecoilMult = 0.80
+	ATT.VisualRecoilMult = 0.90
+	ATT.DeployTimeMult = 1.17
+	ATT.AimDownSightsTimeMult = 1.17
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.024
+	ATT.SprintToFireTimeAdd = -0.084
+	ATT.RecoilMult = 0.75
+	ATT.VisualRecoilMult = 0.75
+	ATT.SpeedMult = 0.9
+	ATT.SpeedSightsMult = 0.7
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_stock_heavy")
 ----------------------------------------------------------------------------------------
@@ -1142,8 +1381,12 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_grip"}
 ATT.ActivateElements = {"grip_none"}
 
-ATT.RecoilUpMult = 0.90
-ATT.AimDownSightsTimeMult = 1.07
+if !warzonestats then -- Regular Stats
+	ATT.RecoilUpMult = 0.90
+	ATT.AimDownSightsTimeMult = 1.07
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.96
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_grip_01")
 ----------------------------------------------------------------------------------------
@@ -1165,8 +1408,13 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_grip"}
 ATT.ActivateElements = {"grip_none"}
 
-ATT.RecoilKickMult = 1.1
-ATT.AimDownSightsTimeMult = 0.95
+if !warzonestats then -- Regular Stats
+	ATT.RecoilKickMult = 1.1
+	ATT.AimDownSightsTimeMult = 0.95
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.025
+	ATT.SprintToFireTimeAdd = -0.037
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_grip_02")
 ----------------------------------------------------------------------------------------
@@ -1188,8 +1436,13 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_grip"}
 ATT.ActivateElements = {"grip_none"}
 
-ATT.RecoilKickMult = 1.08
-ATT.DeployTimeMult = 0.9
+if !warzonestats then -- Regular Stats
+	ATT.RecoilKickMult = 1.08
+	ATT.DeployTimeMult = 0.9
+else -- Warzone Stats
+	ATT.RecoilMult = 0.6
+	ATT.VisualRecoilMult = 0.6
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_sykov_grip_03")
 
@@ -1215,10 +1468,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_slide"}
 ATT.ActivateElements = {"slide_none"}
 
-ATT.RangeMaxMult = 1.04
-ATT.DeployTimeMult = 1.05
-ATT.RPMMult = 1.166
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -1227,6 +1476,17 @@ ATT.Element = {
         }
     }
 }
+
+if !warzonestats then -- Regular Stats
+	ATT.RangeMaxMult = 1.04
+	ATT.DeployTimeMult = 1.05
+	ATT.RPMMult = 1.166
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 105 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.015
+	ATT.RangeMinMult = 1.28
+	ATT.RangeMaxMult = 1.28
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_x16_slide_slong")
 ----------------------------------------------------------------------------------------
@@ -1251,19 +1511,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_slide"}
 ATT.ActivateElements = {"slide_none"}
 
-ATT.RangeMaxMult = 10.4
-ATT.AimDownSightsTimeMult = 1.05
-ATT.RecoilKickMult = 1.5
-
-ATT.FiremodesOverride = {
-    {
-        Mode = 3,
-		RPM = 1200,
-		RunawayBurst = true,
-		PostBurstDelay = 0.15,
-    },
-}
-
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -1277,6 +1524,31 @@ ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
     end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.RangeMaxMult = 10.4
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.RecoilKickMult = 1.5
+
+	ATT.FiremodesOverride = {
+		{
+			Mode = 3,
+			RPM = 1200,
+			RunawayBurst = true,
+			PostBurstDelay = 0.15,
+		},
+	}
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 141 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.02
+	ATT.RecoilMult = 0.89
+	ATT.VisualRecoilMult = 0.89
+	ATT.SpreadAddMove = -0.063
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.95
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_x16_slide_heavy")
@@ -1302,18 +1574,26 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_slide"}
 ATT.ActivateElements = {"slide_none"}
 
-ATT.FiremodesOverride = {
-    {
-        Mode = -1,
-		RPM = 1200,
-    },
-}
+if !warzonestats then -- Regular Stats
+	ATT.FiremodesOverride = {
+		{
+			Mode = -1,
+			RPM = 1200,
+		},
+	}
 
-ATT.RecoilMult = 1.1
-ATT.RangeMaxMult = 0.95
-ATT.RangeMinMult = 0.95
-ATT.PhysBulletMuzzleVelocityMult = 0.95
-ATT.AimDownSightsTimeMult = 1.15
+	ATT.RecoilMult = 1.1
+	ATT.RangeMaxMult = 0.95
+	ATT.RangeMinMult = 0.95
+	ATT.PhysBulletMuzzleVelocityMult = 0.95
+	ATT.AimDownSightsTimeMult = 1.15
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -75 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.014
+	ATT.RangeMinMult = 0.85
+	ATT.RangeMaxMult = 0.85
+	ATT.SpeedSightsMult = 1.05
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_x16_slide_light")
 ---------------------------------------------------------------------------------------
@@ -1336,14 +1616,20 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 
-ATT.AimDownSightsTimeMult = 1.15
-ATT.ClipSizeOverride = 26
-ATT.ReloadTimeMult = 1.15
-
 ATT.BulletBones = {
     [1] = "j_bullet",
     [2] = "j_bullet2",
 }
+
+ATT.ClipSizeAdd = 13
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.ReloadTimeMult = 1.15
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.005
+	ATT.SpeedMult = 0.97
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_x16_mag_xmag2")
 ----------------------------------------------------------------------------------------
@@ -1384,6 +1670,20 @@ ATT.ActiveAng = Angle(0, 0, 0)
 
 ATT.MovingPos = Vector(-1, -0.8, -1)
 ATT.MovingAng = Angle(0, 0, -5)
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.RecoilMult = 0.92
+	ATT.RangeMaxMult = 1.07
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.017
+	ATT.SprintToFireTimeAdd = 0.084
+	ATT.RecoilMult = 0.8
+	ATT.VisualRecoilMult = 0.8
+	ATT.SpeedMult = 0.9
+	ATT.SpeedSightsMult = 0.81
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_x16_stock")
 ----------------------------------------------------------------------------------------
