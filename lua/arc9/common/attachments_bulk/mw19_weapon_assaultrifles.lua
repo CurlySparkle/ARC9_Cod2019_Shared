@@ -429,7 +429,7 @@ ATT.DrawFunc = function(wep, model, wm)
     end
 end
 
-ATT.ClipSizeOverride = 100
+ATT.ClipSizeAdd = 70
 
 ATT.CustomCons = {
 	[ ARC9:GetPhrase("autostat.reloadtime") ] = "-15%"
@@ -661,7 +661,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_xmags.mdl"
 ATT.BoneMerge = true
 
-ATT.ClipSizeOverride = 30
+ATT.ClipSizeAdd = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.13
@@ -998,7 +998,7 @@ ATT.DrawFunc = function(wep, model, wm)
     end
 end
 
-ATT.ClipSizeOverride = 32
+ATT.ClipSizeAdd = 2
 
 if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 0.8
@@ -1465,7 +1465,7 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_oden_mag"
 ATT.ActivateElements = {"mag_none"}
 
-ATT.ClipSizeOverride = 30
+ATT.ClipSizeAdd = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.07
@@ -1497,7 +1497,7 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_oden_mag"
 ATT.ActivateElements = {"mag_none"}
 
-ATT.ClipSizeOverride = 50
+ATT.ClipSizeAdd = 30
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.11
@@ -1530,7 +1530,7 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_oden_mag"
 ATT.ActivateElements = {"mag_none"}
 
-ATT.ClipSizeOverride = 10
+ATT.ClipSizeAdd = -10
 ATT.RPM = 380
 
 ATT.ReloadTimeMult = 0.9
@@ -1990,7 +1990,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
 ATT.ActivateElements = {"mag_none","mag_dmr"}
 
-ATT.ClipSizeOverride = 10
+ATT.ClipSizeAdd = -10
 ATT.RPM = 400
 
 ATT.RecoilMult = 1.15
@@ -2048,7 +2048,7 @@ ATT.Category = {"cod2019_scar_mag"}
 ATT.ActivateElements = {"mag_none","mag_armag"}
 
 ATT.RPM = 625
-ATT.ClipSizeOverride = 30
+ATT.ClipSizeAdd = 10
 ATT.RecoilMult = 1.1
 ATT.DamageMaxMult = 0.95
 ATT.DamageMinMult = 0.95
@@ -2104,7 +2104,7 @@ ATT.ActivateElements = {"mag_none","mag_drum"}
 
 ATT.AimDownSightsTimeMult = 1.07
 ATT.DeployTimeMult = 1.08
-ATT.ClipSizeOverride = 50
+ATT.ClipSizeAdd = 30
 ATT.RecoilMult = 1.07
 ATT.ReloadTimeMult = 1.1
 
@@ -2407,7 +2407,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_xmags_aki
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_xmags_akilo47.mdl"
 ATT.BoneMerge = true
 
-ATT.ClipSizeOverride = 40
+ATT.ClipSizeAdd = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.1
@@ -2456,8 +2456,6 @@ ATT.BulletBones = {
 	[4] = "j_ammo4",
 }
 
--- ATT.ClipSizeOverride = 30
-
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
 	ATT.DamageMaxMult = 0.85
@@ -2499,7 +2497,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo4
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_drum_mag.mdl"
 ATT.BoneMerge = true
 
-ATT.ClipSizeOverride = 75
+ATT.ClipSizeAdd = 45
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.15
@@ -2553,7 +2551,7 @@ ATT.ShellModel = "models/weapons/cod2019/shared/shell_origin12.mdl"
 ATT.ShellSounds = ARC9.ShotgunShellSoundsTable
 ATT.ShellScale = 1.2
 
-ATT.ClipSizeOverride = 12
+ATT.ClipSizeAdd = -18
 
 ATT.SpreadMult = 2.3
 ATT.SpreadAddSights = 0.075
@@ -2718,7 +2716,7 @@ ATT.Description = [[Extended magazines hold 60 rounds of 9mm conversion with a s
 
 ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_drummag.png", "mips smooth")
 
-ATT.ClipSizeOverride = 60
+ATT.ClipSizeAdd = 30
 ATT.ReloadTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.05
 ATT.AimDownSightsTimeMult = 1.05
@@ -3067,7 +3065,7 @@ ARC9.LoadAttachment(ATT, "cod2019_grau556_pistgrip_heavy")
 -- --ATT.Model = "models/weapons/cod2019/attachs/mag/grau556_xmag.mdl"
 -- ATT.DropMagazineModel = "models/weapons/cod2019/mags/w_rif_m13_mag.mdl"
 
--- ATT.ClipSizeOverride = 30
+-- ATT.ClipSizeAdd = 30
 -- ATT.RecoilMult = 1.1
 
 -- ATT.DamageMaxMult = 1.15
@@ -3095,7 +3093,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_cr56_mag"}
 ATT.ActivateElements = {"mag_none"}
 
-ATT.ClipSizeOverride = 30
+-- ATT.ClipSizeAdd = 30
 ATT.RPMMult = 0.85
 ATT.DamageMaxMult = 1.07
 ATT.DamageMinMult = 1.07
@@ -3128,7 +3126,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_cr56_mag"}
 ATT.ActivateElements = {"mag_none"}
 
-ATT.ClipSizeOverride = 30
+-- ATT.ClipSizeAdd = 30
 ATT.RPMMult = 1.1
 ATT.DamageMaxMult = 0.93
 ATT.DamageMinMult = 0.91
@@ -3325,7 +3323,7 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSizeOverride = 45
+ATT.ClipSizeAdd = 15
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.1
@@ -3527,7 +3525,7 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSizeOverride = 45
+ATT.ClipSizeAdd = 15
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.1
@@ -3570,7 +3568,7 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSizeOverride = 60
+ATT.ClipSizeAdd = 30
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.15
@@ -3734,7 +3732,7 @@ ATT.BulletBones = {
     [3] = "j_bullet3",
 }
 
-ATT.ClipSizeOverride = 30
+ATT.ClipSizeAdd = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
