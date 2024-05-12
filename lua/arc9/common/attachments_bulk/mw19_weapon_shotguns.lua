@@ -569,6 +569,15 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.88
 end
 
+ATT.Element = {
+    AttPosMods = {
+        [6] = { -- slot of the weapon's attachment
+            Pos = Vector(-3, 0, 0.3),
+            Ang = Angle(0,0,180),
+        }
+    }
+}
+
 ARC9.LoadAttachment(ATT, "cod2019_model680_pump_wood")
 -------------------------------------------------------------------------------
 ATT = {}

@@ -3,8 +3,6 @@ AddCSLuaFile()
 ENT.Base = "arc9_cod2019_proj_crossbow_default"
 ENT.PrintName = "Thermite Crossbow Bolt"
 
-DEFINE_BASECLASS(ENT.Base)
-
 ENT.ImpactDamage = 50
 ENT.CanPickup = false
 
@@ -14,73 +12,37 @@ if CLIENT then
     killicon.Add( "arc9_cod2019_proj_crossbow_he", "hud/killicons/default", Color( 255, 255, 255, 255 ) )
 end
 
-if SERVER then
-
-    function ENT:PhysicsCollide(data, physobj)
-        if self.Stuck then return end
-        self.Stuck = true
-        local tgt = data.HitEntity
-        local dmginfo = DamageInfo()
-        dmginfo:SetDamageType(DMG_NEVERGIB)
-        dmginfo:SetDamage(self.ImpactDamage)
-        dmginfo:SetAttacker(self:GetOwner())
-        dmginfo:SetInflictor(self)
-        tgt:TakeDamageInfo(dmginfo)
-        local angles = self:GetAngles()
-
-        if tgt:IsWorld() or (IsValid(tgt) and tgt:GetPhysicsObject():IsValid()) then
-            timer.Simple(0, function()
-                self:SetAngles(angles)
-                self:SetPos(data.HitPos)
-                self:GetPhysicsObject():Sleep()
-
-                if tgt:IsWorld() or IsValid(tgt) then
-                    self:SetSolid(SOLID_NONE)
-                    self:SetMoveType(MOVETYPE_NONE)
-                    self:SetCollisionGroup(COLLISION_GROUP_DEBRIS)
-
-                    local f = {self}
-                    table.Add(f, tgt:GetChildren())
-
-                    local tr = util.TraceLine({
-                        start = data.HitPos - data.OurOldVelocity * 0.5,
-                        endpos = data.HitPos + data.OurOldVelocity,
-                        filter = f,
-                        mask = MASK_SHOT
-                    })
-                    if IsValid(tr.Entity) then
-                        local bone = tr.Entity:TranslatePhysBoneToBone(tr.PhysicsBone) or tr.Entity:GetHitBoxBone(tr.HitBox, tr.Entity:GetHitboxSet())
-                        local matrix = tgt:GetBoneMatrix(bone or 0)
-                        if tr.Entity == tgt and bone and matrix then
-                            local pos = matrix:GetTranslation()
-                            local ang = matrix:GetAngles()
-                            self:FollowBone(tgt, bone)
-                            local n_pos, n_ang = WorldToLocal(tr.HitPos, tr.Normal:Angle(), pos, ang)
-                            self:SetLocalPos(n_pos)
-                            self:SetLocalAngles(n_ang)
-                            debugoverlay.Cross(pos, 8, 5, Color(255, 0, 255), true)
-                        elseif not tgt:IsWorld() then
-                            self:SetParent(tgt)
-                            self:GetParent():DontDeleteOnRemove(self)
-                        else
-                            self.AttachToWorld = true
-                        end
-                    end
-                end
-            end)
-
-            self:SetTrigger(true)
-            self:UseTriggerBounds(true, 16)
-        end
-        self:EmitSound(("weapons/cod2019/crossbow/imp_Arrow_Concrete_2ch_V3_0" .. math.random(1,4) .. ".ogg"), 75, 100, 1, CHAN_AUTO)
-        self:Detonate()
-    end
-
-  function ENT:Detonate()
-	local fire = ents.Create("arc9_cod2019_proj_aoe_thermite")
-	fire:SetPos(self:GetPos())
-	fire:SetOwner(self:GetOwner())
-	fire:Spawn()
+function ENT:Detonate()
+   if (self:WaterLevel() >= 1 or self:WaterLevel() >= 2) then
+    SafeRemoveEntityDelayed(self, 0)
     self:Remove()
-  end
+    self:EmitSound("weapons/rpg/shotdown.wav", 80)
+    else
+    self:DoDetonate()
+   end
+end
+  
+  function ENT:DoDetonate()
+    if self:WaterLevel() > 0 then self:Remove() return end
+    local attacker = self.Attacker or self:GetOwner() or self
+
+      local cloud = ents.Create("arc9_cod2019_thermite")
+      if IsValid(cloud) then
+	     cloud:SetModel("models/weapons/cod2019/w_eq_thermite_thrown2.mdl")
+         cloud:SetPos(self:GetPos())
+         cloud:SetAngles(self:GetAngles())
+         cloud:SetOwner(attacker)
+         cloud:Spawn()
+		 cloud:EmitSound("weapons/cod2019/shared/weap_thermite_impact_01.ogg", 100)
+		 cloud:SetParent(self)
+		 cloud.NoIgnite = self
+		 --self:Remove()
+      end
+    --util.Decal("Scorch", self:GetPos(), self:GetPos() - Vector(0, 0, 50), self)
+    
+    timer.Simple(7, function()
+        if IsValid(self) then
+            self:Remove()
+        end
+    end)
 end
