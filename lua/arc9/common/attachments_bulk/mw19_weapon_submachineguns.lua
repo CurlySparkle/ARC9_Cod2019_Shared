@@ -1836,7 +1836,7 @@ else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 30 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.033
 	ATT.RecoilMult = 0.87
-	ATT.VisualRecoilMult = 93
+	ATT.VisualRecoilMult = 0.93
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
 	ATT.SpeedMult = 0.97
