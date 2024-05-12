@@ -1912,13 +1912,13 @@ L["cod2019_ammo_crossbow_expl.printname"] = "FTAC Fury 508 mm Pilar"
 L["cod2019_ammo_crossbow_expl.compactname"] = "Fury"
 L["cod2019_ammo_crossbow_expl.description"] = "Pilar av kol med <color=255,255,100>tidsinställda sprängladdningar</color>. Klibbig pilspets ger mindre skada, men ödelägger mål när den sprängs. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
-L["cod2019_crossbow_bolt_02.printname"] = "FTAC Venom 508 mm Pilar"
-L["cod2019_crossbow_bolt_02.compactname"] = "Venom"
-L["cod2019_crossbow_bolt_02.description"] = "Pilar med <color=255,255,100>gaspatroner med högt tryck</color> som sprängs när den kommer i kontakt med fläsk. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+L["cod2019_ammo_crossbow_gas.printname"] = "FTAC Venom 508 mm Pilar"
+L["cod2019_ammo_crossbow_gas.compactname"] = "Venom"
+L["cod2019_ammo_crossbow_gas.description"] = "Pilar med <color=255,255,100>gaspatroner med högt tryck</color> som sprängs när den kommer i kontakt med fläsk. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
-L["cod2019_crossbow_bolt_03.printname"] = "FTAC Backburn 508 mm Pilar"
-L["cod2019_crossbow_bolt_03.compactname"] = "Backburn"
-L["cod2019_crossbow_bolt_03.description"] = "<color=255,255,100>Pilar med termit spets</color> som sprängs vid kontakt, fastnar på metall, och är effektiva mot fordon. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+L["cod2019_ammo_crossbow_thermite.printname"] = "FTAC Backburn 508 mm Pilar"
+L["cod2019_ammo_crossbow_thermite.compactname"] = "Backburn"
+L["cod2019_ammo_crossbow_thermite.description"] = "<color=255,255,100>Pilar med termit spets</color> som sprängs vid kontakt, fastnar på metall, och är effektiva mot fordon. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
 //////////////////// SKS
 /////////////// Optics

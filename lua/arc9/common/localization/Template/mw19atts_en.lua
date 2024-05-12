@@ -1938,13 +1938,13 @@ L["cod2019_ammo_crossbow_expl.printname"] = "FTAC Fury 20\" Bolts"
 L["cod2019_ammo_crossbow_expl.compactname"] = "Fury"
 L["cod2019_ammo_crossbow_expl.description"] = "Carbon bolts with <color=255,255,100>timed explosive tips</color>. Sticky tips deal less damage, but devastate targets on detonation. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
 
-L["cod2019_crossbow_bolt_02.printname"] = "FTAC Venom 20\" Bolts"
-L["cod2019_crossbow_bolt_02.compactname"] = "Venom"
-L["cod2019_crossbow_bolt_02.description"] = "Bolts with <color=255,255,100>high pressure tear gas cartridges</color> that detonate on impact with flesh. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+L["cod2019_ammo_crossbow_gas.printname"] = "FTAC Venom 20\" Bolts"
+L["cod2019_ammo_crossbow_gas.compactname"] = "Venom"
+L["cod2019_ammo_crossbow_gas.description"] = "Bolts with <color=255,255,100>high pressure tear gas cartridges</color> that detonate on impact with flesh. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
 
-L["cod2019_crossbow_bolt_03.printname"] = "FTAC Backburn 20\" Bolts"
-L["cod2019_crossbow_bolt_03.compactname"] = "Backburn"
-L["cod2019_crossbow_bolt_03.description"] = "<color=255,255,100>Thermite tipped bolts</color> that ignite on impact, stick to metal, and are effective against vehicles. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
+L["cod2019_ammo_crossbow_thermite.printname"] = "FTAC Backburn 20\" Bolts"
+L["cod2019_ammo_crossbow_thermite.compactname"] = "Backburn"
+L["cod2019_ammo_crossbow_thermite.description"] = "<color=255,255,100>Thermite tipped bolts</color> that ignite on impact, stick to metal, and are effective against vehicles. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
 
 //////////////////// SKS
 /////////////// Optics
