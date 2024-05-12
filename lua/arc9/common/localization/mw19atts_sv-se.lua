@@ -146,7 +146,7 @@ L["mw19_optic_canted.description"] = "<color=100,255,100>3,25x</color> Scout med
 
 L["cod2019_optic_scope_vz.printname"] = "Variabel Zoom Kikarsikte"
 L["cod2019_optic_scope_vz.compactname"] = "V. Zoom"
-L["cod2019_optic_scope_vz.description"] = "Avancerat kikarsikte zoomar mellan <color=100,255,100>3,0x</color> och <color=100,255,100>6.1x</color> för strider på förlängda räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
+L["cod2019_optic_scope_vz.description"] = "Avancerat kikarsikte zoomar mellan <color=100,255,100>3,0x</color> och <color=100,255,100>6,1x</color> för strider på förlängda räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 L["cod2019_optic_reflex_west05_hybrid.printname"] = "Cronen 2x2 Elite"
 L["cod2019_optic_reflex_west05_hybrid.description"] = "Avancerat riktmedel med <color=100,255,100>4,0x</color> magnifiering erbjuder utmärkt målförvärv."
@@ -1869,8 +1869,8 @@ L["cod2019_crossbow_scope.printname"] = "XRK MidTrak 4,0x Riktmedel"
 L["cod2019_crossbow_scope.compactname"] = "MidTrak"
 L["cod2019_crossbow_scope.description"] = "<color=100,255,100>4,0x</color> riktmedel ändrar armborsten till ett träffsäkert vapen för långa distanser. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
-L["cod2019_crossbow_optic_rangemaster.printname"] = "XRK Rangemaster VZ"
-L["cod2019_crossbow_optic_rangemaster.compactname"] = "Rangemaster"
+L["cod2019_crossbow_scope_vz.printname"] = "XRK Rangemaster VZ"
+L["cod2019_crossbow_scope_vz.compactname"] = "Rangemaster"
 
 /////////////// Cables
 L["cod2019_crossbow_wires_light.printname"] = "16 Strängkabel"
@@ -2022,13 +2022,13 @@ L["mw19_bolt_stat_stability"] = "Slutstyckerörelse Stabilitet"
 //////////////////////// Sniper Rifles
 //////////////////// Dragunov
 /////////////// Barrels
-L["cod2019_dragunov_barrel_01.printname"] = "510 mm Kompakt Pipa"
-L["cod2019_dragunov_barrel_01.compactname"] = "Kompakt"
-L["cod2019_dragunov_barrel_01.description"] = "Kort och kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Bättre för prickskyttar i rörelse."
+L["cod2019_svd_barrel_mid.printname"] = "510 mm Kompakt Pipa"
+L["cod2019_svd_barrel_mid.compactname"] = "Kompakt"
+L["cod2019_svd_barrel_mid.description"] = "Kort och kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Bättre för prickskyttar i rörelse."
 
-L["cod2019_dragunov_barrel_02.printname"] = "660m Förlängd Pipa"
-L["cod2019_dragunov_barrel_02.compactname"] = "Förlängd"
-L["cod2019_dragunov_barrel_02.description"] = "Förlängd pipa förbättrar mynningshastigheten och räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_svd_barrel_long.printname"] = "660m Förlängd Pipa"
+L["cod2019_svd_barrel_long.compactname"] = "Förlängd"
+L["cod2019_svd_barrel_long.description"] = "Förlängd pipa förbättrar mynningshastigheten och räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 /////////////// Stocks
 L["cod2019_dragunov_stock_heavy.printname"] = "FTAC Hunter-Scout"
@@ -2123,13 +2123,13 @@ L["cod2019_ax50_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19
 
 //////////////////// Rytec AMR
 /////////////// Barrels
-L["cod2019_rytec_barrel_01.printname"] = "FTAC Seven Straight"
-L["cod2019_rytec_barrel_01.compactname"] = "Seven"
-L["cod2019_rytec_barrel_01.description"] = "Förlängd 777 mm pipa ökar mynningshastigheten och räckvidden. Tung P7 kromad pipa av rostfritt stål stabiliserar skotten med kostnad på rörlighet."
+L["cod2019_rytec_barrel_long.printname"] = "FTAC Seven Straight"
+L["cod2019_rytec_barrel_long.compactname"] = "Seven"
+L["cod2019_rytec_barrel_long.description"] = "Förlängd 777 mm pipa ökar mynningshastigheten och räckvidden. Tung P7 kromad pipa av rostfritt stål stabiliserar skotten med kostnad på rörlighet."
 
-L["cod2019_rytec_barrel_02.printname"] = "FTAC 448 mm Dictator"
-L["cod2019_rytec_barrel_02.compactname"] = "Dictator"
-L["cod2019_rytec_barrel_02.description"] = "FTACs 448 mm titan-kobolt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet."
+L["cod2019_rytec_barrel_short.printname"] = "FTAC 448 mm Dictator"
+L["cod2019_rytec_barrel_short.compactname"] = "Dictator"
+L["cod2019_rytec_barrel_short.description"] = "FTACs 448 mm titan-kobolt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet."
 
 L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
 L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
@@ -2152,9 +2152,9 @@ L["cod2019_rytec_stock_light.printname"] = "FTAC Trekker"
 L["cod2019_rytec_stock_light.compactname"] = "Trekker"
 L["cod2019_rytec_stock_light.description"] = "Ultralätt sammansatt kolv förbättrar rörelsen i siktet."
 
-L["cod2019_rytec_stock_medium.printname"] = "STOVL Tac-Wrap"
-L["cod2019_rytec_stock_medium.compactname"] = "Tac-Wrap"
-L["cod2019_rytec_stock_medium.description"] = "Taktisk inlindat axelskydd från öst effektiviserad för strider på nära distans. Får dig snabbare på mål."
+L["cod2019_rytec_stock_stable.printname"] = "STOVL Tac-Wrap"
+L["cod2019_rytec_stock_stable.compactname"] = "Tac-Wrap"
+L["cod2019_rytec_stock_stable.description"] = "Taktisk inlindat axelskydd från öst effektiviserad för strider på nära distans. Får dig snabbare på mål."
 
 /////////////// Magazine
 L["cod2019_rytec_mag_explosive.printname"] = "2,5 x 59 mm Spräng 5-Patronersm."

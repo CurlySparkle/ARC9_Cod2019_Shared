@@ -2471,9 +2471,9 @@ L["cod2019_crossbow_scope.printname"] = "XRK MidTrak 4.0x Scope"
 L["cod2019_crossbow_scope.compactname"] = "MidTrak"
 L["cod2019_crossbow_scope.description"] = "High power <color=100,255,100>4.0x</color> scope converts this crossbow into an accurate long range weapon. <color=255,100,100>Optic glint visible to enemies.</color>"
 
-L["cod2019_crossbow_optic_rangemaster.printname"] = "XRK Rangemaster VZ"
-L["cod2019_crossbow_optic_rangemaster.compactname"] = "Rangemaster"
-L["cod2019_crossbow_optic_rangemaster.description"] = ARC9:GetPhrase("cod2019_optic_scope_vz.description") or "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
+L["cod2019_crossbow_scope_vz.printname"] = "XRK Rangemaster VZ"
+L["cod2019_crossbow_scope_vz.compactname"] = "Rangemaster"
+L["cod2019_crossbow_scope_vz.description"] = ARC9:GetPhrase("cod2019_optic_scope_vz.description") or "Advanced scope zooms between <color=100,255,100>3.0x</color> and <color=100,255,100>6.1x</color> for fighting at extended ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Cables
 L["cod2019_crossbow_wires_light.printname"] = "16-Strand Cable"
@@ -2632,13 +2632,13 @@ L["mw19_bolt_stat_stability"] = "Rechamber Stability"
 //////////////////////// Sniper Rifles
 //////////////////// Dragunov
 /////////////// Barrels
-L["cod2019_dragunov_barrel_01.printname"] = "510mm Compact Barrel"
-L["cod2019_dragunov_barrel_01.compactname"] = "Compact"
-L["cod2019_dragunov_barrel_01.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
+L["cod2019_svd_barrel_mid.printname"] = "510mm Compact Barrel"
+L["cod2019_svd_barrel_mid.compactname"] = "Compact"
+L["cod2019_svd_barrel_mid.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
 
-L["cod2019_dragunov_barrel_02.printname"] = "660m Extended Barrel"
-L["cod2019_dragunov_barrel_02.compactname"] = "Extended"
-L["cod2019_dragunov_barrel_02.description"] = "Extended barrel improves muzzle velocity and range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_svd_barrel_long.printname"] = "660m Extended Barrel"
+L["cod2019_svd_barrel_long.compactname"] = "Extended"
+L["cod2019_svd_barrel_long.description"] = "Extended barrel improves muzzle velocity and range. Additional weight stabilizes shots but hinders mobility."
 
 /////////////// Underbarrel
 L["cod2019_dragunov_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
@@ -2724,7 +2724,7 @@ L["cod2019_ax50_barrel_01.description"] = "Custom vanadium barrel with polygonal
 
 L["cod2019_ax50_barrel_02.printname"] = "17.0\" Factory Barrel"
 L["cod2019_ax50_barrel_02.compactname"] = "17.0\" F"
-L["cod2019_ax50_barrel_02.description"] = ARC9:GetPhrase("cod2019_dragunov_barrel_01.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
+L["cod2019_ax50_barrel_02.description"] = ARC9:GetPhrase("cod2019_svd_barrel_mid.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
 
 L["cod2019_ax50_barrel_03.printname"] = "32.0\" Factory Barrel"
 L["cod2019_ax50_barrel_03.compactname"] = "32.0\" F"
@@ -2759,13 +2759,13 @@ L["cod2019_ax50_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19
 
 //////////////////// Rytec AMR
 /////////////// Barrels
-L["cod2019_rytec_barrel_01.printname"] = "FTAC Seven Straight"
-L["cod2019_rytec_barrel_01.compactname"] = "Seven"
-L["cod2019_rytec_barrel_01.description"] = "Extended 777mm barrel increases muzzle velocity and range. Heavy-weight P7 Chrome-Moly lined stainless steel barrel stabilizes shots at the cost of agility."
+L["cod2019_rytec_barrel_long.printname"] = "FTAC Seven Straight"
+L["cod2019_rytec_barrel_long.compactname"] = "Seven"
+L["cod2019_rytec_barrel_long.description"] = "Extended 777mm barrel increases muzzle velocity and range. Heavy-weight P7 Chrome-Moly lined stainless steel barrel stabilizes shots at the cost of agility."
 
-L["cod2019_rytec_barrel_02.printname"] = "FTAC 448mm Dictator"
-L["cod2019_rytec_barrel_02.compactname"] = "Dictator"
-L["cod2019_rytec_barrel_02.description"] = "FTAC's 448mm titanium-cobalt barrel sacrifices accuracy and range for speed and agility."
+L["cod2019_rytec_barrel_short.printname"] = "FTAC 448mm Dictator"
+L["cod2019_rytec_barrel_short.compactname"] = "Dictator"
+L["cod2019_rytec_barrel_short.description"] = "FTAC's 448mm titanium-cobalt barrel sacrifices accuracy and range for speed and agility."
 
 L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
 L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
@@ -2794,9 +2794,9 @@ L["cod2019_rytec_stock_light.printname"] = "FTAC Trekker"
 L["cod2019_rytec_stock_light.compactname"] = "Trekker"
 L["cod2019_rytec_stock_light.description"] = "Ultralight composite stock improves movement while aiming down sights."
 
-L["cod2019_rytec_stock_medium.printname"] = "STOVL Tac-Wrap"
-L["cod2019_rytec_stock_medium.compactname"] = "Tac-Wrap"
-L["cod2019_rytec_stock_medium.description"] = "Eastern tactical comb wrap streamlined for close quarters combat. Gets you on target faster."
+L["cod2019_rytec_stock_stable.printname"] = "STOVL Tac-Wrap"
+L["cod2019_rytec_stock_stable.compactname"] = "Tac-Wrap"
+L["cod2019_rytec_stock_stable.description"] = "Eastern tactical comb wrap streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_rytec_mag_explosive.printname"] = "2.5x59mm Explosive 5-R Mag"
