@@ -950,8 +950,8 @@ L["cod2019_p90_barrel_02.compactname"] = "270 mm Pro"
 L["cod2019_p90_barrel_02.description"] = "270 mm pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med väldigt lite tillagd vikt."
 
 /////////////// Stock
-L["cod2019_p90_stock_medium.printname"] = "FORGE TAC CQB Axelskydd"
-L["cod2019_p90_stock_medium.compactname"] = "CQB Axel."
+L["cod2019_p90_stock_tactical.printname"] = "FORGE TAC CQB Axelskydd"
+L["cod2019_p90_stock_tactical.compactname"] = "CQB Axel."
 
 L["cod2019_p90_stock_sling.printname"] = "Flugrem"
 L["cod2019_p90_stock_sling.compactname"] = "Flugrem"
@@ -1189,8 +1189,8 @@ L["cod2019_iso_barrel_03.printname"] = "ISO 140 mm CQB"
 L["cod2019_iso_barrel_03.compactname"] = "CQB"
 L["cod2019_iso_barrel_03.description"] = "Komapkt fabriksinstallerad, heltäkt pipa med en liten offring av träffsäkerhet och räckvidd för att förbättra närstridsangrepp."
 
-L["cod2019_iso_barrel_04.printname"] = "FSS Nightshade"
-L["cod2019_iso_barrel_04.compactname"] = "Nightshare"
+L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
+L["cod2019_iso_barrel_supp.compactname"] = "Nightshare"
 
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"

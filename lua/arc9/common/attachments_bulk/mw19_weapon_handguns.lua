@@ -246,9 +246,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_357_grip"}
 ATT.ActivateElements = {"grip_none", "357_stock"}
 
-ATT.CustomizePos = Vector(10, 25, 4.5)
-ATT.CustomizeRotateAnchor = Vector(10, -3.5, -4.5)
-
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.2
 	ATT.DeployTimeMult = 1.2
@@ -678,9 +675,9 @@ if !warzonestats then -- Regular Stats
 	ATT.RangeMaxMult = 1.05
 	ATT.SpreadMult = 0.9
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.005
-	ATT.RecoilMult = 1.3
-	ATT.VisualRecoilMult = 1.3
+	ATT.AimDownSightsTimeAdd = 0.005
+	ATT.RecoilMult = 0.7
+	ATT.VisualRecoilMult = 0.7
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_muzzle")

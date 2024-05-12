@@ -1081,7 +1081,7 @@ L["cod2019_scar_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy"
 
 L["cod2019_scar_stock_light.printname"] = "FTAC Collapsible"
 L["cod2019_scar_stock_light.compactname"] = "Collapsible"
-L["cod2019_scar_stock_light.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_scar_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_scar_stock_dmr.printname"] = "XRK Obelisk Pro"
 L["cod2019_scar_stock_dmr.compactname"] = "Obelisk Pro"
@@ -1130,7 +1130,7 @@ L["cod2019_akilo47_stockskel.description"] = ARC9:GetPhrase("mw19stockdesc.vligh
 
 L["cod2019_ak47_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 L["cod2019_ak47_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
-L["cod2019_ak47_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_ak47_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_ak47_mag_40.printname"] = string.format(mw19magtext.mag, "40")
@@ -1205,7 +1205,7 @@ L["cod2019_grau_stock_light.description"] = "Aluminum core synthetic stock desig
 
 L["cod2019_grau556_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 L["cod2019_grau556_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
-L["cod2019_grau556_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_grau556_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_grau556_mag_m13.printname"] = ARC9:GetPhrase("cod2019_m13_mag_blackout.printname") or ".300 Blackout 30-Round Mags"
@@ -1305,7 +1305,7 @@ L["cod2019_an94_stock_heavy.description"] = "Heavy duty stock with tactical comb
 
 L["cod2019_an94_stock_none.printname"] = "Folded Stock"
 L["cod2019_an94_stock_none.compactname"] = "Folded"
-L["cod2019_an94_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_an94_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_an94_stockskel.printname"] = "VLK PX-9 Pero"
 L["cod2019_an94_stockskel.compactname"] = "Pero"
@@ -1427,9 +1427,9 @@ L["cod2019_p90_barrel_02.compactname"] = "10.6\" Pro"
 L["cod2019_p90_barrel_02.description"] = "10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight."
 
 /////////////// Stock
-L["cod2019_p90_stock_medium.printname"] = "FORGE TAC CQB Comb"
-L["cod2019_p90_stock_medium.compactname"] = "CQB Comb"
-L["cod2019_p90_stock_medium.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
+L["cod2019_p90_stock_tactical.printname"] = "FORGE TAC CQB Comb"
+L["cod2019_p90_stock_tactical.compactname"] = "CQB Comb"
+L["cod2019_p90_stock_tactical.description"] = ARC9:GetPhrase("cod2019_famas_stock_tactical.description") or "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
 
 L["cod2019_p90_stock_sling.printname"] = "Fly Strap"
 L["cod2019_p90_stock_sling.compactname"] = "Fly Strap"
@@ -1494,7 +1494,7 @@ L["cod2019_mp5_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium
 
 L["cod2019_mp5_stock_none.printname"] = ARC9:GetPhrase("cod2019_scar_stock_light.printname") or "FTAC Collapsible"
 L["cod2019_mp5_stock_none.compactname"] = ARC9:GetPhrase("cod2019_scar_stock_light.compactname") or "Collapsible"
-L["cod2019_mp5_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_mp5_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_mp5_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
@@ -1708,9 +1708,9 @@ L["cod2019_iso_barrel_03.printname"] = "ISO 140mm CQB"
 L["cod2019_iso_barrel_03.compactname"] = "CQB"
 L["cod2019_iso_barrel_03.description"] = "Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat."
 
-L["cod2019_iso_barrel_04.printname"] = "FSS Nightshade"
-L["cod2019_iso_barrel_04.compactname"] = "Nightshare"
-L["cod2019_iso_barrel_04.description"] = ARC9:GetPhrase("cod2019_vector_barrel_02.description") or "Monolithic <color=255,255,100>integral suppressor</color> keeps the weapon silent and increases range for longer distance stealth assaults."
+L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
+L["cod2019_iso_barrel_supp.compactname"] = "Nightshare"
+L["cod2019_iso_barrel_supp.description"] = ARC9:GetPhrase("cod2019_vector_barrel_02.description") or "Monolithic <color=255,255,100>integral suppressor</color> keeps the weapon silent and increases range for longer distance stealth assaults."
 
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"
@@ -1719,7 +1719,7 @@ L["cod2019_iso_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium
 
 L["cod2019_iso_stock_none.printname"] = "ISO Collapsible"
 L["cod2019_iso_stock_none.compactname"] = "Collapsible"
-L["cod2019_iso_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_iso_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_iso_mag_30.printname"] = string.format(mw19magtext.mag, "30")
@@ -1822,7 +1822,7 @@ L["cod2019_model680_barrel_mid.description"] = "Longer barrel with a <color=100,
 /////////////// Stock
 L["cod2019_model680_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 L["cod2019_model680_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
-L["cod2019_model680_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_model680_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_model680_stock_wood.printname"] = "Lockwood Precision Series"
 L["cod2019_model680_stock_wood.compactname"] = "Lockwood"
@@ -1904,7 +1904,7 @@ L["cod2019_725_stock_tactical.description"] = "Ultralight adjustable stock confi
 
 L["cod2019_725_stock_none.printname"] = "Sawed-off Stock"
 L["cod2019_725_stock_none.compactname"] = "Sawed-off"
-L["cod2019_725_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_725_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_725_stock_medium.printname"] = "Tempus Sport"
 L["cod2019_725_stock_medium.compactname"] = "Sport"
@@ -2333,7 +2333,7 @@ L["cod2019_raal_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light"
 
 L["cod2019_raal_stock_none.printname"] = "Folded Stock"
 L["cod2019_raal_stock_none.compactname"] = "Folded"
-L["cod2019_raal_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_raal_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 L["cod2019_raal_stock_medium.printname"] = "FTAC Elevate"
 L["cod2019_raal_stock_medium.compactname"] = "Elevate"
@@ -2553,7 +2553,7 @@ L["cod2019_sks_stock_medium.description"] = "Western stock adaptor designed to i
 
 L["cod2019_sks_stock_none.printname"] = ARC9:GetPhrase("cod2019_725_stock_none.printname") or "Sawed-Off Stock"
 L["cod2019_sks_stock_none.compactname"] = ARC9:GetPhrase("cod2019_725_stock_none.compactname") or "Sawed-Off"
-L["cod2019_sks_stock_none.description"] = ARC9:GetPhrase("cod2019_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_sks_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_sks_mag_30.printname"] = string.format(mw19magtext.mag, "30")

@@ -1428,8 +1428,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_striker45_stock"}
 ATT.ActivateElements = {"stock_none"}
 
-ATT.AimDownSightsTimeMult = 1.1
-ATT.RecoilMult = 1.15
+ATT.AimDownSightsTimeMult = 1.05
+ATT.RecoilMult = 0.85
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_stock_ump")
 ---------------------------------------------------------------------------------------
@@ -1468,7 +1468,7 @@ ATT.ActivateElements = {"mag_none"}
 -- ---------------------------------------------------
 
 ATT.RPMAdd = 100
-ATT.RecoilMult = 1.1
+ATT.RecoilMult = 1.15
 ATT.DamageMaxMult = 1.15
 ATT.DamageMinMult = 1.15
 
@@ -1724,7 +1724,7 @@ ATT.Category = {"cod2019_striker45_stock"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_stockl.mdl"
 ATT.BoneMerge = true
-ATT.ActivateElements = {"stock_none","grip_none","stock_light"}
+ATT.ActivateElements = {"stock_none","pgrip_none","stock_light"}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.12

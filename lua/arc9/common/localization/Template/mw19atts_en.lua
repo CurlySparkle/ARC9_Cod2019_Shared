@@ -975,8 +975,8 @@ L["cod2019_p90_barrel_02.compactname"] = "10.6\" Pro"
 L["cod2019_p90_barrel_02.description"] = "10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight."
 
 /////////////// Stock
-L["cod2019_p90_stock_medium.printname"] = "FORGE TAC CQB Comb"
-L["cod2019_p90_stock_medium.compactname"] = "CQB Comb"
+L["cod2019_p90_stock_tactical.printname"] = "FORGE TAC CQB Comb"
+L["cod2019_p90_stock_tactical.compactname"] = "CQB Comb"
 
 L["cod2019_p90_stock_sling.printname"] = "Fly Strap"
 L["cod2019_p90_stock_sling.compactname"] = "Fly Strap"
@@ -1214,8 +1214,8 @@ L["cod2019_iso_barrel_03.printname"] = "ISO 140mm CQB"
 L["cod2019_iso_barrel_03.compactname"] = "CQB"
 L["cod2019_iso_barrel_03.description"] = "Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat."
 
-L["cod2019_iso_barrel_04.printname"] = "FSS Nightshade"
-L["cod2019_iso_barrel_04.compactname"] = "Nightshare"
+L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
+L["cod2019_iso_barrel_supp.compactname"] = "Nightshare"
 
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"
