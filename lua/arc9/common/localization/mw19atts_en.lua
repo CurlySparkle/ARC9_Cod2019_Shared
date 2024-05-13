@@ -962,7 +962,7 @@ L["cod2019_attach_xmag_60.description"] = string.format(mw19magtext.descl, "60",
 
 L["cod2019_m4_mag_9mm.printname"] = "9mm Para 32-Round Mags"
 L["cod2019_m4_mag_9mm.compactname"] = "32R 9mm"
-L["cod2019_m4_mag_9mm.description"] = "Conversion kit to use <color=255,255,100>9mm parabellum</color> ammunition. Cycles at a much higher rate with less recoil."
+L["cod2019_m4_mag_9mm.description"] = "Conversion kit to use <color=255,255,100>9mm parabellum</color> ammunition. Cycles at a much higher rate with less recoil." .. changeammo.smg1
 
 L["cod2019_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Round Mags"
 L["cod2019_m4a1_mag_socom.compactname"] = "10R SOCOM"

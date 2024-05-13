@@ -537,7 +537,7 @@ L["cod2019_attach_xmag_60.description"] = string.format(mw19magtext.descl, "60",
 
 L["cod2019_m4_mag_9mm.printname"] = "9 mm Para 32-Patronersmagasin"
 L["cod2019_m4_mag_9mm.compactname"] = "32P 9 mm"
-L["cod2019_m4_mag_9mm.description"] = "Konverteringskit för att använda <color=255,255,100>9 mm parabellum</color>-ammunition. Skjuter med en högre hastighet med mindre rekyl."
+L["cod2019_m4_mag_9mm.description"] = "Konverteringskit för att använda <color=255,255,100>9 mm parabellum</color>-ammunition. Skjuter med en högre hastighet med mindre rekyl." .. changeammo.smg1
 
 L["cod2019_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Patronersmagasin"
 L["cod2019_m4a1_mag_socom.compactname"] = "10P SOCOM"

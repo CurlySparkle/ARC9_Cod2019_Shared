@@ -126,10 +126,17 @@ L["cod2019_fal_body_v2.description"] = "Modern FAL-låda. Endast <color=255,255,
 L["cod2019_fal_stock_v2.description"] = "Modern FAL-kolv. Endast <color=255,255,100>kosmetisk</color>."
 
 //////////////////// M4A1
+/////////////// Barrels
+L["cod2019_m4a1_barrel_v4.printname"] = "XRK 368 mm Carbine-Skydd"
+L["cod2019_m4a1_barrel_v4.compactname"] = "Carbine"
+
 /////////////// Optics
-L["cod2019_m4_carryhandle.printname"] = "Old Faithful"
-L["cod2019_m4_carryhandle.compactname"] = "Old F."
+L["cod2019_m4_carryhandle.printname"] = "Gamla Pålitliga"
+L["cod2019_m4_carryhandle.compactname"] = "Gamla P."
 L["cod2019_m4_carryhandle.description"] = "Klassiskt bärhandtag av M16-stil.\nEndast <color=255,255,100>kosmetisk</color>."
+
+L["cod2019_m4_carryhandle_v2.printname"] = "Klassiskt Handtag"
+L["cod2019_m4_carryhandle_v2.compactname"] = "Klassisk"
 
 /////////////// Magazine
 L["cod2019_m4_mag_alt.printname"] = "Kilo 141-Magasin"

@@ -177,13 +177,6 @@ L["mw19_optic_thermal_vz_sniper.description"] = "Advanced thermal imaging scope 
 
 L["cod2019_optic_cronen_sniper.description"] = "Advanced optic with <color=100,255,100>3.5x</color> magnification for rapid target acquisition."
 
--- For Launchers
--- L["cod2019_optic_scope_m32.printname"] = "MGL-32 Grenade Launcher Sight" -- UO
--- L["cod2019_optic_scope_m32.compactname"] = "MGL GLS" -- UO
-
--- L["cod2019_optic_scope_strela.printname"] = "Strela-P Sight" -- UO
--- L["cod2019_optic_scope_strela.compactname"] = "Strela-P" -- UO
-
 -- Weapon Name Alterations
 L["mw19_weapon_att_hybrid"] = "%s Hybrid"
 L["mw19_weapon_att_thermal"] = "%s Thermal"
@@ -277,9 +270,6 @@ L["cod2019_grips_bipod_alt.printname"] = "Bipod"
 L["cod2019_grips_bipod_alt.compactname"] = "Bipod"
 L["cod2019_grips_bipod_alt.description"] = "Stability legs to improve control while using the weapon from the ground."
 
--- L["cod2019_grips_tactical.printname"] = "Task Force Foregrip" -- UO
--- L["cod2019_grips_tactical.compactname"] = "Task Force" -- UO
-
 L["cod2019_grau_ub_shark.printname"] = "Cronen Shark II"
 L["cod2019_grau_ub_shark.compactname"] = "Shark II"
 L["cod2019_grau_ub_shark.description"] = "Tactical foregrip provides best in class control acquiring targets."
@@ -354,22 +344,6 @@ L["mw19stockdesc.none"] = "The ultimate run and gun modification when agility is
 
 L["cod2019_stock_none.printname"] = "No Stock" -- Kilo 141
 -- L["cod2019_stock_none.compactname"] = "N/A" -- UO
-
-////////// Tubes
--- L["cod2019_stock_tube_light.printname"] = "Lightweight Buffer Tube" -- UO
--- L["cod2019_stock_tube_light.compactname"] = "Lightweight" -- UO
--- L["cod2019_stock_tube_light.description"] = "Lightweight aluminium buffer tube allowing the installation of aftermarket stocks." -- UO
-
--- L["cod2019_stock_tube_medium.printname"] = "FSS CQ Buffer Tube" -- UO
--- L["cod2019_stock_tube_medium.compactname"] = "FSS CQ" -- UO
--- L["cod2019_stock_tube_medium.description"] = "Tactical, streamlined buffer tube allowing the installation of aftermarket stocks." -- UO
-
--- L["cod2019_stock_tube_singuard.printname"] = "Singuard Arms Buffer Tube" -- UO
--- L["cod2019_stock_tube_singuard.compactname"] = "Singuard" -- UO
-
--- L["cod2019_stock_tube_padded.printname"] = "Padded Buffer Tube" -- UO
--- L["cod2019_stock_tube_padded.compactname"] = "Padded" -- UO
--- L["cod2019_stock_tube_padded.description"] = "Lightweight buffer tube with soft padding. <color=255,100,100>Does not support attaching stocks</color>." -- UO
 
 //////////////////// Pistol Grip Tape
 L["cod2019_griptape_01.printname"] = "Granulated Grip Tape"

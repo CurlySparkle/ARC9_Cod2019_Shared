@@ -126,10 +126,17 @@ L["cod2019_fal_body_v2.description"] = "Modernized receiver for the FAL. Purely 
 L["cod2019_fal_stock_v2.description"] = "Modernized stock for the FAL. Purely <color=255,255,100>cosmetic</color>."
 
 //////////////////// M4A1
+/////////////// Barrels
+L["cod2019_m4a1_barrel_v4.printname"] = "XRK 14.5\" Carbine Shroud"
+L["cod2019_m4a1_barrel_v4.compactname"] = "Carbine"
+
 /////////////// Optics
 L["cod2019_m4_carryhandle.printname"] = "Old Faithful"
 L["cod2019_m4_carryhandle.compactname"] = "Old F."
 L["cod2019_m4_carryhandle.description"] = "Classic M16-style carrying handle.\nPurely <color=175,175,255>cosmetic</color>."
+
+L["cod2019_m4_carryhandle_v2.printname"] = "Classic Handle"
+L["cod2019_m4_carryhandle_v2.compactname"] = "Classic"
 
 /////////////// Magazine
 L["cod2019_m4_mag_alt.printname"] = "Kilo 141 Magazine"
