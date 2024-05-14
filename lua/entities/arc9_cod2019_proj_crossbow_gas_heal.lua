@@ -1,15 +1,17 @@
 AddCSLuaFile()
 
 ENT.Base = "arc9_cod2019_proj_crossbow_default"
-ENT.PrintName = "Thermite Crossbow Bolt"
+ENT.PrintName = "Gas Crossbow Bolt"
 
-ENT.ImpactDamage = 50
+ENT.ImpactDamage = 0
 ENT.CanPickup = false
 
-ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_firebolt_phys.mdl"
+PrecacheParticleSystem("AC_nade_gasheal_ejection")
+
+ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt_phys.mdl"
 
 if CLIENT then
-    killicon.Add( "arc9_cod2019_proj_crossbow_thermite", "hud/killicons/cod2019_fire.png", Color( 255, 255, 255, 255 ) )
+    killicon.Add( "arc9_cod2019_proj_crossbow_he", "hud/killicons/default", Color( 255, 255, 255, 255 ) )
 end
 
 function ENT:Detonate()
@@ -19,6 +21,7 @@ function ENT:Detonate()
     self:EmitSound("weapons/rpg/shotdown.wav", 80)
     else
     self:DoDetonate()
+	ParticleEffectAttach("AC_nade_gasheal_ejection", PATTACH_ABSORIGIN_FOLLOW, self, 0)
    end
 end
   
@@ -26,21 +29,22 @@ end
     if self:WaterLevel() > 0 then self:Remove() return end
     local attacker = self.Attacker or self:GetOwner() or self
 
-      local cloud = ents.Create("arc9_cod2019_thermite")
+      local cloud = ents.Create("arc9_cod2019_gas_heal")
       if IsValid(cloud) then
-	     cloud:SetModel("models/weapons/cod2019/w_eq_thermite_thrown2.mdl")
+	     cloud:SetModel("models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt_phys.mdl")
          cloud:SetPos(self:GetPos())
          cloud:SetAngles(self:GetAngles())
          cloud:SetOwner(attacker)
          cloud:Spawn()
-		 cloud:EmitSound("weapons/cod2019/shared/weap_thermite_impact_01.ogg", 100)
+		 cloud:EmitSound("weapons/cod2019/throwables/gas/heal_gas_start.ogg", 100)
 		 cloud:SetParent(self)
 		 cloud.NoIgnite = self
 		 --self:Remove()
       end
     --util.Decal("Scorch", self:GetPos(), self:GetPos() - Vector(0, 0, 50), self)
+	self:EmitSound("weapons/cod2019/throwables/gas/heal_gas_start.ogg", 80)
     
-    timer.Simple(7, function()
+    timer.Simple(13, function()
         if IsValid(self) then
             self:Remove()
         end

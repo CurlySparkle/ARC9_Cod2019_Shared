@@ -11,7 +11,7 @@ PrecacheParticleSystem("AC_nade_gas_ejection")
 ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt_phys.mdl"
 
 if CLIENT then
-    killicon.Add( "arc9_cod2019_proj_crossbow_he", "hud/killicons/default", Color( 255, 255, 255, 255 ) )
+    killicon.Add( "arc9_cod2019_proj_crossbow_gas", "hud/killicons/cod2019_gas2.png", Color( 255, 255, 255, 255 ) )
 end
 
 function ENT:Detonate()

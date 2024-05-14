@@ -862,6 +862,28 @@ ATT.Category = {"cod2019_ammo_crossbow"}
 ATT.ActivateElements = {"bolt_none"}
 
 ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_gas")
+-----------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC Heal 20\" Bolts"
+ATT.CompactName = "FTAC Heal"
+ATT.Description = [[Heal]]
+ATT.SortOrder = 0.5
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_stimbolt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt.mdl"
+ATT.BoneMerge = true
+
+ATT.ShootEnt = "arc9_cod2019_proj_crossbow_gas_heal"
+
+ATT.Category = {"cod2019_ammo_crossbow"}
+ATT.ActivateElements = {"bolt_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_gasheal")
 
 /////////////////////////// -- SKS
 ATT = {}
