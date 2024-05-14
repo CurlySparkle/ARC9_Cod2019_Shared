@@ -760,6 +760,9 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/att_vm_p07_sm_papa90_bar
 ATT.ModelOffset = Vector(-0.2, 0, 0)
 ATT.BoneMerge = false
 
+ATT.LHIK = true
+ATT.LHIK_Priority = 2
+
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_p90_barrel"}
 ATT.ActivateElements = {"muzzle_none","barrel_none"}

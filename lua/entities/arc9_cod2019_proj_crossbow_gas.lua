@@ -44,7 +44,7 @@ end
     --util.Decal("Scorch", self:GetPos(), self:GetPos() - Vector(0, 0, 50), self)
 	self:EmitSound("weapons/rpg/shotdown.wav", 80)
     
-    timer.Simple(15, function()
+    timer.Simple(18, function()
         if IsValid(self) then
             self:Remove()
         end
