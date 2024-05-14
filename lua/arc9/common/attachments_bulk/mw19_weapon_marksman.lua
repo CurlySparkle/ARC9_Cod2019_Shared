@@ -881,7 +881,15 @@ ATT.BoneMerge = true
 ATT.ShootEnt = "arc9_cod2019_proj_crossbow_gas_heal"
 
 ATT.Category = {"cod2019_ammo_crossbow"}
-ATT.ActivateElements = {"bolt_none"}
+ATT.ActivateElements = {"bolt_none","bolt_heal"}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["bolt_heal"] then
+        model:SetSkin(1)
+    else
+        model:SetSkin(0)
+    end
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_gasheal")
 
