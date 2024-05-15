@@ -586,8 +586,7 @@ L["cod2019_oden_muzzle_big.compactname"] = "Colossus"
 L["cod2019_oden_muzzle_big.description"] = "Extended suppressor adds considerable weight to the barrel, but greatly increases the muzzle velocity and reduces recoil to help with long range precision."
 
 /////////////// Stock
-L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
-L["cod2019_oden_stock_heavy.compactname"] = "Ballast"
+-- L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
 
 L["cod2019_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
 

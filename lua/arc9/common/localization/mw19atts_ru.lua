@@ -510,7 +510,7 @@ L["cod2019_m4a1_barrel_v3.description"] = "Легкий кожух и расши
 
 L["cod2019_m4a1_barrel_04.printname"] = "тюнинговый снайперский ствол \"Корвус\""
 L["cod2019_m4a1_barrel_04.compactname"] = "\"Корвус\""
-L["cod2019_m4a1_barrel_04.description"] = "модификация ствола М16А4 (19 дюймов) приводит к повышению начальной скорости пули и, как следствие, дальности эффективного поражения. Дополнительный вес стабилизирует оружие, но ограничивает подвижность бойца,"
+L["cod2019_m4a1_barrel_04.description"] = "модификация ствола М16А4 (19 дюймов) приводит к повышению начальной скорости пули и, как следствие, дальности эффективного поражения. Дополнительный вес стабилизирует оружие, но ограничивает подвижность бойца."
 
 L["cod2019_m4a1_barrel_05.printname"] = "FSS \"Хищник\" 12,4 дюйма"
 L["cod2019_m4a1_barrel_05.compactname"] = "\"Хищник\""
@@ -546,54 +546,53 @@ L["cod2019_m4a1_mag_socom.description"] = "Конверсия под крупн�
 
 //////////////////// FR 5.56
 /////////////// Barrels
-L["cod2019_famas_barrel_short.printname"] = "FR 15.9\" Commando"
-L["cod2019_famas_barrel_short.compactname"] = "Commando"
-L["cod2019_famas_barrel_short.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Improves close range combat."
+L["cod2019_famas_barrel_short.printname"] = "FR - \"Коммандос\" 15,9 дюйм"
+L["cod2019_famas_barrel_short.compactname"] = "\"Коммандос\""
+L["cod2019_famas_barrel_short.description"] = "Установив этот короткий и компактный ствол, вы пожертвуете точностью и дальностью стрельбы ради преимущества в скорости. Улучшает действия в ближнем бою."
 
-L["cod2019_famas_barrel_long.printname"] = "FR 24.4\" Sniper"
-L["cod2019_famas_barrel_long.compactname"] = "Sniper"
-L["cod2019_famas_barrel_long.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes grouping but hinders mobility."
+L["cod2019_famas_barrel_long.printname"] = "FR - \"Снайпер\" 24,4 дюйма"
+L["cod2019_famas_barrel_long.compactname"] = "\"Снайпер\""
+L["cod2019_famas_barrel_long.description"] = "Удлинение ствола приводит к повышению начальной скорости пули и, как следствие, дальности эффективного поражения, Дополнительный вес стабилизирует оружие, но ограничивает подвижность бойца."
 
-L["cod2019_famas_barrel_03.description"] = "Fluted barrel with a wider bore reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_famas_barrel_03.description"] = "Ствол с расширенным каналом и ребрами жесткости уменьшает вес оружия, тем самым повышая его эргономичность, но снижает начальную скорость пули."
 
 /////////////// Stock
-L["cod2019_famas_stock_heavy.printname"] = "FR Ultralight Hollow"
-L["cod2019_famas_stock_heavy.description"] = "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
+L["cod2019_famas_stock_heavy.printname"] = "Сверхлегкий полый приклад FR"
+L["cod2019_famas_stock_heavy.description"] = "Полый приклад с легким амортизирующим тыльником, позволяющий сохранять подвижность при прицеливании."
 
-L["cod2019_famas_stock_light.printname"] = "FORGE TAC Ballast Pack"
-L["cod2019_famas_stock_light.compactname"] = "Ballast"
-L["cod2019_famas_stock_light.description"] = "Weighted packs provide stability while aiming."
+L["cod2019_famas_stock_light.printname"] = "\"ФОРДЖ ТАК\" - комплект балласта"
+L["cod2019_famas_stock_light.compactname"] = "Балласта"
+L["cod2019_famas_stock_light.description"] = "Сбалансированные утяжелители, повышающие стабильность оружия при прицеливании."
 
-L["cod2019_famas_stock_tactical.printname"] = "FSS Tac-Wrap"
-L["cod2019_famas_stock_tactical.compactname"] = "Tac-Wrap"
-L["cod2019_famas_stock_tactical.description"] = "Tactical comb add-on streamlined for close quarters combat. Gets you on target faster."
+L["cod2019_famas_stock_tactical.printname"] = "Тактическа обмотка FSS"
+L["cod2019_famas_stock_tactical.compactname"] = "Так. обмот."
+L["cod2019_famas_stock_tactical.description"] = "Тактический гребень приклада, разработанный специально для ближнего боя. позволяет быстрее наводить оружие на цель."
 
 //////////////////// Oden
 /////////////// Barrels
-L["cod2019_oden_barrel_01.printname"] = "Oden Factory 810mm"
-L["cod2019_oden_barrel_01.compactname"] = "810mm"
-L["cod2019_oden_barrel_01.description"] = "Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility."
+L["cod2019_oden_barrel_01.printname"] = "Штатный \"Оден\" 810 мм"
+L["cod2019_oden_barrel_01.compactname"] = "810 мм"
+L["cod2019_oden_barrel_01.description"] = "Этот самый длинный ствол значительно повышает начальную скорость пули и стабильность оружия, но снижает мобильность."
 
-L["cod2019_oden_barrel_long.printname"] = "Oden Factory 730mm"
-L["cod2019_oden_barrel_long.compactname"] = "730mm"
-L["cod2019_oden_barrel_long.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but slightly affects mobility."
+L["cod2019_oden_barrel_long.printname"] = "Штатный \"Оден\" 730 мм"
+L["cod2019_oden_barrel_long.compactname"] = "730 мм"
+L["cod2019_oden_barrel_long.description"] = "Удлинение ствола приводит к повышению начальной скорости пули и, как следствие, дальности эффективного поражения. Дополнительный вес стабилизирует оружие, но немного ограничивает подвижность бойца."
 
-L["cod2019_oden_barrel_short.printname"] = "Oden Factory 420mm"
-L["cod2019_oden_barrel_short.compactname"] = "420mm"
-L["cod2019_oden_barrel_short.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. When mobility matters more than precision."
+L["cod2019_oden_barrel_short.printname"] = "Штатный \"Оден\" 420 мм"
+L["cod2019_oden_barrel_short.compactname"] = "420 мм"
+L["cod2019_oden_barrel_short.description"] = "Установив этот короткий и компактный ствол, вы пожертвуете точностью и дальностью стрельбы ради преимущества в скорости. Для тех случаев когда подвижность важнее точности."
 
 /////////////// Muzzle
-L["cod2019_oden_muzzle_big.printname"] = "Colossus Suppressor"
-L["cod2019_oden_muzzle_big.compactname"] = "Colossus"
-L["cod2019_oden_muzzle_big.description"] = "Extended suppressor adds considerable weight to the barrel, but greatly increases the muzzle velocity and reduces recoil to help with long range precision."
+L["cod2019_oden_muzzle_big.printname"] = "Глушитель \"Колосс\""
+L["cod2019_oden_muzzle_big.compactname"] = "\"Колосс\""
+L["cod2019_oden_muzzle_big.description"] = "Увеличенный глушитель, заметно утяжеляющий оружие, но при этом существенно повышающий начальную скорость пули и ослабляющий отдачу, что особенно полезно при стрельбе на дальние дистанции."
 
 /////////////// Stock
-L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
-L["cod2019_oden_stock_heavy.compactname"] = "Ballast"
+-- L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
 
-L["cod2019_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
+L["cod2019_oden_stock_heavy.printname"] = "Сверхлегкий полый приклад \"Оден\""
 
-L["cod2019_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
+L["cod2019_oden_stock_medium.printname"] = "Приклад-гребень FTAC XL Elite"
 L["cod2019_oden_stock_medium.compactname"] = "XL Elite"
 
 /////////////// Magazine
@@ -607,25 +606,25 @@ L["cod2019_oden_mag_30.description"] = string.format(mw19magtext.descl, "30", mw
 
 //////////////////// M13
 /////////////// Barrels
-L["cod2019_m13_barrel_short.printname"] = "Tempus Mini"
-L["cod2019_m13_barrel_short.compactname"] = "Mini"
+L["cod2019_m13_barrel_short.printname"] = "\"Темпус\" - \"Мини\""
+L["cod2019_m13_barrel_short.compactname"] = "Мини"
 
-L["cod2019_m13_barrel_supp.printname"] = "Tempus Cyclone"
-L["cod2019_m13_barrel_supp.compactname"] = "Cyclone"
-L["cod2019_m13_barrel_supp.description"] = "<color=255,255,100>Integrated suppressor</color> with a heavy duty monolithic core increases muzzle velocity while maintaining a low sound signature."
+L["cod2019_m13_barrel_supp.printname"] = "\"Темпус\" - \"Циклон\""
+L["cod2019_m13_barrel_supp.compactname"] = "Циклон"
+L["cod2019_m13_barrel_supp.description"] = "<color=255,255,100>Интегрированный глушитель</color> с надежным монолитным ядром снижает громкость выстрелов и повышает начальную скорость пули."
 
-L["cod2019_m13_barrel_long.printname"] = "Tempus Marksman"
-L["cod2019_m13_barrel_long.compactname"] = "Marksman"
-L["cod2019_m13_barrel_long.description"] = "This 16\" chrome-moly barrel, with an extended guard, increases muzzle velocity and range. Additional weight stabilizes shots for the most accurate barrel available."
+L["cod2019_m13_barrel_long.printname"] = "\"Темпус\" - \"Меткий стрелок\""
+L["cod2019_m13_barrel_long.compactname"] = "М. стрелок"
+L["cod2019_m13_barrel_long.description"] = "Этот ствол из хромо-молибденового сплава (16 дюймов) с увеличенным щитком повышает начальную скорость пули и дальность эффективного поражения. Дополнительный вес стабилизирует оружие, максимально повышая точность стрельбы."
 
 /////////////// Stock
-L["cod2019_m13_stock_light.printname"] = "M13 Skeleton Stock"
-L["cod2019_m13_stock_light.compactname"] = "Skeleton"
+L["cod2019_m13_stock_light.printname"] = "Каркасный приклад М13"
+L["cod2019_m13_stock_light.compactname"] = "Каркасный"
 
 /////////////// Magazine
-L["cod2019_m13_mag_blackout.printname"] = ".300 Blackout 30-Round Mags"
-L["cod2019_m13_mag_blackout.compactname"] = "30R .300"
-L["cod2019_m13_mag_blackout.description"] = "Conversion kit to use <color=255,255,100>.300 Blackout</color> ammunition. Higher caliber with a lower muzzle velocity, these subsonic rounds pack more energy over greater distances."
+L["cod2019_m13_mag_blackout.printname"] = "Магазины на 30 патронов .300 \"Затмение\""
+L["cod2019_m13_mag_blackout.compactname"] = "30П .300"
+L["cod2019_m13_mag_blackout.description"] = "Конверсия под боеприпасы <color=255,255,100>.300 ”3атмение”</color> Эти патроны увеличенного калибра обладают меньшей начальной скоростью, но сохраняют большую энергию на дальних дистанциях."
 
 //////////////////// FN Scar 17
 /////////////// Barrels

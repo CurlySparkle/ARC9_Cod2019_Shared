@@ -532,6 +532,17 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_crossbow_limbs"}
 ATT.ActivateElements = {"limbs_none"}
 
+if !warzonestats then -- Regular Stats
+	
+else -- Warzone Stats
+	ATT.ShootEntForceAdd = -14 / ARC9.HUToM
+	ATT.PhysBulletMuzzleVelocity = -14 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.032
+	ATT.RangeMaxMult = 0.85
+	ATT.RangeMinMult = 0.85
+	ATT.SpeedSightsMult = 1.05
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_crossbow_limbs_tact")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -553,9 +564,22 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_crossbow_limbs"}
 ATT.ActivateElements = {"limbs_none"}
 
-ATT.ReloadTimeMult = 0.9
-ATT.AimDownSightsTimeMult = 0.92
-ATT.PhysBulletMuzzleVelocityMult = 0.80
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.PhysBulletMuzzleVelocityMult = 0.80
+else -- Warzone Stats
+	ATT.ShootEntForceAdd = -28 / ARC9.HUToM
+	ATT.PhysBulletMuzzleVelocityAdd = -28 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.053
+	ATT.RecoilMult = 0.7
+	ATT.VisualRecoilMult = 0.7
+	ATT.SpreadAddMove = -0.0032
+	ATT.RangeMaxMult = 0.8
+	ATT.RangeMinMult = 0.8
+	ATT.SpeedMult = 1.02
+	ATT.SpeedSightsMult = 1.08
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_crossbow_limbs_light")
 ---------------------------------------------------------------------------------------
@@ -578,6 +602,14 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_crossbow_wires"}
 ATT.ActivateElements = {"wires_none"}
 
+if !warzonestats then -- Regular Stats
+	
+else -- Warzone Stats
+	ATT.ShootEntForceAdd = 18 / ARC9.HUToM
+	ATT.PhysBulletMuzzleVelocityAdd = 18 / ARC9.HUToM
+	ATT.SpreadAddSights = 0.00896
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_crossbow_wires_tact")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -599,7 +631,13 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_crossbow_wires"}
 ATT.ActivateElements = {"wires_none"}
 
-ATT.ReloadTimeMult = 0.95
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 0.95
+else -- Warzone Stats
+	ATT.ShootEntForceAdd = -8 / ARC9.HUToM
+	ATT.PhysBulletMuzzleVelocityAdd = -8 / ARC9.HUToM
+	ATT.SpreadAddSights = -0.01792
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_crossbow_wires_light")
 ---------------------------------------------------------------------------------------

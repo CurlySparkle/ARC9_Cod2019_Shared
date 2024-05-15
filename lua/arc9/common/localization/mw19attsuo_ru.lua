@@ -254,6 +254,12 @@ L["cod2019_model680_mag_8.compactname"] = "12G 8R"
 L["cod2019_model680_mag_8.description"] = "Custom XRK Eagle's Claw receiver with built in mag well to use <color=100,255,100>8-round</color> detachable magazines for faster reloads. <color=255,100,100>Not compatible with custom barrels.</color>"
 
 //////////////////////// Marksman Rifles
+//////////////////// Crossbow
+/////////////// Bolts
+L["cod2019_ammo_crossbow_gasheal.printname"] = "FTAC Stim 20\" Bolts"
+L["cod2019_ammo_crossbow_gasheal.compactname"] = "Stim"
+L["cod2019_ammo_crossbow_gasheal.description"] = "Bolts with <color=255,255,100>high pressure tear gas cartridges</color> that detonate on impact. The released gases <color=100,255,100>heal</color> the user and their teammates. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"

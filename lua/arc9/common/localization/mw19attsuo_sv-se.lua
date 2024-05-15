@@ -253,6 +253,12 @@ L["cod2019_model680_mag_8.compactname"] = "K12 8P."
 L["cod2019_model680_mag_8.description"] = "Anpassad XRK Eagle's Claw-låda med inbyggd magasinlåda för att använd bortplockbara <color=100,255,100>8 patronersmagasin</color> för snabbare omladdningar. <color=255,100,100>Ej kompatibla med anpassade pipor.</color>"
 
 //////////////////////// Marksman Rifles
+//////////////////// Crossbow
+/////////////// Bolts
+L["cod2019_ammo_crossbow_gasheal.printname"] = "FTAC 508 mm Stim-Pilar"
+L["cod2019_ammo_crossbow_gasheal.compactname"] = "Stim"
+L["cod2019_ammo_crossbow_gasheal.description"] = "Pilar med <color=255,255,100>gaspatroner med högt tryck</color> som sprängs när den kommer i kontakt med något. Släppta gaserna <color=100,255,100>helar</color> användaren och dess lagkamrater. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-P Special"

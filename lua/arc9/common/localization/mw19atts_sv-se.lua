@@ -587,8 +587,7 @@ L["cod2019_oden_muzzle_big.compactname"] = "Colossus"
 L["cod2019_oden_muzzle_big.description"] = "Förlängd ljuddämpare lägger till betydande vikt till pipan, men ökar starkt mynningshastigheten och sänker rekylen för att hjälpa med träffsäkerhet på längre distanser."
 
 /////////////// Stock
-L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
-L["cod2019_oden_stock_heavy.compactname"] = "Ballast"
+-- L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
 
 L["cod2019_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
 
@@ -1908,17 +1907,17 @@ L["cod2019_crossbow_stock_tact.compactname"] = "SpeedTrak"
 L["cod2019_crossbow_stock_tact.description"] = "Tävlingskolv från FSS designad för snabb målförvärv."
 
 /////////////// Bolts
-L["cod2019_ammo_crossbow_expl.printname"] = "FTAC Fury 508 mm Pilar"
+L["cod2019_ammo_crossbow_expl.printname"] = "FTAC 508 mm Fury-Pilar"
 L["cod2019_ammo_crossbow_expl.compactname"] = "Fury"
 L["cod2019_ammo_crossbow_expl.description"] = "Pilar av kol med <color=255,255,100>tidsinställda sprängladdningar</color>. Klibbig pilspets ger mindre skada, men ödelägger mål när den sprängs. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
-L["cod2019_ammo_crossbow_gas.printname"] = "FTAC Venom 508 mm Pilar"
+L["cod2019_ammo_crossbow_gas.printname"] = "FTAC 508 mm Venom-Pilar"
 L["cod2019_ammo_crossbow_gas.compactname"] = "Venom"
 L["cod2019_ammo_crossbow_gas.description"] = "Pilar med <color=255,255,100>gaspatroner med högt tryck</color> som sprängs när den kommer i kontakt med fläsk. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
-L["cod2019_ammo_crossbow_thermite.printname"] = "FTAC Backburn 508 mm Pilar"
+L["cod2019_ammo_crossbow_thermite.printname"] = "FTAC 508 mm Backburn-Pilar"
 L["cod2019_ammo_crossbow_thermite.compactname"] = "Backburn"
-L["cod2019_ammo_crossbow_thermite.description"] = "<color=255,255,100>Pilar med termit spets</color> som sprängs vid kontakt, fastnar på metall, och är effektiva mot fordon. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+L["cod2019_ammo_crossbow_thermite.description"] = "Pilar med <color=255,255,100>termit spets</color> som sprängs vid kontakt, fastnar på metall, och är effektiva mot fordon. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
 //////////////////// SKS
 /////////////// Optics
