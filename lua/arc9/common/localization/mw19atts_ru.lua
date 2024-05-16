@@ -628,26 +628,26 @@ L["cod2019_m13_mag_blackout.description"] = "Конверсия под боеп�
 
 //////////////////// FN Scar 17
 /////////////// Barrels
-L["cod2019_scar_barrel_01.printname"] = "FORGE TAC 17.2\" LB"
-L["cod2019_scar_barrel_01.compactname"] = "17.2\" LB"
-L["cod2019_scar_barrel_01.description"] = "17.2\" barrel with a guard extension increase muzzle velocity and extend range. Additional weight stabilizes shots at a small cost to mobility."
+L["cod2019_scar_barrel_01.printname"] = "17,2-дюймовый ствол \"ФОРДЖ ТАК LB\""
+L["cod2019_scar_barrel_01.compactname"] = "17,2-д. LB"
+L["cod2019_scar_barrel_01.description"] = "Этот ствол (17,2 дюйма) с увеличенным щитком повышает начальную скорость пули и, как следствие, дальность эффективного поражения. Дополнительный вес стабилизирует оружие, но немного снижает мобильность бойца."
 
 L["cod2019_scar_barrel_long.printname"] = "FORGE TAC 20.0\" LB"
-L["cod2019_scar_barrel_long.compactname"] = "20.0\" LB"
-L["cod2019_scar_barrel_long.description"] = "20.0\" polygonal rifled barrel with guard extension maxes out muzzle velocity and range. High accuracy comes at the cost of agility."
+L["cod2019_scar_barrel_long.compactname"] = "20,0-д. LB"
+L["cod2019_scar_barrel_long.description"] = "Этот 20-дюймовый ствол с рифленой нарезкой и увеличенным щитком максимально повышает начальную скорость пули и дальность эффективного поражения. За высокую точность стрельбы придется заплатить снижением мобильности."
 
-L["cod2019_scar_barrel_short.printname"] = "FORGE TAC CQC Pro"
-L["cod2019_scar_barrel_short.compactname"] = "CQC Pro"
+L["cod2019_scar_barrel_short.printname"] = "\"ФОРДЖ ТАК LB\" - \"Ближний бой - Профи\""
+L["cod2019_scar_barrel_short.compactname"] = "\"ББ-П\""
 
 /////////////// Stock
-L["cod2019_scar_stock_heavy.printname"] = "FTAC Hunter"
-L["cod2019_scar_stock_heavy.compactname"] = "Hunter"
+L["cod2019_scar_stock_heavy.printname"] = "FTAC \"Охотник\""
+L["cod2019_scar_stock_heavy.compactname"] = "\"Охотник\""
 
-L["cod2019_scar_stock_light.printname"] = "FTAC Collapsible"
-L["cod2019_scar_stock_light.compactname"] = "Collapsible"
+L["cod2019_scar_stock_light.printname"] = "Складной приклад FTAC"
+L["cod2019_scar_stock_light.compactname"] = "Складной"
 
-L["cod2019_scar_stock_dmr.printname"] = "XRK Obelisk Pro"
-L["cod2019_scar_stock_dmr.compactname"] = "Obelisk Pro"
+L["cod2019_scar_stock_dmr.printname"] = "XRK Обелиск Pro"
+L["cod2019_scar_stock_dmr.compactname"] = "Обелиск Pro"
 
 /////////////// Magazine
 L["cod2019_scar_mag_ext.printname"] = string.format(mw19magtext.mag, "25")
@@ -660,46 +660,46 @@ L["cod2019_scar_mag_30.description"] = string.format(mw19magtext.descl, "30", mw
 
 //////////////////// AK-47
 /////////////// Barrels
-L["cod2019_akilo47_barrel_custom.printname"] = "Spetsnaz Elite"
-L["cod2019_akilo47_barrel_custom.compactname"] = "Spetsnaz"
-L["cod2019_akilo47_barrel_custom.description"] = "Heavy weight barrel used by special forces has increased muzzle velocity and improved range with little additional weight."
+L["cod2019_akilo47_barrel_custom.printname"] = "Элитный спецназ"
+L["cod2019_akilo47_barrel_custom.compactname"] = "Спецназ"
+L["cod2019_akilo47_barrel_custom.description"] = "Этот тяжелый ствол, который используют бойцы спецназа, немного повышает начальную скорость пули и, как следствие, дальность эффективного поражения, лишь слегка увеличивая вес."
 
-L["cod2019_akilo47_barrel_lmg.printname"] = "23.0\" RPK Barrel"
-L["cod2019_akilo47_barrel_lmg.compactname"] = "RPK"
-L["cod2019_akilo47_barrel_lmg.description"] = "Heavy duty 23.0\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_akilo47_barrel_lmg.printname"] = "RPL ствол 23,0 дюйма"
+L["cod2019_akilo47_barrel_lmg.compactname"] = "RPL"
+L["cod2019_akilo47_barrel_lmg.description"] = "Этот прочный ствол (23,0 дюйма) повышает начальную скорость пули и, как следствие, дальность эффективного поражения. Дополнительный вес стабилизирует оружие, но ограничивает подвижность бойца."
 
-L["cod2019_akilo47_barrel_smg.printname"] = "8.1\" Compact Barrel"
-L["cod2019_akilo47_barrel_smg.compactname"] = "Compact"
+L["cod2019_akilo47_barrel_smg.printname"] = "8,1-дюймовый компактный ствол"
+L["cod2019_akilo47_barrel_smg.compactname"] = "Компакт"
 
-L["cod2019_akilo47_barrel_lmg_grip.printname"] = "23.0\" Romanian"
-L["cod2019_akilo47_barrel_lmg_grip.compactname"] = "Romanian"
-L["cod2019_akilo47_barrel_lmg_grip.description"] = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
+L["cod2019_akilo47_barrel_lmg_grip.printname"] = "Румынский 23,0 дюйма"
+L["cod2019_akilo47_barrel_lmg_grip.compactname"] = "Румынский"
+L["cod2019_akilo47_barrel_lmg_grip.description"] = "Этот ствол (23,0 дюйма) со встроенной прочной деревянной рукояткой обеспечивает максимальную стабильность и точность стрельбы. значительный вес замедляет передвижение и ухудшает эргономику."
 
 /////////////// Muzzle
-L["cod2019_ak47_bayonet.printname"] = "Bayonet"
-L["cod2019_ak47_bayonet.compactname"] = "Bayonet"
-L["cod2019_ak47_bayonet.description"] = "Lethal Melee Attack"
+L["cod2019_ak47_bayonet.printname"] = "Штык"
+L["cod2019_ak47_bayonet.compactname"] = "Штык"
+L["cod2019_ak47_bayonet.description"] = "Смертельный прием рукопашного боя"
 
 /////////////// Stock
-L["cod2019_ak47_stock_heavy.printname"] = "Field LMG Stock"
-L["cod2019_ak47_stock_heavy.compactname"] = "Field LMG"
+L["cod2019_ak47_stock_heavy.printname"] = "Полевой приклад для РП"
+L["cod2019_ak47_stock_heavy.compactname"] = "Полевой РП"
 
-L["cod2019_akilo47_stockskel.printname"] = "Skeleton Stock"
+L["cod2019_akilo47_stockskel.printname"] = "Каркасный приклад"
 
 -- L["cod2019_ak47_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 
 /////////////// Magazine
 L["cod2019_ak47_mag_40.printname"] = string.format(mw19magtext.mag, "40")
 L["cod2019_ak47_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
-L["cod2019_ak47_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["762x39"])
+L["cod2019_ak47_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["762soviet"])
 
-L["cod2019_akilo47_mag_smg.printname"] = "5.45x39mm 30-Round Mags"
-L["cod2019_akilo47_mag_smg.compactname"] = "30R 5.45"
-L["cod2019_akilo47_mag_smg.description"] = "Conversion kit to use lower caliber <color=255,255,100>5.45x39mm</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements."
+L["cod2019_akilo47_mag_smg.printname"] = "Магазины на 30 патронов 5,45х39 мм"
+L["cod2019_akilo47_mag_smg.compactname"] = "30П 5,45"
+L["cod2019_akilo47_mag_smg.description"] = "5.45x39mmКонверсия под боеприпасы меньшего калибра <color=255,255,100>5,45х39 мм</color>. Умеренная дальность поражения, повышенный темп стрельбы и более слабая отдача позволяют эффективно"
 
 L["cod2019_akilo47_mag_drum.printname"] = string.format(mw19magtext.drummag, "75")
 L["cod2019_akilo47_mag_drum.compactname"] = string.format(mw19magtext.mags, "75")
-L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762x39"])
+L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762soviet"])
 
 //////////////////// RAM-7
 /////////////// Barrels
@@ -1952,11 +1952,11 @@ L["cod2019_sks_stock_medium.description"] = "Western stock adaptor designed to i
 /////////////// Magazine
 L["cod2019_sks_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_sks_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
-L["cod2019_sks_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["762x39"])
+L["cod2019_sks_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["762soviet"])
 
 L["cod2019_sks_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_sks_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
-L["cod2019_sks_mag_10.description"] = string.format(mw19magtext.descsmall, "10", mw19ammotype["762x39"])
+L["cod2019_sks_mag_10.description"] = string.format(mw19magtext.descsmall, "10", mw19ammotype["762soviet"])
 
 //////////////////// SP-R 208
 /////////////// Optics
