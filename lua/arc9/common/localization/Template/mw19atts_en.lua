@@ -766,9 +766,9 @@ L["cod2019_grau556_pistgrip_heavy.description"] = "Rubberized no-slip grip keeps
 
 //////////////////// CR-56 AMAX
 /////////////// Barrels
-L["cod2019_cr56_barrel_01.printname"] = "FSS 8.3\" Intruder"
-L["cod2019_cr56_barrel_01.compactname"] = "Intruder"
-L["cod2019_cr56_barrel_01.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Excels in CQB and room clearing."
+L["cod2019_cr56_barrel_short.printname"] = "FSS 8.3\" Intruder"
+L["cod2019_cr56_barrel_short.compactname"] = "Intruder"
+L["cod2019_cr56_barrel_short.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Excels in CQB and room clearing."
 
 L["cod2019_cr56_barrel_long.printname"] = "XRK Zodiac S440"
 L["cod2019_cr56_barrel_long.compactname"] = "Zodiac"

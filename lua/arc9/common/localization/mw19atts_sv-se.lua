@@ -130,7 +130,7 @@ L["cod2019_optic_thermal_west_01.description"] = "Avancerat <color=100,255,100>3
 
 L["cod2019_optic_scope_mike14.printname"] = "Kikarsikte"
 L["cod2019_optic_scope_mike14.compactname"] = "Kikarsikte"
-L["cod2019_optic_scope_mike14.description"] = "Högt kraftfull <color=100,255,100>4,4x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
+L["cod2019_optic_scope_mike14.description"] = "Högt kraftfullt <color=100,255,100>4,4x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 L["cod2019_optic_thermal_east.printname"] = "Merc-Värmesikte"
 L["cod2019_optic_thermal_east.compactname"] = "Värmesikte"
@@ -396,7 +396,7 @@ local mw19ammotype = {
 	["300"] = ".300 Win Mag",
 	["50bmg"] = ".50 BMG",
 	["357"] = ".357 Magnum",
-	["50p"] = ".50 Pistol",
+	["50p"] = "Pistolkaliber 50",
 }
 
 local mw19magtext = {
@@ -767,9 +767,9 @@ L["cod2019_grau556_pistgrip_heavy.description"] = "Halkfritt gummerat grepp hål
 
 //////////////////// CR-56 AMAX
 /////////////// Barrels
-L["cod2019_cr56_barrel_01.printname"] = "FSS 210 mm Intruder"
-L["cod2019_cr56_barrel_01.compactname"] = "Intruder"
-L["cod2019_cr56_barrel_01.description"] = "Kort och kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Utmärkt i närstrid och rumsröjning."
+L["cod2019_cr56_barrel_short.printname"] = "FSS 210 mm Intruder"
+L["cod2019_cr56_barrel_short.compactname"] = "Intruder"
+L["cod2019_cr56_barrel_short.description"] = "Kort och kompakt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet. Utmärkt i närstrid och rumsröjning."
 
 L["cod2019_cr56_barrel_long.printname"] = "XRK Zodiac S440"
 L["cod2019_cr56_barrel_long.compactname"] = "Zodiac"
@@ -822,7 +822,7 @@ L["cod2019_an94_barrel_03.compactname"] = "Sila"
 L["cod2019_an94_barrel_03.description"] = "Eftermarknads tung polygonellt räfflad pipa förlänger räckvidden och mynningshastigheten. Städpipa skydd förhindrar att den extra vikten skadar den skyddade fjädern."
 
 /////////////// Muzzle
-L["cod2019_an94_muzzle_sonic.printname"] = "AN-94 Sonic Brake"
+L["cod2019_an94_muzzle_sonic.printname"] = "AN-94 Sonic-Broms"
 L["cod2019_an94_muzzle_sonic.compactname"] = "Sonic"
 L["cod2019_an94_muzzle_sonic.description"] = "Toppmodern mynningsbroms mildrar hyperburst-rekylen utan att öka vapnets ljudsignatur."
 
@@ -848,9 +848,9 @@ L["cod2019_an94_mag_60.description"] = string.format(mw19magtext.descl, "60", mw
 
 //////////////////// AS VAL
 /////////////// Optics
-L["cod2019_optic_scope_svd.printname"] = "Dragunov-Kikarsikte"
+L["cod2019_optic_scope_svd.printname"] = "Dragunov Kikarsikte"
 L["cod2019_optic_scope_svd.compactname"] = "Dragunov"
-L["cod2019_optic_scope_svd.description"] = "Högt kraftfull <color=100,255,100>5,5x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
+L["cod2019_optic_scope_svd.description"] = "Högt kraftfullt <color=100,255,100>5,5x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 /////////////// Barrels
 L["cod2019_asval_barrel_short.printname"] = "VLK 105 mm Sova"
