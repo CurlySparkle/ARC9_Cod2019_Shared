@@ -15,10 +15,14 @@ ENT.ImpactFuse = true // projectile explodes on impact.
 ENT.ExplodeOnDamage = false // projectile explodes when it takes damage.
 ENT.ExplodeUnderwater = true
 ENT.SmokeTrail = true
+ENT.NoBounce = true // projectile doesn't bounce.
+ENT.Sticky = false // projectile sticks on impact
 
 ENT.Delay = 0
 ENT.SafetyFuse = 0.01
-ENT.FlareColor = Color(0, 0, 0)
+-- ENT.FlareColor = Color(227, 206, 84)
+-- ENT.FlareSizeMin = 1
+-- ENT.FlareSizeMax = 15
 ENT.AudioLoop = ""
 
 function ENT:Impact(data, collider)
