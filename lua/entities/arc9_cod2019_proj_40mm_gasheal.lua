@@ -86,7 +86,7 @@ function ENT:DoDetonate()
          cloud:SetAngles(self:GetAngles())
          cloud:SetOwner(attacker)
          cloud:Spawn()
-		 cloud:EmitSound("weapons/cod2019/shared/weap_thermite_impact_01.ogg", 100)
+		 cloud:EmitSound("^weapons/cod2019/throwables/gas/heal_gas_start.ogg", 100)
 		 cloud:SetParent(self)
 		 cloud.NoIgnite = self
 		 --self:Remove()
