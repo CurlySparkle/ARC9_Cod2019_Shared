@@ -1,20 +1,20 @@
 include("shared.lua")
 
-local gasEntities = {}
+local healEntities = {}
 
 function ENT:Initialize()
-    table.insert(gasEntities, self)
+    table.insert(healEntities, self)
 end
 
 function ENT:OnRemove()
-    table.RemoveByValue(gasEntities, self)
+    table.RemoveByValue(healEntities, self)
 end
 
 function ENT:Draw(flags)
     self:DrawShadow(false)
 end 
 
-function ENT:DrawPukeVision()
+function ENT:DrawHealVision()
     if (!IsValid(GetViewEntity())) then
         return
     end
@@ -33,11 +33,11 @@ function ENT:DrawPukeVision()
     delta = delta * fadein
     delta = delta * fadeout
 
-    surface.SetDrawColor(55, 155, 255, 25 * delta)
+    surface.SetDrawColor(55, 155, 255, 55 * delta)
     surface.DrawRect(0, 0, ScrW(), ScrH())
 end
-hook.Add("HUDPaintBackground", "COD2019_GasVision", function()
-    for _, e in pairs(gasEntities) do
-        e:DrawPukeVision()
+hook.Add("HUDPaintBackground", "COD2019_GasHealVision", function()
+    for _, e in pairs(healEntities) do
+        e:DrawHealVision()
     end
 end)
