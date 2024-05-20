@@ -1499,9 +1499,9 @@ L["cod2019_pkm_barrel_short.compactname"] = "Kompakt"
 L["cod2019_pkm_barrel_long.printname"] = "683 mm Förlängd Pipa"
 L["cod2019_pkm_barrel_long.compactname"] = "Förlängd"
 
-L["cod2019_pkm_barrel_03.printname"] = "658 mm Tung Pipa"
-L["cod2019_pkm_barrel_03.compactname"] = "Tung"
-L["cod2019_pkm_barrel_03.description"] = "Tung pipa med påtvungen lyftkylning ökar lätt mynningshastigheten och förbättrar räckvidden."
+L["cod2019_pkm_barrel_heavy.printname"] = "658 mm Tung Pipa"
+L["cod2019_pkm_barrel_heavy.compactname"] = "Tung"
+L["cod2019_pkm_barrel_heavy.description"] = "Tung pipa med påtvungen lyftkylning ökar lätt mynningshastigheten och förbättrar räckvidden."
 
 /////////////// Magazine
 L["cod2019_pkm_mag_150.printname"] = string.format(mw19magtext.belt, "150")

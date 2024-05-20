@@ -1501,9 +1501,9 @@ L["cod2019_pkm_barrel_short.compactname"] = "Compact"
 L["cod2019_pkm_barrel_long.printname"] = "26.9\" Extended Barrel"
 L["cod2019_pkm_barrel_long.compactname"] = "Extended"
 
-L["cod2019_pkm_barrel_03.printname"] = "25.9\" Heavy Barrel"
-L["cod2019_pkm_barrel_03.compactname"] = "Heavy"
-L["cod2019_pkm_barrel_03.description"] = "Heavy weight forced-air-cooled barrel slightly increases muzzle velocity and improves range."
+L["cod2019_pkm_barrel_heavy.printname"] = "25.9\" Heavy Barrel"
+L["cod2019_pkm_barrel_heavy.compactname"] = "Heavy"
+L["cod2019_pkm_barrel_heavy.description"] = "Heavy weight forced-air-cooled barrel slightly increases muzzle velocity and improves range."
 
 /////////////// Magazine
 L["cod2019_pkm_mag_150.printname"] = string.format(mw19magtext.belt, "150")

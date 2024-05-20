@@ -730,7 +730,7 @@ ATT.RTScopeFOV = 36 / 2.8
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/aug_crosshair")
 ATT.RTScopeReticleScale = 0.9
-ATT.RTScopeShadowIntensity = 15
+ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 

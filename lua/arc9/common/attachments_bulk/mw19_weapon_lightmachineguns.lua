@@ -155,10 +155,10 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilUpMult = 0.85
 	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
-	ATT.DeployTimeMult = 1.14
-	ATT.AimDownSightsTimeMult = 1.08
-	ATT.RecoilUpMult = 0.85
-	ATT.RecoilSideMult = 0.85
+	ATT.PhysBulletMuzzleVelocityAdd = 165 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.032
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_pkm_barrel_heavy")

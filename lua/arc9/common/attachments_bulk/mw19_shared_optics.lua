@@ -94,7 +94,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 2
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -142,7 +142,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 2
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -190,7 +190,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 1.5
 
-table.Merge(ATT, reticleatts.holo)
+-- table.Merge(ATT, reticleatts.holo)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -238,7 +238,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_holo_default.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 1.5
 
-table.Merge(ATT, reticleatts.holo)
+-- table.Merge(ATT, reticleatts.holo)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -286,7 +286,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default3.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 2
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -334,7 +334,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 2
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -382,7 +382,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 2
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -430,7 +430,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 2
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -476,13 +476,13 @@ ATT.RTScopeFOV = 36 / 2.2
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -528,13 +528,13 @@ ATT.RTScopeFOV = 36 / 2.2
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -582,7 +582,7 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles2/reticle_reflex_default2.png", "mips smooth")
 --ATT.HoloSightSize = 512 * 1.25
 
-table.Merge(ATT, reticleatts.reflex)
+-- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.007
@@ -628,13 +628,13 @@ ATT.RTScopeFOV = 36 / 1.5
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
+-- ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.holo)
+-- table.Merge(ATT, reticleatts.holo)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -845,13 +845,13 @@ ATT.RTScopeFOVMax = 36 / 6.1
 ATT.RTScopeRes = 256
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sniper_crosshair")
 ATT.RTScopeReticleScale = 0.8
-ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.sniper)
+-- table.Merge(ATT, reticleatts.sniper)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.093
@@ -900,13 +900,13 @@ ATT.RTScopeFOV = 36 / 4.4
 ATT.RTScopeRes = 256
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sniper_crosshair")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.sniper)
+-- table.Merge(ATT, reticleatts.sniper)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.08
@@ -953,13 +953,13 @@ ATT.Attachments = {
         Category = "cod2019_optic_sidemount",
 		Scale = 1,
     },
-	{
-	PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-	Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-	Icon_Offset = Vector(0, 0, 0.5),
-	Category = "cod2019_reticle_acog",
-	CosmeticOnly = true,
-	},
+	-- {
+	-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+	-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+	-- Icon_Offset = Vector(0, 0, 0.5),
+	-- Category = "cod2019_reticle_acog",
+	-- CosmeticOnly = true,
+	-- },
 }
 
 ATT.CustomPros = {
@@ -972,7 +972,7 @@ ATT.RTScopeFOV = 36 / 3
 ATT.RTScopeRes = 513
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/vlk_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 0.8
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1049,14 +1049,14 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/integral_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoBlur = true
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.hybrid)
+-- table.Merge(ATT, reticleatts.hybrid)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.042
@@ -1147,12 +1147,12 @@ ATT.RTScopeFOV = 36 / 1.75
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.hybrid)
+-- table.Merge(ATT, reticleatts.hybrid)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.042
@@ -1245,12 +1245,12 @@ ATT.RTScopeFOV = 36 / 1.75
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
 
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default_nvg.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.hybrid)
+-- table.Merge(ATT, reticleatts.hybrid)
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -1337,13 +1337,13 @@ ATT.Attachments = {
         Category = "cod2019_optics_pistols_scope",
 		Scale = 1,
     },
-	{
-		PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-		Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-		Icon_Offset = Vector(0, 0, 0.5),
-		Category = "cod2019_reticle_acog",
-		CosmeticOnly = true,
-	},
+	-- {
+		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+		-- Icon_Offset = Vector(0, 0, 0.5),
+		-- Category = "cod2019_reticle_acog",
+		-- CosmeticOnly = true,
+	-- },
 }
 
 ATT.CustomPros = {
@@ -1356,7 +1356,7 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 513
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_vzscope_default2.png", "mips")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1409,13 +1409,13 @@ ATT.Attachments = {
         Category = "cod2019_optic_sidemount",
 		Scale = 1,
     },
-	{
-		PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-		Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-		Icon_Offset = Vector(0, 0, 0.5),
-		Category = "cod2019_reticle_acog",
-		CosmeticOnly = true,
-	},
+	-- {
+		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+		-- Icon_Offset = Vector(0, 0, 0.5),
+		-- Category = "cod2019_reticle_acog",
+		-- CosmeticOnly = true,
+	-- },
 }
 
 ATT.CustomPros = {
@@ -1428,7 +1428,7 @@ ATT.RTScopeFOV = 36 / 3.5
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3.png")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1481,13 +1481,13 @@ ATT.Attachments = {
         Category = "cod2019_optic_sidemount",
 		Scale = 1,
     },
-	{
-		PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-		Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-		Icon_Offset = Vector(0, 0, 0.5),
-		Category = "cod2019_reticle_thermal",
-		CosmeticOnly = true,
-	},
+	-- {
+		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+		-- Icon_Offset = Vector(0, 0, 0.5),
+		-- Category = "cod2019_reticle_thermal",
+		-- CosmeticOnly = true,
+	-- },
 }
 
 ATT.CustomPros = {
@@ -1500,7 +1500,7 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_nvg.png")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1613,14 +1613,14 @@ ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_thermal_default2.png")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeMotionBlur = true
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default2.png", "mips smooth")
 
-table.Merge(ATT, reticleatts.thermal)
+-- table.Merge(ATT, reticleatts.thermal)
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -1712,13 +1712,13 @@ ATT.RTScopeFOV = 36 / 4
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_bravo4.png")
 
-table.Merge(ATT, reticleatts.acog)
+-- table.Merge(ATT, reticleatts.acog)
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.029

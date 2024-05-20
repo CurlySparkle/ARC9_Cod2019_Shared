@@ -374,7 +374,7 @@ ATT.RTScopeAdjustable = false
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/mosin_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.18
-ATT.RTScopeShadowIntensity = 1.5
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -751,7 +751,7 @@ ATT.RTScopeFOV = 36 / 4
 ATT.RTScopeRes = 256
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 0.9
-ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -820,7 +820,7 @@ ATT.RTScopeFOVMax = 36 / 6.1
 ATT.RTScopeRes = 256
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 0.9
-ATT.RTScopeShadowIntensity = 1
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -972,7 +972,7 @@ ATT.RTScopeFOV = 36 / 4.4
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sks_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 0.9
-ATT.RTScopeShadowIntensity = 15
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1238,7 +1238,7 @@ ATT.RTScopeFOV = 36 / 4.4
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 2
+ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
