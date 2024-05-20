@@ -39,11 +39,10 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 1.15
-	ATT.AimDownSightsTimeMult = 1.15
-	ATT.RecoilMult = 0.9
-	ATT.RangeMaxMult = 1.25
-	ATT.RangeMinMult = 1.25
+	ATT.DeployTimeMult = 1.14
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.SpreadMult = 0.85
+	ATT.RangeMaxMult = 1.09
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 206 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.037
@@ -96,11 +95,10 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 0.85
-	ATT.AimDownSightsTimeMult = 0.85
-	ATT.RecoilMult = 1.15
-	ATT.RangeMaxMult = 0.85
-	ATT.RangeMinMult = 0.85
+	ATT.DeployTimeMult = 0.88
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.RecoilMult = 1.11
+	ATT.RangeMaxMult = 0.88
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -124 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.035
@@ -114,6 +112,56 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_pkm_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "25.9\" Heavy Barrel"
+ATT.CompactName = "Barrel 25.9"
+ATT.Description = [[Heavy weight forced-air-cooled barrel slightly increases muzzle velocity and improves range.]]
+
+ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_barrel_heavy.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_barrel_heavy.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_pkm_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_extra_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["optic"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(1, 0, 0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.14
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
+else -- Warzone Stats
+	ATT.DeployTimeMult = 1.14
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_pkm_barrel_heavy")
 
 /////////////////////////// -- SA87
 ATT = {}
