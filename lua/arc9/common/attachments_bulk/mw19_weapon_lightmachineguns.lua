@@ -162,6 +162,46 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_pkm_barrel_heavy")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Bipod"
+ATT.CompactName = "Bipod"
+ATT.Description = [[Deploys the bipod for better recoil and accuracy.]]
+ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_bipod.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_pkm_bipod"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_bipod.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"bipod_none"}
+
+ATT.Bipod = true
+
+ATT.BipodPos = Vector(-1.5, -4, 1)
+ATT.BipodAng = Angle(0, 0, 0)
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["barrel_custom"] then 
+     model:SetPoseParameter("bipod_pose", 1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.19
+	ATT.VisualRecoilMult = 0.8
+	ATT.RecoilMult = 0.8
+	ATT.SpeedMult = 0.96
+	ATT.SpeedMultSights = 0.84
+	ATT.SpreadBipod = -0.05
+else -- Warzone Stats
+	ATT.RecoilMultCrouch = 0.85
+	ATT.VisualRecoilMultCrouch = 0.85
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_pkm_grip_bipod")
 
 /////////////////////////// -- SA87
 ATT = {}
