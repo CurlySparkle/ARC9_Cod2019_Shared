@@ -214,7 +214,7 @@ ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_mk2_barrel"
-ATT.ActivateElements = {"barrel_none","sight_none"}
+ATT.ActivateElements = {"barrel_none","sight_front_none"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
@@ -260,7 +260,7 @@ ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_mk2_barrel"
-ATT.ActivateElements = {"barrel_none","sight_none"}
+ATT.ActivateElements = {"barrel_none","sight_front_none"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
@@ -333,6 +333,54 @@ ATT.ActiveAng = Angle(0, 0, 0)
 
 ARC9.LoadAttachment(ATT, "cod2019_mk2_alt_view")
 ------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Sniper Scope"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_scope.png", "mips smooth")
+
+ATT.SortOrder = 4
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_optic_mk2"}
+ATT.ActivateElements = {"scope_mk2"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_scope.mdl"
+ATT.BoneMerge = false
+ATT.Scale = 1
+ATT.ModelOffset = Vector(-6, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 3, -1.43),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 36,
+        Magnification = 1.15,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.CustomPros = {
+   [ ARC9:GetPhrase("mw19_optic_stat_zoom2") ] = "4.5x"
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeFOV = 36 / 4.5
+ATT.RTScopeAdjustable = true
+ATT.RTScopeAdjustmentLevels = 1
+ATT.RTScopeFOVMin = 8
+ATT.RTScopeFOVMax = 16
+ATT.RTScopeRes = 1024
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_sniper_new2.png", "mips")
+ATT.RTScopeReticleScale = 0.95
+ATT.RTScopeShadowIntensity = 7.5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+ARC9.LoadAttachment(ATT, "cod2019_mk2_scope")
 
 /////////////////////////// -- Kar98k
 ATT = {}
