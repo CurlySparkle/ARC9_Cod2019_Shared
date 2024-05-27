@@ -1685,8 +1685,99 @@ ARC9.LoadAttachment(ATT, "cod2019_finn_mag_556_100")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "25.0 RAAL Tri-fold Lite"
-ATT.CompactName = "25.0"
+ATT.PrintName = "32.0\" RAAL Line Breaker"
+ATT.CompactName = "32.0\""
+ATT.Description = [[This formidable 32.0" barrel greatly increases muzzle velocity and extends range.]]
+
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barlong.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_barlong.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_raal_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(4.5, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.20
+	ATT.RangeMaxMult = 1.13
+	ATT.SpreadMult = 0.85
+	ATT.Recoil = 0.80
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.20
+	ATT.RangeMaxMult = 1.13
+	ATT.SpreadMult = 0.85
+	ATT.Recoil = 0.80
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_raal_barrel_long")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "26.0\" RAAL ArcForge"
+ATT.CompactName = "26.0\""
+ATT.Description = [[This formidable 32.0" barrel greatly increases muzzle velocity and extends range.]]
+
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barhvy.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_barhvy.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_raal_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.11
+	ATT.RecoilUpMult = 0.9
+	ATT.RecoilSideMult = 0.9
+	ATT.SpreadMult = 0.88
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.11
+	ATT.RecoilUpMult = 0.9
+	ATT.RecoilSideMult = 0.9
+	ATT.SpreadMult = 0.88
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_raal_barrel_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "25.0\" RAAL Tri-fold Lite"
+ATT.CompactName = "25.0\""
 ATT.Description = [[25.0 inch Barrel with aluminum shell, titanium core, and chrome-moly lined bore reduces weight and improves agility.]]
 
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barlight.png", "mips smooth")
