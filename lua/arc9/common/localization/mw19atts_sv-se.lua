@@ -1716,13 +1716,13 @@ L["cod2019_finn_mag_ct_100.description"] = "Förlängda bälten håller <color=1
 
 //////////////////// RAAL MG
 /////////////// Barrels
-L["cod2019_raal_barrel_01.printname"] = "660 mm RAAL ArcForge"
-L["cod2019_raal_barrel_01.compactname"] = "ArcForge"
-L["cod2019_raal_barrel_01.description"] = "660 mm tung pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden."
+L["cod2019_raal_barrel_heavy.printname"] = "660 mm RAAL ArcForge"
+L["cod2019_raal_barrel_heavy.compactname"] = "ArcForge"
+L["cod2019_raal_barrel_heavy.description"] = "660 mm tung pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden."
 
-L["cod2019_raal_barrel_02.printname"] = "813 mm RAAL Line Breaker"
-L["cod2019_raal_barrel_02.compactname"] = "Line B."
-L["cod2019_raal_barrel_02.description"] = "Denna formidabla 813 mm pipan ökar kraftigt mynningshastigheten och förlänger räckvidden."
+L["cod2019_raal_barrel_long.printname"] = "813 mm RAAL Line Breaker"
+L["cod2019_raal_barrel_long.compactname"] = "Line B."
+L["cod2019_raal_barrel_long.description"] = "Denna formidabla 813 mm pipan ökar kraftigt mynningshastigheten och förlänger räckvidden."
 
 L["cod2019_raal_barrel_light.printname"] = "635 mm RAAL Tri-fold Lite"
 L["cod2019_raal_barrel_light.compactname"] = "Tri-fold"

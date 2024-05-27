@@ -1718,13 +1718,13 @@ L["cod2019_finn_mag_ct_100.description"] = "Extended belts hold <color=100,255,1
 
 //////////////////// RAAL MG
 /////////////// Barrels
-L["cod2019_raal_barrel_01.printname"] = "26.0\" RAAL ArcForge"
-L["cod2019_raal_barrel_01.compactname"] = "ArcForge"
-L["cod2019_raal_barrel_01.description"] = "26.0 inch heavy duty stainless steel barrel with polygonal rifling increases muzzle velocity and Improves range."
+L["cod2019_raal_barrel_heavy.printname"] = "26.0\" RAAL ArcForge"
+L["cod2019_raal_barrel_heavy.compactname"] = "ArcForge"
+L["cod2019_raal_barrel_heavy.description"] = "26.0 inch heavy duty stainless steel barrel with polygonal rifling increases muzzle velocity and Improves range."
 
-L["cod2019_raal_barrel_02.printname"] = "32.0\" RAAL Line Breaker"
-L["cod2019_raal_barrel_02.compactname"] = "Line B."
-L["cod2019_raal_barrel_02.description"] = "This formidable 32.0\" barrel greatly increases muzzle velocity and extends range."
+L["cod2019_raal_barrel_long.printname"] = "32.0\" RAAL Line Breaker"
+L["cod2019_raal_barrel_long.compactname"] = "Line B."
+L["cod2019_raal_barrel_long.description"] = "This formidable 32.0\" barrel greatly increases muzzle velocity and extends range."
 
 L["cod2019_raal_barrel_light.printname"] = "25.0\" RAAL Tri-fold Lite"
 L["cod2019_raal_barrel_light.compactname"] = "Tri-fold"
