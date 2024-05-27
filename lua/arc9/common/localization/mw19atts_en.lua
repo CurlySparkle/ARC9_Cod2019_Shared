@@ -2304,6 +2304,11 @@ L["cod2019_finn_mag_ct_100.compactname"] = "5.56 CT 100R"
 L["cod2019_finn_mag_ct_100.description"] = "Extended belts hold <color=100,255,100>100 rounds</color> of <color=255,255,100>5.56 Cased Telescoped</color> ammunition providing additional lower-range ammunition at a reduced weight."
 
 //////////////////// RAAL MG
+/////////////// Optics
+L["cod2019_optic_raal_scope.printname"] = ARC9:GetPhrase("cod2019_holger_optic_integral_scope.printname") or "Solozero K498 4.0x Integral"
+L["cod2019_optic_raal_scope.compactname"] = ARC9:GetPhrase("cod2019_holger_optic_integral_scope.compactname") or "I. K498"
+L["cod2019_optic_raal_scope.description"] = ARC9:GetPhrase("cod2019_holger_optic_integral_scope.description") or "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
+
 /////////////// Barrels
 L["cod2019_raal_barrel_heavy.printname"] = "26.0\" RAAL ArcForge"
 L["cod2019_raal_barrel_heavy.compactname"] = "ArcForge"

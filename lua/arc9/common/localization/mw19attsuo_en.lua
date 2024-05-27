@@ -28,6 +28,10 @@ L["cod2019_optic_reflex_west05.printname"] = "Cronen Elite Reflex"
 L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite"
 L["cod2019_optic_reflex_west05.description"] = ARC9:GetPhrase("cod2019_optic_aimop.description") or "Reflex sight of western origin. Provides higher precision."
 
+L["cod2019_optic_slima.printname"] = "Solozero K498 Reflex"
+L["cod2019_optic_slima.compactname"] = "K498"
+L["cod2019_optic_slima.description"] = ARC9:GetPhrase("cod2019_optic_reflex_west02.description") or "Advanced holographic sight of American origin."
+
 -- Scopes
 L["cod2019_optic_hybrid_west02_thermal.printname"] = "4.0x Flip Thermal"
 L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Flip T."

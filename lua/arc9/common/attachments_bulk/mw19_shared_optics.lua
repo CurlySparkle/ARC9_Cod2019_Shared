@@ -218,7 +218,7 @@ ATT.ModelOffset = Vector(0, 0, 0.1)
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 9.3, -1.35),
+        Pos = Vector(0, 9.3, -1.347),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 40,
@@ -1356,7 +1356,7 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_lm_slima_acog.png", "mips sm
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 4.1
-ATT.Category = {"cod2019_optic_big"}
+ATT.Category = {"cod2019_optic_big", "cod2019_raal_optic"}
 ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
 ATT.ActivateElements = {"optic","scope_sniper","optic_scope","hybrid_scope"}
 ATT.ExcludeElements = {"no_optic_hybrid"}
@@ -1382,14 +1382,14 @@ end
 
 ATT.Sights = {
     {
-        Pos = Vector(-0.02, 5.9, -1.347),
+        Pos = Vector(0, 6.5, -1.365),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false
     },
     {
-        Pos = Vector(-0.02, 6.25, -1.347),
+        Pos = Vector(-0, 6.25, -1.347),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -1417,7 +1417,7 @@ ATT.HoloSightColor = Color(255, 255, 255)
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 5
 ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 36 / 1.75
+ATT.RTScopeFOV = 36 / 4
 ATT.RTScopeRes = 512
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png")
 ATT.RTScopeReticleScale = 1
@@ -1429,8 +1429,8 @@ if !warzonestats then -- Regular Stats
 	ATT.VisualRecoilMult = 0.99
 	ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
+	ATT.AimDownSightsTimeAdd = 0.063
+	ATT.VisualRecoilMult = 0.87
 	ATT.RecoilMult = 0.99
 end
 

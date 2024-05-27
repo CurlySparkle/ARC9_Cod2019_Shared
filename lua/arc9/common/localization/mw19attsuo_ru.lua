@@ -27,6 +27,9 @@ L["cod2019_optic_riser2.description"] = "Small Flat-Top Riser adapter designed f
 L["cod2019_optic_reflex_west05.printname"] = "Зеркальный прицел Cronen Elite"
 L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite"
 
+L["cod2019_optic_slima.printname"] = "Зеркальный прицел K498 \"Солозеро\""
+L["cod2019_optic_slima.compactname"] = "K498"
+
 -- Scopes
 L["cod2019_optic_hybrid_west02_thermal.printname"] = "Складываемый тепловизор прицел 4х"
 L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Склад. Т."
