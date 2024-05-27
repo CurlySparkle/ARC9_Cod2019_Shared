@@ -1419,15 +1419,15 @@ ATT.RTScopeSubmatIndex = 5
 ATT.RTScopeAdjustable = false
 ATT.RTScopeFOV = 36 / 4
 ATT.RTScopeRes = 512
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair")
+ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+	ATT.AimDownSightsTimeAdd = 0.11
+	ATT.VisualRecoilMult = 0.95
+	ATT.RecoilMult = 0.94
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.063
 	ATT.VisualRecoilMult = 0.87
