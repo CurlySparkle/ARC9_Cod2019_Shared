@@ -4,5 +4,6 @@
 	"$basetexture"	"hud/arc9_cod2019/overlays/bravo4_crosshair"
 	//"$alphatest"	"1"
 	"$translucent" "1"
+     "$nocull" "1"
 	"$ignorez" "1"
 }
