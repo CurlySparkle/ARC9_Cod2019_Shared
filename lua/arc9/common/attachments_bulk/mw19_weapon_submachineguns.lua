@@ -2552,7 +2552,7 @@ ATT.DrawFunc = function(wep, model, wm)
     end
 end
 
-ATT.ClipSizeAdd = 50
+ATT.ClipSizeAdd = 30
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.08

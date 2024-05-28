@@ -172,9 +172,9 @@ L["cod2019_scar_mag_ar.printname"] = "30P 5,56 Magasin"
 L["cod2019_scar_mag_ar.compactname"] = "30P 5,56"
 L["cod2019_scar_mag_ar.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>5,56 NATO</color>-ammunition för ökad rekylkontroll med kostnad på stoppkraft."
 
-L["cod2019_scar_mag_drum.printname"] = string.format(mw19magtext.drummag, "75")
-L["cod2019_scar_mag_drum.compactname"] = string.format(mw19magtext.mags, "75")
-L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762"])
+L["cod2019_scar_mag_drum.printname"] = string.format(mw19magtext.drummag, "50")
+L["cod2019_scar_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "50", mw19ammotype["762"])
 
 //////////////////// AK-47
 /////////////// Optics

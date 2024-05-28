@@ -173,9 +173,9 @@ L["cod2019_scar_mag_ar.printname"] = "30R 5.56 Mags"
 L["cod2019_scar_mag_ar.compactname"] = "30R 5.56"
 L["cod2019_scar_mag_ar.description"] = "Conversion kit to use lower caliber <color=255,255,100>5.56mm NATO</color> ammunition for improved recoil control at the cost of stopping power."
 
-L["cod2019_scar_mag_drum.printname"] = string.format(mw19magtext.drummag, "75")
-L["cod2019_scar_mag_drum.compactname"] = string.format(mw19magtext.mags, "75")
-L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "75", mw19ammotype["762"])
+L["cod2019_scar_mag_drum.printname"] = string.format(mw19magtext.drummag, "50")
+L["cod2019_scar_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_scar_mag_drum.description"] = string.format(mw19magtext.descdrum, "50", mw19ammotype["762"])
 
 //////////////////// AK-47
 /////////////// Optics
