@@ -1856,7 +1856,7 @@ ATT.Description = [[]]
 ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_barrel_pdw.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_barrel_pdw.mdl"
-ATT.BoneMerge = false
+ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_scar_barrel"
