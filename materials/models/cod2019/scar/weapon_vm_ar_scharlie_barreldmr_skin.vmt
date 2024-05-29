@@ -5,7 +5,7 @@
     "$phongexponenttexture" "models\cod2019\scar\weapon_vm_ar_scharlie_barreldmr_e"
 
     /////////////////
-    "$color2" "[0.8 0.8 0.8]"                                     //do not touch this
+    "$color2" "[1 1 1]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
@@ -23,7 +23,7 @@
     "$envmaptint" "[0.169 0.169 0.169]"                 
 
     "$detailblendmode" "4"
-    "$detailblendfactor" "0.7"
+    "$detailblendfactor" "1"
 
     //remove this if not using MWB
     "Proxies"
