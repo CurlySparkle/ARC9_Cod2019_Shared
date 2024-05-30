@@ -640,6 +640,10 @@ L["cod2019_grips_operator.printname"] = "Operator Foregrip"
 L["cod2019_grips_operator.compactname"] = "Operator"
 L["cod2019_grips_operator.description"] = "No frills foregrip helps control vertical recoil for faster follow-up shots."
 
+L["cod2019_grips_operator2.printname"] = "Operator Foregrip"
+L["cod2019_grips_operator2.compactname"] = "Operator"
+L["cod2019_grips_operator2.description"] = "No frills foregrip helps control vertical recoil for faster follow-up shots."
+
 L["cod2019_grips_bipod.printname"] = "Bipod Foregrip"
 L["cod2019_grips_bipod.compactname"] = "Bipod F"
 L["cod2019_grips_bipod.description"] = "Helps control recoil, especially from the crouch and prone stance."

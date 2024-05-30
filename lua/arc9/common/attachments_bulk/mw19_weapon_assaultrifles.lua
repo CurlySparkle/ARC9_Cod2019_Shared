@@ -937,6 +937,65 @@ ATT.Element = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_v4")
+/////////////// -- cod2019_m4a1_barrel_v4
+ATT = {}
+
+ATT.PrintName = "Corvus Custom Marksman"
+ATT.CompactName = "Corvus Marksman"
+ATT.Description = "Custom 19 inch M16A4 style barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barcust.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_m4_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_custombarrel.mdl"
+ATT.BoneMerge = false
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["carry_handle"] then
+        model:SetBodygroup(2,0)
+	elseif swep:GetElements()["sight_front_folded"] then
+	model:SetBodygroup(2,1)
+    end
+    if swep:GetElements()["muzzle_none2"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(2,1)
+    end
+    if swep:GetElements()["grip"] or swep:GetElements()["grip_angled"] then
+        model:SetBodygroup(3,1)
+    end
+    if swep:GetElements()["laser"] then
+        model:SetBodygroup(4,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.06
+	ATT.RangeMaxMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.06
+	ATT.RangeMaxMult = 1.1
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(6.5, 0, 0),
+        },
+        [6] = { -- Grips
+            Pos = Vector(-3, 0, -0.15),
+        },
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_sniper")
 
 /////////////////////////// -- Magazines
 /////////////// -- cod2019_m4_mag_9mm
@@ -1048,6 +1107,48 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_
 ATT.BoneMerge = true
 
 ARC9.LoadAttachment(ATT, "cod2019_m4_mag_alt")
+/////////////// -- cod2019_m4_mag_sniper
+ATT = {}
+
+ATT.PrintName = ".458 SOCOM 10-Round Mags"
+ATT.Description = ".458 10-Rnd"
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_mag_v5.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 4
+ATT.Category = "cod2019_m4_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_mag_v5.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_mag_v5.mdl"
+ATT.BoneMerge = true
+
+ATT.DamageMaxMult = 1.40
+ATT.DamageMinMult = 1.40
+ATT.RangeMaxMult = 1.25
+ATT.ClipSizeAdd = -20
+ATT.RPM = 607.5
+
+ATT.Firemodes = {
+    {
+        Mode = 1,
+		PoseParam = 1,
+    },
+}
+
+-- Non-Silenced Outside
+ATT.DistantShootSound = "Distant_BR1.Outside"
+-- Inside
+ATT.DistantShootSoundIndoor = "Distant_Shotgun.Inside"
+---------------------------------------------------
+-- Silenced Outside
+ATT.DistantShootSoundSilenced = "Distant_DMR_Sup.Outside"
+-- Inside
+ATT.DistantShootSoundSilencedIndoor = "Distant_DMR_Sup.Inside"
+---------------------------------------------------
+
+ARC9.LoadAttachment(ATT, "cod2019_m4_mag_sniper")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

@@ -275,6 +275,10 @@ L["cod2019_grips_operator.printname"] = "Operatör Framgrepp"
 L["cod2019_grips_operator.compactname"] = "Operatör"
 L["cod2019_grips_operator.description"] = "Inga krusiduller framgrepp hjälper kontroller vertikal rekyl för snabbare efterföljnings skott."
 
+L["cod2019_grips_operator2.printname"] = "Operatör Framgrepp"
+L["cod2019_grips_operator2.compactname"] = "Operatör"
+L["cod2019_grips_operator2.description"] = "Inga krusiduller framgrepp hjälper kontroller vertikal rekyl för snabbare efterföljnings skott."
+
 L["cod2019_grips_bipod.printname"] = "Skjutstöd Framgrepp"
 L["cod2019_grips_bipod.compactname"] = "Skjutstöd F."
 L["cod2019_grips_bipod.description"] = "Hjälper kontrollera rekylen, speciellt från hukad eller benägen position."

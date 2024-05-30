@@ -276,6 +276,10 @@ L["cod2019_grips_operator.printname"] = "Рукоять исполнителя"
 L["cod2019_grips_operator.compactname"] = "Испол."
 L["cod2019_grips_operator.description"] = "Упрощенная рукоять помогает контролировать вертикальный компонент отдачи, тем самым ускоряя последующие выстрелы."
 
+L["cod2019_grips_operator2.printname"] = "Рукоять исполнителя"
+L["cod2019_grips_operator2.compactname"] = "Испол."
+L["cod2019_grips_operator2.description"] = "Упрощенная рукоять помогает контролировать вертикальный компонент отдачи, тем самым ускоряя последующие выстрелы."
+
 L["cod2019_grips_bipod.printname"] = "Сошки с тактической рукоятью"
 L["cod2019_grips_bipod.compactname"] = "Сошки Р."
 L["cod2019_grips_bipod.description"] = "Этот модуль помогает контролировать отдачу, особенно в положении присев и лежа."

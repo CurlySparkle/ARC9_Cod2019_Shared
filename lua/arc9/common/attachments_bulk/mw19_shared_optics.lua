@@ -898,7 +898,8 @@ ATT.RTScopeColorable = false
 -- table.Merge(ATT, reticleatts.sniper)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.093
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.10
 	ATT.RecoilMult = 0.99
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.093

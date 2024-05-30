@@ -13,7 +13,7 @@ ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
 ATT.ActivateElements = {"grip"}
-ATT.SortOrder = 2.1
+ATT.SortOrder = 2.5
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/grip_stubby_tall.mdl"
 ATT.ModelOffset = Vector(0, 0, 0.12)
@@ -54,7 +54,7 @@ ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
 ATT.ActivateElements = {"grip"}
-ATT.SortOrder = 2
+ATT.SortOrder = 2.4
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/grip_vert.mdl"
 ATT.ModelOffset = Vector(0, 0, 0.12)
@@ -97,7 +97,7 @@ ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
 ATT.ActivateElements = {"grip"}
-ATT.SortOrder = 2
+ATT.SortOrder = 2.3
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/grip_vert03.mdl"
 ATT.ModelOffset = Vector(0.15, 0, 0.45)
@@ -247,7 +247,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SpeedMult = 0.99
 	ATT.SpeedSightsMult = 0.98
 	ATT.RecoilRandomSideMult = 0.95
-	ATT.ReloadTimeMult = 0.85 -- Because Twilight asked for it
+	ATT.ReloadTimeMult = 0.85
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.15
 	ATT.VisualRecoilMult = 0.94
@@ -259,6 +259,42 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_grips_operator")
+
+/////////////////////////// -- cod2019_grips_operator2
+ATT = {}
+
+ATT.PrintName = "Operator Foregrip"
+ATT.Icon = Material("entities/attachs/cod2019_attach_grip_stubby04.png", "mips smooth")
+
+ATT.Description = ""
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = "cod2019_grip"
+ATT.ActivateElements = {"grip"}
+ATT.SortOrder = 2.1
+
+ATT.Model = "models/weapons/cod2019/attachs/grips/attachment_vm_vertgrip_stubby04.mdl"
+ATT.ModelOffset = Vector(0, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+ATT.LHIK = true
+ATT.LHIK_Priority = 10
+
+ATT.DrawFunc = function(swep, model, wm)
+    model:SetPoseParameter("gripstyle", swep.CodStubbyGripPoseParam or 0)
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilSideMult = 0.85
+	ATT.VisualRecoilSideMult = 0.96
+	ATT.AimDownSightsTimeMult = 1.06
+	ATT.DeployTimeMult = 1.04
+else -- Warzone Stats
+	ATT.RecoilSideMult = 0.85
+	ATT.AimDownSightsTimeMult = 1.06
+	ATT.DeployTimeMult = 1.04
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_grips_operator2")
 
 /////////////////////////// -- cod2019_grips_bipod
 ATT = {}
