@@ -979,9 +979,15 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.06
 	ATT.RangeMaxMult = 1.1
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 1.08
-	ATT.DeployTimeMult = 1.06
-	ATT.RangeMaxMult = 1.1
+	ATT.PhysBulletMuzzleVelocityAdd = 425 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.046
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpreadAddMove = 0.00159
+	ATT.RangeMinMult = 1.35
+	ATT.RangeMaxMult = 1.35
+	ATT.SpeedMult = 0.97
+	ATT.SpeedSightsMult = 0.94
 end
 
 ATT.Element = {
@@ -1124,19 +1130,6 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_mag_v5.mdl"
 ATT.BoneMerge = true
 
-ATT.DamageMaxMult = 1.40
-ATT.DamageMinMult = 1.40
-ATT.RangeMaxMult = 1.25
-ATT.ClipSizeAdd = -20
-ATT.RPM = 607.5
-
-ATT.Firemodes = {
-    {
-        Mode = 1,
-		PoseParam = 1,
-    },
-}
-
 -- Non-Silenced Outside
 ATT.DistantShootSound = "Distant_BR1.Outside"
 -- Inside
@@ -1147,6 +1140,40 @@ ATT.DistantShootSoundSilenced = "Distant_DMR_Sup.Outside"
 -- Inside
 ATT.DistantShootSoundSilencedIndoor = "Distant_DMR_Sup.Inside"
 ---------------------------------------------------
+
+ATT.ClipSizeAdd = -20
+
+if !warzonestats then -- Regular Stats
+	ATT.Firemodes = {
+		{
+			Mode = 1,
+			PoseParam = 1,
+		},
+	}
+	ATT.DamageMaxMult = 1.40
+	ATT.DamageMinMult = 1.40
+	ATT.RangeMaxMult = 1.25
+	ATT.RPM = 607.5
+else -- Warzone Stats
+	ATT.RPMAdd = -217
+	ATT.PhysBulletMuzzleVelocityAdd = 127 / ARC9.HUToM
+	ATT.VisualRecoilMult = 1.4
+	ATT.RecoilMult = 1.3
+	
+	ATT.RangeMinAdd = 4 / ARC9.HUToM
+	ATT.RangeMaxAdd = 4 / ARC9.HUToM
+	ATT.DamageMinAdd = 18
+	ATT.DamageMaxAdd = 21
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1.5,
+		[HITGROUP_CHEST] = 1,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 1,
+		[HITGROUP_RIGHTARM] = 1,
+		[HITGROUP_LEFTLEG] = 1,
+		[HITGROUP_RIGHTLEG] = 1,
+	}
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4_mag_sniper")
 ---------------------------------------------------------------------------------------
@@ -1165,8 +1192,6 @@ ATT.BoneMerge = true
 ATT.SortOrder = 0
 ATT.Category = "cod2019_m4_stock"
 ATT.ActivateElements = {"stock_none"}
-
-
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.07

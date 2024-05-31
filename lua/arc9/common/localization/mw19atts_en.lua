@@ -934,9 +934,9 @@ L["cod2019_m4a1_barrel_v3.printname"] = "FSS 14.5\" Tac Lite"
 L["cod2019_m4a1_barrel_v3.compactname"] = "Tac Lite"
 L["cod2019_m4a1_barrel_v3.description"] = "Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity."
 
-L["cod2019_m4a1_barrel_04.printname"] = "Corvus Custom Marksman"
-L["cod2019_m4a1_barrel_04.compactname"] = "Corvus"
-L["cod2019_m4a1_barrel_04.description"] = "Custom 19 inch M16A4 style barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+L["cod2019_m4a1_barrel_sniper.printname"] = "Corvus Custom Marksman"
+L["cod2019_m4a1_barrel_sniper.compactname"] = "Corvus"
+L["cod2019_m4a1_barrel_sniper.description"] = "Custom 19 inch M16A4 style barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_m4a1_barrel_05.printname"] = "FSS 12.4\" Predator"
 L["cod2019_m4a1_barrel_05.compactname"] = "Predator"
@@ -968,9 +968,9 @@ L["cod2019_m4_mag_9mm.printname"] = "9mm Para 32-Round Mags"
 L["cod2019_m4_mag_9mm.compactname"] = "32R 9mm"
 L["cod2019_m4_mag_9mm.description"] = "Conversion kit to use <color=255,255,100>9mm parabellum</color> ammunition. Cycles at a much higher rate with less recoil." .. changeammo.smg1
 
-L["cod2019_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Round Mags"
-L["cod2019_m4a1_mag_socom.compactname"] = "10R SOCOM"
-L["cod2019_m4a1_mag_socom.description"] = "Conversion kit to use high caliber <color=255,255,100>.458 SOCOM</color> ammunition for increased stopping power. Slower cyclic rate helps control recoil."
+L["cod2019_m4_mag_sniper.printname"] = ".458 SOCOM 10-Round Mags"
+L["cod2019_m4_mag_sniper.compactname"] = "10R SOCOM"
+L["cod2019_m4_mag_sniper.description"] = "Conversion kit to use high caliber <color=255,255,100>.458 SOCOM</color> ammunition for increased stopping power. Slower cyclic rate helps control recoil."
 
 //////////////////// FR 5.56
 /////////////// Barrels
@@ -1587,9 +1587,9 @@ L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", 
 
 //////////////////// MP7
 /////////////// Barrels
-L["cod2019_mp7_barrel_01.printname"] = "FSS STRIKE"
-L["cod2019_mp7_barrel_01.compactname"] = "STRIKE"
-L["cod2019_mp7_barrel_01.description"] = "Designed for elite special operations, increased length and polygonal rifling improve muzzle velocity and range with little weight increase."
+L["cod2019_mp7_barrel_long2.printname"] = "FSS STRIKE"
+L["cod2019_mp7_barrel_long2.compactname"] = "STRIKE"
+L["cod2019_mp7_barrel_long2.description"] = "Designed for elite special operations, increased length and polygonal rifling improve muzzle velocity and range with little weight increase."
 
 L["cod2019_mp7_barrel_long.printname"] = "FSS RECON"
 L["cod2019_mp7_barrel_long.compactname"] = "RECON"

@@ -511,9 +511,9 @@ L["cod2019_m4a1_barrel_v3.printname"] = "FSS 370 mm Tac Lite"
 L["cod2019_m4a1_barrel_v3.compactname"] = "Tac Lite"
 L["cod2019_m4a1_barrel_v3.description"] = "Lättvikt skydd och pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
-L["cod2019_m4a1_barrel_04.printname"] = "Corvus Custom Marksman"
-L["cod2019_m4a1_barrel_04.compactname"] = "Corvus"
-L["cod2019_m4a1_barrel_04.description"] = "Anpassad 483 mm M16A4-liknande pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skott men hindrar rörlighet."
+L["cod2019_m4a1_barrel_sniper.printname"] = "Corvus Custom Marksman"
+L["cod2019_m4a1_barrel_sniper.compactname"] = "Corvus"
+L["cod2019_m4a1_barrel_sniper.description"] = "Anpassad 483 mm M16A4-liknande pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skott men hindrar rörlighet."
 
 L["cod2019_m4a1_barrel_05.printname"] = "FSS 315 mm Predator"
 L["cod2019_m4a1_barrel_05.compactname"] = "Predator"
@@ -543,9 +543,9 @@ L["cod2019_m4_mag_9mm.printname"] = "9 mm Para 32-Patronersmagasin"
 L["cod2019_m4_mag_9mm.compactname"] = "32P 9 mm"
 L["cod2019_m4_mag_9mm.description"] = "Konverteringskit för att använda <color=255,255,100>9 mm parabellum</color>-ammunition. Skjuter med en högre hastighet med mindre rekyl." .. changeammo.smg1
 
-L["cod2019_m4a1_mag_socom.printname"] = ".458 SOCOM 10-Patronersmagasin"
-L["cod2019_m4a1_mag_socom.compactname"] = "10P SOCOM"
-L["cod2019_m4a1_mag_socom.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>.458 SOCOM</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen."
+L["cod2019_m4_mag_sniper.printname"] = ".458 SOCOM 10-Patronersmagasin"
+L["cod2019_m4_mag_sniper.compactname"] = "10P SOCOM"
+L["cod2019_m4_mag_sniper.description"] = "Konverteringskit för att använda hög kaliber <color=255,255,100>.458 SOCOM</color>-ammunition för ökad stoppkraft. Lägre eldhastighet hjälper kontrollera rekylen."
 
 //////////////////// FR 5.56
 /////////////// Barrels
@@ -1075,9 +1075,9 @@ L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", 
 
 //////////////////// MP7
 /////////////// Barrels
-L["cod2019_mp7_barrel_01.printname"] = "FSS STRIKE"
-L["cod2019_mp7_barrel_01.compactname"] = "STRIKE"
-L["cod2019_mp7_barrel_01.description"] = "Designad för elit specialoperationer, den ökade längden och polygonala räfflingen öker mynningshastigheten och räckvidden med lätt ökad vikt."
+L["cod2019_mp7_barrel_long2.printname"] = "FSS STRIKE"
+L["cod2019_mp7_barrel_long2.compactname"] = "STRIKE"
+L["cod2019_mp7_barrel_long2.description"] = "Designad för elit specialoperationer, den ökade längden och polygonala räfflingen öker mynningshastigheten och räckvidden med lätt ökad vikt."
 
 L["cod2019_mp7_barrel_long.printname"] = "FSS RECON"
 L["cod2019_mp7_barrel_long.compactname"] = "RECON"
