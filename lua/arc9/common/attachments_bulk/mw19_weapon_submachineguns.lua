@@ -8,7 +8,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS RECON"
 ATT.CompactName = "FSS RECON"
 ATT.Description = [[Designed for mobile scout operations, 10.5 inch barrel increases muzzle velocity, extends range and adds a moderate weight increase for smoother recoil.]]
-
 ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_barlong.mdl"
@@ -57,10 +56,56 @@ ARC9.LoadAttachment(ATT, "cod2019_mp7_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS STRIKE"
+ATT.CompactName = "FSS STRIKE"
+ATT.Description = [[Designed for elite special operations, increased length and polygonal rifling improve muzzle velocity and range with little weight increase.]]
+ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_barlong.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_barlong2.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_mp7_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(2.5, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.07
+	ATT.AimDownSightsTimeMult = 1.11
+	ATT.RangeMaxMult = 1.06
+	ATT.RecoilKickMult = 0.9
+else -- Warzone Stats
+	ATT.DeployTimeMult = 1.07
+	ATT.AimDownSightsTimeMult = 1.11
+	ATT.RangeMaxMult = 1.06
+	ATT.RecoilKickMult = 0.9
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_mp7_barrel_long2")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS SWAT"
 ATT.CompactName = "FSS SWAT"
 ATT.Description = [[Designed for police enforcements raids, shorter length and larger bore barrel reduces weight for improved handling at the cost of muzzle velocity.]]
-
 ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_barlight.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_barlight.mdl"
