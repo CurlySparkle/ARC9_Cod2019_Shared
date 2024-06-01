@@ -699,7 +699,7 @@ L["cod2019_ak47_mag_40.description"] = string.format(mw19magtext.desc, "40", mw1
 
 L["cod2019_akilo47_mag_smg.printname"] = "Магазины на 30 патронов 5,45х39 мм"
 L["cod2019_akilo47_mag_smg.compactname"] = "30П 5,45"
-L["cod2019_akilo47_mag_smg.description"] = "5.45x39mmКонверсия под боеприпасы меньшего калибра <color=255,255,100>5,45х39 мм</color>. Умеренная дальность поражения, повышенный темп стрельбы и более слабая отдача позволяют эффективно"
+L["cod2019_akilo47_mag_smg.description"] = "Конверсия под боеприпасы меньшего калибра <color=255,255,100>5,45х39 мм</color>. Умеренная дальность поражения, повышенный темп стрельбы и более слабая отдача позволяют эффективно"
 
 L["cod2019_akilo47_mag_drum.printname"] = string.format(mw19magtext.drummag, "75")
 L["cod2019_akilo47_mag_drum.compactname"] = string.format(mw19magtext.mags, "75")
@@ -707,87 +707,87 @@ L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// RAM-7
 /////////////// Barrels
-L["cod2019_ram7_barrel_01.printname"] = "FTAC 13.5\" Compact"
-L["cod2019_ram7_barrel_01.compactname"] = "Compact"
+L["cod2019_ram7_barrel_01.printname"] = "Компактный 13,5-дюймовый ствол FTAC"
+L["cod2019_ram7_barrel_01.compactname"] = "Компакт"
 
-L["cod2019_ram7_barrel_mid.printname"] = "FORGE TAC Eclipse"
-L["cod2019_ram7_barrel_mid.compactname"] = "Eclipse"
-L["cod2019_ram7_barrel_mid.description"] = "Lightweight extended front shroud houses a 16\" polygonal rifled barrel, increasing both range and muzzle velocity."
+L["cod2019_ram7_barrel_mid.printname"] = "\"ФОРДЖ-ТАК\" - \"Затмение\""
+L["cod2019_ram7_barrel_mid.compactname"] = "Затмение"
+L["cod2019_ram7_barrel_mid.description"] = "16-дюймовый ствол с полигональной нарезкой в облегченном кожухе, увеличивающий начальную скорость пули и дальность поражения."
 
-L["cod2019_ram7_barrel_long.printname"] = "FSS Ranger"
-L["cod2019_ram7_barrel_long.compactname"] = "Ranger"
-L["cod2019_ram7_barrel_long.description"] = "Fully enclosed 460mm barrel provides the ultimate range and accuracy for this weapon. Additional weight affects mobility."
+L["cod2019_ram7_barrel_long.printname"] = "FSS \"Рейнджер\""
+L["cod2019_ram7_barrel_long.compactname"] = "Рейнджер"
+L["cod2019_ram7_barrel_long.description"] = "460-мм ствол в закрытом кожухе, обеспечивающий максимальную точность и дальность поражения для данного оружия. Дополнительный вес ограничивает подвижность бойца."
 
 /////////////// Stock
-L["cod2019_ram7_stock_heavy.printname"] = "FTAC Equilibrium"
-L["cod2019_ram7_stock_heavy.compactname"] = "Equilibrium"
-L["cod2019_ram7_stock_heavy.description"] = "Weighted stock with cushioned recoil pad keeps your aim steady for precision shots."
+L["cod2019_ram7_stock_heavy.printname"] = "FTAC \"Равновесие\""
+L["cod2019_ram7_stock_heavy.compactname"] = "Равновесие"
+L["cod2019_ram7_stock_heavy.description"] = "Утяжеленный приклад с мягким тыльником, помогающий стабилизировать оружие для точной стрельбы."
 
-L["cod2019_ram7_stock_light.printname"] = "XRK Ultralight Hollow"
-L["cod2019_ram7_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
+L["cod2019_ram7_stock_light.printname"] = "Сверхлегкий полый приклад XRK"
+L["cod2019_ram7_stock_light.description"] = "Пластиковый приклад с алюминиевым каркасом, улучшающий подвижность бойца при прицеливании."
 
-L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters Stock"
+L["cod2019_ram7_stock_tactical.printname"] = "Приклад XRk для ближнего боя"
 
 //////////////////// Grau 5.56
 /////////////// Barrels
-L["cod2019_grau_barrel_01.printname"] = "ZLR Drifter A-08"
-L["cod2019_grau_barrel_01.compactname"] = "Drifter"
-L["cod2019_grau_barrel_01.description"] = "Ultra short 5.3\" barrel with a built in foregrip allows first class agility and maneuverability without sacrificing recoil control."
+L["cod2019_grau_barrel_01.printname"] = "ZLR \"ДриФтер\" А-О8"
+L["cod2019_grau_barrel_01.compactname"] = "ДриФтер"
+L["cod2019_grau_barrel_01.description"] = "Сверхкороткий 5,3-дюймовый ствол со встроенной передней рукоятью обеспечивает первоклассную подвижность и маневренность в сочетании с контролем отдачи."
 
-L["cod2019_grau556_barrel_barxlong.printname"] = "Tempus 26.4\" Archangel"
-L["cod2019_grau556_barrel_barxlong.compactname"] = "Archangel"
-L["cod2019_grau556_barrel_barxlong.description"] = "Partially shrouded 26.4\" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship."
+L["cod2019_grau556_barrel_barxlong.printname"] = "Темпус 26,4\" \"Архангел\""
+L["cod2019_grau556_barrel_barxlong.compactname"] = "Архангел"
+L["cod2019_grau556_barrel_barxlong.description"] = "26,4-дюймовый ствол с частичным кожухом производства FSS обеспечивает максимальную точность и дальность поражения, Этот тяжелый ствол идеально подходит для снайперской стрельбы на дальних дистанциях."
 
-L["cod2019_grau556_barrel_heavy.printname"] = "ZRK CZEN mk2"
+L["cod2019_grau556_barrel_heavy.printname"] = "ZRK CZEN MK2"
 L["cod2019_grau556_barrel_heavy.compactname"] = "CZEN"
-L["cod2019_grau556_barrel_heavy.description"] = "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
+L["cod2019_grau556_barrel_heavy.description"] = "кожух из алюминиевого сплава и ствол из хромомолибденовой стали с полигональной нарезкой идеально сочетают дальность поражения и мобильность."
 
-L["cod2019_grau556_barrel_long.printname"] = "FSS 20.8\" Nexus"
-L["cod2019_grau556_barrel_long.compactname"] = "Nexus"
-L["cod2019_grau556_barrel_long.description"] = "Stainless steel 20.8\" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_grau556_barrel_long.printname"] = "FSS \"Нексус\" 20,8 дюйма"
+L["cod2019_grau556_barrel_long.compactname"] = "Нексус"
+L["cod2019_grau556_barrel_long.description"] = "Ствол из нержавеющей стали длиной 20,8 дюйма повышает начальную скорость пули и увеличивает дальность. Дополнительный вес стабилизирует оружие, но снижает мобильность."
 
-L["cod2019_grau_barrel_05.printname"] = "FSS 11.8\" Squall"
-L["cod2019_grau_barrel_05.compactname"] = "Squall"
+L["cod2019_grau_barrel_05.printname"] = "FSS \"Шквал\" 11,8 дюйма"
+L["cod2019_grau_barrel_05.compactname"] = "Шквал"
 
 /////////////// Stock
-L["cod2019_grau556_stock_heavy.printname"] = "FSS Blackjack"
-L["cod2019_grau556_stock_heavy.compactname"] = "Blackjack"
+L["cod2019_grau556_stock_heavy.printname"] = "FSS \"Блэкджек\""
+L["cod2019_grau556_stock_heavy.compactname"] = "Блэкджек"
 
 L["cod2019_grau_stock_light.printname"] = "XRK StrikeLite III"
 L["cod2019_grau_stock_light.compactname"] = "StrikeLite III"
-L["cod2019_grau_stock_light.description"] = "Aluminum core synthetic stock designed for agility while aiming down sights."
+L["cod2019_grau_stock_light.description"] = "Пластиковый приклад с алюминиевым каркасом, улучшающий подвижность бойца при прицеливании."
 
 -- L["cod2019_grau556_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 
 /////////////// Pistol Grips
-L["cod2019_grau556_pistgrip_light.printname"] = "XRK Void II"
-L["cod2019_grau556_pistgrip_light.compactname"] = "Void"
-L["cod2019_grau556_pistgrip_light.description"] = "Skeletonized grip for the ultimate in high speed maneuvering."
+L["cod2019_grau556_pistgrip_light.printname"] = "XRK \"Пустота\" II"
+L["cod2019_grau556_pistgrip_light.compactname"] = "Пустота"
+L["cod2019_grau556_pistgrip_light.description"] = "Каркасная рукоять для максимально быстрого маневрирования."
 
-L["cod2019_grau556_griptape_02.printname"] = "Cronen Sniper Elite"
-L["cod2019_grau556_griptape_02.description"] = "Textured polymer with ап adjustable palm shelf keeps the weapon incredibly stable while aiming."
+L["cod2019_grau556_griptape_02.printname"] = "Cronen \"Элитный снайпер\""
+L["cod2019_grau556_griptape_02.description"] = "Текстурированная полимерная рукоятка с регулируемым упором для ладони позволяет идеально стабилизировать оружие во время прицеливания."
 
-L["cod2019_grau556_pistgrip_heavy.printname"] = "FTAC R-89 Rubber"
-L["cod2019_grau556_pistgrip_heavy.description"] = "Rubberized no-slip grip keeps gun tight in hand. Less steady, but helps control recoil."
+L["cod2019_grau556_pistgrip_heavy.printname"] = "FTAC R-89: резина"
+L["cod2019_grau556_pistgrip_heavy.description"] = "Рукоятка, покрытая резиной для крепкого захвата без проскальзывания. Ухудшает стабильность, но улучшает контроль отдачи."
 
 //////////////////// CR-56 AMAX
 /////////////// Barrels
-L["cod2019_cr56_barrel_short.printname"] = "FSS 8.3\" Intruder"
-L["cod2019_cr56_barrel_short.compactname"] = "Intruder"
-L["cod2019_cr56_barrel_short.description"] = "Short, compact barrel sacrifices accuracy and range for speed and agility. Excels in CQB and room clearing."
+L["cod2019_cr56_barrel_short.printname"] = "FSS \"Агрессор\" 8,3 дюйма"
+L["cod2019_cr56_barrel_short.compactname"] = "Агрессор"
+L["cod2019_cr56_barrel_short.description"] = "Установив этот короткий и компактный ствол, вы пожертвуете точностью и дальностью стрельбы ради преимущества в скорости, Идеальный вариант для ближнего боя и зачистки помещений."
 
-L["cod2019_cr56_barrel_long.printname"] = "XRK Zodiac S440"
-L["cod2019_cr56_barrel_long.compactname"] = "Zodiac"
-L["cod2019_cr56_barrel_long.description"] = "Achieve the pinnacle of range with this precision barrel from XRK. Superior muzzle velocity and stabilization at the cost of agility."
+L["cod2019_cr56_barrel_long.printname"] = "XRK S440 \"Зодиак\" 11,8 дюйма"
+L["cod2019_cr56_barrel_long.compactname"] = "Зодиак"
+L["cod2019_cr56_barrel_long.description"] = "С этим высокоточным стволом от компании XRk вы сможете достичь вершин снайперского искусства. впрочем, за высокую стабильность и начальную скорость пули придется заплатить снижением мобильности."
 
 -- L["cod2019_cr56_barrel_light.printname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.printname") or "FSS 11.8\" Squall"
 
 /////////////// Stock
-L["cod2019_cr56_stock_light.printname"] = "FTAC Spartan"
-L["cod2019_cr56_stock_light.compactname"] = "Spartan"
+L["cod2019_cr56_stock_light.printname"] = "FTAC \"Спартанец\""
+L["cod2019_cr56_stock_light.compactname"] = "Спартан"
 
-L["cod2019_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
-L["cod2019_cr56_stock_vheavy.compactname"] = "Gatekeeper"
+L["cod2019_cr56_stock_vheavy.printname"] = "XRK \"Привратник\""
+L["cod2019_cr56_stock_vheavy.compactname"] = "Привратник"
 
 L["cod2019_cr56_stock_vlight.printname"] = "CR-56 EXO"
 L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
@@ -797,103 +797,103 @@ L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_cr56_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
 L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["762"])
 
-L["cod2019_cr56_mag_m67.printname"] = "M67 10-R Mags"
-L["cod2019_cr56_mag_m67.compactname"] = "M67 10-R"
-L["cod2019_cr56_mag_m67.description"] = "<color=255,100,100>10 rounds</color> of <color=255,255,100>7.62 M67</color> ammunition designed for increased muzzle velocity, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
+L["cod2019_cr56_mag_m67.printname"] = "Магазины на 10 патронов M67"
+L["cod2019_cr56_mag_m67.compactname"] = "10П M67"
+L["cod2019_cr56_mag_m67.description"] = "<color=255,100,100>10 патронов</color> типа <color=255,255,100>7,62 мм M67</color> эти боеприпасы обеспечивают повышенную начальную скорость пули, точность стрельбы и урон. По умолчанию оружие ведет огонь в <color=100,255,100>полуавтоматическом</color> режиме."
 
 /////////////// Pistol Grips
-L["cod2019_cr56_griptape_01.printname"] = "XRK CR-56 Granulated Wrap"
+L["cod2019_cr56_griptape_01.printname"] = "XRK CR-56 - зернистое покрытие"
 
-L["cod2019_cr56_griptape_02.printname"] = "XRK CR-56 Rubberized Wrap"
+L["cod2019_cr56_griptape_02.printname"] = "XRK CR-56 - покрытие с накаткой"
 
-L["cod2019_cr56_griptape_03.printname"] = "XRK CR-56 Stippled Wrap"
+L["cod2019_cr56_griptape_03.printname"] = "XRK CR-56 - прорезиненное покрытие"
 
 //////////////////// AN-94
 /////////////// Optics
-L["cod2019_an94_optic_thermal.printname"] = "POS-M3 Thermal Scope"
+L["cod2019_an94_optic_thermal.printname"] = "Тепловизор POS-M3"
 L["cod2019_an94_optic_thermal.compactname"] = "POS-M3"
 
 /////////////// Barrels
-L["cod2019_an94_barrel_short.printname"] = "AN-94 Factory 330mm"
-L["cod2019_an94_barrel_short.compactname"] = "Factory"
-L["cod2019_an94_barrel_short.description"] = "Factory installed 330mm barrel has a higher tension spring to compensate for the recoil dampening system's reduced travel. Designed for closer engagements."
+L["cod2019_an94_barrel_short.printname"] = "АН-94 330 мм заводской"
+L["cod2019_an94_barrel_short.compactname"] = "Заводской"
+L["cod2019_an94_barrel_short.description"] = "330 мм ствол заводской установки обладает пружиной высокого напряжения для компенсации ослабленной амортизации системы. Разработан специально для боя на коротких дистанциях."
 
-L["cod2019_an94_barrel_long.printname"] = "AN-94 Factory X-438mm"
-L["cod2019_an94_barrel_long.compactname"] = "X-438mm"
-L["cod2019_an94_barrel_long.description"] = "Experimental 438mm extended barrel pushes the operational limit of this weapon with progressive rate springs and a case hardened chrome-moly bore."
+L["cod2019_an94_barrel_long.printname"] = "АН-94 Х-438 мм заводской"
+L["cod2019_an94_barrel_long.compactname"] = "X-438 мм"
+L["cod2019_an94_barrel_long.description"] = "Экспериментальный удлиненный ствол 438 мм позволяет раскрыть весь потенциал этого оружия с помощью витых пружин с переменной жесткостью и канала из закаленного хром-молибдена."
 
-L["cod2019_an94_barrel_03.printname"] = "VLK AN-94 Sila"
-L["cod2019_an94_barrel_03.compactname"] = "Sila"
-L["cod2019_an94_barrel_03.description"] = "After-market heavy duty polygonal rifled barrel extends range and bullet velocity. Anvil barrel guard prevents the extra weight from damaging the spring housing."
+L["cod2019_an94_barrel_03.printname"] = "VLK АН-94 \"Сила\""
+L["cod2019_an94_barrel_03.compactname"] = "Сила"
+L["cod2019_an94_barrel_03.description"] = "Надежный высококлассный ствол с тяжелой нарезкой, который увеличивает дальнобойность и начальную скорость пулы Защитная спусковая скоба предотвращает повреждение кожуха пружины."
 
 /////////////// Muzzle
-L["cod2019_an94_muzzle_sonic.printname"] = "AN-94 Sonic Brake"
-L["cod2019_an94_muzzle_sonic.compactname"] = "Sonic"
-L["cod2019_an94_muzzle_sonic.description"] = "Cutting edge muzzle brake mitigates hyperburst recoil without increasing the weapon's sound signature."
+L["cod2019_an94_muzzle_sonic.printname"] = "АН-94 \"Антизвук\""
+L["cod2019_an94_muzzle_sonic.compactname"] = "Антизвук"
+L["cod2019_an94_muzzle_sonic.description"] = "Сверхсовременный дульный тормоз нивелирует мощную отдачу, при этом не увеличивая шум."
 
 /////////////// Stock
-L["cod2019_an94_stock_heavy.printname"] = "AN-94 Factory Heavy"
-L["cod2019_an94_stock_heavy.compactname"] = "Factory"
-L["cod2019_an94_stock_heavy.description"] = "Heavy duty stock with tactical comb. Keeps your aim steady for precision shots."
+L["cod2019_an94_stock_heavy.printname"] = "АН-94 тяжелый заводской"
+L["cod2019_an94_stock_heavy.compactname"] = "Заводской"
+L["cod2019_an94_stock_heavy.description"] = "Усиленный приклад с тактическим гребнем, помогает стабилизировать оружие для точной стрельбы."
 
-L["cod2019_an94_stock_none.printname"] = "Folded Stock"
-L["cod2019_an94_stock_none.compactname"] = "Folded"
+L["cod2019_an94_stock_none.printname"] = "Складной приклад"
+L["cod2019_an94_stock_none.compactname"] = "Склад."
 
-L["cod2019_an94_stockskel.printname"] = "VLK PX-9 Pero"
-L["cod2019_an94_stockskel.compactname"] = "Pero"
+L["cod2019_an94_stockskel.printname"] = "VLK PX-9 \"Перо\""
+L["cod2019_an94_stockskel.compactname"] = "Перо"
 
 /////////////// Magazine
 L["cod2019_an94_mag_45.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_an94_mag_45.compactname"] = string.format(mw19magtext.mags, "45")
 L["cod2019_an94_mag_45.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["545"])
 
-L["cod2019_an94_mag_60.printname"] = "60 Round Casket Mags"
+L["cod2019_an94_mag_60.printname"] = "Коробчатые магазины на 60 патронов"
 L["cod2019_an94_mag_60.compactname"] = string.format(mw19magtext.mags, "60")
 L["cod2019_an94_mag_60.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["545"])
 
 //////////////////// AS VAL
 /////////////// Optics
-L["cod2019_optic_scope_svd.printname"] = "Dragunov Scope"
-L["cod2019_optic_scope_svd.compactname"] = "Dragunov"
-L["cod2019_optic_scope_svd.description"] = "High power <color=100,255,100>5.5x</color> scope for longer range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
+L["cod2019_optic_scope_svd.printname"] = "Прицел СВД"
+L["cod2019_optic_scope_svd.compactname"] = "СВД"
+L["cod2019_optic_scope_svd.description"] = "Мощный оптический прицел кратностью <color=100,255,100>5,5х</color> для увеличенных дистанций боя. <color=255,100,100>Блеск оптики виден противнику.</color>"
 
 /////////////// Barrels
-L["cod2019_asval_barrel_short.printname"] = "VLK 105mm Sova"
-L["cod2019_asval_barrel_short.compactname"] = "Sova"
-L["cod2019_asval_barrel_short.description"] = "Lightweight and stealthy, titanium baffles and an aluminium shroud improve weapon maneuvering."
+L["cod2019_asval_barrel_short.printname"] = "VLK 105 мм \"Сова\""
+L["cod2019_asval_barrel_short.compactname"] = "Сова"
+L["cod2019_asval_barrel_short.description"] = "Компактный и скрытный ствол с титановыми перегородками и алюминиевым кожухом для лучшей подвижности."
 
-L["cod2019_asval_barrel_light.printname"] = "Stovl SOF"
+L["cod2019_asval_barrel_light.printname"] = "Stovl ССФ"
 L["cod2019_asval_barrel_light.compactname"] = "Stovl"
-L["cod2019_asval_barrel_light.description"] = "Designed for special forces' raids and reconnaissance, a proprietary monocore provides quality sound suppression in a shorter barrel."
+L["cod2019_asval_barrel_light.description"] = "Укороченный ствол, предназначенный для штурмов и зачисток. Уникальное строение глушителя обеспечивает отличное снижение уровня шума."
 
-L["cod2019_asval_barrel_heavy.printname"] = "VLK 200mm Osa"
-L["cod2019_asval_barrel_heavy.compactname"] = "Osa"
-L["cod2019_asval_barrel_heavy.description"] = "After-market monolithic integrally suppressed barrel with an aluminum honeycombed shroud significantly increased muzzle velocity and range."
+L["cod2019_asval_barrel_heavy.printname"] = "VLK 200 мм \"Oca\""
+L["cod2019_asval_barrel_heavy.compactname"] = "Oca"
+L["cod2019_asval_barrel_heavy.description"] = "Монолитный ствол с интегральным глушителем со вторичного рынка. Алюминиевый мелкоячеистый кожух существенноувеличивает начальную скорость выстрела и.дистанцир поражения."
 
 /////////////// Stock
-L["cod2019_asval_stock_heavy.printname"] = "VLK Vintazh"
-L["cod2019_asval_stock_heavy.compactname"] = "Vintazh"
-L["cod2019_asval_stock_heavy.description"] = "Classic wooden stock renowned for stability."
+L["cod2019_asval_stock_heavy.printname"] = "VLK \"Винтаж\""
+L["cod2019_asval_stock_heavy.compactname"] = "Винтаж"
+L["cod2019_asval_stock_heavy.description"] = "Классический деревянный приклад для отличной устойчивости."
 
-L["cod2019_asval_stock_medium.printname"] = "FSS Intl. Gen 4 GRU"
-L["cod2019_asval_stock_medium.compactname"] = "Gen 4 GRU"
-L["cod2019_asval_stock_medium.description"] = "On commission from FSS International, this stock is designed to improve target acquisition time for elite forces."
+L["cod2019_asval_stock_medium.printname"] = "FSS Intl. ГРУ 4 поколения"
+L["cod2019_asval_stock_medium.compactname"] = "ГРУ 4"
+L["cod2019_asval_stock_medium.description"] = "Приклад производства FSS lnternational, облегчающий наведение оружия на целы используется элитными частями."
 
-L["cod2019_asval_stock_vlight.printname"] = "Stovl 6P30 Skelet"
-L["cod2019_asval_stock_vlight.compactname"] = "Skelet"
+L["cod2019_asval_stock_vlight.printname"] = "Stovl 6П30 \"Скелет\""
+L["cod2019_asval_stock_vlight.compactname"] = "Скелет"
 
-L["cod2019_asval_stock_vheavy.printname"] = "VLK Strelok"
-L["cod2019_asval_stock_vheavy.compactname"] = "Strelok"
-L["cod2019_asval_stock_vheavy.description"] = "Precision Marksman stock provides exceptional accuracy and recoil dampening at the cost of agility."
+L["cod2019_asval_stock_vheavy.printname"] = "VLK \"Стрелок\""
+L["cod2019_asval_stock_vheavy.compactname"] = "Стрелок"
+L["cod2019_asval_stock_vheavy.description"] = "Качественный снайперский приклад, обеспечивающий исключительную точность и снижение отдачи, но снижающий подвижность."
 
 /////////////// Magazine
 L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
 
-L["cod2019_asval_mag_spp.printname"] = "SPP 10-R Mags"
-L["cod2019_asval_mag_spp.compactname"] = "SPP 10-R"
-L["cod2019_asval_mag_spp.description"] = "<color=255,100,100>10 rounds</color> of <color=255,255,100>9x39mm SPP</color> armor-piercing ammunition designed for increased penetration, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
+L["cod2019_asval_mag_spp.printname"] = "Магазины на 10 патронов СПП"
+L["cod2019_asval_mag_spp.compactname"] = "10П СПП"
+L["cod2019_asval_mag_spp.description"] = "<color=255,100,100>10 патронов</color> типа <color=255,255,100>9х39 мм СПП</color> эти бронебойные боеприпасы обеспечивают повышенные проникающую способность, точность стрельбы и урон. По умолчанию оружие ведет огонь в <color=100,255,100>полуавтоматическом</color> режиме."
 
 //////////////////////// Submachine Guns
 //////////////////// AUG
