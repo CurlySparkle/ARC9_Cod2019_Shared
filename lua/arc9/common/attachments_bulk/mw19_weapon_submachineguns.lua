@@ -2061,6 +2061,47 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vector_mag_drum")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = ".45 Hollow Point 12-R Mags"
+ATT.CompactName = ".45 HP 12-R"
+ATT.Description = [[Gun mod for lightweight single stack 12 round magazines. Comes equipped with a 2-round burst fire mode and .45 ACP Hollow Point ammunition to ensure every shot counts.]]
+
+ATT.AutoStats = true
+ATT.Free = false
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_smags.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_vector_mag"
+ATT.ActivateElements = {"mag_none","mag_smag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_smags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_smags.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = -13
+
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.85
+	ATT.DamageMaxMult = 1.1
+	ATT.DamageMinMult = 1.2
+	ATT.RecoilUp = 1.3
+	ATT.RPMAdd = -511
+else -- Warzone Stats
+	ATT.ReloadTimeMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.85
+	ATT.DamageMaxMult = 1.1
+	ATT.DamageMinMult = 1.2
+	ATT.RecoilUp = 1.3
+	ATT.RPMAdd = -511
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_vector_mag_smag")
 
 /////////////////////////// -- ISO
 ATT = {}
