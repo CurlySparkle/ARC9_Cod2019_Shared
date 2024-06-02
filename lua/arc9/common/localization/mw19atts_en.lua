@@ -1951,6 +1951,10 @@ L["cod2019_origin12_grip_side_com.printname"] = ARC9:GetPhrase("cod2019_angled.p
 L["cod2019_origin12_grip_side_com.compactname"] = ARC9:GetPhrase("cod2019_angled.compactname") or "Commando"
 L["cod2019_origin12_grip_side_com.description"] = ARC9:GetPhrase("cod2019_angled.description") or "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire."
 
+L["cod2019_origin12_grip_side_com_alt.printname"] = ARC9:GetPhrase("cod2019_angled.printname") or "Commando Foregrip"
+L["cod2019_origin12_grip_side_com_alt.compactname"] = ARC9:GetPhrase("cod2019_angled.compactname") or "Commando"
+L["cod2019_origin12_grip_side_com_alt.description"] = ARC9:GetPhrase("cod2019_angled.description") or "Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire."
+
 L["cod2019_origin12_grip_side_merc.printname"] = ARC9:GetPhrase("cod2019_grips_merc.printname") or "Merc Foregrip"
 L["cod2019_origin12_grip_side_merc.compactname"] = ARC9:GetPhrase("cod2019_grips_merc.compactname") or "Merc"
 L["cod2019_origin12_grip_side_merc.description"] = ARC9:GetPhrase("cod2019_grips_merc.description") or "Extended foregrip reduces vertical recoil and provides stability from the hip for fast-paced guerrilla tactics."
