@@ -972,6 +972,42 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_merc")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Commando Foregrip"
+ATT.CompactName = "Commando"
+ATT.Description = [[Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire.]]
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_sidegripang.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_sidegrip_long_alt.mdl"
+ATT.ActivateElements = {"grip"}
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_grip"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+
+ATT.ModelOffset = Vector(0, 0, 0.1)
+ATT.ModelAngleOffset = Angle(0, 0, 180)
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.RecoilMult = 1.11
+	ATT.DrawTimeMult = 1.13
+	ATT.HolsterTimeMult = 1.13
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.015
+	ATT.RecoilMult = 0.91
+	ATT.VisualRecoilMult = 0.91
+	ATT.SpreadAddMove = -0.0003
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.85
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_com_alt")
 -------------------------------------------------------------------------------
 -- ATT = {}
 
