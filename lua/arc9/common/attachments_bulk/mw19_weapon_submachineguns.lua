@@ -802,11 +802,11 @@ ATT.AutoStats = true
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/att_vm_p07_sm_papa90_barxlong_v0.mdl"
-ATT.ModelOffset = Vector(-0.2, 0, 0)
+ATT.ModelOffset = Vector(-0.3, 0, 0)
 ATT.BoneMerge = false
 
 ATT.LHIK = true
-ATT.LHIK_Priority = 2
+ATT.LHIK_Priority = 1
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_p90_barrel"}

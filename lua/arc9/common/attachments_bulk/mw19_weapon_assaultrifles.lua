@@ -2897,7 +2897,7 @@ ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barxlong.png
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barxlong.mdl"
 ATT.BoneMerge = false
 
-ATT.LHIK_Priority = 2
+ATT.LHIK_Priority = 1
 ATT.LHIK = true
 
 ATT.SortOrder = 0
@@ -2959,7 +2959,7 @@ ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barlong.png"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barlong.mdl"
 ATT.BoneMerge = false
 
-ATT.LHIK_Priority = 2
+ATT.LHIK_Priority = 1
 ATT.LHIK = true
 
 ATT.SortOrder = 0
@@ -3021,7 +3021,7 @@ ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barh.png", "
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barh.mdl"
 ATT.BoneMerge = false
 
-ATT.LHIK_Priority = 2
+ATT.LHIK_Priority = 1
 ATT.LHIK = true
 
 ATT.SortOrder = 0
