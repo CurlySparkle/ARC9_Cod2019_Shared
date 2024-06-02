@@ -699,8 +699,10 @@ ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["sight_front_folded"] then
-        model:SetBodygroup(2,1)
+    if swep:GetElements()["carry_handle"] then
+        model:SetBodygroup(2,0)
+	elseif swep:GetElements()["sight_front_folded"] then
+	model:SetBodygroup(2,1)
     end
 	
     if swep:GetElements()["optic_scope"] then
@@ -843,8 +845,10 @@ ATT.LHIK = false
 ATT.LHIK_Priority = 10
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["sight_front_folded"] then
-        model:SetBodygroup(1,1)
+    if swep:GetElements()["carry_handle"] then
+        model:SetBodygroup(1,0)
+	elseif swep:GetElements()["sight_front_folded"] then
+	model:SetBodygroup(1,1)
     end
 	
     if swep:GetElements()["optic_scope"] then
