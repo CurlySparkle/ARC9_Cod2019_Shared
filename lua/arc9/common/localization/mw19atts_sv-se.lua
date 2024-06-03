@@ -515,9 +515,9 @@ L["cod2019_m4a1_barrel_sniper.printname"] = "Corvus Custom Marksman"
 L["cod2019_m4a1_barrel_sniper.compactname"] = "Corvus"
 L["cod2019_m4a1_barrel_sniper.description"] = "Anpassad 483 mm M16A4-liknande pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skott men hindrar rörlighet."
 
-L["cod2019_m4a1_barrel_05.printname"] = "FSS 315 mm Predator"
-L["cod2019_m4a1_barrel_05.compactname"] = "Predator"
-L["cod2019_m4a1_barrel_05.description"] = "<color=255,255,100>Intern ljuddämpare</color> med lättvikta aluminium bafflar håller vapnet tyst och rörlig, men sänker mynningshastigheten."
+L["cod2019_m4a1_barrel_sil.printname"] = "FSS 315 mm Predator"
+L["cod2019_m4a1_barrel_sil.compactname"] = "Predator"
+L["cod2019_m4a1_barrel_sil.description"] = "<color=255,255,100>Intern ljuddämpare</color> med lättvikta aluminium bafflar håller vapnet tyst och rörlig, men sänker mynningshastigheten."
 
 /////////////// Stock
 L["cod2019_m4_stock_m16.printname"] = "M-16 Kolv"
@@ -881,9 +881,9 @@ L["cod2019_asval_stock_medium.description"] = "Kommission från FSS Internationa
 L["cod2019_asval_stock_vlight.printname"] = "Stovl 6P30 Skelet"
 L["cod2019_asval_stock_vlight.compactname"] = "Skelet"
 
-L["cod2019_asval_stock_vheavy.printname"] = "VLK Strelok"
-L["cod2019_asval_stock_vheavy.compactname"] = "Strelok"
-L["cod2019_asval_stock_vheavy.description"] = "Precision Marksman-kolv erbjuder utmärkt träffsäkerhet och rekyldämpande med kostnad på rörlighet."
+L["cod2019_asval_stock_sniper.printname"] = "VLK Strelok"
+L["cod2019_asval_stock_sniper.compactname"] = "Strelok"
+L["cod2019_asval_stock_sniper.description"] = "Precision Marksman-kolv erbjuder utmärkt träffsäkerhet och rekyldämpande med kostnad på rörlighet."
 
 /////////////// Magazine
 L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")

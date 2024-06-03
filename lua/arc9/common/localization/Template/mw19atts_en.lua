@@ -510,9 +510,9 @@ L["cod2019_m4a1_barrel_sniper.printname"] = "Corvus Custom Marksman"
 L["cod2019_m4a1_barrel_sniper.compactname"] = "Corvus"
 L["cod2019_m4a1_barrel_sniper.description"] = "Custom 19 inch M16A4 style barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
-L["cod2019_m4a1_barrel_05.printname"] = "FSS 12.4\" Predator"
-L["cod2019_m4a1_barrel_05.compactname"] = "Predator"
-L["cod2019_m4a1_barrel_05.description"] = "<color=255,255,100>Integral suppressor</color> with lightweight aluminum baffles keep the weapon silent and agile, but reduce the muzzle velocity."
+L["cod2019_m4a1_barrel_sil.printname"] = "FSS 12.4\" Predator"
+L["cod2019_m4a1_barrel_sil.compactname"] = "Predator"
+L["cod2019_m4a1_barrel_sil.description"] = "<color=255,255,100>Integral suppressor</color> with lightweight aluminum baffles keep the weapon silent and agile, but reduce the muzzle velocity."
 
 /////////////// Stock
 L["cod2019_m4_stock_m16.printname"] = "M-16 Stock"
@@ -876,9 +876,9 @@ L["cod2019_asval_stock_medium.description"] = "On commission from FSS Internatio
 L["cod2019_asval_stock_vlight.printname"] = "Stovl 6P30 Skelet"
 L["cod2019_asval_stock_vlight.compactname"] = "Skelet"
 
-L["cod2019_asval_stock_vheavy.printname"] = "VLK Strelok"
-L["cod2019_asval_stock_vheavy.compactname"] = "Strelok"
-L["cod2019_asval_stock_vheavy.description"] = "Precision Marksman stock provides exceptional accuracy and recoil dampening at the cost of agility."
+L["cod2019_asval_stock_sniper.printname"] = "VLK Strelok"
+L["cod2019_asval_stock_sniper.compactname"] = "Strelok"
+L["cod2019_asval_stock_sniper.description"] = "Precision Marksman stock provides exceptional accuracy and recoil dampening at the cost of agility."
 
 /////////////// Magazine
 L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")

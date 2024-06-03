@@ -1007,6 +1007,59 @@ ATT.Element = {
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_sniper")
 
+/////////////// -- cod2019_m4a1_barrel_sil
+ATT = {}
+
+ATT.PrintName = "FSS 12.4\" Predator"
+ATT.Description = "Integral suppressor with lightweight aluminum baffles keep the weapon silent and agile, but reduce the muzzle velocity."
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barsil.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_m4_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom","barrel_sil"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_barsil.mdl"
+ATT.BoneMerge = false
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["carry_handle"] then
+       model:SetBodygroup(1,0)
+	elseif swep:GetElements()["sight_front_folded"] then
+	model:SetBodygroup(1,1)
+    end
+	
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(1,2)
+    end
+
+    if swep:GetElements()["muzzle_none2"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.RangeMaxMult = 1.04
+	ATT.SpreadMult = 0.95
+	ATT.SpreadMultRecoil = 0.85
+	ATT.RecoilKickMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.RangeMaxMult = 1.04
+	ATT.SpreadMult = 0.95
+	ATT.SpreadMultRecoil = 0.85
+	ATT.RecoilKickMult = 1.05
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_sil")
+
 /////////////////////////// -- Magazines
 /////////////// -- cod2019_m4_mag_9mm
 ATT = {}
@@ -3905,3 +3958,35 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_asval_stock_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "VLK Strelok"
+ATT.CompactName = "VLK Strelok"
+ATT.Description = [[Precision Marksman stock provides exceptional accuracy and recoil dampening at the cost of agility.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_stocksn.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_stocksn.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_asval_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.18
+	ATT.DeployTimeMult = 1.16
+	ATT.RecoilUpMult = 0.83
+	ATT.RecoilSideMult = 0.83
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 1.18
+	ATT.DeployTimeMult = 1.16
+	ATT.RecoilUpMult = 0.83
+	ATT.RecoilSideMult = 0.83
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_asval_stock_sniper")

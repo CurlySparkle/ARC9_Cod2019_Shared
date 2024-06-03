@@ -516,9 +516,9 @@ L["cod2019_m4a1_barrel_sniper.printname"] = "тюнинговый снайпер
 L["cod2019_m4a1_barrel_sniper.compactname"] = "\"Корвус\""
 L["cod2019_m4a1_barrel_sniper.description"] = "модификация ствола М16А4 (19 дюймов) приводит к повышению начальной скорости пули и, как следствие, дальности эффективного поражения. Дополнительный вес стабилизирует оружие, но ограничивает подвижность бойца."
 
-L["cod2019_m4a1_barrel_05.printname"] = "FSS \"Хищник\" 12,4 дюйма"
-L["cod2019_m4a1_barrel_05.compactname"] = "\"Хищник\""
-L["cod2019_m4a1_barrel_05.description"] = "Легкий алюминиевый <color=255,255,100>интегрированный глушитель</color> подавляет звук выстрела и почти не влияет на эргономичность, но ограничивает начальную скорость пули."
+L["cod2019_m4a1_barrel_sil.printname"] = "FSS \"Хищник\" 12,4 дюйма"
+L["cod2019_m4a1_barrel_sil.compactname"] = "\"Хищник\""
+L["cod2019_m4a1_barrel_sil.description"] = "Легкий алюминиевый <color=255,255,100>интегрированный глушитель</color> подавляет звук выстрела и почти не влияет на эргономичность, но ограничивает начальную скорость пули."
 
 /////////////// Stock
 L["cod2019_m4_stock_m16.printname"] = "Приклад М-16"
@@ -882,9 +882,9 @@ L["cod2019_asval_stock_medium.description"] = "Приклад производс
 L["cod2019_asval_stock_vlight.printname"] = "Stovl 6П30 \"Скелет\""
 L["cod2019_asval_stock_vlight.compactname"] = "Скелет"
 
-L["cod2019_asval_stock_vheavy.printname"] = "VLK \"Стрелок\""
-L["cod2019_asval_stock_vheavy.compactname"] = "Стрелок"
-L["cod2019_asval_stock_vheavy.description"] = "Качественный снайперский приклад, обеспечивающий исключительную точность и снижение отдачи, но снижающий подвижность."
+L["cod2019_asval_stock_sniper.printname"] = "VLK \"Стрелок\""
+L["cod2019_asval_stock_sniper.compactname"] = "Стрелок"
+L["cod2019_asval_stock_sniper.description"] = "Качественный снайперский приклад, обеспечивающий исключительную точность и снижение отдачи, но снижающий подвижность."
 
 /////////////// Magazine
 L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
