@@ -1286,13 +1286,13 @@ L["cod2019_cx9_griptape_03.description"] = "Slitsad, syntetiskt grepp är effekt
 //////////////////////// Shotguns
 //////////////////// Model 680
 /////////////// Barrels
-L["cod2019_model680_barrel_01.printname"] = "XRK 457 mm Liberator"
-L["cod2019_model680_barrel_01.compactname"] = "Liberator"
-L["cod2019_model680_barrel_01.description"] = "Designad att sänka indirekta skador och behålla rörligheten, denna avsmalnande pipa sänker skottens spridning och öker lätt räckvidden med endast en mindre ökning på vikten."
+L["cod2019_model680_barrel_sawn.printname"] = "XRK 457 mm Liberator"
+L["cod2019_model680_barrel_sawn.compactname"] = "Liberator"
+L["cod2019_model680_barrel_sawn.description"] = "Designad att sänka indirekta skador och behålla rörligheten, denna avsmalnande pipa sänker skottens spridning och öker lätt räckvidden med endast en mindre ökning på vikten."
 
-L["cod2019_model680_barrel_02.printname"] = "XRK 356 mm SWAT"
-L["cod2019_model680_barrel_02.compactname"] = "SWAT"
-L["cod2019_model680_barrel_02.description"] = "Designad för korta och snabba räder, denna kompakta pipan har ett rör med låg vikt som hållar <color=255,100,100>5 patroner</color>. Offrar räckvidd och ammunitionskapacitet för hastighet och rörlighet."
+L["cod2019_model680_barrel_short.printname"] = "XRK 356 mm SWAT"
+L["cod2019_model680_barrel_short.compactname"] = "SWAT"
+L["cod2019_model680_barrel_short.description"] = "Designad för korta och snabba räder, denna kompakta pipan har ett rör med låg vikt som hållar <color=255,100,100>5 patroner</color>. Offrar räckvidd och ammunitionskapacitet för hastighet och rörlighet."
 
 L["cod2019_model680_barrel_mid.printname"] = "XRK 762 mm Sport"
 L["cod2019_model680_barrel_mid.compactname"] = "Sport"

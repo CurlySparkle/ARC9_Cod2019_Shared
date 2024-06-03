@@ -34,7 +34,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -61,7 +61,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake02.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -88,7 +88,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake03.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -127,7 +127,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee01.mdl"
 
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -153,7 +153,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee02.mdl"
 
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -193,7 +193,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 ATT.NoFlash = true
 
@@ -221,7 +221,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider02.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 ATT.NoFlash = true
 
@@ -249,7 +249,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider03.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 ATT.NoFlash = true
 
@@ -277,7 +277,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider04.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 ATT.NoFlash = true
 
@@ -306,7 +306,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake_shgn01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -337,7 +337,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_sh_romeo870_choke.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -376,7 +376,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_compensator_shgn01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_slug"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -407,7 +407,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlemelee_shgn01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -436,7 +436,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_shtgn01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 ATT.NoFlash = true
 
@@ -465,7 +465,7 @@ ATT.ActivateElements = {"muzzle","muzzle_comp"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_compensator_pstl01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_pistol"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -496,7 +496,7 @@ ATT.ActivateElements = {"muzzle","muzzle_comp"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_muzzlebrake_pstl01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_pistol"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -527,7 +527,7 @@ ATT.ActivateElements = {"muzzle","muzzle_comp"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/attachment_vm_flashhider_psl01.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 ATT.NoFlash = true
 
@@ -559,7 +559,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_muzzlebrake.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -590,7 +590,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_choke.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -630,7 +630,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_comp.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_M3"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -660,7 +660,7 @@ ATT.ActivateElements = {"muzzle"}
 
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_muzzlemelee.mdl"
 
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
@@ -689,7 +689,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_flashhider.mdl"
 
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
-ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice_Priority = 10
 ATT.MuzzleDevice = true
 ATT.NoFlash = true
 

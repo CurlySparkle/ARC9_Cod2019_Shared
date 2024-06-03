@@ -6,6 +6,7 @@ ENT.PrintName = "Explosive Bolt"
 ENT.ImpactDamage = 25
 ENT.Radius = 256
 ENT.CanPickup = false
+ENT.ImpactScorch = true
 
 ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/w_eq_crossbow_bolt_expl.mdl"
 
@@ -38,25 +39,12 @@ function ENT:Detonate()
 
     local fx = EffectData()
     fx:SetOrigin(self:GetPos())
-
     if self:WaterLevel() > 0 then
         util.Effect("WaterSurfaceExplosion", fx)
     else
 		ParticleEffect("grenade_final", self:GetPos(), Angle(-90, 0, 0))
     end
-
     self:EmitSound("Cod2019.Frag.Explode")
 	util.ScreenShake(self:GetPos(), 25, 4, 0.75, self.Radius * 4)
-    self:FireBullets({
-        Attacker = attacker,
-        Damage = 0,
-        Tracer = 0,
-        Distance = 20000,
-        Dir = self:GetVelocity(),
-        Src = self:GetPos(),
-        Callback = function(att, tr, dmg)
-            util.Decal("Scorch", tr.StartPos, tr.HitPos - (tr.HitNormal * 16), self)
-        end
-    })
     self:Remove()
 end

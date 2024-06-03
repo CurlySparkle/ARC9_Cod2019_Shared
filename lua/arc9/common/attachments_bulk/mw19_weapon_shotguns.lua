@@ -402,8 +402,8 @@ ATT.ClipSizeAdd = 2
 if !warzonestats then -- Regular Stats
 	ATT.SpreadMult = 0.9
 	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.2
 	ATT.RangeMaxMult = 1.1
-	ATT.RangeMinMult = 1.1
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.072
 	ATT.RecoilMult = 0.85
@@ -417,6 +417,92 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_mid")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK 18.0\" Liberator"
+ATT.CompactName = "XRK 18.0\""
+ATT.Description = [[Designed to reduce collateral damage and maintain mobility, this tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_barrel_long.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_barrel_sawn.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_model680_barrel"}
+ATT.ActivateElements = {"barrel_none","front_sight_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.SpreadMult = 1.2
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.9
+else -- Warzone Stats
+	ATT.SpreadMult = 1.2
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.9
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-2.8, 0, 0),
+            Ang = Angle(0,0,0),
+        },
+        [3] = { -- Laser
+            Pos = Vector(-2.1, -1.34, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_sawn")
+-------------------------------------------------------------------------------
+-- ATT = {}
+
+-- ATT.PrintName = "XRK 14.0\" SWAT"
+-- ATT.CompactName = "XRK 14.0\""
+-- ATT.Description = [[Designed for short, fast paced raids this compact barrel sports a low weight 5 round tube. Sacrifices range and ammo capacity for speed and agility.]]
+-- ATT.SortOrder = 1
+
+-- ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_heatguard.png", "mips smooth")
+-- ATT.AutoStats = true
+-- ATT.Free = false
+
+-- ATT.Model = "models/weapons/cod2019/attachs/weapons/model680/attachment_vm_sh_romeo870_heatguard_mp.mdl"
+-- ATT.BoneMerge = false
+
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+-- ATT.Category = {"cod2019_model680_barrel"}
+-- ATT.ActivateElements = {"barrel_none","front_sight_none"}
+
+-- if !warzonestats then -- Regular Stats
+	-- ATT.SpreadMult = 1.2
+	-- ATT.AimDownSightsTimeMult = 0.92
+	-- ATT.DeployTimeMult = 0.9
+-- else -- Warzone Stats
+	-- ATT.SpreadMult = 1.2
+	-- ATT.AimDownSightsTimeMult = 0.92
+	-- ATT.DeployTimeMult = 0.9
+-- end
+
+-- ATT.Element = {
+    -- AttPosMods = {
+        -- [1] = { -- Muzzle
+            -- Pos = Vector(-3, 0, 0),
+            -- Ang = Angle(0,0,0),
+        -- },
+        -- [3] = { -- Laser
+            -- Pos = Vector(-2.1, -1.34, 0),
+            -- Ang = Angle(0,0,0),
+        -- }
+    -- }
+-- }
+
+-- ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_short")
 -------------------------------------------------------------------------------
 ATT = {}
 

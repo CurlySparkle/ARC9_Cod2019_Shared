@@ -19,7 +19,7 @@ ATT.Category = "cod2019_pkm_barrel"
 ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
-ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice_Priority = 3
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -75,7 +75,7 @@ ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none"}
 ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
-ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice_Priority = 3
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
@@ -130,7 +130,7 @@ ATT.Category = "cod2019_pkm_barrel"
 ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_extra_none"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
-ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice_Priority = 3
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
