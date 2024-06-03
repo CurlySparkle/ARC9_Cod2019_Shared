@@ -797,7 +797,7 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/origin12/attachm
 ATT.BoneMerge = true
 --ATT.ModelOffset = Vector(1, 0, 1)
 
-ATT.ClipSizeAdd = 4
+ATT.ClipSize = 12
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.1
@@ -886,7 +886,7 @@ ATT.DrawFunc = function(wep, model, wm)
     end
 end
 
-ATT.ClipSizeAdd = 17
+ATT.ClipSize = 25
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.2
@@ -1436,10 +1436,11 @@ ATT.BulletBones = {
     [8] = "j_shell08",
 }
 
-ATT.ClipSizeAdd = 4
+ATT.ClipSize = 12
 
 if !warzonestats then -- Regular Stats
- -- INSERT STATS
+	ATT.AimDownSightsTimeMult = 1.14
+	ATT.DeployTimeMult = 1.14
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.004
 	ATT.SpeedMult = 0.98

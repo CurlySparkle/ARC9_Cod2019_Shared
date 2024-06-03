@@ -1848,7 +1848,6 @@ ATT.MovingPos = Vector(-1, -0.8, -1)
 ATT.MovingAng = Angle(0, 0, -10)
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_alt_view")
-----------------------------------------------------
 
 /////////////////////////// -- Fennec Vector
 ATT = {}
@@ -1940,6 +1939,45 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vector_barrel_long")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "ZLR 18\" Deadfall"
+ATT.CompactName = "Deadfall"
+ATT.Description = [[Monolithic integral suppressor keeps the weapon silent and increases range for longer distance stealth assaults.]]
+
+ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_barsil.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vector/attachment_vm_sm_victor_barsil.mdl"
+ATT.BoneMerge = false
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_vector_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none","barrel_sil"}
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.08
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.RangeMaxMult = 1.14
+	ATT.SpreadMult = 0.75
+else -- Warzone Stats
+	ATT.DeployTimeMult = 1.08
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.RangeMaxMult = 1.14
+	ATT.SpreadMult = 0.75
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_vector_barrel_sil")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

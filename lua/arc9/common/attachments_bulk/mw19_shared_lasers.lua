@@ -21,6 +21,8 @@ local stats1mw = { -- Shared stats for 1mW Laser
 	gmod = {
 		SpreadMultMove = 0.94,
 		SpreadMult = 0.80,
+		DeployTimeMult = 1.1,
+		AimDownSightsTimeMult = 1.1,
 		NoPeekCrosshair = true,
 	},
 	wz = {
@@ -35,6 +37,8 @@ local stats5mw = { -- Shared stats for 5mW Laser
 		SprintToFireTimeAdd = -0.05,
 		SpreadMultMove = 0.94,
 		SpreadMult = 0.85,
+		DeployTimeMult = 1.04,
+		AimDownSightsTimeMult = 1.04,
 		NoPeekCrosshair = true,
 	},
 	wz = {
