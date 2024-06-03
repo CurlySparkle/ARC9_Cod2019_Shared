@@ -216,7 +216,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_x
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags.mdl"
 ATT.BoneMerge = true
 
-ATT.ClipSizeOverride = 5
+ATT.ClipSizeOverride = 15
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.05
@@ -244,7 +244,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_x
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_xmags2.mdl"
 ATT.BoneMerge = true
 
-ATT.ClipSizeOverride = 10
+ATT.ClipSizeOverride = 20
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.1
