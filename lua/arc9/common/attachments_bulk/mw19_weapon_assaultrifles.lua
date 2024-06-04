@@ -2978,6 +2978,9 @@ ATT.Element = {
         [3] = { -- Laser
             Pos = Vector(0, -0.45, -0.05),
         },
+        [6] = { -- Grips
+            Pos = Vector(0, 0, 0),
+        },
     }
 }
 
@@ -3040,6 +3043,9 @@ ATT.Element = {
         [3] = { -- Laser
             Pos = Vector(-0.1, -0.45, -0.05),
         },
+        [6] = { -- Grips
+            Pos = Vector(-1, 0, 0),
+        },
     }
 }
 
@@ -3101,6 +3107,9 @@ ATT.Element = {
         },
         [3] = { -- Laser
             Pos = Vector(-1.5, -0.45, -0.05),
+        },
+        [6] = { -- Grips
+            Pos = Vector(-1.5, 0, 0),
         },
     }
 }

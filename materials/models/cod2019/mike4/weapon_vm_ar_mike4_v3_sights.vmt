@@ -2,7 +2,7 @@
 {
     "$basetexture" "models/cod2019/mike4/weapon_vm_ar_mike4_v3_sights"
     "$bumpmap" "models/cod2019/mike4/weapon_vm_ar_mike4_v3_sights_n"
-    "$phongexponenttexture" "models/cod2019/mike4/weapon_vm_ar_mike4_v3_sights_exp"
+    "$phongexponenttexture" "models/cod2019/mike4/weapon_vm_ar_mike4_v3_sights_e"
 
     "$color2" "[0.8 0.8 0.8]"
     "$blendtintbybasealpha" "1"
