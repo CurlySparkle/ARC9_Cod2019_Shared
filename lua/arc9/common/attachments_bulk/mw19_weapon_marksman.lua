@@ -1261,14 +1261,13 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_optic_spr208","cod2019_scope_snipers"}
 ATT.ActivateElements = {"scope_spr208"}
 
-ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_spr208.mdl"
-ATT.Scale = 1
+ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_scope.mdl"
+ATT.BoneMerge = true
 ATT.ModelOffset = Vector(-1.5, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Sights = {
     {
-        Pos = Vector(0.015, 8, -1.277),
+        Pos = Vector(0.015, 9, -1.27),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 36,
         Magnification = 1.15,
