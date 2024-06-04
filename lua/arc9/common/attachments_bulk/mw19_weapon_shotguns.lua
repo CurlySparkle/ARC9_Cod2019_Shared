@@ -441,9 +441,11 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.92
 	ATT.DeployTimeMult = 0.9
 else -- Warzone Stats
-	ATT.SpreadMult = 1.2
-	ATT.AimDownSightsTimeMult = 0.92
-	ATT.DeployTimeMult = 0.9
+	ATT.AimDownSightsTimeAdd = -0.03
+	ATT.SpreadAddSights = -0.0024
+	ATT.SpreadAddMove = -0.0024
+	ATT.RangeMinMult = 1.08
+	ATT.RangeMaxMult = 1.08
 end
 
 ATT.Element = {
@@ -479,14 +481,22 @@ ARC9.LoadAttachment(ATT, "cod2019_model680_barrel_sawn")
 -- ATT.Category = {"cod2019_model680_barrel"}
 -- ATT.ActivateElements = {"barrel_none","front_sight_none"}
 
+-- ATT.ClipSizeAdd = -3
+
 -- if !warzonestats then -- Regular Stats
 	-- ATT.SpreadMult = 1.2
 	-- ATT.AimDownSightsTimeMult = 0.92
 	-- ATT.DeployTimeMult = 0.9
 -- else -- Warzone Stats
-	-- ATT.SpreadMult = 1.2
-	-- ATT.AimDownSightsTimeMult = 0.92
-	-- ATT.DeployTimeMult = 0.9
+	-- ATT.AimDownSightsTimeAdd = -0.053
+	-- ATT.RecoilMult = 1.15
+	-- ATT.VisualRecoilMult = 1.15
+	-- ATT.SpreadAddSights = 0.0075
+	-- ATT.SpreadAddMove = 0.0075
+	-- ATT.RangeMinMult = 0.82
+	-- ATT.RangeMaxMult = 0.82
+	-- ATT.SpeedMult = 1.02
+	-- ATT.SpeedSightsMult = 1.08
 -- end
 
 -- ATT.Element = {

@@ -1051,11 +1051,12 @@ if !warzonestats then -- Regular Stats
 	ATT.SpreadMultRecoil = 0.85
 	ATT.RecoilKickMult = 1.05
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 1.05
-	ATT.RangeMaxMult = 1.04
-	ATT.SpreadMult = 0.95
-	ATT.SpreadMultRecoil = 0.85
-	ATT.RecoilKickMult = 1.05
+	ATT.PhysBulletMuzzleVelocityAdd = -153 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.016
+	ATT.RecoilMult = 0.88
+	ATT.VisualRecoilMult = 0.88
+	ATT.RangeMinMult = 0.75
+	ATT.RangeMaxMult = 0.75
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_barrel_sil")
@@ -3983,10 +3984,10 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilUpMult = 0.83
 	ATT.RecoilSideMult = 0.83
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 1.18
-	ATT.DeployTimeMult = 1.16
-	ATT.RecoilUpMult = 0.83
-	ATT.RecoilSideMult = 0.83
+	ATT.AimDownSightsTimeAdd = 0.001
+	ATT.RecoilMult = 0.82
+	ATT.VisualRecoilMult = 0.79
+	ATT.SpeedSightsMult = 0.84
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_asval_stock_sniper")
