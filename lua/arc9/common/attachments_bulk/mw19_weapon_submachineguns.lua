@@ -1685,7 +1685,7 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSizeAdd = 20
+ATT.ClipSizeAdd = 15
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.1
@@ -1721,7 +1721,7 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSizeAdd = 20
+ATT.ClipSizeAdd = 15
 
 ATT.ReloadTimeMult = 1.1
 ATT.DeployTimeMult = 1.05
