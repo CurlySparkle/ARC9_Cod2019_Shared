@@ -1052,6 +1052,106 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_stock_v2")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FSS Integral Reflex"
+ATT.CompactName = [[Integral Reflex]]
+ATT.Description = [[Custom integrated reflex optic with a clean sight picture that puts the focus on the target.]]
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_reflex.png", "mips smooth")
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "4.0x"
+}
+
+ATT.SortOrder = 4
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_optic"}
+ATT.ActivateElements = {"sights_none","optic","optic_scope"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_reflex.mdl"
+ATT.BoneMerge = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 5, -0.85),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 36,
+        Magnification = 1.15,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeFOV = 36 / 2.2
+ATT.RTScopeRes = 512
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 5.5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.08
+	ATT.RecoilMult = 0.99
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.027
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_scope_reflex")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Solozero K498 4.0x Integral"
+ATT.CompactName = [[4.0x Integral]]
+ATT.Description = [[Advanced optic with 4.0x magnification provides excellent target acquisition.]]
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_4x.png", "mips smooth")
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "4.0x"
+}
+
+ATT.SortOrder = 4
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_optic"}
+ATT.ActivateElements = {"sights_none","optic","optic_scope"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_4x.mdl"
+ATT.BoneMerge = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 6.5, -1.04),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 36,
+        Magnification = 1.15,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeFOV = 36 / 2.8
+ATT.RTScopeRes = 1024
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/aug_crosshair")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 6.5
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.08
+	ATT.RecoilMult = 0.99
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.027
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_scope_x4")
 
 /////////////////////////// --  Bruen Mk9
 ATT = {}
