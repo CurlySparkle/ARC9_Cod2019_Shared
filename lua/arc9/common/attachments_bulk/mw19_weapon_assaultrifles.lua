@@ -3903,7 +3903,7 @@ ARC9.LoadAttachment(ATT, "cod2019_asval_barrel_short")
 ATT = {}
 
 ATT.PrintName = "30-Round Mags"
-ATT.CompactName = "30R"
+ATT.CompactName = "30-R"
 ATT.Description = [[30-round mags for the AS VAL.]]
 ATT.SortOrder = 1
 
@@ -3940,6 +3940,49 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_asval_mag_30")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "SPP 10-R Mags"
+ATT.CompactName = "SPP 10-R"
+ATT.Description = [[10 rounds of 9×39mm SPP armor-piercing ammunition designed for increased penetration, improved accuracy, and superior damage. Weapon defaults to semi-auto.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_smags.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_smags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_smags.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_asval_mag"}
+ATT.ActivateElements = {"mag_none","mag_smag"}
+
+ATT.BulletBones = {
+    [1] = "j_bullet1",
+    [2] = "j_bullet2",
+    [3] = "j_bullet3",
+}
+
+ATT.ClipSizeAdd = -10
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.93
+	ATT.DeployTimeMult = 0.88
+	ATT.DamageMaxMult = 1.33
+	ATT.DamageMinMult = 1.33
+	ATT.RangeMaxMult = 1.25
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 0.93
+	ATT.DeployTimeMult = 0.88
+	ATT.DamageMaxMult = 1.33
+	ATT.DamageMinMult = 1.33
+	ATT.RangeMaxMult = 1.25
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_asval_mag_10")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

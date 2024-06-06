@@ -1336,12 +1336,10 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.12
-	ATT.SprintToFireTimeMult = 1.12
+	ATT.AimDownSightsTimeMult = 1.07
 	ATT.DeployTimeMult = 1.12
 	ATT.RangeMaxMult = 1.1
-	ATT.RangeMinMult = 1.1
-	ATT.PhysBulletMuzzleVelocityMult = 1.1
+	ATT.PhysBulletMuzzleVelocityMult = 1.07
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 218 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.048
@@ -1394,10 +1392,8 @@ end
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.85
-	ATT.SprintToFireTimeMult = 0.85
 	ATT.DeployTimeMult = 0.83
 	ATT.RangeMaxMult = 0.5
-	ATT.RangeMinMult = 0.5
 	ATT.PhysBulletMuzzleVelocityMult = 0.5
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -174 / ARC9.HUToM
@@ -1439,9 +1435,8 @@ ATT.BulletBones = {
 ATT.ClipSizeAdd = 5
 	
 if !warzonestats then -- Regular Stats
-	--ATT.ReloadTimeMult = 1.15
 	ATT.AimDownSightsTimeMult = 1.1
-	ATT.SprintToFireTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.005
 	ATT.SpeedMult = 0.98
@@ -1485,9 +1480,8 @@ ATT.Attachments = {
 }
 
 -- ATT.ClipSizeAdd = 5
-
-ATT.AimDownSightsTimeMult = 1.1
-ATT.SprintToFireTimeMult = 1.1
+ATT.AimDownSightsTimeMult = 1.07
+ATT.DeployTimeMult = 1.07
 
 ARC9.LoadAttachment(ATT, "cod2019_spr208_mag_xmag_alt")
 ---------------------------------------------------------------------------------------

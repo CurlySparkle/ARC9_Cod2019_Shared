@@ -1701,6 +1701,49 @@ ARC9.LoadAttachment(ATT, "cod2019_striker45_mag_xmag")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = ".45 Hollow Point 12-R Mags"
+ATT.CompactName = "12-Round"
+ATT.Description = [[Gun mod for lightweight single stack 12 round magazines. Comes equipped with a 2-round burst fire mode and .45 ACP Hollow Point ammunition to ensure every shot counts.]]
+ATT.Icon = Material("entities/attachs/sm/striker45/cod2019_sm_striker45_smags.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_striker45_mag"}
+ATT.ActivateElements = {"mag_none","mag_smag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_smags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_smags.mdl"
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
+}
+
+ATT.ClipSize = 12
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.87
+	ATT.DamageMaxMult = 1.25
+	ATT.DamageMinMult = 1.25
+	ATT.RecoilKickMult = 1.35
+	ATT.RPMAdd = -0.19
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.87
+	ATT.DamageMaxMult = 1.25
+	ATT.DamageMinMult = 1.25
+	ATT.RecoilKickMult = 1.35
+	ATT.RPMAdd = -0.19
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_striker45_mag_smag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round 9mm Mag"
 ATT.CompactName = "45-Round-9mm"
 ATT.Description = [[Extended magazines hold 45 rounds of 9mm conversion with higher RPM but with a slight weight increase and less damage.]]
