@@ -26,6 +26,8 @@ ATT.DrawFunc = function(swep, model, wm)
     model:SetPoseParameter("gripstyle", swep.CodStubbyTallGripPoseParam or 0)
 end
 
+ATT.HoldType = "smg1"
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.15
 	ATT.DeployTimeAdd = 0.2
@@ -66,6 +68,8 @@ ATT.LHIK_Priority = 10
 ATT.DrawFunc = function(swep, model, wm)
     model:SetPoseParameter("gripstyle", swep.CodStubbyTallGripPoseParam or 0)
 end
+
+ATT.HoldType = "smg1"
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.07
@@ -109,6 +113,8 @@ ATT.LHIK_Priority = 10
 ATT.DrawFunc = function(swep, model, wm)
     model:SetPoseParameter("gripstyle", swep.CodStubbyTallGripPoseParam or 0)
 end
+
+ATT.HoldType = "smg1"
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.021
@@ -239,6 +245,8 @@ ATT.DrawFunc = function(swep, model, wm)
     model:SetPoseParameter("gripstyle", swep.CodStubbyGripPoseParam or 0)
 end
 
+ATT.HoldType = "smg1"
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.15
 	ATT.VisualRecoilMult = 0.94
@@ -282,6 +290,8 @@ ATT.LHIK_Priority = 10
 ATT.DrawFunc = function(swep, model, wm)
     model:SetPoseParameter("gripstyle", swep.CodStubbyGripPoseParam or 0)
 end
+
+ATT.HoldType = "smg1"
 
 if !warzonestats then -- Regular Stats
 	ATT.RecoilSideMult = 0.85
@@ -329,6 +339,8 @@ ATT.DrawFunc = function(self, model, wm)
     model:SetPoseParameter("gripstyle", self.CodStubbyTallGripPoseParam or 0)
 end
 
+ATT.HoldType = "smg1"
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.019
 	ATT.VisualRecoilMult = 0.8
@@ -356,7 +368,7 @@ ATT.Icon = Material("entities/attachs/cod2019_attach_grip_bipod_alt.png", "mips 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
-ATT.ActivateElements = {"grip"}
+ATT.ActivateElements = {"grip","grip_bipod"}
 ATT.SortOrder = 10
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/attachment_vm_bipod.mdl"
