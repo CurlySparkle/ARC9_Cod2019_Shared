@@ -470,11 +470,11 @@ ATT.ActivateElements = {"barrel_none","muzzle_none","foregrip_none"}
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
--- ATT.DrawFunc = function(swep, model, wm)
-    -- if swep:GetElements()["muzzle"] then
-        -- model:SetBodygroup(1,1)
-    -- end
--- end
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic"] then
+        model:SetBodygroup(1,1)
+    end
+end
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.95
