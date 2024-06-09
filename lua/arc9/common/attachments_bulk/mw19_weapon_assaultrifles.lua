@@ -2393,6 +2393,10 @@ ATT.BoneMerge = false
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
+ATT.Bipod = true
+ATT.BipodPos = Vector(-1.5, -4, 0.7)
+ATT.BipodAng = Angle(0, 0, 0)
+
 ATT.Element = {
     AttPosMods = {
         [1] = { Pos = Vector(6.3, 0, 0) }, -- Muzzle
@@ -2420,9 +2424,14 @@ ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
     end
-    if swep:GetElements()["grip"] then
+    if swep:GetElements()["grip"] or swep:GetElements()["grip_angled"] then
         model:SetBodygroup(0,1)
     end
+	if swep:GetBipod() then
+		model:SetBodygroup(3,1)
+	else 
+		model:SetBodygroup(3,0)
+	end
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_lmg")
@@ -2446,9 +2455,19 @@ ATT.BoneMerge = false
 
 ATT.LHIK_Priority = 10
 ATT.LHIK = true
-
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
+ATT.Bipod = true
+ATT.BipodPos = Vector(-1.5, -4, 0.7)
+ATT.BipodAng = Angle(0, 0, 0)
+
+ATT.DrawFunc = function(self, model, wm)
+	if self:GetBipod() then
+		model:SetBodygroup(1,1)
+	else 
+		model:SetBodygroup(1,0)
+	end
+end
 
 ATT.Element = {
     AttPosMods = {
@@ -3776,6 +3795,124 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_an94_mag_60")
+--------------------------------------------------------------------------------------- AK-47 Support
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "5.45x39mm 45-Round Mag"
+ATT.CompactName = "45R 5.45"
+ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_xmags.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_ak47_mag"}
+ATT.ActivateElements = {"mag_none","mag_545"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
+}
+
+ATT.ShootSound = "Cod2019.ak47.smgcal.fire"
+ATT.ShootSoundIndoor = "Cod2019.ak47.smgcal.fire"
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_AR.Outside"
+ATT.AtmosSound = "Distant_AR3.Outside"
+-- Non-Silenced Inside
+ATT.LayerSoundIndoor = "Layer_AR.Inside"
+ATT.AtmosSoundIndoor = "Distant_AR.Inside"
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
+}
+
+ATT.ClipSizeAdd = 15
+ATT.ShellScale = 0.06
+
+if !warzonestats then -- Regular Stats
+	ATT.RPM = 690
+	ATT.DamageMaxMult = 0.85
+	ATT.DamageMinMult = 0.85
+	ATT.RangeMaxMult = 0.8
+	ATT.ReloadTimeMult = 1.05
+	ATT.ReloadTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.05
+	ATT.AimDownSightsTimeMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.004
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_mag_45")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "5.45x39mm 60 Round Casket Mag"
+ATT.CompactName = "60R 5.45"
+ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_xmagslrg.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_ak47_mag"}
+ATT.ActivateElements = {"mag_none","mag_545"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmagslrg.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmagslrg.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_metal_concrete_03.ogg",
+}
+
+ATT.ShootSound = "Cod2019.ak47.smgcal.fire"
+ATT.ShootSoundIndoor = "Cod2019.ak47.smgcal.fire"
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_AR.Outside"
+ATT.AtmosSound = "Distant_AR3.Outside"
+-- Non-Silenced Inside
+ATT.LayerSoundIndoor = "Layer_AR.Inside"
+ATT.AtmosSoundIndoor = "Distant_AR.Inside"
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
+}
+
+ATT.ClipSizeAdd = 30
+ATT.ShellScale = 0.06
+
+if !warzonestats then -- Regular Stats
+	ATT.RPM = 690
+	ATT.DamageMaxMult = 0.85
+	ATT.DamageMinMult = 0.85
+	ATT.RangeMaxMult = 0.8
+	ATT.ReloadTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.1
+else -- Warzone Stats
+	ATT.CustomCons = {
+		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-10%"
+	}
+	ATT.AimDownSightsTimeAdd = 0.014
+	ATT.SpeedMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_mag_60_ak47")
 
 //////////////////////////////////////////////// -- AS VAL
 ATT = {}

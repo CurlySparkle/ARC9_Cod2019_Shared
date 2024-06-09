@@ -437,7 +437,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK SA87 Heavy Stock Pro"
 ATT.CompactName = "Heavy Stock Pro"
 ATT.Description = [[Heavy weight stock attachment provides stability while aiming.]]
-
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stock_tactical.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stock_tactical.mdl"
@@ -466,7 +465,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FORGE TAC CQB Comb"
 ATT.CompactName = "FTAC CQB Comb"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
-
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stocks.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stocks.mdl"
@@ -492,7 +490,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "SA87 Ultralight Hollow"
 ATT.CompactName = "Ultralight"
 ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
-
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stockl.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stockl.mdl"
@@ -511,6 +508,52 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_sa86_stock_light")
+/////////////////////////// -- cod2019_grips_bipod
+ATT = {}
+
+ATT.PrintName = "Bipod"
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_bipod.png", "mips smooth")
+ATT.Description = "Stability legs to improve control while using the weapon from the ground."
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Category = "cod2019_sa86_bipod"
+ATT.ActivateElements = {"grip_bipod"}
+ATT.SortOrder = 5
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_bipod.mdl"
+ATT.BoneMerge = true
+
+ATT.Bipod = true
+ATT.BipodPos = Vector(-1.5, -4, 0.7)
+ATT.BipodAng = Angle(0, 0, 0)
+
+ATT.DrawFunc = function(self, model, wm)
+	if self:GetBipod() then
+		model:SetBodygroup(0,1)
+	else 
+		model:SetBodygroup(0,0)
+	end
+end
+
+ATT.HoldType = "shotgun"
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.019
+	ATT.VisualRecoilMult = 0.8
+	ATT.RecoilMult = 0.8
+	ATT.SpeedMult = 0.96
+	ATT.SpeedSightsMult = 0.84
+	ATT.SpreadBipod = -0.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.019
+	ATT.VisualRecoilMult = 0.8
+	ATT.RecoilMult = 0.8
+	ATT.SpeedMult = 0.96
+	ATT.SpeedSightsMult = 0.84
+	ATT.SpreadBipod = -0.05
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_sa86_bipod")
 
 /////////////////////////// -- M91
 ATT = {}
