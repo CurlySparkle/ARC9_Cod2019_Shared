@@ -2682,6 +2682,69 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_smg")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "5.45x39mm 80 Round Casket Drum"
+ATT.CompactName = "80R 5.45"
+ATT.Description = [[High capacity drum that holds 80 rounds with a heavy weight increase.]]
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_drums.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_ak47_mag"}
+ATT.ActivateElements = {"mag_none","mag_drum_mw22"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/rkilo_410g_mag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/rkilo_410g_mag.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_04.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_05.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_06.ogg",
+}
+
+ATT.ShootSound = "Cod2019.ak47.smgcal.fire"
+ATT.ShootSoundIndoor = "Cod2019.ak47.smgcal.fire"
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_AR.Outside"
+ATT.AtmosSound = "Distant_AR3.Outside"
+-- Non-Silenced Inside
+ATT.LayerSoundIndoor = "Layer_AR.Inside"
+ATT.AtmosSoundIndoor = "Distant_AR.Inside"
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_ammo1"},
+    [2] = {"j_bullet2","j_ammo2"},
+	[3] = {"j_bullet3","j_ammo3"},
+	[4] = {"j_bullet4","j_ammo4"},
+}
+
+ATT.ClipSizeAdd = 50
+ATT.ShellScale = 0.06
+
+if !warzonestats then -- Regular Stats
+	ATT.RPM = 690
+	ATT.DamageMaxMult = 0.85
+	ATT.DamageMinMult = 0.85
+	ATT.RangeMaxMult = 0.8
+	ATT.ReloadTimeMult = 1.13
+	ATT.DeployTimeMult = 1.13
+	ATT.AimDownSightsTimeMult = 1.13
+else -- Warzone Stats
+	ATT.CustomCons = {
+		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-15%"
+	}
+	ATT.AimDownSightsTimeAdd = 0.014
+	ATT.SpeedMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_smg_drum")
 
 /////////////// -- cod2019_akilo47_mag_drum
 ATT = {}
@@ -2713,6 +2776,15 @@ else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.037
 	ATT.SpeedMult = 0.91
 end
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_04.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_05.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_06.ogg",
+}
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_drum")
 
