@@ -3864,7 +3864,7 @@ ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_xmagslrg.png", "
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_ak47_mag"}
-ATT.ActivateElements = {"mag_none","mag_545"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmagslrg.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_xmagslrg.mdl"
