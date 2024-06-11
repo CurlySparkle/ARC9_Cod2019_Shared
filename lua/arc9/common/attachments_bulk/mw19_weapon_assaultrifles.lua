@@ -2744,6 +2744,30 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.97
 end
 
+local bulletbones = {
+    [3] = "j_b_011",
+    [2] = "j_b_012",
+    [1] = "j_b_013"
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 3 - clip + 1
+
+    for i = 1, 3 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
+
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_smg_drum")
 
 /////////////// -- cod2019_akilo47_mag_drum
