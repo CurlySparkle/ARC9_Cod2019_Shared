@@ -436,6 +436,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_barrel"}
 ATT.ActivateElements = {"barrel_none","front_sight_none"}
 
+ATT.ClipSizeAdd = -2
+
 if !warzonestats then -- Regular Stats
 	ATT.SpreadMult = 1.2
 	ATT.AimDownSightsTimeMult = 0.92
