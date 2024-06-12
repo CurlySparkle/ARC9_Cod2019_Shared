@@ -2847,27 +2847,22 @@ ATT.SoundSilencedIndoor = "Distant_Shotgun2.Outside"
 ATT.ShellScale = 0.07
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_origin12.mdl"
-ATT.ShellSounds = ARC9.ShotgunShellSoundsTable
+ATT.ShellSounds = ARC9.COD2019_Shotgun_Table
 ATT.ShellScale = 1.2
 
-ATT.ClipSizeAdd = -18
-
-ATT.SpreadMult = 2.3
-ATT.SpreadAddSights = 0.075
-ATT.SpreadMultRecoil = 1.1
-
-ATT.VisualRecoilPunchMult = 2
-ATT.VisualRecoilUp = 2
-
 ATT.RPM = 300
-
-ATT.RecoilMult = 2
-ATT.RecoilkickMult = 2
-
-ATT.DamageMaxMult = 0.9
-ATT.DamageMinMult = 0.9
-
-ATT.RangeMaxMult = 0.8
+ATT.ClipSizeAdd = -18
+ATT.AimDownSightsTimeMult = 1.25
+ATT.DeployTimeMult = 1.13
+ATT.RangeMaxMult = 0.5
+ATT.RangeMinMult = 0.5
+ATT.RecoilMult = 1.25
+ATT.Penetration = 0
+ATT.Num = 6
+ATT.RicochetChance = 0
+ATT.SpreadMult = 2.25
+ATT.SpreadSights = 0.15
+ATT.DistributeDamage = true
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_origin12")
 
