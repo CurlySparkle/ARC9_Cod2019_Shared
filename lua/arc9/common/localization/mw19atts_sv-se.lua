@@ -890,9 +890,9 @@ L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
 
-L["cod2019_asval_mag_spp.printname"] = "SPP 10-Patronersmagasin"
-L["cod2019_asval_mag_spp.compactname"] = "SPP 10-P"
-L["cod2019_asval_mag_spp.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>9x39 mm SPP</color> pansarbrytande ammunition designad för ökad penetration, förbättrad träffsäkerhet, och överlägsen skada. Vapnet ändras till <color=100,255,100>halvautomat</color>."
+L["cod2019_asval_mag_10.printname"] = "SPP 10-Patronersmagasin"
+L["cod2019_asval_mag_10.compactname"] = "SPP 10-P"
+L["cod2019_asval_mag_10.description"] = "<color=255,100,100>10 patroner</color> av <color=255,255,100>9x39 mm SPP</color> pansarbrytande ammunition designad för ökad penetration, förbättrad träffsäkerhet, och överlägsen skada. Vapnet ändras till <color=100,255,100>halvautomat</color>."
 
 //////////////////////// Submachine Guns
 //////////////////// AUG
@@ -1127,9 +1127,9 @@ L["cod2019_striker45_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_striker45_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
 L["cod2019_striker45_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["45acp"])
 
-L["cod2019_striker45_mag_hp.printname"] = ".45 Hålspets 12-Patronersm."
-L["cod2019_striker45_mag_hp.compactname"] = "12P .45 HS"
-L["cod2019_striker45_mag_hp.description"] = "Vapenmodifikation för lätta, enkelstaplade <color=255,100,100>12-patroners</color>magasin. Kommer utrustad med en <color=100,255,100>2-skottsalvo</color> skjutläge och <color=255,255,100>.45 ACP Hålspets</color> ammunition för att försäkra att varje skott räknas."
+L["cod2019_striker45_mag_smag.printname"] = ".45 Hålspets 12-Patronersm."
+L["cod2019_striker45_mag_smag.compactname"] = "12P .45 HS"
+L["cod2019_striker45_mag_smag.description"] = "Vapenmodifikation för lätta, enkelstaplade <color=255,100,100>12-patroners</color>magasin. Kommer utrustad med en <color=100,255,100>2-skottsalvo</color> skjutläge och <color=255,255,100>.45 ACP Hålspets</color> ammunition för att försäkra att varje skott räknas."
 
 L["cod2019_striker45_mag_xmag_9mm.printname"] = "45-Patroners 9x19 mm Magasin"
 L["cod2019_striker45_mag_xmag_9mm.compactname"] = "45P 9x19 mm"
@@ -1176,7 +1176,7 @@ L["cod2019_vector_mag_drum.printname"] = string.format(mw19magtext.drum, "40")
 L["cod2019_vector_mag_drum.compactname"] = string.format(mw19magtext.mags, "40")
 L["cod2019_vector_mag_drum.description"] = string.format(mw19magtext.descdrum, "40", mw19ammotype["45acp"])
 
--- L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname") or ".45 Hollow Point 12-R Mags"
+-- L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.printname") or ".45 Hollow Point 12-R Mags"
 
 //////////////////// ISO
 /////////////// Barrels
@@ -1264,7 +1264,7 @@ L["cod2019_cx9_mag_xmag.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_cx9_mag_xmag.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_cx9_mag_xmag.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
--- L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname") or ".45 Hollow Point 12-R Mags"
+-- L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.printname") or ".45 Hollow Point 12-R Mags"
 
 L["cod2019_cx9_mag_drum.printname"] = string.format(mw19magtext.drum, "50")
 L["cod2019_cx9_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")

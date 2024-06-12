@@ -202,6 +202,10 @@ L["cod2019_akilo47_mag_origin12.printname"] = "12-Gauge 12 Round Mags"
 L["cod2019_akilo47_mag_origin12.compactname"] = "12R 12G"
 L["cod2019_akilo47_mag_origin12.description"] = "Conversion kit to use <color=255,255,100>12 gauge</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements."
 
+L["cod2019_akilo47_smg_drum.printname"] = "5.45x39mm 80 Round Casket Drum"
+L["cod2019_akilo47_smg_drum.compactname"] = "80R 5.45"
+L["cod2019_akilo47_smg_drum.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["545"])
+
 //////////////////// RAM-7
 /////////////// Magazine
 L["cod2019_ram7_mag_drum_9mm.printname"] = "9mm 60 Round Mags"
@@ -217,6 +221,16 @@ L["cod2019_cr56_mag_fal.description"] = "30 rounds of <color=255,255,100>7.62 So
 L["cod2019_cr56_mag_grau552.printname"] = "5.56 NATO 30R"
 L["cod2019_cr56_mag_grau552.compactname"] = "5.56 30-R"
 L["cod2019_cr56_mag_grau552.description"] = "Conversion kit to use <color=255,255,100>5.56 NATO</color> ammunition. Cycles at a much higher rate with less recoil."
+
+//////////////////// AN-94
+/////////////// Magazine
+L["cod2019_an94_mag_45_ak47.printname"] = "5.45x39mm 45 Round Mags"
+L["cod2019_an94_mag_45_ak47.compactname"] = string.format(mw19magtext.mags, "45")
+L["cod2019_an94_mag_45_ak47.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["545"])
+
+L["cod2019_an94_mag_60_ak47.printname"] = "5.45x39mm 60 Round Casket Mags"
+L["cod2019_an94_mag_60_ak47.compactname"] = string.format(mw19magtext.mags, "60")
+L["cod2019_an94_mag_60_ak47.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["545"])
 
 //////////////////////// Submachine Guns
 //////////////////// P90

@@ -1685,7 +1685,7 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSizeAdd = 15
+ATT.ClipSizeAdd = 20
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.1
@@ -1721,7 +1721,19 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSize = 12
+ATT.ClipSizeAdd = -13
+ATT.RunawayBurst = true
+
+ATT.Firemodes = {
+	{
+		Mode = 2,
+		PoseParam = 0,
+	},
+	{
+		Mode = 1,
+		PoseParam = 1,
+	},
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.9
@@ -1730,13 +1742,28 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMinMult = 1.25
 	ATT.RecoilKickMult = 1.35
 	ATT.RPMAdd = -0.19
+	ATT.PostBurstDelay = 0.1
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.DeployTimeMult = 0.87
-	ATT.DamageMaxMult = 1.25
-	ATT.DamageMinMult = 1.25
-	ATT.RecoilKickMult = 1.35
-	ATT.RPMAdd = -0.19
+	ATT.PhysBulletMuzzleVelocityAdd = -49 / ARC9.HUToM
+	ATT.PostBurstDelayAdd = 0.06
+	ATT.AimDownSightsTimeAdd = -0.02
+	ATT.SpeedMult = 1.03
+	ATT.SpeedMultSights = 1.13
+	ATT.DamageMaxAdd = 14
+	ATT.DamageMinAdd = 12
+
+	ATT.RangeMinAdd = -8 / ARC9.HUToM
+	ATT.RangeMaxAdd = -4 / ARC9.HUToM
+
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1.6,
+		[HITGROUP_CHEST] = 1.04,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 0.895,
+		[HITGROUP_RIGHTARM] = 0.895,
+		[HITGROUP_LEFTLEG] = 0.895,
+		[HITGROUP_RIGHTLEG] = 0.895,
+	}
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_mag_smag")
@@ -1764,7 +1791,7 @@ ATT.BulletBones = {
 	[4] = {"j_bullet4","j_ammo4"},
 }
 
-ATT.ClipSizeAdd = 15
+ATT.ClipSizeAdd = 20
 
 ATT.ReloadTimeMult = 1.1
 ATT.DeployTimeMult = 1.05

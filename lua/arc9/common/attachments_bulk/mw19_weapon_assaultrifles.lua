@@ -3943,7 +3943,7 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.98
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_an94_mag_45")
+ARC9.LoadAttachment(ATT, "cod2019_an94_mag_45_ak47")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -4203,11 +4203,25 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMinMult = 1.33
 	ATT.RangeMaxMult = 1.25
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 0.93
-	ATT.DeployTimeMult = 0.88
-	ATT.DamageMaxMult = 1.33
-	ATT.DamageMinMult = 1.33
-	ATT.RangeMaxMult = 1.25
+	ATT.RPMAdd = -360
+	ATT.AimDownSightsTimeAdd = -0.023
+	ATT.SpeedMult = 1.03
+	ATT.SpeedMultSights = 1.13
+	ATT.DamageMaxAdd = 25
+	ATT.DamageMinAdd = 26
+
+	ATT.RangeMinAdd = -4 / ARC9.HUToM
+	ATT.RangeMaxAdd = 16 / ARC9.HUToM
+
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1.925,
+		[HITGROUP_CHEST] = 1.1,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 0.925,
+		[HITGROUP_RIGHTARM] = 0.925,
+		[HITGROUP_LEFTLEG] = 0.925,
+		[HITGROUP_RIGHTLEG] = 0.925,
+	}
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_asval_mag_10")

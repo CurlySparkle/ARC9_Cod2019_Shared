@@ -885,9 +885,9 @@ L["cod2019_asval_mag_30.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_asval_mag_30.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_asval_mag_30.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["939"])
 
-L["cod2019_asval_mag_spp.printname"] = "SPP 10-R Mags"
-L["cod2019_asval_mag_spp.compactname"] = "SPP 10-R"
-L["cod2019_asval_mag_spp.description"] = "<color=255,100,100>10 rounds</color> of <color=255,255,100>9x39mm SPP</color> armor-piercing ammunition designed for increased penetration, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
+L["cod2019_asval_mag_10.printname"] = "SPP 10-R Mags"
+L["cod2019_asval_mag_10.compactname"] = "SPP 10-R"
+L["cod2019_asval_mag_10.description"] = "<color=255,100,100>10 rounds</color> of <color=255,255,100>9x39mm SPP</color> armor-piercing ammunition designed for increased penetration, improved accuracy, and superior damage. Weapon defaults to <color=100,255,100>semi-auto</color>."
 
 //////////////////////// Submachine Guns
 //////////////////// AUG
@@ -1122,9 +1122,9 @@ L["cod2019_striker45_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_striker45_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
 L["cod2019_striker45_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["45acp"])
 
-L["cod2019_striker45_mag_hp.printname"] = ".45 Hollow Point 12-R Mags"
-L["cod2019_striker45_mag_hp.compactname"] = "12R .45 HP"
-L["cod2019_striker45_mag_hp.description"] = "Gun mod for lightweight single stack <color=255,100,100>12 round</color> magazines. Comes equipped with a <color=100,255,100>2-round burst</color> fire mode and <color=255,255,100>.45 ACP Hollow Point</color> ammunition to ensure every shot counts."
+L["cod2019_striker45_mag_smag.printname"] = ".45 Hollow Point 12-R Mags"
+L["cod2019_striker45_mag_smag.compactname"] = "12R .45 HP"
+L["cod2019_striker45_mag_smag.description"] = "Gun mod for lightweight single stack <color=255,100,100>12 round</color> magazines. Comes equipped with a <color=100,255,100>2-round burst</color> fire mode and <color=255,255,100>.45 ACP Hollow Point</color> ammunition to ensure every shot counts."
 
 L["cod2019_striker45_mag_xmag_9mm.printname"] = "45 Round 9x19mm Mags"
 L["cod2019_striker45_mag_xmag_9mm.compactname"] = "45R 9x19mm"
@@ -1171,7 +1171,7 @@ L["cod2019_vector_mag_drum.printname"] = string.format(mw19magtext.drum, "40")
 L["cod2019_vector_mag_drum.compactname"] = string.format(mw19magtext.mags, "40")
 L["cod2019_vector_mag_drum.description"] = string.format(mw19magtext.descdrum, "40", mw19ammotype["45acp"])
 
--- L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname") or ".45 Hollow Point 12-R Mags"
+-- L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.printname") or ".45 Hollow Point 12-R Mags"
 
 //////////////////// ISO
 /////////////// Barrels
@@ -1259,7 +1259,7 @@ L["cod2019_cx9_mag_xmag.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_cx9_mag_xmag.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_cx9_mag_xmag.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
--- L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_hp.printname") or ".45 Hollow Point 12-R Mags"
+-- L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.printname") or ".45 Hollow Point 12-R Mags"
 
 L["cod2019_cx9_mag_drum.printname"] = string.format(mw19magtext.drum, "50")
 L["cod2019_cx9_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")

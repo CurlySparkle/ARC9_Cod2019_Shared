@@ -187,6 +187,10 @@ L["cod2019_akilo47_mag_origin12.printname"] = "Kaliber 12 12-Patronersmagasin"
 L["cod2019_akilo47_mag_origin12.compactname"] = "K12 12P"
 L["cod2019_akilo47_mag_origin12.description"] = "Konverteringskit för att använda <color=255,255,100>Kaliber 12</color> ammunition. Kortare räckvidd, snabbare eldhastighet och mindre rekyl för att dominera strider på nära distanser."
 
+L["cod2019_akilo47_smg_drum.printname"] = "5,45 x 39 mm 80-Patroners Skrinmagasin"
+L["cod2019_akilo47_smg_drum.compactname"] = "5,45 80P"
+L["cod2019_akilo47_smg_drum.description"] = string.format(mw19magtext.descdrum, "80", mw19ammotype["545"])
+
 //////////////////// RAM-7
 /////////////// Magazine
 L["cod2019_ram7_mag_drum_9mm.printname"] = "9 mm 60-Patronersmagasin"
@@ -202,6 +206,16 @@ L["cod2019_cr56_mag_fal.description"] = "30 patroner av <color=255,255,100>7,62 
 L["cod2019_cr56_mag_grau552.printname"] = "5,56 NATO 30P"
 L["cod2019_cr56_mag_grau552.compactname"] = "5,56 30-P"
 L["cod2019_cr56_mag_grau552.description"] = "Konverteringskit för att använda <color=255,255,100>5,56 NATO</color> ammunition. Skjuter med en högre hastighet med mindre rekyl."
+
+//////////////////// AN-94
+/////////////// Magazine
+L["cod2019_an94_mag_45_ak47.printname"] = "5,45 x 39 mm 45-Patronersmagasin"
+L["cod2019_an94_mag_45_ak47.compactname"] = string.format(mw19magtext.mags, "45")
+L["cod2019_an94_mag_45_ak47.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["545"])
+
+L["cod2019_an94_mag_60_ak47.printname"] = "5,45 x 39 mm 60-Patroners Skrinmagasin"
+L["cod2019_an94_mag_60_ak47.compactname"] = string.format(mw19magtext.mags, "60")
+L["cod2019_an94_mag_60_ak47.description"] = string.format(mw19magtext.descl, "60", mw19ammotype["545"])
 
 //////////////////////// Submachine Guns
 //////////////////// P90
