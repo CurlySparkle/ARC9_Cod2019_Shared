@@ -432,9 +432,9 @@ xbowbolt = "\n" .. "Changes ammo type to <color=255,255,100>Crossbow Bolts</colo
 //////////////////////// Assault Rifles
 //////////////////// Kilo 141
 /////////////// Barrels
-L["cod2019_kilo_141_barrel_medium.printname"] = "Singuard Arms 16.6\" SOCOM"
-L["cod2019_kilo_141_barrel_medium.compactname"] = "SOCOM"
-L["cod2019_kilo_141_barrel_medium.description"] = "Titanium-cobalt alloy barrel with guard extension improves muzzle velocity and range. Moderate weight increase stabilizes shots but slows handling."
+L["cod2019_kilo141_barrel_short.printname"] = "Singuard Arms 16.6\" SOCOM"
+L["cod2019_kilo141_barrel_short.compactname"] = "SOCOM"
+L["cod2019_kilo141_barrel_short.description"] = "Titanium-cobalt alloy barrel with guard extension improves muzzle velocity and range. Moderate weight increase stabilizes shots but slows handling."
 
 L["cod2019_kilo141_barrel_long.printname"] = "Singuard Arms 19.8\" Prowler"
 L["cod2019_kilo141_barrel_long.compactname"] = "Prowler"

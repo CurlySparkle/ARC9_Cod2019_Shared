@@ -293,6 +293,54 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_barrel_long")
 
+/////////////// -- cod2019_kilo141_barrel_short
+ATT = {}
+
+ATT.PrintName = "Singuard Arms 16.6\" SOCOM"
+ATT.CompactName = "SOCOM"
+ATT.Description = "Titanium-cobalt alloy barrel with guard extension improves muzzle velocity and range. Moderate weight increase stabilizes shots but slows handling."
+ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_barshort.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 2
+ATT.Category = "cod2019_kilo141_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_barshort.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(1.3, 0, 0),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.05
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.SpreadMult = 0.92
+	ATT.RangeMaxMult = 1.05
+else -- Warzone Stats
+	ATT.DeployTimeMult = 1.05
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.SpreadMult = 0.92
+	ATT.RangeMaxMult = 1.05
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_kilo141_barrel_short")
+
 /////////////// -- cod2019_kilo141_barrel_supp
 ATT = {}
 

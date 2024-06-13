@@ -437,9 +437,9 @@ xbowbolt = "\n" .. "Byter patrontyp till <color=255,255,100>Armborst Bultar</col
 //////////////////////// Assault Rifles
 //////////////////// Kilo 141
 /////////////// Barrels
-L["cod2019_kilo_141_barrel_medium.printname"] = "Singuard Arms 422 mm SOCOM"
-L["cod2019_kilo_141_barrel_medium.compactname"] = "SOCOM"
-L["cod2019_kilo_141_barrel_medium.description"] = "Titan-koboltlegerad pipa med förlängt skydd erbjuder mynningshastighet och räckvidd. Måttligt ökad vikt stabiliserar skott men sänker hantering."
+L["cod2019_kilo141_barrel_short.printname"] = "Singuard Arms 422 mm SOCOM"
+L["cod2019_kilo141_barrel_short.compactname"] = "SOCOM"
+L["cod2019_kilo141_barrel_short.description"] = "Titan-koboltlegerad pipa med förlängt skydd erbjuder mynningshastighet och räckvidd. Måttligt ökad vikt stabiliserar skott men sänker hantering."
 
 L["cod2019_kilo141_barrel_long.printname"] = "Singuard Arms 510 mm Prowler"
 L["cod2019_kilo141_barrel_long.compactname"] = "Prowler"
