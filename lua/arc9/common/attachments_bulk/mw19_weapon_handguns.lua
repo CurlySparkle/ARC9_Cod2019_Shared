@@ -1564,6 +1564,21 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_slide"}
 ATT.ActivateElements = {"slide_none"}
 
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_Pistol.Outside"
+ATT.DistantShootSound = "Distant_SMG.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_Pistol.Inside"
+ATT.DistantShootSoundIndoor = "Distant_SMG.Inside"
+---------------------------------------------------
+-- Silenced Outside
+ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
+ATT.DistantShootSoundSilenced = "Distant_SMG_Sup.Outside"
+-- Inside
+ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
+ATT.DistantShootSoundSilencedIndoor = "Distant_Pistol_Sup.Inside"
+---------------------------------------------------
+
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
@@ -1626,6 +1641,21 @@ ATT.MuzzleDevice_Priority = 3
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_x16_slide"}
 ATT.ActivateElements = {"slide_none"}
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_Pistol.Outside"
+ATT.DistantShootSound = "Distant_SMG.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_Pistol.Inside"
+ATT.DistantShootSoundIndoor = "Distant_SMG.Inside"
+---------------------------------------------------
+-- Silenced Outside
+ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
+ATT.DistantShootSoundSilenced = "Distant_SMG_Sup.Outside"
+-- Inside
+ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
+ATT.DistantShootSoundSilencedIndoor = "Distant_Pistol_Sup.Inside"
+---------------------------------------------------
 
 if !warzonestats then -- Regular Stats
 	ATT.FiremodesOverride = {

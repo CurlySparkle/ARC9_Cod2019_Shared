@@ -248,6 +248,7 @@ ATT.Description = ""
 ATT.Icon = Material("entities/attachs/ar/kilo141/cod2019_ar_kilo141_long_barrel.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
+ATT.InstallSound = "weapons/prowler.ogg"
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_kilo141_barrel"
@@ -274,11 +275,10 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 1.15
-	ATT.AimDownSightsTimeMult = 1.15
-	ATT.RecoilMult = 0.9
-	ATT.RangeMaxMult = 1.15
-	ATT.RangeMinMult = 1.15
+	ATT.DeployTimeMult = 1.08
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.RecoilMult = 0.97
+	ATT.RangeMaxMult = 1.06
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 485 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.06
@@ -315,11 +315,10 @@ ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 0.95
 	ATT.AimDownSightsTimeMult = 0.95
-	ATT.RecoilMult = 1.1
-	ATT.RangeMaxMult = 0.95
-	ATT.RangeMinMult = 0.95
+	ATT.DeployTimeMult = 0.95
+	ATT.RecoilMult = 1.05
+	ATT.RangeMaxMult = 0.93
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 170 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.03
