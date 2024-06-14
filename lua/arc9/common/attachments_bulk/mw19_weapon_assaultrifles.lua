@@ -1169,6 +1169,7 @@ ATT.DrawFunc = function(wep, model, wm)
 end
 
 ATT.ClipSizeAdd = 2
+ATT.Ammo = "smg1"
 
 if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 0.8

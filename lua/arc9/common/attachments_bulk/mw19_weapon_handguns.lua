@@ -285,14 +285,15 @@ ATT.CustomCrosshairSize = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
-	ATT.SprintToFireTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
 	ATT.RangeMaxMult = 0.5
 	ATT.RangeMinMult = 0.5
-	ATT.Penetration = 1
+	ATT.RecoilMult = 1.15
+	ATT.Penetration = 0
 	ATT.Num = 6
 	ATT.RicochetChance = 0
-	ATT.SpreadMult = 1
-	ATT.SpreadSights = 0.06
+	ATT.SpreadMult = 1.75
+	ATT.SpreadSights = 0.07
 	ATT.DistributeDamage = true
 else -- Warzone Stats
 	-- ATT.PhysBulletMuzzleVelocityAdd = "∞" -- How do one do unlimited velocity?
@@ -341,14 +342,15 @@ ATT.CustomCrosshairSize = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
-	ATT.SprintToFireTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
 	ATT.RangeMaxMult = 0.5
 	ATT.RangeMinMult = 0.5
-	ATT.Penetration = 1
+	ATT.RecoilMult = 1.15
+	ATT.Penetration = 0
 	ATT.Num = 6
 	ATT.RicochetChance = 0
-	ATT.SpreadMult = 1
-	ATT.SpreadSights = 0.06
+	ATT.SpreadMult = 1.75
+	ATT.SpreadSights = 0.07
 	ATT.DistributeDamage = true
 else -- Warzone Stats
 	-- ATT.PhysBulletMuzzleVelocityAdd = "∞" -- How do one do unlimited velocity?
