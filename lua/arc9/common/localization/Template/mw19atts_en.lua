@@ -905,9 +905,9 @@ L["cod2019_aug_barrel_02.printname"] = "407mm Lightweight"
 L["cod2019_aug_barrel_02.compactname"] = "Lightweight"
 L["cod2019_aug_barrel_02.description"] = "Dimpled aluminum alloy barrel extension extends range and muzzle velocity with minimal additional weight."
 
-L["cod2019_aug_barrel_03.printname"] = "622mm Long Barrel"
-L["cod2019_aug_barrel_03.compactname"] = "Long"
-L["cod2019_aug_barrel_03.description"] = "Maximum barrel extension pushes this weapon's range to the extreme. Heavy weight, smooth handling."
+L["cod2019_aug_barrel_lmg.printname"] = "622mm Long Barrel"
+L["cod2019_aug_barrel_lmg.compactname"] = "Long"
+L["cod2019_aug_barrel_lmg.description"] = "Maximum barrel extension pushes this weapon's range to the extreme. Heavy weight, smooth handling."
 
 /////////////// Stock
 L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"

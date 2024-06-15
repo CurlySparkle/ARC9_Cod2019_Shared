@@ -910,9 +910,9 @@ L["cod2019_aug_barrel_02.printname"] = "407 mm Lättvikt"
 L["cod2019_aug_barrel_02.compactname"] = "Lättvikt"
 L["cod2019_aug_barrel_02.description"] = "Fördjupad förlängd pipa av aluminiumlegering förlänger räckvidd och mynningshastigheten med minimal tillagd vikt."
 
-L["cod2019_aug_barrel_03.printname"] = "622 mm Lång Pipa"
-L["cod2019_aug_barrel_03.compactname"] = "Lång"
-L["cod2019_aug_barrel_03.description"] = "Maximal förlängd pipa trycker detta vapnets räckvidd till det extrema. Tung vikt, slät hantering."
+L["cod2019_aug_barrel_lmg.printname"] = "622 mm Lång Pipa"
+L["cod2019_aug_barrel_lmg.compactname"] = "Lång"
+L["cod2019_aug_barrel_lmg.description"] = "Maximal förlängd pipa trycker detta vapnets räckvidd till det extrema. Tung vikt, slät hantering."
 
 /////////////// Stock
 L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"

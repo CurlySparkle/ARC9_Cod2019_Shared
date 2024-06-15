@@ -664,6 +664,66 @@ ARC9.LoadAttachment(ATT, "cod2019_aug_mag_ar_drum")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "622mm Long Barrel"
+ATT.CompactName = "622mm HBAR"
+ATT.Description = [[Maximum barrel extension pushes this weapon's range to the extreme. Heavy weight, smooth handling.]]
+ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_lmgbarrel.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_lmgbarrel.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_aug_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = false -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.Bipod = true
+ATT.BipodPos = Vector(-1.5, -4, 0.7)
+ATT.BipodAng = Angle(0, 0, 0)
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+	if swep:GetBipod() then
+		model:SetBodygroup(2,1)
+	else 
+		model:SetBodygroup(2,0)
+	end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(10.8, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
+	ATT.RangeMaxMult = 1.14
+	ATT.SpreadMult = 0.9
+	ATT.VisualRecoilMult = 0.87
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 263 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.046
+	ATT.RecoilMult = 0.93
+	ATT.VisualRecoilMult = 0.93
+	ATT.SpreadAddMove = 0.007875
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_lmg")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "407mm Extended Barrel"
 ATT.CompactName = "407mm EB"
 ATT.Description = [[Stainless steel barrel extension increases muzzle velocity and extends range. Additional weights stabilize shots but slows handling.]]
@@ -699,7 +759,7 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.05
 	ATT.RangeMaxMult = 1.1
 	ATT.RecoilMult = 0.9
-	ATT.VisualRecoilMult = 0.9
+	ATT.VisualRecoilMult = 0.91
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 263 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.046
