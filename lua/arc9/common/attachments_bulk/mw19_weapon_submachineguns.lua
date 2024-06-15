@@ -710,13 +710,15 @@ if !warzonestats then -- Regular Stats
 	ATT.SpreadMult = 0.9
 	ATT.VisualRecoilMult = 0.87
 else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = 263 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = 0.046
-	ATT.RecoilMult = 0.93
-	ATT.VisualRecoilMult = 0.93
-	ATT.SpreadAddMove = 0.007875
-	ATT.RangeMinMult = 1.26
-	ATT.RangeMaxMult = 1.26
+	ATT.PhysBulletMuzzleVelocityAdd = 399 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.06
+	ATT.RecoilMult = 0.83
+	ATT.VisualRecoilMult = 0.83
+	ATT.SpreadAddMove = 0.01225
+	ATT.RangeMinMult = 1.4
+	ATT.RangeMaxMult = 1.4
+	ATT.SpeedMult = 0.96
+	ATT.SpeedMultSights = 0.93
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_lmg")

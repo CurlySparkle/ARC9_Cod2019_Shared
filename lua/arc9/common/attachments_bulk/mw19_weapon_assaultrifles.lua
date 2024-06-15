@@ -333,10 +333,13 @@ if !warzonestats then -- Regular Stats
 	ATT.SpreadMult = 0.92
 	ATT.RangeMaxMult = 1.05
 else -- Warzone Stats
-	ATT.DeployTimeMult = 1.05
-	ATT.AimDownSightsTimeMult = 1.05
-	ATT.SpreadMult = 0.92
-	ATT.RangeMaxMult = 1.05
+	ATT.PhysBulletMuzzleVelocityAdd = 319 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.046
+	ATT.RecoilMult = 0.93
+	ATT.VisualRecoilMult = 0.93
+	ATT.SpreadAddMove = 0.0012
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_barrel_short")
