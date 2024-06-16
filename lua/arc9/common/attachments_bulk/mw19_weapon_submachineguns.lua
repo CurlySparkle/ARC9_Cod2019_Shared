@@ -1320,9 +1320,8 @@ if !warzonestats then -- Regular Stats
    ATT.DeployTimeMult = 1.03
    ATT.ReloadTimeMult = 1.05
 else -- Warzone Stats
-   ATT.AimDownSightsTimeMult = 1.07
-   ATT.DeployTimeMult = 1.03
-   ATT.ReloadTimeMult = 1.05
+	ATT.AimDownSightsTimeAdd = 0.003
+	ATT.SpeedMult = 0.98
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_xmag")
@@ -1355,9 +1354,8 @@ if !warzonestats then -- Regular Stats
    ATT.DeployTimeMult = 1.08
    ATT.ReloadTimeMult = 1.1
 else -- Warzone Stats
-   ATT.AimDownSightsTimeMult = 1.1
-   ATT.DeployTimeMult = 1.08
-   ATT.ReloadTimeMult = 1.1
+	ATT.AimDownSightsTimeAdd = 0.005
+	ATT.SpeedMult = 0.97
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_xmag2")
@@ -1460,9 +1458,13 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_uzi_stock"}
 ATT.ActivateElements = {"stock_none","stock_heavy"}
 
-ATT.AimDownSightsTimeMult = 1.18
-ATT.DeployTimeMult = 1.1
-ATT.RecoilKickMult = 0.5
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.18
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilKickMult = 0.5
+else -- Warzone Stats
+	ATT.SpeedMultSights = 0.89
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_uzi_stock_heavy")
 
