@@ -1295,6 +1295,76 @@ ARC9.LoadAttachment(ATT, "cod2019_uzi_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "40-Round Mags"
+ATT.Description = [[]]
+ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_xmags.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_uzi_mag"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = "j_bullet1",
+    [2] = "j_bullet2",
+	[3] = "j_bullet3",
+}
+
+ATT.ClipSize = 40
+
+if !warzonestats then -- Regular Stats
+   ATT.AimDownSightsTimeMult = 1.07
+   ATT.DeployTimeMult = 1.03
+   ATT.ReloadTimeMult = 1.05
+else -- Warzone Stats
+   ATT.AimDownSightsTimeMult = 1.07
+   ATT.DeployTimeMult = 1.03
+   ATT.ReloadTimeMult = 1.05
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "50-Round Mags"
+ATT.Description = [[]]
+ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_xmag2.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_uzi_mag"
+ATT.ActivateElements = {"mag_none","mag_xmag2"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_xmag2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_xmag2.mdl"
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = "j_bullet1",
+    [2] = "j_bullet2",
+	[3] = "j_bullet3",
+}
+
+ATT.ClipSize = 50
+
+if !warzonestats then -- Regular Stats
+   ATT.AimDownSightsTimeMult = 1.1
+   ATT.DeployTimeMult = 1.08
+   ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+   ATT.AimDownSightsTimeMult = 1.1
+   ATT.DeployTimeMult = 1.08
+   ATT.ReloadTimeMult = 1.1
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_xmag2")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = ".41 AE 32-Round Mags"
 ATT.CompactName = ".41 AE 32-Round"
 ATT.Description = [[Conversion kit to use 32-round magazines of higher caliber .41 AE ammunition for increased range and stopping power.]]
@@ -1394,7 +1464,7 @@ ATT.AimDownSightsTimeMult = 1.18
 ATT.DeployTimeMult = 1.1
 ATT.RecoilKickMult = 0.5
 
-ARC9.LoadAttachment(ATT, "cod2019_uzi_stock_wood")
+ARC9.LoadAttachment(ATT, "cod2019_uzi_stock_heavy")
 
 /////////////////////////// -- Bizon
 ATT = {}

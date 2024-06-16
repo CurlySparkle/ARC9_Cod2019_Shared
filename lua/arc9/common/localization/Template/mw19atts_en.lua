@@ -1014,9 +1014,9 @@ L["cod2019_uzi_barrel_short.compactname"] = "Mini"
 L["cod2019_uzi_barrel_long.printname"] = "16.5\" Factory Carbine"
 L["cod2019_uzi_barrel_long.compactname"] = "Carbine"
 
-L["cod2019_uzi_barrel_04.printname"] = "FSS Carbine Pro"
-L["cod2019_uzi_barrel_04.compactname"] = "Carbine Pro"
-L["cod2019_uzi_barrel_04.description"] = "Heavy duty stainless steel polygonal rifled barrel greatly increases muzzle velocity and extends range to the max. Additional weight stabilizes shots, but affects mobility."
+L["cod2019_uzi_barrel_custom.printname"] = "FSS Carbine Pro"
+L["cod2019_uzi_barrel_custom.compactname"] = "Carbine Pro"
+L["cod2019_uzi_barrel_custom.description"] = "Heavy duty stainless steel polygonal rifled barrel greatly increases muzzle velocity and extends range to the max. Additional weight stabilizes shots, but affects mobility."
 
 /////////////// Stock
 -- L["cod2019_uzi_stock_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname") or "FORGE TAC Ultralight"
@@ -1028,13 +1028,13 @@ L["cod2019_uzi_stock_heavy.description"] = "Original solid wood stock provides e
 -- L["cod2019_uzi_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
 
 /////////////// Magazine
-L["cod2019_uzi_mag_40.printname"] = string.format(mw19magtext.mag, "40")
-L["cod2019_uzi_mag_40.compactname"] = string.format(mw19magtext.mags, "40")
-L["cod2019_uzi_mag_40.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["919"])
+L["cod2019_uzi_mag_xmag.printname"] = string.format(mw19magtext.mag, "40")
+L["cod2019_uzi_mag_xmag.compactname"] = string.format(mw19magtext.mags, "40")
+L["cod2019_uzi_mag_xmag.description"] = string.format(mw19magtext.desc, "40", mw19ammotype["919"])
 
-L["cod2019_uzi_mag_50.printname"] = string.format(mw19magtext.mag, "50")
-L["cod2019_uzi_mag_50.compactname"] = string.format(mw19magtext.mags, "50")
-L["cod2019_uzi_mag_50.description"] = string.format(mw19magtext.descl, "50", mw19ammotype["919"])
+L["cod2019_uzi_mag_xmag2.printname"] = string.format(mw19magtext.mag, "50")
+L["cod2019_uzi_mag_xmag2.compactname"] = string.format(mw19magtext.mags, "50")
+L["cod2019_uzi_mag_xmag2.description"] = string.format(mw19magtext.descl, "50", mw19ammotype["919"])
 
 L["cod2019_uzi_mag_cult.printname"] = ".41 AE 32-Round Mags"
 L["cod2019_uzi_mag_cult.compactname"] = "32R .41 AE"
