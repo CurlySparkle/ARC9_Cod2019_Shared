@@ -1211,10 +1211,46 @@ ARC9.LoadAttachment(ATT, "cod2019_uzi_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS Carbine Pro"
+ATT.CompactName = "FSS Carbine"
+ATT.Description = [[Heavy duty stainless steel polygonal rifled barrel greatly increases muzzle velocity and extends range to the max. Additional weight stabilizes shots, but affects mobility.]]
+ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_barrel_v13.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_barcust.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_uzi_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_cust"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 5
+
+if !warzonestats then -- Regular Stats
+	ATT.RangeMaxMult = 1.12
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.06
+	ATT.RecoilKickMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 263 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.023
+	ATT.RecoilMult = 0.89
+	ATT.VisualRecoilMult = 0.89
+	ATT.SpreadAddMove = -0.00675
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.95
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_uzi_barrel_custom")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "8.5 Factory Mini"
 ATT.CompactName = "8.5"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Improves performance in close quarters encounters.]]
-
 ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_barshort.mdl"
@@ -1262,7 +1298,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = ".41 AE 32-Round Mags"
 ATT.CompactName = ".41 AE 32-Round"
 ATT.Description = [[Conversion kit to use 32-round magazines of higher caliber .41 AE ammunition for increased range and stopping power.]]
-
 ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_mag_clip.png", "mips smooth")
 
 ATT.SortOrder = 0
@@ -1311,7 +1346,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "9x19mm 32-Round Mags"
 ATT.CompactName = "9x19mm 32-Round"
 ATT.Description = [[Conversion kit to use 32-round magazines of higher caliber 9x19mm type for increased rate of fire but less stopping power.]]
-
 ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_mag_clip.png", "mips smooth")
 
 ATT.RPM = 960
@@ -1338,6 +1372,29 @@ ATT.BulletBones = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_uzi_mag_cult_9mm")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Standard-Issue Wood Stock"
+ATT.CompactName = "Wood Stock"
+ATT.Description = [[Original solid wood stock provides exceptional stability while aiming.]]
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/sm/uzi/cod2019_sm_uzi_stockh.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_stockh.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_uzi_stock"}
+ATT.ActivateElements = {"stock_none","stock_heavy"}
+
+ATT.AimDownSightsTimeMult = 1.18
+ATT.DeployTimeMult = 1.1
+ATT.RecoilKickMult = 0.5
+
+ARC9.LoadAttachment(ATT, "cod2019_uzi_stock_wood")
 
 /////////////////////////// -- Bizon
 ATT = {}
@@ -1346,7 +1403,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "8.7\" Polygonal"
 ATT.CompactName = "8.7\" Polygonal"
 ATT.Description = [[Slight length increase and polygonal rifling improve muzzle velocity and range with little additional weight.]]
-
 ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_barlong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_barlong.mdl"
