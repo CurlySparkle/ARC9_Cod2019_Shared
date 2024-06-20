@@ -2207,6 +2207,39 @@ ARC9.LoadAttachment(ATT, "cod2019_scar_stock_dmr")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "30-Round 7.62 NATO Mag"
+ATT.CompactName = "30R 7.62"
+ATT.Description = "High capacity magazines hold 30 rounds of 7.62 NATO ammunition with a moderate weight increase."
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_mmags.png", "mips smooth")
+ATT.AutoStats = true
+
+ATT.Free = false
+
+ATT.DropMagazineModel = "models/weapons/cod2019/mags/w_rif_scar_mag.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_scar_mag"}
+ATT.ActivateElements = {"mag","mag_xmag"}
+
+ATT.ClipSizeAdd = 10
+
+ATT.RecoilMult = 1.1
+ATT.ReloadTimeMult = 1.15
+ATT.AimDownSightsTimeMult = 1.1
+
+ATT.BulletBones = {
+	[1] = "j_bullet1",
+	[2] = "j_bullet2",
+	[3] = "j_bullet3",
+}
+
+ARC9.LoadAttachment(ATT, "cod2019_scar_mag_30")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "6.5mm Creedmoor Mag"
 ATT.CompactName = "6.5mm 10-Round"
 ATT.Description = [[]]
