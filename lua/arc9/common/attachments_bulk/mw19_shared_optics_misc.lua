@@ -15,17 +15,25 @@ ATT.Icon = Material("entities/attachs/cod2019_optic_rail_picatinny.png", "mips s
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
-ATT.Category = {"cod2019_optic_sidemount"}
-ATT.ActivateElements = {"optic_sidemount"}
--- ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
+ATT.Category = {"cod2019_optic"}
+--ATT.ActivateElements = {"optic_sidemount"}
+ATT.Folder = ARC9:GetPhrase("mw19_folder_other")
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_picatinny.mdl"
 ATT.ModelOffset = Vector(-1, 0, 0.1)
 
 ATT.Attachments = {
     {
+        PrintName = ARC9:GetPhrase("mw19_category_optic2"),
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+        Category = "cod2019_optic",
+		Scale = 1,
+    },
+    {
         PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0.5, 1.1, 0.13),
+        Pos = Vector(0.2, 1.1, 0.13),
         Ang = Angle(0, 0, 45),
         Icon_Offset = Vector(2, -2, 0.75),
         Category = "cod2019_optics_pistols_scope",
@@ -34,7 +42,8 @@ ATT.Attachments = {
 }
 
 if !warzonestats then -- Regular Stats
-   ATT.AimDownSightsTimeMult = 1.08
+   ATT.AimDownSightsTimeMult = 1.06
+   ATT.DeployTimeMult = 1.02
 else -- Warzone Stats
    ATT.AimDownSightsTimeMult = 1.05
 end
