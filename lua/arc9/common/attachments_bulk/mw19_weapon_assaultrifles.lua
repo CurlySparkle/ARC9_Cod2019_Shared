@@ -3093,7 +3093,7 @@ ATT.CompactName = "60-Round"
 ATT.Description = [[Extended magazines hold 60 rounds of 9mm conversion with a slight weight increase.]]
 
 ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_drummag.png", "mips smooth")
-
+ATT.Ammo = "smg1"
 ATT.ClipSizeAdd = 30
 ATT.ReloadTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.05
