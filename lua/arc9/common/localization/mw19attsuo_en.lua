@@ -306,6 +306,14 @@ L["cod2019_ammo_crossbow_semtex.printname"] = "FTAC Semtex 20\" Bolts"
 L["cod2019_ammo_crossbow_semtex.compactname"] = "Semtex"
 L["cod2019_ammo_crossbow_semtex.description"] = "Carbon bolts with <color=255,255,100>timed explosive tips</color>. Sticky tips deal less damage, but devastate targets on detonation. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems." -- original from "cod2019_ammo_crossbow_expl.description"
 
+L["cod2019_ammo_crossbow_hl2.printname"] = "FTAC Resistance 20\" Bolts"
+L["cod2019_ammo_crossbow_hl2.compactname"] = "Resistance"
+L["cod2019_ammo_crossbow_hl2.description"] = "Bolts that glow <color=255,255,100>incredibly hot</color> Perfect for a certain scientist turned resistance fighter. <color=255,100,100>Bolts can not be recovered</color>."
+
+L["cod2019_ammo_crossbow_mine.printname"] = "FTAC Proximity 20\" Bolts"
+L["cod2019_ammo_crossbow_mine.compactname"] = "Proximity"
+L["cod2019_ammo_crossbow_mine.description"] = "Bolts with <color=255,255,100>Proximity-activated warheads</color> that stick onto surfaces. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"

@@ -291,6 +291,14 @@ L["cod2019_ammo_crossbow_semtex.printname"] = "FTAC 508 mm Semtex-Pilar"
 L["cod2019_ammo_crossbow_semtex.compactname"] = "Semtex"
 L["cod2019_ammo_crossbow_semtex.description"] = "Pilar av kol med <color=255,255,100>tidsinställda sprängladdningar</color>. Klibbig pilspets ger mindre skada, men ödelägger mål när den sprängs. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem." -- original from "cod2019_ammo_crossbow_expl.description"
 
+L["cod2019_ammo_crossbow_hl2.printname"] = "FTAC 508 mm Motståndets Pilar"
+L["cod2019_ammo_crossbow_hl2.compactname"] = "Motstånd"
+L["cod2019_ammo_crossbow_hl2.description"] = "Pilar som glöder <color=255,255,100>otroligt varmt</color> Perfekt för en specifik forskare som blivit motståndsman. <color=255,100,100>Pilar kan inte återhämtas</color>."
+
+L["cod2019_ammo_crossbow_mine.printname"] = "FTAC 508 mm Närhetspilar"
+L["cod2019_ammo_crossbow_mine.compactname"] = "Närhet"
+L["cod2019_ammo_crossbow_mine.description"] = "Pilar med <color=255,255,100>Närhetsaktiverade pilspetsar</color> som fastnar på ytor. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-P Special"
