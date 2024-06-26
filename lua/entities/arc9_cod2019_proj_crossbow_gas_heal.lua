@@ -5,6 +5,7 @@ ENT.PrintName = "Gas Crossbow Bolt"
 
 ENT.ImpactDamage = 0
 ENT.CanPickup = false
+ENT.ExplodeOnImpact = true
 
 PrecacheParticleSystem("AC_nade_gasheal_ejection")
 

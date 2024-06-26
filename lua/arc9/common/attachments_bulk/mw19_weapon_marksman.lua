@@ -906,6 +906,29 @@ ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_expl")
 -----------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "FTAC Semtex 20\" Bolts"
+ATT.CompactName = "Semtex"
+ATT.Description = [[Carbon bolts with timed explosive tips. Sticky tips deal less damage, but devastate targets on detonation. 
+Bolts cannot be recovered.]]
+ATT.SortOrder = 0.5
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_semtexbolt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt.mdl"
+ATT.BoneMerge = true
+
+ATT.ShootEnt = "arc9_cod2019_proj_crossbow_semtex"
+
+ATT.Category = {"cod2019_ammo_crossbow"}
+ATT.ActivateElements = {"bolt_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_semtex")
+-----------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "FTAC Backburn 20\" Bolts"
 ATT.CompactName = "FTAC Backburn"
 ATT.Description = [[Thermite tipped bolts that ignite, stick to metal, and are effective against vehicles. 
@@ -983,8 +1006,8 @@ ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_gasheal")
 ATT = {}
 
 ATT.PrintName = "FTAC Flash 20\" Bolts"
-ATT.CompactName = "FTAC Flash"
-ATT.Description = [[Flash]]
+ATT.CompactName = "Flash"
+ATT.Description = [[Flashing tipped bolts that when on hit, it creates a radius of light blinding anything thats near.]]
 ATT.SortOrder = 0.5
 
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_flashbolt.png", "mips smooth")

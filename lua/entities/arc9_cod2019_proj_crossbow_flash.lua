@@ -7,8 +7,9 @@ ENT.ImpactDamage = 15
 ENT.FlashRadius = 1200
 ENT.CanPickup = false
 ENT.ImpactScorch = true
+ENT.ExplodeOnImpact = true
 
-ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/w_eq_crossbow_bolt_expl.mdl"
+ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt_phys.mdl"
 
 if CLIENT then
     killicon.Add( "arc9_cod2019_proj_crossbow_he", "hud/killicons/default", Color( 255, 255, 255, 255 ) )

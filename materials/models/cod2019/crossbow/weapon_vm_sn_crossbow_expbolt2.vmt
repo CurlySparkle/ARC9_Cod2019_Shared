@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\crossbow\weapon_vm_sn_crossbow_expbolt_rgb"
+    "$basetexture" "models\cod2019\crossbow\weapon_vm_sn_crossbow_expbolt2_rgb"
     "$bumpmap" "models\cod2019\crossbow\weapon_vm_sn_crossbow_expbolt_n"
     "$phongexponenttexture" "models\cod2019\crossbow\weapon_vm_sn_crossbow_expbolt_e"
 

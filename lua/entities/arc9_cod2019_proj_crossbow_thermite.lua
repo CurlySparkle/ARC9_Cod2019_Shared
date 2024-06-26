@@ -5,6 +5,7 @@ ENT.PrintName = "Thermite Crossbow Bolt"
 
 ENT.ImpactDamage = 50
 ENT.CanPickup = false
+ENT.ExplodeOnImpact = true
 
 ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_firebolt_phys.mdl"
 

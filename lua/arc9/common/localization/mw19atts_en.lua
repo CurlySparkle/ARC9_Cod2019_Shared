@@ -2531,7 +2531,7 @@ L["cod2019_crossbow_stock_tact.description"] = "Competition stock from FSS desig
 /////////////// Bolts
 L["cod2019_ammo_crossbow_expl.printname"] = "FTAC Fury 20\" Bolts"
 L["cod2019_ammo_crossbow_expl.compactname"] = "Fury"
-L["cod2019_ammo_crossbow_expl.description"] = "Carbon bolts with <color=255,255,100>timed explosive tips</color>. Sticky tips deal less damage, but devastate targets on detonation. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
+L["cod2019_ammo_crossbow_expl.description"] = "Carbon bolts with <color=255,255,100>explosive tips</color>. Sticky tips deal less damage, but devastate targets on detonation. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
 
 L["cod2019_ammo_crossbow_gas.printname"] = "FTAC Venom 20\" Bolts"
 L["cod2019_ammo_crossbow_gas.compactname"] = "Venom"
