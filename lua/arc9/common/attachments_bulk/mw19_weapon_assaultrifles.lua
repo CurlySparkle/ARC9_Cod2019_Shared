@@ -14,7 +14,7 @@ glcode = {
 	SortOrder = 1,
 	Category = {"cod2019_m203"},
 	ActivateElements = {"grip", "m203"},
-	Folder = ARC9:GetPhrase("mw19_folder_40mm"),
+	-- Folder = ARC9:GetPhrase("mw19_folder_40mm"),
 
 	CustomPros = {
 		[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
@@ -154,6 +154,16 @@ glcode = {
 			model:SetBodygroup(0, 1)
 		end
 	end,
+	
+	Attachments = {
+		{
+			PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+			Category = {"cod2019_ammo_ubgl"},
+			Pos = Vector(-3, 0, 0),
+			Ang = Angle(0, 0, 0),
+		},
+	},
+
 }
 
 /////////////// -- cod2019_attach_m203_he
@@ -161,56 +171,57 @@ ATT = {}
 
 table.Merge(ATT, glcode)
 
-ATT.PrintName = "M203 40MM High-Explosive"
+ATT.PrintName = "M203 40MM"
 ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_smoke.png", "mips smooth")
 
 ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_he.compactname")
 
-ATT.ShootEntUBGL = "arc9_cod2019_proj_40mmgl_hel"
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
 
-ARC9.LoadAttachment(ATT, "cod2019_attach_m203_he")
+-- ARC9.LoadAttachment(ATT, "cod2019_attach_m203_he")
+ARC9.LoadAttachment(ATT, "cod2019_attach_m203")
 
 /////////////// -- cod2019_attach_m203_fb
-ATT = {}
+-- ATT = {}
 
-table.Merge(ATT, glcode)
+-- table.Merge(ATT, glcode)
 
-ATT.PrintName = "M203 40MM Flash"
-ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_flash.png", "mips smooth")
+-- ATT.PrintName = "M203 40MM Flash"
+-- ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_flash.png", "mips smooth")
 
-ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_fb.compactname")
+-- ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_fb.compactname")
 
-ATT.ShootEntUBGL = "arc9_cod2019_proj_40mmgl_flash"
+-- ATT.ShootEntUBGL = "arc9_cod2019_proj_40mmgl_flash"
 
-ARC9.LoadAttachment(ATT, "cod2019_attach_m203_fb")
+-- ARC9.LoadAttachment(ATT, "cod2019_attach_m203_fb")
 
 /////////////// -- cod2019_attach_m203_sg
-ATT = {}
+-- ATT = {}
 
-table.Merge(ATT, glcode)
+-- table.Merge(ATT, glcode)
 
-ATT.PrintName = "M203 40MM Smokescreen"
-ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_smoke.png", "mips smooth")
+-- ATT.PrintName = "M203 40MM Smokescreen"
+-- ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_smoke.png", "mips smooth")
 
-ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_sg.compactname")
+-- ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_sg.compactname")
 
-ATT.ShootEntUBGL = "arc9_cod2019_proj_40mmgl_smoke"
+-- ATT.ShootEntUBGL = "arc9_cod2019_proj_40mmgl_smoke"
 
-ARC9.LoadAttachment(ATT, "cod2019_attach_m203_sg")
+-- ARC9.LoadAttachment(ATT, "cod2019_attach_m203_sg")
 
 /////////////// -- cod2019_attach_m203_fire
-ATT = {}
+-- ATT = {}
 
-table.Merge(ATT, glcode)
+-- table.Merge(ATT, glcode)
 
-ATT.PrintName = "M203 40MM Incendiary"
-ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_fire.png", "mips smooth")
+-- ATT.PrintName = "M203 40MM Incendiary"
+-- ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_fire.png", "mips smooth")
 
-ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_fire.compactname")
+-- ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_fire.compactname")
 
-ATT.ShootEntUBGL = "arc9_cod2019_proj_40mmgl_inc"
+-- ATT.ShootEntUBGL = "arc9_cod2019_proj_40mmgl_inc"
 
-ARC9.LoadAttachment(ATT, "cod2019_attach_m203_fire")
+-- ARC9.LoadAttachment(ATT, "cod2019_attach_m203_fire")
 
 /////////////// -- cod2019_attach_m203_stun
 -- ATT = {}

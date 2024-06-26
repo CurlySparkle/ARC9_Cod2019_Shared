@@ -39,6 +39,11 @@ L["cod2019_optic_hybrid_west02_thermal.description"] = "Lång distans <color=100
 L["cod2019_grips_tactical.printname"] = "Task Force-Framgrepp"
 L["cod2019_grips_tactical.compactname"] = "Task Force"
 
+///////// Weapons
+L["cod2019_attach_m203.printname"] = "M203 40 mm"
+L["cod2019_attach_m203.compactname"] = "M203"
+L["cod2019_attach_m203.description"] = "Undermonterad granattillsats."
+
 //////////////////// Stocks
 L["cod2019_xm4_stock.printname"] = "Colt Typ III"
 L["cod2019_xm4_stock.compactname"] = "Typ III"
@@ -272,12 +277,29 @@ L["cod2019_model680_mag_8.description"] = "Anpassad XRK Eagle's Claw-låda med i
 //////////////////////// Marksman Rifles
 //////////////////// Crossbow
 /////////////// Bolts
+L["cod2019_ammo_crossbow_expl.description"] = "Pilar med <color=255,255,100>explosiv spets</color> som sprängs vid kontakt. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+
 L["cod2019_ammo_crossbow_gasheal.printname"] = "FTAC 508 mm Stim-Pilar"
 L["cod2019_ammo_crossbow_gasheal.compactname"] = "Stim"
 L["cod2019_ammo_crossbow_gasheal.description"] = "Pilar med <color=255,255,100>gaspatroner med högt tryck</color> som sprängs när den kommer i kontakt med något. Släppta gaserna <color=100,255,100>helar</color> användaren och dess lagkamrater. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+
+L["cod2019_ammo_crossbow_flash.printname"] = "FTAC 508 mm Chockpilar"
+L["cod2019_ammo_crossbow_flash.compactname"] = "Chock"
+L["cod2019_ammo_crossbow_flash.description"] = "Pilar med icke-dödliga <color=255,255,100>chockspets</color> som sprängs vid kontakt och bländer fiender som tittar på den. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+
+L["cod2019_ammo_crossbow_semtex.printname"] = "FTAC 508 mm Semtex-Pilar"
+L["cod2019_ammo_crossbow_semtex.compactname"] = "Semtex"
+L["cod2019_ammo_crossbow_semtex.description"] = "Pilar av kol med <color=255,255,100>tidsinställda sprängladdningar</color>. Klibbig pilspets ger mindre skada, men ödelägger mål när den sprängs. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem." -- original from "cod2019_ammo_crossbow_expl.description"
 
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-P Special"
 L["cod2019_spr208_mag_xmag_alt.compactname"] = "5P Special"
 L["cod2019_spr208_mag_xmag_alt.description"] = "5-patronersmagasin som tillåter användningen av <color=255,255,100>special ammunition</color>."
+
+//////////////////////// Launchers
+//////////////////// MGL-32
+/////////////// Ammo
+L["cod2019_ammo_gl_gasheal.printname"] = "40 mm Stim"
+L["cod2019_ammo_gl_gasheal.compactname"] = "Stim"
+L["cod2019_ammo_gl_gasheal.description"] = "Anpassade 40 mm patroner fyllda med <color=100,255,100>tårgasgranater med högt tryck</color> som sprängs vid kontakt. Släppta gaserna <color=100,255,100>helar</color> användaren och dess lagkamrater."

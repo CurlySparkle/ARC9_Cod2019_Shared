@@ -39,6 +39,11 @@ L["cod2019_optic_hybrid_west02_thermal.description"] = "Инфракрасный
 L["cod2019_grips_tactical.printname"] = "Рукоять \"Task Force\""
 L["cod2019_grips_tactical.compactname"] = "Task Force"
 
+///////// Weapons
+L["cod2019_attach_m203.printname"] = "40-мм М203"
+L["cod2019_attach_m203.compactname"] = "M203"
+L["cod2019_attach_m203.description"] = "Подствольный гранатомет."
+
 //////////////////// Stocks
 L["cod2019_xm4_stock.printname"] = "Colt Type III"
 L["cod2019_xm4_stock.compactname"] = "Type III"
@@ -273,12 +278,29 @@ L["cod2019_model680_mag_8.description"] = "Custom XRK Eagle's Claw receiver with
 //////////////////////// Marksman Rifles
 //////////////////// Crossbow
 /////////////// Bolts
+L["cod2019_ammo_crossbow_expl.description"] = "Bolts with <color=255,255,100>explosive tips</color> that detonate on contact. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."
+
 L["cod2019_ammo_crossbow_gasheal.printname"] = "FTAC Stim 20\" Bolts"
 L["cod2019_ammo_crossbow_gasheal.compactname"] = "Stim"
 L["cod2019_ammo_crossbow_gasheal.description"] = "Bolts with <color=255,255,100>high pressure tear gas cartridges</color> that detonate on impact. The released gases <color=100,255,100>heal</color> the user and their teammates. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+
+L["cod2019_ammo_crossbow_flash.printname"] = "FTAC Flash 20\" Bolts"
+L["cod2019_ammo_crossbow_flash.compactname"] = "Flash"
+L["cod2019_ammo_crossbow_flash.description"] = "Bolts with non-lethal <color=255,255,100>concussion warheads</color> that detonate on impact, blinding enemies who look at it. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+
+L["cod2019_ammo_crossbow_semtex.printname"] = "FTAC Semtex 20\" Bolts"
+L["cod2019_ammo_crossbow_semtex.compactname"] = "Semtex"
+L["cod2019_ammo_crossbow_semtex.description"] = "Carbon bolts with <color=255,255,100>timed explosive tips</color>. Sticky tips deal less damage, but devastate targets on detonation. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems." -- original from "cod2019_ammo_crossbow_expl.description"
 
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"
 L["cod2019_spr208_mag_xmag_alt.compactname"] = "5R Special"
 L["cod2019_spr208_mag_xmag_alt.description"] = "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."
+
+//////////////////////// Launchers
+//////////////////// MGL-32
+/////////////// Ammo
+L["cod2019_ammo_gl_gasheal.printname"] = "40mm Stim"
+L["cod2019_ammo_gl_gasheal.compactname"] = "Stim"
+L["cod2019_ammo_gl_gasheal.description"] = "Custom 40mm shells with <color=100,255,100>high pressure tear gas</color> grenades that detonate on impact. The released gases <color=100,255,100>heal</color> the user and their teammates."

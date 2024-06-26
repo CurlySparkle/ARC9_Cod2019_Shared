@@ -1913,7 +1913,7 @@ L["cod2019_crossbow_stock_tact.description"] = "Tävlingskolv från FSS designad
 /////////////// Bolts
 L["cod2019_ammo_crossbow_expl.printname"] = "FTAC 508 mm Fury-Pilar"
 L["cod2019_ammo_crossbow_expl.compactname"] = "Fury"
-L["cod2019_ammo_crossbow_expl.description"] = "Pilar av kol med <color=255,255,100>tidsinställda sprängladdningar</color>. Klibbig pilspets ger mindre skada, men ödelägger mål när den sprängs. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+-- L["cod2019_ammo_crossbow_expl.description"] = "Pilar av kol med <color=255,255,100>tidsinställda sprängladdningar</color>. Klibbig pilspets ger mindre skada, men ödelägger mål när den sprängs. <color=255,100,100>Pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
 L["cod2019_ammo_crossbow_gas.printname"] = "FTAC 508 mm Venom-Pilar"
 L["cod2019_ammo_crossbow_gas.compactname"] = "Venom"
