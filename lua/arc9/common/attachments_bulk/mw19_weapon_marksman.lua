@@ -1033,6 +1033,30 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_flash")
 
+-----------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC X 20\" Bolts"
+ATT.CompactName = "HL2"
+ATT.Description = [[Replaces the bolt with the iconic HL2 Crossbow bolt thats used by the one true freeman...
+(These types of bolts cannot be picked up, cuz they are too hot...)]]
+ATT.SortOrder = 0.5
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_hl2bolt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_hl2bolt.mdl"
+ATT.BoneMerge = true
+
+ATT.ShootEnt = "arc9_cod2019_proj_crossbow_hl2"
+
+ATT.Category = {"cod2019_ammo_crossbow"}
+ATT.ActivateElements = {"bolt_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_hl2")
+
 /////////////////////////// -- SKS
 ATT = {}
 
