@@ -2,18 +2,17 @@ AddCSLuaFile()
 
 ENT.Base = "arc9_cod2019_proj_crossbow_default"
 ENT.PrintName = "Explosive Bolt"
+ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt_phys.mdl"
+
+if CLIENT then
+    killicon.Add( "arc9_cod2019_proj_crossbow_expl", "hud/killicons/default", Color( 255, 255, 255, 255 ) )
+end
 
 ENT.ImpactDamage = 25
 ENT.Radius = 175
 ENT.CanPickup = false
 ENT.ImpactScorch = true
 ENT.ExplodeOnImpact = true
-
-ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt_phys.mdl"
-
-if CLIENT then
-    killicon.Add( "arc9_cod2019_proj_crossbow_he", "hud/killicons/default", Color( 255, 255, 255, 255 ) )
-end
 
 function ENT:Detonate()
     local attacker = self.Attacker or self:GetOwner()

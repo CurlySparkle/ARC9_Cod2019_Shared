@@ -1057,6 +1057,29 @@ ATT.ActivateElements = {"bolt_none"}
 
 ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_hl2")
 
+-----------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC Mine 20\" Bolts"
+ATT.CompactName = "Mine"
+ATT.Description = [[Replaces the bolt tip with a mine designed bolt that when it sticks to any surfaces it will explodes on a radius detection.]]
+ATT.SortOrder = 0.5
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_minebolt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt.mdl"
+ATT.BoneMerge = true
+
+ATT.ShootEnt = "arc9_cod2019_proj_crossbow_mine"
+
+ATT.Category = {"cod2019_ammo_crossbow"}
+ATT.ActivateElements = {"bolt_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_mine")
+
 /////////////////////////// -- SKS
 ATT = {}
 
