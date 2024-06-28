@@ -889,7 +889,7 @@ ATT.Description = [[Carbon bolts with timed explosive tips. Sticky tips deal les
 Bolts cannot be recovered.]]
 ATT.SortOrder = 0.5
 
-ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_expbolt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_expbolt2.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
 ATT.Free = true
@@ -935,7 +935,7 @@ ATT.Description = [[Thermite tipped bolts that ignite, stick to metal, and are e
 Bolts can not be recovered.]]
 ATT.SortOrder = 0.5
 
-ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_firebolt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_firebolt2.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
 ATT.Free = true
@@ -979,7 +979,7 @@ ATT.CompactName = "FTAC Heal"
 ATT.Description = [[Heal]]
 ATT.SortOrder = 0.5
 
-ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_stimbolt.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_healbolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
 ATT.Free = true
@@ -1001,6 +1001,29 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_gasheal")
+
+-----------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC Smoke 20\" Bolts"
+ATT.CompactName = "FTAC Smoke"
+ATT.Description = [[Smoke]]
+ATT.SortOrder = 0.5
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_smokebolt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_smokebolt.mdl"
+ATT.BoneMerge = true
+
+ATT.ShootEnt = "arc9_cod2019_proj_crossbow_smoke"
+
+ATT.Category = {"cod2019_ammo_crossbow"}
+ATT.ActivateElements = {"bolt_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_smoke")
 
 -----------------------------------------------------------------------------
 ATT = {}

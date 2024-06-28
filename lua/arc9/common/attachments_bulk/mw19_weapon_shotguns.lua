@@ -1085,7 +1085,7 @@ ATT.SortOrder = 1
 ATT.Category = "cod2019_grip"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
-ATT.LHIK_Priority = 10
+ATT.LHIK_Priority = 50
 ATT.LHIK = true
 
 ATT.ModelOffset = Vector(0, 0, 0.1)

@@ -1,6 +1,6 @@
 AddCSLuaFile()
 
-ENT.Base = "arc9_cod2019_proj_crossbow_default"
+ENT.Base = "arc9_cod2019_proj_arrow_base"
 ENT.PrintName = "Flash Bolt"
 
 ENT.ImpactDamage = 15
