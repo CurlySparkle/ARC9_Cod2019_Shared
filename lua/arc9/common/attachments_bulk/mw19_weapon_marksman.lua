@@ -570,7 +570,6 @@ ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_tac.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_arms_tac.mdl"
@@ -602,7 +601,6 @@ ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_light.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_arms_light.mdl"
@@ -630,6 +628,47 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_crossbow_limbs_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Thunder 200 Lb"
+ATT.CompactName = "Thunder"
+ATT.Description = [[Heavyweight 200 Lb draw for maximum bolt velocity.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_heavy.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_arms_heavy.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_crossbow_limbs"}
+ATT.ActivateElements = {"limbs_none"}
+
+ATT.CustomPros = {
+    ["Projectile Velocity"] = "30%",
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.ShootEntForceMult = 1.3
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.ShootEntForceAdd = -28 / ARC9.HUToM
+	ATT.PhysBulletMuzzleVelocityAdd = -28 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.053
+	ATT.RecoilMult = 0.7
+	ATT.VisualRecoilMult = 0.7
+	ATT.SpreadAddMove = -0.0032
+	ATT.RangeMaxMult = 0.8
+	ATT.RangeMinMult = 0.8
+	ATT.SpeedMult = 1.02
+	ATT.SpeedSightsMult = 1.08
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_crossbow_limbs_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -638,27 +677,31 @@ ATT.CompactName = "28S"
 ATT.Description = "High-tension heavyweight cable fires bolts at a higher velocity, but with less accuracy."
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_wire_tac.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_wire_heavy.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_wire_tac.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_wire_heavy.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_crossbow_wires"}
 ATT.ActivateElements = {"wires_none"}
 
+ATT.CustomPros = {
+    ["Projectile Velocity"] = "10%",
+}
+
 if !warzonestats then -- Regular Stats
-	
+	ATT.ShootEntForceMult = 1.1
+	ATT.ReloadTimeMult = 1.07
 else -- Warzone Stats
 	ATT.ShootEntForceAdd = 18 / ARC9.HUToM
 	ATT.PhysBulletMuzzleVelocityAdd = 18 / ARC9.HUToM
 	ATT.SpreadAddSights = 0.00896
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_crossbow_wires_tact")
+ARC9.LoadAttachment(ATT, "cod2019_crossbow_wires_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -742,6 +785,35 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_crossbow_stock_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FORGE TAC Apex"
+ATT.CompactName = "FTAC Apex"
+ATT.Description = [[Extremely stable heavy weight stock designed specifically for crossbows.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_stock_heavy.png", "mips smooth")
+ATT.AutoStats = true
+
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_stock_heavy.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_crossbow_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.SpreadMult = 0.5
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_crossbow_stock_heavy")
 ------------------------------------------------------------------------- SCOPE
 ATT = {}
 

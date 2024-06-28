@@ -2432,6 +2432,28 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_rail_sight")
 
+/////////////// -- cod2019_akilo47_bayonet
+ATT = {}
+
+ATT.PrintName = "Bayonet"
+ATT.CompactName = "Bayonet"
+ATT.Description = "Lethal Melee Attack."
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_bayonet.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_ak47_extra","cod2019_ak47_muzzle"}
+ATT.ActivateElements = {"bayonet"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_bayonet_akilo47.mdl"
+ATT.BoneMerge = false
+
+ATT.BashRangeMult = 1.3
+ATT.BashDamageMult = 1.3
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_bayonet")
+
 /////////////////////////// -- Barrel
 /////////////// -- cod2019_akilo47_barrel_custom
 ATT = {}
