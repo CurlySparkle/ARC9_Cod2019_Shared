@@ -35,7 +35,6 @@ function ENT:GetArmed()
 end
 
 if SERVER then
-
 function ENT:OnHit(data, collider)
    local tgt = data.HitEntity
     if IsValid(tgt) then
@@ -56,9 +55,15 @@ function ENT:Plant(ent, pos, normal, v)
 end
 	
 function ENT:OnPlant()
+    self:EmitSound("weapons/cod2019/shared/grenade_pin_trip_mine_short.ogg", 75, 100, 1, CHAN_AUTO)
+	self:StopParticles()
 	ParticleEffect("small_smoke_effect3", self:GetPos(), self:GetAngles(), nil)
+    timer.Simple(math.max(0, self.ArmDelay), function()
+        if IsValid(self) then
+            self:EmitSound( "weapons/cod2019/throwables/claymore/wpfoly_claymore_sensors_on.ogg", 75, 100, 1, CHAN_AUTO )
+        end
+    end)
 end
-
 end
 
 function ENT:Detonate()

@@ -42,7 +42,7 @@ function ENT:OnHit(data, collider)
         util.Effect("ManhackSparks", fx)
 
         if IsValid(data.HitEntity) then
-		    self:EmitSound("weapons/crossbow/bolt_skewer1.wav",75, 100, 1, CHAN_AUTO)
+		    sound.Play("weapons/crossbow/bolt_skewer1.wav", self:GetPos(), 75, 100, 1, CHAN_AUTO)
             local dmginfo = DamageInfo()
             dmginfo:SetAttacker(attacker)
             dmginfo:SetInflictor(self)
@@ -59,7 +59,7 @@ function ENT:OnHit(data, collider)
         fx:SetNormal(-ang:Forward())
         fx:SetAngles(-ang)
         util.Effect("ManhackSparks", fx)
-        self:EmitSound("weapons/crossbow/hit1.wav",75, 100, 1, CHAN_AUTO)
+        sound.Play("weapons/crossbow/hit1.wav", self:GetPos(), 75, 100, 1, CHAN_AUTO)
     end
     timer.Simple(5, function()
         if IsValid(self) then
