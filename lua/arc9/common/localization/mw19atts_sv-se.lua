@@ -679,9 +679,9 @@ L["cod2019_akilo47_barrel_lmg_grip.compactname"] = "Rumänisk"
 L["cod2019_akilo47_barrel_lmg_grip.description"] = "585 mm pipa med inbyggt och stabilt trädgrepp är den mest stabila och träffsäkra pipan tillgänglig. Betydande vikt sänker rörlighet och hantering."
 
 /////////////// Muzzle
-L["cod2019_ak47_bayonet.printname"] = "Bajonett"
-L["cod2019_ak47_bayonet.compactname"] = "Bajonett"
-L["cod2019_ak47_bayonet.description"] = "Dödligt Närstridsangrepp"
+L["cod2019_akilo47_bayonet.printname"] = "Bajonett"
+L["cod2019_akilo47_bayonet.compactname"] = "Bajonett"
+L["cod2019_akilo47_bayonet.description"] = "Dödligt Närstridsangrepp"
 
 /////////////// Stock
 L["cod2019_ak47_stock_heavy.printname"] = "Fält Kulspruta Kolv"

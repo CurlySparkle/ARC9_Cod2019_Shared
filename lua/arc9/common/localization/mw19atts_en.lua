@@ -1119,9 +1119,9 @@ L["cod2019_akilo47_barrel_lmg_grip.compactname"] = "Romanian"
 L["cod2019_akilo47_barrel_lmg_grip.description"] = "23.0\" barrel with a built in solid wood grip is the most stable and accurate barrel available. Substantial weight slows movement and handling."
 
 /////////////// Muzzle
-L["cod2019_ak47_bayonet.printname"] = "Bayonet"
-L["cod2019_ak47_bayonet.compactname"] = "Bayonet"
-L["cod2019_ak47_bayonet.description"] = "Lethal Melee Attack"
+L["cod2019_akilo47_bayonet.printname"] = "Bayonet"
+L["cod2019_akilo47_bayonet.compactname"] = "Bayonet"
+L["cod2019_akilo47_bayonet.description"] = "Lethal Melee Attack"
 
 /////////////// Stock
 L["cod2019_ak47_stock_heavy.printname"] = "Field LMG Stock"

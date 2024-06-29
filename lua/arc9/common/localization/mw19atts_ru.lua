@@ -680,9 +680,9 @@ L["cod2019_akilo47_barrel_lmg_grip.compactname"] = "Румынский"
 L["cod2019_akilo47_barrel_lmg_grip.description"] = "Этот ствол (23,0 дюйма) со встроенной прочной деревянной рукояткой обеспечивает максимальную стабильность и точность стрельбы. значительный вес замедляет передвижение и ухудшает эргономику."
 
 /////////////// Muzzle
-L["cod2019_ak47_bayonet.printname"] = "Штык"
-L["cod2019_ak47_bayonet.compactname"] = "Штык"
-L["cod2019_ak47_bayonet.description"] = "Смертельный прием рукопашного боя"
+L["cod2019_akilo47_bayonet.printname"] = "Штык"
+L["cod2019_akilo47_bayonet.compactname"] = "Штык"
+L["cod2019_akilo47_bayonet.description"] = "Смертельный прием рукопашного боя"
 
 /////////////// Stock
 L["cod2019_ak47_stock_heavy.printname"] = "Полевой приклад для РП"
