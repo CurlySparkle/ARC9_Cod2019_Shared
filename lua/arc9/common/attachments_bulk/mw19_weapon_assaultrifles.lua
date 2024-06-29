@@ -2451,6 +2451,7 @@ ATT.BoneMerge = false
 
 ATT.BashRangeMult = 1.3
 ATT.BashDamageMult = 1.3
+ATT.AimDownSightsTimeMult = 1.1
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_bayonet")
 
