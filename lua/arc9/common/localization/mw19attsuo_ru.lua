@@ -300,6 +300,10 @@ L["cod2019_ammo_crossbow_mine.printname"] = "FTAC Proximity 20\" Bolts"
 L["cod2019_ammo_crossbow_mine.compactname"] = "Proximity"
 L["cod2019_ammo_crossbow_mine.description"] = "Bolts with <color=255,255,100>Proximity-activated warheads</color> that stick onto surfaces. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
 
+L["cod2019_ammo_crossbow_smoke.printname"] = "FTAC Smokescreen 20\" Bolts"
+L["cod2019_ammo_crossbow_smoke.compactname"] = "Smoke."
+L["cod2019_ammo_crossbow_smoke.description"] = "Bolts with non-lethal <color=100,255,100>Smoke</color> warheads designed to conceal your movement. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"
