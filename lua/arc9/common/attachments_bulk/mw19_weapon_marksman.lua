@@ -648,7 +648,7 @@ ATT.Category = {"cod2019_crossbow_limbs"}
 ATT.ActivateElements = {"limbs_none"}
 
 ATT.CustomPros = {
-    ["Projectile Velocity"] = "30%",
+	[ ARC9:GetPhrase("autostat.entitymuzzlevelocity") ] = "30%",
 }
 
 if !warzonestats then -- Regular Stats
@@ -658,14 +658,14 @@ if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 	ATT.ShootEntForceAdd = -28 / ARC9.HUToM
 	ATT.PhysBulletMuzzleVelocityAdd = -28 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.053
-	ATT.RecoilMult = 0.7
-	ATT.VisualRecoilMult = 0.7
-	ATT.SpreadAddMove = -0.0032
-	ATT.RangeMaxMult = 0.8
-	ATT.RangeMinMult = 0.8
-	ATT.SpeedMult = 1.02
-	ATT.SpeedSightsMult = 1.08
+	ATT.AimDownSightsTimeAdd = -0.082
+	ATT.RecoilMult = 1.3
+	ATT.VisualRecoilMult = 2.4
+	ATT.SpreadAddMove = 0.016
+	ATT.RangeMaxMult = 1.35
+	ATT.RangeMinMult = 1.35
+	ATT.SpeedMult = 0.97
+	ATT.SpeedSightsMult = 0.93
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_crossbow_limbs_heavy")
@@ -689,7 +689,7 @@ ATT.Category = {"cod2019_crossbow_wires"}
 ATT.ActivateElements = {"wires_none"}
 
 ATT.CustomPros = {
-    ["Projectile Velocity"] = "10%",
+	[ ARC9:GetPhrase("autostat.entitymuzzlevelocity") ] = "10%",
 }
 
 if !warzonestats then -- Regular Stats

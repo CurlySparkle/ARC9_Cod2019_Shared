@@ -2449,9 +2449,14 @@ ATT.ActivateElements = {"bayonet"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_bayonet_akilo47.mdl"
 ATT.BoneMerge = false
 
-ATT.BashRangeMult = 1.3
-ATT.BashDamageMult = 1.3
-ATT.AimDownSightsTimeMult = 1.1
+if !warzonestats then -- Regular Stats
+	ATT.BashRangeMult = 1.3
+	ATT.BashDamageMult = 1.3
+	ATT.AimDownSightsTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.011
+	ATT.BashDamageAdd = 45
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_bayonet")
 

@@ -299,6 +299,10 @@ L["cod2019_ammo_crossbow_mine.printname"] = "FTAC 508 mm Närhetspilar"
 L["cod2019_ammo_crossbow_mine.compactname"] = "Närhet"
 L["cod2019_ammo_crossbow_mine.description"] = "Pilar med <color=255,255,100>Närhetsaktiverade pilspetsar</color> som fastnar på ytor. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
+L["cod2019_ammo_crossbow_smoke.printname"] = "FTAC 508 mm Rökpilar"
+L["cod2019_ammo_crossbow_smoke.compactname"] = "Rök"
+L["cod2019_ammo_crossbow_smoke.description"] = "Pilar med icke-dödliga <color=100,255,100>Rökspetsar</color> designade att gömma din rörelse.. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-P Special"

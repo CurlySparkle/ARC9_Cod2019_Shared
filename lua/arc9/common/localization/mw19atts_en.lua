@@ -2498,14 +2498,14 @@ L["cod2019_crossbow_wires_light.printname"] = "16-Strand Cable"
 L["cod2019_crossbow_wires_light.compactname"] = "16S"
 L["cod2019_crossbow_wires_light.description"] = "Lower-tension lightweight cable fires the bolts with exceptional accuracy at a lower velocity."
 
-L["cod2019_crossbow_wires_tact.printname"] = "28-Strand Cable"
-L["cod2019_crossbow_wires_tact.compactname"] = "28S"
-L["cod2019_crossbow_wires_tact.description"] = "High-tension heavyweight cable fires bolts at a higher velocity, but with less accuracy."
+L["cod2019_crossbow_wires_heavy.printname"] = "28-Strand Cable"
+L["cod2019_crossbow_wires_heavy.compactname"] = "28S"
+L["cod2019_crossbow_wires_heavy.description"] = "High-tension heavyweight cable fires bolts at a higher velocity, but with less accuracy."
 
 /////////////// Arms
-L["cod2019_crossbow_arms_01.printname"] = "XRK Thunder 200 Lb"
-L["cod2019_crossbow_arms_01.compactname"] = "Thunder"
-L["cod2019_crossbow_arms_01.description"] = "Heavyweight 200 Lb draw for maximum bolt velocity."
+L["cod2019_crossbow_limbs_heavy.printname"] = "XRK Thunder 200 Lb"
+L["cod2019_crossbow_limbs_heavy.compactname"] = "Thunder"
+L["cod2019_crossbow_limbs_heavy.description"] = "Heavyweight 200 Lb draw for maximum bolt velocity."
 
 L["cod2019_crossbow_limbs_light.printname"] = "XRK Quill 100 Lb"
 L["cod2019_crossbow_limbs_light.compactname"] = "Quill"

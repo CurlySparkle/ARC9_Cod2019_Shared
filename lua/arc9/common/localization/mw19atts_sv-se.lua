@@ -1880,14 +1880,14 @@ L["cod2019_crossbow_wires_light.printname"] = "16 Strängkabel"
 L["cod2019_crossbow_wires_light.compactname"] = "16S"
 L["cod2019_crossbow_wires_light.description"] = "Lätt kabel med låg spänning skjuter pilarna med utmärkt träffsäkerhet i låg hastighet."
 
-L["cod2019_crossbow_wires_tact.printname"] = "28 Strängkabel"
-L["cod2019_crossbow_wires_tact.compactname"] = "28S"
-L["cod2019_crossbow_wires_tact.description"] = "Tung kabel med hög spänning skjuter pilarna i högre hastighet med mindre träffsäkerhet."
+L["cod2019_crossbow_wires_heavy.printname"] = "28 Strängkabel"
+L["cod2019_crossbow_wires_heavy.compactname"] = "28S"
+L["cod2019_crossbow_wires_heavy.description"] = "Tung kabel med hög spänning skjuter pilarna i högre hastighet med mindre träffsäkerhet."
 
 /////////////// Arms
-L["cod2019_crossbow_arms_01.printname"] = "XRK Thunder 90 kg"
-L["cod2019_crossbow_arms_01.compactname"] = "Thunder"
-L["cod2019_crossbow_arms_01.description"] = "Tung 90 kg dragning för maximal pilhastighet."
+L["cod2019_crossbow_limbs_heavy.printname"] = "XRK Thunder 90 kg"
+L["cod2019_crossbow_limbs_heavy.compactname"] = "Thunder"
+L["cod2019_crossbow_limbs_heavy.description"] = "Tung 90 kg dragning för maximal pilhastighet."
 
 L["cod2019_crossbow_limbs_light.printname"] = "XRK Quill 45 kg"
 L["cod2019_crossbow_limbs_light.compactname"] = "Quill"
