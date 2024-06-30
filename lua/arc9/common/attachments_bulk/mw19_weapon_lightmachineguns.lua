@@ -324,7 +324,7 @@ ATT.Category = {"cod2019_sa87_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags.mdl"
 ATT.BoneMerge = true
 
 ATT.DropMagazineSounds = {
@@ -385,7 +385,7 @@ ATT.Category = {"cod2019_sa87_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags2.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_xmags2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_xmags2.mdl"
 ATT.BoneMerge = true
 
 ATT.DropMagazineSounds = {
@@ -1321,6 +1321,7 @@ ATT.ActivateElements = {"mag_none","mag_smag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_smags.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_smags.mdl"
+ATT.DropMagazineAng = Angle(-45, -90, -90)
 ATT.BoneMerge = true
 ATT.DropMagazineQCA = 5
 
