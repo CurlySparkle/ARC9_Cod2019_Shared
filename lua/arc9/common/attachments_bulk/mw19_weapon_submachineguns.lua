@@ -2554,7 +2554,6 @@ ATT.ActivateElements = {"mag_none","mag_drum"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_drummag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_drummag.mdl"
 ATT.BoneMerge = true
-ATT.ModelOffset = Vector(1, 0, 1)
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg",
