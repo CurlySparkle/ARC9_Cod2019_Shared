@@ -989,15 +989,15 @@ ATT.Sights = {
     },
 }
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(1.5, 0, 0),
-        Category = "cod2019_optic_sidemount",
-		Scale = 1,
-    },
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
+        -- Pos = Vector(0, 0, 0),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(1.5, 0, 0),
+        -- Category = "cod2019_optic_sidemount",
+		-- Scale = 1,
+    -- },
 	-- {
 	-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
 	-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
@@ -1005,7 +1005,7 @@ ATT.Attachments = {
 	-- Category = "cod2019_reticle_acog",
 	-- CosmeticOnly = true,
 	-- },
-}
+-- }
 
 ATT.CustomPros = {
     [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "3.0x"
@@ -1466,7 +1466,7 @@ ATT.Sights = {
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0.25, 0, -1.88),
+        Pos = Vector(0.75, 0, -1.88),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         Category = "cod2019_optics_pistols_scope",
@@ -1535,15 +1535,15 @@ ATT.Sights = {
     },
 }
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(1.5, 0, 0),
-        Category = "cod2019_optic_sidemount",
-		Scale = 1,
-    },
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
+        -- Pos = Vector(0, 0, 0),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(1.5, 0, 0),
+        -- Category = "cod2019_optic_sidemount",
+		-- Scale = 1,
+    -- },
 	-- {
 		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
 		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
@@ -1551,7 +1551,7 @@ ATT.Attachments = {
 		-- Category = "cod2019_reticle_acog",
 		-- CosmeticOnly = true,
 	-- },
-}
+-- }
 
 ATT.CustomPros = {
    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "3.5x"
@@ -1607,15 +1607,15 @@ ATT.Sights = {
     },
 }
 
-ATT.Attachments = {
-    {
-        PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(1.5, 0, 0),
-        Category = "cod2019_optic_sidemount",
-		Scale = 1,
-    },
+-- ATT.Attachments = {
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_optic2") .. " II",
+        -- Pos = Vector(0, 0, 0),
+        -- Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(1.5, 0, 0),
+        -- Category = "cod2019_optic_sidemount",
+		-- Scale = 1,
+    -- },
 	-- {
 		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
 		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
@@ -1623,7 +1623,7 @@ ATT.Attachments = {
 		-- Category = "cod2019_reticle_thermal",
 		-- CosmeticOnly = true,
 	-- },
-}
+-- }
 
 ATT.CustomPros = {
    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "3.25x"
