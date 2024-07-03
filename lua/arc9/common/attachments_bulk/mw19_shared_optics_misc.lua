@@ -74,7 +74,7 @@ ATT.Attachments = {
         Pos = Vector(-0.1, 0, -0.42),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1),
-        Category = "cod2019_optic_raised",
+        Category = "cod2019_optic",
 		Scale = 1,
     },
 }
@@ -110,7 +110,7 @@ ATT.Attachments = {
         Pos = Vector(0.4, 0, -0.42),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1),
-        Category = "cod2019_optic_raised",
+        Category = "cod2019_optic",
 		Scale = 1,
     },
 }
