@@ -30,6 +30,9 @@ L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite"
 L["cod2019_optic_slima.printname"] = "Solozero K498 Reflex"
 L["cod2019_optic_slima.compactname"] = "K498"
 
+L["cod2019_optic_flip_nydar.printname"] = "Corp Defence Reflexsikte"
+L["cod2019_optic_flip_nydar.compactname"] = "Corp Def."
+
 -- Scopes
 L["cod2019_optic_hybrid_west02_thermal.printname"] = "4,0x Vikbar Värmesikte"
 L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Vik. V."

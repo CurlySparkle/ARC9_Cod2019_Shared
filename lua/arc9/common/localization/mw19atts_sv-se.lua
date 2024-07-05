@@ -170,9 +170,9 @@ L["mw19_optic_thermal_sniper.description"] = "<color=100,255,100>8x</color> kika
 
 L["cod2019_optic_scope_vz_sniper.description"] = "Avancerat riktmedel zoomar mellan <color=100,255,100>5,0x</color> och <color=100,255,100>12.1x</color> för strider på extrema räckvidder. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
-L["mw19_optic_thermal_vz_sniper.printname"] = "Dubbel Värmesikte"
-L["mw19_optic_thermal_vz_sniper.compactname"] = "D. Värme."
-L["mw19_optic_thermal_vz_sniper.description"] = "Avancerad värmeavbildning kikarsikte med variabel <color=100,255,100>5,0x</color> och <color=100,255,100>12.1x</color> magnifiering för stridande på extrema räckvidder i alla ljusförhållanden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon. Riktmedel glimt synlig till fienden.</color>"
+L["cod2019_optic_thermalsnpr_west01.printname"] = "Dubbel Värmesikte"
+L["cod2019_optic_thermalsnpr_west01.compactname"] = "D. Värme."
+L["cod2019_optic_thermalsnpr_west01.description"] = "Avancerad värmeavbildning kikarsikte med variabel <color=100,255,100>5,0x</color> och <color=100,255,100>12.1x</color> magnifiering för stridande på extrema räckvidder i alla ljusförhållanden. <color=255,100,100>Inte kompatibel med Mörkeroptik Glasögon. Riktmedel glimt synlig till fienden.</color>"
 
 L["cod2019_optic_cronen_sniper.description"] = "Avancerat riktmedel med <color=100,255,100>3,5x</color> magnifiering för snabb målförvärv."
 

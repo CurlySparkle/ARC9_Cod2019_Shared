@@ -30,6 +30,9 @@ L["cod2019_optic_reflex_west05.compactname"] = "Cronen Elite"
 L["cod2019_optic_slima.printname"] = "Зеркальный прицел K498 \"Солозеро\""
 L["cod2019_optic_slima.compactname"] = "K498"
 
+L["cod2019_optic_flip_nydar.printname"] = "Зеркальный прицел \"Корп Защита\""
+L["cod2019_optic_flip_nydar.compactname"] = "Корп Защ."
+
 -- Scopes
 L["cod2019_optic_hybrid_west02_thermal.printname"] = "Складываемый тепловизор прицел 4х"
 L["cod2019_optic_hybrid_west02_thermal.compactname"] = "Склад. Т."

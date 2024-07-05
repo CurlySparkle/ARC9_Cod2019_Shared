@@ -256,9 +256,9 @@ L["cod2019_optic_scope_vz_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_sco
 L["cod2019_optic_scope_vz_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_vz.compactname") or "V. Zoom"
 L["cod2019_optic_scope_vz_sniper.description"] = "Advanced scope zooms between <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> for fighting at extreme ranges. <color=255,100,100>Optic glint visible to enemies.</color>"
 
-L["mw19_optic_thermal_vz_sniper.printname"] = "Thermal Dual Power Scope"
-L["mw19_optic_thermal_vz_sniper.compactname"] = "Thermal DP"
-L["mw19_optic_thermal_vz_sniper.description"] = "Advanced thermal imaging scope with variable <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> magnification for fighting at extreme ranges in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
+L["cod2019_optic_thermalsnpr_west01.printname"] = "Thermal Dual Power Scope"
+L["cod2019_optic_thermalsnpr_west01.compactname"] = "Thermal DP"
+L["cod2019_optic_thermalsnpr_west01.description"] = "Advanced thermal imaging scope with variable <color=100,255,100>5.0x</color> and <color=100,255,100>12.1x</color> magnification for fighting at extreme ranges in all lighting conditions. <color=255,100,100>Not compatible with Night Vision Goggles. Optic glint visible to enemies.</color>"
 
 L["cod2019_optic_cronen_sniper.printname"] = ARC9:GetPhrase("cod2019_optic_cronen.printname") or "Cronen C480 Pro Optic"
 L["cod2019_optic_cronen_sniper.compactname"] = ARC9:GetPhrase("cod2019_optic_cronen.compactname") or "Cronen"

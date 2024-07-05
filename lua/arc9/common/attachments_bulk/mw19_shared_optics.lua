@@ -58,7 +58,7 @@ local reticleatts = {
 /////////////////////////// -- cod2019_optic_flip_nydar
 ATT = {}
 
-ATT.PrintName = "Operator Reflex Sight"
+ATT.PrintName = "Corp Defence Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_flip_nydar.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -79,13 +79,6 @@ ATT.Sights = {
         ViewModelFOV = 54,
         IgnoreExtra = false
     },
-    {
-        Pos = Vector(0, 4, -1.07),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.5,
-        ViewModelFOV = 54,
-        IgnoreExtra = false,
-    },
 }
 
 ATT.CustomPros = {
@@ -93,8 +86,8 @@ ATT.CustomPros = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
-ATT.HoloSightSize = 1024 * 2
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
+ATT.HoloSightSize = 1024 * 1.5
 ATT.HoloSightColorable = false
 
 ATT.LaserColorPlayer = true
@@ -105,6 +98,9 @@ ATT.ToggleStats = {
 	{
 		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
 		Laser = true,
+		SpreadMultMove = 0.94,
+		SpreadMult = 0.80,
+		NoPeekCrosshair = true,
 	},
 	{
 		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
