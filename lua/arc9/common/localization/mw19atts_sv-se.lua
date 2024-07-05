@@ -2343,9 +2343,9 @@ L["cod2019_renetti_mag_xmag.printname"] = string.format(mw19magtext.mag, "21")
 L["cod2019_renetti_mag_xmag.compactname"] = string.format(mw19magtext.mags, "21")
 L["cod2019_renetti_mag_xmag.description"] = string.format(mw19magtext.desc, "21", mw19ammotype["919"])
 
-L["cod2019_renetti_mag_27.printname"] = string.format(mw19magtext.mag, "27")
-L["cod2019_renetti_mag_27.compactname"] = string.format(mw19magtext.mags, "27")
-L["cod2019_renetti_mag_27.description"] = string.format(mw19magtext.descl, "27", mw19ammotype["919"])
+L["cod2019_renetti_mag_xmaglrg.printname"] = string.format(mw19magtext.mag, "27")
+L["cod2019_renetti_mag_xmaglrg.compactname"] = string.format(mw19magtext.mags, "27")
+L["cod2019_renetti_mag_xmaglrg.description"] = string.format(mw19magtext.descl, "27", mw19ammotype["919"])
 
 /////////////// Pistol Grips
 L["cod2019_renetti_rg_01.printname"] = "XRK Pro-Grepp"
