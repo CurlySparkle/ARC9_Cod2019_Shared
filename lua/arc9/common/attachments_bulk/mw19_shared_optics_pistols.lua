@@ -584,7 +584,7 @@ ATT.Category = {"cod2019_optics_pistols_alt"}
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
-ATT.Model = "models/weapons/cod2019/attachs/sights/minireddot_1.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_minireddot01_alt.mdl"
 ATT.ModelOffset = Vector(-1.5, 0, 0.05)
 
 ATT.Sights = {
@@ -630,7 +630,7 @@ ATT.Category = {"cod2019_optics_pistols_alt"}
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"optic"}
 
-ATT.Model = "models/weapons/cod2019/attachs/sights/minireddot_2.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_minireddot02_alt.mdl"
 ATT.ModelOffset = Vector(-1.5, 0, 0.05)
 
 ATT.Sights = {
@@ -676,7 +676,7 @@ ATT.Category = {"cod2019_optics_pistols_alt"}
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
 ATT.ActivateElements = {"sight_minidot","optic"}
 
-ATT.Model = "models/weapons/cod2019/attachs/sights/minireddot_3.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_minireddot03_alt.mdl"
 ATT.ModelOffset = Vector(-1.5, 0, 0.1)
 
 ATT.Sights = {

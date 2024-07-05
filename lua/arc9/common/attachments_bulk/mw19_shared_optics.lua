@@ -55,6 +55,63 @@ local reticleatts = {
 }
 
 //////////////////////////////////////////////// -- Reflex Optics
+/////////////////////////// -- cod2019_optic_flip_nydar
+ATT = {}
+
+ATT.PrintName = "Operator Reflex Sight"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_flip_nydar.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
+ATT.Folder = ARC9:GetPhrase("mw19_folder_rds")
+ATT.ActivateElements = {"optic"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_flip_nydar.mdl"
+ATT.ModelOffset = Vector(0, 0, 0.07)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 6, -1.05),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 54,
+        IgnoreExtra = false
+    },
+}
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_precision") ] = ""
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
+ATT.HoloSightSize = 128 * 1.25
+ATT.HoloSightColorable = false
+
+ATT.LaserColorPlayer = true
+ATT.LaserStrength = 2
+ATT.LaserAttachment = 2
+ATT.ToggleOnF = false
+ATT.ToggleStats = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+		Laser = true,
+	},
+	{
+		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+	}
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.005
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_flip_nydar")
+
 /////////////////////////// -- cod2019_optic_reflex_west03
 ATT = {}
 
@@ -1629,12 +1686,12 @@ ATT.CustomPros = {
 }
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_nvg.png")
 ATT.RTScopeReticleScale = 1
-ATT.RTScopeShadowIntensity = 6
+ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
@@ -1807,6 +1864,102 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_thermal_east")
+
+/////////////////////////// -- cod2019_optic_thermalsnpr_west01
+ATT = {}
+
+ATT.PrintName = "Thermal Dual Power Scope"
+ATT.CompactName = "Thermal Dual"
+ATT.Description = "Advanced thermal imaging scope with variable 5.0x and 12.1x magnification for fighting at extreme ranges in all lighting conditions. Not compatible with Night Vision Goggles. Optic glint visible to enemies."
+ATT.Icon = Material("entities/attachs/cod2019_optic_thermalsnpr_west01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 3.25
+ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
+ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+ATT.ActivateElements = {"optic","scope_sniper","optic_scope", "optic_thermal"}
+
+ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_thermalsnpr_west01.mdl"
+ATT.ModelOffset = Vector(-1.5, 0, 0.1)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 7, -0.85),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        IgnoreExtra = false
+    },
+}
+
+ATT.CustomPros = {
+   [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "5/12.1"
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 36 / 3.25
+ATT.RTScopeRes = 1024
+ATT.RTScopeAdjustable = true
+ATT.RTScopeAdjustmentLevels = 1
+ATT.RTScopeFOVMin = 36 / 5
+ATT.RTScopeFOVMax = 36 / 12.1
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_thermal_default2.png")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 6
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+ATT.RTScopeMotionBlur = true
+
+ATT.RTScopeFLIR = true
+ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
+ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 0,
+    ["$pp_colour_addb"] = 0,
+    ["$pp_colour_addg"] = 0,
+    ["$pp_colour_brightness"] = 1.54,
+    ["$pp_colour_contrast"] = 0.1,
+    ["$pp_colour_colour"] = 0,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 1,
+    ["$pp_colour_addg"] = 1,
+    ["$pp_colour_addb"] = 1,
+    ["$pp_colour_brightness"] = -0.59,
+    ["$pp_colour_contrast"] = 1,
+    ["$pp_colour_colour"] = 0,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+
+local noise = Material("models/cod2019/shared/mw19_thermalnoise")
+
+ATT.RTScopeDrawFunc = function(swep, rtsize)
+cam.Start2D()
+surface.SetMaterial(noise)
+surface.SetDrawColor(255, 255, 255, 255)
+surface.DrawTexturedRect(ScrW() * 0, ScrH() * 0, ScrW() * 1, ScrH() * 1)
+cam.End2D()
+end
+
+ATT.RTScopeMotionBlur = true
+ATT.ScopeScreenRatio = 0.66
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.06
+	ATT.VisualRecoilMult = 0.99
+	ATT.RecoilMult = 0.99
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.06
+	ATT.VisualRecoilMult = 0.99
+	ATT.RecoilMult = 0.99
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_thermalsnpr_west01")
 
 /////////////////////////// -- cod2019_optic_reflex_west05_hybrid
 ATT = {}
