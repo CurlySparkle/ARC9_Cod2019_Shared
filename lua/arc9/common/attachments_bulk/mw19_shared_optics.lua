@@ -73,11 +73,18 @@ ATT.ModelOffset = Vector(0, 0, 0.07)
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6, -1.05),
+        Pos = Vector(0, 6, -1.07),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 54,
         IgnoreExtra = false
+    },
+    {
+        Pos = Vector(0, 4, -1.07),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.5,
+        ViewModelFOV = 54,
+        IgnoreExtra = false,
     },
 }
 
@@ -86,8 +93,8 @@ ATT.CustomPros = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/aimpoint_reticle")
-ATT.HoloSightSize = 128 * 1.25
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
+ATT.HoloSightSize = 1024 * 2
 ATT.HoloSightColorable = false
 
 ATT.LaserColorPlayer = true
@@ -1686,7 +1693,7 @@ ATT.CustomPros = {
 }
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 3
+ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 36 / 3.25
 ATT.RTScopeRes = 1024
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_nvg.png")

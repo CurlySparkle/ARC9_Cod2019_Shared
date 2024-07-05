@@ -401,6 +401,36 @@ ATT.BulletBones = {
 -- }
 
 ARC9.LoadAttachment(ATT, "cod2019_hdr_mag_special")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC Champion"
+ATT.CompactName = "FTAC Champion"
+ATT.Description = [[The most stable stock available, provides exceptional control while aiming down sights at the cost of mobility.]]
+
+ATT.Icon = Material("entities/attachs/sn/hdr/cod2019_sn_hdr_stockl.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_hdr_stock"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/hdr/attachment_weapon_vm_sn_hdromeo_stock_v5.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_none","pistol_grip_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.11
+	ATT.DeployTimeMult = 1.07
+	ATT.RecoilMult = 0.87
+	ATT.VisualRecoilMult = 0.92
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 1.11
+	ATT.DeployTimeMult = 1.07
+	ATT.RecoilMult = 0.87
+	ATT.VisualRecoilMult = 0.92
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_hdr_stock_heavy")
 
 /////////////////////////// -- AX50
 ATT = {}
