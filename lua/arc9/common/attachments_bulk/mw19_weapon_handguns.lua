@@ -897,6 +897,21 @@ else -- Warzone Stats
 	}
 end
 
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_Pistol.Outside"
+ATT.DistantShootSound = "Distant_SMG.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_Pistol.Inside"
+ATT.DistantShootSoundIndoor = "Distant_SMG.Inside"
+---------------------------------------------------
+-- Silenced Outside
+ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
+ATT.DistantShootSoundSilenced = "Distant_SMG_Sup.Outside"
+-- Inside
+ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
+ATT.DistantShootSoundSilencedIndoor = "Distant_Pistol_Sup.Inside"
+---------------------------------------------------
+
 ARC9.LoadAttachment(ATT, "cod2019_renetti_slide_auto")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -1066,14 +1081,60 @@ ATT.BulletBones = {
 ATT.ClipSizeAdd = 6
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.ReloadTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.DeployTimeMult = 1.05
+	ATT.ReloadTimeMult = 1.07
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.002
 	ATT.SpeedMult = 0.98
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_renetti_mag_xmag")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "27 Round Mags"
+ATT.CompactName = "27 Round"
+ATT.Description = [[]]
+
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/pi/renetti/cod2019_pi_renetti_xmagslrg_v2.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_xmagslrg.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/renetti/attachment_vm_pi_mike9_xmagslrg.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_renetti_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
+
+ATT.BulletBones = {
+    [1] = {"j_bullet1","j_bullet1_l"},
+    [2] = {"j_bullet2","j_bullet2_l"},
+    [3] = {"j_bullet3","j_bullet3_l"},
+    [4] = {"j_bullet4","j_bullet4_l"},
+    [5] = {"j_bullet5","j_bullet5_l"},
+    [6] = {"j_bullet6","j_bullet6_l"},
+    [7] = {"j_bullet7","j_bullet7_l"},
+    [8] = {"j_bullet8","j_bullet8_l"},
+    [9] = {"j_bullet9","j_bullet9_l"},
+    [10] = {"j_bullet10","j_bullet10_l"},
+}
+
+ATT.ClipSizeAdd = 12
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.002
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_renetti_mag_xmaglrg")
 
 /////////////////////////// -- Sykov
 ATT = {}

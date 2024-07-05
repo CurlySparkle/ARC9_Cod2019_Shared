@@ -23,7 +23,7 @@
     "$envmaptint" "[0.427 0.365 0.247]"                 
 
     "$detailblendmode" "4"
-    "$detailblendfactor" "0.7"   
+    "$detailblendfactor" "0.8"   
 
     //remove this if not using MWB
     "Proxies"

@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture"				"models/cod2019/attachments/weapon_vm_sh_romeo870_choke"
-    "$bumpmap"					"models/cod2019/attachments/weapon_vm_sh_romeo870_choke_n"
-    "$phongexponenttexture"		       "models/cod2019/attachments/weapon_vm_sh_romeo870_choke_e"
+    "$basetexture" "models\cod2019\attachments\attachment_vm_laser03_glass_rgb"
+    "$bumpmap" "models\cod2019\attachments\attachment_vm_laser03_glass_n"
+    "$phongexponenttexture" "models\cod2019\attachments\attachment_vm_laser03_glass_e"
 
     "$color2" "[0 0 0]"
     "$blendtintbybasealpha" "1"
@@ -17,6 +17,7 @@
     "$envmap" "env_cubemap"
     "$envmaptint" "[0.2 0.2 0.2]"
 
+    //remove this if viewing outside of MWB
     "Proxies"
     {
         "Arc9EnvMapTint"

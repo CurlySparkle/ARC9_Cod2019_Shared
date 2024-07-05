@@ -198,6 +198,24 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_m14_mag_20")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Stay Frosty"
+ATT.CompactName = "Stay Frosty"
+ATT.Description = [[Stay Frosty Receiver]]
+
+ATT.Icon = Material("entities/attachs/mm/m14/cod2019_mm_m14_stockcqb.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m14/attachment_vm_sn_mike14_receiver_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_m14_receiver"
+ATT.ActivateElements = {"body_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_m14_receiver_v2")
 
 /////////////////////////// -- MK2 Carbine
 ATT = {}
