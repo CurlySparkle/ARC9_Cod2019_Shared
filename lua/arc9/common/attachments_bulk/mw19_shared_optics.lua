@@ -93,8 +93,8 @@ ATT.CustomPros = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex3")
-ATT.HoloSightSize = 1024 * 1.5
+ATT.HoloSightReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
+ATT.HoloSightSize = 1024 * 2
 ATT.HoloSightColorable = false
 
 ATT.LaserColorPlayer = true
