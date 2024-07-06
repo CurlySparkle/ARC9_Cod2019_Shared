@@ -430,7 +430,33 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.92
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_hdr_stock_heavy")
+ARC9.LoadAttachment(ATT, "cod2019_hdr_stock_vheavy")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FSS Nomad Stock"
+ATT.CompactName = "FSS Nomad"
+ATT.Description = "Stock designed for agility while aiming down sights."
+ATT.Icon = Material("entities/attachs/sn/hdr/cod2019_sn_hdr_stockl2.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_stocks"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/hdr/attachment_vm_sn_hdromeo_stockl.mdl"
+ATT.ModelOffset = Vector(-1, 0, 0)
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.88
+	ATT.RecoilMult = 1.12
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.88
+	ATT.RecoilMult = 1.12
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_hdr_stock_light")
 
 /////////////////////////// -- AX50
 ATT = {}
