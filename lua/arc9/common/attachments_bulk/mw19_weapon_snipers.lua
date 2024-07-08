@@ -729,7 +729,7 @@ ATT.ActivateElements = {"barrel_none","muzzle_none"}
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
-            Pos = Vector(5, 0, 0),
+            Pos = Vector(8.5, 0, 0),
             Ang = Angle(0,0,0),
         },
     }
