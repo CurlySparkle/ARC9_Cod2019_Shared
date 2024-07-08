@@ -143,12 +143,12 @@ mw19magtext = {
 /////////////// Receivers
 L["cod2019_fal_body_v2.printname"] = "Smooth Dominator"
 L["cod2019_fal_body_v2.compactname"] = "Dominator"
-L["cod2019_fal_body_v2.description"] = "Modernized receiver for the FAL. Purely <color=255,255,100>cosmetic</color>."
+L["cod2019_fal_body_v2.description"] = "Alternative <color=255,255,100>cosmetic</color> receiver for the FAL."
 
 /////////////// Stock
 L["cod2019_fal_stock_v2.printname"] = ARC9:GetPhrase("cod2019_fal_body_v2.printname") or "Smooth Dominator"
 L["cod2019_fal_stock_v2.compactname"] = ARC9:GetPhrase("cod2019_fal_body_v2.compactname") or "Dominator"
-L["cod2019_fal_stock_v2.description"] = "Modernized stock for the FAL. Purely <color=255,255,100>cosmetic</color>."
+L["cod2019_fal_stock_v2.description"] = "Alternative <color=255,255,100>cosmetic</color> stock for the FAL."
 
 //////////////////// M4A1
 /////////////// Barrels
@@ -159,11 +159,11 @@ L["cod2019_m4a1_barrel_v4.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3
 /////////////// Optics
 L["cod2019_m4_carryhandle.printname"] = "Old Faithful"
 L["cod2019_m4_carryhandle.compactname"] = "Old F."
-L["cod2019_m4_carryhandle.description"] = "Classic M16-style carrying handle.\nPurely <color=175,175,255>cosmetic</color>."
+L["cod2019_m4_carryhandle.description"] = "<color=175,175,255>Cosmetic</color> M16-style carrying handle."
 
 L["cod2019_m4_carryhandle_v2.printname"] = "Classic Handle"
 L["cod2019_m4_carryhandle_v2.compactname"] = "Classic"
-L["cod2019_m4_carryhandle_v2.description"] = ARC9:GetPhrase("cod2019_m4_carryhandle.description") or "Classic M16-style carrying handle.\nPurely <color=175,175,255>cosmetic</color>."
+L["cod2019_m4_carryhandle_v2.description"] = ARC9:GetPhrase("cod2019_m4_carryhandle.description") or "<color=175,175,255>Cosmetic</color> M16-style carrying handle."
 
 /////////////// Magazine
 L["cod2019_m4_mag_alt.printname"] = "Kilo 141 Magazine"
@@ -294,6 +294,12 @@ L["cod2019_model680_mag_8.compactname"] = "12G 8R"
 L["cod2019_model680_mag_8.description"] = "Custom XRK Eagle's Claw receiver with built in mag well to use <color=100,255,100>8-round</color> detachable magazines for faster reloads. <color=255,100,100>Not compatible with custom barrels.</color>"
 
 //////////////////////// Marksman Rifles
+//////////////////// EBR-14
+/////////////// Receivers
+L["cod2019_m14_receiver_v2.printname"] = "Stay Frosty"
+L["cod2019_m14_receiver_v2.compactname"] = "Frosty"
+L["cod2019_m14_receiver_v2.description"] = "Alternative <color=255,255,100>cosmetic</color> receiver for the EBR-14."
+
 //////////////////// Crossbow
 /////////////// Bolts
 L["cod2019_ammo_crossbow_expl.description"] = "Bolts with <color=255,255,100>explosive tips</color> that detonate on contact. <color=255,100,100>Bolts can not be recovered</color>, and are undetectable by trophy systems."

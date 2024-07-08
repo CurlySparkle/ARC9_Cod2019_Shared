@@ -131,10 +131,10 @@ mw19magtext = {
 /////////////// Receivers
 L["cod2019_fal_body_v2.printname"] = "Smooth Dominator"
 L["cod2019_fal_body_v2.compactname"] = "Dominator"
-L["cod2019_fal_body_v2.description"] = "Modern FAL-låda. Endast <color=255,255,100>kosmetisk</color>."
+L["cod2019_fal_body_v2.description"] = "Alternativ <color=255,255,100>kosmetisk</color> låda till FAL."
 
 /////////////// Stock
-L["cod2019_fal_stock_v2.description"] = "Modern FAL-kolv. Endast <color=255,255,100>kosmetisk</color>."
+L["cod2019_fal_body_v2.description"] = "Alternativ <color=255,255,100>kosmetisk</color> kolv till FAL."
 
 //////////////////// M4A1
 /////////////// Barrels
@@ -144,7 +144,7 @@ L["cod2019_m4a1_barrel_v4.compactname"] = "Carbine"
 /////////////// Optics
 L["cod2019_m4_carryhandle.printname"] = "Gamla Pålitliga"
 L["cod2019_m4_carryhandle.compactname"] = "Gamla P."
-L["cod2019_m4_carryhandle.description"] = "Klassiskt bärhandtag av M16-stil.\nEndast <color=255,255,100>kosmetisk</color>."
+L["cod2019_m4_carryhandle.description"] = "<color=175,175,255>Kosmetiskt</color> bärhandtag med M16-stil."
 
 L["cod2019_m4_carryhandle_v2.printname"] = "Klassiskt Handtag"
 L["cod2019_m4_carryhandle_v2.compactname"] = "Klassisk"
@@ -278,6 +278,12 @@ L["cod2019_model680_mag_8.compactname"] = "K12 8P."
 L["cod2019_model680_mag_8.description"] = "Anpassad XRK Eagle's Claw-låda med inbyggd magasinlåda för att använd bortplockbara <color=100,255,100>8 patronersmagasin</color> för snabbare omladdningar. <color=255,100,100>Ej kompatibla med anpassade pipor.</color>"
 
 //////////////////////// Marksman Rifles
+//////////////////// EBR-14
+/////////////// Receivers
+L["cod2019_m14_receiver_v2.printname"] = "\"Stay Frosty\""
+L["cod2019_m14_receiver_v2.compactname"] = "Frosty"
+L["cod2019_m14_receiver_v2.description"] = "Alternativ <color=255,255,100>kosmetisk</color> låda till EBR-14."
+
 //////////////////// Crossbow
 /////////////// Bolts
 L["cod2019_ammo_crossbow_expl.description"] = "Pilar med <color=255,255,100>explosiv spets</color> som sprängs vid kontakt. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
