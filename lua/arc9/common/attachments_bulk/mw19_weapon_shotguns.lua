@@ -1466,7 +1466,7 @@ ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_vlk_barrel"}
-ATT.ActivateElements = {"muzzle_none","barrel_vlk","vlk_barrel_heavy"}
+ATT.ActivateElements = {"muzzle_none","barrel_none"}
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2
@@ -1487,11 +1487,10 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.25
-	ATT.RecoilMult = 0.85
-	ATT.RangeMaxMult = 1.25
-	ATT.RangeMinMult = 1.25
-	ATT.PhysBulletMuzzleVelocityMult = 1.25
+	ATT.AimDownSightsTimeMult = 1.12
+	ATT.DeployTimeMult = 1.15
+	ATT.RecoilMult = 0.96
+	ATT.SpreadMult = 0.75
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.055
 	ATT.RecoilMult = 0.85
@@ -1505,6 +1504,116 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_barrel_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "16\" Warlord"
+ATT.CompactName = "Warlord"
+ATT.Description = [[Extended barrel increases muzzle velocity and range. Light alloy keeps additional weight to a minimum.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_barlong.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_barlong.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_vlk_barrel"}
+ATT.ActivateElements = {"muzzle_none","barrel_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(3.3, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilMult = 0.95
+	ATT.RangeMaxMult = 1.1
+	ATT.SpreadMult = 0.9
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.055
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpreadAddSights = -0.0075
+	ATT.SpreadAddMove = -0.0039
+	ATT.RangeMinMult = 1.15
+	ATT.RangeMaxMult = 1.15
+	ATT.SpeedMult = 0.96
+	ATT.SpeedSightsMult = 0.93
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_vlk_barrel_long")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "6\" Revolt"
+ATT.CompactName = "Revolt"
+ATT.Description = [[Short, compact barrel sacrifices range for speed and agility. Increased pellet spread will help clear out tight spaces.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_barshort.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_barshort.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_vlk_barrel"}
+ATT.ActivateElements = {"muzzle_none","barrel_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-2, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.DeployTimeMult = 0.8
+	ATT.SpreadMult = 1.35
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.055
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpreadAddSights = -0.0075
+	ATT.SpreadAddMove = -0.0039
+	ATT.RangeMinMult = 1.15
+	ATT.RangeMaxMult = 1.15
+	ATT.SpeedMult = 0.96
+	ATT.SpeedSightsMult = 0.93
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_vlk_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1546,6 +1655,47 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "4-R Mag"
+ATT.CompactName = "4-R"
+ATT.Description = [[Extended magazines hold 4 rounds with a slight weight increase.]]
+
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_smag.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_vlk_mag"
+ATT.ActivateElements = {"mag_none","mag_smag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_smag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_smag.mdl"
+ATT.DropMagazineAng = Angle(0, -90, -180)
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+    [1] = "j_shell01",
+    [2] = "j_shell02",
+    [3] = "j_shell03",
+    [4] = "j_shell04",
+    [5] = "j_shell05",
+    [6] = "j_shell06",
+    [7] = "j_shell07",
+    [8] = "j_shell08",
+}
+
+ATT.ClipSize = 4
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.85
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.004
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_vlk_mag_smag")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1603,3 +1753,27 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Semi Auto"
+ATT.CompactName = "Semi"
+ATT.Description = [[Changes the mechanism of the weapon to be into a semi auto.]]
+
+ATT.Icon = Material("entities/attachs/cod2019_perks_hipaim.png", "mips smooth")
+ATT.SortOrder = 0
+ATT.Category = "cod2019_vlk_perks"
+ATT.ActivateElements = {"bolt_spring"}
+
+ATT.Model = "models/weapons/cod2019/attachs/ik/vlk_grip.mdl"
+ATT.LHIK_Priority = 5
+ATT.LHIK = true
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+--ATT.ActivePos = Vector(0.4, 0, -0.1)
+
+ATT.ManualAction = false
+
+ARC9.LoadAttachment(ATT, "cod2019_vlk_semiauto")
