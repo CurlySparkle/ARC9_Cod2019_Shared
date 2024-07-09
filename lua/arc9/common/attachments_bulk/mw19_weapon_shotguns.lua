@@ -1671,7 +1671,7 @@ ATT.ActivateElements = {"mag_none","mag_smag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_smag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_smag.mdl"
-ATT.DropMagazineAng = Angle(0, -90, -180)
+ATT.DropMagazineAng = Angle(0, -90, -90)
 ATT.BoneMerge = true
 
 ATT.BulletBones = {
