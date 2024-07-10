@@ -1625,6 +1625,41 @@ ARC9.LoadAttachment(ATT, "cod2019_spr208_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "XRK 208 Dragoon"
+ATT.CompactName = "XRK 208"
+ATT.Description = [[Heavy duty integrated suppressor with a monolithic core increases muzzle velocity while maintaining a low sound signature.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_barsil.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_barsil.mdl"
+ATT.BoneMerge = true
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_spr208_barrel"}
+ATT.ActivateElements = {"barrel_none","muzzle_none","barrel_sil"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.DeployTimeMult = 1.07
+	ATT.PhysBulletMuzzleVelocityMult = 1.20
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.DeployTimeMult = 1.07
+	ATT.PhysBulletMuzzleVelocityMult = 1.20
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_spr208_barrel_sil")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "10 Round Mags"
 ATT.CompactName = "10-Round"

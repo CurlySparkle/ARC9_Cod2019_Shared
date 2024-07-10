@@ -1634,14 +1634,9 @@ ATT.DropMagazineAng = Angle(0, -90, -180)
 ATT.BoneMerge = true
 
 ATT.BulletBones = {
-    [1] = "j_shell01",
-    [2] = "j_shell02",
-    [3] = "j_shell03",
-    [4] = "j_shell04",
-    [5] = "j_shell05",
-    [6] = "j_shell06",
-    [7] = "j_shell07",
-    [8] = "j_shell08",
+    [1] = "j_shell_01",
+    [2] = "j_shell_02",
+    [3] = "j_shell_03",
 }
 
 ATT.ClipSize = 12
@@ -1671,18 +1666,14 @@ ATT.ActivateElements = {"mag_none","mag_smag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_smag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_smag.mdl"
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_origin12.mdl"
 ATT.DropMagazineAng = Angle(0, -90, -90)
 ATT.BoneMerge = true
 
 ATT.BulletBones = {
-    [1] = "j_shell01",
-    [2] = "j_shell02",
-    [3] = "j_shell03",
-    [4] = "j_shell04",
-    [5] = "j_shell05",
-    [6] = "j_shell06",
-    [7] = "j_shell07",
-    [8] = "j_shell08",
+    [1] = "j_shell_01",
+    [2] = "j_shell_02",
+    [3] = "j_shell_03",
 }
 
 ATT.ClipSize = 4
@@ -1772,7 +1763,8 @@ ATT.LHIK = true
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
---ATT.ActivePos = Vector(0.4, 0, -0.1)
+ATT.ActivePosMult = Vector(0.5, 0, 0)
+ATT.MovingPosMult = Vector(0.5, 0, 0)
 
 ATT.ManualAction = false
 
