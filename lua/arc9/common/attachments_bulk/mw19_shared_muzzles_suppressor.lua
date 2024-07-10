@@ -257,7 +257,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_romeo870_shtgnsilencer.mdl"
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed_shotgun"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
@@ -297,7 +297,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer02.mdl"
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed_shotgun"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
@@ -333,7 +333,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_sh_oscar12_silencer03.mdl"
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed_shotgun"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
@@ -502,7 +502,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer01.mdl"
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed_shotgun"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
@@ -539,7 +539,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer02.mdl"
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed_shotgun"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
@@ -574,7 +574,7 @@ ATT.ActivateElements = {"muzzle"}
 ATT.Model = "models/weapons/cod2019/attachs/muzzles/db/attachment_vm_sh_charlie725_silencer03.mdl"
 
 ATT.Silencer = true
-ATT.MuzzleParticleOverride = "AC_muzzle_shotgun_suppressed"
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed_shotgun"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 

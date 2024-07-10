@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\fal\weapon_vm_ar_falima_shortbarrel_rgb"
-    "$bumpmap" "models\cod2019\fal\weapon_vm_ar_falima_shortbarrel_n"
-    "$phongexponenttexture" "models\cod2019\fal\weapon_vm_ar_falima_shortbarrel_e"
+    "$basetexture" "models\cod2019\fal\weapon_vm_ar_falima_mag_ext_rgb"
+    "$bumpmap" "models\cod2019\fal\weapon_vm_ar_falima_mag_ext_n"
+    "$phongexponenttexture" "models\cod2019\fal\weapon_vm_ar_falima_mag_ext_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this
@@ -20,7 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.149 0.149 0.145]"                 
+    "$envmaptint" "[0.133 0.125 0.114]"                 
 
     //remove this if not using MWB
     "Proxies"
@@ -29,7 +29,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.149 0.149 0.145]"
+            "color" "[0.133 0.125 0.114]"
         }
     }
 }
