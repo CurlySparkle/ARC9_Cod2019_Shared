@@ -1651,9 +1651,10 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.07
 	ATT.PhysBulletMuzzleVelocityMult = 1.20
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 1.05
-	ATT.DeployTimeMult = 1.07
-	ATT.PhysBulletMuzzleVelocityMult = 1.20
+	ATT.PhysBulletMuzzleVelocityAdd = 116 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.043
+	ATT.RangeMinMult = 1.15
+	ATT.RangeMaxMult = 1.15
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_spr208_barrel_sil")

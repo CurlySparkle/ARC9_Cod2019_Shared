@@ -1976,9 +1976,9 @@ L["cod2019_spr208_barrel_long.printname"] = "SP-R 660 mm"
 L["cod2019_spr208_barrel_long.compactname"] = "SP-R"
 L["cod2019_spr208_barrel_long.description"] = "Sloan Precisions konturerade 660 mm pipa förbättrar mynningshastigheten och ökar vapnets dödliga räckvidd."
 
-L["cod2019_spr208_barrel_04.printname"] = "XRK 208 Dragoon"
-L["cod2019_spr208_barrel_04.compactname"] = "Dragoon"
-L["cod2019_spr208_barrel_04.description"] = "Tung <color=255,255,100>inbyggd ljuddämpare</color> med monolitisk kärna ökar mynningshastigheten medans den behåller en låg ljudsignatur."
+L["cod2019_spr208_barrel_sil.printname"] = "XRK 208 Dragoon"
+L["cod2019_spr208_barrel_sil.compactname"] = "Dragoon"
+L["cod2019_spr208_barrel_sil.description"] = "Tung <color=255,255,100>inbyggd ljuddämpare</color> med monolitisk kärna ökar mynningshastigheten medans den behåller en låg ljudsignatur."
 
 /////////////// Stocks
 L["cod2019_spr208_stock_sniper.printname"] = "XRK SP-TAC 208 Ultimate"

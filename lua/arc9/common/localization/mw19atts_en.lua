@@ -2601,9 +2601,9 @@ L["cod2019_spr208_barrel_long.printname"] = "SP-R 26\""
 L["cod2019_spr208_barrel_long.compactname"] = "SP-R"
 L["cod2019_spr208_barrel_long.description"] = "Sloan Precision's contoured 26 inch barrel improves muzzle velocity and extends the weapon's lethal range"
 
-L["cod2019_spr208_barrel_04.printname"] = "XRK 208 Dragoon"
-L["cod2019_spr208_barrel_04.compactname"] = "Dragoon"
-L["cod2019_spr208_barrel_04.description"] = "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a low sound signature."
+L["cod2019_spr208_barrel_sil.printname"] = "XRK 208 Dragoon"
+L["cod2019_spr208_barrel_sil.compactname"] = "Dragoon"
+L["cod2019_spr208_barrel_sil.description"] = "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a low sound signature."
 
 /////////////// Stocks
 L["cod2019_spr208_stock_sniper.printname"] = "XRK SP-TAC 208 Ultimate"
