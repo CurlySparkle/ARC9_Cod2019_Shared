@@ -2051,13 +2051,13 @@ L["cod2019_dragunov_stock_medium.compactname"] = "Stalker-S."
 L["cod2019_dragunov_stock_medium.description"] = "Western stock adaptor designed to improve target acquisition."
 
 /////////////// Magazine
-L["cod2019_dragunov_mag_15.printname"] = string.format(mw19magtext.mag, "15")
-L["cod2019_dragunov_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
-L["cod2019_dragunov_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762x54"])
+L["cod2019_svd_mag_15.printname"] = string.format(mw19magtext.mag, "15")
+L["cod2019_svd_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
+L["cod2019_svd_mag_15.description"] = string.format(mw19magtext.desc, "15", mw19ammotype["762x54"])
 
-L["cod2019_dragunov_mag_20.printname"] = string.format(mw19magtext.mag, "20")
-L["cod2019_dragunov_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
-L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762x54"])
+L["cod2019_svd_mag_20.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_svd_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_svd_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762x54"])
 
 //////////////////// HDR
 /////////////// Barrels
