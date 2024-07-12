@@ -2785,8 +2785,9 @@ ATT.BulletBones = {
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
 	ATT.DamageMaxMult = 0.85
-	ATT.DamageMinMult = 0.85
+	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
+	ATT.RangeMinult = 0.7
 else -- Warzone Stats
 	ATT.RPMAdd = 121
 	ATT.PhysBulletMuzzleVelocityAdd = -153 / ARC9.HUToM
@@ -2854,8 +2855,9 @@ ATT.ShellScale = 0.06
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
 	ATT.DamageMaxMult = 0.85
-	ATT.DamageMinMult = 0.85
+	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
+	ATT.RangeMinult = 0.7
 	ATT.ReloadTimeMult = 1.13
 	ATT.DeployTimeMult = 1.13
 	ATT.AimDownSightsTimeMult = 1.13
@@ -4056,8 +4058,9 @@ ATT.ShellScale = 0.06
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
 	ATT.DamageMaxMult = 0.85
-	ATT.DamageMinMult = 0.85
+	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
+	ATT.RangeMinult = 0.7
 	ATT.ReloadTimeMult = 1.05
 	ATT.ReloadTimeMult = 1.1
 	ATT.SprintToFireTimeMult = 1.05
@@ -4114,8 +4117,9 @@ ATT.ShellScale = 0.06
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
 	ATT.DamageMaxMult = 0.85
-	ATT.DamageMinMult = 0.85
+	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
+	ATT.RangeMinult = 0.7
 	ATT.ReloadTimeMult = 1.1
 	ATT.SprintToFireTimeMult = 1.1
 	ATT.AimDownSightsTimeMult = 1.1
