@@ -3,6 +3,7 @@ ENT.Type = "anim"
 
 ENT.GasRadius = 164
 ENT.LifeTime = 13
+ENT.NerveGasDamage = 5 -- Amount of damage per tick
 
 PrecacheParticleSystem("AC_nade_gasheal_dust")
 PrecacheParticleSystem("AC_nade_gasheal_explode")

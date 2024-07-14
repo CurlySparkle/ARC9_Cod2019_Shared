@@ -5,6 +5,22 @@ include("shared.lua")
 
 ENT.smokeSound = nil
 
+ENT.FriendlyNPCs = {
+    ["npc_citizen"] = true,
+    ["npc_alyx"] = true,
+    ["npc_barney"] = true,
+    ["npc_lambdaplayer"] = true,
+}
+
+ENT.EnemyClasses = {
+    [CLASS_ZOMBIE] = true,
+    [CLASS_COMBINE] = true,
+    [CLASS_MANHACK] = true,
+    [CLASS_ANTLION] = true,
+    [CLASS_HEADCRAB] = true,
+    [CLASS_HEADCRAB] = true,
+}
+
 function ENT:Initialize()
     self:SetModel("models/dav0r/hoverball.mdl")
     --[[self:PhysicsInit(SOLID_VPHYSICS)
@@ -25,7 +41,7 @@ function ENT:Initialize()
     ParticleEffect("AC_nade_gasheal_explode", self:GetPos(), self:GetAngles(), self, 0)
 
     self:SetParent(NULL)
-    --sound.EmitHint(SOUND_DANGER, self:GetPos(), self.GasRadius * 2, self.LifeTime, nil)
+    --sound.EmitHint(SOUND_CONTEXT_ALLIES_ONLY, self:GetPos(), self.GasRadius * 2, self.LifeTime, nil)
 end 
 
 local function doesEntityBreathe(ent)
@@ -48,11 +64,29 @@ function ENT:Think()
                 continue
             end
 
-           if e:IsPlayer() then
-             if (e.NextCanHealthGasTime or 0) > CurTime() then continue end
-             e:SetHealth(math.min(e:Health() + 4, e:GetMaxHealth()))
-             e.NextCanHealthGasTime = CurTime() + 0.2
-           end
+            if e:IsPlayer() then
+                if (e.NextCanHealthGasTime or 0) > CurTime() then continue end
+                e:SetHealth(math.min(e:Health() + 4, e:GetMaxHealth()))
+                e.NextCanHealthGasTime = CurTime() + 0.2
+            elseif e:IsNPC() or e:IsNextBot() then
+                local class = e:GetClass()
+                if self.FriendlyNPCs[class] then
+                    -- Heal friendly NPCs
+                    if (e.NextCanHealthGasTime or 0) > CurTime() then continue end
+                    e:SetHealth(math.min(e:Health() + 4, e:GetMaxHealth()))
+                    e.NextCanHealthGasTime = CurTime() + 0.2
+                elseif self.EnemyClasses[e:Classify()] then
+                    -- Damage enemy NPCs with nerve gas
+                    if (e.NextCanDamageGasTime or 0) > CurTime() then continue end
+                    local dmgInfo = DamageInfo()
+                    dmgInfo:SetDamage(self.NerveGasDamage)
+                    dmgInfo:SetDamageType(DMG_NERVEGAS)
+                    dmgInfo:SetAttacker(self)
+                    dmgInfo:SetInflictor(self)
+                    e:TakeDamageInfo(dmgInfo)
+                    e.NextCanDamageGasTime = CurTime() + 0.2
+                end
+            end
         end
     end
 
