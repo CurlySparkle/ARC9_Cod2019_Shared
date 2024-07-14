@@ -1196,8 +1196,8 @@ ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_mine")
 -----------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "FTAC Mine 20\" Loc"
-ATT.CompactName = "Echo"
+ATT.PrintName = "FTAC Snapshot 20\" Bolts"
+ATT.CompactName = "Snap."
 ATT.Description = [[Replaces the bolt tip with an Echo Locator bolt that when it sticks to any surfaces it will explode in a radius that will reveal enemy location.]]
 ATT.SortOrder = 0.5
 

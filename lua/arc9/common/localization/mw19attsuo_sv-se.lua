@@ -302,7 +302,7 @@ L["cod2019_ammo_crossbow_semtex.description"] = "Pilar av kol med <color=255,255
 
 L["cod2019_ammo_crossbow_hl2.printname"] = "FTAC 508 mm Motståndets Pilar"
 L["cod2019_ammo_crossbow_hl2.compactname"] = "Motstånd"
-L["cod2019_ammo_crossbow_hl2.description"] = "Pilar som glöder <color=255,255,100>otroligt varmt</color> Perfekt för en specifik forskare som blivit motståndsman. <color=255,100,100>Pilar kan inte återhämtas</color>."
+L["cod2019_ammo_crossbow_hl2.description"] = "Pilar som glöder <color=255,255,100>otroligt varmt</color>. Perfekt för en specifik forskare som blivit motståndsman. <color=255,100,100>Pilar kan inte återhämtas</color>."
 
 L["cod2019_ammo_crossbow_mine.printname"] = "FTAC 508 mm Närhetspilar"
 L["cod2019_ammo_crossbow_mine.compactname"] = "Närhet"
@@ -311,6 +311,10 @@ L["cod2019_ammo_crossbow_mine.description"] = "Pilar med <color=255,255,100>När
 L["cod2019_ammo_crossbow_smoke.printname"] = "FTAC 508 mm Rökpilar"
 L["cod2019_ammo_crossbow_smoke.compactname"] = "Rök"
 L["cod2019_ammo_crossbow_smoke.description"] = "Pilar med icke-dödliga <color=100,255,100>Rökspetsar</color> designade att gömma din rörelse.. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
+
+L["cod2019_ammo_crossbow_locator.printname"] = "FTAC 508 mm Snapshot-Pilar"
+L["cod2019_ammo_crossbow_locator.compactname"] = "Snap."
+L["cod2019_ammo_crossbow_locator.description"] = "Pilar med icke-dödliga <color=100,255,100>Snapshot-spetsar</color> som fastnar på ytor och, när den sprängs, markerar måltavlor i närheten. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
 //////////////////// SP-R 208
 /////////////// Magazine

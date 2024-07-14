@@ -303,7 +303,7 @@ L["cod2019_ammo_crossbow_semtex.description"] = "Carbon bolts with <color=255,25
 
 L["cod2019_ammo_crossbow_hl2.printname"] = "FTAC Resistance 20\" Bolts"
 L["cod2019_ammo_crossbow_hl2.compactname"] = "Resistance"
-L["cod2019_ammo_crossbow_hl2.description"] = "Bolts that glow <color=255,255,100>incredibly hot</color> Perfect for a certain scientist turned resistance fighter. <color=255,100,100>Bolts can not be recovered</color>."
+L["cod2019_ammo_crossbow_hl2.description"] = "Bolts that glow <color=255,255,100>incredibly hot</color>. Perfect for a certain scientist turned resistance fighter. <color=255,100,100>Bolts can not be recovered</color>."
 
 L["cod2019_ammo_crossbow_mine.printname"] = "FTAC Proximity 20\" Bolts"
 L["cod2019_ammo_crossbow_mine.compactname"] = "Proximity"
@@ -312,6 +312,10 @@ L["cod2019_ammo_crossbow_mine.description"] = "Bolts with <color=255,255,100>Pro
 L["cod2019_ammo_crossbow_smoke.printname"] = "FTAC Smokescreen 20\" Bolts"
 L["cod2019_ammo_crossbow_smoke.compactname"] = "Smoke."
 L["cod2019_ammo_crossbow_smoke.description"] = "Bolts with non-lethal <color=100,255,100>Smoke</color> warheads designed to conceal your movement. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
+
+L["cod2019_ammo_crossbow_locator.printname"] = "FTAC Snapshot 20\" Bolts"
+L["cod2019_ammo_crossbow_locator.compactname"] = "Snap."
+L["cod2019_ammo_crossbow_locator.description"] = "Bolts with non-lethal <color=100,255,100>Snapshot</color> warheads that stick onto surfaces and, upon detonation, highlights any nearby targets. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
 
 //////////////////// SP-R 208
 /////////////// Magazine
