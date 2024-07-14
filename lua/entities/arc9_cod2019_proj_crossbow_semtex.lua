@@ -2,6 +2,7 @@ AddCSLuaFile()
 
 ENT.Base = "arc9_cod2019_proj_arrow_base"
 ENT.PrintName = "Semtex Bolt"
+ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt_phys.mdl"
 
 if CLIENT then
     killicon.Add( "arc9_cod2019_proj_crossbow_he", "hud/killicons/default", Color( 255, 255, 255, 255 ) )
@@ -11,7 +12,6 @@ function ENT:SetupDataTables()
     self:NetworkVar("Float", 0, "LifeTime")
 end
 
-ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt_phys.mdl"
 ENT.ImpactDamage = 25
 ENT.CanPickup = false
 ENT.ImpactScorch = false

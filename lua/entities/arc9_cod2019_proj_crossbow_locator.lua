@@ -72,8 +72,7 @@ function ENT:Detonate()
 	ParticleEffect("small_smoke_effect3", self:GetPos(), Angle(0, 0, 0))
 	ParticleEffect("weapon_sensorgren_detonate", self:GetPos(), Angle(0, 0, 0))
 	self:EmitSound("COD2019.Snapshot.Explode")
-    
-    -- Sphere check
+
     local entities = ents.FindInSphere(pos, 512)
     for _, ent in ipairs(entities) do
         if ent:IsPlayer() or ent:IsNPC() or ent:IsNextBot() then
@@ -83,6 +82,22 @@ function ENT:Detonate()
 	
     util.Decal("FadingScorch", self:GetPos(), self:GetPos() + self:GetUp() * -100, self:GetPos())
     self:Remove()
+end
+
+function ENT:OnRemove()
+if CLIENT then
+	local dlight = DynamicLight(self:EntIndex())
+	if (dlight) then
+		dlight.pos = self:GetPos()
+		dlight.r = 255
+		dlight.g = 0
+		dlight.b = 0
+		dlight.brightness = 5
+		dlight.Decay = 500
+		dlight.Size = 256
+		dlight.DieTime = CurTime() + 4
+	end
+end
 end
 
 function ENT:GlowEntity(ent)
@@ -126,12 +141,12 @@ if CLIENT then
     net.Receive("DetectorBombGlow", function()
         local ent = net.ReadEntity()
         if IsValid(ent) then
-            ent.GlowTime = CurTime() + 7
+            ent.GlowTime = CurTime() + 10
             
             hook.Add("PreDrawHalos", "DetectorBombGlow_" .. ent:EntIndex(), function()
                 if IsValid(ent) and ent.GlowTime > CurTime() then
                     local timeLeft = ent.GlowTime - CurTime()
-                    local alpha = math.Clamp(timeLeft / 7 * 255, 0, 255)
+                    local alpha = math.Clamp(timeLeft / 10 * 255, 0, 255)
                     halo.Add({ent}, Color(255, 0, 0, alpha), 2, 2, 1, true, true)
                 else
                     hook.Remove("PreDrawHalos", "DetectorBombGlow_" .. ent:EntIndex())
