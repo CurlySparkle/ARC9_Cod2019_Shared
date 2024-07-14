@@ -1193,6 +1193,29 @@ ATT.ActivateElements = {"bolt_none"}
 
 ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_mine")
 
+-----------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FTAC Mine 20\" Loc"
+ATT.CompactName = "Echo"
+ATT.Description = [[Replaces the bolt tip with an Echo Locator bolt that when it sticks to any surfaces it will explode in a radius that will reveal enemy location.]]
+ATT.SortOrder = 0.5
+
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_locbolt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt.mdl"
+ATT.BoneMerge = true
+
+ATT.ShootEnt = "arc9_cod2019_proj_crossbow_locator"
+
+ATT.Category = {"cod2019_ammo_crossbow"}
+ATT.ActivateElements = {"bolt_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_locator")
+
 /////////////////////////// -- SKS
 ATT = {}
 
