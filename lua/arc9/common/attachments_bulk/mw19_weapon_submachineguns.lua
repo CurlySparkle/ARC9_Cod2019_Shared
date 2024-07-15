@@ -2380,6 +2380,18 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/vector/attachmen
 ATT.BoneMerge = true
 
 ATT.ClipSizeAdd = -13
+ATT.RunawayBurst = true
+
+ATT.Firemodes = {
+	{
+		Mode = 2,
+		PoseParam = 0,
+	},
+	{
+		Mode = 1,
+		PoseParam = 1,
+	},
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 0.9

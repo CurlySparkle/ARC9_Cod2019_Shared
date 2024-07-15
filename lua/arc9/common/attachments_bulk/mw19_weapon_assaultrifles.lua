@@ -4324,6 +4324,13 @@ ATT.BulletBones = {
 
 ATT.ClipSizeAdd = -10
 
+ATT.Firemodes = {
+	{
+		Mode = 1,
+		PoseParam = 1,
+	},
+}
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.93
 	ATT.DeployTimeMult = 0.88
