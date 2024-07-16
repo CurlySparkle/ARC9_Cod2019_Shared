@@ -1,7 +1,7 @@
 AddCSLuaFile()
 
 ENT.Base = "arc9_cod2019_proj_arrow_base"
-ENT.PrintName = "Echo Locator Bolt"
+ENT.PrintName = "Echo Locator 2 Bolt"
 ENT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt_phys.mdl"
 
 if CLIENT then
@@ -12,46 +12,52 @@ function ENT:SetupDataTables()
     self:NetworkVar("Float", 0, "LifeTime")
 end
 
+if SERVER then
+    util.AddNetworkString("DetectorBombGlow")
+end
+
 ENT.ImpactDamage = 25
+ENT.NextSphereCheck = 0
 ENT.CanPickup = false
 ENT.ImpactScorch = false
 ENT.ExplodeOnImpact = false
 
 DEFINE_BASECLASS(ENT.Base)
 
-function ENT:OnInitialize()
-    self:SetLifeTime(0.75)
-    self:AddFlags(FL_GRENADE)
-    self:AddFlags(FL_ONFIRE)
-    self.nextBeep = self:GetLifeTime()
+if SERVER then
+
+function ENT:Initialize()
+   self.DeathTime = CurTime() + 10
+   BaseClass.Initialize(self)
 end 
 
 function ENT:Think()
-if SERVER then
-    if (IsValid(self:GetParent()) && self:GetParent():Health() <= 0 && self:GetParent():GetMaxHealth() > 1) then
-        self:Explode()
-        return
-    end
+    local currentTime = CurTime()
 
-    self:SetLifeTime(self:GetLifeTime() - FrameTime())
-
-    if (self:GetLifeTime() > 0.1 && self:GetLifeTime() <= self.nextBeep) then
-        self.nextBeep = self:GetLifeTime() * 0.75
-        
+    if currentTime >= self.NextSphereCheck then
+        local owner = self:GetOwner()
+        local entities = ents.FindInSphere(self:GetPos(), 512)
+        for _, ent in ipairs(entities) do
+            if (ent:IsPlayer() or ent:IsNPC() or ent:IsNextBot()) and ent ~= owner then
+                self:GlowEntity(ent)
+            end
+        end
+		
         local effectData = EffectData()
         effectData:SetEntity(self)
         effectData:SetOrigin(self:GetPos())
         util.Effect("cod2019_effect_semtex", effectData)
+        
+        self.NextSphereCheck = currentTime + 2
     end
 
-    if (self:GetLifeTime() <= 0) then
+    if currentTime > self.DeathTime then 
         self:Explode()
     end
 
-    self:NextThink(CurTime())
-	BaseClass.Think(self)
+    self:NextThink(currentTime + 0.1)  -- Run Think frequently, but only check sphere every 2 seconds
+    BaseClass.Think(self)
     return true
-end
 end
 
 function ENT:Explode()
@@ -63,16 +69,11 @@ function ENT:Explode()
 	ParticleEffect("small_smoke_effect3", self:GetPos(), Angle(0, 0, 0))
 	ParticleEffect("weapon_sensorgren_detonate", self:GetPos(), Angle(0, 0, 0))
 	self:EmitSound("COD2019.Snapshot.Explode")
-
-    local entities = ents.FindInSphere(self:GetPos(), 512)
-    for _, ent in ipairs(entities) do
-        if ent:IsPlayer() or ent:IsNPC() or ent:IsNextBot() then
-            self:GlowEntity(ent)
-        end
-    end
 	
     util.Decal("FadingScorch", self:GetPos(), self:GetPos() + self:GetUp() * -100, self:GetPos())
     self:Remove()
+end
+
 end
 
 function ENT:OnRemove()
@@ -103,12 +104,12 @@ if CLIENT then
     net.Receive("DetectorBombGlow", function()
         local ent = net.ReadEntity()
         if IsValid(ent) then
-            ent.GlowTime = CurTime() + 10
+            ent.GlowTime = CurTime() + 1.5
             
             hook.Add("PreDrawHalos", "DetectorBombGlow_" .. ent:EntIndex(), function()
                 if IsValid(ent) and ent.GlowTime > CurTime() then
                     local timeLeft = ent.GlowTime - CurTime()
-                    local alpha = math.Clamp(timeLeft / 10 * 255, 0, 255)
+                    local alpha = math.Clamp(timeLeft * 255, 0, 255)
                     halo.Add({ent}, Color(255, 0, 0, alpha), 2, 2, 1, true, true)
                 else
                     hook.Remove("PreDrawHalos", "DetectorBombGlow_" .. ent:EntIndex())
@@ -116,8 +117,4 @@ if CLIENT then
             end)
         end
     end)
-end
-
-if SERVER then
-    util.AddNetworkString("DetectorBombGlow")
 end

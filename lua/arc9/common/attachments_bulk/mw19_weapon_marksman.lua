@@ -1214,6 +1214,17 @@ ATT.ShootEnt = "arc9_cod2019_proj_crossbow_locator"
 ATT.Category = {"cod2019_ammo_crossbow"}
 ATT.ActivateElements = {"bolt_none"}
 
+ATT.ToggleStats = {
+	{
+		PrintName = "Norm",
+		ShootEnt = "arc9_cod2019_proj_crossbow_locator",
+	},
+	{
+		PrintName = "Echo",
+		ShootEnt = "arc9_cod2019_proj_crossbow_locator2",
+	}
+}
+
 ARC9.LoadAttachment(ATT, "cod2019_ammo_crossbow_locator")
 
 /////////////////////////// -- SKS
