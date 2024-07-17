@@ -363,3 +363,10 @@ L["cod2019_rytec_mag_special.description"] = ARC9:GetPhrase("cod2019_spr208_mag_
 L["cod2019_ammo_gl_gasheal.printname"] = "40mm Stim"
 L["cod2019_ammo_gl_gasheal.compactname"] = "Stim"
 L["cod2019_ammo_gl_gasheal.description"] = "Custom 40mm shells with <color=100,255,100>high pressure tear gas</color> grenades that detonate on impact. The released gases <color=100,255,100>heal</color> the user and their teammates."
+
+//////////////////////// Grenades
+//////////////////// Gas Grenade
+/////////////// Ammo
+L["cod2019_gas_heal.printname"] = "Stim Gas"
+L["cod2019_gas_heal.compactname"] = "Stim"
+L["cod2019_gas_heal.description"] = "Replaces the tear gas with <color=100,255,100>healing gas</color> that <color=100,255,100>heal</color> the user and their teammates."

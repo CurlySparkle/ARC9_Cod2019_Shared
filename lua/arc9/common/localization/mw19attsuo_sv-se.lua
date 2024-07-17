@@ -328,3 +328,10 @@ L["cod2019_spr208_mag_xmag_alt.description"] = "5-patronersmagasin som tillåter
 L["cod2019_ammo_gl_gasheal.printname"] = "40 mm Stim"
 L["cod2019_ammo_gl_gasheal.compactname"] = "Stim"
 L["cod2019_ammo_gl_gasheal.description"] = "Anpassade 40 mm patroner fyllda med <color=100,255,100>tårgasgranater med högt tryck</color> som sprängs vid kontakt. Släppta gaserna <color=100,255,100>helar</color> användaren och dess lagkamrater."
+
+//////////////////////// Grenades
+//////////////////// Gas Grenade
+/////////////// Ammo
+L["cod2019_gas_heal.printname"] = "Stim-Gas"
+L["cod2019_gas_heal.compactname"] = "Stim"
+L["cod2019_gas_heal.description"] = "Ersätter tårgasen med <color=100,255,100>helande gas</color> som <color=100,255,100>helar</color> användaren och dess lagkamrater."
