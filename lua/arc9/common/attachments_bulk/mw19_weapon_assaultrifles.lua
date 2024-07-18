@@ -1378,6 +1378,29 @@ ATT.Sights = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_m4_carryhandle_v2")
+/////////////// -- cod2019_m4a1_ubgl
+ATT = {}
+
+ATT.PrintName = "UBGL"
+ATT.Description = "UBGL"
+--ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barshort.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_m4_grip"
+--ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ub_mike203_m4.mdl"
+ATT.BoneMerge = true
+ATT.LHIK = true
+ATT.LHIK_Priority = 10
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m4a1_ubgl")
 
 //////////////////////////////////////////////// -- FR 5.56
 ATT = {}
