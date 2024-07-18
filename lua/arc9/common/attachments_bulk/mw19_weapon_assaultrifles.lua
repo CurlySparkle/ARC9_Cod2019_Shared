@@ -1420,10 +1420,10 @@ ATT.RPMUBGL = 200
 ATT.SpreadUBGL = 0.02
 
 ATT.FirstShootSoundUBGL = false
-ATT.ShootSoundUBGL = "COD2019.M32.Fire"
-ATT.DistantShootSoundUBGL = "Distant_Launcher.Outside"
-ATT.ShootSoundIndoorUBGL =  "COD2019.M32.Fire"
-ATT.DistantShootSoundIndoorUBGL = "Distant_Launcher.Inside"
+ATT.ShootSoundUBGL = "weapons/cod2019/shared/ubgl/weap_mike203_fire_plr_01.ogg"
+-- ATT.DistantShootSoundUBGL = ""
+-- ATT.ShootSoundIndoorUBGL =  ""
+-- ATT.DistantShootSoundIndoorUBGL = ""
 
 ATT.EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg"
 ATT.ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg"
