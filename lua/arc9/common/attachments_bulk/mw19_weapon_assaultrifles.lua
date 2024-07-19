@@ -23,10 +23,7 @@ glcode = {
 	Model = "models/weapons/cod2019/attachs/ubgl/attachment_vm_ub_mike203.mdl",
 	LHIK = true,
 	LHIK_Priority = 100,
-
 	ReloadInSightsUBGL = false,
-
-	MuzzleEffectQCAUBGL = 1,
 
 	DropMagazineSoundsUBGL = {
 	   "weapons/cod2019/m32/40mm_shell_02.ogg",
@@ -35,10 +32,6 @@ glcode = {
 	IKAnimationProxy = {
 		["fire_ubgl"] = {
 			Source = "fire",
-			MinProgress = 0.9,
-			EventTable = {
-				-- { s = "uplp_urban_temp/scar/mech-03.ogg", t = 0 },
-			}
 		},
 		["fire_empty_ubgl"] = {
 			Source = "fire",
@@ -49,14 +42,27 @@ glcode = {
 			FireASAP = true,
 			RefillProgress = 0.75,
 			EventTable = {
-				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_start.ogg", t = 0/30 },
-				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_armup.ogg", t = 5/30 },
-				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_open_01.ogg", t = 7.5/30 },
-				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsout_01.ogg", t = 14/30 },
-				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsin_01.ogg", t = 37.5/30 },
-				{ s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_close_01.ogg", t = 62.5/30 },
-				{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_grab2.ogg", t = 67.5/30},
-				{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_end.ogg", t = 70/30},
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_lift.ogg", t = 0/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glopen.ogg", t = 10/30 },
+				{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsout_01.ogg", t = 13/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin_01.ogg", t = 33/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin.ogg", t = 40/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glclose.ogg", t = 50/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_end.ogg", t = 45/30},
+			}
+		},
+		["reload_ubgl_fast"] = {
+			Source = "reload_fast",
+			MinProgress = 0.95,
+			FireASAP = true,
+			RefillProgress = 0.75,
+			EventTable = {
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_lift.ogg", t = 0/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glopen.ogg", t = 10/30 },
+				{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsout_01.ogg", t = 13/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin.ogg", t = 34/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glclose.ogg", t = 46/30 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_reload_end.ogg", t = 45/30},
 			}
 		},
 		["enter_ubgl"] = {
@@ -64,8 +70,7 @@ glcode = {
 			MinProgress = 0.65,
 			FireASAP = true,
 			EventTable = {
-				-- { s = pathUTC .. "cloth_1.ogg", t = 0 / 30, c = ca, v = 1 },
-				-- { s = pathUTC .. "movement-rifle-02.ogg", t = 2/30, v = 0.8 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_to_grenade.ogg", t = 0/30},
 			}
 		},
 		["idle_ubgl"] = {
@@ -76,8 +81,7 @@ glcode = {
 			MinProgress = 0.65,
 			FireASAP = true,
 			EventTable = {
-				-- { s = pathUTC .. "cloth_2.ogg", t = 0 / 30, c = ca, v = 1 },
-				-- { s = pathUTC .. "movement-rifle-04.ogg", t = 2/30, v = 0.3 },
+				{s = "weapons/cod2019/shared/ubgl/ubgl_from_grenade.ogg", t = 0/30},
 			}
 		},
 		["enter_sights_ubgl"] = {
@@ -98,37 +102,31 @@ glcode = {
 	},
 
 	IKGunMotionQCA = 2,
-
-	IKGunMotionMult = 0.5,
-	IKGunMotionAngleMult = 0.5,
+	IKGunMotionMult = 0.85,
+	IKGunMotionAngleMult = 0.85,
 
 	IKCameraMotionQCA = 3,
 	IKCameraMotionOffsetAngle = Angle(0, 0, 90),
-
 	CamCoolViewUBGL = false,
-
-	ActivePosHook = function(wep, vec)
-		return vec + Vector(0, 0, 0)
-	end,
 
 	SprintPosUBGL = Vector(0, -2.3, -1.5),
 	SprintAngUBGL = Angle(35, 10, -35),
+	BobSprintUBGLMult = 2,
 
 	UBGL = true,
 	UBGLAmmo = "smg1_grenade",
 	UBGLClipSize = 1,
 	UBGLFiremode = 1,
 	UBGLChamberSize = 0,
-	-- ShootVolumeUBGL = 111,
 
 	RPMUBGL = 200,
 
 	SpreadUBGL = 0.02,
 
 	FirstShootSoundUBGL = false,
-	ShootSoundUBGL = "COD2019.M32.Fire",
+	ShootSoundUBGL = "COD2019.M203.Fire",
 	DistantShootSoundUBGL = "Distant_Launcher.Outside",
-	ShootSoundIndoorUBGL =  "COD2019.M32.Fire",
+	ShootSoundIndoorUBGL =  "COD2019.M203.Fire",
 	DistantShootSoundIndoorUBGL = "Distant_Launcher.Inside",
 
 	EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg",
@@ -137,15 +135,16 @@ glcode = {
 	TriggerDelayUBGL = false,
 
 	ShootEntForceUBGL = 2500,
-
 	MuzzleParticleUBGL = "muzzleflash_m79",
+	MuzzleEffectQCAUBGL = 1,
+	ShootPosOffset = Vector(7, 0, -6),
+	ShootPosOffsetSights = Vector(0, 0, -5),
 
 	ModelOffset = Vector(-0.55, 0.05, 1.5),
 	ModelAngleOffset = Angle(0, 180, 0),
 
 	CantPeekUBGL = true,
 	NoAimAssistUBGL = true,
-
 	HasSightsUBGL = false,
 
 	DrawFunc = function(swep, model) 
