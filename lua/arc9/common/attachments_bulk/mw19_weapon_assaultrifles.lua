@@ -2478,6 +2478,78 @@ ATT.DropMagazineSounds = {
 }
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_mag_drum")
+/////////////// -- cod2019_scar_ubgl
+ATT = {}
+
+ATT.PrintName = "UBGL"
+ATT.Description = "UBGL"
+--ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barshort.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_scar_grip"
+--ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_grenade_launcher.mdl"
+ATT.BoneMerge = true
+ATT.LHIK = true
+ATT.LHIK_Priority = 100
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
+}
+
+ATT.DropMagazineSoundsUBGL = {
+   "weapons/cod2019/m32/40mm_shell_02.ogg",
+}
+
+ATT.UBGL = true
+ATT.UBGLAmmo = "smg1_grenade"
+ATT.UBGLClipSize = 1
+ATT.UBGLFiremode = 1
+ATT.UBGLChamberSize = 0
+ATT.RPMUBGL = 200
+ATT.SpreadUBGL = 0.02
+
+ATT.FirstShootSoundUBGL = false
+ATT.ShootSoundUBGL = "COD2019.M203.Fire"
+ATT.DistantShootSoundUBGL = "Distant_Launcher.Outside"
+ATT.ShootSoundIndoorUBGL =  "COD2019.M203.Fire"
+ATT.DistantShootSoundIndoorUBGL = "Distant_Launcher.Inside"
+
+ATT.EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg"
+ATT.ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg"
+
+ATT.ReloadInSightsUBGL = false
+ATT.TriggerDelayUBGL = false
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
+ATT.ShootEntForceUBGL = 2500
+ATT.ShootPosOffset = Vector(7, 0, -7)
+ATT.ShootPosOffsetSights = Vector(0, 0, -7)
+ATT.MuzzleParticleUBGL = "muzzleflash_m79"
+ATT.MuzzleEffectQCAUBGL = 1
+
+ATT.CantPeekUBGL = true
+ATT.NoAimAssistUBGL = true
+ATT.HasSightsUBGL = false
+
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_he.compactname")
+
+ATT.Attachments = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+		Category = {"cod2019_ammo_ubgl"},
+		Pos = Vector(-15, 3, 6),
+		Ang = Angle(0, 0, 0),
+	},
+}
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_scar_ubgl")
 
 //////////////////////////////////////////////// -- AK-47
 /////////////// -- cod2019_akilo47_rail_sight
@@ -3068,6 +3140,78 @@ ATT.SpreadSights = 0.15
 ATT.DistributeDamage = true
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_origin12")
+/////////////// -- cod2019_ak47_ubgl
+ATT = {}
+
+ATT.PrintName = "UBGL"
+ATT.Description = "UBGL"
+--ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_barshort.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_ak47_grip"
+--ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ub_gpapa25.mdl"
+ATT.BoneMerge = true
+ATT.LHIK = true
+ATT.LHIK_Priority = 100
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
+}
+
+ATT.DropMagazineSoundsUBGL = {
+   "weapons/cod2019/m32/40mm_shell_02.ogg",
+}
+
+ATT.UBGL = true
+ATT.UBGLAmmo = "smg1_grenade"
+ATT.UBGLClipSize = 1
+ATT.UBGLFiremode = 1
+ATT.UBGLChamberSize = 0
+ATT.RPMUBGL = 200
+ATT.SpreadUBGL = 0.02
+
+ATT.FirstShootSoundUBGL = false
+ATT.ShootSoundUBGL = "COD2019.M203.Fire"
+ATT.DistantShootSoundUBGL = "Distant_Launcher.Outside"
+ATT.ShootSoundIndoorUBGL =  "COD2019.M203.Fire"
+ATT.DistantShootSoundIndoorUBGL = "Distant_Launcher.Inside"
+
+ATT.EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg"
+ATT.ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg"
+
+ATT.ReloadInSightsUBGL = false
+ATT.TriggerDelayUBGL = false
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
+ATT.ShootEntForceUBGL = 2500
+ATT.ShootPosOffset = Vector(7, 0, -7)
+ATT.ShootPosOffsetSights = Vector(0, 0, -7)
+ATT.MuzzleParticleUBGL = "muzzleflash_m79"
+ATT.MuzzleEffectQCAUBGL = 1
+
+ATT.CantPeekUBGL = true
+ATT.NoAimAssistUBGL = true
+ATT.HasSightsUBGL = false
+
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_he.compactname")
+
+ATT.Attachments = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+		Category = {"cod2019_ammo_ubgl"},
+		Pos = Vector(-15, 3, 6),
+		Ang = Angle(0, 0, 0),
+	},
+}
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_ak47_ubgl")
 
 //////////////////////////////////////////////// -- RAM-7
 ATT = {}
