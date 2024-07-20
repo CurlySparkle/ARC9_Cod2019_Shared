@@ -47,6 +47,9 @@ L["cod2019_attach_m203.printname"] = "M203 40 mm"
 L["cod2019_attach_m203.compactname"] = "M203"
 L["cod2019_attach_m203.description"] = "Undermonterad granattillsats."
 
+L["cod2019_ak47_ubgl.printname"] = "GP25 40 mm"
+L["cod2019_ak47_ubgl.compactname"] = "GP25"
+
 //////////////////// Stocks
 L["cod2019_xm4_stock.printname"] = "Colt Typ III"
 L["cod2019_xm4_stock.compactname"] = "Typ III"

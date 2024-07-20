@@ -51,6 +51,54 @@ L["cod2019_attach_m203.printname"] = "M203 40mm"
 L["cod2019_attach_m203.compactname"] = "M203"
 L["cod2019_attach_m203.description"] = "Underbarrel mounted grenade launcher."
 
+L["cod2019_kilo141_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_kilo141_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_kilo141_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_fal_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_fal_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_fal_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_m4a1_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_m4a1_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_m4a1_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_fr556_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_fr556_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_fr556_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_oden_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_oden_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_oden_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_m13_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_m13_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_m13_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_scar_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_scar_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_scar_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_ak47_ubgl.printname"] = "GP25 40mm"
+L["cod2019_ak47_ubgl.compactname"] = "GP25"
+L["cod2019_ak47_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_ram7_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_ram7_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_ram7_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_grau_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_grau_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_grau_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_cr56_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_cr56_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_cr56_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
+L["cod2019_an94_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_an94_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_an94_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+
 //////////////////// Stocks
 L["cod2019_xm4_stock.printname"] = "Colt Type III"
 L["cod2019_xm4_stock.compactname"] = "Type III"
