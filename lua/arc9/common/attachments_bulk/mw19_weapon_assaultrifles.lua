@@ -1399,10 +1399,6 @@ ATT.CustomPros = {
 	[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
 }
 
-ATT.ReloadInSightsUBGL = false
-
-ATT.MuzzleEffectQCAUBGL = 1
-
 ATT.DropMagazineSoundsUBGL = {
    "weapons/cod2019/m32/40mm_shell_02.ogg",
 }
@@ -1412,35 +1408,32 @@ ATT.UBGLAmmo = "smg1_grenade"
 ATT.UBGLClipSize = 1
 ATT.UBGLFiremode = 1
 ATT.UBGLChamberSize = 0
--- ATT.ShootVolumeUBGL = 111
 
 ATT.RPMUBGL = 200
-
 ATT.SpreadUBGL = 0.02
 
 ATT.FirstShootSoundUBGL = false
-ATT.ShootSoundUBGL = "weapons/cod2019/shared/ubgl/weap_mike203_fire_plr_01.ogg"
--- ATT.DistantShootSoundUBGL = ""
--- ATT.ShootSoundIndoorUBGL =  ""
--- ATT.DistantShootSoundIndoorUBGL = ""
+ATT.ShootSoundUBGL = "COD2019.M203.Fire"
+ATT.DistantShootSoundUBGL = "Distant_Launcher.Outside"
+ATT.ShootSoundIndoorUBGL =  "COD2019.M203.Fire"
+ATT.DistantShootSoundIndoorUBGL = "Distant_Launcher.Inside"
 
 ATT.EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg"
 ATT.ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg"
 
+ATT.ReloadInSightsUBGL = false
 ATT.TriggerDelayUBGL = false
-
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
 ATT.ShootEntForceUBGL = 2500
-
+ATT.ShootPosOffset = Vector(5, 0, -7)
+ATT.ShootPosOffsetSights = Vector(3, 0, -7)
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
+ATT.MuzzleEffectQCAUBGL = 1
 
 ATT.CantPeekUBGL = true
 ATT.NoAimAssistUBGL = true
-
 ATT.HasSightsUBGL = false
-
 ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_he.compactname")
-
-ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
 
 ATT.Attachments = {
 	{
@@ -4354,6 +4347,78 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_an94_mag_60_ak47")
+/////////////// -- cod2019_an94_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 (TESTING)"
+ATT.Description = "M203 (TESTING)"
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_an94_grip"
+--ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none","barrel_custom"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ub_mike203_an94.mdl"
+ATT.BoneMerge = true
+ATT.LHIK = true
+ATT.LHIK_Priority = 100
+
+ATT.CustomPros = {
+	[ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
+}
+
+ATT.DropMagazineSoundsUBGL = {
+   "weapons/cod2019/m32/40mm_shell_02.ogg",
+}
+
+ATT.UBGL = true
+ATT.UBGLAmmo = "smg1_grenade"
+ATT.UBGLClipSize = 1
+ATT.UBGLFiremode = 1
+ATT.UBGLChamberSize = 0
+
+ATT.RPMUBGL = 200
+ATT.SpreadUBGL = 0.02
+
+ATT.FirstShootSoundUBGL = false
+ATT.ShootSoundUBGL = "COD2019.M203.Fire"
+ATT.DistantShootSoundUBGL = "Distant_Launcher.Outside"
+ATT.ShootSoundIndoorUBGL =  "COD2019.M203.Fire"
+ATT.DistantShootSoundIndoorUBGL = "Distant_Launcher.Inside"
+
+ATT.EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg"
+ATT.ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg"
+
+ATT.ReloadInSightsUBGL = false
+ATT.TriggerDelayUBGL = false
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_hel"
+ATT.ShootEntForceUBGL = 2500
+ATT.ShootPosOffset = Vector(5, 0, -7)
+ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.MuzzleParticleUBGL = "muzzleflash_m79"
+ATT.MuzzleEffectQCAUBGL = 1
+
+ATT.CantPeekUBGL = true
+ATT.NoAimAssistUBGL = true
+ATT.HasSightsUBGL = false
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203_he.compactname")
+
+ATT.Attachments = {
+	{
+		PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+		Category = {"cod2019_ammo_ubgl"},
+		Pos = Vector(-15, 3, 6),
+		Ang = Angle(0, 0, 0),
+	},
+}
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_ubgl")
 
 //////////////////////////////////////////////// -- AS VAL
 ATT = {}
