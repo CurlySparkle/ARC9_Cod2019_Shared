@@ -6,7 +6,7 @@ local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone S
 /////////////// -- Grenade Launcher Code
 glcode = {
 	Description = "",
-	Icon = Material("entities/attachs/cod2019_ammo_gl_smoke.png", "mips smooth"),
+	Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_ubgl.png", "mips smooth"),
 	MenuCategory = "ARC9 - MW2019 Attachments",
 	Free = false,
 
@@ -33,8 +33,7 @@ glcode = {
 	UBGLFiremode = 1,
 	UBGLChamberSize = 0,
 
-	RPMUBGL = 200,
-
+	RPMUBGL = 100,
 	SpreadUBGL = 0.02,
 
 	FirstShootSoundUBGL = false,
@@ -48,7 +47,7 @@ glcode = {
 
 	TriggerDelayUBGL = false,
 
-	ShootEntForceUBGL = 2500,
+	ShootEntForceUBGL = 2000,
 	ShootEntUBGL = "arc9_cod2019_proj_40mm_hel",
 	MuzzleParticleUBGL = "muzzleflash_m79",
 	MuzzleEffectQCAUBGL = 1,
@@ -58,6 +57,11 @@ glcode = {
 	CantPeekUBGL = true,
 	NoAimAssistUBGL = true,
 	HasSightsUBGL = false,
+	
+	VisualRecoilUBGL = 1,
+	VisualRecoilPunchUBGL = 3,
+	VisualRecoilUpUBGL = 1,
+	UseVisualRecoilUBGL = true,
 
 	DrawFunc = function(swep, model) 
 		local eles = swep:GetElements()
@@ -235,8 +239,24 @@ ATT.ActivateElements = {"grip", "gp25"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ub_gpapa25.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootPosOffset = Vector(7, 0, -7)
-ATT.ShootPosOffsetSights = Vector(0, 0, -7)
+ATT.ShootPosOffset = Vector(8, 0, -5)
+ATT.ShootPosOffsetSights = Vector(0, 0, -5)
+
+ATT.ActivePosHook = function(swep, pos)
+    if swep:GetUBGL() then
+        return pos - Vector(0, 0, -3)
+    end
+end
+ATT.SprintPosHook = function(swep, pos)
+    if swep:GetUBGL() then
+        return pos - Vector(-5, 0, -7)
+    end
+end
+ATT.SprintAngHook = function(swep, ang)
+    if swep:GetUBGL() then
+        return ang - Angle(0, 0, 25)
+    end
+end
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -287,3 +307,50 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_an94_ubgl")
+
+/////////////////////////// -- FAL
+/////////////// -- cod2019_fal_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 40mm"
+
+table.Merge(ATT, glcode)
+
+ATT.Category = "cod2019_fal_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ub_mike203_fal.mdl"
+ATT.BoneMerge = true
+
+-- ATT.ActivePosUBGL = Vector(1, -1, -0.5)
+-- ATT.ActiveAngUBGL = Angle(0, 0, 0)
+
+ATT.ShootPosOffset = Vector(5, 0, -7)
+ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_ubgl")
+
+/////////////////////////// -- Famas
+/////////////// -- cod2019_famas_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 40mm"
+
+table.Merge(ATT, glcode)
+
+ATT.Category = "cod2019_famas_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ub_mike203_famas.mdl"
+ATT.BoneMerge = true
+
+ATT.ShootPosOffset = Vector(5, 0, -7)
+ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_famas_ubgl")
