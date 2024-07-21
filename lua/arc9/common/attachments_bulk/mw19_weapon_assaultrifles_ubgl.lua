@@ -46,7 +46,6 @@ glcode = {
 	ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg",
 
 	TriggerDelayUBGL = false,
-
 	ShootEntForceUBGL = 2000,
 	ShootEntUBGL = "arc9_cod2019_proj_40mm_hel",
 	MuzzleParticleUBGL = "muzzleflash_m79",
@@ -62,13 +61,8 @@ glcode = {
 	VisualRecoilPunchUBGL = 3,
 	VisualRecoilUpUBGL = 1,
 	UseVisualRecoilUBGL = true,
-
-	DrawFunc = function(swep, model) 
-		local eles = swep:GetElements()
-		if eles["cod2019_m203_alt"] then
-			model:SetBodygroup(0, 1)
-		end
-	end,
+	AimDownSightsTimeMult = 1.17,
+	DeployTimeMult = 1.12,
 	
 	Attachments = {
 		{
@@ -242,21 +236,8 @@ ATT.BoneMerge = true
 ATT.ShootPosOffset = Vector(8, 0, -5)
 ATT.ShootPosOffsetSights = Vector(0, 0, -5)
 
-ATT.ActivePosHook = function(swep, pos)
-    if swep:GetUBGL() then
-        return pos - Vector(0, 0, -3)
-    end
-end
-ATT.SprintPosHook = function(swep, pos)
-    if swep:GetUBGL() then
-        return pos - Vector(-5, 0, -7)
-    end
-end
-ATT.SprintAngHook = function(swep, ang)
-    if swep:GetUBGL() then
-        return ang - Angle(0, 0, 25)
-    end
-end
+ATT.SprintPosUBGL = Vector(0, 0, 0)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -324,6 +305,9 @@ ATT.BoneMerge = true
 -- ATT.ActivePosUBGL = Vector(1, -1, -0.5)
 -- ATT.ActiveAngUBGL = Angle(0, 0, 0)
 
+ATT.SprintPosUBGL = Vector(-1, -0.5, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 10)
+
 ATT.ShootPosOffset = Vector(5, 0, -7)
 ATT.ShootPosOffsetSights = Vector(3, 0, -7)
 
@@ -354,3 +338,59 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_ubgl")
+
+/////////////////////////// -- Kilo141
+/////////////// -- cod2019_kilo141_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 40mm"
+
+table.Merge(ATT, glcode)
+
+ATT.Category = "cod2019_kilo141_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ub_mike203_kilo141.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.ShootPosOffset = Vector(5, 0, -7)
+ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_kilo141_ubgl")
+
+/////////////////////////// -- Grau556
+/////////////// -- cod2019_grau556_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 40mm"
+
+table.Merge(ATT, glcode)
+
+ATT.Category = "cod2019_grau556_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ub_mike203_grau556.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-2.3, -3, -0.2)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.ShootPosOffset = Vector(5, 0, -7)
+ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["barrel_long"] or swep:GetElements()["barrel_short"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_ubgl")

@@ -380,7 +380,7 @@ ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_fal_receiver"
-ATT.ActivateElements = {"body_none","foregrip_none","sight_adapter_none"}
+ATT.ActivateElements = {"body_none","body_custom","foregrip_none","sight_adapter_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_reciever_v2.mdl"
 ATT.BoneMerge = true
@@ -2943,7 +2943,7 @@ ATT.LHIK = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_grau556_barrel"
-ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_custom"}
+ATT.ActivateElements = {"barrel_none","barrel_long","muzzle_none","sight_front_none","barrel_custom"}
 
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
@@ -3008,7 +3008,7 @@ ATT.LHIK = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_grau556_barrel"
-ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_custom"}
+ATT.ActivateElements = {"barrel_none","barrel_long","muzzle_none","sight_front_none","barrel_custom"}
 
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
@@ -3073,7 +3073,7 @@ ATT.LHIK = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_grau556_barrel"
-ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_custom"}
+ATT.ActivateElements = {"barrel_none","barrel_short","muzzle_none","sight_front_none","barrel_custom"}
 
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
