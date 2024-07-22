@@ -97,12 +97,11 @@ ATT.IKAnimationProxy = {
 		FireASAP = true,
 		RefillProgress = 0.75,
 		EventTable = {
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_lift.ogg", t = 0/30 },
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glopen.ogg", t = 10/30 },
-			{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsout_01.ogg", t = 13/30 },
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin_01.ogg", t = 33/30 },
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin.ogg", t = 40/30 },
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glclose.ogg", t = 50/30 },
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_lift.ogg", t = 0/30},
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glopen.ogg", t = 10/30},
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin_01.ogg", t = 29/30},
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin.ogg", t = 36.5/30},
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glclose.ogg", t = 50/30},
 			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_end.ogg", t = 45/30},
 		}
 	},
@@ -112,11 +111,10 @@ ATT.IKAnimationProxy = {
 		FireASAP = true,
 		RefillProgress = 0.75,
 		EventTable = {
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_lift.ogg", t = 0/30 },
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glopen.ogg", t = 10/30 },
-			{s = "weapons/cod2019/m32/wfoly_plr_la_mike32_reload_shellsout_01.ogg", t = 13/30 },
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin.ogg", t = 34/30 },
-			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glclose.ogg", t = 46/30 },
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_lift.ogg", t = 0/30},
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glopen.ogg", t = 10/30},
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_shellin.ogg", t = 34/30},
+			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_glclose.ogg", t = 46/30},
 			{s = "weapons/cod2019/shared/ubgl/ubgl_reload_end.ogg", t = 45/30},
 		}
 	},
