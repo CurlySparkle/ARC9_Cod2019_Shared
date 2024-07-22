@@ -48,10 +48,11 @@ glcode = {
 	TriggerDelayUBGL = false,
 	ShootEntForceUBGL = 2000,
 	ShootEntUBGL = "arc9_cod2019_proj_40mm_hel",
+	ShootPosOffsetUBGL = Vector(5, 0, -7),
+    ShootPosOffsetSightsUBGL = Vector(3, 0, -7),
+	
 	MuzzleParticleUBGL = "muzzleflash_m79",
 	MuzzleEffectQCAUBGL = 1,
-	ShootPosOffset = Vector(7, 0, -6),
-	ShootPosOffsetSights = Vector(0, 0, -5),
 
 	CantPeekUBGL = true,
 	NoAimAssistUBGL = true,
@@ -164,7 +165,6 @@ ATT.CamCoolViewUBGL = false
 
 ATT.SprintPosUBGL = Vector(0, -2.3, -1.5)
 ATT.SprintAngUBGL = Angle(35, 10, -35)
-ATT.BobSprintUBGLMult = 2
 
 ATT.ModelOffset = Vector(-0.55, 0.05, 1.5)
 ATT.ModelAngleOffset = Angle(0, 180, 0)
@@ -186,8 +186,8 @@ ATT.Category = "cod2019_m4_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ub_mike203_m4.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootPosOffset = Vector(5, 0, -7)
-ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -209,8 +209,8 @@ ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_ubgl.png", "mips s
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_grenade_launcher.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootPosOffset = Vector(7, 0, -7)
-ATT.ShootPosOffsetSights = Vector(0, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(7, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -233,8 +233,8 @@ ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_ubgl.png", "mips s
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ub_gpapa25.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootPosOffset = Vector(8, 0, -5)
-ATT.ShootPosOffsetSights = Vector(0, 0, -5)
+ATT.ShootPosOffsetUBGL = Vector(8, 0, -5)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -5)
 
 ATT.SprintPosUBGL = Vector(0, 0, 0)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
@@ -259,8 +259,8 @@ ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ub_mike203_cr56armax.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootPosOffset = Vector(5, 0, -7)
-ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -282,8 +282,8 @@ ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ub_mike203_an94.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootPosOffset = Vector(5, 0, -7)
-ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -310,8 +310,8 @@ ATT.BoneMerge = true
 ATT.SprintPosUBGL = Vector(-1, -0.5, -0.7)
 ATT.SprintAngUBGL = Angle(0, 0, 10)
 
-ATT.ShootPosOffset = Vector(5, 0, -7)
-ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -332,8 +332,8 @@ ATT.Category = "cod2019_famas_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ub_mike203_famas.mdl"
 ATT.BoneMerge = true
 
-ATT.ShootPosOffset = Vector(5, 0, -7)
-ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -357,14 +357,64 @@ ATT.BoneMerge = true
 ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
-ATT.ShootPosOffset = Vector(5, 0, -7)
-ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_ubgl")
+
+/////////////////////////// -- M13
+/////////////// -- cod2019_kilo141_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 40mm"
+
+table.Merge(ATT, glcode)
+
+ATT.Category = "cod2019_m13_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_ub_mike203_m13.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m13_ubgl")
+
+/////////////////////////// -- Oden
+/////////////// -- cod2019_Oden_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 40mm"
+
+table.Merge(ATT, glcode)
+
+ATT.Category = "cod2019_oden_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ub_mike203_oden.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
+ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_ubgl")
 
 /////////////////////////// -- Grau556
 /////////////// -- cod2019_grau556_ubgl
