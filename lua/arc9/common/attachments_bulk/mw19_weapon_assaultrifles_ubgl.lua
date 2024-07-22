@@ -199,12 +199,13 @@ ARC9.LoadAttachment(ATT, "cod2019_m4a1_ubgl")
 /////////////// -- cod2019_scar_ubgl
 ATT = {}
 
-ATT.PrintName = "M203 40mm"
+ATT.PrintName = "FN 40GL 40mm"
 
 table.Merge(ATT, glcode)
 
 ATT.Category = "cod2019_scar_grip"
 
+ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_grenade_launcher.mdl"
 ATT.BoneMerge = true
 
@@ -228,6 +229,7 @@ table.Merge(ATT, glcode)
 ATT.Category = "cod2019_ak47_grip"
 ATT.ActivateElements = {"grip", "gp25"}
 
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ub_gpapa25.mdl"
 ATT.BoneMerge = true
 
@@ -253,6 +255,7 @@ table.Merge(ATT, glcode)
 
 ATT.Category = "cod2019_cr56_grip"
 
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ub_mike203_cr56armax.mdl"
 ATT.BoneMerge = true
 
@@ -275,6 +278,7 @@ table.Merge(ATT, glcode)
 
 ATT.Category = "cod2019_an94_grip"
 
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ub_mike203_an94.mdl"
 ATT.BoneMerge = true
 
@@ -372,6 +376,7 @@ table.Merge(ATT, glcode)
 
 ATT.Category = "cod2019_grau556_grip"
 
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ub_mike203_grau556.mdl"
 ATT.BoneMerge = true
 

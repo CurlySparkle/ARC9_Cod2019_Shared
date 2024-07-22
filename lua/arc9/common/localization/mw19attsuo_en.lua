@@ -75,8 +75,8 @@ L["cod2019_m13_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname"
 L["cod2019_m13_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
 L["cod2019_m13_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
 
-L["cod2019_scar_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
-L["cod2019_scar_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_scar_ubgl.printname"] = "FN 40GL 40mm"
+L["cod2019_scar_ubgl.compactname"] = "FN 40GL"
 L["cod2019_scar_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
 
 L["cod2019_ak47_ubgl.printname"] = "GP25 40mm"

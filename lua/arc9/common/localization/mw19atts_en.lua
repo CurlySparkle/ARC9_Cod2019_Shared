@@ -618,6 +618,7 @@ L["mw19_grip_stat_gl"] = "Underbarrel Grenade Launcher" -- Grenade Launcher
 -- Weapon Name Alterations
 L["mw19_weapon_att_m203"] = "%s M203"
 L["mw19_weapon_att_gp25"] = "%s GP25"
+--L["mw19_weapon_att_fn40gl"] = "%s FN 40GL" --FN SCAR
 
 ///////// Grips
 L["cod2019_angled.printname"] = "Commando Foregrip"

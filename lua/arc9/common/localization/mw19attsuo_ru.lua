@@ -50,6 +50,9 @@ L["cod2019_attach_m203.description"] = "Подствольный гранато�
 L["cod2019_ak47_ubgl.printname"] = "40-мм GP25"
 L["cod2019_ak47_ubgl.compactname"] = "GP25"
 
+L["cod2019_scar_ubgl.printname"] = "40-мм FN 40GL"
+L["cod2019_scar_ubgl.compactname"] = "FN 40GL"
+
 //////////////////// Stocks
 L["cod2019_xm4_stock.printname"] = "Colt Type III"
 L["cod2019_xm4_stock.compactname"] = "Type III"
