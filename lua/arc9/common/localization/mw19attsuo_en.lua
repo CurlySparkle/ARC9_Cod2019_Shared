@@ -63,9 +63,9 @@ L["cod2019_m4a1_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname
 L["cod2019_m4a1_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
 L["cod2019_m4a1_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
 
-L["cod2019_fr556_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
-L["cod2019_fr556_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
-L["cod2019_fr556_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
+L["cod2019_famas_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
+L["cod2019_famas_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
+L["cod2019_famas_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
 
 L["cod2019_oden_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname") or "M203 40mm"
 L["cod2019_oden_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"

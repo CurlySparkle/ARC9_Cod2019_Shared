@@ -57,7 +57,7 @@ glcode = {
 	CantPeekUBGL = true,
 	NoAimAssistUBGL = true,
 	HasSightsUBGL = false,
-	
+
 	VisualRecoilUBGL = 1,
 	VisualRecoilPunchUBGL = 3,
 	VisualRecoilUpUBGL = 1,
@@ -189,6 +189,22 @@ ATT.BoneMerge = true
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(5, 15, -5),
+        Ang = Angle(-7.5, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
@@ -211,6 +227,24 @@ ATT.BoneMerge = true
 
 ATT.ShootPosOffsetUBGL = Vector(7, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(6, 15, -6),
+        Ang = Angle(-2.5, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+ATT.ExcludeElements = {"mag_dmr", "mag_drum"}
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -239,6 +273,24 @@ ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -5)
 ATT.SprintPosUBGL = Vector(0, 0, 0)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(4, 12, -3),
+        Ang = Angle(-10, 2, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+ATT.ExcludeElements = {"mag_drum", "mag_drum_mw22"}
+
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
@@ -262,6 +314,22 @@ ATT.BoneMerge = true
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(5, 15, -5),
+        Ang = Angle(-14, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
@@ -284,6 +352,22 @@ ATT.BoneMerge = true
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(5, 11, -4),
+        Ang = Angle(-10, -4.5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -313,6 +397,22 @@ ATT.SprintAngUBGL = Angle(0, 0, 10)
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(6, 15, -4.5),
+        Ang = Angle(-2.5, -3, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
@@ -335,13 +435,29 @@ ATT.BoneMerge = true
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(6, 15, -7),
+        Ang = Angle(-4, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_ubgl")
 
-/////////////////////////// -- Kilo141
+/////////////////////////// -- Kilo 141
 /////////////// -- cod2019_kilo141_ubgl
 ATT = {}
 
@@ -360,6 +476,24 @@ ATT.SprintAngUBGL = Angle(0, 0, 0)
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(6, 15, -6),
+        Ang = Angle(-12.5, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+ATT.ExcludeElements = {"mag_drum"}
+
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
@@ -367,7 +501,7 @@ end
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_ubgl")
 
 /////////////////////////// -- M13
-/////////////// -- cod2019_kilo141_ubgl
+/////////////// -- cod2019_m13_ubgl
 ATT = {}
 
 ATT.PrintName = "M203 40mm"
@@ -384,6 +518,22 @@ ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(7, 15, -7),
+        Ang = Angle(-7.5, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
@@ -410,6 +560,22 @@ ATT.SprintAngUBGL = Angle(0, 0, 0)
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
 ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
 
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(7, 15, -7),
+        Ang = Angle(-5, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 end
@@ -435,6 +601,22 @@ ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.ShootPosOffset = Vector(5, 0, -7)
 ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(6, 15, -6),
+        Ang = Angle(-12.5, -5, -32.5),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
 
 if !warzonestats then -- Regular Stats
 else -- Warzone Stats

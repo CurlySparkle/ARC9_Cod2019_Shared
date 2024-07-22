@@ -208,6 +208,8 @@ ATT.SortOrder = 1
 ATT.Category = "cod2019_kilo141_mag"
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
+ATT.ExcludeElements = {"m203"}
+
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_drum_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_drum_mag.mdl"
 ATT.BoneMerge = true
@@ -2021,6 +2023,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
 ATT.ActivateElements = {"mag_none","mag_dmr"}
 
+ATT.ExcludeElements = {"m203"}
+
 ATT.ClipSizeAdd = -10
 ATT.RPM = 400
 
@@ -2132,6 +2136,8 @@ ATT.BoneMerge = true
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
+
+ATT.ExcludeElements = {"m203"}
 
 ATT.AimDownSightsTimeMult = 1.07
 ATT.DeployTimeMult = 1.08
@@ -2571,6 +2577,8 @@ ATT.SortOrder = 0
 ATT.Category = {"cod2019_ak47_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum_mw22"}
 
+ATT.ExcludeElements = {"gp25"}
+
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/rkilo_410g_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/rkilo_410g_mag.mdl"
 ATT.BoneMerge = true
@@ -2659,6 +2667,8 @@ ATT.Free = false
 ATT.SortOrder = 3
 ATT.Category = "cod2019_ak47_mag"
 ATT.ActivateElements = {"mag_none","mag_drum"}
+
+ATT.ExcludeElements = {"gp25"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_drum_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_drum_mag.mdl"
