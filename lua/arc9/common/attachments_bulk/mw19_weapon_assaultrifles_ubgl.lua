@@ -525,7 +525,7 @@ ATT.Category = "cod2019_m13_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_ub_mike203_m13.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
+ATT.SprintPosUBGL = Vector(-1.5, -1.5, 1.5)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
