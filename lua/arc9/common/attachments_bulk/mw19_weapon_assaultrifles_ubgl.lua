@@ -659,6 +659,7 @@ table.Merge(ATT, glcode)
 
 ATT.Category = "cod2019_ram7_grip"
 
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ub_mike203_ram7.mdl"
 ATT.BoneMerge = true
 
