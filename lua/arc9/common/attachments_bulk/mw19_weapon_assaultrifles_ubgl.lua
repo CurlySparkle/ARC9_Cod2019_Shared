@@ -186,6 +186,9 @@ ATT.Category = "cod2019_m4_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ub_mike203_m4.mdl"
 ATT.BoneMerge = true
 
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
@@ -314,6 +317,9 @@ ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ub_mike203_cr56armax.mdl"
 ATT.BoneMerge = true
 
+ATT.SprintPosUBGL = Vector(-3, -0.5, -0.5)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
@@ -352,6 +358,9 @@ ATT.Category = "cod2019_an94_grip"
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ub_mike203_an94.mdl"
 ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-2, -0.5, -0.5)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
