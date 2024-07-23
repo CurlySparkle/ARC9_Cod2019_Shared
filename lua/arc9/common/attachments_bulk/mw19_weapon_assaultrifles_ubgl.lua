@@ -46,7 +46,7 @@ glcode = {
 	ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg",
 
 	TriggerDelayUBGL = false,
-	ShootEntForceUBGL = 2000,
+	ShootEntForceUBGL = 1800,
 	ShootEntUBGL = "arc9_cod2019_proj_40mm_hel",
 	ShootPosOffsetUBGL = Vector(5, 0, -7),
     ShootPosOffsetSightsUBGL = Vector(3, 0, -7),
@@ -187,7 +187,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ub_mike20
 ATT.BoneMerge = true
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -228,15 +228,18 @@ ATT.BoneMerge = true
 ATT.ShootPosOffsetUBGL = Vector(7, 0, -7)
 ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
+ATT.SprintPosUBGL = Vector(-1, -1, -1)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
 
 ATT.Sights = {
     {
-        Pos = Vector(6, 15, -6),
-        Ang = Angle(-2.5, -5, -32.5),
-        Magnification = 1.1,
-        ViewModelFOV = 56,
+        Pos = Vector(4, 15, -4),
+        Ang = Angle(-3, -0, -27.5),
+        Magnification = 1.15,
+        ViewModelFOV = 64,
         CrosshairInSights = true,
         Blur = true,
         UBGLOnly = true,
@@ -312,7 +315,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ub_mi
 ATT.BoneMerge = true
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -351,7 +354,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ub_mike20
 ATT.BoneMerge = true
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -388,21 +391,18 @@ ATT.Category = "cod2019_fal_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ub_mike203_fal.mdl"
 ATT.BoneMerge = true
 
--- ATT.ActivePosUBGL = Vector(1, -1, -0.5)
--- ATT.ActiveAngUBGL = Angle(0, 0, 0)
-
 ATT.SprintPosUBGL = Vector(-1, -0.5, -0.7)
 ATT.SprintAngUBGL = Angle(0, 0, 10)
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGLSights = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
 
 ATT.Sights = {
     {
-        Pos = Vector(6, 15, -4.5),
+        Pos = Vector(5, 15, -4.5),
         Ang = Angle(-2.5, -3, -32.5),
         Magnification = 1.1,
         ViewModelFOV = 56,
@@ -433,15 +433,18 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ub_mike2
 ATT.BoneMerge = true
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
+
+ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
 
 ATT.Sights = {
     {
-        Pos = Vector(6, 15, -7),
-        Ang = Angle(-4, -5, -32.5),
+        Pos = Vector(4.5, 15, -7),
+        Ang = Angle(-4, -5, -27.5),
         Magnification = 1.1,
         ViewModelFOV = 56,
         CrosshairInSights = true,
@@ -474,7 +477,7 @@ ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -517,16 +520,16 @@ ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
 
 ATT.Sights = {
     {
-        Pos = Vector(7, 15, -7),
+        Pos = Vector(4, 15, -5),
         Ang = Angle(-7.5, -5, -32.5),
-        Magnification = 1.1,
+        Magnification = 1.15,
         ViewModelFOV = 56,
         CrosshairInSights = true,
         Blur = true,
@@ -558,7 +561,7 @@ ATT.SprintPosUBGL = Vector(-2.3, 0, 0)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
-ATT.ShootPosOffsetSightsUBGL = Vector(3, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -599,8 +602,8 @@ ATT.BoneMerge = true
 ATT.SprintPosUBGL = Vector(-2.3, -3, -0.2)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
-ATT.ShootPosOffset = Vector(5, 0, -7)
-ATT.ShootPosOffsetSights = Vector(3, 0, -7)
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -629,3 +632,44 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_grau556_ubgl")
+
+/////////////////////////// -- Ram7
+/////////////// -- cod2019_Oden_ubgl
+ATT = {}
+
+ATT.PrintName = "M203 40mm"
+
+table.Merge(ATT, glcode)
+
+ATT.Category = "cod2019_ram7_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ub_mike203_ram7.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-0.5, -0.5, 0)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -10)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(5, 14, -6),
+        Ang = Angle(-11, -5, -32.5),
+        Magnification = 1.15,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_ram7_ubgl")
