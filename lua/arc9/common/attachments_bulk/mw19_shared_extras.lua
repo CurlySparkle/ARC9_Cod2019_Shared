@@ -590,6 +590,32 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_ammo_gl_gasheal")
+/////////////// -- UBGL Heal Gas
+ATT = {}
+
+ATT.PrintName = "Heal Gas Nade"
+ATT.CompactName = "Heal"
+ATT.Description = "Changes the nade type to Gas type AOE that heals you and your teammates."
+ATT.SortOrder = 0.5
+ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_gasheal.png", "mips smooth")
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Category = {"cod2019_ammo_ubgl"}
+ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_gasheal"
+ATT.ActivateElements = {"nade_heal"}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["nade_heal"] then
+        model:SetSkin(1)
+    else
+        model:SetSkin(0)
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_ammo_gl_gasheal")
 
 //////////////////////////////////// -- Gas Nade Ammo
 /////////////////////////// -- cod2019_gas_heal
