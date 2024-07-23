@@ -65,6 +65,13 @@ glcode = {
 	AimDownSightsTimeMult = 1.17,
 	DeployTimeMult = 1.12,
 	
+	CustomCrosshairUBGL = true,
+	CustomCrosshairMaterialUBGL = Material("vgui/glreticle.png", "mips smooth"),
+	CustomCrosshairSizeUBGL = 140,
+	CustomCrosshairSingle = true,
+	
+	CrosshairHideDotUBGL = true,
+	
 	Attachments = {
 		{
 			PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
@@ -642,8 +649,8 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_grau556_ubgl")
 
-/////////////////////////// -- Ram7
-/////////////// -- cod2019_Oden_ubgl
+/////////////////////////// -- RAM-7
+/////////////// -- cod2019_ram7_ubgl
 ATT = {}
 
 ATT.PrintName = "M203 40mm"
@@ -666,7 +673,7 @@ ATT.UBGLExclusiveSightsUBGL = true
 
 ATT.Sights = {
     {
-        Pos = Vector(5, 14, -6),
+        Pos = Vector(6, 14, -7),
         Ang = Angle(-11, -5, -32.5),
         Magnification = 1.15,
         ViewModelFOV = 64,
