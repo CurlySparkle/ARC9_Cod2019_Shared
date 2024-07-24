@@ -203,7 +203,7 @@ ATT.UBGLExclusiveSightsUBGL = true
 
 ATT.Sights = {
     {
-        Pos = Vector(5, 15, -5),
+        Pos = Vector(3.7, 15, -4),
         Ang = Angle(-7.5, -5, -32.5),
         Magnification = 1.1,
         ViewModelFOV = 56,
