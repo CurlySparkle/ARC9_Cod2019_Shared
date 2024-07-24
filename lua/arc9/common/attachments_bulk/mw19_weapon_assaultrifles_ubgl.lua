@@ -66,10 +66,9 @@ glcode = {
 	DeployTimeMult = 1.12,
 	
 	CustomCrosshairUBGL = true,
-	CustomCrosshairMaterialUBGL = Material("vgui/glreticle.png", "mips smooth"),
-	CustomCrosshairSizeUBGL = 140,
+	CustomCrosshairMaterialUBGL = Material("hud/arc9_cod2019/launchercrosshair2.png", "mips sharp"),
+	CustomCrosshairSizeUBGL = 100,
 	CustomCrosshairSingle = true,
-	
 	CrosshairHideDotUBGL = true,
 	
 	Attachments = {
@@ -626,7 +625,7 @@ ATT.UBGLExclusiveSightsUBGL = true
 
 ATT.Sights = {
     {
-        Pos = Vector(6, 15, -6),
+        Pos = Vector(4, 15, -5),
         Ang = Angle(-12.5, -5, -32.5),
         Magnification = 1.1,
         ViewModelFOV = 56,
