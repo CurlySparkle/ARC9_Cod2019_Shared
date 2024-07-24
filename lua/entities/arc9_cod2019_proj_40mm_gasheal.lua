@@ -17,7 +17,6 @@ function ENT:Detonate()
     self:EmitSound("weapons/rpg/shotdown.wav", 80)
     else
     self:DoDetonate()
-	ParticleEffectAttach("AC_nade_gasheal_ejection", PATTACH_ABSORIGIN_FOLLOW, self, 0)
    end
 end
 
@@ -37,11 +36,10 @@ function ENT:DoDetonate()
 		 cloud.NoIgnite = self
 		 --self:Remove()
       end
-    --util.Decal("Scorch", self:GetPos(), self:GetPos() - Vector(0, 0, 50), self)
+	self:StopParticles()
+	timer.Simple(0.1, function()
+	ParticleEffectAttach("AC_nade_gasheal_ejection", PATTACH_ABSORIGIN_FOLLOW, self, 0)
+	end)
 	self:SetVelocity(Vector(0,0,0))
-    timer.Simple(18, function()
-        if IsValid(self) then
-            self:Remove()
-        end
-    end)
+    SafeRemoveEntityDelayed(self, 18)
 end
