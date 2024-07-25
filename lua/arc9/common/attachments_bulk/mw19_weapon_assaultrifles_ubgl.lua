@@ -10,7 +10,7 @@ glcode = {
 	MenuCategory = "ARC9 - MW2019 Attachments",
 	Free = false,
 
-	SortOrder = 100,
+	SortOrder = -100,
 	Category = {"cod2019_m203"},
 	ActivateElements = {"grip", "m203"},
 

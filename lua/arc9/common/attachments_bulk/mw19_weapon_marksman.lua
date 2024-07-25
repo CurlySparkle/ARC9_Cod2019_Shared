@@ -1216,11 +1216,11 @@ ATT.ActivateElements = {"bolt_none"}
 
 ATT.ToggleStats = {
 	{
-		PrintName = "Norm",
+		PrintName = ARC9:GetPhrase("cod2019_ammo_crossbow_locator_norm"),
 		ShootEnt = "arc9_cod2019_proj_crossbow_locator",
 	},
 	{
-		PrintName = "Echo",
+		PrintName = ARC9:GetPhrase("cod2019_ammo_crossbow_locator_echo"),
 		ShootEnt = "arc9_cod2019_proj_crossbow_locator2",
 	}
 }

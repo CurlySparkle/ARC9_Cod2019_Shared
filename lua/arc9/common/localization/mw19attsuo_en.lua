@@ -380,6 +380,9 @@ L["cod2019_ammo_crossbow_locator.printname"] = "FTAC Snapshot 20\" Bolts"
 L["cod2019_ammo_crossbow_locator.compactname"] = "Snap."
 L["cod2019_ammo_crossbow_locator.description"] = "Bolts with non-lethal <color=100,255,100>Snapshot</color> warheads that stick onto surfaces and, upon detonation, highlights any nearby targets. <color=255,100,100>Detonated bolts can not be recovered</color>, and are undetectable by trophy systems."
 
+L["cod2019_ammo_crossbow_locator_norm"] = "Standard Warheads"
+L["cod2019_ammo_crossbow_locator_echo"] = "Echolocation Warheads"
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"

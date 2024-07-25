@@ -322,6 +322,9 @@ L["cod2019_ammo_crossbow_locator.printname"] = "FTAC 508 mm Snapshot-Pilar"
 L["cod2019_ammo_crossbow_locator.compactname"] = "Snap."
 L["cod2019_ammo_crossbow_locator.description"] = "Pilar med icke-dödliga <color=100,255,100>Snapshot-spetsar</color> som fastnar på ytor och, när den sprängs, markerar måltavlor i närheten. <color=255,100,100>Sprängda pilar kan inte återhämtas</color> och är oupptäckbara av trofésystem."
 
+L["cod2019_ammo_crossbow_locator_norm"] = "Normal Spets"
+L["cod2019_ammo_crossbow_locator_echo"] = "Ekolokalisering Spets"
+
 //////////////////// SP-R 208
 /////////////// Magazine
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-P Special"
