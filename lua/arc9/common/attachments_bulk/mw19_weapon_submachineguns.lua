@@ -408,7 +408,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
-ATT.ActivateElements = {"barrel_none","barrel_supp","foregrip_none"}
+ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_supp","foregrip_none"}
 
 ATT.Silencer = true
 ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
@@ -416,10 +416,12 @@ ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["grip"] then
+    if swep:GetElements()["grip"] or swep:GetElements()["grip_angled"] then
         model:SetBodygroup(1,1)
     end
-    if swep:GetElements()["optic"] then
+    if swep:GetElements()["sight_default"] then
+        model:SetBodygroup(2,0)
+    elseif swep:GetElements()["optic"] then
         model:SetBodygroup(2,1)
     end
 
@@ -465,14 +467,19 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
-ATT.ActivateElements = {"barrel_none","muzzle_none","foregrip_none"}
+ATT.ActivateElements = {"barrel_none","barrel_custom","muzzle_none","foregrip_none"}
 
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
 
 ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["optic"] then
+    if swep:GetElements()["sight_default"] then
+        model:SetBodygroup(1,0)
+    elseif swep:GetElements()["optic"] then
         model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(2,1)
     end
 end
 
