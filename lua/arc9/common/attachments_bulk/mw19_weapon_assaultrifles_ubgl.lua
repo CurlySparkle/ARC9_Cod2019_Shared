@@ -360,6 +360,7 @@ ATT.PrintName = "M203 40mm"
 table.Merge(ATT, glcode)
 
 ATT.Category = "cod2019_an94_grip"
+ATT.ActivateElements = {"grip", "m203", "foregrip_gl"}
 
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_ubgl.png", "mips smooth")
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ub_mike203_an94.mdl"
