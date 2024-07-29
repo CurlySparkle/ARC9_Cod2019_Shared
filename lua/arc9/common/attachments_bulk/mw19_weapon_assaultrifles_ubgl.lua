@@ -59,8 +59,8 @@ glcode = {
 	HasSightsUBGL = false,
 
 	VisualRecoilUBGL = 1,
-	VisualRecoilPunchUBGL = 3,
-	VisualRecoilUpUBGL = 1,
+	VisualRecoilPunchUBGL = 5,
+	VisualRecoilUpUBGL = 3,
 	UseVisualRecoilUBGL = true,
 	AimDownSightsTimeMult = 1.17,
 	DeployTimeMult = 1.12,
