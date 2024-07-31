@@ -111,29 +111,31 @@ shotguncode = {
 	UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_shotgun.compactname"),
 	
 	RPMUBGL = 175,
-	SpreadUBGL = 0.175,
+	SpreadUBGL = 0.115,
 	
 	ShotgunReloadUBGL = true,
 
 	FirstShootSoundUBGL = false,
 	ShootSoundUBGL = "COD2019.Model680.Fire",
-	LayerSoundUBGL = "Layer_Shotgun.Outside",
-	DistantShootSoundUBGL = "Distant_Shotgun.Outside",
 	ShootSoundIndoorUBGL =  "COD2019.Model680.Fire",
+	LayerSoundUBGL = "Layer_Shotgun.Outside",
 	LayerSoundIndoorUBGL = "Layer_Shotgun.Inside",
+	DistantShootSoundUBGL = "Distant_Shotgun.Outside",
 	DistantShootSoundIndoorUBGL = "Distant_LMG.Inside",
 
 	EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg",
 	ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg",
 
 	TriggerDelayUBGL = false,
-	-- ShootEntForceUBGL = 1800,
-	-- ShootEntUBGL = "arc9_cod2019_proj_40mm_hel",
-	-- ShootPosOffsetUBGL = Vector(5, 0, -7),
-    -- ShootPosOffsetSightsUBGL = Vector(3, 0, -7),
-	
 	MuzzleParticleUBGL = "muzzleflash_shotgun",
 	MuzzleEffectQCAUBGL = 1,
+	CaseEffectQCAUBGL = 2,
+	
+	ShellModelUBGL = "models/weapons/cod2019/shared/shell_origin12.mdl",
+	ShellScaleUBGL = 1,
+	ShellCorrectAngUBGL = Angle(0, 0, 0),
+    ShellPhysBoxUBGL = Vector(0.5, 0.5, 2),
+	ShellSoundsUBGL = ARC9.COD2019_Shotgun_Table,
 
 	CantPeekUBGL = true,
 	NoAimAssistUBGL = true,
@@ -314,9 +316,6 @@ ATT.BoneMerge = true
 ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
 ATT.SprintAngUBGL = Angle(0, 0, 0)
 
-ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
-ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
-
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
 
@@ -325,7 +324,7 @@ ATT.Sights = {
         Pos = Vector(-2.5, 14, -3.5),
         Ang = Angle(0, 0, 45),
         Magnification = 1.1,
-        ViewModelFOV = 56,
+        ViewModelFOV = 64,
         CrosshairInSights = true,
         Blur = true,
         UBGLOnly = true,

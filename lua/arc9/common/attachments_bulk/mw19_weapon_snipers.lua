@@ -650,6 +650,66 @@ ARC9.LoadAttachment(ATT, "cod2019_ax50_bipod")
 /////////////////////////// -- Rytec AMR
 ATT = {}
 
+ATT.PrintName = "XRK Tank Brake"
+ATT.Description = "Low pressure 45 degree ports direct gases rearward to greatly control the Rytec's extreme recoil."
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake01.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_rytec_muzzle"
+ATT.ActivateElements = {"muzzle_none","muzzle"}
+ATT.Model = "models/weapons/cod2019/attachs/weapons/rytec/attachment_vm_sn_xmike109_brake.mdl"
+
+ATT.MuzzleParticleOverride = "muzzleflash_dmr"
+ATT.MuzzleDevice_Priority = 10
+ATT.MuzzleDevice = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.VisualRecoilMult = 0.92
+	ATT.RecoilMult = 0.92
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_rytec_muzzle_brake")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Rytec AMR Suppressor"
+ATT.Description = "Multi caliber suppressor greatly reduces sound signature and increases muzzle velocity. Moderate weight increase affects agility."
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer04.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_rytec_muzzle"
+ATT.ActivateElements = {"muzzle_none","muzzle"}
+ATT.Model = "models/weapons/cod2019/attachs/weapons/rytec/attachment_vm_sn_xmike109_silencerlrg.mdl"
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 10
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.VisualRecoilMult = 0.95
+	ATT.RecoilMult = 0.95
+	ATT.DamageMaxMult = 0.93
+	ATT.DamageMinMult = 0.91
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.VisualRecoilMult = 0.97
+	ATT.RecoilMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_rytec_muzzle_silencer")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "FTAC 448mm Dictator"
 ATT.CompactName = "Dictator"
 ATT.Description = [[FTAC's 448mm titanium-cobalt barrel sacrifices accuracy and range for speed and agility.]]
