@@ -104,16 +104,19 @@ shotguncode = {
 
 	UBGL = true,
 	UBGLAmmo = "buckshot",
+	DamageTypeUBGL = DMG_BULLET + DMG_BUCKSHOT,
 	UBGLClipSize = 3,
 	UBGLFiremode = 1,
 	UBGLChamberSize = 1,
 	NumUBGL = 8,
+	TracerNumUBGL = 8,
 	UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_shotgun.compactname"),
 	
 	RPMUBGL = 175,
 	SpreadUBGL = 0.115,
 	
 	ShotgunReloadUBGL = true,
+	NoShellEjectUBGL = false,
 
 	FirstShootSoundUBGL = false,
 	ShootSoundUBGL = "COD2019.Model680.Fire",
