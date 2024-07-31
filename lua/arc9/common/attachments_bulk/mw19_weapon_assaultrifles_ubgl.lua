@@ -111,7 +111,7 @@ shotguncode = {
 	NumUBGL = 8,
 	TracerNumUBGL = 8,
 	UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_shotgun.compactname"),
-	
+
 	RPMUBGL = 175,
 	SpreadUBGL = 0.115,
 	
@@ -154,7 +154,7 @@ shotguncode = {
 	CustomCrosshairUBGL = true,
 	CustomCrosshairMaterialUBGL = Material("hud/arc9_cod2019/shotguncrosshair.png"),
 	CustomCrosshairSizeUBGL = 30,
-	
+
 	Attachments = {
 		{
 			PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
@@ -336,9 +336,20 @@ ATT.Sights = {
 }
 
 if !warzonestats then -- Regular Stats
-else -- Warzone Stats
-end
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
 
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_ubgl_shotgun")
 
 /////////////////////////// -- FN Scar-17
@@ -386,6 +397,54 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_ubgl")
 
+/////////////// -- cod2019_scar_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_scar_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_masterkey01_scar.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_scar_ubgl_shotgun")
+
 /////////////////////////// -- AK-47
 /////////////// -- cod2019_ak47_ubgl
 ATT = {}
@@ -432,6 +491,54 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_ak47_ubgl")
 
+/////////////// -- cod2019_ak47_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_ak47_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_masterkey01_ak47.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_ak47_ubgl_shotgun")
+
 /////////////////////////// -- CR-56 AMAX
 /////////////// -- cod2019_cr56_ubgl
 ATT = {}
@@ -473,6 +580,54 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_cr56_ubgl")
+
+/////////////// -- cod2019_cr56_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_cr56_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_masterkey01_cr56amax.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_cr56_ubgl_shotgun")
 
 /////////////////////////// -- AN-94
 /////////////// -- cod2019_an94_ubgl
@@ -517,6 +672,55 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_an94_ubgl")
 
+/////////////// -- cod2019_an94_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_an94_grip"
+ATT.ActivateElements = {"grip", "shotgun", "foregrip_gl"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_masterkey01_an94.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_an94_ubgl_shotgun")
+
 /////////////////////////// -- FAL
 /////////////// -- cod2019_fal_ubgl
 ATT = {}
@@ -558,6 +762,54 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_fal_ubgl")
 
+/////////////// -- cod2019_fal_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_fal_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_masterkey01_fal.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_fal_ubgl_shotgun")
+
 /////////////////////////// -- Famas
 /////////////// -- cod2019_famas_ubgl
 ATT = {}
@@ -598,6 +850,54 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_ubgl")
+
+/////////////// -- cod2019_famas_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_famas_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_masterkey01_famas.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_famas_ubgl_shotgun")
 
 /////////////////////////// -- Kilo 141
 /////////////// -- cod2019_kilo141_ubgl
@@ -642,6 +942,54 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_kilo141_ubgl")
 
+/////////////// -- cod2019_kilo141_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_kilo141_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_masterkey01_kilo141.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_kilo141_ubgl_shotgun")
+
 /////////////////////////// -- M13
 /////////////// -- cod2019_m13_ubgl
 ATT = {}
@@ -683,6 +1031,54 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_m13_ubgl")
 
+/////////////// -- cod2019_m13_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_m13_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_masterkey01_m13.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_m13_ubgl_shotgun")
+
 /////////////////////////// -- Oden
 /////////////// -- cod2019_Oden_ubgl
 ATT = {}
@@ -723,6 +1119,54 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_oden_ubgl")
+
+/////////////// -- cod2019_oden_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_oden_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_masterkey01_oden.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_oden_ubgl_shotgun")
 
 /////////////////////////// -- Grau556
 /////////////// -- cod2019_grau556_ubgl
@@ -772,6 +1216,54 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_grau556_ubgl")
 
+/////////////// -- cod2019_grau556_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_grau556_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_masterkey01_grau556.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_grau556_ubgl_shotgun")
+
 /////////////////////////// -- RAM-7
 /////////////// -- cod2019_ram7_ubgl
 ATT = {}
@@ -813,3 +1305,51 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_ram7_ubgl")
+
+/////////////// -- cod2019_ram7_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_ram7_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_masterkey01_ram7.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 64,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxOverrideUBGL = 103
+	ATT.DamageMinOverrideUBGL = 12
+	ATT.DistributeDamageUBGL = true
+
+	ATT.RangeMinOverrideUBGL = 4.5 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 30 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.DamageMaxOverrideUBGL = 51
+	ATT.DamageMinOverrideUBGL = 18
+
+	ATT.RangeMinOverrideUBGL = 3.3 / ARC9.HUToM
+	ATT.RangeMaxOverrideUBGL = 15.7 / ARC9.HUToM
+end
+	
+ARC9.LoadAttachment(ATT, "cod2019_ram7_ubgl_shotgun")
