@@ -32,6 +32,7 @@ glcode = {
 	UBGLClipSize = 1,
 	UBGLFiremode = 1,
 	UBGLChamberSize = 0,
+	UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_m203.compactname"),
 
 	RPMUBGL = 100,
 	SpreadUBGL = 0.02,
@@ -75,6 +76,84 @@ glcode = {
 		{
 			PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
 			Category = {"cod2019_ammo_ubgl"},
+			Pos = Vector(-3, 0, 0),
+			Ang = Angle(0, 0, 0),
+		},
+	},
+
+}
+
+shotguncode = {
+	Description = "",
+	Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_ubgl.png", "mips smooth"),
+	MenuCategory = "ARC9 - MW2019 Attachments",
+	Free = false,
+
+	SortOrder = -100,
+	Category = {"cod2019_m203"},
+	ActivateElements = {"grip", "shotgun"},
+
+	CustomPros = {
+		-- [ ARC9:GetPhrase("mw19_grip_stat_gl") ] = "",
+	},
+
+	-- Model = "models/weapons/cod2019/attachs/ubgl/attachment_vm_ub_mike203.mdl",
+	LHIK = true,
+	LHIK_Priority = 100,
+	ReloadInSightsUBGL = false,
+
+	UBGL = true,
+	UBGLAmmo = "buckshot",
+	UBGLClipSize = 3,
+	UBGLFiremode = 1,
+	UBGLChamberSize = 1,
+	NumUBGL = 8,
+	UBGLFiremodeName = ARC9:GetPhrase("cod2019_attach_shotgun.compactname"),
+	
+	RPMUBGL = 175,
+	SpreadUBGL = 0.175,
+	
+	ShotgunReloadUBGL = true,
+
+	FirstShootSoundUBGL = false,
+	ShootSoundUBGL = "COD2019.Model680.Fire",
+	LayerSoundUBGL = "Layer_Shotgun.Outside",
+	DistantShootSoundUBGL = "Distant_Shotgun.Outside",
+	ShootSoundIndoorUBGL =  "COD2019.Model680.Fire",
+	LayerSoundIndoorUBGL = "Layer_Shotgun.Inside",
+	DistantShootSoundIndoorUBGL = "Distant_LMG.Inside",
+
+	EnterSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_up.ogg",
+	ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg",
+
+	TriggerDelayUBGL = false,
+	-- ShootEntForceUBGL = 1800,
+	-- ShootEntUBGL = "arc9_cod2019_proj_40mm_hel",
+	-- ShootPosOffsetUBGL = Vector(5, 0, -7),
+    -- ShootPosOffsetSightsUBGL = Vector(3, 0, -7),
+	
+	MuzzleParticleUBGL = "muzzleflash_shotgun",
+	MuzzleEffectQCAUBGL = 1,
+
+	CantPeekUBGL = true,
+	NoAimAssistUBGL = true,
+	HasSightsUBGL = false,
+
+	VisualRecoilUBGL = 1,
+	VisualRecoilPunchUBGL = 5,
+	VisualRecoilUpUBGL = 3,
+	UseVisualRecoilUBGL = true,
+	AimDownSightsTimeMult = 1.17,
+	DeployTimeMult = 1.12,
+	
+	CustomCrosshairUBGL = true,
+	CustomCrosshairMaterialUBGL = Material("hud/arc9_cod2019/shotguncrosshair.png"),
+	CustomCrosshairSizeUBGL = 30,
+	
+	Attachments = {
+		{
+			PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
+			Category = {"cod2019_ammo_ubgl_sg"},
 			Pos = Vector(-3, 0, 0),
 			Ang = Angle(0, 0, 0),
 		},
@@ -220,6 +299,46 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_m4a1_ubgl")
 
+/////////////// -- cod2019_m4a1_ubgl_shotgun
+ATT = {}
+
+ATT.PrintName = "12-Gauge Deputy"
+
+table.Merge(ATT, shotguncode)
+
+ATT.Category = "cod2019_m4_grip"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_masterkey01_m4.mdl"
+ATT.BoneMerge = true
+
+ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 0)
+
+ATT.ShootPosOffsetUBGL = Vector(5, 0, -7)
+ATT.ShootPosOffsetSightsUBGL = Vector(0, 0, -7)
+
+ATT.HasSightsUBGL = true
+ATT.UBGLExclusiveSightsUBGL = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(-2.5, 14, -3.5),
+        Ang = Angle(0, 0, 45),
+        Magnification = 1.1,
+        ViewModelFOV = 56,
+        CrosshairInSights = true,
+        Blur = true,
+        UBGLOnly = true,
+        Disassociate = true,
+    },
+}
+
+if !warzonestats then -- Regular Stats
+else -- Warzone Stats
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m4a1_ubgl_shotgun")
+
 /////////////////////////// -- FN Scar-17
 /////////////// -- cod2019_scar_ubgl
 ATT = {}
@@ -242,6 +361,7 @@ ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_scar_ubgl.compactname")
 
 ATT.Sights = {
     {
@@ -287,6 +407,7 @@ ATT.SprintAngUBGL = Angle(0, 0, 0)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
+ATT.UBGLFiremodeName = ARC9:GetPhrase("cod2019_ak47_ubgl.compactname")
 
 ATT.Sights = {
     {

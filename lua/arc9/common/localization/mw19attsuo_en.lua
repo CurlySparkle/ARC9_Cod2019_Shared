@@ -99,6 +99,55 @@ L["cod2019_an94_ubgl.printname"] = ARC9:GetPhrase("cod2019_attach_m203.printname
 L["cod2019_an94_ubgl.compactname"] = ARC9:GetPhrase("cod2019_attach_m203.compactname") or "M203"
 L["cod2019_an94_ubgl.description"] = ARC9:GetPhrase("cod2019_attach_m203.description") or "Underbarrel mounted grenade launcher."
 
+-- Shotgun
+L["cod2019_kilo141_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_kilo141_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_kilo141_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_fal_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_fal_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_fal_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_m4a1_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_m4a1_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_m4a1_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_famas_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_famas_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_famas_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_oden_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_oden_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_oden_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_m13_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_m13_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_m13_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_scar_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_scar_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_scar_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_ak47_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_ak47_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_ak47_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_ram7_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_ram7_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_ram7_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_grau_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_grau_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_grau_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_cr56_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_cr56_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_cr56_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
+L["cod2019_an94_ubgl_shotgun.printname"] = ARC9:GetPhrase("cod2019_attach_shotgun.printname") or "12-Gauge Deputy"
+L["cod2019_an94_ubgl_shotgun.compactname"] = ARC9:GetPhrase("cod2019_attach_shotgun.compactname") or "12G Deputy"
+L["cod2019_an94_ubgl_shotgun.description"] = ARC9:GetPhrase("cod2019_attach_shotgun.description") or "Single fire underbarrel <color=100,255,100>shotgun</color> provides reliable backup for close quarters encounters."
+
 //////////////////// Stocks
 L["cod2019_xm4_stock.printname"] = "Colt Type III"
 L["cod2019_xm4_stock.compactname"] = "Type III"
