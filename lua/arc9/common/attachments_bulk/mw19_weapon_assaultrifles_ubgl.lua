@@ -316,8 +316,8 @@ ATT.Category = "cod2019_m4_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_masterkey01_m4.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -503,8 +503,8 @@ ATT.Category = "cod2019_ak47_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_masterkey01_ak47.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -593,8 +593,8 @@ ATT.Category = "cod2019_cr56_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_masterkey01_cr56amax.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -685,8 +685,8 @@ ATT.ActivateElements = {"grip", "shotgun", "foregrip_gl"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_masterkey01_an94.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -774,8 +774,8 @@ ATT.Category = "cod2019_fal_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_masterkey01_fal.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -863,8 +863,8 @@ ATT.Category = "cod2019_famas_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_masterkey01_famas.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -954,8 +954,8 @@ ATT.Category = "cod2019_kilo141_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_masterkey01_kilo141.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -1043,8 +1043,8 @@ ATT.Category = "cod2019_m13_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_masterkey01_m13.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -1132,8 +1132,8 @@ ATT.Category = "cod2019_oden_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_masterkey01_oden.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -1228,8 +1228,8 @@ ATT.Category = "cod2019_grau556_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_masterkey01_grau556.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
@@ -1318,8 +1318,8 @@ ATT.Category = "cod2019_ram7_grip"
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_masterkey01_ram7.mdl"
 ATT.BoneMerge = true
 
-ATT.SprintPosUBGL = Vector(-1.5, -0.7, 0.7)
-ATT.SprintAngUBGL = Angle(0, 0, 0)
+ATT.SprintPosUBGL = Vector(0.5, -0.7, -0.7)
+ATT.SprintAngUBGL = Angle(0, 0, 25)
 
 ATT.HasSightsUBGL = true
 ATT.UBGLExclusiveSightsUBGL = true
