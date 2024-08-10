@@ -154,7 +154,7 @@ ATT = {}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Skeleton Stock"
 ATT.CompactName = "Skeleton"
-ATT.Description = [[Extended magazines hold 15 rounds of 7.62×54mmR with a slight weight increase.]]
+ATT.Description = [[Ultralight stock speeds up weapon handling and movement at the expense of aiming stability.]]
 ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_stock_light.png", "mips smooth")
 
 ATT.SortOrder = 0
@@ -180,7 +180,7 @@ ATT = {}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "VLK Lightweight Stock"
 ATT.CompactName = "Lightweight"
-ATT.Description = [[Extended magazines hold 15 rounds of 7.62×54mmR with a slight weight increase.]]
+ATT.Description = [[Stock designed for agility while aiming down sights.]]
 ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_stock_short.png", "mips smooth")
 
 ATT.SortOrder = 0
