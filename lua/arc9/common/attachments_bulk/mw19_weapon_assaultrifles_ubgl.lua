@@ -85,7 +85,7 @@ glcode = {
 
 shotguncode = {
 	Description = "",
-	Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_ubgl.png", "mips smooth"),
+	Icon = Material("entities/attachs/cod2019_ub_masterkey01.png", "mips smooth"),
 	MenuCategory = "ARC9 - MW2019 Attachments",
 	Free = false,
 
