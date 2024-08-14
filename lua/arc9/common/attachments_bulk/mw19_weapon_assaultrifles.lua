@@ -979,7 +979,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 100
-ATT.Category = "cod2019_m4_mag"
+ATT.Category = {"cod2019_m4_mag","cod2019_famas_mag"}
 ATT.ActivateElements = {"mag_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_kilo433_mag_mike4.mdl"
@@ -1140,7 +1140,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FR 24.4\" Sniper"
 ATT.CompactName = "FR 24.4\" Sniper"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes grouping but hinders mobility.]]
-
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barrellong.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barrellong_alt.mdl"
@@ -1194,7 +1193,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FR 15.9\" Commando"
 ATT.CompactName = "15.9\" Commando"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Improves close range combat.]]
-
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barshort.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barshort.mdl"
@@ -1246,10 +1244,55 @@ ARC9.LoadAttachment(ATT, "cod2019_famas_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FORGE TAC Ultralight"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Fluted barrel with a wider bore reduces weight for improved handling at the cost of muzzle velocity.]]
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barlong2.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barlong2.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_famas_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(0.2, 0, 0),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.92
+	ATT.RangeMaxMult = 0.91
+	ATT.RangeMinMult = 0.91
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.92
+	ATT.RangeMaxMult = 0.91
+	ATT.RangeMinMult = 0.91
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_famas_barrel_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Tac-Wrap"
 ATT.CompactName = "FSS Tac-Wrap"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
-
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_tactical.mdl"
@@ -1275,7 +1318,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Valorisé"
 ATT.CompactName = "Valorisé"
 ATT.Description = ""
-
 --ATT.Icon = Material("entities/attachs/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_railcust.mdl"
