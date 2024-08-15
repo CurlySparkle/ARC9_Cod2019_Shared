@@ -163,9 +163,9 @@ L["cod2019_m4_mag_alt.description"] = "Changes the appearance of the default mag
 
 //////////////////// FR 5.56
 /////////////// Receiver
-L["cod2019_famas_upper_railcust.printname"] = "Valorisé Receiver"
-L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
-L["cod2019_famas_upper_railcust.description"] = "Modified Valorisé receiver for the FR 5.56."
+L["cod2019_famas_upper_railcust.printname"] = "FR Avancer Receiver"
+L["cod2019_famas_upper_railcust.compactname"] = "Avancer"
+L["cod2019_famas_upper_railcust.description"] = "Changes the upper receiver of the FR 5.56 with the one from the FR Avancer."
 
 //////////////////// Oden
 /////////////// Magazine

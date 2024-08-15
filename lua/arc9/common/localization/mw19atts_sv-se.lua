@@ -557,7 +557,7 @@ L["cod2019_famas_barrel_long.printname"] = "FR 620 mm Prickskytt"
 L["cod2019_famas_barrel_long.compactname"] = "Prickskytt"
 L["cod2019_famas_barrel_long.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar gruppningen men hindrar rörlighet."
 
-L["cod2019_famas_barrel_03.description"] = "Kannelerad pipa med brett lopp sänker vikt för förbättrad hantering med kostnad på mynningshastighet."
+L["cod2019_famas_barrel_light.description"] = "Kannelerad pipa med brett lopp sänker vikt för förbättrad hantering med kostnad på mynningshastighet."
 
 /////////////// Stock
 L["cod2019_famas_stock_heavy.printname"] = "FR Ultralight Hollow"

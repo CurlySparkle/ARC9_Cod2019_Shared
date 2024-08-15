@@ -983,9 +983,9 @@ L["cod2019_famas_barrel_long.printname"] = "FR 24.4\" Sniper"
 L["cod2019_famas_barrel_long.compactname"] = "Sniper"
 L["cod2019_famas_barrel_long.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes grouping but hinders mobility."
 
-L["cod2019_famas_barrel_03.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname") or "FORGE TAC Ultralight"
-L["cod2019_famas_barrel_03.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
-L["cod2019_famas_barrel_03.description"] = "Fluted barrel with a wider bore reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_famas_barrel_light.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.printname") or "FORGE TAC Ultralight"
+L["cod2019_famas_barrel_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_famas_barrel_light.description"] = "Fluted barrel with a wider bore reduces weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
 L["cod2019_famas_stock_heavy.printname"] = "FR Ultralight Hollow"

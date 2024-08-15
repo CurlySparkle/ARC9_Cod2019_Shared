@@ -1279,10 +1279,10 @@ if !warzonestats then -- Regular Stats
 	ATT.RangeMaxMult = 0.91
 	ATT.RangeMinMult = 0.91
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 0.92
-	ATT.DeployTimeMult = 0.92
-	ATT.RangeMaxMult = 0.91
-	ATT.RangeMinMult = 0.91
+	ATT.PhysBulletMuzzleVelocityAdd = 170 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.023
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_barrel_light")
@@ -1315,8 +1315,8 @@ ARC9.LoadAttachment(ATT, "cod2019_famas_stock_tactical")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "Valorisé"
-ATT.CompactName = "Valorisé"
+ATT.PrintName = "FR Avancer Receiver"
+ATT.CompactName = "Avancer"
 ATT.Description = ""
 --ATT.Icon = Material("entities/attachs/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
 

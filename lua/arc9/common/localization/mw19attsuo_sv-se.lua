@@ -162,9 +162,9 @@ L["cod2019_m4_mag_alt.description"] = "Ändrar utseendet på standardmagasinet t
 
 //////////////////// FR 5.56
 /////////////// Receiver
-L["cod2019_famas_upper_railcust.printname"] = "Valorisé-Låda"
-L["cod2019_famas_upper_railcust.compactname"] = "Valorisé"
-L["cod2019_famas_upper_railcust.description"] = "Anpassad Valorisé-låda till FR 5,56."
+L["cod2019_famas_upper_railcust.printname"] = "\"FR Avancer\"-Låda"
+L["cod2019_famas_upper_railcust.compactname"] = "\"Avancer\""
+L["cod2019_famas_upper_railcust.description"] = "Ändrar den övre lådan på FR 5,56 med den från FR Avancer."
 
 //////////////////// Oden
 /////////////// Magazine
