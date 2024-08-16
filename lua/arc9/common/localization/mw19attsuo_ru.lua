@@ -208,9 +208,9 @@ L["cod2019_akilo47_smg_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// RAM-7
 /////////////// Magazine
-L["cod2019_ram7_mag_drum_9mm.printname"] = "9mm 60 Round Mags"
+L["cod2019_ram7_mag_drum_9mm.printname"] = "9mm Para 60-Round Mags"
 L["cod2019_ram7_mag_drum_9mm.compactname"] = "60R 9mm"
-L["cod2019_ram7_mag_drum_9mm.description"] = "Conversion kit to use lower caliber <color=255,255,100>9mm parabellum</color> ammunition. Shorter range, faster fire rate, and less recoil to dominate close quarters engagements."
+L["cod2019_ram7_mag_drum_9mm.description"] = "<color=255,255,100>9mm Parabellum</color> conversion kit with <color=100,255,100>60 round</color> drums. Higher fire rate and better weapon control for improved short range combat."
 
 //////////////////// CR-56 AMAX
 /////////////// Magazine

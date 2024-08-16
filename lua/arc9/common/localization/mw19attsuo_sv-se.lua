@@ -207,9 +207,9 @@ L["cod2019_akilo47_smg_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// RAM-7
 /////////////// Magazine
-L["cod2019_ram7_mag_drum_9mm.printname"] = "9 mm 60-Patronersmagasin"
+L["cod2019_ram7_mag_drum_9mm.printname"] = "9 mm Para 60-Patronersmagasin"
 L["cod2019_ram7_mag_drum_9mm.compactname"] = "60R 9 mm"
-L["cod2019_ram7_mag_drum_9mm.description"] = "Konverteringskit för att använda lägre kaliber <color=255,255,100>9 mm parabellum</color>-ammunition. Kortare räckvidd, snabbare eldhastighet och mindre rekyl för att dominera strider på nära distanser."
+L["cod2019_ram7_mag_drum_9mm.description"] = "<color=255,255,100>9 mm Parabellum</color> konverteringskit med <color=100,255,100>60 patronerstrummor</color> Högre eldhastighet och bättre vapenkontroll för förbättrad stridsförmåga på nära distans."
 
 //////////////////// CR-56 AMAX
 /////////////// Magazine
