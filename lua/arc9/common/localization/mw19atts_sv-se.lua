@@ -948,9 +948,9 @@ L["cod2019_p90_barrel_custom.printname"] = "FORGE TAC Retribution"
 L["cod2019_p90_barrel_custom.compactname"] = "Retribution"
 L["cod2019_p90_barrel_custom.description"] = "Förlängd framskydd håller en 406 mm polygonellt räfflad pipa. Ökar kraftigt mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["cod2019_p90_barrel_02.printname"] = "FSS 270 mm Pro"
-L["cod2019_p90_barrel_02.compactname"] = "270 mm Pro"
-L["cod2019_p90_barrel_02.description"] = "270 mm pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med väldigt lite tillagd vikt."
+L["cod2019_p90_barrel_long.printname"] = "FSS 270 mm Pro"
+L["cod2019_p90_barrel_long.compactname"] = "270 mm Pro"
+L["cod2019_p90_barrel_long.description"] = "270 mm pipa av rostfritt stål med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med väldigt lite tillagd vikt."
 
 /////////////// Stock
 L["cod2019_p90_stock_tactical.printname"] = "FORGE TAC CQB Axelskydd"

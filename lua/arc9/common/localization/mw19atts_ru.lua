@@ -898,71 +898,71 @@ L["cod2019_asval_mag_10.description"] = "<color=255,100,100>10 патронов<
 //////////////////////// Submachine Guns
 //////////////////// AUG
 /////////////// Optics
-L["cod2019_aug_optic.printname"] = "Integral 2.8x Optic"
-L["cod2019_aug_optic.compactname"] = "Integral"
-L["cod2019_aug_optic.description"] = "Built in scope with <color=100,255,100>2.8x</color> magnification provides superior target acquisition."
+L["cod2019_aug_optic.printname"] = "Интегральный оптический прицел 2,8х"
+L["cod2019_aug_optic.compactname"] = "Интеграл."
+L["cod2019_aug_optic.description"] = "Встроенный прицел с кратностью <color=100,255,100>2,8х</color>, заметно облегчающий обнаружение целей."
 
 /////////////// Barrels
-L["cod2019_aug_barrel_ar_long.printname"] = "407mm Extended Barrel"
-L["cod2019_aug_barrel_ar_long.compactname"] = "Extended"
-L["cod2019_aug_barrel_ar_long.description"] = "Stainless steel barrel extension increases muzzle velocity and extends range. Additional weight stabilizes shots but slows handling."
+L["cod2019_aug_barrel_ar_long.printname"] = "407-мм удлиненный ствол"
+L["cod2019_aug_barrel_ar_long.compactname"] = "Удлиненный"
+L["cod2019_aug_barrel_ar_long.description"] = "Этот стальной ствол повышает начальную скорость пули и, как следствие. Дальность эффективного поражения. Дополнительный вес стабилизирует оружие, но ухудшает эргономику."
 
-L["cod2019_aug_barrel_02.printname"] = "407mm Lightweight"
-L["cod2019_aug_barrel_02.compactname"] = "Lightweight"
-L["cod2019_aug_barrel_02.description"] = "Dimpled aluminum alloy barrel extension extends range and muzzle velocity with minimal additional weight."
+L["cod2019_aug_barrel_02.printname"] = "407 мм легк."
+L["cod2019_aug_barrel_02.compactname"] = "Легк."
+L["cod2019_aug_barrel_02.description"] = "Эта насадка на ствол из алюминиевого сплава повышает начальную скорость пули и, как следствие, дальность эффективного поражения, лишь слегка увеличивая вес."
 
-L["cod2019_aug_barrel_lmg.printname"] = "622mm Long Barrel"
-L["cod2019_aug_barrel_lmg.compactname"] = "Long"
-L["cod2019_aug_barrel_lmg.description"] = "Maximum barrel extension pushes this weapon's range to the extreme. Heavy weight, smooth handling."
+L["cod2019_aug_barrel_lmg.printname"] = "622-мм длинный ствол"
+L["cod2019_aug_barrel_lmg.compactname"] = "Длинный"
+L["cod2019_aug_barrel_lmg.description"] = "Максимально удлиненный ствол невероятно увеличивает дальность стрельбы. Большой вес, хорошая эргономика."
 
 /////////////// Stock
-L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
+L["cod2019_aug_stock_heavy.printname"] = "Сверхлегкий полый приклад FTAC"
 
-L["cod2019_aug_stock_tactical.printname"] = "FORGE TAC CQB Comb"
-L["cod2019_aug_stock_tactical.compactname"] = "CQB Comb"
+L["cod2019_aug_stock_tactical.printname"] = "\"ФОРДЖ-ТАК\" - приклад-гребень для ближнего боя"
+L["cod2019_aug_stock_tactical.compactname"] = "\"ФОРДЖ-ТАК\""
 
-L["cod2019_aug_stock_heavy.printname"] = "FSS Heavy Stock Pro"
-L["cod2019_aug_stock_heavy.compactname"] = "Heavy Pro"
-L["cod2019_aug_stock_heavy.description"] = "Heavy weight stock attachment provides stability while aiming."
+L["cod2019_aug_stock_heavy.printname"] = "Тяжелый приклад FSS \"Профи\""
+L["cod2019_aug_stock_heavy.compactname"] = "\"Профи\""
+L["cod2019_aug_stock_heavy.description"] = "Тяжелый приклад обеспечивает максимальную стабильность оружия при прицеливании."
 
 /////////////// Magazine
 L["cod2019_aug_mag_32.printname"] = string.format(mw19magtext.mag, "32")
 L["cod2019_aug_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
 L["cod2019_aug_mag_32.description"] = string.format(mw19magtext.desc, "32", mw19ammotype["919"])
 
-L["cod2019_aug_mag_ar_30.printname"] = "5.56 NATO 30-Round Mags"
-L["cod2019_aug_mag_ar_30.compactname"] = "30R 5.56"
-L["cod2019_aug_mag_ar_30.description"] = "Conversion kit to use 30 round <color=255,255,100>5.56 NATO</color> magazines for increased stopping power. Slightly lower cycle rate to help control recoil." .. changeammo.ar2
+L["cod2019_aug_mag_ar_30.printname"] = "Магазины на 30 патронов 5,56 мм НАТО"
+L["cod2019_aug_mag_ar_30.compactname"] = "30П 5,56"
+L["cod2019_aug_mag_ar_30.description"] = "Конверсия под магазины на 30 патронов калибра <color=255,255,100>5,56 мм НАТО</color>, обладающих повышенным убойным действием. Чтобы помочь стрелку справиться с отдачей этого мощного патрона, цикл работы автоматики немного замедляется." .. changeammo.ar2
 
-L["cod2019_aug_mag_ar_drum.printname"] = "5.56 NATO 60-Round Mags"
-L["cod2019_aug_mag_ar_drum.compactname"] = "60R 5.56"
-L["cod2019_aug_mag_ar_drum.description"] = "<color=255,255,100>5.56 NATO</color> conversion kit with <color=100,255,100>60 round</color> drums. Lower mobility, maximize ammunition capacity." .. changeammo.ar2
+L["cod2019_aug_mag_ar_drum.printname"] = "Барабанные магазины на 60 патронов 5,56 мм НАТО"
+L["cod2019_aug_mag_ar_drum.compactname"] = "60П 5,56"
+L["cod2019_aug_mag_ar_drum.description"] = "Конверсия под барабанные магазины на <color=100,255,100>60 патронов</color> калибра <color=255,255,100>5,56 мм НАТО</color>. Ограниченная подвижность, максимальный боезапас,." .. changeammo.ar2
 
 //////////////////// P90
 /////////////// Optics
-L["cod2019_p90_optic.printname"] = "FSS Ring Sight"
-L["cod2019_p90_optic.compactname"] = "Ring"
-L["cod2019_p90_optic.description"] = "Custom integral reflex sight provides higher precision."
+L["cod2019_p90_optic.printname"] = "Кольцевой прицел FSS"
+L["cod2019_p90_optic.compactname"] = "Кольцевой"
+L["cod2019_p90_optic.description"] = "Особый интегральный зеркальный прицел повышает точность стрельбы."
 
 /////////////// Barrels
-L["cod2019_p90_barrel_custom.printname"] = "FORGE TAC Retribution"
-L["cod2019_p90_barrel_custom.compactname"] = "Retribution"
-L["cod2019_p90_barrel_custom.description"] = "Extended front shroud houses a 16\" polygonal rifled barrel. Greatly increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+L["cod2019_p90_barrel_custom.printname"] = "\"ФОРДЖ-ТАК\" - \"Возмездие\""
+L["cod2019_p90_barrel_custom.compactname"] = "Возмездие"
+L["cod2019_p90_barrel_custom.description"] = "16-дюймовый ствол с полигональной нарезкой в удлиненном кожухе Повышенает начальную скорость пули и, как следствие, дальность эффективного поражения. Дополнительный вес стабилизирует оружие, но ограничивает подвижность бойца."
 
-L["cod2019_p90_barrel_02.printname"] = "FSS 10.6\" Pro"
-L["cod2019_p90_barrel_02.compactname"] = "10.6\" Pro"
-L["cod2019_p90_barrel_02.description"] = "10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight."
+L["cod2019_p90_barrel_long.printname"] = "FSS 10,6 дюйма \"Профи\""
+L["cod2019_p90_barrel_long.compactname"] = "\"Профи\""
+L["cod2019_p90_barrel_long.description"] = "Этот стальной ствол (10,4 дюйма) с полигональной нарезкой немного повышает начальную скорость пули и дальность эффективного поражения, лишь слегка увеличивая вес."
 
 /////////////// Stock
-L["cod2019_p90_stock_tactical.printname"] = "FORGE TAC CQB Comb"
-L["cod2019_p90_stock_tactical.compactname"] = "CQB Comb"
+L["cod2019_p90_stock_tactical.printname"] = "\"ФОРДЖ-ТАК\" - приклад-гребень для ближнего боя"
+L["cod2019_p90_stock_tactical.compactname"] = "\"ФОРДЖ-ТАК\""
 
-L["cod2019_p90_stock_sling.printname"] = "Fly Strap"
-L["cod2019_p90_stock_sling.compactname"] = "Fly Strap"
-L["cod2019_p90_stock_sling.description"] = "Clip on strap improves fast paced weapon handling."
+L["cod2019_p90_stock_sling.printname"] = "Крепежный ремень"
+L["cod2019_p90_stock_sling.compactname"] = "Рем."
+L["cod2019_p90_stock_sling.description"] = "Пристегивающийся ремень улучшает эргономику."
 
-L["cod2019_p90_stock_heavy.printname"] = "FSS Heavy Stock Pro"
-L["cod2019_p90_stock_heavy.compactname"] = "Heavy Pro"
+L["cod2019_p90_stock_heavy.printname"] = "Тяжелый приклад FSS \"Профи\""
+L["cod2019_p90_stock_heavy.compactname"] = "\"Профи\""
 
 //////////////////// MP5
 /////////////// Misc

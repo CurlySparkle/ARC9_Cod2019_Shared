@@ -1427,9 +1427,9 @@ L["cod2019_p90_barrel_custom.printname"] = "FORGE TAC Retribution"
 L["cod2019_p90_barrel_custom.compactname"] = "Retribution"
 L["cod2019_p90_barrel_custom.description"] = "Extended front shroud houses a 16\" polygonal rifled barrel. Greatly increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
-L["cod2019_p90_barrel_02.printname"] = "FSS 10.6\" Pro"
-L["cod2019_p90_barrel_02.compactname"] = "10.6\" Pro"
-L["cod2019_p90_barrel_02.description"] = "10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight."
+L["cod2019_p90_barrel_long.printname"] = "FSS 10.6\" Pro"
+L["cod2019_p90_barrel_long.compactname"] = "10.6\" Pro"
+L["cod2019_p90_barrel_long.description"] = "10.6 inch stainless steel barrel with polygonal rifling increases muzzle velocity and improves range with little additional weight."
 
 /////////////// Stock
 L["cod2019_p90_stock_tactical.printname"] = "FORGE TAC CQB Comb"
