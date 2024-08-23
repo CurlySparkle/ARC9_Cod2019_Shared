@@ -887,6 +887,23 @@ ARC9.LoadAttachment(ATT, "cod2019_mg34_grip_bipod")
 /////////////////////////// -- Holger-26
 ATT = {}
 
+ATT.PrintName = "Force Sight"
+ATT.CompactName = "Force Sight"
+ATT.Description = [[Forces the default sight to be on.]]
+ATT.SortOrder = 1
+
+--ATT.Icon = Material("entities/attachs/cod2019_mpapa5_stock_fullstock.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_etc"}
+ATT.ActivateElements = {"sight_default"}
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_sights_forced")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "FTAC 8.98 Spitfire"
 ATT.CompactName = "Spitfire"
 ATT.Description = [[Medium, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
@@ -998,8 +1015,8 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
 ATT.ActivateElements = {"mag_none","mag_armag"}
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag_augolf.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag_augolf.mdl"
 ATT.BoneMerge = true
 
 ATT.DropMagazineSounds = {
