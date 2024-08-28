@@ -1612,13 +1612,13 @@ L["cod2019_holger_reciever_v2.compactname"] = "Holger-556"
 L["cod2019_holger_reciever_v2.description"] = "Compact receiver with a shortened top rail for the Holger-26."
 
 /////////////// Optics
-L["cod2019_holger_optic_integral_reflex.printname"] = "FSS Integral Reflex"
-L["cod2019_holger_optic_integral_reflex.compactname"] = "I. Reflex"
-L["cod2019_holger_optic_integral_reflex.description"] = "Custom integrated reflex optic with a clean sight picture that puts the focus on the target."
+L["cod2019_holger_scope_reflex.printname"] = "FSS Integral Reflex"
+L["cod2019_holger_scope_reflex.compactname"] = "I. Reflex"
+L["cod2019_holger_scope_reflex.description"] = "Custom integrated reflex optic with a clean sight picture that puts the focus on the target."
 
-L["cod2019_holger_optic_integral_scope.printname"] = "Solozero K498 4.0x Integral"
-L["cod2019_holger_optic_integral_scope.compactname"] = "I. K498"
-L["cod2019_holger_optic_integral_scope.description"] = "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
+L["cod2019_holger_scope_x4.printname"] = "Solozero K498 4.0x Integral"
+L["cod2019_holger_scope_x4.compactname"] = "I. K498"
+L["cod2019_holger_scope_x4.description"] = "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
 
 /////////////// Barrels
 L["cod2019_holger_barrel_short.printname"] = "XRK Ultralight"

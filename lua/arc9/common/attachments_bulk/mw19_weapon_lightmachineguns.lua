@@ -1121,7 +1121,7 @@ ATT.Description = [[Custom integrated reflex optic with a clean sight picture th
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_reflex.png", "mips smooth")
 
 ATT.CustomPros = {
-    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "4.0x"
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "1.25x"
 }
 
 ATT.SortOrder = 4
@@ -1146,19 +1146,21 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 2.2
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 1.25
+ATT.ScopeScreenRatio = 500/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
+ATT.RTCollimator = true
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.08
 	ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.027
+	ATT.AimDownSightsTimeAdd = 0.011
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_scope_reflex")
@@ -1196,8 +1198,8 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 36 / 2.8
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/aug_crosshair")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6.5
@@ -1208,7 +1210,9 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.08
 	ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.027
+	ATT.AimDownSightsTimeAdd = 0.04
+	ATT.VisualRecoilMult = 0.99
+	ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_scope_x4")

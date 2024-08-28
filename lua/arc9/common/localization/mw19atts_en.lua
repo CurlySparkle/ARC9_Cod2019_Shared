@@ -2193,13 +2193,13 @@ L["cod2019_holger_reciever_v2.compactname"] = "Holger-556"
 L["cod2019_holger_reciever_v2.description"] = "Compact receiver with a shortened top rail for the Holger-26."
 
 /////////////// Optics
-L["cod2019_holger_optic_integral_reflex.printname"] = "FSS Integral Reflex"
-L["cod2019_holger_optic_integral_reflex.compactname"] = "I. Reflex"
-L["cod2019_holger_optic_integral_reflex.description"] = "Custom integrated reflex optic with a clean sight picture that puts the focus on the target."
+L["cod2019_holger_scope_reflex.printname"] = "FSS Integral Reflex"
+L["cod2019_holger_scope_reflex.compactname"] = "I. Reflex"
+L["cod2019_holger_scope_reflex.description"] = "Custom integrated reflex optic with a clean sight picture that puts the focus on the target."
 
-L["cod2019_holger_optic_integral_scope.printname"] = "Solozero K498 4.0x Integral"
-L["cod2019_holger_optic_integral_scope.compactname"] = "I. K498"
-L["cod2019_holger_optic_integral_scope.description"] = "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
+L["cod2019_holger_scope_x4.printname"] = "Solozero K498 4.0x Integral"
+L["cod2019_holger_scope_x4.compactname"] = "I. K498"
+L["cod2019_holger_scope_x4.description"] = "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
 
 /////////////// Barrels
 L["cod2019_holger_barrel_short.printname"] = "XRK Ultralight"
@@ -2319,9 +2319,9 @@ L["cod2019_finn_mag_ct_100.description"] = "Extended belts hold <color=100,255,1
 
 //////////////////// RAAL MG
 /////////////// Optics
-L["cod2019_optic_raal_scope.printname"] = ARC9:GetPhrase("cod2019_holger_optic_integral_scope.printname") or "Solozero K498 4.0x Integral"
-L["cod2019_optic_raal_scope.compactname"] = ARC9:GetPhrase("cod2019_holger_optic_integral_scope.compactname") or "I. K498"
-L["cod2019_optic_raal_scope.description"] = ARC9:GetPhrase("cod2019_holger_optic_integral_scope.description") or "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
+L["cod2019_optic_raal_scope.printname"] = ARC9:GetPhrase("cod2019_holger_scope_x4.printname") or "Solozero K498 4.0x Integral"
+L["cod2019_optic_raal_scope.compactname"] = ARC9:GetPhrase("cod2019_holger_scope_x4.compactname") or "I. K498"
+L["cod2019_optic_raal_scope.description"] = ARC9:GetPhrase("cod2019_holger_scope_x4.description") or "Advanced optic with <color=100,255,100>4.0x</color>magnification provides excellent target acquisition."
 
 /////////////// Barrels
 L["cod2019_raal_barrel_heavy.printname"] = "26.0\" RAAL ArcForge"
@@ -2422,6 +2422,11 @@ L["cod2019_m14_mag_20.compactname"] = string.format(mw19magtext.mags, "20")
 L["cod2019_m14_mag_20.description"] = string.format(mw19magtext.descl, "20", mw19ammotype["762"])
 
 //////////////////// MK2 Carbine
+/////////////// Optics
+L["cod2019_mk2_scope.printname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.printname") or "Sniper Scope"
+L["cod2019_mk2_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.compactname") or "Sniper"
+L["cod2019_mk2_scope.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
+
 /////////////// Barrels
 L["cod2019_mk2_barrel_01.printname"] = "FSS 18.0\" Factory"
 L["cod2019_mk2_barrel_01.compactname"] = "18.0\""

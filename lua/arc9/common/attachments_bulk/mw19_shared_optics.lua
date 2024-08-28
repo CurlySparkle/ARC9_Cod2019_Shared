@@ -583,13 +583,15 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 2.2
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 1.15
+ATT.ScopeScreenRatio = 550/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+
+ATT.RTCollimator = true
 
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
@@ -635,13 +637,15 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 2.2
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 1.25
+ATT.ScopeScreenRatio = 550/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+
+ATT.RTCollimator = true
 
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
@@ -735,15 +739,17 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 1.5
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 1.5
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
--- ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
+ATT.RTCollimator = true
+
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
 
 -- table.Merge(ATT, reticleatts.holo)
 
@@ -950,17 +956,17 @@ ATT.CustomPros = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 1
-ATT.RTScopeFOVMin = 36 / 3
-ATT.RTScopeFOVMax = 36 / 6.1
-ATT.RTScopeRes = 256
+ATT.RTScopeAdjustmentLevels = 2
+ATT.RTScopeMagnificationMin = 3
+ATT.RTScopeMagnificationMax = 6.1
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sniper_crosshair")
 ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
 
 -- table.Merge(ATT, reticleatts.sniper)
 
@@ -1008,15 +1014,16 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 36 / 4.4
-ATT.RTScopeRes = 256
+ATT.RTScopeMagnification = 4.4
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sniper_crosshair")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
+--ATT.ScopeScreenRatio = 600/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.png", "mips smooth")
 
 -- table.Merge(ATT, reticleatts.sniper)
 
@@ -1080,15 +1087,16 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 3
-ATT.RTScopeRes = 513
+ATT.RTScopeMagnification = 3
+ATT.ScopeScreenRatio = 625/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/vlk_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
+--ATT.ScopeScreenRatio = 600/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.021
@@ -1132,7 +1140,6 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
-		RTScopeFOV = 36,
         IgnoreExtra = false,
 		Integral = false,
 		Blur = true,
@@ -1157,8 +1164,8 @@ ATT.HoloSightColor = Color(255, 255, 255)
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 36 / 3.25
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 3.25
+ATT.ScopeScreenRatio = 650/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/integral_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
@@ -1166,7 +1173,8 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeNoBlur = true
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.ScopeScreenRatio = 650/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 -- table.Merge(ATT, reticleatts.hybrid)
 
@@ -1228,7 +1236,6 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
-		RTScopeFOV = 36,
         IgnoreExtra = false,
 		Integral = false,
 		Blur = true,
@@ -1255,14 +1262,15 @@ ATT.HoloSightColor = Color(255, 255, 255)
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 36 / 1.75
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 650/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default.png", "mips smooth")
+--ATT.ScopeScreenRatio = 650/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default.png", "mips smooth")
 
 -- table.Merge(ATT, reticleatts.hybrid)
 
@@ -1309,7 +1317,6 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
-		RTScopeFOV = 36,
         IgnoreExtra = false,
 		Integral = false,
 		Blur = true,
@@ -1353,13 +1360,14 @@ ATT.HoloSightColor = Color(255, 255, 255)
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 36 / 1.75
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 650/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_acog3_alt")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
 
+ATT.ScopeScreenRatio = 650/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_default_nvg.png", "mips smooth")
 
 -- table.Merge(ATT, reticleatts.hybrid)
@@ -1460,7 +1468,6 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
-		RTScopeFOV = 36,
         IgnoreExtra = false,
 		Integral = false,
 		Blur = true,
@@ -1484,8 +1491,8 @@ ATT.HoloSightColor = Color(255, 255, 255)
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 5
 ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 36 / 4
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeShadowIntensity = 6
@@ -1553,15 +1560,16 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 36 / 3.25
-ATT.RTScopeRes = 513
+ATT.RTScopeMagnification = 3.25
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_vzscope_default2.png", "mips")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.ScopeScreenRatio = 600/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.027
@@ -1625,15 +1633,16 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 3.5
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 3.5
+ATT.ScopeScreenRatio = 650/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3.png")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
+--ATT.ScopeScreenRatio = 600/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.03
@@ -1697,15 +1706,16 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 3.25
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 3.25
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_nvg.png")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default.png", "mips smooth")
+--ATT.ScopeScreenRatio = 600/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default.png", "mips smooth")
 
 ATT.RTScopeNightVision = true
 ATT.RTScopeNightVisionMonochrome = false
@@ -1809,8 +1819,8 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 36 / 3.25
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 3.25
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_thermal_default2.png")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
@@ -1818,7 +1828,8 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 ATT.RTScopeMotionBlur = true
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default2.png", "mips smooth")
+--ATT.ScopeScreenRatio = 600/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_thermal_default2.png", "mips smooth")
 
 -- table.Merge(ATT, reticleatts.thermal)
 
@@ -1908,12 +1919,12 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 36 / 3.25
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 3.25
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 1
-ATT.RTScopeFOVMin = 36 / 5
-ATT.RTScopeFOVMax = 36 / 12.1
+ATT.RTScopeMagnificationMin = 5
+ATT.RTScopeMagnificationMax = 12.1
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_thermal_default2.png")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
@@ -1957,7 +1968,6 @@ cam.End2D()
 end
 
 ATT.RTScopeMotionBlur = true
-ATT.ScopeScreenRatio = 0.66
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.06
@@ -2003,15 +2013,15 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
-ATT.RTScopeFOV = 36 / 4
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 4
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/bravo4_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
---ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_bravo4.png")
+-- ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_bravo4.png")
 
 -- table.Merge(ATT, reticleatts.acog)
 
@@ -2062,8 +2072,8 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 5.5
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 5.5
+ATT.ScopeScreenRatio = 600/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/svd_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5

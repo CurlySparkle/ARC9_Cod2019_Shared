@@ -381,22 +381,25 @@ ATT.Sights = {
 }
 
 ATT.CustomPros = {
-   [ ARC9:GetPhrase("mw19_optic_stat_zoom2") ] = "4.5x"
+   [ ARC9:GetPhrase("mw19_optic_stat_zoom2") ] = "4.4x"
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 36 / 4.5
-ATT.RTScopeAdjustable = true
-ATT.RTScopeAdjustmentLevels = 1
-ATT.RTScopeFOVMin = 8
-ATT.RTScopeFOVMax = 16
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 4.4
+ATT.ScopeScreenRatio = 700/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/reticle_sniper_new2.png", "mips")
 ATT.RTScopeReticleScale = 0.95
 ATT.RTScopeShadowIntensity = 7.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.08
+	ATT.RecoilMult = 0.99
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.103
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_mk2_scope")
 
@@ -435,9 +438,9 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 4.4
+ATT.RTScopeMagnification = 4.4
 ATT.RTScopeAdjustable = false
-ATT.RTScopeRes = 512
+ATT.ScopeScreenRatio = 775/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/mosin_crosshair.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.18
 ATT.RTScopeShadowIntensity = 6
@@ -881,12 +884,13 @@ ATT.Attachments = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 36 / 4
+ATT.RTScopeMagnification = 4
 -- ATT.RTScopeAdjustable = true
 -- ATT.RTScopeAdjustmentLevels = 1
--- ATT.RTScopeFOVMin = 36 / 4.1
--- ATT.RTScopeFOVMax = 36 / 2.3
+-- ATT.RTScopeMagnificationMin = 4.1
+-- ATT.RTScopeMagnificationMax = 2.3
 ATT.RTScopeRes = 256
+ATT.ScopeScreenRatio = 725/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeShadowIntensity = 6
@@ -950,12 +954,13 @@ ATT.Attachments = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
--- ATT.RTScopeFOV = 36 / 4
+-- ATT.RTScopeMagnification = 4
 ATT.RTScopeAdjustable = true
 ATT.RTScopeAdjustmentLevels = 1
-ATT.RTScopeFOVMin = 36 / 3
-ATT.RTScopeFOVMax = 36 / 6.1
+ATT.RTScopeMagnificationMin = 3
+ATT.RTScopeMagnificationMax = 6.1
 ATT.RTScopeRes = 256
+ATT.ScopeScreenRatio = 725/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeShadowIntensity = 6
@@ -1264,8 +1269,8 @@ ATT.Sights = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
-ATT.RTScopeFOV = 36 / 4.4
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 4.4
+ATT.ScopeScreenRatio = 725/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/sks_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeShadowIntensity = 6
@@ -1526,11 +1531,11 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeAdjustable = false
-ATT.RTScopeFOV = 36 / 4.4
+ATT.RTScopeMagnification = 4.4
 -- ATT.RTScopeAdjustmentLevels = 3
--- ATT.RTScopeFOVMin = 7
--- ATT.RTScopeFOVMax = 26
-ATT.RTScopeRes = 1024
+-- ATT.RTScopeMagnificationMin = 7
+-- ATT.RTScopeMagnificationMax = 26
+ATT.ScopeScreenRatio = 725/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/spr208_crosshair")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6

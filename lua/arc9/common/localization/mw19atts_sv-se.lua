@@ -414,7 +414,7 @@ local mw19magtext = {
 	descl = "Hög kapacitetsmagasin håller <color=100,255,100>%s patroner</color> av %s-ammunition med måttlig ökad vikt.", -- Kilo 141, 60-Round Mag
 	descdrum = "Trummagasin håller <color=100,255,100>%s patroner</color> av %s vilket maximerar ammunitionskapacitet med kostnad på rörlighet.", -- Kilo 141, 100-Round Drum
 
-	descsmall = "<color=255,100,100>%s patronersmagasin</color> med %s-ammunition har mindre ammunition, men ökar rörligheten och ökar omladdningshastigheten.", -- Holger-26, 30-Round Mag
+	descsmall = "<color=255,100,100>%s-patronersmagasin</color> med %s-ammunition har mindre ammunition, men ökar rörligheten och ökar omladdningshastigheten.", -- Holger-26, 30-Round Mag
 
 	desc12 = "Förstorade magasin håller <color=100,255,100>%s patroner</color> med lätt ökad vikt.", -- Origin 12 Shotgun, 12-Round Mags
 	descdrum12 = "Trummagasin håller <color=100,255,100>%s shells</color> av hagelskott vilket maximerar ammunitionskapacitet med kostnad på rörlighet.", -- Origin 12, 25-Round Drums
@@ -1610,13 +1610,13 @@ L["cod2019_holger_reciever_v2.compactname"] = "Holger-556"
 L["cod2019_holger_reciever_v2.description"] = "Kompakt låda med en kortare toppmonterad skena till Holger-26."
 
 /////////////// Optics
-L["cod2019_holger_optic_integral_reflex.printname"] = "FSS Inbyggd Reflexsikte"
-L["cod2019_holger_optic_integral_reflex.compactname"] = "I. Reflex"
-L["cod2019_holger_optic_integral_reflex.description"] = "Anpassat, inbyggt reflexsikte med en ren siktvy som håller fokus på målet."
+L["cod2019_holger_scope_reflex.printname"] = "FSS Inbyggd Reflexsikte"
+L["cod2019_holger_scope_reflex.compactname"] = "I. Reflex"
+L["cod2019_holger_scope_reflex.description"] = "Anpassat, inbyggt reflexsikte med en ren siktvy som håller fokus på målet."
 
-L["cod2019_holger_optic_integral_scope.printname"] = "Solozero K498 4,0x Inbyggd"
-L["cod2019_holger_optic_integral_scope.compactname"] = "I. K498"
-L["cod2019_holger_optic_integral_scope.description"] = "Avancerat riktmedel med <color=100,255,100>4,0x</color> magnifiering erbjuder utmärkt målförvärv."
+L["cod2019_holger_scope_x4.printname"] = "Solozero K498 4,0x Inbyggd"
+L["cod2019_holger_scope_x4.compactname"] = "I. K498"
+L["cod2019_holger_scope_x4.description"] = "Avancerat riktmedel med <color=100,255,100>4,0x</color> magnifiering erbjuder utmärkt målförvärv."
 
 /////////////// Barrels
 L["cod2019_holger_barrel_short.printname"] = "XRK Ultralight"

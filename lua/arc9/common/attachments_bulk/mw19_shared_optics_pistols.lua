@@ -406,13 +406,15 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 1.25
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 1.25
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+
+ATT.RTCollimator = true
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
@@ -456,13 +458,15 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 1.25
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 1.25
+ATT.ScopeScreenRatio = 375/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_reflex")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 5.5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+
+ATT.RTCollimator = true
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
@@ -552,13 +556,15 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 1.5
-ATT.RTScopeRes = 1024
+ATT.RTScopeMagnification = 1.5
+ATT.ScopeScreenRatio = 450/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_holo_default2")
 ATT.RTScopeReticleScale = 1.5
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
+
+ATT.RTCollimator = true
 
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
 
@@ -742,8 +748,8 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 2.5
-ATT.RTScopeRes = 513
+ATT.RTScopeMagnification = 2.5
+ATT.ScopeScreenRatio = 525/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/vlk_crosshair.png", "mips")
 ATT.RTScopeReticleScale = 1.2
 ATT.RTScopeShadowIntensity = 6
@@ -796,8 +802,8 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 36 / 2.75
-ATT.RTScopeRes = 513
+ATT.RTScopeMagnification = 2.75
+ATT.ScopeScreenRatio = 550/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles/reticle_vzscope_default2.png", "mips")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
@@ -850,8 +856,8 @@ ATT.CustomPros = {
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 36 / 3
-ATT.RTScopeRes = 512
+ATT.RTScopeMagnification = 3
+ATT.ScopeScreenRatio = 550/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/acog_crosshair3.png")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeShadowIntensity = 6
