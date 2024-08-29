@@ -2330,9 +2330,9 @@ L["cod2019_renetti_stock.printname"] = "FTAC SATUS CS-3"
 L["cod2019_renetti_stock.compactname"] = "CS-3"
 L["cod2019_renetti_stock.description"] = "Taktisk kolv erbjuder stabil sikteplattform och förbättrad rekylkontroll utan att offra för mycket rörlighet."
 
-L["cod2019_renetti_grip.printname"] = "FTAC G-X"
-L["cod2019_renetti_grip.compactname"] = "G-X"
-L["cod2019_renetti_grip.description"] = "Ensamt framgrepp hjälper till att kontrollera rekylen utan att hindra rörlighet eller stabilitet."
+L["cod2019_renetti_foregrip.printname"] = "FTAC G-X"
+L["cod2019_renetti_foregrip.compactname"] = "G-X"
+L["cod2019_renetti_foregrip.description"] = "Ensamt framgrepp hjälper till att kontrollera rekylen utan att hindra rörlighet eller stabilitet."
 
 L["cod2019_renetti_stock_grip.printname"] = "FTAC SATUS CS-X"
 L["cod2019_renetti_stock_grip.compactname"] = "CS-X"

@@ -3000,9 +3000,9 @@ L["cod2019_renetti_stock.printname"] = "FTAC SATUS CS-3"
 L["cod2019_renetti_stock.compactname"] = "CS-3"
 L["cod2019_renetti_stock.description"] = "Tactical stock provides a stable aiming platform and improved recoil control without sacrificing too much mobility."
 
-L["cod2019_renetti_grip.printname"] = "FTAC G-X"
-L["cod2019_renetti_grip.compactname"] = "G-X"
-L["cod2019_renetti_grip.description"] = "Solo foregrip helps control recoil without hindering movement or stability."
+L["cod2019_renetti_foregrip.printname"] = "FTAC G-X"
+L["cod2019_renetti_foregrip.compactname"] = "G-X"
+L["cod2019_renetti_foregrip.description"] = "Solo foregrip helps control recoil without hindering movement or stability."
 
 L["cod2019_renetti_stock_grip.printname"] = "FTAC SATUS CS-X"
 L["cod2019_renetti_stock_grip.compactname"] = "CS-X"
