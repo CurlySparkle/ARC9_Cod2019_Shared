@@ -381,9 +381,9 @@ ARC9.LoadAttachment(ATT, "cod2019_357_mag_snakeshot2")
 /////////////////////////// -- M19
 ATT = {}
 
-ATT.PrintName = "XRK V Extended"
-ATT.CompactName = "XRK V Ext"
-ATT.Description = [[Extended slide slightly increases muzzle velocity and improves range. Lightweight construction adds only a minor increase to weight.]]
+ATT.PrintName = "XRK L Super"
+ATT.CompactName = "XRK L Super"
+ATT.Description = [[Heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/pi/m19/cod2019_pi_m19_barrel_ext.png", "mips smooth")
@@ -428,9 +428,9 @@ ARC9.LoadAttachment(ATT, "cod2019_m19_slide_ext")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "XRK L Super"
-ATT.CompactName = "XRK L Super"
-ATT.Description = [[Heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max.]]
+ATT.PrintName = "A9-16 Lightweight"
+ATT.CompactName = "A9-16 Lightweight"
+ATT.Description = [[Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/pi/m19/cod2019_pi_m19_slide.png", "mips smooth")
@@ -445,7 +445,8 @@ ATT.Category = {"cod2019_m19_slide"}
 ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
 
 if !warzonestats then -- Regular Stats
- -- INSERT STATS
+	--ATT.AimDownSightsTimeMult = 0.95
+ 	--ATT.PhysBulletMuzzleVelocityMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 135 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.02
@@ -462,9 +463,9 @@ ARC9.LoadAttachment(ATT, "cod2019_m19_slide_vented")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "A9-16 Lightweight"
-ATT.CompactName = "A9-16 Lightweight"
-ATT.Description = [[Large bore barrel and lightweight slide improved handling at the cost of muzzle velocity.]]
+ATT.PrintName = "XRK V Extended"
+ATT.CompactName = "XRK V Ext"
+ATT.Description = [[Extended slide slightly increases muzzle velocity and improves range. Lightweight construction adds only a minor increase to weight.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/pi/m19/cod2019_pi_m19_slide.png", "mips smooth")
