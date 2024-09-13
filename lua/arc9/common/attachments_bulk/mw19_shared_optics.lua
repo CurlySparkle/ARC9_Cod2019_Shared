@@ -1569,7 +1569,6 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 --ATT.ScopeScreenRatio = 600/1080
-ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeAdd = 0.027

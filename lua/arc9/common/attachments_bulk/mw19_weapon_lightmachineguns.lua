@@ -1061,6 +1061,121 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_armag_30")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "20 Round Mags"
+ATT.CompactName = "20-R Mag"
+ATT.Description = [[]]
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_armag.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_holger_mag"
+ATT.ActivateElements = {"mag_none","mag_armag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag_sniper.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag_sniper.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_03.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_04.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_05.ogg",
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_06.ogg", 
+}
+
+ATT.ShootSound = "COD2019.M14.Fire"
+ATT.ShootSoundIndoor = "COD2019.M14.Fire"
+ATT.ShootSoundSilenced = "COD2019.M14.Fire.S"
+ATT.ShootSoundSilencedIndoor = "COD2019.M14.Fire.S"
+
+-- Non-Silenced Outside
+ATT.LayerSound = "Layer_Shotgun.Outside"
+ATT.DistantShootSound = "Distant_BR1.Outside"
+-- Inside
+ATT.LayerSoundIndoor = "Layer_Shotgun.Inside"
+ATT.DistantShootSoundIndoor = "Distant_Shotgun.Inside"
+---------------------------------------------------
+-- Silenced Outside
+ATT.LayerSoundSilenced = "Layer_ARSUP.Outside"
+ATT.DistantShootSoundSilenced = "Distant_DMR_Sup.Outside"
+-- Inside
+ATT.LayerSoundSilencedIndoor = "Layer_ARSUP.Inside"
+ATT.DistantShootSoundSilencedIndoor = "Distant_DMR_Sup.Inside"
+---------------------------------------------------
+
+ATT.ClipSizeAdd = -80
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.DeployTimeMult = 0.85
+	ATT.VisualRecoilMult = 1.75
+	ATT.DamageMaxMult = 1.55
+else -- Warzone Stats
+	ATT.CustomPros = {
+		[ ARC9:GetPhrase("autostat.reloadtime") ] = "+12.5%"
+	}
+	ATT.AimDownSightsTimeAdd = -0.079
+	ATT.SprintToFireTimeAdd = -0.088
+	ATT.RecoilMult = 1.1
+	ATT.VisualRecoilMult = 1.1
+	ATT.SpreadAddMove = 0.02
+	ATT.SpeedMult = 1.02
+	ATT.SpeedSightsMult = 1.29
+end
+
+ATT.Firemodes = {
+    {
+        Mode = 1,
+		RPM = 297,
+		PoseParam = 0,
+    },
+}
+
+local bulletbones = {
+    [19] = "j_ammo_02",
+    [18] = "j_ammo_03",
+	[17] = "j_ammo_04",
+	[16] = "j_ammo_05",
+	[15] = "j_ammo_06",
+	[14] = "j_ammo_07",
+	[13] = "j_ammo_08",
+	[12] = "j_ammo_09",
+	[11] = "j_ammo_10",
+	[10] = "j_ammo_11",
+	[9] = "j_ammo_12",
+	[8] = "j_ammo_13",
+	[7] = "j_ammo_14",
+	[6] = "j_ammo_15",
+	[5] = "j_ammo_16",
+	[4] = "j_ammo_17",
+	[3] = "j_ammo_18",
+	[2] = "j_ammo_19",
+	[1] = "j_ammo_20",
+}
+
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
+
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
+
+    local draw = 19 - clip + 1
+
+    for i = 1, 19 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_armag_20")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "Holger-556 Receiver"
 ATT.CompactName = "Holger-556"
 ATT.Description = ""
@@ -1112,6 +1227,35 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_stock_v2")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "DM56"
+ATT.CompactName = "DM56"
+ATT.Description = [[A titan of ballistic ingenuity, the DM56 boasts best-in-class rate of fire and exceptional controllability.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_stock_sniper.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_sniper.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_stock"}
+ATT.ActivateElements = {"stock_none","pistgrip_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.12
+	ATT.AimDownSightsTimeMult = 1.14
+	ATT.RecoilMult = 0.91
+	ATT.VisualRecoilMult = 0.87
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.033
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_stock_sniper")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
