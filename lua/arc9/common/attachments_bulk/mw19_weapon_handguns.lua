@@ -4,9 +4,9 @@ local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone S
 /////////////////////////// -- .50 GS
 ATT = {}
 
-ATT.PrintName = "FORGE TAC Extended"
-ATT.CompactName = "FTAC EXT"
-ATT.Description = [[Increases muzzle velocity and improves range. Ported sidewalls help to only adds a medium increase to weight.]]
+ATT.PrintName = "FORGE TAC Enforcer"
+ATT.CompactName = "FTAC ENF"
+ATT.Description = [[Extra long slide extension increases muzzle velocity and extends range to the max. Additional weight helps stabilize shots but hinders mobility.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/pi/50gs/cod2019_pi_50gs_slide_extended.png", "mips smooth")
@@ -58,9 +58,9 @@ ARC9.LoadAttachment(ATT, "cod2019_50gs_slide_ext")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "FORGE TAC Enforcer"
-ATT.CompactName = "FTAC ENF"
-ATT.Description = [[Extra long slide extension increases muzzle velocity and extends range to the max. Additional weight helps stabilize shots but hinders mobility.]]
+ATT.PrintName = "FORGE TAC Extended"
+ATT.CompactName = "FTAC EXT"
+ATT.Description = [[Slightly extended barrel increases muzzle velocity and improves range with only a minor addition to weight.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/pi/50gs/cod2019_pi_50gs_slide_extended02.png", "mips smooth")
@@ -98,12 +98,12 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.SprintToFireTimeMult = 1.1
-	ATT.RecoilMult = 0.95
-	ATT.RangeMaxMult = 1.15
-	ATT.RangeMinMult = 1.15
-	ATT.PhysBulletMuzzleVelocityMult = 1.15
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.SprintToFireTimeMult = 1.08
+	ATT.RecoilMult = 0.97
+	ATT.RangeMaxMult = 1.1
+	ATT.RangeMinMult = 1.1
+	ATT.PhysBulletMuzzleVelocityMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 235 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.044
