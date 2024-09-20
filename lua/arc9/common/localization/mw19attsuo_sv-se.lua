@@ -283,6 +283,18 @@ L["cod2019_model680_mag_8.printname"] = "Kaliber 12 8-Patronersm."
 L["cod2019_model680_mag_8.compactname"] = "K12 8P."
 L["cod2019_model680_mag_8.description"] = "Anpassad XRK Eagle's Claw-låda med inbyggd magasinlåda för att använd bortplockbara <color=100,255,100>8 patronersmagasin</color> för snabbare omladdningar. <color=255,100,100>Ej kompatibla med anpassade pipor.</color>"
 
+//////////////////////// LMGs
+//////////////////// Holger-26
+/////////////// Stock
+L["cod2019_holger_stock_sniper.printname"] = "DM56-Kolv"
+L["cod2019_holger_stock_sniper.compactname"] = "DM56"
+L["cod2019_holger_stock_sniper.description"] = "Tung, anpassad kolv from civiltillverkade, halvautomatiska geväret DM56."
+
+/////////////// Magazine
+L["cod2019_holger_armag_20.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_holger_armag_20.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_holger_armag_20.description"] = string.format(mw19magtext.descsmall, "20", mw19ammotype["556"])
+
 //////////////////////// Marksman Rifles
 //////////////////// EBR-14
 /////////////// Receivers

@@ -390,6 +390,18 @@ L["cod2019_model680_mag_8.printname"] = "12 Gauge 8-R Mags"
 L["cod2019_model680_mag_8.compactname"] = "12G 8R"
 L["cod2019_model680_mag_8.description"] = "Custom XRK Eagle's Claw receiver with built in mag well to use <color=100,255,100>8-round</color> detachable magazines for faster reloads. <color=255,100,100>Not compatible with custom barrels.</color>"
 
+//////////////////////// LMGs
+//////////////////// Holger-26
+/////////////// Stock
+L["cod2019_holger_stock_sniper.printname"] = "DM56 Stock"
+L["cod2019_holger_stock_sniper.compactname"] = "DM56"
+L["cod2019_holger_stock_sniper.description"] = "Heavy-weight, custom stock from the civilian-manufactured DM56 semi-automatic rifle."
+
+/////////////// Magazine
+L["cod2019_holger_armag_20.printname"] = string.format(mw19magtext.mag, "20")
+L["cod2019_holger_armag_20.compactname"] = string.format(mw19magtext.mags, "20")
+L["cod2019_holger_armag_20.description"] = string.format(mw19magtext.descsmall, "20", mw19ammotype["556"])
+
 //////////////////////// Marksman Rifles
 //////////////////// EBR-14
 /////////////// Receivers
