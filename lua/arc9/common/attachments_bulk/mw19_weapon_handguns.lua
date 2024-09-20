@@ -445,8 +445,11 @@ ATT.Category = {"cod2019_m19_slide"}
 ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
 
 if !warzonestats then -- Regular Stats
-	--ATT.AimDownSightsTimeMult = 0.95
- 	--ATT.PhysBulletMuzzleVelocityMult = 0.95
+	ATT.AimDownSightsTimeMult = 0.94
+	ATT.SprintToFireTimeMult = 0.92
+	ATT.DeployTimeMult = 0.92
+ 	ATT.PhysBulletMuzzleVelocityMult = 0.95
+	ATT.RangeMaxMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 135 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.02
