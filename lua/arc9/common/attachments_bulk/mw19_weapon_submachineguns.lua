@@ -2461,7 +2461,10 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
- -- INSERT STATS
+	ATT.AimDownSightsTimeMult = 1.12
+	ATT.DeployTimeMult = 1.1
+	ATT.RangeMaxMult = 1.1
+	ATT.RecoilMult = 0.92
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 350 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.038
@@ -2512,7 +2515,7 @@ ATT.CustomPros = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.DeployTimeMult = 1.1
+	ATT.DeployTimeMult = 1.12
 	ATT.AimDownSightsTimeMult = 1.15
 	ATT.RangeMaxMult = 1.2
 else -- Warzone Stats

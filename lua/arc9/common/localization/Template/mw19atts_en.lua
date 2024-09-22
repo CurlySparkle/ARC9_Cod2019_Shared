@@ -1175,20 +1175,20 @@ L["cod2019_vector_mag_drum.description"] = string.format(mw19magtext.descdrum, "
 
 //////////////////// ISO
 /////////////// Barrels
-L["cod2019_iso_barrel_long.printname"] = "FTAC 225mm Dominator"
-L["cod2019_iso_barrel_long.compactname"] = "Dominator"
-L["cod2019_iso_barrel_long.description"] = "Solid steel barrel with polygonal rifling and ultralight shroud extension. Increases muzzle velocity and improves range with little additional weight."
+L["cod2019_iso_barrel_long.printname"] = "FSS Revolution"
+L["cod2019_iso_barrel_long.compactname"] = "Revolution"
+L["cod2019_iso_barrel_long.description"] = "Extended 280mm chrome-moly barrel with stepped shroud increases muzzle velocity and greatly improves accuracy."
 
-L["cod2019_iso_barrel_02.printname"] = "FSS Revolution"
-L["cod2019_iso_barrel_02.compactname"] = "Revolution"
-L["cod2019_iso_barrel_02.description"] = "Extended 280mm chrome-moly barrel with stepped shroud increases muzzle velocity and greatly improves accuracy."
+L["cod2019_iso_barrel_02.printname"] = "FTAC 225mm Dominator"
+L["cod2019_iso_barrel_02.compactname"] = "Dominator"
+L["cod2019_iso_barrel_02.description"] = "Solid steel barrel with polygonal rifling and ultralight shroud extension. Increases muzzle velocity and improves range with little additional weight."
 
 L["cod2019_iso_barrel_03.printname"] = "ISO 140mm CQB"
 L["cod2019_iso_barrel_03.compactname"] = "CQB"
 L["cod2019_iso_barrel_03.description"] = "Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat."
 
 L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
-L["cod2019_iso_barrel_supp.compactname"] = "Nightshare"
+L["cod2019_iso_barrel_supp.compactname"] = "Nightshade"
 
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"

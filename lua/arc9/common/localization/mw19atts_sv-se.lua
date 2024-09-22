@@ -1180,20 +1180,20 @@ L["cod2019_vector_mag_drum.description"] = string.format(mw19magtext.descdrum, "
 
 //////////////////// ISO
 /////////////// Barrels
-L["cod2019_iso_barrel_long.printname"] = "FTAC 225 mm Dominator"
-L["cod2019_iso_barrel_long.compactname"] = "Dominator"
-L["cod2019_iso_barrel_long.description"] = "Helstål pipa med polygonell räffling och extremt lätt förlängt skydd. Ökar mynningshastigheten och förbättrar räckvidd med väldigt lite tillagd vikt."
+L["cod2019_iso_barrel_long.printname"] = "FSS Revolution"
+L["cod2019_iso_barrel_long.compactname"] = "Revolution"
+L["cod2019_iso_barrel_long.description"] = "Förlängd 280 mm kromad pipa med tampat skydd ökar mynningshastigheten och ökar kraftigt träffsäkerheten."
 
-L["cod2019_iso_barrel_02.printname"] = "FSS Revolution"
-L["cod2019_iso_barrel_02.compactname"] = "Revolution"
-L["cod2019_iso_barrel_02.description"] = "Förlängd 280 mm kromad pipa med tampat skydd ökar mynningshastigheten och ökar kraftigt träffsäkerheten."
+L["cod2019_iso_barrel_02.printname"] = "FTAC 225 mm Dominator"
+L["cod2019_iso_barrel_02.compactname"] = "Dominator"
+L["cod2019_iso_barrel_02.description"] = "Helstål pipa med polygonell räffling och extremt lätt förlängt skydd. Ökar mynningshastigheten och förbättrar räckvidd med väldigt lite tillagd vikt."
 
 L["cod2019_iso_barrel_03.printname"] = "ISO 140 mm CQB"
 L["cod2019_iso_barrel_03.compactname"] = "CQB"
 L["cod2019_iso_barrel_03.description"] = "Komapkt fabriksinstallerad, heltäkt pipa med en liten offring av träffsäkerhet och räckvidd för att förbättra närstridsangrepp."
 
 L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
-L["cod2019_iso_barrel_supp.compactname"] = "Nightshare"
+L["cod2019_iso_barrel_supp.compactname"] = "Nightshade"
 
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"

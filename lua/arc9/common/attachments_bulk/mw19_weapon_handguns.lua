@@ -1233,6 +1233,10 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_sykov_slide"}
 ATT.ActivateElements = {"slide_none","slide_silencer"}
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
 if !warzonestats then -- Regular Stats
  	ATT.PhysBulletMuzzleVelocityMult = 1.06
 	ATT.RangeMaxMult = 1.1
