@@ -1234,7 +1234,13 @@ ATT.Category = {"cod2019_sykov_slide"}
 ATT.ActivateElements = {"slide_none","slide_silencer"}
 
 if !warzonestats then -- Regular Stats
- -- INSERT STATS
+ 	ATT.PhysBulletMuzzleVelocityMult = 1.06
+	ATT.RangeMaxMult = 1.1
+	ATT.RangeMinMult = 1.1
+	ATT.RecoilMult = 0.94
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 131 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.038
@@ -1280,7 +1286,12 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
- -- INSERT STATS
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.95
+	ATT.DeployTimeMult = 0.93
+ 	ATT.PhysBulletMuzzleVelocityMult = 0.95
+	ATT.RangeMaxMult = 0.95
+	ATT.RecoilMult = 1.06
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -34 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.01
@@ -1668,7 +1679,7 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.RangeMaxMult = 10.4
+	ATT.RangeMaxMult = 1.1
 	ATT.AimDownSightsTimeMult = 1.05
 	ATT.RecoilKickMult = 1.5
 
