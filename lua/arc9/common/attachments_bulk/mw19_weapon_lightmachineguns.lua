@@ -1063,7 +1063,7 @@ ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "20 Round Mags"
-ATT.CompactName = "20-R Mag"
+ATT.CompactName = "20R"
 ATT.Description = [[]]
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_armag.png", "mips smooth")
 
@@ -1109,7 +1109,7 @@ ATT.ClipSizeAdd = -80
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.85
 	ATT.DeployTimeMult = 0.85
-	ATT.VisualRecoilMult = 1.75
+	ATT.VisualRecoilMult = 2.15
 	ATT.DamageMaxMult = 1.55
 else -- Warzone Stats
 	ATT.CustomPros = {
