@@ -857,13 +857,13 @@ L["cod2019_optic_scope_svd.compactname"] = "Dragunov"
 L["cod2019_optic_scope_svd.description"] = "Högt kraftfullt <color=100,255,100>5,5x</color> kikarsikte för bemötanden på långa avstånd. <color=255,100,100>Riktmedel glimt synlig till fienden.</color>"
 
 /////////////// Barrels
-L["cod2019_asval_barrel_short.printname"] = "VLK 105 mm Sova"
-L["cod2019_asval_barrel_short.compactname"] = "Sova"
-L["cod2019_asval_barrel_short.description"] = "Lättvikt och tyst, bafflar av titan och ett skydd av aluminium förbättrar vapenmanövring."
+L["cod2019_asval_barrel_short.printname"] = "Stovl SOF"
+L["cod2019_asval_barrel_short.compactname"] = "Stovl"
+L["cod2019_asval_barrel_short.description"] = "Designad för räder och spaningsuppdrag för specialstyrkor, en proprietär monokärna erbjuder kvalitet ljuddämpande i en kortare pipa."
 
-L["cod2019_asval_barrel_light.printname"] = "Stovl SOF"
-L["cod2019_asval_barrel_light.compactname"] = "Stovl"
-L["cod2019_asval_barrel_light.description"] = "Designad för räder och spaningsuppdrag för specialstyrkor, en proprietär monokärna erbjuder kvalitet ljuddämpande i en kortare pipa."
+L["cod2019_asval_barrel_light.printname"] = "VLK 105 mm Sova"
+L["cod2019_asval_barrel_light.compactname"] = "Sova"
+L["cod2019_asval_barrel_light.description"] = "Lättvikt och tyst, bafflar av titan och ett skydd av aluminium förbättrar vapenmanövring."
 
 L["cod2019_asval_barrel_heavy.printname"] = "VLK 200 mm Osa"
 L["cod2019_asval_barrel_heavy.compactname"] = "Osa"

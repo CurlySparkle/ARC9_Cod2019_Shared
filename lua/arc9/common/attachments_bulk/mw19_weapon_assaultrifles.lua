@@ -128,6 +128,10 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.95
 	ATT.DeployTimeMult = 0.95
@@ -1626,6 +1630,10 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then
         model:SetBodygroup(1,1)
@@ -1737,7 +1745,7 @@ ATT.ActivateElements = {"barrel_none","muzzle_none","sights_front_none","barrel_
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true
 
-ATT.CustomizePos = Vector(11, 30, 3)
+ATT.CustomizePos = Vector(11, 40, 3)
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep:GetElements()["muzzle"] then

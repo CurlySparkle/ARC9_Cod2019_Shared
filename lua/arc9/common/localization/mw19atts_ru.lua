@@ -858,13 +858,13 @@ L["cod2019_optic_scope_svd.compactname"] = "СВД"
 L["cod2019_optic_scope_svd.description"] = "Мощный оптический прицел кратностью <color=100,255,100>5,5х</color> для увеличенных дистанций боя. <color=255,100,100>Блеск оптики виден противнику.</color>"
 
 /////////////// Barrels
-L["cod2019_asval_barrel_short.printname"] = "VLK 105 мм \"Сова\""
-L["cod2019_asval_barrel_short.compactname"] = "Сова"
-L["cod2019_asval_barrel_short.description"] = "Компактный и скрытный ствол с титановыми перегородками и алюминиевым кожухом для лучшей подвижности."
+L["cod2019_asval_barrel_short.printname"] = "Stovl ССФ"
+L["cod2019_asval_barrel_short.compactname"] = "Stovl"
+L["cod2019_asval_barrel_short.description"] = "Укороченный ствол, предназначенный для штурмов и зачисток. Уникальное строение глушителя обеспечивает отличное снижение уровня шума."
 
-L["cod2019_asval_barrel_light.printname"] = "Stovl ССФ"
-L["cod2019_asval_barrel_light.compactname"] = "Stovl"
-L["cod2019_asval_barrel_light.description"] = "Укороченный ствол, предназначенный для штурмов и зачисток. Уникальное строение глушителя обеспечивает отличное снижение уровня шума."
+L["cod2019_asval_barrel_light.printname"] = "VLK 105 мм \"Сова\""
+L["cod2019_asval_barrel_light.compactname"] = "Сова"
+L["cod2019_asval_barrel_light.description"] = "Компактный и скрытный ствол с титановыми перегородками и алюминиевым кожухом для лучшей подвижности."
 
 L["cod2019_asval_barrel_heavy.printname"] = "VLK 200 мм \"Oca\""
 L["cod2019_asval_barrel_heavy.compactname"] = "Oca"

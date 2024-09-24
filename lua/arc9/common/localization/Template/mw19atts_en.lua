@@ -852,13 +852,13 @@ L["cod2019_optic_scope_svd.compactname"] = "Dragunov"
 L["cod2019_optic_scope_svd.description"] = "High power <color=100,255,100>5.5x</color> scope for longer range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Barrels
-L["cod2019_asval_barrel_short.printname"] = "VLK 105mm Sova"
-L["cod2019_asval_barrel_short.compactname"] = "Sova"
-L["cod2019_asval_barrel_short.description"] = "Lightweight and stealthy, titanium baffles and an aluminium shroud improve weapon maneuvering."
+L["cod2019_asval_barrel_short.printname"] = "Stovl SOF"
+L["cod2019_asval_barrel_short.compactname"] = "Stovl"
+L["cod2019_asval_barrel_short.description"] = "Designed for special forces' raids and reconnaissance, a proprietary monocore provides quality sound suppression in a shorter barrel."
 
-L["cod2019_asval_barrel_light.printname"] = "Stovl SOF"
-L["cod2019_asval_barrel_light.compactname"] = "Stovl"
-L["cod2019_asval_barrel_light.description"] = "Designed for special forces' raids and reconnaissance, a proprietary monocore provides quality sound suppression in a shorter barrel."
+L["cod2019_asval_barrel_light.printname"] = "VLK 105mm Sova"
+L["cod2019_asval_barrel_light.compactname"] = "Sova"
+L["cod2019_asval_barrel_light.description"] = "Lightweight and stealthy, titanium baffles and an aluminium shroud improve weapon maneuvering."
 
 L["cod2019_asval_barrel_heavy.printname"] = "VLK 200mm Osa"
 L["cod2019_asval_barrel_heavy.compactname"] = "Osa"
