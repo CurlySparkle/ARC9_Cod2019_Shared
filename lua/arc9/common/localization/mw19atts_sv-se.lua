@@ -1981,9 +1981,9 @@ L["cod2019_spr208_barrel_sil.compactname"] = "Dragoon"
 L["cod2019_spr208_barrel_sil.description"] = "Tung <color=255,255,100>inbyggd ljuddämpare</color> med monolitisk kärna ökar mynningshastigheten medans den behåller en låg ljudsignatur."
 
 /////////////// Stocks
-L["cod2019_spr208_stock_sniper.printname"] = "XRK SP-TAC 208 Ultimate"
-L["cod2019_spr208_stock_sniper.compactname"] = "Ultimate"
-L["cod2019_spr208_stock_sniper.description"] = "Maskinfräst titankropp, ergonomisk match-graderad kolv, och portad aluminium skal får dina sikten på målet med utmärkt hastighet och träffsäkerhet."
+L["cod2019_spr208_stock_sniper.printname"] = "ZLR SP-R Overseer"
+L["cod2019_spr208_stock_sniper.compactname"] = "Overseer"
+L["cod2019_spr208_stock_sniper.description"] = "Perfekt balanserad viktfördelning tillåter den högsta tillgängliga stabiliteten och rekylkontrollen."
 
 L["cod2019_spr208_stock_tac.printname"] = "FSS Virtuoso Pro"
 L["cod2019_spr208_stock_tac.compactname"] = "Virtuoso"
@@ -1993,9 +1993,9 @@ L["cod2019_spr208_stock_skel.printname"] = "XRK SP-LITE 208 Blitz"
 L["cod2019_spr208_stock_skel.compactname"] = "Blitz"
 L["cod2019_spr208_stock_skel.description"] = "XRKs eftermarknads chassi erbjuder det ultimata i rörlighet med detta starka, hållbara och ultralätta prickskyttesystemet."
 
-L["cod2019_spr208_stock_heavy.printname"] = "ZLR SP-R Overseer"
-L["cod2019_spr208_stock_heavy.compactname"] = "Overseer"
-L["cod2019_spr208_stock_heavy.description"] = "Perfekt balanserad viktfördelning tillåter den högsta tillgängliga stabiliteten och rekylkontrollen."
+L["cod2019_spr208_stock_heavy.printname"] = "XRK SP-TAC 208 Ultimate"
+L["cod2019_spr208_stock_heavy.compactname"] = "Ultimate"
+L["cod2019_spr208_stock_heavy.description"] = "Maskinfräst titankropp, ergonomisk match-graderad kolv, och portad aluminium skal får dina sikten på målet med utmärkt hastighet och träffsäkerhet."
 
 /////////////// Magazine
 L["cod2019_spr208_mag_10.printname"] = string.format(mw19magtext.mag, "10")
@@ -2011,13 +2011,13 @@ L["cod2019_spr208_mag_lapua.compactname"] = ".338 5P."
 L["cod2019_spr208_mag_lapua.description"] = "Kraftfull 250 gr <color=255,255,100>.338 Lapua Mag</color>-ammunition träffar hårdare vid all räckvidd."
 
 /////////////// Bolt
-L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-800 DeadEye"
-L["cod2019_spr208_bolt_light.compactname"] = "DeadEye"
-L["cod2019_spr208_bolt_light.description"] = "Precisionsfräst kromad hopsättning med en volfram kärna erbjuder en utmärkt kontrollerad slutstyckerörelse för träffsäkra efterföljnings skott."
+L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-600 Feather"
+L["cod2019_spr208_bolt_light.compactname"] = "Feather"
+L["cod2019_spr208_bolt_light.description"] = "Aluminium kärna skyddad av titan och ett skeletthandtag gör denna bultmonteringen blixtsnabb."
 
-L["cod2019_spr208_bolt_02.printname"] = "Sloan KR-600 Feather"
-L["cod2019_spr208_bolt_02.compactname"] = "Feather"
-L["cod2019_spr208_bolt_02.description"] = "Aluminium kärna skyddad av titan och ett skeletthandtag gör denna bultmonteringen blixtsnabb."
+L["cod2019_spr208_bolt_02.printname"] = "Sloan KR-800 DeadEye"
+L["cod2019_spr208_bolt_02.compactname"] = "DeadEye"
+L["cod2019_spr208_bolt_02.description"] = "Precisionsfräst kromad hopsättning med en volfram kärna erbjuder en utmärkt kontrollerad slutstyckerörelse för träffsäkra efterföljnings skott."
 
 L["mw19_bolt_stat_speed"] = "Slutstyckerörelse Hastighet"
 L["mw19_bolt_stat_stability"] = "Slutstyckerörelse Stabilitet"

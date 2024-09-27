@@ -1685,6 +1685,10 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_spr208_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none","barrel_sil"}
 
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.05
 	ATT.DeployTimeMult = 1.07

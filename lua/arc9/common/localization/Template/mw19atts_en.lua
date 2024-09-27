@@ -1974,14 +1974,14 @@ L["cod2019_spr208_barrel_long.printname"] = "SP-R 26\""
 L["cod2019_spr208_barrel_long.compactname"] = "SP-R"
 L["cod2019_spr208_barrel_long.description"] = "Sloan Precision's contoured 26 inch barrel improves muzzle velocity and extends the weapon's lethal range"
 
-L["cod2019_spr208_barrel_04.printname"] = "XRK 208 Dragoon"
-L["cod2019_spr208_barrel_04.compactname"] = "Dragoon"
-L["cod2019_spr208_barrel_04.description"] = "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a low sound signature."
+L["cod2019_spr208_barrel_sil.printname"] = "XRK 208 Dragoon"
+L["cod2019_spr208_barrel_sil.compactname"] = "Dragoon"
+L["cod2019_spr208_barrel_sil.description"] = "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a low sound signature."
 
 /////////////// Stocks
-L["cod2019_spr208_stock_sniper.printname"] = "XRK SP-TAC 208 Ultimate"
-L["cod2019_spr208_stock_sniper.compactname"] = "Ultimate"
-L["cod2019_spr208_stock_sniper.description"] = "Machine milled titanium body, ergonomic match grade stock, and ported aluminium shroud put your sights on target with exceptional speed and accuracy."
+L["cod2019_spr208_stock_sniper.printname"] = "ZLR SP-R Overseer"
+L["cod2019_spr208_stock_sniper.compactname"] = "Overseer"
+L["cod2019_spr208_stock_sniper.description"] = "Perfectly balanced weight distribution allows the highest stability and recoil control available."
 
 L["cod2019_spr208_stock_tac.printname"] = "FSS Virtuoso Pro"
 L["cod2019_spr208_stock_tac.compactname"] = "Virtuoso"
@@ -1991,9 +1991,9 @@ L["cod2019_spr208_stock_skel.printname"] = "XRK SP-LITE 208 Blitz"
 L["cod2019_spr208_stock_skel.compactname"] = "Blitz"
 L["cod2019_spr208_stock_skel.description"] = "XRK's after-market chassis offers the ultimate in mobility with this rugged and durable ultra-light sniper rifle system."
 
-L["cod2019_spr208_stock_heavy.printname"] = "ZLR SP-R Overseer"
-L["cod2019_spr208_stock_heavy.compactname"] = "Overseer"
-L["cod2019_spr208_stock_heavy.description"] = "Perfectly balanced weight distribution allows the highest stability and recoil control available."
+L["cod2019_spr208_stock_heavy.printname"] = "XRK SP-TAC 208 Ultimate"
+L["cod2019_spr208_stock_heavy.compactname"] = "Ultimate"
+L["cod2019_spr208_stock_heavy.description"] = "Machine milled titanium body, ergonomic match grade stock, and ported aluminium shroud put your sights on target with exceptional speed and accuracy."
 
 /////////////// Magazine
 L["cod2019_spr208_mag_10.printname"] = string.format(mw19magtext.mag, "10")
@@ -2009,13 +2009,13 @@ L["cod2019_spr208_mag_lapua.compactname"] = "5R .338"
 L["cod2019_spr208_mag_lapua.description"] = "Powerful 250gr <color=255,255,100>.338 Lapua Mag</color> ammunition hits harder at all ranges."
 
 /////////////// Bolt
-L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-800 DeadEye"
-L["cod2019_spr208_bolt_light.compactname"] = "DeadEye"
-L["cod2019_spr208_bolt_light.description"] = "Precision machined chrome-moly assembly with a tungsten core provides an exceptionally controlled re-chamber for accurate follow-up shots."
+L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-600 Feather"
+L["cod2019_spr208_bolt_light.compactname"] = "Feather"
+L["cod2019_spr208_bolt_light.description"] = "Titanium shrouded aluminum core and a skeletalized handle make this bolt assembly lightning fast."
 
-L["cod2019_spr208_bolt_02.printname"] = "Sloan KR-600 Feather"
-L["cod2019_spr208_bolt_02.compactname"] = "Feather"
-L["cod2019_spr208_bolt_02.description"] = "Titanium shrouded aluminum core and a skeletalized handle make this bolt assembly lightning fast."
+L["cod2019_spr208_bolt_02.printname"] = "Sloan KR-800 DeadEye"
+L["cod2019_spr208_bolt_02.compactname"] = "DeadEye"
+L["cod2019_spr208_bolt_02.description"] = "Precision machined chrome-moly assembly with a tungsten core provides an exceptionally controlled re-chamber for accurate follow-up shots."
 
 L["mw19_bolt_stat_speed"] = "Rechamber Speed"
 L["mw19_bolt_stat_stability"] = "Rechamber Stability"

@@ -472,7 +472,6 @@ ATT.BoneMerge = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_sa86_stock"
-ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.91
