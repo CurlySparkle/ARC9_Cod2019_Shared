@@ -680,7 +680,10 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-
+	ATT.AimDownSightsTimeMult = 0.93
+	ATT.SprintToFireTimeMult = 0.93
+	ATT.PhysBulletMuzzleVelocityMult = 0.95
+	ATT.RangeMaxMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.016
@@ -862,6 +865,10 @@ ATT.DrawFunc = function(swep, model, wm)
         model:SetBodygroup(2,1)
     end
 end
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.05

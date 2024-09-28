@@ -601,7 +601,8 @@ ATT.Category = {"cod2019_crossbow_limbs"}
 ATT.ActivateElements = {"limbs_none"}
 
 if !warzonestats then -- Regular Stats
-	
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.PhysBulletMuzzleVelocityMult = 0.94
 else -- Warzone Stats
 	ATT.ShootEntForceAdd = -14 / ARC9.HUToM
 	ATT.PhysBulletMuzzleVelocity = -14 / ARC9.HUToM
@@ -773,7 +774,8 @@ ATT.Category = {"cod2019_crossbow_stock"}
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
- -- INSERT STATS
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SpreadMult = 1.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.032
 end
