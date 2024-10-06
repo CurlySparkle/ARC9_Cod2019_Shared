@@ -193,7 +193,7 @@ ATT.BoneMerge = true
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.93
 	ATT.DeployTimeMult = 0.97
-	ATT.RecoilKickMult = 0.95
+	ATT.RecoilKickMult = 1.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.048
 end

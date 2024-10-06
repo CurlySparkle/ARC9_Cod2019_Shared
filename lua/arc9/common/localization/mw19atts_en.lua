@@ -1903,17 +1903,17 @@ L["cod2019_725_stock_stable.printname"] = "Cronen Equilibrium"
 L["cod2019_725_stock_stable.compactname"] = "Equilibrium"
 L["cod2019_725_stock_stable.description"] = "Competition stock with adjustable comb and buttplate provide exceptional precision while aiming."
 
-L["cod2019_725_stock_tactical.printname"] = "Cronen Pro Light"
-L["cod2019_725_stock_tactical.compactname"] = "Pro"
-L["cod2019_725_stock_tactical.description"] = "Ultralight adjustable stock configured for mobility while aiming."
+L["cod2019_725_stock_tactical.printname"] = "Tempus Sport"
+L["cod2019_725_stock_tactical.compactname"] = "Sport"
+L["cod2019_725_stock_tactical.description"] = "Competition stock designed for fast target acquisition."
 
 L["cod2019_725_stock_none.printname"] = "Sawed-off Stock"
 L["cod2019_725_stock_none.compactname"] = "Sawed-off"
 L["cod2019_725_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
-L["cod2019_725_stock_medium.printname"] = "Tempus Sport"
-L["cod2019_725_stock_medium.compactname"] = "Sport"
-L["cod2019_725_stock_medium.description"] = "Competition stock designed for fast target acquisition."
+L["cod2019_725_stock_medium.printname"] = "Cronen Pro Light"
+L["cod2019_725_stock_medium.compactname"] = "Pro"
+L["cod2019_725_stock_medium.description"] = "Ultralight adjustable stock configured for mobility while aiming."
 
 /////////////// Handguards
 L["cod2019_725_foregrip_light.printname"] = "Tempus SlimGrip"

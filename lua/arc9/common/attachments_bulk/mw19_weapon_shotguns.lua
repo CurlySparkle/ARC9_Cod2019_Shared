@@ -207,7 +207,7 @@ ARC9.LoadAttachment(ATT, "cod2019_725_stock_stable")
 /////////////// -- cod2019_725_stock_tactical
 ATT = {}
 
-ATT.PrintName = "Cronen Pro Light"
+ATT.PrintName = "Tempus Sport"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_stocktactical.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -221,11 +221,11 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/725/attachment_vm_sh_charlie
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.07
-	ATT.DeployTimeMult = 1.12
-	ATT.RecoilKickMult = 1.5
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.15
+	ATT.RecoilKickMult = 0.85
 else -- Warzone Stats
-	ATT.SpeedMultSights = 1.15
+	ATT.AimDownSightsTimeAdd = -0.034
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_stock_tactical")
@@ -263,7 +263,7 @@ ARC9.LoadAttachment(ATT, "cod2019_725_stock_none")
 /////////////// -- cod2019_725_stock_medium
 ATT = {}
 
-ATT.PrintName = "Tempus Sport"
+ATT.PrintName = "Cronen Pro Light"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/sh/725/cod2019_sh_725_stocklight.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -277,11 +277,11 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/725/attachment_vm_sh_charlie
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.13
-	ATT.DeployTimeMult = 1.1
-	ATT.RecoilkMult = 0.85
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 1.12
+	ATT.RecoilKickMult = 1.5
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.034
+	ATT.SpeedMultSights = 1.15
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_725_stock_medium")

@@ -1372,16 +1372,16 @@ L["cod2019_725_stock_stable.printname"] = "Cronen Equilibrium"
 L["cod2019_725_stock_stable.compactname"] = "Equilibrium"
 L["cod2019_725_stock_stable.description"] = "Tävlingskolv med justerbar kindhöjare och axelstöd erbjuder utmärkt träffsäkerhet i siktet."
 
-L["cod2019_725_stock_tactical.printname"] = "Cronen Pro Light"
-L["cod2019_725_stock_tactical.compactname"] = "Pro"
-L["cod2019_725_stock_tactical.description"] = "Ultralätt justerbar kolv konfiguerad för rörlighet i siktet."
+L["cod2019_725_stock_tactical.printname"] = "Tempus Sport"
+L["cod2019_725_stock_tactical.compactname"] = "Sport"
+L["cod2019_725_stock_tactical.description"] = "Tävlingskolv designad för snabbt målförvärv."
 
 L["cod2019_725_stock_none.printname"] = "Avsågad Kolv"
 L["cod2019_725_stock_none.compactname"] = "Avsågad"
 
-L["cod2019_725_stock_medium.printname"] = "Tempus Sport"
-L["cod2019_725_stock_medium.compactname"] = "Sport"
-L["cod2019_725_stock_medium.description"] = "Tävlingskolv designad för snabbt målförvärv."
+L["cod2019_725_stock_medium.printname"] = "Cronen Pro Light"
+L["cod2019_725_stock_medium.compactname"] = "Pro"
+L["cod2019_725_stock_medium.description"] = "Ultralätt justerbar kolv konfiguerad för rörlighet i siktet."
 
 /////////////// Handguards
 L["cod2019_725_foregrip_light.printname"] = "Tempus SlimGrip"
