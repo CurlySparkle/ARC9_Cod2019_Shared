@@ -2602,7 +2602,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 0.85
 	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
-	ATT.RangeMinult = 0.7
+	ATT.RangeMinMult = 0.7
 else -- Warzone Stats
 	ATT.RPMAdd = 121
 	ATT.PhysBulletMuzzleVelocityAdd = -153 / ARC9.HUToM
@@ -2674,7 +2674,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 0.85
 	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
-	ATT.RangeMinult = 0.7
+	ATT.RangeMinMult = 0.7
 	ATT.ReloadTimeMult = 1.13
 	ATT.DeployTimeMult = 1.13
 	ATT.AimDownSightsTimeMult = 1.13
@@ -3879,7 +3879,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 0.85
 	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
-	ATT.RangeMinult = 0.7
+	ATT.RangeMinMult = 0.7
 	ATT.ReloadTimeMult = 1.05
 	ATT.ReloadTimeMult = 1.1
 	ATT.SprintToFireTimeMult = 1.05
@@ -3938,7 +3938,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 0.85
 	ATT.DamageMinMult = 0.75
 	ATT.RangeMaxMult = 0.8
-	ATT.RangeMinult = 0.7
+	ATT.RangeMinMult = 0.7
 	ATT.ReloadTimeMult = 1.1
 	ATT.SprintToFireTimeMult = 1.1
 	ATT.AimDownSightsTimeMult = 1.1
