@@ -114,6 +114,9 @@ else -- Warzone Stats
 	table.Merge(ATT, stats_none.wz)
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_stock_none")
 
 /////////////////////////// -- cod2019_kilo141_stock_light

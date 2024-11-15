@@ -280,9 +280,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_357_mag"}
 ATT.ActivateElements = {"mag_none"}
 
-ATT.CustomCrosshair = true
-ATT.CustomCrosshairSize = 10
-
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.DeployTimeMult = 1.1
@@ -336,9 +333,6 @@ ATT.Free = false
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_357_akimbo_mag"}
 ATT.ActivateElements = {"mag_none"}
-
-ATT.CustomCrosshair = true
-ATT.CustomCrosshairSize = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1

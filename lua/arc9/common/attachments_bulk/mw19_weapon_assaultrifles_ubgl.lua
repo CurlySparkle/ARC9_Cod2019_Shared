@@ -47,7 +47,7 @@ glcode = {
 	ExitSightsSoundUBGL = "weapons/cod2019/m32/wfoly_la_mike32_ads_down.ogg",
 
 	TriggerDelayUBGL = false,
-	ShootEntForceUBGL = 1800,
+	ShootEntForceUBGL = 2200,
 	ShootEntUBGL = "arc9_cod2019_proj_40mm_hel",
 	ShootPosOffsetUBGL = Vector(5, 0, -7),
     ShootPosOffsetSightsUBGL = Vector(3, 0, -7),
@@ -151,10 +151,6 @@ shotguncode = {
 	AimDownSightsTimeMult = 1.17,
 	DeployTimeMult = 1.12,
 	
-	CustomCrosshairUBGL = true,
-	CustomCrosshairMaterialUBGL = Material("hud/arc9_cod2019/shotguncrosshair.png"),
-	CustomCrosshairSizeUBGL = 30,
-
 	Attachments = {
 		{
 			PrintName = ARC9:GetPhrase("mw19_category_ammo2"),
