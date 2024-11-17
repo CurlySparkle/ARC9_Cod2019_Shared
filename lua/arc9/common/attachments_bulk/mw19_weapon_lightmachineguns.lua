@@ -1500,7 +1500,8 @@ else -- Warzone Stats
 		[ ARC9:GetPhrase("autostat.reloadtime") ] = "+33%"
 	}
 	ATT.AimDownSightsTimeAdd = -0.045
-	ATT.DeployTimeAdd = -0.767
+	-- ATT.DeployTimeAdd = -0.767
+	ATT.DeployTimeMult = 0.767
 	ATT.VisualRecoilMult = 0.91
 	ATT.SpeedMult = 1.03
 	ATT.SpeedSightsMult = 1.13

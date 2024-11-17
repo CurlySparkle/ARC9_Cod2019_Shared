@@ -38,8 +38,8 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.97
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 4, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer04")
 
@@ -92,8 +92,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statslight.wz)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 4, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer03")
 
@@ -127,8 +127,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statslight.wz)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 5, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east01")
 
@@ -162,8 +162,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statslight.wz)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 5, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east03")
 
@@ -218,8 +218,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statsmono.wz)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 5, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer02")
 
@@ -253,8 +253,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statsmono.wz)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3.5, 6, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3.5, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 4.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east02")
 
