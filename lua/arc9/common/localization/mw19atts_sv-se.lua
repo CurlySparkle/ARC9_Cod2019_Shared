@@ -2213,26 +2213,26 @@ L["cod2019_x16_stock.description"] = "Kolv erbjuder en stabil siktvy och hjälpe
 
 //////////////////// 1911
 /////////////// Barrels
-L["cod2019_1911_barrel_01.printname"] = ".45 Compact"
-L["cod2019_1911_barrel_01.compactname"] = "Compact"
-L["cod2019_1911_barrel_01.description"] = "Kompakt slutstycke ökar lätt hastighet och rörlighet med minimal påverkan på stabilitet."
+L["cod2019_m1911_slide_short.printname"] = ".45 Compact"
+L["cod2019_m1911_slide_short.compactname"] = "Compact"
+L["cod2019_m1911_slide_short.description"] = "Kompakt slutstycke ökar lätt hastighet och rörlighet med minimal påverkan på stabilitet."
 
-L["cod2019_1911_barrel_02.printname"] = ".45 Match Grade"
-L["cod2019_1911_barrel_02.compactname"] = "Match G."
-L["cod2019_1911_barrel_02.description"] = "Förlängd slutstycke förbättrar mynningshastigheten och boostar räckvidden med endast en liten del tillagd vikt."
+L["cod2019_m1911_slide_long.printname"] = ".45 Match Grade"
+L["cod2019_m1911_slide_long.compactname"] = "Match G."
+L["cod2019_m1911_slide_long.description"] = "Förlängd slutstycke förbättrar mynningshastigheten och boostar räckvidden med endast en liten del tillagd vikt."
 
 L["cod2019_1911_barrel_03.printname"] = "1911 Stalker"
 L["cod2019_1911_barrel_03.compactname"] = "Stalker"
 L["cod2019_1911_barrel_03.description"] = "Tung pipa med polygonell räffling ökar lätt mynningshastigheten och förbättrar räckvidden. Infällt slutstycke håller vikten till det minimala."
 
 /////////////// Magazine
-L["cod2019_1911_mag_10.printname"] = string.format(mw19magtext.mag, "10")
-L["cod2019_1911_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
-L["cod2019_1911_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["45acp"])
+L["cod2019_m1911_mag_10.printname"] = string.format(mw19magtext.mag, "10")
+L["cod2019_m1911_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
+L["cod2019_m1911_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["45acp"])
 
-L["cod2019_1911_mag_15.printname"] = string.format(mw19magtext.mag, "15")
-L["cod2019_1911_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
-L["cod2019_1911_mag_15.description"] = string.format(mw19magtext.descl, "15", mw19ammotype["45acp"])
+L["cod2019_m1911_mag_15.printname"] = string.format(mw19magtext.mag, "15")
+L["cod2019_m1911_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
+L["cod2019_m1911_mag_15.description"] = string.format(mw19magtext.descl, "15", mw19ammotype["45acp"])
 
 //////////////////// .357
 /////////////// Optics
@@ -2268,26 +2268,26 @@ L["cod2019_357_grip_stock_light.description"] = "Kolv av polymer erbjuder en sta
 
 //////////////////// M19
 /////////////// Barrels
-L["cod2019_m19_barrel_01.printname"] = "XRK L Super"
-L["cod2019_m19_barrel_01.compactname"] = "Super"
-L["cod2019_m19_barrel_01.description"] = "Tungt slutstycke erbjuder utmärkt stabilitet. Förlängd pipa med polygonell räffling ökar vapnets räckvidd till det högsta."
+L["cod2019_m19_slide_ext.printname"] = "XRK L Super"
+L["cod2019_m19_slide_ext.compactname"] = "Super"
+L["cod2019_m19_slide_ext.description"] = "Tungt slutstycke erbjuder utmärkt stabilitet. Förlängd pipa med polygonell räffling ökar vapnets räckvidd till det högsta."
 
-L["cod2019_m19_barrel_02.printname"] = "XRK V Extended"
-L["cod2019_m19_barrel_02.compactname"] = "Extended"
-L["cod2019_m19_barrel_02.description"] = "Förlängt slutstycke ökar lätt mynningshastigheten och förbättrar räckvidden. Lättvikt konstruering lägger endast till minimal vikt."
+L["cod2019_m19_slide_light.printname"] = "XRK V Extended"
+L["cod2019_m19_slide_light.compactname"] = "Extended"
+L["cod2019_m19_slide_light.description"] = "Förlängt slutstycke ökar lätt mynningshastigheten och förbättrar räckvidden. Lättvikt konstruering lägger endast till minimal vikt."
 
-L["cod2019_m19_barrel_03.printname"] = "A9-16 Lightweight"
-L["cod2019_m19_barrel_03.compactname"] = "A9-16"
-L["cod2019_m19_barrel_03.description"] = "Pipa med stort borr och ett lätt slutstycke förbättrar hantering med kostnad på mynningshastighet."
+L["cod2019_m19_slide_vented.printname"] = "A9-16 Lightweight"
+L["cod2019_m19_slide_vented.compactname"] = "A9-16"
+L["cod2019_m19_slide_vented.description"] = "Pipa med stort borr och ett lätt slutstycke förbättrar hantering med kostnad på mynningshastighet."
 
 /////////////// Magazine
 L["cod2019_m19_mag_21.printname"] = string.format(mw19magtext.mag, "21")
 L["cod2019_m19_mag_21.compactname"] = string.format(mw19magtext.mags, "21")
 L["cod2019_m19_mag_21.description"] = string.format(mw19magtext.desc, "21", mw19ammotype["919"])
 
-L["cod2019_m19_mag_32.printname"] = string.format(mw19magtext.mag, "32")
-L["cod2019_m19_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
-L["cod2019_m19_mag_32.description"] = string.format(mw19magtext.descl, "32", mw19ammotype["919"])
+L["cod2019_m19_mag_ext2.printname"] = string.format(mw19magtext.mag, "32")
+L["cod2019_m19_mag_ext2.compactname"] = string.format(mw19magtext.mags, "32")
+L["cod2019_m19_mag_ext2.description"] = string.format(mw19magtext.descl, "32", mw19ammotype["919"])
 
 //////////////////// .50 GS
 /////////////// Barrels

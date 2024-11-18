@@ -2212,26 +2212,26 @@ L["cod2019_x16_stock.description"] = "Stock provides a stable sight picture and 
 
 //////////////////// 1911
 /////////////// Barrels
-L["cod2019_1911_barrel_01.printname"] = ".45 Compact"
-L["cod2019_1911_barrel_01.compactname"] = "Compact"
-L["cod2019_1911_barrel_01.description"] = "Compact slide slightly improves speed and agility with a minimal impact to stability."
+L["cod2019_m1911_slide_short.printname"] = ".45 Compact"
+L["cod2019_m1911_slide_short.compactname"] = "Compact"
+L["cod2019_m1911_slide_short.description"] = "Compact slide slightly improves speed and agility with a minimal impact to stability."
 
-L["cod2019_1911_barrel_02.printname"] = ".45 Match Grade"
-L["cod2019_1911_barrel_02.compactname"] = "Match G."
-L["cod2019_1911_barrel_02.description"] = "Extended slide improves muzzle velocity and boosts range, with only a slight increase to weight."
+L["cod2019_m1911_slide_long.printname"] = ".45 Match Grade"
+L["cod2019_m1911_slide_long.compactname"] = "Match G."
+L["cod2019_m1911_slide_long.description"] = "Extended slide improves muzzle velocity and boosts range, with only a slight increase to weight."
 
 L["cod2019_1911_barrel_03.printname"] = "1911 Stalker"
 L["cod2019_1911_barrel_03.compactname"] = "Stalker"
 L["cod2019_1911_barrel_03.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum."
 
 /////////////// Magazine
-L["cod2019_1911_mag_10.printname"] = string.format(mw19magtext.mag, "10")
-L["cod2019_1911_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
-L["cod2019_1911_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["45acp"])
+L["cod2019_m1911_mag_10.printname"] = string.format(mw19magtext.mag, "10")
+L["cod2019_m1911_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
+L["cod2019_m1911_mag_10.description"] = string.format(mw19magtext.desc, "10", mw19ammotype["45acp"])
 
-L["cod2019_1911_mag_15.printname"] = string.format(mw19magtext.mag, "15")
-L["cod2019_1911_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
-L["cod2019_1911_mag_15.description"] = string.format(mw19magtext.descl, "15", mw19ammotype["45acp"])
+L["cod2019_m1911_mag_15.printname"] = string.format(mw19magtext.mag, "15")
+L["cod2019_m1911_mag_15.compactname"] = string.format(mw19magtext.mags, "15")
+L["cod2019_m1911_mag_15.description"] = string.format(mw19magtext.descl, "15", mw19ammotype["45acp"])
 
 //////////////////// .357
 /////////////// Optics
@@ -2266,26 +2266,26 @@ L["cod2019_357_grip_stock_light.description"] = "Polymer stock provides а stabl
 
 //////////////////// M19
 /////////////// Barrels
-L["cod2019_m19_barrel_01.printname"] = "XRK L Super"
-L["cod2019_m19_barrel_01.compactname"] = "Super"
-L["cod2019_m19_barrel_01.description"] = "Heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max."
+L["cod2019_m19_slide_ext.printname"] = "XRK L Super"
+L["cod2019_m19_slide_ext.compactname"] = "Super"
+L["cod2019_m19_slide_ext.description"] = "Heavy weight slide provides exceptional stability. Extended barrel with polygonal rifling extends this weapon's range to the max."
 
-L["cod2019_m19_barrel_02.printname"] = "XRK V Extended"
-L["cod2019_m19_barrel_02.compactname"] = "Extended"
-L["cod2019_m19_barrel_02.description"] = "Extended slide slightly increases muzzle velocity and improves range. Lightweight construction adds only a minor increase to weight."
+L["cod2019_m19_slide_light.printname"] = "XRK V Extended"
+L["cod2019_m19_slide_light.compactname"] = "Extended"
+L["cod2019_m19_slide_light.description"] = "Extended slide slightly increases muzzle velocity and improves range. Lightweight construction adds only a minor increase to weight."
 
-L["cod2019_m19_barrel_03.printname"] = "A9-16 Lightweight"
-L["cod2019_m19_barrel_03.compactname"] = "A9-16"
-L["cod2019_m19_barrel_03.description"] = "Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity."
+L["cod2019_m19_slide_vented.printname"] = "A9-16 Lightweight"
+L["cod2019_m19_slide_vented.compactname"] = "A9-16"
+L["cod2019_m19_slide_vented.description"] = "Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity."
 
 /////////////// Magazine
 L["cod2019_m19_mag_21.printname"] = string.format(mw19magtext.mag, "21")
 L["cod2019_m19_mag_21.compactname"] = string.format(mw19magtext.mags, "21")
 L["cod2019_m19_mag_21.description"] = string.format(mw19magtext.desc, "21", mw19ammotype["919"])
 
-L["cod2019_m19_mag_32.printname"] = string.format(mw19magtext.mag, "32")
-L["cod2019_m19_mag_32.compactname"] = string.format(mw19magtext.mags, "32")
-L["cod2019_m19_mag_32.description"] = string.format(mw19magtext.descl, "32", mw19ammotype["919"])
+L["cod2019_m19_mag_ext2.printname"] = string.format(mw19magtext.mag, "32")
+L["cod2019_m19_mag_ext2.compactname"] = string.format(mw19magtext.mags, "32")
+L["cod2019_m19_mag_ext2.description"] = string.format(mw19magtext.descl, "32", mw19ammotype["919"])
 
 //////////////////// .50 GS
 /////////////// Barrels
