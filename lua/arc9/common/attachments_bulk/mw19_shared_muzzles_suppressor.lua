@@ -127,8 +127,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statslight.wz)
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 4.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_east01")
 
@@ -297,6 +297,9 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.95
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_01")
 
 /////////////////////////// -- cod2019_attach_muzzle_silencer_shotgun_02
@@ -332,6 +335,9 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.97
 	ATT.RecoilMult = 0.97
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_02")
 
@@ -377,6 +383,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.97
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_shotgun_03")
 
 //////////////////////////////////////////////// -- Pistol Suppressors
@@ -420,6 +429,9 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.95
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_03")
 
 /////////////////////////// -- cod2019_attach_muzzle_silencer_pstl_01
@@ -459,6 +471,9 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.98
 	ATT.RecoilMult = 0.98
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_01")
 
@@ -502,6 +517,9 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.95
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_02")
 
 ////////////////////////////// -- 752 Muzzles
@@ -540,6 +558,9 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.98
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_01")
 
 /////////////// -- cod2019_attach_muzzle_sil_02
@@ -574,6 +595,9 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.97
 	ATT.RecoilMult = 0.97
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_02")
 
@@ -613,5 +637,8 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.95
 	ATT.RecoilMult = 0.95
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_sil_03")
