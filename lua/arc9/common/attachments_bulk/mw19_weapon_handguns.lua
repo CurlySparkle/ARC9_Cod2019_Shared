@@ -270,8 +270,21 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.73
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-5, 3, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-5, -1, 0) end
+ATT.CustomizePosHook = function(wep, vec)
+	if wep.Akimbo then
+		return vec + Vector(-4, 2, 0)
+	else
+		return vec + Vector(-5.5, 1, 0)
+	end
+end
+
+ATT.CustomizeRotateAnchorHook = function(wep, vec)
+	if wep.Akimbo then
+		return vec + Vector(-4, 0, 0)
+	else
+		return vec + Vector(-5.5, -1, 0)
+	end
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_357_grip_stock")
 ----------------------------------------------------------------------------------------
@@ -992,9 +1005,9 @@ end
 
 ATT.CustomizePosHook = function(wep, vec)
 	if wep.Akimbo then
-		return vec + Vector(-4.5, 5, 0)
+		return vec + Vector(-5, 2, 0)
 	else
-		return vec + Vector(-4.5, 5, 0)
+		return vec + Vector(-5, 2, 0)
 	end
 end
 
@@ -1002,7 +1015,7 @@ ATT.CustomizeRotateAnchorHook = function(wep, vec)
 	if wep.Akimbo then
 		return vec + Vector(-4.5, 0, 0)
 	else
-		return vec + Vector(-4.5, -1.25, 0)
+		return vec + Vector(-5, -1.25, 0)
 	end
 end
 
@@ -1963,17 +1976,17 @@ end
 
 ATT.CustomizePosHook = function(wep, vec)
 	if wep.Akimbo then
-		return vec + Vector(-5, 6, 0)
+		return vec + Vector(-6, 3, 0)
 	else
-		return vec + Vector(-4, 5, 0)
+		return vec + Vector(-5.5, 1.5, 0)
 	end
 end
 
 ATT.CustomizeRotateAnchorHook = function(wep, vec)
 	if wep.Akimbo then
-		return vec + Vector(-5, 0, 0)
+		return vec + Vector(-6, 0, 0)
 	else
-		return vec + Vector(-4, -2.75, 0)
+		return vec + Vector(-5.5, -2.75, 0)
 	end
 end
 

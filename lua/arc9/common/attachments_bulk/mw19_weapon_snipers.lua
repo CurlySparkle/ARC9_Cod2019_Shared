@@ -53,6 +53,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.95
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_long")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -106,6 +109,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 1.01
 	ATT.SpeedSightsMult = 1.06
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_mid")
 --------------------------------------------------------------------------------------- This doesn't exist in MW19... what is this, even?
@@ -362,6 +368,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.96
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_hdr_barrel_long")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -514,6 +523,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 1.06
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, -3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_short")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -570,6 +582,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.99
 	ATT.SpeedSightsMult = 0.96
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_long")
 ----------------------------------------------------------------------------------------
@@ -706,6 +721,9 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.97
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_rytec_muzzle_silencer")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -762,6 +780,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 1.02
 	ATT.SpeedSightsMult = 1.08
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_rytec_barrel_short")
 ----------------------------------------------------------------------------------------
@@ -820,6 +841,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.97
 	ATT.SpeedSightsMult = 0.94
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4.5, 5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_rytec_barrel_long")
 ----------------------------------------------------------------------------------------

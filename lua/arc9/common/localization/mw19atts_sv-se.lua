@@ -1644,8 +1644,8 @@ L["cod2019_holger_armag_30.description"] = string.format(mw19magtext.descsmall, 
 
 //////////////////// Bruen Mk9
 /////////////// Barrels
-L["cod2019_bruen_barrel_01.printname"] = "XRK Horizon 584 mm"
-L["cod2019_bruen_barrel_01.compactname"] = "Horizon"
+L["cod2019_bruenmk9_barrel_heavy.printname"] = "XRK Horizon 584 mm"
+L["cod2019_bruenmk9_barrel_heavy.compactname"] = "Horizon"
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 681 mm"
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
@@ -1671,7 +1671,7 @@ L["cod2019_finn_heavy.printname"] = "XRK Pro Twist"
 L["cod2019_finn_heavy.compactname"] = "Twist"
 
 L["cod2019_finn_barrel_default_adv.printname"] = "Fabrik <color=189,225,169>Ogynnsam</color>"
-L["cod2019_finn_barrel_default_adv.compactname"] = "Fabrik (A)"
+L["cod2019_finn_barrel_default_adv.compactname"] = "Fabrik (O)"
 L["cod2019_finn_barrel_default_adv.description"] = "Standard pipa med gasregulatorn helt öppnad vilket ökar <color=255,255,100>eldhastigheten</color> till dess maximala potential. Oavbruten eld kan snabbt överhetta pipan."
 
 L["cod2019_finn_barrel_long.printname"] = "XRK LongShot Advantage"
@@ -1679,7 +1679,7 @@ L["cod2019_finn_barrel_long.compactname"] = "LongShot"
 L["cod2019_finn_barrel_long.description"] = "Helskyddad 510 mm kromad pipa ökar mynningshastigheten och förbättrar kraftigt träffsäkerheten."
 
 L["cod2019_finn_heavy_adv.printname"] = "XRK Pro Twist <color=189,225,169>Ogynnsam</color>"
-L["cod2019_finn_heavy_adv.compactname"] = "Twist (A)"
+L["cod2019_finn_heavy_adv.compactname"] = "Twist (O)"
 L["cod2019_finn_heavy_adv.description"] = "XRKs tunga, polygonellt räfflade pipa förhindrar en förlust på räckvidd när den är satt på skjutläget Ogynnsamm. Tillåter maximal <color=255,255,100>eldhastighet</color> utan att förlora dödligheten vid längre distanser."
 
 L["cod2019_finn_barrel_light.printname"] = "FTAC VC-8 Harrier"
@@ -1687,11 +1687,11 @@ L["cod2019_finn_barrel_light.compactname"] = "Harrier"
 L["cod2019_finn_barrel_light.description"] = "Ultralätt Forge Tac-pipa med ett fräst skydd av aluminium och stor borr sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
 L["cod2019_finn_barrel_long_adv.printname"] = "XRK LongShot <color=189,225,169>Ogynnsam</color>"
-L["cod2019_finn_barrel_long_adv.compactname"] = "LongShot (A)"
+L["cod2019_finn_barrel_long_adv.compactname"] = "LongShot (O)"
 L["cod2019_finn_barrel_long_adv.description"] = "Längsta pipan tillgänglig med skjutläget Ogynnsam. Förbättrad räckvidd och en otroligt hög <color=255,255,100>eldhastighet</color> med en mindre ökning på rekylen."
 
 L["cod2019_finn_barrel_light_adv.printname"] = "FTAC VC-8 Harrier <color=189,225,169>Ogynnsam</color>"
-L["cod2019_finn_barrel_light_adv.compactname"] = "Harrier (A)"
+L["cod2019_finn_barrel_light_adv.compactname"] = "Harrier (O)"
 L["cod2019_finn_barrel_light_adv.description"] = "Lättvikt och hög manövrering pipa med en <color=255,255,100>eldhastighet</color> pressad till dess gräns med Ogynnsam gasregulator inställningar."
 
 /////////////// Stocks
@@ -2097,12 +2097,12 @@ L["cod2019_ax50_barrel_01.printname"] = "Singuard Arms Pro"
 L["cod2019_ax50_barrel_01.compactname"] = "Pro"
 L["cod2019_ax50_barrel_01.description"] = "Anpassad vanadin pipa med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med endast en mindre ökning på vikten."
 
-L["cod2019_ax50_barrel_02.printname"] = "432 mm Fabrikspipa"
-L["cod2019_ax50_barrel_02.compactname"] = "432 mm F."
+L["cod2019_ax50_barrel_short.printname"] = "432 mm Fabrikspipa"
+L["cod2019_ax50_barrel_short.compactname"] = "432 mm F."
 
-L["cod2019_ax50_barrel_03.printname"] = "813 mm Fabrikspipa"
-L["cod2019_ax50_barrel_03.compactname"] = "813 mm F."
-L["cod2019_ax50_barrel_03.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_ax50_barrel_long.printname"] = "813 mm Fabrikspipa"
+L["cod2019_ax50_barrel_long.compactname"] = "813 mm F."
+L["cod2019_ax50_barrel_long.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 /////////////// Stocks
 L["cod2019_ax50_stock_heavy.printname"] = "Singuard Arms Marksman"
@@ -2138,13 +2138,13 @@ L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
 L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
 
 /////////////// Muzzle
-L["cod2019_rytec_muzzle_tank.printname"] = "XRK Tank Brake"
-L["cod2019_rytec_muzzle_tank.compactname"] = "Tank"
-L["cod2019_rytec_muzzle_tank.description"] = "Lågt tryck 45-graders portarna skickar gaserna bakåt för att starkt kontrollera Rytecs extrema rekyl."
+L["cod2019_rytec_muzzle_brake.printname"] = "XRK Tank Brake"
+L["cod2019_rytec_muzzle_brake.compactname"] = "Tank"
+L["cod2019_rytec_muzzle_brake.description"] = "Lågt tryck 45-graders portarna skickar gaserna bakåt för att starkt kontrollera Rytecs extrema rekyl."
 
-L["cod2019_rytec_muzzle_suppressor.printname"] = "Rytec AMR-Ljuddämpare"
-L["cod2019_rytec_muzzle_suppressor.compactname"] = "AMR-L."
-L["cod2019_rytec_muzzle_suppressor.description"] = "Flerkalibrig ljuddämpare sänker starkt ljudsignaturen och ökar mynningshastigheten. Måttligt ökad vikt påverkar rörligheten."
+L["cod2019_rytec_muzzle_silencer.printname"] = "Rytec AMR-Ljuddämpare"
+L["cod2019_rytec_muzzle_silencer.compactname"] = "AMR-L."
+L["cod2019_rytec_muzzle_silencer.description"] = "Flerkalibrig ljuddämpare sänker starkt ljudsignaturen och ökar mynningshastigheten. Måttligt ökad vikt påverkar rörligheten."
 
 /////////////// Stocks
 L["cod2019_rytec_stock_heavy.printname"] = "XRK Mastadon"

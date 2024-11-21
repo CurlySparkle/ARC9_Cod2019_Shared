@@ -1641,8 +1641,8 @@ L["cod2019_holger_armag_30.description"] = string.format(mw19magtext.descsmall, 
 
 //////////////////// Bruen Mk9
 /////////////// Barrels
-L["cod2019_bruen_barrel_01.printname"] = "XRK Horizon 23.0\""
-L["cod2019_bruen_barrel_01.compactname"] = "Horizon"
+L["cod2019_bruenmk9_barrel_heavy.printname"] = "XRK Horizon 23.0\""
+L["cod2019_bruenmk9_barrel_heavy.compactname"] = "Horizon"
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
@@ -2096,12 +2096,12 @@ L["cod2019_ax50_barrel_01.printname"] = "Singuard Arms Pro"
 L["cod2019_ax50_barrel_01.compactname"] = "Pro"
 L["cod2019_ax50_barrel_01.description"] = "Custom vanadium barrel with polygonal rifling increases muzzle velocity and improves range with only a minor increase to weight."
 
-L["cod2019_ax50_barrel_02.printname"] = "17.0\" Factory Barrel"
-L["cod2019_ax50_barrel_02.compactname"] = "17.0\" F"
+L["cod2019_ax50_barrel_short.printname"] = "17.0\" Factory Barrel"
+L["cod2019_ax50_barrel_short.compactname"] = "17.0\" F"
 
-L["cod2019_ax50_barrel_03.printname"] = "32.0\" Factory Barrel"
-L["cod2019_ax50_barrel_03.compactname"] = "32.0\" F"
-L["cod2019_ax50_barrel_03.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
+L["cod2019_ax50_barrel_long.printname"] = "32.0\" Factory Barrel"
+L["cod2019_ax50_barrel_long.compactname"] = "32.0\" F"
+L["cod2019_ax50_barrel_long.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility."
 
 /////////////// Stocks
 L["cod2019_ax50_stock_heavy.printname"] = "Singuard Arms Marksman"
@@ -2137,13 +2137,13 @@ L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
 L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
 
 /////////////// Muzzle
-L["cod2019_rytec_muzzle_tank.printname"] = "XRK Tank Brake"
-L["cod2019_rytec_muzzle_tank.compactname"] = "Tank"
-L["cod2019_rytec_muzzle_tank.description"] = "Low pressure 45 degree ports direct gases rearward to greatly control the Rytec's extreme recoil."
+L["cod2019_rytec_muzzle_brake.printname"] = "XRK Tank Brake"
+L["cod2019_rytec_muzzle_brake.compactname"] = "Tank"
+L["cod2019_rytec_muzzle_brake.description"] = "Low pressure 45 degree ports direct gases rearward to greatly control the Rytec's extreme recoil."
 
-L["cod2019_rytec_muzzle_suppressor.printname"] = "Rytec AMR Suppressor"
-L["cod2019_rytec_muzzle_suppressor.compactname"] = "AMR S."
-L["cod2019_rytec_muzzle_suppressor.description"] = "Multi caliber suppressor greatly reduces sound signature and increases muzzle velocity. Moderate weight increase affects agility."
+L["cod2019_rytec_muzzle_silencer.printname"] = "Rytec AMR Suppressor"
+L["cod2019_rytec_muzzle_silencer.compactname"] = "AMR S."
+L["cod2019_rytec_muzzle_silencer.description"] = "Multi caliber suppressor greatly reduces sound signature and increases muzzle velocity. Moderate weight increase affects agility."
 
 /////////////// Stocks
 L["cod2019_rytec_stock_heavy.printname"] = "XRK Mastadon"
