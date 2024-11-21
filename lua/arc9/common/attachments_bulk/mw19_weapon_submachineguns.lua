@@ -51,6 +51,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.95
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.5, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_mp7_barrel_long")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -97,6 +100,9 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.5, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_mp7_barrel_long2")
 ---------------------------------------------------------------------------------------
@@ -359,6 +365,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_mp5_stock_fullstock")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -389,6 +398,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 1.02
 	ATT.SpeedSightsMult = 1.13
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_stock_none")
 ---------------------------------------------------------------------------------------
@@ -448,6 +460,9 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 0.75
 	ATT.RangeMaxMult = 0.75
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 1.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_supp")
 ---------------------------------------------------------------------------------------
@@ -728,6 +743,9 @@ else -- Warzone Stats
 	ATT.SpeedMultSights = 0.93
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_lmg")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -778,6 +796,9 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.26
 	ATT.RangeMaxMult = 1.26
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_ar_long")
 ----------------------------------------------------------------------------------------
@@ -841,7 +862,7 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeMagnification = 2.8
-ATT.ScopeScreenRatio = 575/1080
+ATT.ScopeScreenRatio = 425/1080
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/aug_crosshair")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeShadowIntensity = 7.5
@@ -912,6 +933,9 @@ ATT.Attachments = {
     }
 }
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_p90_barrel_long_rail")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -961,6 +985,9 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_p90_barrel_long")
 ----------------------------------------------------------------------------------------
@@ -1026,6 +1053,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.97
 	ATT.SpeedSightsMult = 0.4
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3.5, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_p90_barrel_custom")
 ---------------------------------------------------------------------------------------
@@ -1213,6 +1243,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.95
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.5, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_uzi_barrel_long")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -1249,6 +1282,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.98
 	ATT.SpeedSightsMult = 0.95
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_uzi_barrel_custom")
 ----------------------------------------------------------------------------------------
@@ -1296,6 +1332,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 1.01
 	ATT.SpeedSightsMult = 1.04
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_uzi_barrel_short")
 ---------------------------------------------------------------------------------------
@@ -1521,6 +1560,9 @@ else -- Warzone Stats
 	ATT.RangeMaxMult = 1.2
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.75, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.75, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_bizon_barrel_long")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -1570,6 +1612,9 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 0.9
 	ATT.RangeMaxMult = 0.9
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.75, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.75, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_bizon_barrel_short")
 ---------------------------------------------------------------------------------------
@@ -1768,6 +1813,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.94
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_striker45_barrel_long")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -1809,6 +1857,9 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_barrel_mid")
 ---------------------------------------------------------------------------------------
@@ -2157,6 +2208,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.9
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_vector_suppresor")
 ---------------------------------------------------------------------------------------
 ATT = {}
@@ -2205,6 +2259,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.91
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(5, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_vector_barrel_long")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -2243,6 +2300,9 @@ else -- Warzone Stats
 	ATT.RangeMaxMult = 1.14
 	ATT.SpreadMult = 0.75
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5.5, 5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(5.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_vector_barrel_sil")
 ---------------------------------------------------------------------------------------
@@ -2477,6 +2537,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.94
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_iso_barrel_long")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -2529,6 +2592,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.96
 	ATT.SpeedSightsMult = 0.93
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 6, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_iso_barrel_supp")
 ----------------------------------------------------------------------------------------
@@ -2680,6 +2746,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.93
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_silenced")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -2735,6 +2804,9 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.95
 end
 
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
 ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_long")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -2789,6 +2861,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.96
 	ATT.SpeedSightsMult = 0.93
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(4, 4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_xlong")
 ---------------------------------------------------------------------------------------
@@ -2849,6 +2924,9 @@ else -- Warzone Stats
 	ATT.SpeedMult = 1.02
 	ATT.SpeedSightsMult = 1.08
 end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_stock_no")
 ---------------------------------------------------------------------------------------
