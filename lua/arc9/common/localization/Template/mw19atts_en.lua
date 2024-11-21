@@ -1384,13 +1384,13 @@ L["cod2019_725_foregrip_light.printname"] = "Tempus SlimGrip"
 L["cod2019_725_foregrip_light.compactname"] = "SlimGrip"
 L["cod2019_725_foregrip_light.description"] = "Ultralight forend grips allows greater control while performing high-speed maneuvers."
 
-L["cod2019_725_guard_02.printname"] = "FORGE TAC Steady Grip"
-L["cod2019_725_guard_02.compactname"] = "Steady"
-L["cod2019_725_guard_02.description"] = "Heavy duty ergonomic guard keeps the gun stable while aiming."
+L["cod2019_725_foregrip_stable.printname"] = "FORGE TAC Steady Grip"
+L["cod2019_725_foregrip_stable.compactname"] = "Steady"
+L["cod2019_725_foregrip_stable.description"] = "Heavy duty ergonomic guard keeps the gun stable while aiming."
 
-L["cod2019_725_guard_03.printname"] = "FORGE TAC Commander"
-L["cod2019_725_guard_03.compactname"] = "Commander"
-L["cod2019_725_guard_03.description"] = "Synthetic forend with a deep grip and ribbed surface keep the gun tight in hand to help control recoil."
+L["cod2019_725_foregrip_tactical.printname"] = "FORGE TAC Commander"
+L["cod2019_725_foregrip_tactical.compactname"] = "Commander"
+L["cod2019_725_foregrip_tactical.description"] = "Synthetic forend with a deep grip and ribbed surface keep the gun tight in hand to help control recoil."
 
 //////////////////// Origin 12 Shotgun
 /////////////// Barrels
@@ -1428,13 +1428,13 @@ L["cod2019_vlk_barrel_heavy.printname"] = "VLK Czar"
 L["cod2019_vlk_barrel_heavy.compactname"] = "Czar"
 L["cod2019_vlk_barrel_heavy.description"] = "Heavy-duty tapered barrel tightens pellet spread and extends range. Additional weight and length stabilize shots but hinder mobility."
 
-L["cod2019_vlk_barrel_02.printname"] = "6\" Revolt"
-L["cod2019_vlk_barrel_02.compactname"] = "Revolt"
-L["cod2019_vlk_barrel_02.description"] = "Short, compact barrel sacrifices range for speed and agility. Increased pellet spread will help clear out tight spaces."
+L["cod2019_vlk_barrel_short.printname"] = "6\" Revolt"
+L["cod2019_vlk_barrel_short.compactname"] = "Revolt"
+L["cod2019_vlk_barrel_short.description"] = "Short, compact barrel sacrifices range for speed and agility. Increased pellet spread will help clear out tight spaces."
 
-L["cod2019_vlk_barrel_03.printname"] = "16\" Warlord"
-L["cod2019_vlk_barrel_03.compactname"] = "Warlord"
-L["cod2019_vlk_barrel_03.description"] = "Extended barrel increases muzzle velocity and range. Light alloy barrel keeps additional weight to a minimum."
+L["cod2019_vlk_barrel_long.printname"] = "16\" Warlord"
+L["cod2019_vlk_barrel_long.compactname"] = "Warlord"
+L["cod2019_vlk_barrel_long.description"] = "Extended barrel increases muzzle velocity and range. Light alloy barrel keeps additional weight to a minimum."
 
 /////////////// Pumps
 L["cod2019_vlk_pump_light.printname"] = "XRK Race Grip"

@@ -283,6 +283,12 @@ L["cod2019_model680_mag_8.printname"] = "Kaliber 12 8-Patronersm."
 L["cod2019_model680_mag_8.compactname"] = "K12 8P."
 L["cod2019_model680_mag_8.description"] = "Anpassad XRK Eagle's Claw-låda med inbyggd magasinlåda för att använd bortplockbara <color=100,255,100>8 patronersmagasin</color> för snabbare omladdningar. <color=255,100,100>Ej kompatibla med anpassade pipor.</color>"
 
+//////////////////// VLK Rogue
+/////////////// Perk
+L["cod2019_vlk_semiauto.printname"] = "Halvautomat"
+L["cod2019_vlk_semiauto.compactname"] = "Halv"
+L["cod2019_vlk_semiauto.description"] = "Ändrar skjutläget till <color=100,255,100>halv</color>automat."
+
 //////////////////////// LMGs
 //////////////////// Holger-26
 /////////////// Stock

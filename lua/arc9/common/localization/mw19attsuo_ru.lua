@@ -284,6 +284,12 @@ L["cod2019_model680_mag_8.printname"] = "12 Gauge 8-R Mags"
 L["cod2019_model680_mag_8.compactname"] = "12G 8R"
 L["cod2019_model680_mag_8.description"] = "Custom XRK Eagle's Claw receiver with built in mag well to use <color=100,255,100>8-round</color> detachable magazines for faster reloads. <color=255,100,100>Not compatible with custom barrels.</color>"
 
+//////////////////// VLK Rogue
+/////////////// Perk
+L["cod2019_vlk_semiauto.printname"] = "Semi-Auto"
+L["cod2019_vlk_semiauto.compactname"] = "Semi"
+L["cod2019_vlk_semiauto.description"] = "Changes fire mode to <color=100,255,100>semi</color> automatic."
+
 //////////////////////// LMGs
 //////////////////// Holger-26
 /////////////// Stock

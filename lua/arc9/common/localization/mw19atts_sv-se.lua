@@ -1388,13 +1388,13 @@ L["cod2019_725_foregrip_light.printname"] = "Tempus SlimGrip"
 L["cod2019_725_foregrip_light.compactname"] = "SlimGrip"
 L["cod2019_725_foregrip_light.description"] = "Ultralätt handskydd tillåter högre kontroll medans man utför snabb manövrering."
 
-L["cod2019_725_guard_02.printname"] = "FORGE TAC Steady Grip"
-L["cod2019_725_guard_02.compactname"] = "Steady"
-L["cod2019_725_guard_02.description"] = "Tungt ergonomiskt handskydd håller vapnet stabilt i siktet."
+L["cod2019_725_foregrip_stable.printname"] = "FORGE TAC Steady Grip"
+L["cod2019_725_foregrip_stable.compactname"] = "Steady"
+L["cod2019_725_foregrip_stable.description"] = "Tungt ergonomiskt handskydd håller vapnet stabilt i siktet."
 
-L["cod2019_725_guard_03.printname"] = "FORGE TAC Commander"
-L["cod2019_725_guard_03.compactname"] = "Commander"
-L["cod2019_725_guard_03.description"] = "Syntetiskt handskydd med djupt grepp och räfflad yta håller vapnet tajt till hands för att hjälpa kontrollera rekylen."
+L["cod2019_725_foregrip_tactical.printname"] = "FORGE TAC Commander"
+L["cod2019_725_foregrip_tactical.compactname"] = "Commander"
+L["cod2019_725_foregrip_tactical.description"] = "Syntetiskt handskydd med djupt grepp och räfflad yta håller vapnet tajt till hands för att hjälpa kontrollera rekylen."
 
 //////////////////// Origin 12 Shotgun
 /////////////// Barrels
@@ -1432,13 +1432,13 @@ L["cod2019_vlk_barrel_heavy.printname"] = "VLK Czar"
 L["cod2019_vlk_barrel_heavy.compactname"] = "Czar"
 L["cod2019_vlk_barrel_heavy.description"] = "Tung, avsmalnande pipa sänker skottens spridning och ökar räckvidden. Tillagd vikt och längd stabiliserar skotten men hindrar rörligheten."
 
-L["cod2019_vlk_barrel_02.printname"] = "152 mm Revolt"
-L["cod2019_vlk_barrel_02.compactname"] = "Revolt"
-L["cod2019_vlk_barrel_02.description"] = "Kort, kompakt pipa offrar räckvidd för hastighet och rörlighet. Ökad spridning på skotten hjälper till att rensa tajta områden."
+L["cod2019_vlk_barrel_short.printname"] = "152 mm Revolt"
+L["cod2019_vlk_barrel_short.compactname"] = "Revolt"
+L["cod2019_vlk_barrel_short.description"] = "Kort, kompakt pipa offrar räckvidd för hastighet och rörlighet. Ökad spridning på skotten hjälper till att rensa tajta områden."
 
-L["cod2019_vlk_barrel_03.printname"] = "406 mm Warlord"
-L["cod2019_vlk_barrel_03.compactname"] = "Warlord"
-L["cod2019_vlk_barrel_03.description"] = "Förlängd pipa ökar mynningshastighet och räckvidd. Lätt legerad pipa håller tillagd vikt till det minimala."
+L["cod2019_vlk_barrel_long.printname"] = "406 mm Warlord"
+L["cod2019_vlk_barrel_long.compactname"] = "Warlord"
+L["cod2019_vlk_barrel_long.description"] = "Förlängd pipa ökar mynningshastighet och räckvidd. Lätt legerad pipa håller tillagd vikt till det minimala."
 
 /////////////// Pumps
 L["cod2019_vlk_pump_light.printname"] = "XRK Tävlingsgrepp"
