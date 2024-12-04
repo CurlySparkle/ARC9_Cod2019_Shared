@@ -1552,40 +1552,42 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_mag_60")
 ----------------------------------------------------------------------------------------
-ATT = {}
+-- ATT = {}
 
-ATT.PrintName = "Bipod"
-ATT.CompactName = "Bipod"
-ATT.Description = [[Deploys the bipod for better recoil and accuracy.]]
+-- ATT.PrintName = "Bipod"
+-- ATT.CompactName = "Bipod"
+-- ATT.Description = [[Deploys the bipod for better recoil and accuracy.]]
 
-ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_bipod.png", "mips smooth")
+-- ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_bipod.png", "mips smooth")
 
-ATT.SortOrder = 0
-ATT.Category = "cod2019_bruenmk9_bipod"
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+-- ATT.SortOrder = 0
+-- ATT.Category = "cod2019_bruenmk9_bipod"
+-- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_bipod.mdl"
-ATT.BoneMerge = true
-ATT.ActivateElements = {"bipod_none"}
+-- ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_bipod.mdl"
+-- ATT.BoneMerge = true
+-- ATT.ActivateElements = {"bipod_none"}
 
-ATT.Bipod = true
+-- ATT.Bipod = true
 
-ATT.BipodPos = Vector(-1.5, -4, 1)
-ATT.BipodAng = Angle(0, 0, 0)
+-- ATT.BipodPos = Vector(-1.5, -4, 1)
+-- ATT.BipodAng = Angle(0, 0, 0)
 
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.19
-	ATT.VisualRecoilMult = 0.8
-	ATT.RecoilMult = 0.8
-	ATT.SpeedMult = 0.96
-	ATT.SpeedMultSights = 0.84
-	ATT.SpreadBipod = -0.05
-else -- Warzone Stats
-	ATT.RecoilMultCrouch = 0.85
-	ATT.VisualRecoilMultCrouch = 0.85
-end
+-- if !warzonestats then -- Regular Stats
+	-- ATT.AimDownSightsTimeAdd = 0.19
+	-- ATT.VisualRecoilMult = 0.8
+	-- ATT.RecoilMult = 0.8
+	-- ATT.SpeedMult = 0.96
+	-- ATT.SpeedMultSights = 0.84
+	-- ATT.SpreadBipod = -0.05
+-- else -- Warzone Stats
+	-- ATT.RecoilMultCrouch = 0.85
+	-- ATT.VisualRecoilMultCrouch = 0.85
+-- end
 
-ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_grip_bipod")
+-- ATT.Ignore = true
+
+-- ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_grip_bipod")
 
 /////////////////////////// --  FiNN LMG
 ATT = {} -- Base Barrel, Adverse
