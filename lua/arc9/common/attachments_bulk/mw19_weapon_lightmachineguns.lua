@@ -963,6 +963,8 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
+ATT.Bipod = false
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.95
 	ATT.DeployTimeMult = 0.95
@@ -1019,6 +1021,8 @@ ATT.DrawFunc = function(swep, model, wm)
         model:SetBodygroup(1,1)
     end
 end
+
+ATT.Bipod = false
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.92
