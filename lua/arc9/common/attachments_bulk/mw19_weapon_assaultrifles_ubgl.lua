@@ -249,11 +249,21 @@ ATT.IKCameraMotionQCA = 3
 ATT.IKCameraMotionOffsetAngle = Angle(0, 0, 90)
 ATT.CamCoolViewUBGL = false
 
-ATT.SprintPosUBGL = Vector(0, -2.3, -1.5)
+ATT.ActivePosUBGL = Vector(-2.3, -1.3, 0)
+
+ATT.SprintPosUBGL = Vector(-2.7, -2.7, -1.6)
 ATT.SprintAngUBGL = Angle(35, 10, -35)
 
 ATT.ModelOffset = Vector(-0.55, 0.05, 1.5)
 ATT.ModelAngleOffset = Angle(0, 180, 0)
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["ubgl_small"] then
+        model:SetBodygroup(0,1)
+    else
+        model:SetBodygroup(0,0)
+    end
+end
 
 table.Merge(ATT, glcode)
 
