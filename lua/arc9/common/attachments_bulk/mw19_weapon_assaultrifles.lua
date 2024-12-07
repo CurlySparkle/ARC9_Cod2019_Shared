@@ -2613,7 +2613,7 @@ ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_smgmag.png", "mips
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
-ATT.SortOrder = 1
+ATT.SortOrder = 0
 ATT.Category = "cod2019_ak47_mag"
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
@@ -2643,7 +2643,7 @@ ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_smgmag.png", "mips
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
-ATT.SortOrder = 2
+ATT.SortOrder = 1
 ATT.Category = "cod2019_ak47_mag"
 ATT.ActivateElements = {"mag_none","mag_545"}
 
@@ -2703,7 +2703,7 @@ ATT.CompactName = "80R 5.45"
 ATT.Description = [[High capacity drum that holds 80 rounds with a heavy weight increase.]]
 ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_drums.png", "mips smooth")
 
-ATT.SortOrder = 0
+ATT.SortOrder = 2
 ATT.Category = {"cod2019_ak47_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum_mw22"}
 
@@ -2794,7 +2794,7 @@ ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_drums.png", "mips 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
-ATT.SortOrder = 3
+ATT.SortOrder = 0
 ATT.Category = "cod2019_ak47_mag"
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
@@ -3943,7 +3943,7 @@ ATT.CompactName = "45R 5.45"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_xmags.png", "mips smooth")
 
-ATT.SortOrder = 0
+ATT.SortOrder = 2
 ATT.Category = {"cod2019_ak47_mag"}
 ATT.ActivateElements = {"mag_none","mag_545"}
 
@@ -4002,7 +4002,7 @@ ATT.CompactName = "60R 5.45"
 ATT.Description = [[High capacity magazines hold 60 rounds with a moderate weight increase.]]
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_xmagslrg.png", "mips smooth")
 
-ATT.SortOrder = 0
+ATT.SortOrder = 2
 ATT.Category = {"cod2019_ak47_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
