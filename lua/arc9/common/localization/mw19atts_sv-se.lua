@@ -367,13 +367,13 @@ L["cod2019_griptape_01.printname"] = "Granulerad Grepptejp"
 L["cod2019_griptape_01.compactname"] = "Granulerad"
 L["cod2019_griptape_01.description"] = "Slät och granulerad tejp för en avslappnat och kontrollerat grepp. Håller dig stadigt och på målet."
 
-L["cod2019_griptape_02.printname"] = "Gummerad Grepptejp"
-L["cod2019_griptape_02.compactname"] = "Gummerad"
-L["cod2019_griptape_02.description"] = "Gummerat grepp håller vapnet tajt i händerna. Mindre stadigt men hjälper rekylkontrollen."
+L["cod2019_griptape_02.printname"] = "Stippad Grepptejp"
+L["cod2019_griptape_02.compactname"] = "Stippad"
+L["cod2019_griptape_02.description"] = "Stippat pistolgrepptejp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
 
-L["cod2019_griptape_03.printname"] = "Stippad Grepptejp"
-L["cod2019_griptape_03.compactname"] = "Stippad"
-L["cod2019_griptape_03.description"] = "Stippat pistolgrepptejp behåller kontrollen när man utför manövrar i hög hastighet. Mindre stabil men mer rörlig."
+L["cod2019_griptape_03.printname"] = "Gummerad Grepptejp"
+L["cod2019_griptape_03.compactname"] = "Gummerad"
+L["cod2019_griptape_03.description"] = "Gummerat grepp håller vapnet tajt i händerna. Mindre stadigt men hjälper rekylkontrollen."
 
 ///////////////////////////// Weapon-specific Attachments
 //////////////////////// Universal Strings

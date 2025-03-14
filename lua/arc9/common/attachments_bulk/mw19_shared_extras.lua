@@ -30,7 +30,7 @@ ARC9.LoadAttachment(ATT, "cod2019_griptape_01")
 /////////////// -- cod2019_griptape_02
 ATT = {}
 
-ATT.PrintName = "Rubberized Grip Tape"
+ATT.PrintName = "Stippled Grip Tape"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -44,11 +44,11 @@ ATT.ActivateElements = {"pgrip_none","pgrip_02"}
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.RecoilMult = 0.994
-	ATT.VisualRecoilMult = 0.994
+		ATT.AimDownSightsTimeAdd = -0.011
+	ATT.SprintToFireTimeAdd = -0.037
 else -- Warzone Stats
-	ATT.RecoilMult = 0.994
-	ATT.VisualRecoilMult = 0.994
+	ATT.AimDownSightsTimeAdd = -0.011
+	ATT.SprintToFireTimeAdd = -0.037
 end
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -64,7 +64,7 @@ ARC9.LoadAttachment(ATT, "cod2019_griptape_02")
 /////////////// -- cod2019_griptape_03
 ATT = {}
 
-ATT.PrintName = "Stippled Grip Tape"
+ATT.PrintName = "Rubberized Grip Tape"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_pistolgrip_tape01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -78,11 +78,11 @@ ATT.ActivateElements = {"pgrip_none","pgrip_03"}
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-		ATT.AimDownSightsTimeAdd = -0.011
-	ATT.SprintToFireTimeAdd = -0.037
+	ATT.RecoilMult = 0.994
+	ATT.VisualRecoilMult = 0.994
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.011
-	ATT.SprintToFireTimeAdd = -0.037
+	ATT.RecoilMult = 0.994
+	ATT.VisualRecoilMult = 0.994
 end
 
 ATT.DrawFunc = function(swep, model, wm)

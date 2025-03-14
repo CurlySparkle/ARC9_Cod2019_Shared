@@ -785,13 +785,13 @@ L["cod2019_griptape_01.printname"] = "Granulated Grip Tape"
 L["cod2019_griptape_01.compactname"] = "Granulated"
 L["cod2019_griptape_01.description"] = "Smooth and granulated tape for a relaxed and controlled grip. Keeps you steady and on target."
 
-L["cod2019_griptape_02.printname"] = "Rubberized Grip Tape"
-L["cod2019_griptape_02.compactname"] = "Rubberized"
-L["cod2019_griptape_02.description"] = "Rubberized grip keeps gun tight in hand. Less steady, but helps control recoil."
+L["cod2019_griptape_02.printname"] = "Stippled Grip Tape"
+L["cod2019_griptape_02.compactname"] = "Stippled"
+L["cod2019_griptape_02.description"] = "Stippled pistol grip tape maintains control when performing high-speed maneuvers. Less stable but very agile."
 
-L["cod2019_griptape_03.printname"] = "Stippled Grip Tape"
-L["cod2019_griptape_03.compactname"] = "Stippled"
-L["cod2019_griptape_03.description"] = "Stippled pistol grip tape maintains control when performing high-speed maneuvers. Less stable but very agile."
+L["cod2019_griptape_03.printname"] = "Rubberized Grip Tape"
+L["cod2019_griptape_03.compactname"] = "Rubberized"
+L["cod2019_griptape_03.description"] = "Rubberized grip keeps gun tight in hand. Less steady, but helps control recoil."
 
 ///////////////////////////// Weapon-specific Attachments
 //////////////////////// Universal Strings
