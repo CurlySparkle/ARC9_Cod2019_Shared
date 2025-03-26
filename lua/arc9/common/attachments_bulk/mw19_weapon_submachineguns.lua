@@ -291,7 +291,7 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mp5/attachment_v
 
 if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 1.15
-	ATT.RecoilkickMult = 1.2
+	ATT.RecoilKickMult = 1.2
 	ATT.DamageMaxMult = 1.19
 	ATT.DamageMinMult = 1.1
 	ATT.PhysBulletMuzzleVelocityMult = 1.15

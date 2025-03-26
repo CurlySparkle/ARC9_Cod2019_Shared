@@ -1071,7 +1071,7 @@ L["cod2019_pp19_stock_vlight.description"] = "Original helkroppskolv erbjuder ut
 /////////////// Magazine
 L["cod2019_bizon_mag_xmag.printname"] = "84-Patroners Spiralformade Magasin"
 L["cod2019_bizon_mag_xmag.compactname"] = string.format(mw19magtext.mags, "84")
-L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["919m"])
+L["cod2019_bizon_mag_xmag.description"] = string.format(mw19magtext.desc, "84", mw19ammotype["918"])
 
 //////////////////// MP7
 /////////////// Barrels
