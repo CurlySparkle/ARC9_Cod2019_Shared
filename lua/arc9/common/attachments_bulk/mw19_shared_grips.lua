@@ -225,7 +225,7 @@ ARC9.LoadAttachment(ATT, "cod2019_angled_tactical")
 /////////////////////////// -- cod2019_grips_operator
 ATT = {}
 
-ATT.PrintName = "Operator Foregrip"
+ATT.PrintName = "OP-X9 Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_stubby01.png", "mips smooth")
 
 ATT.Description = ""

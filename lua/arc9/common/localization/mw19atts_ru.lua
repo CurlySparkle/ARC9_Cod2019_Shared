@@ -272,8 +272,8 @@ L["cod2019_grips_ranger.printname"] = "Рейнджерская рукоять"
 L["cod2019_grips_ranger.compactname"] = "Рейнджер"
 L["cod2019_grips_ranger.description"] = "Стандартная рукоять ослабляет вертикальный компонент отдачи и помогает стабилизировать оружие при прицеливании на дальние дистанции."
 
-L["cod2019_grips_operator.printname"] = "Рукоять исполнителя"
-L["cod2019_grips_operator.compactname"] = "Испол."
+L["cod2019_grips_operator.printname"] = "OP-X9 Foregrip"
+L["cod2019_grips_operator.compactname"] = "OP-X9"
 L["cod2019_grips_operator.description"] = "Упрощенная рукоять помогает контролировать вертикальный компонент отдачи, тем самым ускоряя последующие выстрелы."
 
 L["cod2019_grips_operator2.printname"] = "Рукоять исполнителя"
