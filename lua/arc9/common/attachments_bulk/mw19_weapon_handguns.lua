@@ -1886,6 +1886,52 @@ ARC9.LoadAttachment(ATT, "cod2019_x16_slide_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "17 Round Mags"
+ATT.CompactName = "17-Round"
+ATT.Description = [[Extended capacity magazines hold 17 rounds with a moderate weight increase.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/x16/cod2019_pi_x16_mag_xmags.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/x16/attachment_vm_pi_golf21_mag_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/x16/attachment_vm_pi_golf21_mag_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_x16_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.BulletBones = {
+    [1] = "j_bullet",
+    [2] = "j_bullet2",
+}
+
+ATT.ReloadHideBoneTables = {
+		[1] = {
+		"j_bullet",
+		"j_mag1",
+	},
+}
+
+ATT.ClipSizeAdd = 4
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.ReloadTimeMult = 1.07
+	ATT.DeployTimeMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.005
+	ATT.SpeedMult = 0.97
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 2, 0.5) end
+
+ARC9.LoadAttachment(ATT, "cod2019_x16_mag_17")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "26 Round Mags"
 ATT.CompactName = "26-Round"
 ATT.Description = [[High capacity magazines hold 26 rounds with a moderate weight increase.]]
@@ -1908,11 +1954,19 @@ ATT.BulletBones = {
     [2] = "j_bullet2",
 }
 
+ATT.ReloadHideBoneTables = {
+		[1] = {
+		"j_bullet",
+		"j_mag1",
+	},
+}
+
 ATT.ClipSizeAdd = 13
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.15
 	ATT.ReloadTimeMult = 1.15
+	ATT.DeployTimeMult = 1.10
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.005
 	ATT.SpeedMult = 0.97
