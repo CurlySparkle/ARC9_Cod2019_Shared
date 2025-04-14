@@ -688,7 +688,46 @@ ARC9.LoadAttachment(ATT, "cod2019_m1911_slide_short")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "15 Round Mag"
+ATT.PrintName = "10 Round Mags"
+ATT.CompactName = "10 Round"
+ATT.Description = [[Extended magazines hold 10 rounds with a slight weight increase.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/m1911/cod2019_pi_1911_mmags.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m1911/attachment_vm_pi_mike1911_mmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m1911/attachment_vm_pi_mike1911_mmags.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_m1911_mag"}
+ATT.ActivateElements = {"mag_none","mag_mmag"}
+
+ATT.BulletBones = {
+    [1] = "j_bullet",
+    [2] = "j_bullet2",
+}
+
+ATT.ClipSizeAdd = 3
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.SprintToFireTimeMult = 1.07
+	ATT.ReloadTimeMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.02
+	ATT.SpeedMult = 0.98
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 3, 0.75) end
+
+ARC9.LoadAttachment(ATT, "cod2019_m1911_mag_10")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "15 Round Mags"
 ATT.CompactName = "15 Round"
 ATT.Description = [[High capacity magazines hold 15 rounds with a moderate weight increase.]]
 ATT.SortOrder = 1
@@ -1908,13 +1947,6 @@ ATT.BulletBones = {
     [2] = "j_bullet2",
 }
 
-ATT.ReloadHideBoneTables = {
-		[1] = {
-		"j_bullet",
-		"j_mag1",
-	},
-}
-
 ATT.ClipSizeAdd = 4
 
 if !warzonestats then -- Regular Stats
@@ -1952,13 +1984,6 @@ ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 ATT.BulletBones = {
     [1] = "j_bullet",
     [2] = "j_bullet2",
-}
-
-ATT.ReloadHideBoneTables = {
-		[1] = {
-		"j_bullet",
-		"j_mag1",
-	},
 }
 
 ATT.ClipSizeAdd = 13
