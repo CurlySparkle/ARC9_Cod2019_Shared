@@ -1475,7 +1475,6 @@ ATT.ActivateElements = {"mag_none","mag_smag"}
 ATT.ClipSizeAdd = -10
 
 if !warzonestats then -- Regular Stats
-	ATT.ReloadTimeMult = 0.9
 	ATT.DeployTimeMult = 0.9
 	ATT.AimDownSightsTimeMult = 0.9
 else -- Warzone Stats
