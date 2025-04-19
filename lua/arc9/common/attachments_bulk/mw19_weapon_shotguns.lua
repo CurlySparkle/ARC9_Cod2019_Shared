@@ -555,6 +555,19 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 ATT.ShotgunReload = false
 ATT.BoneMerge = true
 
+ATT.ReloadHideBoneTables = {
+	[1] = {
+		"j_mag2"
+	},
+	[2] = {
+		"j_mag1"
+	},
+	[3] = {
+		"j_mag2",
+		"j_mag1"
+	},
+}
+
 ATT.ShouldDropMag = false
 ATT.ShouldDropMagEmpty = false
 
@@ -595,6 +608,19 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.ShotgunReload = false
 ATT.BoneMerge = true
+
+ATT.ReloadHideBoneTables = {
+	[1] = {
+		"j_mag2"
+	},
+	[2] = {
+		"j_mag1"
+	},
+	[3] = {
+		"j_mag2",
+		"j_mag1"
+	},
+}
 
 ATT.ShouldDropMag = false
 ATT.ShouldDropMagEmpty = false
