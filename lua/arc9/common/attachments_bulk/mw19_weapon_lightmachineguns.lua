@@ -1532,6 +1532,20 @@ ATT.DropMagazineAng = Angle(-45, -90, -90)
 ATT.BoneMerge = true
 ATT.DropMagazineQCA = 5
 
+ATT.ReloadHideBoneTables = {
+	[1] = {
+		"j_xmags2"
+	},
+	[2] = {
+		"j_xmags2",
+		"j_xmags1",
+		"j_follower",
+		"j_smag_bullet01",
+		"j_smag_bullet02",
+		"j_smag_bullet03"
+	}
+}
+
 ATT.ClipSizeAdd = -40
 ATT.ReloadInSights = true
 
