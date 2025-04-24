@@ -2628,6 +2628,35 @@ ARC9.LoadAttachment(ATT, "cod2019_iso_stock_full")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "30 Round Mags"
+ATT.CompactName = "30-R 9mm"
+ATT.Description = [[Extended magazines hold 30 rounds of 9mm Parabellum ammunition with a slight weight increase.]]
+
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_xmag.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_iso_mag"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_xmag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_xmag.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 10
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.ReloadTimeMult = 1.10
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.005
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_iso_mag_30")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "50 Round Drum"
 ATT.CompactName = "50-Round"
 ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
