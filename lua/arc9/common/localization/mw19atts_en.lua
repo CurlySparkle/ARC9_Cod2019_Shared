@@ -1812,13 +1812,13 @@ L["cod2019_cx9_griptape_03.description"] = "Slotted synthetic grip is streamline
 //////////////////////// Shotguns
 //////////////////// Model 680
 /////////////// Barrels
-L["cod2019_model680_barrel_sawn.printname"] = "XRK 18.0\" Liberator"
-L["cod2019_model680_barrel_sawn.compactname"] = "Liberator"
-L["cod2019_model680_barrel_sawn.description"] = "Designed to reduce collateral damage and maintain mobility, this tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
+L["cod2019_model680_barrel_sawn.printname"] = "XRK 14.0\" SWAT"
+L["cod2019_model680_barrel_sawn.compactname"] = "SWAT"
+L["cod2019_model680_barrel_sawn.description"] = "Designed for short, fast paced raids this compact barrel sports a low weight <color=255,100,100>5 round</color> tube. Sacrifices range and ammo capacity for speed and agility."
 
-L["cod2019_model680_barrel_short.printname"] = "XRK 14.0\" SWAT"
-L["cod2019_model680_barrel_short.compactname"] = "SWAT"
-L["cod2019_model680_barrel_short.description"] = "Designed for short, fast paced raids this compact barrel sports a low weight <color=255,100,100>5 round</color> tube. Sacrifices range and ammo capacity for speed and agility."
+L["cod2019_model680_barrel_short.printname"] = "XRK 18.0\" Liberator"
+L["cod2019_model680_barrel_short.compactname"] = "Liberator"
+L["cod2019_model680_barrel_short.description"] = "Designed to reduce collateral damage and maintain mobility, this tapered barrel tightens pellet spread and slightly extends range with only a minor increase to weight."
 
 L["cod2019_model680_barrel_mid.printname"] = "XRK 30.0\" Sport"
 L["cod2019_model680_barrel_mid.compactname"] = "Sport"
