@@ -763,8 +763,8 @@ L["cod2019_grau556_pistgrip_light.printname"] = "XRK Void II"
 L["cod2019_grau556_pistgrip_light.compactname"] = "Void"
 L["cod2019_grau556_pistgrip_light.description"] = "Skelettgrepp för ultimat manövrering i hög hastighet."
 
-L["cod2019_grau556_griptape_02.printname"] = "Cronen Sniper Elite"
-L["cod2019_grau556_griptape_02.description"] = "Texturerat polymer med justerbart handledsstöd håller vapnet otroligt stabilt i siktet."
+L["cod2019_grau556_pistgrip_custom.printname"] = "Cronen Sniper Elite"
+L["cod2019_grau556_pistgrip_custom.description"] = "Texturerat polymer med justerbart handledsstöd håller vapnet otroligt stabilt i siktet."
 
 L["cod2019_grau556_pistgrip_heavy.printname"] = "FTAC R-89 Gummi"
 L["cod2019_grau556_pistgrip_heavy.description"] = "Halkfritt gummerat grepp håller vapnet tajt till hands. Mindre stadigt, men hjälper kontrollera rekylen."

@@ -1222,12 +1222,12 @@ L["cod2019_grau556_pistgrip_light.printname"] = "XRK Void II"
 L["cod2019_grau556_pistgrip_light.compactname"] = "Void"
 L["cod2019_grau556_pistgrip_light.description"] = "Skeletonized grip for the ultimate in high speed maneuvering,"
 
-L["cod2019_grau556_griptape_02.printname"] = "Cronen Sniper Elite"
-L["cod2019_grau556_griptape_02.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname") or "Cronen"
-L["cod2019_grau556_griptape_02.description"] = "Textured polymer with ап adjustable palm shelf keeps the weapon incredibly stable while aiming."
+L["cod2019_grau556_pistgrip_custom.printname"] = "Cronen Sniper Elite"
+L["cod2019_grau556_pistgrip_custom.compactname"] = ARC9:GetPhrase("cod2019_optic_minireddot2.compactname") or "Cronen"
+L["cod2019_grau556_pistgrip_custom.description"] = "Textured polymer with ап adjustable palm shelf keeps the weapon incredibly stable while aiming."
 
 L["cod2019_grau556_pistgrip_heavy.printname"] = "FTAC R-89 Rubber"
-L["cod2019_grau556_pistgrip_heavy.compactname"] = ARC9:GetPhrase("cod2019_griptape_02.compactname") or "Rubberized"
+L["cod2019_grau556_pistgrip_heavy.compactname"] = ARC9:GetPhrase("cod2019_griptape_03.compactname") or "Rubberized"
 L["cod2019_grau556_pistgrip_heavy.description"] = "Rubberized no-slip grip keeps gun tight in hand. Less steady, but helps control recoil."
 
 //////////////////// CR-56 AMAX

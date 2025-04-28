@@ -1890,7 +1890,39 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_m13_stock_light")
+----------------------------------------------------------------------------------------
+ATT = {}
 
+ATT.PrintName = ".300 Blackout 30-Round Mags"
+ATT.Description = "30R .300"
+ATT.Icon = Material("entities/attachs/ar/m13/cod2019_ar_m13_magsub.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_m13_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_ar_mcharlie_magsub.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m13/attachment_vm_ar_mcharlie_magsub.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxMult = 1.15
+	ATT.DamageMinMult = 1.15
+	ATT.RangeMaxMult = 1.10
+	ATT.RecoilMult = 1.10
+	ATT.RecoilKickMult = 1.05
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -130 / ARC9.HUToM
+	ATT.VisualRecoilMult = 1.08
+	ATT.RecoilMult = 1.15
+	ATT.DamageMaxMult = 1.25
+	ATT.DamageMinMult = 1.25
+	ATT.RangeMaxAdd = 8 / ARC9.HUToM
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m13_mag_blackout")
 //////////////////////////////////////////////// -- FN Scar-17
 ATT = {}
 
@@ -3356,6 +3388,35 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_grau556_pistgrip_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Cronen Sniper Elite"
+ATT.CompactName = "Cronen"
+ATT.Description = [[Textured polymer with an adjustable palm shelf keeps the weapon incredibly stable while aiming.]]
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_pstlgripcust.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_pstlgripcust.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_pstlgrip"
+ATT.ActivateElements = {"pistol_grip_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.07
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.SpreadMult = 0.95
+	ATT.RecoilMult = 0.9
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.05
+	ATT.SpeedMultSights = 0.95
+	ATT.SpreadMult = 0.95
+	ATT.RecoilMult = 0.91
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_pistgrip_custom")
 ----------------------------------------------------------------------------------------
 ATT = {}
 

@@ -764,8 +764,8 @@ L["cod2019_grau556_pistgrip_light.printname"] = "XRK \"Пустота\" II"
 L["cod2019_grau556_pistgrip_light.compactname"] = "Пустота"
 L["cod2019_grau556_pistgrip_light.description"] = "Каркасная рукоять для максимально быстрого маневрирования."
 
-L["cod2019_grau556_griptape_02.printname"] = "Cronen \"Элитный снайпер\""
-L["cod2019_grau556_griptape_02.description"] = "Текстурированная полимерная рукоятка с регулируемым упором для ладони позволяет идеально стабилизировать оружие во время прицеливания."
+L["cod2019_grau556_pistgrip_custom.printname"] = "Cronen \"Элитный снайпер\""
+L["cod2019_grau556_pistgrip_custom.description"] = "Текстурированная полимерная рукоятка с регулируемым упором для ладони позволяет идеально стабилизировать оружие во время прицеливания."
 
 L["cod2019_grau556_pistgrip_heavy.printname"] = "FTAC R-89: резина"
 L["cod2019_grau556_pistgrip_heavy.description"] = "Рукоятка, покрытая резиной для крепкого захвата без проскальзывания. Ухудшает стабильность, но улучшает контроль отдачи."
