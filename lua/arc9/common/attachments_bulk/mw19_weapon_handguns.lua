@@ -189,6 +189,54 @@ ARC9.LoadAttachment(ATT, "cod2019_50gs_grip_custom")
 /////////////////////////// -- .357
 ATT = {}
 
+ATT.PrintName = ".357 Snub Nose"
+ATT.CompactName = "Snub Nose"
+ATT.Description = [[3 inch barrel sacrifices accuracy and range for speed and agility. Better for close quarters engagements.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/357/cod2019_pi_357_barrel.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/357/attachment_vm_pi_cpapa_shortbarrel.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_357_barrel"}
+ATT.ActivateElements = {"barrel_none"}
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-0.96, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.RecoilMult = 1.08
+	ATT.RangeMaxMult = 0.92
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -100 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.04
+	ATT.RecoilMult = 1.1
+	ATT.VisualRecoilMult = 1.1
+	ATT.RangeMinMult = 0.85
+	ATT.RangeMaxMult = 0.85
+	ATT.SpeedMult = 1.015
+	ATT.SpeedSightsMult = 1.015
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_357_barrel_01")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = ".357 Long"
 ATT.CompactName = ".357 Long"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]

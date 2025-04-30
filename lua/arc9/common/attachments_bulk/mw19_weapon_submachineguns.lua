@@ -698,7 +698,7 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_aug_barrel"
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
-ATT.MuzzleDevice = false -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 3
 
 ATT.Bipod = true
@@ -764,7 +764,7 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_aug_barrel"
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
-ATT.MuzzleDevice = false -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 3
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -805,9 +805,9 @@ ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_ar_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "FORGE TAC CQB Comb"
-ATT.CompactName = "TAC CQB Comb"
-ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+ATT.PrintName = "FSS Heavy Stock Pro"
+ATT.CompactName = "Heavy Pro"
+ATT.Description = [[Heavy weight stock attachment provides stability while aiming.]]
 
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_stock_tactical.png", "mips smooth")
 
@@ -819,13 +819,18 @@ ATT.Category = "cod2019_aug_stock"
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.95
-	ATT.SprintToFireTimeMult = 0.95
+	ATT.RecoilUpMult = 0.9
+	ATT.RecoilSideMult = 0.9
+	ATT.DeployTimeMult = 1.07
+	ATT.AimDownSightsTimeMult = 1.1
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.022
+	ATT.RecoilUpMult = 0.9
+	ATT.RecoilSideMult = 0.9
+	ATT.AimDownSightsTimeAdd = 0.022
+	ATT.SpeedSightsMult = 0.93
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_aug_stock_tactical")
+ARC9.LoadAttachment(ATT, "cod2019_aug_stock_heavy")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1617,6 +1622,33 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.75, 1, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.75, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_bizon_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Factory Aluminum Stock"
+ATT.CompactName = "Factory"
+ATT.Description = "Lightweight aluminum stock keeps you agile while aiming down sights."
+ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_stockmrkt.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_bizon_stock"}
+ATT.ActivateElements = {"stock_none","stock_light"} --hide the adaptor
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_stockmrkt.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+   ATT.AimDownSightsTimeMult = 0.93
+   ATT.DeployTimeMult = 0.93
+   ATT.RecoilUpMult = 1.04
+   ATT.RecoilSideMult = 1.04
+else -- Warzone Stats
+   ATT.SpeedMultSights = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_bizon_stock_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

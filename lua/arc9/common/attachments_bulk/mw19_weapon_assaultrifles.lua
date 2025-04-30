@@ -1526,6 +1526,32 @@ ARC9.LoadAttachment(ATT, "cod2019_oden_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Oden Ultralight Hollow"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_stockl.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_stockl.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_oden_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.93
+	ATT.DeployTimeMult = 0.93
+	ATT.RecoilUpMult = 1.05
+	ATT.RecoilSideMult = 1.05
+else -- Warzone Stats
+	ATT.SpeedMultSights = 1.10
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_stock_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FORGE TAC Ballast Pack"
 ATT.CompactName = "FTAC Ballast"
 ATT.Description = [[Weighted packs provide stability while aiming.]]
@@ -2396,6 +2422,8 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
+	ATT.RangeMinMult = 1.07
+	ATT.RangeMaxMult = 1.07
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.RecoilKickMult = 1.1
 else -- Warzone Stats

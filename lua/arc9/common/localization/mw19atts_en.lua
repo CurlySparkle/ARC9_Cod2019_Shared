@@ -1024,9 +1024,9 @@ L["cod2019_oden_stock_heavy.printname"] = ARC9:GetPhrase("cod2019_famas_stock_li
 L["cod2019_oden_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_famas_stock_light.compactname") or "Ballast"
 L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_light.description") or "Weighted packs provide stability while aiming."
 
-L["cod2019_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
-L["cod2019_oden_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
-L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
+L["cod2019_oden_stock_light.printname"] = "Oden Ultralight Hollow"
+L["cod2019_oden_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_oden_stock_light.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
 L["cod2019_oden_stock_medium.compactname"] = "XL Elite"
@@ -1391,9 +1391,9 @@ L["cod2019_aug_barrel_lmg.compactname"] = "Long"
 L["cod2019_aug_barrel_lmg.description"] = "Maximum barrel extension pushes this weapon's range to the extreme. Heavy weight, smooth handling."
 
 /////////////// Stock
-L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
-L["cod2019_aug_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
-L["cod2019_aug_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
+L["cod2019_aug_stock_light.printname"] = "FTAC Ultralight Hollow"
+L["cod2019_aug_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_aug_stock_light.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_aug_stock_tactical.printname"] = "FORGE TAC CQB Comb"
 L["cod2019_aug_stock_tactical.compactname"] = "CQB Comb"
@@ -1556,9 +1556,9 @@ L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazine
 
 //////////////////// PP19 Bizon
 /////////////// Barrels
-L["cod2019_pp19_barrel_01.printname"] = "8.7\" Steel"
-L["cod2019_pp19_barrel_01.compactname"] = "Steel"
-L["cod2019_pp19_barrel_01.description"] = "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+L["cod2019_bizon_barrel_01.printname"] = "8.7\" Steel"
+L["cod2019_bizon_barrel_01.compactname"] = "Steel"
+L["cod2019_bizon_barrel_01.description"] = "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_bizon_barrel_long.printname"] = "8.7\" Polygonal"
 L["cod2019_bizon_barrel_long.compactname"] = "Polygonal"
@@ -1569,17 +1569,17 @@ L["cod2019_bizon_barrel_short.compactname"] = "Aluminium"
 L["cod2019_bizon_barrel_short.description"] = "Dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
-L["cod2019_pp19_stock_light.printname"] = "Factory Aluminium Stock"
-L["cod2019_pp19_stock_light.compactname"] = ARC9:GetPhrase("cod2019_fal_stock_light.compactname") or "Factory"
-L["cod2019_pp19_stock_light.description"] = ARC9:GetPhrase("cod2019_fal_stock_light.description") or "Lightweight aluminum stock keeps you agile while aiming down sights."
+L["cod2019_bizon_stock_light.printname"] = "Factory Aluminium Stock"
+L["cod2019_bizon_stock_light.compactname"] = ARC9:GetPhrase("cod2019_fal_stock_light.compactname") or "Factory"
+L["cod2019_bizon_stock_light.description"] = ARC9:GetPhrase("cod2019_fal_stock_light.description") or "Lightweight aluminum stock keeps you agile while aiming down sights."
 
-L["cod2019_pp19_stock_vlight.printname"] = "Corvus Skeleton Stock"
-L["cod2019_pp19_stock_vlight.compactname"] = "Corvus"
-L["cod2019_pp19_stock_vlight.description"] = "Original solid wood stock provides exceptional stability while aiming."
+L["cod2019_bizon_stock_vlight.printname"] = "Corvus Skeleton Stock"
+L["cod2019_bizon_stock_vlight.compactname"] = "Corvus"
+L["cod2019_bizon_stock_vlight.description"] = "Original solid wood stock provides exceptional stability while aiming."
 
-L["cod2019_pp19_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
-L["cod2019_pp19_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
-L["cod2019_pp19_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
+L["cod2019_bizon_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_bizon_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_bizon_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_bizon_mag_xmag.printname"] = "84 Round Helical Mags"
@@ -1999,6 +1999,7 @@ L["cod2019_vlk_pump_heavy.description"] = "No frills pump grip helps control ver
 
 L["cod2019_vlk_pump_03.printname"] = "XRK ReliaGrip"
 L["cod2019_vlk_pump_03.compactname"] = "ReliaGrip"
+L["cod2019_vlk_pump_03.description"] = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat."
 
 /////////////// Magazine
 L["cod2019_vlk_mag_xmag.printname"] = string.format(mw19magtext.mag, "12")

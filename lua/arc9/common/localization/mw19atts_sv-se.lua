@@ -591,9 +591,9 @@ L["cod2019_oden_muzzle_big.compactname"] = "Colossus"
 L["cod2019_oden_muzzle_big.description"] = "Förlängd ljuddämpare lägger till betydande vikt till pipan, men ökar starkt mynningshastigheten och sänker rekylen för att hjälpa med träffsäkerhet på längre distanser."
 
 /////////////// Stock
--- L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
+L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
 
-L["cod2019_oden_stock_heavy.printname"] = "Oden Ultralight Hollow"
+L["cod2019_oden_stock_light.printname"] = "Oden Ultralight Hollow"
 
 L["cod2019_oden_stock_medium.printname"] = "FTAC XL Elite Axelskydd"
 L["cod2019_oden_stock_medium.compactname"] = "XL Elite"
@@ -915,7 +915,7 @@ L["cod2019_aug_barrel_lmg.compactname"] = "Lång"
 L["cod2019_aug_barrel_lmg.description"] = "Maximal förlängd pipa trycker detta vapnets räckvidd till det extrema. Tung vikt, slät hantering."
 
 /////////////// Stock
-L["cod2019_aug_stock_heavy.printname"] = "FTAC Ultralight Hollow"
+L["cod2019_aug_stock_light.printname"] = "FTAC Ultralight Hollow"
 
 L["cod2019_aug_stock_tactical.printname"] = "FORGE TAC CQB Axelskydd"
 L["cod2019_aug_stock_tactical.compactname"] = "CQB Axel."
@@ -1047,9 +1047,9 @@ L["cod2019_uzi_mag_cult.description"] = "Konverteringskit för att använda 32-p
 
 //////////////////// PP19 Bizon
 /////////////// Barrels
-L["cod2019_pp19_barrel_01.printname"] = "221 mm Stål"
-L["cod2019_pp19_barrel_01.compactname"] = "Stål"
-L["cod2019_pp19_barrel_01.description"] = "Tung pipa av stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_bizon_barrel_01.printname"] = "221 mm Stål"
+L["cod2019_bizon_barrel_01.compactname"] = "Stål"
+L["cod2019_bizon_barrel_01.description"] = "Tung pipa av stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 L["cod2019_bizon_barrel_long.printname"] = "221 mm Polygonell"
 L["cod2019_bizon_barrel_long.compactname"] = "Polygonell"
@@ -1060,13 +1060,15 @@ L["cod2019_bizon_barrel_short.compactname"] = "Aluminium"
 L["cod2019_bizon_barrel_short.description"] = "Gropad pipa med stort lopp sänker vikten för förbättrad hantering med kostnad på mynningshastighet."
 
 /////////////// Stock
-L["cod2019_pp19_stock_light.printname"] = "Aluminium Fabrikskolv"
+L["cod2019_bizon_stock_light.printname"] = "Aluminium Fabrikskolv"
 
-L["cod2019_pp19_stock_vlight.printname"] = "Corvus-Skelettkolv"
-L["cod2019_pp19_stock_vlight.compactname"] = "Corvus"
-L["cod2019_pp19_stock_vlight.description"] = "Original helkroppskolv erbjuder utmärkt stabilitet i siktet."
+L["cod2019_bizon_stock_vlight.printname"] = "Corvus-Skelettkolv"
+L["cod2019_bizon_stock_vlight.compactname"] = "Corvus"
+L["cod2019_bizon_stock_vlight.description"] = "Original helkroppskolv erbjuder utmärkt stabilitet i siktet."
 
--- L["cod2019_pp19_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_bizon_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
+L["cod2019_bizon_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
+L["cod2019_bizon_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
 L["cod2019_bizon_mag_xmag.printname"] = "84-Patroners Spiralformade Magasin"
@@ -1451,6 +1453,7 @@ L["cod2019_vlk_pump_heavy.description"] = "Inga krusiduller pumpgrepp hjälper k
 
 L["cod2019_vlk_pump_03.printname"] = "XRK ReliaGrip"
 L["cod2019_vlk_pump_03.compactname"] = "ReliaGrip"
+L["cod2019_vlk_pump_03.description"] = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat."
 
 /////////////// Magazine
 L["cod2019_vlk_mag_xmag.printname"] = string.format(mw19magtext.mag, "12")

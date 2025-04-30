@@ -1497,7 +1497,7 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_r90_pump_stable")
 
-//////////////////////////////////////// -- VLK
+//////////////////////////////////////// -- VLK Rogue
 /////////////////////////// -- Barrels
 ATT = {}
 
@@ -1799,6 +1799,34 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK ReliaGrip"
+ATT.CompactName = "ReliaGrip"
+ATT.Description = [[Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat.]]
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_pumph.png", "mips smooth") --needs correct icon
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_vlk_pump"
+ATT.ActivateElements = {"pump_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/vlk/attachment_vm_sh_mike26_pumpcust.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilKickMult = 0.85
+	ATT.AimDownSightsTimeMult = 1.15
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.04
+	ATT.RecoilMult = 0.8
+	ATT.VisualRecoilMult = 0.8
+	ATT.SpeedMult = 0.94
+	ATT.SpeedSightsMult = 0.94
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_03")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
