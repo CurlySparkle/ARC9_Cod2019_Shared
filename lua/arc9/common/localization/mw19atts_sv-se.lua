@@ -383,7 +383,7 @@ local mw19ammotype = {
 	["762"] = "7,62 NATO",
 	["762soviet"] = "7,62 Sovjet",
 	["762mmr"] = "7,62 × 54 mm R",
-	["762mauser"] = "7,62 Mauser",
+	["792mauser"] = "7,92 Mauser",
 	["545"] = "5,45 × 39 mm",
 	["127x55"] = "12,7 × 55 mm",
 	["127x108"] = "12,7 × 108 mm",
@@ -1600,11 +1600,11 @@ L["cod2019_mg34_barrel_03.description"] = "Lättvikt pipa med precisionsbearbeta
 /////////////// Magazine
 L["cod2019_mg34_mag_75.printname"] = string.format(mw19magtext.belt, "75")
 L["cod2019_mg34_mag_75.compactname"] = string.format(mw19magtext.mags, "75")
-L["cod2019_mg34_mag_75.description"] = string.format(mw19magtext.descbelt, "75", mw19ammotype["762mauser"])
+L["cod2019_mg34_mag_75.description"] = string.format(mw19magtext.descbelt, "75", mw19ammotype["792mauser"])
 
 L["cod2019_mg34_mag_xmag.printname"] = string.format(mw19magtext.belt, "100")
 L["cod2019_mg34_mag_xmag.compactname"] = string.format(mw19magtext.mags, "100")
-L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["762mauser"])
+L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["792mauser"])
 
 //////////////////// Holger-26
 /////////////// Receiver

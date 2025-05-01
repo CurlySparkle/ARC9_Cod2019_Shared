@@ -846,9 +846,9 @@ ARC9.LoadAttachment(ATT, "cod2019_mg34_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "100 Round Drum"
-ATT.CompactName = "100-R Drum"
-ATT.Description = [[High capacity magazines hold 100 rounds of 7.92 Mauser with a moderate weight increase.]]
+ATT.PrintName = "75 Round Belt"
+ATT.CompactName = "75R"
+ATT.Description = [[Longer belts hold 75 rounds of 7.92 Mauser ammunition with a slight weight increase.]]
 ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_mag.png", "mips smooth")
 
 ATT.SortOrder = 0
@@ -859,18 +859,47 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf3
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg.mdl"
 ATT.BoneMerge = true
 
-ATT.ClipSizeAdd = 50
+ATT.ClipSizeAdd = 25
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.15
-	ATT.DeployTimeMult = 1.20
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.10
 	ATT.ReloadTimeMult = 1.1
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.015
 	ATT.SpeedMult = 0.97
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_xmag")
+ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_75")
+----------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--ATT.PrintName = "100 Round Drum"
+--ATT.CompactName = "100-R Drum"
+--ATT.Description = [[High capacity magazines hold 100 rounds of 7.92 Mauser with a moderate weight increase.]]
+--ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_mag.png", "mips smooth")
+
+--ATT.SortOrder = 0
+--ATT.Category = "cod2019_mg34_mag"
+--ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg.mdl"
+--ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg.mdl"
+--ATT.BoneMerge = true
+
+--ATT.ClipSizeAdd = 50
+
+--if !warzonestats then -- Regular Stats
+--	ATT.AimDownSightsTimeMult = 1.15
+--	ATT.DeployTimeMult = 1.20
+--	ATT.ReloadTimeMult = 1.1
+--else -- Warzone Stats
+--	ATT.AimDownSightsTimeAdd = -0.015
+--	ATT.SpeedMult = 0.97
+--end
+
+--ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_xmag")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -933,9 +962,9 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_sights_forced")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "FTAC 8.98 Spitfire"
-ATT.CompactName = "Spitfire"
-ATT.Description = [[Medium, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
+ATT.PrintName = "XRK Ultralight"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Shorter barrel and lightweight guard reduces weight for faster gun handling at a slight cost to range.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_barrel_med.png", "mips smooth")
@@ -985,13 +1014,13 @@ end
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
 
-ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_mid")
+ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "XRK Ultralight"
-ATT.CompactName = "Ultralight"
-ATT.Description = [[Shorter barrel and lightweight guard reduces weight for faster gun handling at a slight cost to range.]]
+ATT.PrintName = "FTAC 8.98 Spitfire"
+ATT.CompactName = "Spitfire"
+ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_barrel_short.png", "mips smooth")
@@ -1040,7 +1069,7 @@ end
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -4, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
-ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_short")
+ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_spitfire")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1452,6 +1481,65 @@ ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_barrel_heavy")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Summit 26.8\""
+ATT.CompactName = "Summit"
+ATT.Description = [[Designed to improve muzzle velocity range with as little additional weight as possible.]]
+
+ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_barlong.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_barlong.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_bruenmk9_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(2.2, 0, 0),
+            Ang = Angle(0, 0, 0),
+        },
+		[6] = { -- Underbarrel
+            Pos = Vector(-3.3, 0, 0),
+            Ang = Angle(0, 0, 180),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.20
+	ATT.RangeMinMult = 1.15
+	ATT.RangeMaxMult = 1.15
+	ATT.RecoilMult = 0.85
+	ATT.SpreadMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 212 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.067
+	ATT.RangeMinMult = 1.25
+	ATT.RangeMaxMult = 1.25
+	ATT.RecoilMult = 0.9
+	ATT.SpeedMult = 0.94
+	ATT.SpeedSightsMult = 0.93
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 2, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_barrel_long")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Bruen 18.0\" Para"
 ATT.CompactName = "Bruen 18.0"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
@@ -1495,8 +1583,8 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.92
 	ATT.VisualRecoilMult = 0.91
 	ATT.SpreadAddMove = -0.00136
-	ATT.RangeMinMult = 1
-	ATT.RangeMaxMult = 1
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
 	ATT.SpeedMult = 1
 	ATT.SpeedSightsMult = 1
 end
@@ -2012,9 +2100,9 @@ ARC9.LoadAttachment(ATT, "cod2019_finn_stock_saw")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "5.56 NATO 100-Round Belts"
-ATT.CompactName = "100R 5.56"
-ATT.Description = [[Conversion kit to use 100 round 5.56 NATO for increased stopping power. Slightly lower cycle rate to help control recoil.]]
+ATT.PrintName = "5.56 CT 100-Round Belts"
+ATT.CompactName = "5.56 CT 100R"
+ATT.Description = [[Extended belts hold 100 rounds of 5.56 Cased Telescoped ammunition providing additional lower-range ammunition at a reduced weight.]]
 
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust2.png", "mips smooth")
 
@@ -2059,7 +2147,7 @@ else -- Warzone Stats
 	ATT.SpeedMult = 0.98
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_finn_mag_556_100")
+ARC9.LoadAttachment(ATT, "cod2019_finn_mag_ct_100")
 
 /////////////////////////// --  RAAL MG
 ATT = {}
@@ -2101,13 +2189,13 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.20
 	ATT.RangeMaxMult = 1.13
 	ATT.SpreadMult = 0.85
-	ATT.Recoil = 0.80
+	ATT.RecoilMult = 0.80
 else -- Warzone Stats
 	ATT.AimDownSightsTimeMult = 1.15
 	ATT.DeployTimeMult = 1.20
 	ATT.RangeMaxMult = 1.13
 	ATT.SpreadMult = 0.85
-	ATT.Recoil = 0.80
+	ATT.RecoilMult = 0.80
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end

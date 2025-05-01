@@ -605,11 +605,11 @@ ATT.CompactName = "Carbon"
 ATT.Description = "Carbon fiber arms improve handling with a slightly slower bolt velocity."
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_tac.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_light.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_arms_tac.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_arms_light.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -637,11 +637,11 @@ ATT.CompactName = "LB"
 ATT.Description = [[Lightweight arms fire bolts at a slower velocity, but greatly improved agility and handling.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_light.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_arms_tac.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_arms_light.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_arms_tac.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"

@@ -588,6 +588,33 @@ ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) 
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_long")
 ----------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.PrintName = "Singuard Arms Evader"
+--ATT.CompactName = "Evader"
+--ATT.Description = "Stock designed for agility while aiming down sights."
+--ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stockl.png", "mips smooth")
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--
+--ATT.SortOrder = 1
+--ATT.Category = "cod2019_ax50_stock"
+--
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stockl.mdl"
+--ATT.BoneMerge = true
+--ATT.ActivateElements = {"stock_none"}
+
+--if !warzonestats then -- Regular Stats
+--	ATT.AimDownSightsTimeMult = 0.85
+--	ATT.DeployTimeMult = 0.9
+--	ATT.RecoilMult = 1.14
+--else -- Warzone Stats
+--	ATT.AimDownSightsTimeMult = 0.85
+--	ATT.DeployTimeMult = 0.9
+--	ATT.RecoilMult = 1.14
+--end
+--
+--ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_light")
+----------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "FORGE TAC MAG ROUNDER"

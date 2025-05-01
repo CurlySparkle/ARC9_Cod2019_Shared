@@ -801,7 +801,7 @@ local mw19ammotype = {
 	["762"] = "7.62 NATO",
 	["762soviet"] = "7.62 Soviet",
 	["762mmr"] = "7.62×54mmR",
-	["762mauser"] = "7.62 Mauser",
+	["792mauser"] = "7.92 Mauser",
 	["545"] = "5.45×39mm",
 	["127x55"] = "12.7×55mm",
 	["127x108"] = "12.7×108mm",
@@ -2181,11 +2181,11 @@ L["cod2019_mg34_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_a
 /////////////// Magazine
 L["cod2019_mg34_mag_75.printname"] = string.format(mw19magtext.belt, "75")
 L["cod2019_mg34_mag_75.compactname"] = string.format(mw19magtext.mags, "75")
-L["cod2019_mg34_mag_75.description"] = string.format(mw19magtext.descbelt, "75", mw19ammotype["762mauser"])
+L["cod2019_mg34_mag_75.description"] = string.format(mw19magtext.descbelt, "75", mw19ammotype["792mauser"])
 
 L["cod2019_mg34_mag_xmag.printname"] = string.format(mw19magtext.belt, "100")
 L["cod2019_mg34_mag_xmag.compactname"] = string.format(mw19magtext.mags, "100")
-L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["762mauser"])
+L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "100", mw19ammotype["792mauser"])
 
 //////////////////// Holger-26
 /////////////// Receiver
@@ -2237,7 +2237,7 @@ L["cod2019_bruenmk9_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_m91_bar
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
-L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("cod2019_pp19_barrel_01.description") or "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("cod2019_bizon_barrel_01.description") or "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_bruenmk9_barrel_short.printname"] = "Bruen 18.0\" Para"
 L["cod2019_bruenmk9_barrel_short.compactname"] = "Para"
