@@ -1285,9 +1285,50 @@ ARC9.LoadAttachment(ATT, "cod2019_jak12_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "20 Round Drum Mags"
+ATT.CompactName = "20-Round"
+ATT.Description = [[Drum magazines hold 20 shells of 12 gauge, increasing ammo capacity and weight.]]
+
+ATT.Icon = Material("entities/attachs/sh/jak12/cod2019_sh_jak12_xmags.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_jak12_mag"}
+ATT.ActivateElements = {"mag_none","mag_drum"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/jak12/attachment_vm_sh_aalpha12_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/jak12/attachment_vm_sh_aalpha12_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.DropMagazineSounds = {
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_01.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_02.ogg", 
+"weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_large_drum_concrete_03.ogg",
+}
+
+ATT.ClipSizeAdd = 12
+
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 1.10
+	ATT.SprintToFireTimeMult = 1.08
+	ATT.AimDownSightsTimeMult = 1.08
+else -- Warzone Stats
+	ATT.ReloadTimeMult = 1.05
+	ATT.TriggerDelayTime = 0
+	ATT.AimDownSightsTimeAdd = 0.034
+	ATT.SpeedMult = 0.95
+	ATT.SpeedSightsMult = 0.87
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 1.5, 1) end
+
+ARC9.LoadAttachment(ATT, "cod2019_jak12_mag_20")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "32 Round Drum Mag"
 ATT.CompactName = "32-Round"
-ATT.Description = [[High capacity magazines hold 32 rounds with a heavy weight increase.]]
+ATT.Description = [[Drum magazines hold 32 shells of 12 gauge, maximizing ammo capacity at the expense of mobility.]]
 
 ATT.Icon = Material("entities/attachs/sh/jak12/cod2019_sh_jak12_drummag.png", "mips smooth")
 
@@ -1312,9 +1353,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.1
 	ATT.AimDownSightsTimeMult = 1.1
 else -- Warzone Stats
-	ATT.CustomCons = {
-		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-5%"
-	}
+	ATT.ReloadTimeMult = 1.1
 	ATT.TriggerDelayTime = 0
 	ATT.AimDownSightsTimeAdd = 0.068
 	ATT.SpeedMult = 0.91
