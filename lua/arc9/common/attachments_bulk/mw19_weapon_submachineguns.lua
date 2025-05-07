@@ -62,7 +62,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS STRIKE"
 ATT.CompactName = "FSS STRIKE"
 ATT.Description = [[Designed for elite special operations, increased length and polygonal rifling improve muzzle velocity and range with little weight increase.]]
-ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp7/cod2019_sm_mp7_barlong2.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp7/attachment_vm_sm_mpapa7_barlong2.mdl"
 ATT.BoneMerge = false

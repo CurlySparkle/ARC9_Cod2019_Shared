@@ -1178,6 +1178,63 @@ ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_com_alt")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW19 Attachments"
+ATT.PrintName = "ZLR J-2800 Influx"
+ATT.CompactName = "Influx"
+ATT.Description = [[Extended barrel increases muzzle velocity and range. Light alloy barrel keeps additional weight to a minimum.]]
+
+ATT.Icon = Material("entities/attachs/sh/jak12/cod2019_sh_jak12_barhvy.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/jak12/attachment_vm_sh_aalpha12_barhvy.mdl"
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_jak12_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_long"}
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(5, 0, 0),
+            Ang = Angle(0, 0, 0),
+        }
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.SpreadMult = 0.9
+	ATT.RangeMaxMult = 1.1
+	ATT.RangeMinMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+else -- Warzone Stats
+	ATT.TriggerDelayTime = 0
+	ATT.AimDownSightsTimeAdd = -0.034
+	ATT.RecoilMult = 0.9
+	ATT.VisualRecoilMult = 0.9
+	ATT.SpreadAddSights = -0.0037
+	ATT.SpreadAddMove = -0.002
+	ATT.RangeMinMult = 1.1
+	ATT.RangeMaxMult = 1.1
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.95
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_jak12_barrel_01")
+-----------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW19 Attachments"
 ATT.PrintName = "ZLR J-3600 Torrent"
 ATT.CompactName = "ZLR J-3600"
 ATT.Description = [[Extra-long barrel tightens pellets spread and extends range. Additional weight and length stabilize shots but hinders mobility.]]
@@ -1381,15 +1438,71 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/jak12/attachment_vm_sh_aalph
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 0.9
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.DeployTimeMult = 1.1
-	ATT.RecoilMult = 1.1
+	ATT.AimDownSightsTimeMult = 0.95
+	ATT.DeployTimeMult = 1.15
+	ATT.RecoilMult = 0.9
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_jak12_stock_stable")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "JAK Rabbit Ultralight"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+
+ATT.Icon = Material("entities/attachs/sh/jak12/cod2019_sh_jak12_stockl.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_jak12_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/jak12/attachment_vm_sh_aalpha12_stockl.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
+else -- Warzone Stats
+	ATT.SpeedMultSights = 1.1
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_jak12_stock_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "ZLR Tsunami"
+ATT.CompactName = "Tsunami"
+ATT.Description = [[Tactical comb wrap for rapid target acquisition.]]
+
+ATT.Icon = Material("entities/attachs/sh/jak12/cod2019_sh_jak12_stockh.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_jak12_stock"}
+ATT.ActivateElements = {"stock_stable"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/jak12/attachment_vm_sh_aalpha12_stockh.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.SprintToFireTimeMult = 0.95
+	ATT.RecoilMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.RecoilMult = 1.1
+	ATT.SpeedSightsMult = 0.89
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_jak12_stock_medium")
 
 //////////////////////////////////////// -- R-90
 /////////////////////////// -- Barrels
@@ -1845,7 +1958,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK ReliaGrip"
 ATT.CompactName = "ReliaGrip"
 ATT.Description = [[Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat.]]
-ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_pumph.png", "mips smooth") --needs correct icon
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_pumpcust.png", "mips smooth") --needs correct icon
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_vlk_pump"
