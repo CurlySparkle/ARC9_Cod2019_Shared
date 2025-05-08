@@ -1958,7 +1958,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK ReliaGrip"
 ATT.CompactName = "ReliaGrip"
 ATT.Description = [[Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat.]]
-ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_pumpcust.png", "mips smooth") --needs correct icon
+ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_pumpcust.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_vlk_pump"
