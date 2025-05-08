@@ -805,6 +805,34 @@ ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_ar_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FORGE TAC CQB Comb"
+ATT.CompactName = "CQB Comb"
+ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+
+ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_stocks.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_stocks.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_aug_stock"
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 1.07
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.RecoilMult = 1.07
+else -- Warzone Stats
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.RecoilMult = 1.07
+	ATT.SpeedSightsMult = 0.93
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_aug_stock_tactical")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Heavy Stock Pro"
 ATT.CompactName = "Heavy Pro"
 ATT.Description = [[Heavy weight stock attachment provides stability while aiming.]]
@@ -831,6 +859,35 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_aug_stock_heavy")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC Ultralight Hollow"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+
+ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_stockl.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_stockl.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_aug_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.95
+	ATT.RecoilUpMult = 1.05
+	ATT.RecoilSideMult = 1.05
+else -- Warzone Stats
+	ATT.SpeedMultSights = 1.10
+	ATT.RecoilUpMult = 1.05
+	ATT.RecoilSideMult = 1.05
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_aug_stock_light")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
