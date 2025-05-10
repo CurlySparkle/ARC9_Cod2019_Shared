@@ -971,6 +971,7 @@ L["cod2019_p90_stock_sling.description"] = "Clip on strap improves fast paced we
 
 L["cod2019_p90_stock_heavy.printname"] = "FSS Heavy Stock Pro"
 L["cod2019_p90_stock_heavy.compactname"] = "Heavy Pro"
+L["cod2019_p90_stock_heavy.description"] = "Heavy weight stock attachment provides stability while aiming."
 
 //////////////////// MP5
 /////////////// Misc
@@ -1075,7 +1076,7 @@ L["cod2019_bizon_stock_light.description"] = ARC9:GetPhrase("cod2019_fal_stock_l
 
 L["cod2019_bizon_stock_vlight.printname"] = "Corvus Skeleton Stock"
 L["cod2019_bizon_stock_vlight.compactname"] = "Corvus"
-L["cod2019_bizon_stock_vlight.description"] = "Original solid wood stock provides exceptional stability while aiming."
+L["cod2019_bizon_stock_vlight.description"] = "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 L["cod2019_bizon_stock_medium.printname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.printname") or "FSS Close Quarters Stock"
 L["cod2019_bizon_stock_medium.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_medium.compactname") or "CQS"
