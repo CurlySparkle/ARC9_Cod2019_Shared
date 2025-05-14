@@ -694,7 +694,7 @@ ATT = {}
 
 ATT.PrintName = "XRK Tank Brake"
 ATT.Description = "Low pressure 45 degree ports direct gases rearward to greatly control the Rytec's extreme recoil."
-ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake01.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_brake.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1
@@ -719,7 +719,7 @@ ATT = {}
 
 ATT.PrintName = "Rytec AMR Suppressor"
 ATT.Description = "Multi caliber suppressor greatly reduces sound signature and increases muzzle velocity. Moderate weight increase affects agility."
-ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer04.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_silencerlrg.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.SortOrder = 1

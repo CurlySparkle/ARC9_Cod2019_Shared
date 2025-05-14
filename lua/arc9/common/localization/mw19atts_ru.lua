@@ -2235,6 +2235,11 @@ L["cod2019_1911_barrel_03.printname"] = "1911 Stalker"
 L["cod2019_1911_barrel_03.compactname"] = "Stalker"
 L["cod2019_1911_barrel_03.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum."
 
+/////////////// Muzzle
+L["cod2019_1911_muzzle.printname"] = "Muzzle Brake"
+L["cod2019_1911_muzzle.compactname"] = "Brake"
+L["cod2019_1911_muzzle.description"] = "Redirects gases outward to stabilize the weapon for better control of sustained fire."
+
 /////////////// Magazine
 L["cod2019_m1911_mag_10.printname"] = string.format(mw19magtext.mag, "10")
 L["cod2019_m1911_mag_10.compactname"] = string.format(mw19magtext.mags, "10")
