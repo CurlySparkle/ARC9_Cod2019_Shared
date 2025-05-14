@@ -1830,9 +1830,9 @@ L["cod2019_m14_mag_20.description"] = string.format(mw19magtext.descl, "20", mw1
 
 //////////////////// MK2 Carbine
 /////////////// Barrels
-L["cod2019_mk2_barrel_01.printname"] = "FSS 18.0\" Factory"
-L["cod2019_mk2_barrel_01.compactname"] = "18.0\""
-L["cod2019_mk2_barrel_01.description"] = "18.0\" barrel slightly increases muzzle velocity and extends range with very little additional weight."
+L["cod2019_mk2_barrel_short.printname"] = "FSS 18.0\" Factory"
+L["cod2019_mk2_barrel_short.compactname"] = "18.0\""
+L["cod2019_mk2_barrel_short.description"] = "18.0\" barrel slightly increases muzzle velocity and extends range with very little additional weight."
 
 L["cod2019_mk2_barrel_mid.printname"] = "FSS 20.0\" Factory"
 L["cod2019_mk2_barrel_mid.compactname"] = "20.0\""

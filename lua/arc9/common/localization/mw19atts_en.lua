@@ -2429,9 +2429,9 @@ L["cod2019_mk2_scope.compactname"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.
 L["cod2019_mk2_scope.description"] = ARC9:GetPhrase("cod2019_optic_scope_mike14.description") or "High power <color=100,255,100>4.4x</color> scope for long range encounters. <color=255,100,100>Optic glint visible to enemies.</color>"
 
 /////////////// Barrels
-L["cod2019_mk2_barrel_01.printname"] = "FSS 18.0\" Factory"
-L["cod2019_mk2_barrel_01.compactname"] = "18.0\""
-L["cod2019_mk2_barrel_01.description"] = "18.0\" barrel slightly increases muzzle velocity and extends range with very little additional weight."
+L["cod2019_mk2_barrel_short.printname"] = "FSS 18.0\" Factory"
+L["cod2019_mk2_barrel_short.compactname"] = "18.0\""
+L["cod2019_mk2_barrel_short.description"] = "18.0\" barrel slightly increases muzzle velocity and extends range with very little additional weight."
 
 L["cod2019_mk2_barrel_mid.printname"] = "FSS 20.0\" Factory"
 L["cod2019_mk2_barrel_mid.compactname"] = "20.0\""

@@ -243,16 +243,17 @@ ATT.MuzzleDevice_Priority = 2
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
-            Pos = Vector(5.5, 0, 0),
+            Pos = Vector(5.5, 0, -0.08),
             Ang = Angle(0,0,0),
         }
     }
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.RangeMinMult = 1.1
-	ATT.RangeMaxMult = 1.1
-	ATT.AimDownSightsTimeMult = 1.1
+	ATT.RangeMinMult = 1.15
+	ATT.RangeMaxMult = 1.15
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 340 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.048
@@ -292,16 +293,17 @@ ATT.MuzzleDevice_Priority = 2
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
-            Pos = Vector(3, 0, 0),
+            Pos = Vector(3, 0, -0.08),
             Ang = Angle(0,0,0),
         }
     }
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.RangeMinMult = 1.05
-	ATT.RangeMaxMult = 1.05
-	ATT.AimDownSightsTimeMult = 1.05
+	ATT.RangeMinMult = 1.1
+	ATT.RangeMaxMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.05
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 255 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.034
@@ -322,6 +324,109 @@ ARC9.LoadAttachment(ATT, "cod2019_mk2_barrel_mid")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS 18.0\" Factory"
+ATT.CompactName = "FSS 18.0\""
+ATT.Description = [[18.0" barrel slightly increases muzzle velocity and extends range with very little additional weight.]]
+
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_barshort.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_barshort.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_mk2_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(1.8, 0, -0.08),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.RangeMinMult = 1.05
+	ATT.RangeMaxMult = 1.05
+	ATT.AimDownSightsTimeMult = 1.05
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 100 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.017
+	ATT.RecoilMult = 0.93
+	ATT.VisualRecoilMult = 0.93
+	ATT.SpreadAddMove = 0.001
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.96
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_mk2_barrel_short")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Cartridge Sleeve"
+ATT.CompactName = "Sleeve"
+ATT.Description = [[Carry 6 additional rounds. Extra weight slightly improves stability while aiming.]]
+
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_rack.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_rack.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_mk2_stock"
+
+ATT.SupplyLimitAdd = 1
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilMult = 0.93
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.05
+else -- Warzone Stats
+	ATT.RecoilMult = 0.9
+	ATT.SpeedMult = 0.95
+	ATT.SpeedSightsMult = 0.93
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_mk2_stock_heavy")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS MK2 Sport Comb"
+ATT.CompactName = "Sport"
+ATT.Description = [[Adjustable comb designed to improve target acquisition.]]
+
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_stock_stable.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_stock_stable.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_mk2_stock"
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilMult = 1.1
+	ATT.AimDownSightsTimeMult = 0.9
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.034
+	ATT.SpeedSightsMult = 0.89
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_mk2_stock_medium")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS MK2 Precision Comb"
 ATT.CompactName = "Precision Comb"
 ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]
@@ -336,13 +441,41 @@ ATT.Category = "cod2019_mk2_stock"
 --ATT.ActivateElements = {"barrel_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.RecoilMult = 1.1
+	ATT.RecoilMult = 0.9
 	ATT.AimDownSightsTimeMult = 1.1
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_mk2_stock_tactical")
+------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "MK2 Ultralight Hollow"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+
+ATT.Icon = Material("entities/attachs/mm/mk2/cod2019_mm_mk2_stock_light.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mk2/attachment_vm_sn_sbeta_stock_light.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_mk2_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.95
+	ATT.RecoilKickMult = 1.15
+else -- Warzone Stats
+	ATT.SpeedMultSights = 1.1
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_mk2_stock_light")
 ------------------------------------------------------------------
 ATT = {}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"

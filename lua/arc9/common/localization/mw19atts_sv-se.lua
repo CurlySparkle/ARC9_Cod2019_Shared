@@ -1817,9 +1817,9 @@ L["cod2019_m14_mag_20.description"] = string.format(mw19magtext.descl, "20", mw1
 
 //////////////////// MK2 Carbine
 /////////////// Barrels
-L["cod2019_mk2_barrel_01.printname"] = "FSS 457 mm Fabrik"
-L["cod2019_mk2_barrel_01.compactname"] = "457 mm"
-L["cod2019_mk2_barrel_01.description"] = "457 mm pipan ökar lätt mynningshastigheten och förlänger räckvidden med väldigt lite tillagd vikt."
+L["cod2019_mk2_barrel_short.printname"] = "FSS 457 mm Fabrik"
+L["cod2019_mk2_barrel_short.compactname"] = "457 mm"
+L["cod2019_mk2_barrel_short.description"] = "457 mm pipan ökar lätt mynningshastigheten och förlänger räckvidden med väldigt lite tillagd vikt."
 
 L["cod2019_mk2_barrel_mid.printname"] = "FSS 508 mm Fabrik"
 L["cod2019_mk2_barrel_mid.compactname"] = "508 mm"
