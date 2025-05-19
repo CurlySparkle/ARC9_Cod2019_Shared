@@ -1791,9 +1791,9 @@ L["cod2019_raal_mag_smag.description"] = "Short <color=255,100,100>50 round</col
 //////////////////////// Marksman Rifles
 //////////////////// EBR-14
 /////////////// Barrels
-L["cod2019_ebr14_barrel_01.printname"] = "FORGE TAC Precision 20.0\""
-L["cod2019_ebr14_barrel_01.compactname"] = "20.0\""
-L["cod2019_ebr14_barrel_01.description"] = "Longer barrel increases muzzle velocity and extends range with a slight weight increase."
+L["cod2019_m14_barrel_mid.printname"] = "FORGE TAC Precision 20.0\""
+L["cod2019_m14_barrel_mid.compactname"] = "20.0\""
+L["cod2019_m14_barrel_mid.description"] = "Longer barrel increases muzzle velocity and extends range with a slight weight increase."
 
 L["cod2019_m14_barrel_short.printname"] = "FORGE TAC Elite"
 L["cod2019_m14_barrel_short.compactname"] = "Elite"
@@ -1945,8 +1945,9 @@ L["cod2019_optic_scope_sks.printname"] = "PU Scope"
 L["cod2019_optic_scope_sks.compactname"] = "PU"
 
 /////////////// Barrels
-L["cod2019_sks_barrel_01.printname"] = "FTAC Landmark"
-L["cod2019_sks_barrel_01.compactname"] = "Landmark"
+L["cod2019_sks_barrel_heavy.printname"] = "FTAC Landmark"
+L["cod2019_sks_barrel_heavy.compactname"] = "Landmark"
+L["cod2019_sks_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description") or "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
 
 L["cod2019_sks_barrel_short.printname"] = "16\" FSS Para"
 L["cod2019_sks_barrel_short.compactname"] = "Para"
@@ -1965,7 +1966,9 @@ L["cod2019_sks_stock_medium.printname"] = "FTAC Hunter-Scout"
 L["cod2019_sks_stock_medium.compactname"] = "Hunter-Scout"
 L["cod2019_sks_stock_medium.description"] = "Western stock adaptor designed to improve aiming precision."
 
--- L["cod2019_sks_stock_none.printname"] = "Sawed-off Stock"
+L["cod2019_sks_stock_none.printname"] = ARC9:GetPhrase("cod2019_725_stock_none.printname") or "Sawed-Off Stock"
+L["cod2019_sks_stock_none.compactname"] = ARC9:GetPhrase("cod2019_725_stock_none.compactname") or "Sawed-Off"
+L["cod2019_sks_stock_none.description"] = "The ultimate run and gun modification when agility is more important than precision. Sawing off the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_sks_mag_30.printname"] = string.format(mw19magtext.mag, "30")
@@ -2033,9 +2036,9 @@ L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-600 Feather"
 L["cod2019_spr208_bolt_light.compactname"] = "Feather"
 L["cod2019_spr208_bolt_light.description"] = "Titanium shrouded aluminum core and a skeletalized handle make this bolt assembly lightning fast."
 
-L["cod2019_spr208_bolt_02.printname"] = "Sloan KR-800 DeadEye"
-L["cod2019_spr208_bolt_02.compactname"] = "DeadEye"
-L["cod2019_spr208_bolt_02.description"] = "Precision machined chrome-moly assembly with a tungsten core provides an exceptionally controlled re-chamber for accurate follow-up shots."
+L["cod2019_spr208_bolt_heavy.printname"] = "Sloan KR-800 DeadEye"
+L["cod2019_spr208_bolt_heavy.compactname"] = "DeadEye"
+L["cod2019_spr208_bolt_heavy.description"] = "Precision machined chrome-moly assembly with a tungsten core provides an exceptionally controlled re-chamber for accurate follow-up shots."
 
 L["mw19_bolt_stat_speed"] = "Rechamber Speed"
 L["mw19_bolt_stat_stability"] = "Rechamber Stability"

@@ -1778,9 +1778,9 @@ L["cod2019_raal_mag_smag.description"] = "Korta <color=255,100,100>50 patronersb
 //////////////////////// Marksman Rifles
 //////////////////// EBR-14
 /////////////// Barrels
-L["cod2019_ebr14_barrel_01.printname"] = "FORGE TAC Precision 508 mm"
-L["cod2019_ebr14_barrel_01.compactname"] = "508 mm"
-L["cod2019_ebr14_barrel_01.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden med mindre ökad vikt."
+L["cod2019_m14_barrel_mid.printname"] = "FORGE TAC Precision 508 mm"
+L["cod2019_m14_barrel_mid.compactname"] = "508 mm"
+L["cod2019_m14_barrel_mid.description"] = "Längre pipa ökar mynningshastigheten och förlänger räckvidden med mindre ökad vikt."
 
 L["cod2019_m14_barrel_short.printname"] = "FORGE TAC Elite"
 L["cod2019_m14_barrel_short.compactname"] = "Elite"
@@ -1932,8 +1932,9 @@ L["cod2019_optic_scope_sks.printname"] = "PU-Sikte"
 L["cod2019_optic_scope_sks.compactname"] = "PU"
 
 /////////////// Barrels
-L["cod2019_sks_barrel_01.printname"] = "FTAC Landmark"
-L["cod2019_sks_barrel_01.compactname"] = "Landmark"
+L["cod2019_sks_barrel_heavy.printname"] = "FTAC Landmark"
+L["cod2019_sks_barrel_heavy.compactname"] = "Landmark"
+L["cod2019_sks_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_grau556_barrel_heavy.description") or "Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility."
 
 L["cod2019_sks_barrel_short.printname"] = "406 mm FSS Para"
 L["cod2019_sks_barrel_short.compactname"] = "Para"
@@ -2018,9 +2019,9 @@ L["cod2019_spr208_bolt_light.printname"] = "Sloan KR-600 Feather"
 L["cod2019_spr208_bolt_light.compactname"] = "Feather"
 L["cod2019_spr208_bolt_light.description"] = "Aluminium kärna skyddad av titan och ett skeletthandtag gör denna bultmonteringen blixtsnabb."
 
-L["cod2019_spr208_bolt_02.printname"] = "Sloan KR-800 DeadEye"
-L["cod2019_spr208_bolt_02.compactname"] = "DeadEye"
-L["cod2019_spr208_bolt_02.description"] = "Precisionsfräst kromad hopsättning med en volfram kärna erbjuder en utmärkt kontrollerad slutstyckerörelse för träffsäkra efterföljnings skott."
+L["cod2019_spr208_bolt_heavy.printname"] = "Sloan KR-800 DeadEye"
+L["cod2019_spr208_bolt_heavy.compactname"] = "DeadEye"
+L["cod2019_spr208_bolt_heavy.description"] = "Precisionsfräst kromad hopsättning med en volfram kärna erbjuder en utmärkt kontrollerad slutstyckerörelse för träffsäkra efterföljnings skott."
 
 L["mw19_bolt_stat_speed"] = "Slutstyckerörelse Hastighet"
 L["mw19_bolt_stat_stability"] = "Slutstyckerörelse Stabilitet"
