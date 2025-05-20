@@ -2225,9 +2225,9 @@ L["cod2019_m1911_slide_long.printname"] = ".45 Match Grade"
 L["cod2019_m1911_slide_long.compactname"] = "Match G."
 L["cod2019_m1911_slide_long.description"] = "Förlängd slutstycke förbättrar mynningshastigheten och boostar räckvidden med endast en liten del tillagd vikt."
 
-L["cod2019_1911_barrel_03.printname"] = "1911 Stalker"
-L["cod2019_1911_barrel_03.compactname"] = "Stalker"
-L["cod2019_1911_barrel_03.description"] = "Tung pipa med polygonell räffling ökar lätt mynningshastigheten och förbättrar räckvidden. Infällt slutstycke håller vikten till det minimala."
+L["cod2019_m1911_slide_heavy.printname"] = "1911 Stalker"
+L["cod2019_m1911_slide_heavy.compactname"] = "Stalker"
+L["cod2019_m1911_slide_heavy.description"] = "Tung pipa med polygonell räffling ökar lätt mynningshastigheten och förbättrar räckvidden. Infällt slutstycke håller vikten till det minimala."
 
 /////////////// Muzzle
 L["cod2019_1911_muzzle.printname"] = "Muzzle Brake"

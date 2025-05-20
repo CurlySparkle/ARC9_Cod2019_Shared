@@ -809,6 +809,69 @@ ARC9.LoadAttachment(ATT, "cod2019_m19_mag_ext2")
 /////////////////////////// -- 1911
 ATT = {}
 
+ATT.PrintName = "1911 Stalker"
+ATT.CompactName = "Stalker"
+ATT.Description = [[Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/pi/m1911/cod2019_pi_1911_v2_slide.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m1911/attachment_vm_pi_mike1911_v2_slide.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_m1911_slide"}
+ATT.ActivateElements = {"slide_none","slide_long"}
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.DrawFunc = function(swep, model, wm)
+	if swep:GetElements()["muzzle"] then
+		model:SetBodygroup(1,1)
+	end
+end
+
+ATT.IronSights = {
+	Pos = Vector(0.9, 0, 2.825),
+	Ang = Angle(0.1, 0.15, 20),
+	Magnification = 1.15,
+	CrosshairInSights = false
+}
+
+ATT.Element = {
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(-0.16, 0, -0.1),
+			Ang = Angle(0,0,0),
+		}
+	}
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.15
+	ATT.RecoilMult = 0.9
+	ATT.RecoilKickMult = 0.9
+	ATT.RangeMaxMult = 1.1
+	ATT.RangeMinMult = 1.1
+	ATT.PhysBulletMuzzleVelocityMult = 1.08
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 71 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.015
+	ATT.RangeMinMult = 1.28
+	ATT.RangeMaxMult = 1.28
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.25, 0.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.25, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_m1911_slide_heavy")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = ".45 Match Grade"
 ATT.CompactName = ".45 Match Grade"
 ATT.Description = [[Extended slide improves muzzle velocity and boosts range, with only a slight increase to weight.]]
@@ -841,7 +904,7 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.06
 	ATT.DeployTimeMult = 1.05
 	ATT.RecoilMult = 0.95
-	ATT.VisualRecoilMult = 0.92
+	ATT.RecoilKickMult = 0.92
 	ATT.RangeMaxMult = 1.05
 	ATT.RangeMinMult = 1.05
 	ATT.PhysBulletMuzzleVelocityMult = 1.05
@@ -899,7 +962,7 @@ if !warzonestats then -- Regular Stats
  	ATT.PhysBulletMuzzleVelocityMult = 0.95
 	ATT.RangeMaxMult = 0.95
 	ATT.RecoilMult = 1.06
-	ATT.VisualRecoilMult = 1.06
+	ATT.RecoilKickMult = 1.06
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -38 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.012
@@ -933,7 +996,7 @@ ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_1911_muzzle"}
---ATT.ActivateElements = {"muzzle_none"}
+ATT.ActivateElements = {"muzzle","muzzle_comp"}
 
 ATT.MuzzleDevice_Priority = 2
 ATT.MuzzleDevice = true
@@ -983,7 +1046,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.07
 	ATT.ReloadTimeMult = 1.05
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.02
+	ATT.AimDownSightsTimeAdd = 0.02
 	ATT.SpeedMult = 0.98
 end
 
@@ -1022,7 +1085,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.1
 	ATT.ReloadTimeMult = 1.1
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.02
+	ATT.AimDownSightsTimeAdd = 0.02
 	ATT.SpeedMult = 0.98
 end
 

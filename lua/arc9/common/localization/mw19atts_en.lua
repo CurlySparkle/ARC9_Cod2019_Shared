@@ -2885,9 +2885,9 @@ L["cod2019_m1911_slide_long.printname"] = ".45 Match Grade"
 L["cod2019_m1911_slide_long.compactname"] = "Match G."
 L["cod2019_m1911_slide_long.description"] = "Extended slide improves muzzle velocity and boosts range, with only a slight increase to weight."
 
-L["cod2019_1911_barrel_03.printname"] = "1911 Stalker"
-L["cod2019_1911_barrel_03.compactname"] = "Stalker"
-L["cod2019_1911_barrel_03.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum."
+L["cod2019_m1911_slide_heavy.printname"] = "1911 Stalker"
+L["cod2019_m1911_slide_heavy.compactname"] = "Stalker"
+L["cod2019_m1911_slide_heavy.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range. Recessed slide keeps weight increase to a minimum."
 
 /////////////// Muzzle
 L["cod2019_1911_muzzle.printname"] = "Muzzle Brake"
