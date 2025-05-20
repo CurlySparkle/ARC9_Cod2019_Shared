@@ -1206,6 +1206,7 @@ ATT.ExcludeElements = {"no_optic_hybrid"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west02.mdl"
 ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.HoloSightDepthAdjustment = -0.004
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep.MWHybridSwitching then
@@ -1303,6 +1304,7 @@ ATT.ExcludeElements = {"no_optic_hybrid"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_hybrid_west02.mdl"
 ATT.ModelOffset = Vector(-1, 0, 0.1)
+ATT.HoloSightDepthAdjustment = -0.004
 
 ATT.Sights = {
     {
@@ -1438,6 +1440,7 @@ ATT.ExcludeElements = {"no_optic_hybrid"}
 
 ATT.Model = "models/weapons/cod2019/attachs/sights/attachment_vm_lm_slima_acog_hybrid.mdl"
 ATT.ModelOffset = Vector(-1.1, 0, 0.1)
+ATT.HoloSightDepthAdjustment = -0.004
 
 ATT.DrawFunc = function(swep, model, wm)
     if swep.MWHybridSwitching then
