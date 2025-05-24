@@ -827,9 +827,9 @@ L["cod2019_an94_barrel_long.printname"] = "AN-94 Factory X-438mm"
 L["cod2019_an94_barrel_long.compactname"] = "X-438mm"
 L["cod2019_an94_barrel_long.description"] = "Experimental 438mm extended barrel pushes the operational limit of this weapon with progressive rate springs and a case hardened chrome-moly bore."
 
-L["cod2019_an94_barrel_03.printname"] = "VLK AN-94 Sila"
-L["cod2019_an94_barrel_03.compactname"] = "Sila"
-L["cod2019_an94_barrel_03.description"] = "After-market heavy duty polygonal rifled barrel extends range and bullet velocity. Anvil barrel guard prevents the extra weight from damaging the spring housing."
+L["cod2019_an94_barrel_heavy.printname"] = "VLK AN-94 Sila"
+L["cod2019_an94_barrel_heavy.compactname"] = "Sila"
+L["cod2019_an94_barrel_heavy.description"] = "After-market heavy duty polygonal rifled barrel extends range and bullet velocity. Anvil barrel guard prevents the extra weight from damaging the spring housing."
 
 /////////////// Muzzle
 L["cod2019_an94_muzzle_sonic.printname"] = "AN-94 Sonic Brake"
@@ -843,9 +843,11 @@ L["cod2019_an94_stock_heavy.description"] = "Heavy duty stock with tactical comb
 
 L["cod2019_an94_stock_none.printname"] = "Folded Stock"
 L["cod2019_an94_stock_none.compactname"] = "Folded"
+L["cod2019_an94_stock_none.description"] = "The ultimate run and gun modification when agility is more important than precision. Folding the stock greatly increases movement."
 
 L["cod2019_an94_stockskel.printname"] = "VLK PX-9 Pero"
 L["cod2019_an94_stockskel.compactname"] = "Pero"
+L["cod2019_an94_stockskel.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 /////////////// Magazine
 L["cod2019_an94_mag_45.printname"] = string.format(mw19magtext.mag, "45")

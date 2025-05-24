@@ -3831,6 +3831,7 @@ ATT.Element = {
 if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.15
 	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.1
 	ATT.RecoilMult = 0.9
 	ATT.RangeMaxMult = 1.25
 	ATT.RangeMinMult = 1.25
@@ -3908,10 +3909,119 @@ ARC9.LoadAttachment(ATT, "cod2019_an94_barrel_short")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "VLK AN-94 Sila"
+ATT.CompactName = "Sila"
+ATT.Description = [[After-market heavy duty polygonal rifled barrel extends range and bullet velocity. Anvil barrel guard prevents the extra weight from damaging the spring housing.]]
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_barhvy.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_barhvy.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_an94_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-0.1, 0, 0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.RecoilMult = 0.93
+	ATT.RangeMaxMult = 1.1
+	ATT.RangeMinMult = 1.1
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 170 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.020
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_barrel_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "AN-94 Factory Heavy"
+ATT.CompactName = "Factory"
+ATT.Description = [[Heavy duty stock with tactical comb. Keeps your aim steady for precision shots.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_stockh.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_stockh.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_an94_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilMult = 0.9
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.89
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_stock_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Folded Stock"
+ATT.CompactName = "Folded"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Folding the stock greatly increases movement.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_stockno.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_an94_stock"}
+ATT.ActivateElements = {"stock_retract"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilMult = 1.2
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.038
+	ATT.RecoilMult = 1.29
+	ATT.VisualRecoilMult = 1.24
+	ATT.SpreadAddMove = -0.0053
+	ATT.SpeedMult = 1.04
+	ATT.SpeedSightsMult = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, -2, 1) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_stock_none")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "VLK PX-9 Pero"
 ATT.CompactName = "Pero"
 ATT.Description = [[Ultralight stock speeds up weapon handling and movement at the expense of aiming stability.]]
-ATT.SortOrder = 1
+ATT.SortOrder = 0
 
 ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_stockskel.png", "mips smooth")
 ATT.AutoStats = true

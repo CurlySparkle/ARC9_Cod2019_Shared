@@ -821,9 +821,9 @@ L["cod2019_an94_barrel_long.printname"] = "AN-94 X-438 mm Fabrik"
 L["cod2019_an94_barrel_long.compactname"] = "X-438 mm"
 L["cod2019_an94_barrel_long.description"] = "Experimental 438 mm förlängd pipa som tänjer på vapnets operationsgräns med progressiva fjädrar och ett fallhärdat, kromat lopp."
 
-L["cod2019_an94_barrel_03.printname"] = "VLK AN-94 Sila"
-L["cod2019_an94_barrel_03.compactname"] = "Sila"
-L["cod2019_an94_barrel_03.description"] = "Eftermarknads tung polygonellt räfflad pipa förlänger räckvidden och mynningshastigheten. Städpipa skydd förhindrar att den extra vikten skadar den skyddade fjädern."
+L["cod2019_an94_barrel_heavy.printname"] = "VLK AN-94 Sila"
+L["cod2019_an94_barrel_heavy.compactname"] = "Sila"
+L["cod2019_an94_barrel_heavy.description"] = "Eftermarknads tung polygonellt räfflad pipa förlänger räckvidden och mynningshastigheten. Städpipa skydd förhindrar att den extra vikten skadar den skyddade fjädern."
 
 /////////////// Muzzle
 L["cod2019_an94_muzzle_sonic.printname"] = "AN-94 Sonic-Broms"
