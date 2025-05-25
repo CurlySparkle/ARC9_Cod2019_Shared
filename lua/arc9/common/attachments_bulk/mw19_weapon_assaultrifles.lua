@@ -3735,6 +3735,8 @@ ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]
 ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_xmag.png", "mips smooth")
 
+ATT.Free = false
+
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_cr56_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
@@ -3776,6 +3778,66 @@ ARC9.LoadAttachment(ATT, "cod2019_cr56_mag_xmag")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "M67 10-R Mags"
+ATT.CompactName = "M67 10-R"
+ATT.Description = [[10 rounds of 7.62 M67 ammunition designed for increased muzzle velocity, improved accuracy, and superior damage. Weapon defaults to semi-auto.]]
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_smag.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_cr56_mag"}
+ATT.ActivateElements = {"mag_none","mag_smag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_smag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_smag.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = -20
+
+ATT.Firemodes = {
+	{
+		Mode = 1,
+		PoseParam = 1,
+	},
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.RPM = 310
+	ATT.AimDownSightsTimeMult = 0.93
+	ATT.DeployTimeMult = 0.9
+	ATT.VisualRecoilMult = 1.25
+	ATT.DamageMaxMult = 1.3
+	ATT.DamageMinMult = 1.3
+	ATT.RangeMaxMult = 1.25
+else -- Warzone Stats
+	ATT.RPMAdd = -289
+	ATT.PhysBulletMuzzleVelocityAdd = 320 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.028
+	ATT.SpeedMult = 1.03
+	ATT.SpeedSightsMult = 1.13
+	ATT.DamageMaxAdd = 13
+	ATT.DamageMinAdd = 11
+
+	ATT.RangeMinAdd = 11 / ARC9.HUToM
+	ATT.RangeMaxAdd = 8 / ARC9.HUToM
+
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1.61,
+		[HITGROUP_CHEST] = 1.2,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 1,
+		[HITGROUP_RIGHTARM] = 1,
+		[HITGROUP_LEFTLEG] = 1,
+		[HITGROUP_RIGHTLEG] = 1,
+	}
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cr56_mag_m67")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Gatekeeper"
 ATT.CompactName = "XRK Gatekeeper"
 ATT.Description = [[The most stable stock available, provides exceptional control while aiming at the cost of mobility.]]
@@ -3788,12 +3850,45 @@ ATT.ActivateElements = {"stock_none"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_stocksn.mdl"
 ATT.BoneMerge = true
 
-ATT.DeployTimeMult = 1.2
-ATT.AimDownSightsTimeMult = 1.2
-ATT.RecoilMult = 0.84
-ATT.RecoilSideMult = 0.9
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.2
+	ATT.AimDownSightsTimeMult = 1.2
+	ATT.RecoilMult = 0.84
+	ATT.RecoilSideMult = 0.9
+else -- Warzone Stats
+	ATT.SpeedMultSights = 0.82
+end
 
 ARC9.LoadAttachment(ATT, "cod2019_cr56_stock_sniper")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "CR-56 EXO"
+ATT.CompactName = "EXO"
+ATT.Description = [[Ultralight stock speeds up weapon handling and movement at the expense of aiming stability.]]
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_stockskel.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_cr56_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_stockskel.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.RecoilMult = 1.1
+	ATT.RecoilSideMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.016
+	ATT.SpeedMult = 1.17
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cr56_stock_vlight")
 
 //////////////////////////////////////////////// -- AN-94
 ATT = {}
@@ -4493,7 +4588,7 @@ ATT = {}
 ATT.PrintName = "VLK Vintazh"
 ATT.CompactName = "VLK Vintazh"
 ATT.Description = [[Classic wooden stock renowned for stability.]]
-ATT.SortOrder = 1
+ATT.SortOrder = 0
 
 ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_stockh.png", "mips smooth")
 ATT.AutoStats = true
@@ -4518,10 +4613,40 @@ ARC9.LoadAttachment(ATT, "cod2019_asval_stock_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "Stovl 6P30 Skelet"
+ATT.CompactName = "Skelet"
+ATT.Description = [[Ultralight stock speeds up weapon handling and movement at the expense of aiming stability.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_stockskel.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/asval/attachment_vm_ar_valpha_stockskel.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_asval_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.013
+	ATT.SpeedMult = 1.17
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_asval_stock_vlight")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "VLK Strelok"
 ATT.CompactName = "VLK Strelok"
 ATT.Description = [[Precision Marksman stock provides exceptional accuracy and recoil dampening at the cost of agility.]]
-ATT.SortOrder = 1
+ATT.SortOrder = 0
 
 ATT.Icon = Material("entities/attachs/ar/asval/cod2019_ar_asval_stocksn.png", "mips smooth")
 ATT.AutoStats = true
