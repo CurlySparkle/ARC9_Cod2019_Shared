@@ -339,6 +339,54 @@ ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "18.0\" Ultralight"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity.]]
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_barlong2.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_fal_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_barlong2.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- slot of the weapon's attachment
+            Pos = Vector(1.5, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.91
+	ATT.RangeMaxMult = 0.95
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.017
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1.5, 1.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1.5, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_barrel_light")
+-------------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "13.0\" OSW Para"
 ATT.CompactName = "13.0\" OSW Para"
 ATT.Description = [[Compact medium contoured barrel improves speed and agility with a minor decrease to muzzle velocity and accuracy.]]
@@ -479,9 +527,39 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_fal_stock_light")
+-------------------------------------------------------------------------------------------
+ATT = {}
 
-/////////////////////////// -- Magazine
-/////////////// -- cod2019_fal_mag_30
+ATT.PrintName = "24-Round Mags"
+ATT.Description = ""
+ATT.Icon = Material("entities/attachs/ar/fal/cod2019_ar_fal_mmags.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_fal_mag"
+ATT.ActivateElements = {"mag_none","mag_mmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_mmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/fal/attachment_vm_ar_falima_mmags.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 4
+
+if !warzonestats then -- Regular Stats
+	ATT.ReloadTimeMult = 1.07
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.DeployTimeMult = 1.03
+else -- Warzone Stats
+	ATT.CustomCons = {
+		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-5%"
+	}
+	ATT.AimDownSightsTimeAdd = 0.004 --adjust?
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_fal_mag_24")
+-------------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "30-Round Mags"
@@ -2012,6 +2090,69 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 1, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_scar_barrel_long")
+----------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--ATT.PrintName = "FORGE TAC 17.2\" LB"
+--ATT.CompactName = "17.2\" LB"
+--ATT.Description = [[17.2\" barrel with a guard extension increase muzzle velocity and extend range. Additional weight stabilizes shots at a small cost to mobility.]]
+
+--ATT.Icon = Material("entities/attachs/ar/scar/cod2019_ar_scar_barrel_mid.png", "mips smooth")
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_barrel_mid.mdl"
+--ATT.BoneMerge = true
+
+--ATT.SortOrder = 0
+--ATT.Category = "cod2019_scar_barrel"
+--ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
+
+--ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+--ATT.MuzzleDevice_Priority = 3
+
+--ATT.DrawFunc = function(swep, model, wm)
+--    if swep:GetElements()["sight_back_folded"] then
+--        model:SetBodygroup(2,1)
+--    end
+	
+--    if swep:GetElements()["optic_scope"] then
+--        model:SetBodygroup(2,2)
+--    end
+
+--    if swep:GetElements()["muzzle"] then
+--        model:SetBodygroup(1,1)
+--    end
+--end
+
+--ATT.Element = {
+--    AttPosMods = {
+--        [1] = { -- Muzzle
+--            Pos = Vector(1, 0, 0),
+--        }
+--    }
+--}
+
+--if !warzonestats then -- Regular Stats
+--	ATT.DeployTimeMult = 1.05
+--	ATT.AimDownSightsTimeMult = 1.1
+--	ATT.RangeMaxMult = 1.1
+--	ATT.RecoilMult = 0.95
+--else -- Warzone Stats
+--	ATT.PhysBulletMuzzleVelocityAdd = 319 / ARC9.HUToM
+--	ATT.AimDownSightsTimeAdd = 0.016
+--	ATT.RecoilMult = 0.89
+--	ATT.VisualRecoilMult = 0.89
+--	ATT.SpreadAddMove = 0.01925
+--	ATT.RangeMinMult = 1.26
+--	ATT.RangeMaxMult = 1.26
+--	ATT.SpeedMult = 0.98
+--	ATT.SpeedSightsMult = 0.95
+--end
+
+--ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 1, 0) end
+--ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
+
+--ARC9.LoadAttachment(ATT, "cod2019_scar_barrel_mid")
 ----------------------------------------------------------------------------------------
 ATT = {}
 

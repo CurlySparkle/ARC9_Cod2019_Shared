@@ -467,8 +467,8 @@ L["cod2019_kilo141_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// FAL
 /////////////// Barrels
-L["cod2019_fal_barrel_01.printname"] = "457 mm Ultralight"
-L["cod2019_fal_barrel_01.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_fal_barrel_light.printname"] = "457 mm Ultralight"
+L["cod2019_fal_barrel_light.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 L["cod2019_fal_barrel_long.printname"] = "XRK Marksman"
 L["cod2019_fal_barrel_long.compactname"] = "Marksman"
@@ -631,9 +631,9 @@ L["cod2019_m13_mag_blackout.description"] = "Konverteringskit för att använda 
 
 //////////////////// FN Scar 17
 /////////////// Barrels
-L["cod2019_scar_barrel_01.printname"] = "FORGE TAC 440 mm LB"
-L["cod2019_scar_barrel_01.compactname"] = "440 mm LB"
-L["cod2019_scar_barrel_01.description"] = "440 mm pipa med förlängt skydd ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten med en mindre kostnad på rörlighet."
+L["cod2019_scar_barrel_mid.printname"] = "FORGE TAC 440 mm LB"
+L["cod2019_scar_barrel_mid.compactname"] = "440 mm LB"
+L["cod2019_scar_barrel_mid.description"] = "440 mm pipa med förlängt skydd ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten med en mindre kostnad på rörlighet."
 
 L["cod2019_scar_barrel_long.printname"] = "FORGE TAC 510 mm LB"
 L["cod2019_scar_barrel_long.compactname"] = "510 mm LB"

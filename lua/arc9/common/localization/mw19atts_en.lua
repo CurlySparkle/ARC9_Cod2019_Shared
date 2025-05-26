@@ -887,9 +887,9 @@ L["cod2019_kilo141_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// FAL
 /////////////// Barrels
-L["cod2019_fal_barrel_01.printname"] = "18.0\" Ultralight"
-L["cod2019_fal_barrel_01.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
-L["cod2019_fal_barrel_01.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
+L["cod2019_fal_barrel_light.printname"] = "18.0\" Ultralight"
+L["cod2019_fal_barrel_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
+L["cod2019_fal_barrel_light.description"] = "Custom dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity."
 
 L["cod2019_fal_barrel_long.printname"] = "XRK Marksman"
 L["cod2019_fal_barrel_long.compactname"] = "Marksman"
@@ -1067,9 +1067,9 @@ L["cod2019_m13_mag_blackout.description"] = "Conversion kit to use <color=255,25
 
 //////////////////// FN Scar 17
 /////////////// Barrels
-L["cod2019_scar_barrel_01.printname"] = "FORGE TAC 17.2\" LB"
-L["cod2019_scar_barrel_01.compactname"] = "17.2\" LB"
-L["cod2019_scar_barrel_01.description"] = "17.2\" barrel with a guard extension increase muzzle velocity and extend range. Additional weight stabilizes shots at a small cost to mobility."
+L["cod2019_scar_barrel_mid.printname"] = "FORGE TAC 17.2\" LB"
+L["cod2019_scar_barrel_mid.compactname"] = "17.2\" LB"
+L["cod2019_scar_barrel_mid.description"] = "17.2\" barrel with a guard extension increase muzzle velocity and extend range. Additional weight stabilizes shots at a small cost to mobility."
 
 L["cod2019_scar_barrel_long.printname"] = "FORGE TAC 20.0\" LB"
 L["cod2019_scar_barrel_long.compactname"] = "20.0\" LB"
