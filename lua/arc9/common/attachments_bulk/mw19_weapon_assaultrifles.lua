@@ -554,7 +554,7 @@ else -- Warzone Stats
 	ATT.CustomCons = {
 		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-5%"
 	}
-	ATT.AimDownSightsTimeAdd = 0.004 --adjust?
+	ATT.AimDownSightsTimeAdd = 0.088
 	ATT.SpeedMult = 0.98
 end
 
@@ -1201,6 +1201,41 @@ ARC9.LoadAttachment(ATT, "cod2019_m4_stock_m16")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "No Stock"
+ATT.CompactName = "N/A"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
+
+ATT.Icon = Material("entities/attachs/ar/m4/cod2019_ar_m4_stockno.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/stocks/attachment_vm_ar_mike4_stockno.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_m4_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilMult = 1.2
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.035
+	ATT.RecoilMult = 1.29
+	ATT.VisualRecoilMult = 1.24
+	ATT.SpreadAddMove = -0.0053
+	ATT.SpeedMult = 1.04
+	ATT.SpeedMultSights = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, -4, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_m4_stock_none")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "Old Faithful"
 ATT.CompactName = "Old Faithful"
 ATT.Description = [[]]
@@ -1418,9 +1453,9 @@ ARC9.LoadAttachment(ATT, "cod2019_famas_barrel_light")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "FSS Tac-Wrap"
-ATT.CompactName = "FSS Tac-Wrap"
-ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+ATT.PrintName = "FORGE TAC Ballast Pack"
+ATT.CompactName = "Ballast"
+ATT.Description = [[Weighted packs provide stability while aiming.]]
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_tactical.mdl"
@@ -1431,7 +1466,31 @@ ATT.Category = "cod2019_famas_stock"
 ATT.ActivateElements = {"stock_tactical"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.95
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.RecoilMult = 0.9
+else -- Warzone Stats
+	ATT.SpeedMultSights = 0.89
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_famas_stock_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS Tac-Wrap"
+ATT.CompactName = "Tac-Wrap"
+ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_stable_v1.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_stable.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_famas_stock"
+ATT.ActivateElements = {"stock_tactical"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
 	ATT.DeployTimeMult = 1.05
 	ATT.RecoilMult = 1.05
 else -- Warzone Stats
@@ -3279,6 +3338,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Tempus 26.4\" Archangel"
 ATT.CompactName = "Archangel"
 ATT.Description = [[Partially shrouded 26.4" barrel from FSS provides the ultimate in range and accuracy. This heavy weight barrel is ideal for improving long range marksmanship.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barxlong.png", "mips smooth")
 
@@ -3347,6 +3407,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FFS 20.8 Nexus"
 ATT.CompactName = "FFS 20.8"
 ATT.Description = [[Stainless steel 20.8" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barlong.png", "mips smooth")
 
@@ -3412,9 +3473,71 @@ ARC9.LoadAttachment(ATT, "cod2019_grau556_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "ZLR Drifter A-08"
+ATT.CompactName = "Drifter"
+ATT.Description = [[Ultra short 5.3\" barrel with a built in foregrip allows first class agility and maneuverability without sacrificing recoil control.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barshort.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barshort.mdl"
+ATT.BoneMerge = false
+
+ATT.LHIK_Priority = 1
+ATT.LHIK = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_short","muzzle_none","sight_front_none","barrel_custom","barrel_drifter_grip"}
+
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["optic"] or swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-3.04, 0, 0),
+        },
+        [3] = { -- Laser
+            Pos = Vector(-3.35, -0.45, -0.05),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.93
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.RangeMaxMult = 0.9
+	ATT.RangeMinMult = 0.9
+	ATT.RecoilMult = 1.07
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -255 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.034
+	ATT.RecoilMult = 1.08
+	ATT.VisualRecoilMult = 0.91
+	ATT.SpreadAddMove = -0.00212
+	ATT.RangeMinMult = 0.8
+	ATT.RangeMaxMult = 0.8
+	ATT.SpeedMult = 1.02
+	ATT.SpeedSightsMult = 1.01
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_barrel_short")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK CZEN mk2"
 ATT.CompactName = "XRK CZEN"
 ATT.Description = [[Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barh.png", "mips smooth")
 
@@ -3473,9 +3596,74 @@ ARC9.LoadAttachment(ATT, "cod2019_grau556_barrel_heavy")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS 11.8\" Squall"
+ATT.CompactName = "Squall"
+ATT.Description = [[Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barlight.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_barlight.mdl"
+ATT.BoneMerge = false
+
+ATT.LHIK_Priority = 1
+ATT.LHIK = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_short","muzzle_none","sight_front_none","barrel_custom"}
+
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["optic"] or swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(3.55, 0, 0),
+        },
+        [3] = { -- Laser
+            Pos = Vector(4.1, -0.53, -0.11),
+        },
+        [6] = { -- Grips
+            Pos = Vector(-2.3, 0, 0),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.RecoilKickMult = 0.9
+	ATT.DeployTimeMult = 1.08
+	ATT.RangeMaxMult = 0.95
+	ATT.RangeMinMult = 0.95
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.014
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_barrel_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Blackjack"
 ATT.CompactName = "FSS Blackjack"
 ATT.Description = [[Heavy duty fixed stock provides reliable stability while aiming.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_stockh.png", "mips smooth")
 
@@ -3499,10 +3687,38 @@ ARC9.LoadAttachment(ATT, "cod2019_grau556_stock_heavy")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK StrikeLite III"
+ATT.CompactName = "StrikeLite III"
+ATT.Description = [[Aluminum core synthetic stock designed for agility while aiming down sights.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_stockl.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_stockl.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_grau556_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.RecoilMult = 1.1
+else -- Warzone Stats
+	ATT.SpeedMultSights = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_grau556_stock_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "No Stock"
 ATT.CompactName = "No Stock"
 ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_stockno.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_stockno.mdl"
 ATT.BoneMerge = true
@@ -3536,6 +3752,7 @@ ATT.PrintName = "XRK Void II"
 ATT.CompactName = "XRK Void II"
 ATT.Description = [[Skeletonized grip for the ultimate in high speed maneuvering.]]
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_pstlgripl.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_pstlgripl.mdl"
 ATT.BoneMerge = true
@@ -3565,6 +3782,7 @@ ATT.PrintName = "Cronen Sniper Elite"
 ATT.CompactName = "Cronen"
 ATT.Description = [[Textured polymer with an adjustable palm shelf keeps the weapon incredibly stable while aiming.]]
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_pstlgripcust.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_pstlgripcust.mdl"
 ATT.BoneMerge = true
@@ -3594,6 +3812,7 @@ ATT.PrintName = "FTAC R-89 Rubber"
 ATT.CompactName = "FTAC R-89 Rubber"
 ATT.Description = [[Rubberized no-slip grip keeps gun tight in hand. Less steady, but helps control recoil.]]
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_pstlgriph.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/grau556/attachment_vm_ar_sierra552_pstlgriph.mdl"
 ATT.BoneMerge = true

@@ -525,6 +525,9 @@ L["cod2019_m4_stock_m16.printname"] = "Приклад М-16"
 L["cod2019_m4_stock_m16.compactname"] = "M-16"
 L["cod2019_m4_stock_m16.description"] = "Усиленный фиксированный приклад, обеспечивающий высокую стабильность оружия при прицеливании."
 
+L["cod2019_m4_stock_none.printname"] = "Без приклада"
+L["cod2019_m4_stock_none.compactname"] = "Без п."
+
 L["cod2019_m4a1_stock_vlight.printname"] = "\"Сингвард армс\" - \"Захватчик\""
 L["cod2019_m4a1_stock_vlight.compactname"] = "\"Захватчик\""
 
@@ -561,12 +564,12 @@ L["cod2019_famas_barrel_long.description"] = "Удлинение ствола п
 L["cod2019_famas_barrel_light.description"] = "Ствол с расширенным каналом и ребрами жесткости уменьшает вес оружия, тем самым повышая его эргономичность, но снижает начальную скорость пули."
 
 /////////////// Stock
-L["cod2019_famas_stock_heavy.printname"] = "Сверхлегкий полый приклад FR"
-L["cod2019_famas_stock_heavy.description"] = "Полый приклад с легким амортизирующим тыльником, позволяющий сохранять подвижность при прицеливании."
+L["cod2019_famas_stock_heavy.printname"] = "\"ФОРДЖ ТАК\" - комплект балласта"
+L["cod2019_famas_stock_heavy.compactname"] = "Балласта"
+L["cod2019_famas_stock_heavy.description"] = "Сбалансированные утяжелители, повышающие стабильность оружия при прицеливании."
 
-L["cod2019_famas_stock_light.printname"] = "\"ФОРДЖ ТАК\" - комплект балласта"
-L["cod2019_famas_stock_light.compactname"] = "Балласта"
-L["cod2019_famas_stock_light.description"] = "Сбалансированные утяжелители, повышающие стабильность оружия при прицеливании."
+L["cod2019_famas_stock_light.printname"] = "Сверхлегкий полый приклад FR"
+L["cod2019_famas_stock_light.description"] = "Полый приклад с легким амортизирующим тыльником, позволяющий сохранять подвижность при прицеливании."
 
 L["cod2019_famas_stock_tactical.printname"] = "Тактическа обмотка FSS"
 L["cod2019_famas_stock_tactical.compactname"] = "Так. обмот."
@@ -732,9 +735,9 @@ L["cod2019_ram7_stock_tactical.printname"] = "Приклад XRk для ближ
 
 //////////////////// Grau 5.56
 /////////////// Barrels
-L["cod2019_grau_barrel_01.printname"] = "ZLR \"ДриФтер\" А-О8"
-L["cod2019_grau_barrel_01.compactname"] = "ДриФтер"
-L["cod2019_grau_barrel_01.description"] = "Сверхкороткий 5,3-дюймовый ствол со встроенной передней рукоятью обеспечивает первоклассную подвижность и маневренность в сочетании с контролем отдачи."
+L["cod2019_grau556_barrel_short.printname"] = "ZLR \"ДриФтер\" А-О8"
+L["cod2019_grau556_barrel_short.compactname"] = "ДриФтер"
+L["cod2019_grau556_barrel_short.description"] = "Сверхкороткий 5,3-дюймовый ствол со встроенной передней рукоятью обеспечивает первоклассную подвижность и маневренность в сочетании с контролем отдачи."
 
 L["cod2019_grau556_barrel_barxlong.printname"] = "Темпус 26,4\" \"Архангел\""
 L["cod2019_grau556_barrel_barxlong.compactname"] = "Архангел"
@@ -748,16 +751,16 @@ L["cod2019_grau556_barrel_long.printname"] = "FSS \"Нексус\" 20,8 дюйм
 L["cod2019_grau556_barrel_long.compactname"] = "Нексус"
 L["cod2019_grau556_barrel_long.description"] = "Ствол из нержавеющей стали длиной 20,8 дюйма повышает начальную скорость пули и увеличивает дальность. Дополнительный вес стабилизирует оружие, но снижает мобильность."
 
-L["cod2019_grau_barrel_05.printname"] = "FSS \"Шквал\" 11,8 дюйма"
-L["cod2019_grau_barrel_05.compactname"] = "Шквал"
+L["cod2019_grau556_barrel_light.printname"] = "FSS \"Шквал\" 11,8 дюйма"
+L["cod2019_grau556_barrel_light.compactname"] = "Шквал"
 
 /////////////// Stock
 L["cod2019_grau556_stock_heavy.printname"] = "FSS \"Блэкджек\""
 L["cod2019_grau556_stock_heavy.compactname"] = "Блэкджек"
 
-L["cod2019_grau_stock_light.printname"] = "XRK StrikeLite III"
-L["cod2019_grau_stock_light.compactname"] = "StrikeLite III"
-L["cod2019_grau_stock_light.description"] = "Пластиковый приклад с алюминиевым каркасом, улучшающий подвижность бойца при прицеливании."
+L["cod2019_grau556_stock_light.printname"] = "XRK StrikeLite III"
+L["cod2019_grau556_stock_light.compactname"] = "StrikeLite III"
+L["cod2019_grau556_stock_light.description"] = "Пластиковый приклад с алюминиевым каркасом, улучшающий подвижность бойца при прицеливании."
 
 -- L["cod2019_grau556_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 

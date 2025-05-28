@@ -524,6 +524,9 @@ L["cod2019_m4_stock_m16.printname"] = "M-16 Kolv"
 L["cod2019_m4_stock_m16.compactname"] = "M-16"
 L["cod2019_m4_stock_m16.description"] = "Tung, fast kolv erbjuder pålitlig stabilitet under skjutning."
 
+L["cod2019_m4_stock_none.printname"] = "Ingen Kolv"
+L["cod2019_m4_stock_none.compactname"] = "Ingen"
+
 L["cod2019_m4a1_stock_vlight.printname"] = "Singuard Arms Invader"
 L["cod2019_m4a1_stock_vlight.compactname"] = "Invader"
 
@@ -560,12 +563,12 @@ L["cod2019_famas_barrel_long.description"] = "Längre pipa ökar mynningshastigh
 L["cod2019_famas_barrel_light.description"] = "Kannelerad pipa med brett lopp sänker vikt för förbättrad hantering med kostnad på mynningshastighet."
 
 /////////////// Stock
-L["cod2019_famas_stock_heavy.printname"] = "FR Ultralight Hollow"
-L["cod2019_famas_stock_heavy.description"] = "Anpassad ihålig kolv med en lättvikt rekylplatta som håller skytten rörlig medans man siktar."
+L["cod2019_famas_stock_heavy.printname"] = "FORGE TAC Ballast Pac"
+L["cod2019_famas_stock_heavy.compactname"] = "Ballast"
+L["cod2019_famas_stock_heavy.description"] = "Tunga packs erbjuder stabilitet i siktet."
 
-L["cod2019_famas_stock_light.printname"] = "FORGE TAC Ballast Pack"
-L["cod2019_famas_stock_light.compactname"] = "Ballast"
-L["cod2019_famas_stock_light.description"] = "Tunga packs erbjuder stabilitet i siktet."
+L["cod2019_famas_stock_light.printname"] = "FR Ultralight Hollow"
+L["cod2019_famas_stock_light.description"] = "Anpassad ihålig kolv med en lättvikt rekylplatta som håller skytten rörlig medans man siktar."
 
 L["cod2019_famas_stock_tactical.printname"] = "FSS Tac-Wrap"
 L["cod2019_famas_stock_tactical.compactname"] = "Tac-Wrap"
@@ -729,9 +732,9 @@ L["cod2019_ram7_stock_tactical.printname"] = "XRK Close Quarters-Kolv"
 
 //////////////////// Grau 5.56
 /////////////// Barrels
-L["cod2019_grau_barrel_01.printname"] = "ZLR Drifter A-08"
-L["cod2019_grau_barrel_01.compactname"] = "Drifter"
-L["cod2019_grau_barrel_01.description"] = "Ultrakort 135 mm pipa med inbyggt framgrepp tillåter bäst-i-klass rörlighet och manövrering utan att offra rekylkontroll."
+L["cod2019_grau556_barrel_short.printname"] = "ZLR Drifter A-08"
+L["cod2019_grau556_barrel_short.compactname"] = "Drifter"
+L["cod2019_grau556_barrel_short.description"] = "Ultrakort 135 mm pipa med inbyggt framgrepp tillåter bäst-i-klass rörlighet och manövrering utan att offra rekylkontroll."
 
 L["cod2019_grau556_barrel_barxlong.printname"] = "Tempus 670 mm Archangel"
 L["cod2019_grau556_barrel_barxlong.compactname"] = "Archangel"
@@ -745,16 +748,16 @@ L["cod2019_grau556_barrel_long.printname"] = "FSS 530 mm Nexus"
 L["cod2019_grau556_barrel_long.compactname"] = "Nexus"
 L["cod2019_grau556_barrel_long.description"] = "Rostfri stål 530 mm pipa ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
-L["cod2019_grau_barrel_05.printname"] = "FSS 300 mm Squall"
-L["cod2019_grau_barrel_05.compactname"] = "Squall"
+L["cod2019_grau556_barrel_light.printname"] = "FSS 300 mm Squall"
+L["cod2019_grau556_barrel_light.compactname"] = "Squall"
 
 /////////////// Stock
 L["cod2019_grau556_stock_heavy.printname"] = "FSS Blackjack"
 L["cod2019_grau556_stock_heavy.compactname"] = "Blackjack"
 
-L["cod2019_grau_stock_light.printname"] = "XRK StrikeLite III"
-L["cod2019_grau_stock_light.compactname"] = "StrikeLite III"
-L["cod2019_grau_stock_light.description"] = "Syntetisk kolv med aluminiumkärna designad för rörlighet i siktet."
+L["cod2019_grau556_stock_light.printname"] = "XRK StrikeLite III"
+L["cod2019_grau556_stock_light.compactname"] = "StrikeLite III"
+L["cod2019_grau556_stock_light.description"] = "Syntetisk kolv med aluminiumkärna designad för rörlighet i siktet."
 
 -- L["cod2019_grau556_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
 

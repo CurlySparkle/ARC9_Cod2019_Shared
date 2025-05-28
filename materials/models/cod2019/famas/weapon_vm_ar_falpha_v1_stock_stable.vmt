@@ -1,11 +1,11 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\grau556\weapon_vm_ar_sierra552_stockhvy_rgb"
-    "$bumpmap" "models\cod2019\grau556\weapon_vm_ar_sierra552_stockhvy_n"
-    "$phongexponenttexture" "models\cod2019\grau556\weapon_vm_ar_sierra552_stockhvy_e"
+    "$basetexture" "models\cod2019\famas\weapon_vm_ar_falpha_v1_stock_stable_rgb"
+    "$bumpmap" "models\cod2019\famas\weapon_vm_ar_falpha_v1_stock_stable_n"
+    "$phongexponenttexture" "models\cod2019\famas\weapon_vm_ar_falpha_v1_stock_stable_e"
 
     /////////////////
-    "$color2" "[1 1 1]"                                     //do not touch this
+    "$color2" "[0 0 0]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
@@ -20,10 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.102 0.102 0.102]"                 
-
-    "$detailblendmode" "4"
-    "$detailblendfactor" "0.7"
+    "$envmaptint" "[0.098 0.098 0.098]"                 
 
     //remove this if not using MWB
     "Proxies"
@@ -32,14 +29,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.102 0.102 0.102]"
-        }
-        "CustomCamo" 
-        {
-	"camoTexture" $detail
-	"camoScale" $detailscale
-	"blend" $detailblendfactor
-	"color2" "[0.8 0.8 0.8]"
+            "color" "[0.098 0.098 0.098]"
         }
     }
 }
