@@ -582,9 +582,9 @@ L["cod2019_famas_stock_tactical.description"] = "Tactical comb add-on streamline
 
 //////////////////// Oden
 /////////////// Barrels
-L["cod2019_oden_barrel_01.printname"] = "Oden Factory 810mm"
-L["cod2019_oden_barrel_01.compactname"] = "810mm"
-L["cod2019_oden_barrel_01.description"] = "Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility."
+L["cod2019_oden_barrel_long2.printname"] = "Oden Factory 810mm"
+L["cod2019_oden_barrel_long2.compactname"] = "810mm"
+L["cod2019_oden_barrel_long2.description"] = "Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility."
 
 L["cod2019_oden_barrel_long.printname"] = "Oden Factory 730mm"
 L["cod2019_oden_barrel_long.compactname"] = "730mm"
@@ -720,8 +720,8 @@ L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// RAM-7
 /////////////// Barrels
-L["cod2019_ram7_barrel_01.printname"] = "FTAC 13.5\" Compact"
-L["cod2019_ram7_barrel_01.compactname"] = "Compact"
+L["cod2019_ram7_barrel_short.printname"] = "FTAC 13.5\" Compact"
+L["cod2019_ram7_barrel_short.compactname"] = "Compact"
 
 L["cod2019_ram7_barrel_mid.printname"] = "FORGE TAC Eclipse"
 L["cod2019_ram7_barrel_mid.compactname"] = "Eclipse"

@@ -577,9 +577,9 @@ L["cod2019_famas_stock_tactical.description"] = "Тактический греб
 
 //////////////////// Oden
 /////////////// Barrels
-L["cod2019_oden_barrel_01.printname"] = "Штатный \"Оден\" 810 мм"
-L["cod2019_oden_barrel_01.compactname"] = "810 мм"
-L["cod2019_oden_barrel_01.description"] = "Этот самый длинный ствол значительно повышает начальную скорость пули и стабильность оружия, но снижает мобильность."
+L["cod2019_oden_barrel_long2.printname"] = "Штатный \"Оден\" 810 мм"
+L["cod2019_oden_barrel_long2.compactname"] = "810 мм"
+L["cod2019_oden_barrel_long2.description"] = "Этот самый длинный ствол значительно повышает начальную скорость пули и стабильность оружия, но снижает мобильность."
 
 L["cod2019_oden_barrel_long.printname"] = "Штатный \"Оден\" 730 мм"
 L["cod2019_oden_barrel_long.compactname"] = "730 мм"
@@ -712,8 +712,8 @@ L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// RAM-7
 /////////////// Barrels
-L["cod2019_ram7_barrel_01.printname"] = "Компактный 13,5-дюймовый ствол FTAC"
-L["cod2019_ram7_barrel_01.compactname"] = "Компакт"
+L["cod2019_ram7_barrel_short.printname"] = "Компактный 13,5-дюймовый ствол FTAC"
+L["cod2019_ram7_barrel_short.compactname"] = "Компакт"
 
 L["cod2019_ram7_barrel_mid.printname"] = "\"ФОРДЖ-ТАК\" - \"Затмение\""
 L["cod2019_ram7_barrel_mid.compactname"] = "Затмение"

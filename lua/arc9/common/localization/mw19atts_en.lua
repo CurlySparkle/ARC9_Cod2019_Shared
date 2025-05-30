@@ -1006,9 +1006,9 @@ L["cod2019_famas_stock_tactical.description"] = "Tactical comb add-on streamline
 
 //////////////////// Oden
 /////////////// Barrels
-L["cod2019_oden_barrel_01.printname"] = "Oden Factory 810mm"
-L["cod2019_oden_barrel_01.compactname"] = "810mm"
-L["cod2019_oden_barrel_01.description"] = "Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility."
+L["cod2019_oden_barrel_long2.printname"] = "Oden Factory 810mm"
+L["cod2019_oden_barrel_long2.compactname"] = "810mm"
+L["cod2019_oden_barrel_long2.description"] = "Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility."
 
 L["cod2019_oden_barrel_long.printname"] = "Oden Factory 730mm"
 L["cod2019_oden_barrel_long.compactname"] = "730mm"
@@ -1024,13 +1024,13 @@ L["cod2019_oden_muzzle_big.compactname"] = "Colossus"
 L["cod2019_oden_muzzle_big.description"] = "Extended suppressor adds considerable weight to the barrel, but greatly increases the muzzle velocity and reduces recoil to help with long range precision."
 
 /////////////// Stock
-L["cod2019_oden_stock_heavy.printname"] = ARC9:GetPhrase("cod2019_famas_stock_light.printname") or "FORGE TAC Ballast Pack"
-L["cod2019_oden_stock_heavy.compactname"] = ARC9:GetPhrase("cod2019_famas_stock_light.compactname") or "Ballast"
-L["cod2019_oden_stock_heavy.description"] = ARC9:GetPhrase("cod2019_famas_stock_light.description") or "Weighted packs provide stability while aiming."
+L["cod2019_oden_stock_heavy.printname"] = "FORGE TAC Ballast Pack"
+L["cod2019_oden_stock_heavy.compactname"] = "Ballast"
+L["cod2019_oden_stock_heavy.description"] = "Weighted packs provide stability while aiming."
 
 L["cod2019_oden_stock_light.printname"] = "Oden Ultralight Hollow"
-L["cod2019_oden_stock_light.compactname"] = ARC9:GetPhrase("cod2019_kilo141_stock_light.compactname") or "Ultralight"
-L["cod2019_oden_stock_light.description"] = ARC9:GetPhrase("cod2019_famas_stock_heavy.description") or "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
+L["cod2019_oden_stock_light.compactname"] = "Ultralight"
+L["cod2019_oden_stock_light.description"] = "Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights."
 
 L["cod2019_oden_stock_medium.printname"] = "FTAC XL Elite Comb"
 L["cod2019_oden_stock_medium.compactname"] = "XL Elite"
@@ -1156,9 +1156,9 @@ L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// RAM-7
 /////////////// Barrels
-L["cod2019_ram7_barrel_01.printname"] = "FTAC 13.5\" Compact"
-L["cod2019_ram7_barrel_01.compactname"] = "Compact"
-L["cod2019_ram7_barrel_01.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
+L["cod2019_ram7_barrel_short.printname"] = "FTAC 13.5\" Compact"
+L["cod2019_ram7_barrel_short.compactname"] = "Compact"
+L["cod2019_ram7_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_ram7_barrel_mid.printname"] = "FORGE TAC Eclipse"
 L["cod2019_ram7_barrel_mid.compactname"] = "Eclipse"

@@ -576,9 +576,9 @@ L["cod2019_famas_stock_tactical.description"] = "Taktisk kam tillbehör gjord f�
 
 //////////////////// Oden
 /////////////// Barrels
-L["cod2019_oden_barrel_01.printname"] = "Oden-Fabrik 810 mm"
-L["cod2019_oden_barrel_01.compactname"] = "810 mm"
-L["cod2019_oden_barrel_01.description"] = "Längsta tillgängliga pipan. Ökar starkt mynningshastigheten och hjälper att bygga ett mer tufft och stadigt vapen med kostnad på rörlighet."
+L["cod2019_oden_barrel_long2.printname"] = "Oden-Fabrik 810 mm"
+L["cod2019_oden_barrel_long2.compactname"] = "810 mm"
+L["cod2019_oden_barrel_long2.description"] = "Längsta tillgängliga pipan. Ökar starkt mynningshastigheten och hjälper att bygga ett mer tufft och stadigt vapen med kostnad på rörlighet."
 
 L["cod2019_oden_barrel_long.printname"] = "Oden-Fabrik 730 mm"
 L["cod2019_oden_barrel_long.compactname"] = "730 mm"
@@ -709,8 +709,8 @@ L["cod2019_akilo47_mag_drum.description"] = string.format(mw19magtext.descdrum, 
 
 //////////////////// RAM-7
 /////////////// Barrels
-L["cod2019_ram7_barrel_01.printname"] = "FTAC 340 mm Compact"
-L["cod2019_ram7_barrel_01.compactname"] = "Compact"
+L["cod2019_ram7_barrel_short.printname"] = "FTAC 340 mm Compact"
+L["cod2019_ram7_barrel_short.compactname"] = "Compact"
 
 L["cod2019_ram7_barrel_mid.printname"] = "FORGE TAC Eclipse"
 L["cod2019_ram7_barrel_mid.compactname"] = "Eclipse"

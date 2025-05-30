@@ -1555,15 +1555,71 @@ ARC9.LoadAttachment(ATT, "cod2019_famas_upper_railcust")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Oden Factory 810mm"
+ATT.CompactName = "810mm"
+ATT.Description = [[Longest barrel available. Greatly increases muzzle velocity and helps build a heftier, steadier weapon at the cost of mobility.]]
+ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_barlong2.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_barlong2.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 2
+ATT.Category = "cod2019_oden_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(4.64, 0, 0),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.DeployTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.RecoilMult = 0.9
+	ATT.RangeMaxMult = 1.14
+	ATT.SpreadMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 440 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.048
+	ATT.VisualRecoilMult = 0.85
+	ATT.RecoilMult = 0.85
+	ATT.RangeMinMult = 1.35
+	ATT.RangeMaxMult = 1.35
+	ATT.SpeedMult = 0.97
+	ATT.SpeedMultSights = 0.94
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 2.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_barrel_long2")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Oden Factory 730mm"
 ATT.CompactName = "Oden 730mm"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilize shots but slightly affects mobility.]]
 ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_barlong.mdl"
 ATT.BoneMerge = false
 
-ATT.SortOrder = 0
+ATT.SortOrder = 1
 ATT.Category = "cod2019_oden_barrel"
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
@@ -1587,7 +1643,6 @@ ATT.Element = {
 if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.05
 	ATT.AimDownSightsTimeMult = 1.07
-
 	ATT.RecoilMult = 0.95
 	ATT.RangeMaxMult = 1.07
 	ATT.SpreadMult = 0.95
@@ -1614,6 +1669,7 @@ ATT.PrintName = "Oden Factory 420mm"
 ATT.CompactName = "Oden 420mm"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. When mobility matters more than precision.]]
 ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_barshort.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_barshort.mdl"
 ATT.BoneMerge = false
@@ -1662,11 +1718,62 @@ ARC9.LoadAttachment(ATT, "cod2019_oden_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "Colossus Suppressor"
+ATT.CompactName = "Colossus"
+ATT.Description = [[Extended suppressor adds considerable weight to the barrel, but greatly increases the muzzle velocity and reduces recoil to help with long range precision.]]
+
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_longsuppressor.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_longsuppressor.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_oden_muzzle"}
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.2
+	ATT.SprintToFireTimeMult = 1.2
+	ATT.DeployTimeMult = 1.2
+	ATT.RangeMaxMult = 1.2
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 308 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.052
+	ATT.RecoilMult = 0.93
+	ATT.VisualRecoilMult = 0.93
+	ATT.RangeMinMult = 1.25
+	ATT.RangeMaxMult = 1.25
+	ATT.SpeedMult = 0.97
+	ATT.SpeedMultSights = 0.9
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(9, 9, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_muzzle_big")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Oden Ultralight Hollow"
 ATT.CompactName = "Ultralight"
 ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
 ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_stockl.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_stockl.mdl"
 ATT.BoneMerge = true
@@ -1693,6 +1800,7 @@ ATT.PrintName = "FORGE TAC Ballast Pack"
 ATT.CompactName = "FTAC Ballast"
 ATT.Description = [[Weighted packs provide stability while aiming.]]
 ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_stockh.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_stockh_v2.mdl"
 ATT.BoneMerge = true
@@ -1703,7 +1811,7 @@ ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.07
-	ATT.DeployTimeMult = 0.87
+	ATT.RecoilUpMult = 0.9
 else -- Warzone Stats
 	ATT.SpeedMultSights = 0.89
 end
@@ -1713,10 +1821,68 @@ ARC9.LoadAttachment(ATT, "cod2019_oden_stock_heavy")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC XL Elite Comb"
+ATT.CompactName = "XL Elite"
+ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_stocks.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_stocks.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_oden_stock"
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.RecoilUpMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.032
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_stock_medium")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "25 Round Mags"
+ATT.CompactName = "25-Round"
+ATT.Description = [[]]
+ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_xmags.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xmags.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_oden_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.ClipSizeAdd = 5
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.DeployTimeMult = 1.07
+	ATT.ReloadTimeMult = 1.07
+else -- Warzone Stats
+	ATT.CustomCons = {
+		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-5%"
+	}
+	ATT.AimDownSightsTimeAdd = 0.095
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_oden_mag_25")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "30 Round Mags"
 ATT.CompactName = "30-Round"
 ATT.Description = [[]]
 ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_xxmags.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags.mdl"
@@ -1749,6 +1915,7 @@ ATT.PrintName = "50 Round Mags"
 ATT.CompactName = "50-Round"
 ATT.Description = [[]]
 ATT.Icon = Material("entities/attachs/ar/oden/cod2019_ar_oden_xxmags.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags2.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/oden/attachment_vm_ar_asierra12_xxmags2.mdl"
@@ -3147,9 +3314,67 @@ ARC9.LoadAttachment(ATT, "cod2019_akilo47_mag_origin12")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC 13.5\" Compact"
+ATT.CompactName = "Compact"
+ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_barrel_short.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_barrel_short.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_ram7_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-0.9, 0, -0.01),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.95
+	ATT.RecoilMult = 1.1
+	ATT.RangeMaxMult = 0.93
+	ATT.RangeMinMult = 0.93
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.018
+	ATT.VisualRecoilMult = 0.93
+	ATT.RecoilMult = 0.93
+	ATT.SpreadAddMove = -0.00106
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.04
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_ram7_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FORGE TAC Eclipse"
 ATT.CompactName = "FTAC Eclipse"
 ATT.Description = [[Lightweight extended front shroud houses a 16" polygonal rifled barrel, increasing both range and muzzle velocity.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_barrel_med.png", "mips smooth")
 
@@ -3204,6 +3429,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Ranger"
 ATT.CompactName = "FSS Ranger"
 ATT.Description = [[Fully enclosed 460mm barrel provides the ultimate range and accuracy for this weapon. Additional weight affects mobility.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_barrel_long.png", "mips smooth")
 
@@ -3261,9 +3487,62 @@ ARC9.LoadAttachment(ATT, "cod2019_ram7_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Ultralight Hollow"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Aluminum core synthetic stock designed for agility while aiming down sights.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_stock_light.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_stock_light.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_ram7_stock"
+ATT.ActivateElements = {"stock_none","stock_light"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.RecoilMult = 1.1
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_ram7_stock_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC Equilibrium"
+ATT.CompactName = "Equilibrium"
+ATT.Description = [[Weighted stock with cushioned recoil pad keeps your aim steady for precision shots.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_stock_heavy.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_stock_heavy.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_ram7_stock"
+ATT.ActivateElements = {"stock_none","stock_heavy"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.RecoilMult = 0.9
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.89
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_ram7_stock_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Close Quarters Stock"
 ATT.CompactName = "XRK CQ"
 ATT.Description = [[Tactical stock streamlined for close quarters combat. Gets you on target faster.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_stock_tactical.png", "mips smooth")
 
@@ -3277,6 +3556,7 @@ ATT.ActivateElements = {"stock_none","stock_tactical"}
 if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 0.9
 	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 1.05
 	ATT.RecoilMult = 1.1
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.02
@@ -3290,6 +3570,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "60 Round 9mm Drum"
 ATT.CompactName = "60-Round"
 ATT.Description = [[Extended magazines hold 60 rounds of 9mm conversion with a slight weight increase.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/ar/ram7/cod2019_ar_ram7_drummag.png", "mips smooth")
 ATT.Ammo = "smg1"
