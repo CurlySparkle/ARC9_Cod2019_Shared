@@ -1000,7 +1000,7 @@ ATT.Category = {"cod2019_crossbow_limbs"}
 ATT.ActivateElements = {"limbs_none"}
 
 ATT.CustomPros = {
-	[ ARC9:GetPhrase("autostat.entitymuzzlevelocity") ] = "30%",
+	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "30%",
 }
 
 if !warzonestats then -- Regular Stats
@@ -1041,7 +1041,7 @@ ATT.Category = {"cod2019_crossbow_wires"}
 ATT.ActivateElements = {"wires_none"}
 
 ATT.CustomPros = {
-	[ ARC9:GetPhrase("autostat.entitymuzzlevelocity") ] = "10%",
+	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "10%",
 }
 
 if !warzonestats then -- Regular Stats
@@ -1312,7 +1312,7 @@ ATT = {}
 
 ATT.PrintName = "FTAC Fury 20\" Bolts"
 ATT.CompactName = "Fury"
-ATT.Description = [[Carbon bolts with timed explosive tips. Sticky tips deal less damage, but devastate targets on detonation. 
+ATT.Description = [[Carbon bolts with timed explosive tips. Sticky tips deal less damage, but devastate targets on detonation.
 Bolts cannot be recovered.]]
 ATT.SortOrder = 0.5
 
@@ -1335,7 +1335,7 @@ ATT = {}
 
 ATT.PrintName = "FTAC Semtex 20\" Bolts"
 ATT.CompactName = "Semtex"
-ATT.Description = [[Carbon bolts with timed explosive tips. Sticky tips deal less damage, but devastate targets on detonation. 
+ATT.Description = [[Carbon bolts with timed explosive tips. Sticky tips deal less damage, but devastate targets on detonation.
 Bolts cannot be recovered.]]
 ATT.SortOrder = 0.5
 
@@ -1358,7 +1358,7 @@ ATT = {}
 
 ATT.PrintName = "FTAC Backburn 20\" Bolts"
 ATT.CompactName = "FTAC Backburn"
-ATT.Description = [[Thermite tipped bolts that ignite, stick to metal, and are effective against vehicles. 
+ATT.Description = [[Thermite tipped bolts that ignite, stick to metal, and are effective against vehicles.
 Bolts can not be recovered.]]
 ATT.SortOrder = 0.5
 
@@ -2185,7 +2185,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_spr208_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none","barrel_sil"}
 
-ATT.CustomPros = { 
+ATT.CustomPros = {
 	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
 }
 
@@ -2226,7 +2226,7 @@ ATT.BulletBones = {
 }
 
 ATT.ClipSizeAdd = 5
-	
+
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.DeployTimeMult = 1.1
@@ -2242,7 +2242,7 @@ ATT = {}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FORGE TAC MAG ROUNDER"
 ATT.CompactName = "FTAC MAG"
-ATT.Description = [[Special mag designed for special ammo types such as explosiv/thermite, 
+ATT.Description = [[Special mag designed for special ammo types such as explosiv/thermite,
 Reduces the total mag use to 5 rounds.]]
 
 ATT.Icon = Material("entities/attachs/mm/spr208/cod2019_mm_spr208_magcalcust1.png", "mips smooth")
@@ -2535,10 +2535,10 @@ ATT.ActivateElements = {"bolt_none","bolt_heavy"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_bolthvy.mdl"
 ATT.BoneMerge = true
 
-ATT.CustomPros = { 
+ATT.CustomPros = {
 	[ARC9:GetPhrase("mw19_bolt_stat_stability")] = ""
 }
-ATT.CustomCons = { 
+ATT.CustomCons = {
 	[ARC9:GetPhrase("mw19_bolt_stat_speed")] = ""
 }
 
@@ -2567,10 +2567,10 @@ ATT.ActivateElements = {"bolt_none","bolt_light"}
 ATT.Model = "models/weapons/cod2019/attachs/weapons/spr208/attachment_vm_sn_romeo700_boltl.mdl"
 ATT.BoneMerge = true
 
-ATT.CustomPros = { 
+ATT.CustomPros = {
 	[ARC9:GetPhrase("mw19_bolt_stat_speed")] = ""
 }
-ATT.CustomCons = { 
+ATT.CustomCons = {
 	[ARC9:GetPhrase("mw19_bolt_stat_stability")] = ""
 }
 
