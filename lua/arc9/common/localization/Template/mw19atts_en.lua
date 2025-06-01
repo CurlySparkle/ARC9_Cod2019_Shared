@@ -998,12 +998,15 @@ L["cod2019_mp5_sight_default_on.description"] = "Force the default iron sights t
 /////////////// Barrels
 L["cod2019_mp5_barrel_light.printname"] = "FSS Light"
 L["cod2019_mp5_barrel_light.compactname"] = "Light"
+L["cod2019_mp5_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description") or "Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity."
 
-L["cod2019_mp5_barrel_02.printname"] = "Monolithic Integral Suppressor"
-L["cod2019_mp5_barrel_02.compactname"] = "Monolithic"
+L["cod2019_mp5_barrel_suppshort.printname"] = "Monolithic Integral Suppressor"
+L["cod2019_mp5_barrel_suppshort.compactname"] = "Monolithic"
+L["cod2019_mp5_barrel_suppshort.description"] = ARC9:GetPhrase("cod2019_kilo141_barrel_supp.description") or "Heavy duty <color=255,255,100>integrated suppressor</color> with a monolithic core increases muzzle velocity while maintaining a low sound signature."
 
-L["cod2019_mp5_barrel_03.printname"] = "FSS Mini"
-L["cod2019_mp5_barrel_03.compactname"] = "Mini"
+L["cod2019_mp5_barrel_short.printname"] = "FSS Mini"
+L["cod2019_mp5_barrel_short.compactname"] = "Mini"
+L["cod2019_mp5_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 L["cod2019_mp5_barrel_supp.printname"] = "Subsonic Integral Suppressor"
 L["cod2019_mp5_barrel_supp.compactname"] = "Subsonic"
@@ -1214,16 +1217,17 @@ L["cod2019_iso_barrel_long.printname"] = "FSS Revolution"
 L["cod2019_iso_barrel_long.compactname"] = "Revolution"
 L["cod2019_iso_barrel_long.description"] = "Extended 280mm chrome-moly barrel with stepped shroud increases muzzle velocity and greatly improves accuracy."
 
-L["cod2019_iso_barrel_02.printname"] = "FTAC 225mm Dominator"
-L["cod2019_iso_barrel_02.compactname"] = "Dominator"
-L["cod2019_iso_barrel_02.description"] = "Solid steel barrel with polygonal rifling and ultralight shroud extension. Increases muzzle velocity and improves range with little additional weight."
+L["cod2019_iso_barrel_mid.printname"] = "FTAC 225mm Dominator"
+L["cod2019_iso_barrel_mid.compactname"] = "Dominator"
+L["cod2019_iso_barrel_mid.description"] = "Solid steel barrel with polygonal rifling and ultralight shroud extension. Increases muzzle velocity and improves range with little additional weight."
 
-L["cod2019_iso_barrel_03.printname"] = "ISO 140mm CQB"
-L["cod2019_iso_barrel_03.compactname"] = "CQB"
-L["cod2019_iso_barrel_03.description"] = "Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat."
+L["cod2019_iso_barrel_short.printname"] = "ISO 140mm CQB"
+L["cod2019_iso_barrel_short.compactname"] = "CQB"
+L["cod2019_iso_barrel_short.description"] = "Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat."
 
 L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
 L["cod2019_iso_barrel_supp.compactname"] = "Nightshade"
+L["cod2019_iso_barrel_supp.description"] = ARC9:GetPhrase("cod2019_vector_barrel_02.description") or "Monolithic <color=255,255,100>integral suppressor</color> keeps the weapon silent and increases range for longer distance stealth assaults."
 
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"

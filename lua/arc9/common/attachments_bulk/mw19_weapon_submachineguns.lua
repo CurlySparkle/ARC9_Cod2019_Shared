@@ -411,7 +411,7 @@ ATT.CompactName = "Subsonic"
 ATT.Description = [[Heavy duty monolithic core increases muzzle velocity while maintaining a low sound signature.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barrel_suppressor_v4.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barrel_suppressor.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
@@ -449,9 +449,10 @@ ATT.CustomPros = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.05
-	ATT.DeployTimeMult = 1.06
-	ATT.RangeMaxMult = 1.1
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 1.08
+	ATT.RangeMaxMult = 0.93
+	ATT.RecoilMult = 0.9
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -196 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.013
@@ -465,6 +466,54 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 1.5, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_supp")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Monolithic Integral Suppressor"
+ATT.CompactName = "Monolithic"
+ATT.Description = [[Heavy duty integrated suppressor with a monolithic core increases muzzle velocity while maintaining a low sound signature."]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barrel_suppressor_v4.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_barrel_suppshort.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_mp5_barrel"}
+ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_supp",}
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["sight_default"] then
+        model:SetBodygroup(1,0)
+    elseif swep:GetElements()["optic"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.DeployTimeMult = 1.06
+	ATT.RangeMaxMult = 1.1
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 140 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.025
+	ATT.RangeMinMult = 1.15
+	ATT.RangeMaxMult = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_suppshort")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -510,6 +559,69 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_light")
+---------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.PrintName = "FSS Mini"
+--ATT.CompactName = "Mini"
+--ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
+--ATT.SortOrder = 1
+
+--ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barshort.png", "mips smooth")
+--ATT.AutoStats = true
+--ATT.Free = false
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_barshort.mdl" --redo model?
+--ATT.BoneMerge = false
+
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--ATT.Category = {"cod2019_mp5_barrel"}
+--ATT.ActivateElements = {"barrel_none","barrel_custom","muzzle_none","foregrip_none"}
+
+--ATT.ExcludeElements = {"m203"}
+
+--ATT.MuzzleDevice_Priority = 2
+--ATT.MuzzleDevice = true
+
+--ATT.DrawFunc = function(swep, model, wm)
+--    if swep:GetElements()["sight_default"] then
+--        model:SetBodygroup(1,0)
+--    elseif swep:GetElements()["optic"] then
+--        model:SetBodygroup(1,1)
+--    end
+--    if swep:GetElements()["grip"] then
+--        model:SetBodygroup(2,2) --figure out how to hide handstop
+--    end
+--end
+
+--ATT.Element = {
+--    AttPosMods = {
+--        [1] = { -- Muzzle
+--            Pos = Vector(-2.43, 0, 0),
+--            Ang = Angle(0,0,0),
+--        }
+--    }
+--}
+
+--if !warzonestats then -- Regular Stats
+--	ATT.AimDownSightsTimeMult = 0.88
+--	ATT.SprintToFireTimeMult = 0.9
+--	ATT.DeployTimeMult = 0.95
+--	ATT.RangeMaxMult = 0.85
+--	ATT.RecoilKickMult = 1.15
+--else -- Warzone Stats
+--	ATT.PhysBulletMuzzleVelocityAdd = -210 / ARC9.HUToM
+--	ATT.AimDownSightsTimeAdd = -0.031
+--	ATT.RangeMinMult = 0.8
+--	ATT.RangeMaxMult = 0.8
+--	ATT.RecoilMult = 0.85
+--	ATT.VisualRecoilMult = 0.85
+--	ATT.SpreadAddMove = -0.0014
+--	ATT.SpeedMult = 1.02
+--	ATT.SpeedSightsMult = 1.08
+--end
+
+--ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -2713,11 +2825,15 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Revolution"
 ATT.CompactName = "FSS Revolution"
 ATT.Description = [[Extended 280mm chrome-moly barrel with stepped shroud increases muzzle velocity and greatly improves accuracy.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_longbarrel.png", "mips smooth")
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_longbarrel.mdl"
 ATT.BoneMerge = true
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_iso_barrel"
@@ -2736,7 +2852,7 @@ end
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
-            Pos = Vector(4.8, 0, 0),
+            Pos = Vector(4.8, 0, 0.05),
             Ang = Angle(0,0,0),
         },
         -- [3] = { -- Laser
@@ -2771,9 +2887,127 @@ ARC9.LoadAttachment(ATT, "cod2019_iso_barrel_long")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC 225mm Dominator"
+ATT.CompactName = "Dominator"
+ATT.Description = [[Solid steel barrel with polygonal rifling and ultralight shroud extension. Increases muzzle velocity and improves range with little additional weight.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_medbarrel_v1.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_medbarrel.mdl"
+ATT.BoneMerge = true
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_iso_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["sight_back_folded"] then
+        model:SetBodygroup(1,1)
+    end
+	
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(1,2)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(3.25, 0, 0.05),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.07
+	ATT.RangeMaxMult = 1.07
+	ATT.RecoilMult = 0.95
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 140 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.015
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_iso_barrel_mid")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "ISO 140mm CQB"
+ATT.CompactName = "CQB"
+ATT.Description = [[Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_shortbarrel.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_shortbarrel.mdl"
+ATT.BoneMerge = true
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_iso_barrel"
+ATT.ActivateElements = {"barrel_none","sight_front_none","muzzle_none"}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["sight_back_folded"] then
+        model:SetBodygroup(1,1)
+    end
+	
+    if swep:GetElements()["optic_scope"] then
+        model:SetBodygroup(1,2)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(0.15, 0, 0.05),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.92
+	ATT.RangeMaxMult = 0.93
+	ATT.RecoilMult = 1.07
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -105 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.017
+	ATT.RecoilMult = 1.07
+	ATT.VisualRecoilMult = 1.07
+	ATT.SpreadAddMove = -0.006
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.04
+end
+
+--ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+--ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_iso_barrel_short")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Nightshade"
 ATT.CompactName = "FSS Nightshade"
 ATT.Description = [[Monolithic integral suppressor keeps weapon silent and increases range for longer distance stealth assaults.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_barsil.png", "mips smooth")
 
@@ -2830,6 +3064,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC Vagrant"
 ATT.CompactName = "FTAC Vagrant"
 ATT.Description = [[Tactical stock streamlined for close quarters combat. Gets on you target faster.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_fullstock.png", "mips smooth")
 
@@ -2857,6 +3092,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "30 Round Mags"
 ATT.CompactName = "30-R 9mm"
 ATT.Description = [[Extended magazines hold 30 rounds of 9mm Parabellum ammunition with a slight weight increase.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_xmag.png", "mips smooth")
 
@@ -2886,8 +3122,9 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "50 Round Drum"
 ATT.CompactName = "50-Round"
 ATT.Description = [[High capacity magazines hold 50 rounds with a moderate weight increase.]]
+ATT.Free = false
 
-ATT.Icon = Material("entities/attachs/sm/vector/cod2019_sm_vector_drummag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_drummag.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_iso_mag"
@@ -2928,6 +3165,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "30-Round .45 ACP Mag"
 ATT.CompactName = "30-R .45 ACP"
 ATT.Description = [[Conversion kit to use bigger caliber .45 ACP ammunition. Better Damage but higher recoil.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_xmag.png", "mips smooth")
 

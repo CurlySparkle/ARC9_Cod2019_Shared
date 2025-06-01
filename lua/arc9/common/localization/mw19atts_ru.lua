@@ -979,11 +979,11 @@ L["cod2019_mp5_sight_default_on.description"] = "Force the default iron sights t
 L["cod2019_mp5_barrel_light.printname"] = "FSS Light"
 L["cod2019_mp5_barrel_light.compactname"] = "Light"
 
-L["cod2019_mp5_barrel_02.printname"] = "Monolithic Integral Suppressor"
-L["cod2019_mp5_barrel_02.compactname"] = "Monolithic"
+L["cod2019_mp5_barrel_suppshort.printname"] = "Monolithic Integral Suppressor"
+L["cod2019_mp5_barrel_suppshort.compactname"] = "Monolithic"
 
-L["cod2019_mp5_barrel_03.printname"] = "FSS Mini"
-L["cod2019_mp5_barrel_03.compactname"] = "Mini"
+L["cod2019_mp5_barrel_short.printname"] = "FSS Mini"
+L["cod2019_mp5_barrel_short.compactname"] = "Mini"
 
 L["cod2019_mp5_barrel_supp.printname"] = "Subsonic Integral Suppressor"
 L["cod2019_mp5_barrel_supp.compactname"] = "Subsonic"
@@ -1194,13 +1194,13 @@ L["cod2019_iso_barrel_long.printname"] = "FSS Revolution"
 L["cod2019_iso_barrel_long.compactname"] = "Revolution"
 L["cod2019_iso_barrel_long.description"] = "Extended 280mm chrome-moly barrel with stepped shroud increases muzzle velocity and greatly improves accuracy."
 
-L["cod2019_iso_barrel_02.printname"] = "FTAC 225mm Dominator"
-L["cod2019_iso_barrel_02.compactname"] = "Dominator"
-L["cod2019_iso_barrel_02.description"] = "Solid steel barrel with polygonal rifling and ultralight shroud extension. Increases muzzle velocity and improves range with little additional weight."
+L["cod2019_iso_barrel_mid.printname"] = "FTAC 225mm Dominator"
+L["cod2019_iso_barrel_mid.compactname"] = "Dominator"
+L["cod2019_iso_barrel_mid.description"] = "Solid steel barrel with polygonal rifling and ultralight shroud extension. Increases muzzle velocity and improves range with little additional weight."
 
-L["cod2019_iso_barrel_03.printname"] = "ISO 140mm CQB"
-L["cod2019_iso_barrel_03.compactname"] = "CQB"
-L["cod2019_iso_barrel_03.description"] = "Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat."
+L["cod2019_iso_barrel_short.printname"] = "ISO 140mm CQB"
+L["cod2019_iso_barrel_short.compactname"] = "CQB"
+L["cod2019_iso_barrel_short.description"] = "Compact factory installed fully shrouded barrel makes a small sacrifice to accuracy and range to improve close quarters combat."
 
 L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
 L["cod2019_iso_barrel_supp.compactname"] = "Nightshade"

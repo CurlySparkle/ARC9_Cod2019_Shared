@@ -976,11 +976,11 @@ L["cod2019_mp5_sight_default_on.description"] = "Force the default iron sights t
 L["cod2019_mp5_barrel_light.printname"] = "FSS Light"
 L["cod2019_mp5_barrel_light.compactname"] = "Light"
 
-L["cod2019_mp5_barrel_02.printname"] = "Monolitiskt Intern Ljuddämpade"
-L["cod2019_mp5_barrel_02.compactname"] = "Monolitisk"
+L["cod2019_mp5_barrel_suppshort.printname"] = "Monolitiskt Intern Ljuddämpade"
+L["cod2019_mp5_barrel_suppshort.compactname"] = "Monolitisk"
 
-L["cod2019_mp5_barrel_03.printname"] = "FSS Mini"
-L["cod2019_mp5_barrel_03.compactname"] = "Mini"
+L["cod2019_mp5_barrel_short.printname"] = "FSS Mini"
+L["cod2019_mp5_barrel_short.compactname"] = "Mini"
 
 L["cod2019_mp5_barrel_supp.printname"] = "Subsoniskt Intern Ljuddämpare"
 L["cod2019_mp5_barrel_supp.compactname"] = "Subsonisk"
@@ -1189,13 +1189,13 @@ L["cod2019_iso_barrel_long.printname"] = "FSS Revolution"
 L["cod2019_iso_barrel_long.compactname"] = "Revolution"
 L["cod2019_iso_barrel_long.description"] = "Förlängd 280 mm kromad pipa med tampat skydd ökar mynningshastigheten och ökar kraftigt träffsäkerheten."
 
-L["cod2019_iso_barrel_02.printname"] = "FTAC 225 mm Dominator"
-L["cod2019_iso_barrel_02.compactname"] = "Dominator"
-L["cod2019_iso_barrel_02.description"] = "Helstål pipa med polygonell räffling och extremt lätt förlängt skydd. Ökar mynningshastigheten och förbättrar räckvidd med väldigt lite tillagd vikt."
+L["cod2019_iso_barrel_mid.printname"] = "FTAC 225 mm Dominator"
+L["cod2019_iso_barrel_mid.compactname"] = "Dominator"
+L["cod2019_iso_barrel_mid.description"] = "Helstål pipa med polygonell räffling och extremt lätt förlängt skydd. Ökar mynningshastigheten och förbättrar räckvidd med väldigt lite tillagd vikt."
 
-L["cod2019_iso_barrel_03.printname"] = "ISO 140 mm CQB"
-L["cod2019_iso_barrel_03.compactname"] = "CQB"
-L["cod2019_iso_barrel_03.description"] = "Komapkt fabriksinstallerad, heltäkt pipa med en liten offring av träffsäkerhet och räckvidd för att förbättra närstridsangrepp."
+L["cod2019_iso_barrel_short.printname"] = "ISO 140 mm CQB"
+L["cod2019_iso_barrel_short.compactname"] = "CQB"
+L["cod2019_iso_barrel_short.description"] = "Komapkt fabriksinstallerad, heltäkt pipa med en liten offring av träffsäkerhet och räckvidd för att förbättra närstridsangrepp."
 
 L["cod2019_iso_barrel_supp.printname"] = "FSS Nightshade"
 L["cod2019_iso_barrel_supp.compactname"] = "Nightshade"
