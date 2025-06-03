@@ -909,9 +909,9 @@ L["cod2019_aug_barrel_ar_long.printname"] = "407 mm Förlängd Pipa"
 L["cod2019_aug_barrel_ar_long.compactname"] = "Förlängd"
 L["cod2019_aug_barrel_ar_long.description"] = "Förlängd pipa av rostfritt stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men sänker hantering."
 
-L["cod2019_aug_barrel_02.printname"] = "407 mm Lättvikt"
-L["cod2019_aug_barrel_02.compactname"] = "Lättvikt"
-L["cod2019_aug_barrel_02.description"] = "Fördjupad förlängd pipa av aluminiumlegering förlänger räckvidd och mynningshastigheten med minimal tillagd vikt."
+L["cod2019_aug_barrel_ar_light.printname"] = "407 mm Lättvikt"
+L["cod2019_aug_barrel_ar_light.compactname"] = "Lättvikt"
+L["cod2019_aug_barrel_ar_light.description"] = "Fördjupad förlängd pipa av aluminiumlegering förlänger räckvidd och mynningshastigheten med minimal tillagd vikt."
 
 L["cod2019_aug_barrel_lmg.printname"] = "622 mm Lång Pipa"
 L["cod2019_aug_barrel_lmg.compactname"] = "Lång"

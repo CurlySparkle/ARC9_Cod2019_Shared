@@ -1386,9 +1386,9 @@ L["cod2019_aug_barrel_ar_long.printname"] = "407mm Extended Barrel"
 L["cod2019_aug_barrel_ar_long.compactname"] = "Extended"
 L["cod2019_aug_barrel_ar_long.description"] = "Stainless steel barrel extension increases muzzle velocity and extends range. Additional weight stabilizes shots but slows handling."
 
-L["cod2019_aug_barrel_02.printname"] = "407mm Lightweight"
-L["cod2019_aug_barrel_02.compactname"] = "Lightweight"
-L["cod2019_aug_barrel_02.description"] = "Dimpled aluminum alloy barrel extension extends range and muzzle velocity with minimal additional weight."
+L["cod2019_aug_barrel_ar_light.printname"] = "407mm Lightweight"
+L["cod2019_aug_barrel_ar_light.compactname"] = "Lightweight"
+L["cod2019_aug_barrel_ar_light.description"] = "Dimpled aluminum alloy barrel extension extends range and muzzle velocity with minimal additional weight."
 
 L["cod2019_aug_barrel_lmg.printname"] = "622mm Long Barrel"
 L["cod2019_aug_barrel_lmg.compactname"] = "Long"

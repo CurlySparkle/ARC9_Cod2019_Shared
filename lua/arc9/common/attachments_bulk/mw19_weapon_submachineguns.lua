@@ -647,6 +647,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "5.56 NATO 30-Round Mag"
 ATT.CompactName = "5.56 30-Round"
 ATT.Description = [[Conversion kit to use 30 round 5.56 NATO magazines for increased stopping power. Slightly lower cycle rate to help control recoil.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_armag.png", "mips smooth")
 
@@ -724,6 +725,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "5.56 NATO 60-Round Drum"
 ATT.CompactName = "5.56 60-Round"
 ATT.Description = [[Conversion kit to use 60 round 5.56 NATO drum mag for increased stopping power. Slightly lower cycle rate to help control recoil.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_drummag.png", "mips smooth")
 
@@ -801,12 +803,13 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "622mm Long Barrel"
 ATT.CompactName = "622mm HBAR"
 ATT.Description = [[Maximum barrel extension pushes this weapon's range to the extreme. Heavy weight, smooth handling.]]
+ATT.Free = false
+
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_lmgbarrel.png", "mips smooth")
-
 ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_lmgbarrel.mdl"
-ATT.BoneMerge = true
+ATT.BoneMerge = false
 
-ATT.SortOrder = 0
+ATT.SortOrder = 1
 ATT.Category = "cod2019_aug_barrel"
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
@@ -838,7 +841,7 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.12
 	ATT.DeployTimeMult = 1.1
 	ATT.RangeMaxMult = 1.14
 	ATT.SpreadMult = 0.9
@@ -863,14 +866,14 @@ ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_lmg")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "407mm Extended Barrel"
-ATT.CompactName = "407mm EB"
-ATT.Description = [[Stainless steel barrel extension increases muzzle velocity and extends range. Additional weights stabilize shots but slows handling.]]
+ATT.PrintName = "407mm Lightweight"
+ATT.CompactName = "Lightweight"
+ATT.Description = [[Dimpled aluminum alloy barrel extension extends range and muzzle velocity with minimal additional weight.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_arbarrel.png", "mips smooth")
-
-ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_arbarrel.mdl"
-ATT.BoneMerge = true
+ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_arbarrel02.mdl"
+ATT.BoneMerge = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_aug_barrel"
@@ -897,6 +900,57 @@ ATT.Element = {
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.05
 	ATT.RangeMaxMult = 1.1
+	ATT.VisualRecoilMult = 1.05
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 140 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.018
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_aug_barrel_ar_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "407mm Extended Barrel"
+ATT.CompactName = "407mm EB"
+ATT.Description = [[Stainless steel barrel extension increases muzzle velocity and extends range. Additional weights stabilize shots but slows handling.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_arbarrel.png", "mips smooth")
+ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_arbarrel.mdl"
+ATT.BoneMerge = true
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_aug_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(4.1, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.07
+	ATT.RangeMaxMult = 1.1
 	ATT.RecoilMult = 0.9
 	ATT.VisualRecoilMult = 0.91
 else -- Warzone Stats
@@ -920,6 +974,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FORGE TAC CQB Comb"
 ATT.CompactName = "CQB Comb"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_stocks.png", "mips smooth")
 
@@ -935,9 +990,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 0.9
 	ATT.RecoilMult = 1.07
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 0.85
-	ATT.RecoilMult = 1.07
-	ATT.SpeedSightsMult = 0.93
+	ATT.AimDownSightsTimeAdd = -0.022
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_aug_stock_tactical")
@@ -948,6 +1001,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Heavy Stock Pro"
 ATT.CompactName = "Heavy Pro"
 ATT.Description = [[Heavy weight stock attachment provides stability while aiming.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_stock_tactical.png", "mips smooth")
 
@@ -964,10 +1018,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.07
 	ATT.AimDownSightsTimeMult = 1.1
 else -- Warzone Stats
-	ATT.RecoilUpMult = 0.9
-	ATT.RecoilSideMult = 0.9
-	ATT.AimDownSightsTimeAdd = 0.022
-	ATT.SpeedSightsMult = 0.93
+	ATT.SpeedSightsMult = 0.89
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_aug_stock_heavy")
@@ -978,6 +1029,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC Ultralight Hollow"
 ATT.CompactName = "Ultralight"
 ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_stockl.png", "mips smooth")
 
@@ -994,9 +1046,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilUpMult = 1.05
 	ATT.RecoilSideMult = 1.05
 else -- Warzone Stats
-	ATT.SpeedMultSights = 1.10
-	ATT.RecoilUpMult = 1.05
-	ATT.RecoilSideMult = 1.05
+	ATT.SpeedMultSights = 1.1
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_aug_stock_light")
@@ -1306,9 +1356,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.08
 	ATT.RecoilMult = 0.85
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.018
 	ATT.SpeedSightsMult = 0.89
-	ATT.VisualRecoilMult = 0.93
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_p90_stock_heavy")
