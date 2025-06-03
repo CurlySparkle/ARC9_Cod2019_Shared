@@ -3202,7 +3202,6 @@ ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barsillong.png", "mips smooth")
 ATT.AutoStats = true
-
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_barsillong.mdl"
@@ -3362,6 +3361,112 @@ ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_xlong")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "CX-23S"
+ATT.CompactName = "CX-23S"
+ATT.Description = [[Compact stainless steel monolithic suppressed barrel. Proprietary baffle design provides top tier weapon suppression in a small package.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barsilshort.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_barsilshort.mdl"
+ATT.BoneMerge = true
+
+ATT.LHIK_Priority = 1
+ATT.LHIK = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_cx9_barrel"}
+ATT.ActivateElements = {"barrel_none","barrel_silenced"}
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 3
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.88
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilMult = 0.92
+	ATT.RangeMaxMult = 0.9
+	ATT.RangeMinMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -90 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.007
+	ATT.RecoilMult = 0.88
+	ATT.VisualRecoilMult = 0.88
+	ATT.RangeMinMult = 0.75
+	ATT.RangeMaxMult = 0.75
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_barsilshort")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "CX-23"
+ATT.CompactName = "CX-23"
+ATT.Description = [[Short, compact barrel with a built in <color=255,255,100>angled grip</color> sacrifices range for speed and agility. Good for clearing out tight spaces.]]
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_barshort.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_barshort.mdl"
+ATT.BoneMerge = false
+
+ATT.LHIK_Priority = 1
+ATT.LHIK = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_cx9_barrel"}
+ATT.ActivateElements = {"barrel_none","barrel_short"}
+
+ATT.MuzzleDevice_Priority = 3
+ATT.MuzzleDevice = true
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-1.1, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.88
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.RangeMaxMult = 0.92
+	ATT.RangeMinMult = 0.92
+	ATT.RecoilMult = 0.92
+	ATT.SpreadMult = 1.1
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -150 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.012
+	ATT.RecoilMult = 1.08
+	ATT.VisualRecoilMult = 0.93
+	ATT.SpreadAddMove = -0.00124
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.03
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_cx9_barrel_barshort")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = [[CX-FA]]
 ATT.CompactName = [[CX-FA]]
 ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_stockskel.png")
@@ -3445,10 +3550,6 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilUpMult = 0.85
 	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.044
-	ATT.RecoilMult = 0.85
-	ATT.VisualRecoilMult = 0.85
-	ATT.SpeedMult = 0.93
 	ATT.SpeedSightsMult = 0.89
 end
 
