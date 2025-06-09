@@ -1349,13 +1349,13 @@ L["cod2019_r90_pump_stable.description"] = "Custom heavy-duty pump provides a mo
 L["cod2019_r90_pump_light.printname"] = "FTAC Ultralight Pump"
 L["cod2019_r90_pump_light.description"] = "Lightweight composite pump allows faster movement while staying on target."
 
-L["cod2019_r90_pump_03.printname"] = "FTAC Close Quarters Pro"
-L["cod2019_r90_pump_03.compactname"] = "CQR"
-L["cod2019_r90_pump_03.description"] = "Tactical pump designed for close quarters combat. Gets you on target faster."
+L["cod2019_r90_pump_tactical.printname"] = "FTAC Close Quarters Pro"
+L["cod2019_r90_pump_tactical.compactname"] = "CQR"
+L["cod2019_r90_pump_tactical.description"] = "Tactical pump designed for close quarters combat. Gets you on target faster."
 
 /////////////// Magazine
-L["cod2019_r90_mag_ext.printname"] = "Tube Extentions"
-L["cod2019_r90_mag_ext.compactname"] = "Extentions"
+L["cod2019_r90_mag_ext.printname"] = "Tube Extensions"
+L["cod2019_r90_mag_ext.compactname"] = "Extensions"
 L["cod2019_r90_mag_ext.description"] = "Tube extension carries an extra <color=100,255,100>4 rounds</color> of 12 gauge with a very slight weight increase."
 
 //////////////////// 725

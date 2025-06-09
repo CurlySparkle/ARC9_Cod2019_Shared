@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\r90\weapon_vm_sh_dpapa12_pumpl_railcover_rgb"
-    "$bumpmap" "models\cod2019\r90\weapon_vm_sh_dpapa12_pumpl_railcover_n"
-    "$phongexponenttexture" "models\cod2019\r90\weapon_vm_sh_dpapa12_pumpl_railcover_e"
+    "$basetexture" "models\cod2019\origin12\weapon_vm_sh_oscar12_stocklgt_rgb"
+    "$bumpmap" "models\cod2019\origin12\weapon_vm_sh_oscar12_stocklgt_n"
+    "$phongexponenttexture" "models\cod2019\origin12\weapon_vm_sh_oscar12_stocklgt_e"
 
     /////////////////
     "$color2" "[1 1 1]"                                     //do not touch this
@@ -23,7 +23,7 @@
     "$envmaptint" "[0.098 0.098 0.098]"                 
 
     "$detailblendmode" "4"
-    "$detailblendfactor" "1"
+    "$detailblendfactor" "0.7"
 
     //remove this if not using MWB
     "Proxies"

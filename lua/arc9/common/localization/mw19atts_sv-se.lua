@@ -1344,9 +1344,9 @@ L["cod2019_r90_pump_stable.description"] = "Anpassat och tungt handtag erbjuder 
 L["cod2019_r90_pump_light.printname"] = "FTAC Ultralight Pump"
 L["cod2019_r90_pump_light.description"] = "Lättvikt sammansatt handtag erbjuder snabbare rörelser medans man håller sig på målet."
 
-L["cod2019_r90_pump_03.printname"] = "FTAC Close Quarters Pro"
-L["cod2019_r90_pump_03.compactname"] = "CQR"
-L["cod2019_r90_pump_03.description"] = "Taktiskt handtag designat för strider på nära håll. Får dig på målet snabbare."
+L["cod2019_r90_pump_tactical.printname"] = "FTAC Close Quarters Pro"
+L["cod2019_r90_pump_tactical.compactname"] = "CQR"
+L["cod2019_r90_pump_tactical.description"] = "Taktiskt handtag designat för strider på nära håll. Får dig på målet snabbare."
 
 /////////////// Magazine
 L["cod2019_r90_mag_ext.printname"] = "Rörförlängningar"

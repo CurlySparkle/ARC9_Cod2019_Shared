@@ -776,6 +776,7 @@ ATT.MenuCategory = "ARC9 - MW19 Attachments"
 ATT.PrintName = "FORGE TAC Impaler"
 ATT.CompactName = "Impaler"
 ATT.Description = [[Extended barrel increases muzzle velocity and range. Additional weight and length stabilize shots but hinder mobility.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_barrellong.png", "mips smooth")
 
@@ -826,6 +827,7 @@ ATT.MenuCategory = "ARC9 - MW19 Attachments"
 ATT.PrintName = "FORGE TAC Precision"
 ATT.CompactName = "Precision"
 ATT.Description = [[Heavy duty tapered barrel tightens pellet and slightly extends range with only a minor increase to weight.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_barrelmid.png", "mips smooth")
 
@@ -872,6 +874,7 @@ ATT.MenuCategory = "ARC9 - MW19 Attachments"
 ATT.PrintName = "FORGE TAC Wideshot"
 ATT.CompactName = "Wideshot"
 ATT.Description = [[Lightweight smooth bore barrel widens pellet spread and improves agility with only a minor decrease to range.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_barrelshort.png", "mips smooth")
 
@@ -919,6 +922,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "12 Round Mag"
 ATT.CompactName = "12-Round"
 ATT.Description = [[Better capacity magazines that hold 12 rounds with a weight increase.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_xmags.png", "mips smooth")
 
@@ -951,6 +955,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "25 Round Drum"
 ATT.CompactName = "25-Round"
 ATT.Description = [[High capacity magazines hold 25 rounds with a heavy weight increase.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_drummag.png", "mips smooth")
 
@@ -1038,9 +1043,37 @@ ARC9.LoadAttachment(ATT, "cod2019_origin12_mag_drum")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW19 Attachments"
+ATT.PrintName = "FORGE TAC Dart"
+ATT.CompactName = "Dart"
+ATT.Description = [[Tactical stock designed for fast target acquisition.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_stocklgt.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_stocklgt.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_origin12_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.93
+	ATT.RecoilKickMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.029
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_origin12_stock_medium")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "Commando Foregrip"
 ATT.CompactName = "Commando"
 ATT.Description = [[Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_sidegripang.png", "mips smooth")
 
@@ -1078,6 +1111,7 @@ ATT = {}
 ATT.PrintName = "Merc Foregrip"
 ATT.CompactName = "Merc"
 ATT.Description = [[Extended foregrip reduces vertical recoil and provides stability from the hip for fast paced guerilla tactics.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_sidegrip_long.png", "mips smooth")
 
@@ -1115,6 +1149,7 @@ ATT.PrintName = "Commando Foregrip"
 ATT.CompactName = "Commando"
 ATT.Description = [[Heavy weight angled grip keeps the weapon steady while aiming, and helps maintain control during heavy fire.]]
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_sidegripang.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/origin12/attachment_vm_sh_oscar12_sidegrip_long_alt.mdl"
 ATT.ActivateElements = {"grip"}
@@ -1512,6 +1547,7 @@ ATT.MenuCategory = "ARC9 - MW19 Attachments"
 ATT.PrintName = "FORGE TAC Sentry"
 ATT.CompactName = "FTAC Sentry"
 ATT.Description = [[Heavy duty tapered barrels tightens pellet spread and slightly extends range with only a minor increase to weight.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_barlong.png", "mips smooth")
 
@@ -1558,6 +1594,7 @@ ATT.MenuCategory = "ARC9 - MW19 Attachments"
 ATT.PrintName = "FORGE TAC Gemini"
 ATT.CompactName = "FTAC Gemini"
 ATT.Description = [[Dual thin-walled smooth bore barrels widen pellet spread and improve agility with only a minor decrease to range.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_barshort.png", "mips smooth")
 
@@ -1601,6 +1638,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC Ultralight Pump"
 ATT.CompactName = "FTAC Ultralight Pump"
 ATT.Description = [[Lightweight composite pump allows faster movement while staying on target.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_pump_light.png", "mips smooth")
 
@@ -1612,9 +1650,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/r90/attachment_vm_sh_dpapa12
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.DrawTimeMult = 0.85
-	ATT.HolsterTimeMult = 0.85
-	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
 	ATT.RecoilSideMult = 1.1
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 1.15
@@ -1627,7 +1663,8 @@ ATT = {}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS R9-0 Bulldog"
 ATT.CompactName = "FSS Bulldog"
-ATT.Description = [[ustom heavy-duty pump provides a more stable sight picture.]]
+ATT.Description = [[Custom heavy-duty pump provides a more stable sight picture.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_pump_stable.png", "mips smooth")
 
@@ -1639,15 +1676,69 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/r90/attachment_vm_sh_dpapa12
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.DrawTimeMult = 0.85
-	ATT.HolsterTimeMult = 0.85
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.RecoilSideMult = 1.1
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilSideMult = 0.9
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_r90_pump_stable")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC Close Quarters Pro"
+ATT.CompactName = "CQR"
+ATT.Description = [[Tactical pump designed for close quarters combat. Gets you on target faster.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_pump_tactical.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_r90_pump"}
+ATT.ActivateElements = {"pump_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/r90/attachment_vm_sh_dpapa12_pump_tactical.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.RecoilSideMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.029
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_r90_pump_tactical")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Tube Extensions"
+ATT.CompactName = "Extensions"
+ATT.Description = [[Tube extension carries an extra 4 rounds of 12 gauge with a very slight weight increase.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sh/r90/cod2019_sh_r90_ammo.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_r90_mag"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/r90/attachment_vm_sh_dpapa12_xtube.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 4
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.005
+	ATT.SpeedMult = 0.98
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.5, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.5, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_r90_mag_ext")
 
 //////////////////////////////////////// -- VLK Rogue
 /////////////////////////// -- Barrels
