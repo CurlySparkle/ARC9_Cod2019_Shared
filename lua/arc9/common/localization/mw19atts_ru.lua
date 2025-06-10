@@ -2148,8 +2148,8 @@ L["cod2019_rytec_barrel_short.printname"] = "FTAC 448mm Dictator"
 L["cod2019_rytec_barrel_short.compactname"] = "Dictator"
 L["cod2019_rytec_barrel_short.description"] = "FTAC's 448mm titanium-cobalt barrel sacrifices accuracy and range for speed and agility."
 
-L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
-L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
+L["cod2019_rytec_barrel_heavy.printname"] = "XRK Harbinger"
+L["cod2019_rytec_barrel_heavy.compactname"] = "Harbinger"
 
 /////////////// Muzzle
 L["cod2019_rytec_muzzle_brake.printname"] = "XRK Tank Brake"

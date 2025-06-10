@@ -2141,8 +2141,8 @@ L["cod2019_rytec_barrel_short.printname"] = "FTAC 448 mm Dictator"
 L["cod2019_rytec_barrel_short.compactname"] = "Dictator"
 L["cod2019_rytec_barrel_short.description"] = "FTACs 448 mm titan-kobolt pipa offrar träffsäkerhet och räckvidd för hastighet och rörlighet."
 
-L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
-L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
+L["cod2019_rytec_barrel_heavy.printname"] = "XRK Harbinger"
+L["cod2019_rytec_barrel_heavy.compactname"] = "Harbinger"
 
 /////////////// Muzzle
 L["cod2019_rytec_muzzle_brake.printname"] = "XRK Tank Brake"

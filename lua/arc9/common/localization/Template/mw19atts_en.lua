@@ -2176,8 +2176,14 @@ L["cod2019_rytec_barrel_short.printname"] = "FTAC 448mm Dictator"
 L["cod2019_rytec_barrel_short.compactname"] = "Dictator"
 L["cod2019_rytec_barrel_short.description"] = "FTAC's 448mm titanium-cobalt barrel sacrifices accuracy and range for speed and agility."
 
-L["cod2019_rytec_barrel_03.printname"] = "XRK Harbinger"
-L["cod2019_rytec_barrel_03.compactname"] = "Harbinger"
+L["cod2019_rytec_barrel_heavy.printname"] = "XRK Harbinger"
+L["cod2019_rytec_barrel_heavy.compactname"] = "Harbinger"
+L["cod2019_rytec_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_hdr_barrel_02.description")
+
+/////////////// Underbarrel
+L["cod2019_rytec_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_rytec_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_rytec_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
 
 /////////////// Muzzle
 L["cod2019_rytec_muzzle_brake.printname"] = "XRK Tank Brake"

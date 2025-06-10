@@ -696,6 +696,7 @@ ATT.PrintName = "XRK Tank Brake"
 ATT.Description = "Low pressure 45 degree ports direct gases rearward to greatly control the Rytec's extreme recoil."
 ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_brake.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_rytec_muzzle"
@@ -711,6 +712,9 @@ if !warzonestats then -- Regular Stats
 	ATT.VisualRecoilMult = 0.92
 	ATT.RecoilMult = 0.92
 else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.025
+	ATT.VisualRecoilMult = 0.68
+	ATT.RecoilMult = 0.68
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_rytec_muzzle_brake")
@@ -721,6 +725,7 @@ ATT.PrintName = "Rytec AMR Suppressor"
 ATT.Description = "Multi caliber suppressor greatly reduces sound signature and increases muzzle velocity. Moderate weight increase affects agility."
 ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_silencerlrg.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_rytec_muzzle"
@@ -743,9 +748,12 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 0.93
 	ATT.DamageMinMult = 0.91
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.013
-	ATT.VisualRecoilMult = 0.97
-	ATT.RecoilMult = 0.97
+	ATT.PhysBulletMuzzleVelocityAdd = 104 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.081
+	ATT.VisualRecoilMult = 0.95
+	ATT.RecoilMult = 0.95	
+	ATT.RangeMaxMult = 1.1
+	ATT.RangeMinMult = 1.1
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 6, 0) end
@@ -850,13 +858,13 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.DeployTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.12
+	ATT.DeployTimeMult = 1.12
 	ATT.RecoilMult = 0.8
 	ATT.RangeMaxMult = 1.1
 	ATT.RangeMinMult = 1.1
 	ATT.PhysBulletMuzzleVelocityMult = 1.1
-ATT.SpreadMult = 0.85
+	ATT.SpreadMult = 0.85
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 260 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.091
@@ -876,11 +884,60 @@ ARC9.LoadAttachment(ATT, "cod2019_rytec_barrel_long")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "XRK Harbinger"
+ATT.CompactName = "Harbinger"
+ATT.Description = [[This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_barhvy.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/rytec/attachment_vm_sn_xmike109_barhvy.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_rytec_barrel"}
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1 --adjust these stats
+	ATT.RecoilMult = 0.7
+	ATT.RangeMaxMult = 0.88
+	ATT.RangeMinMult = 0.88
+	ATT.PhysBulletMuzzleVelocityMult = 0.9
+	ATT.SpreadMult = 0.85
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -88 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.239
+	ATT.RecoilMult = 0.25
+	ATT.VisualRecoilMult = 0.25
+	ATT.SpreadAddMove = -0.028
+	ATT.RangeMinMult = 0.75
+	ATT.RangeMaxMult = 0.75
+	ATT.SpeedMult = 0.93
+	ATT.SpeedSightsMult = 0.93
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_rytec_barrel_heavy")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "Bipod"
 ATT.CompactName = "Bipod"
 ATT.Description = [[Installs the bipod for better recoil and accuracy.]]
 
 ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_bipod.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_bipod"
@@ -918,6 +975,7 @@ ATT.Description = [[Special mag designed for special ammo types such as explosiv
 Reduces the total mag use to 5 rounds.]]
 
 ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_calcust1.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_mag"
@@ -956,12 +1014,41 @@ ATT.CompactName = "STOVL"
 ATT.Description = [[Eastern tactical comb wrap streamlined for close quarters combat. Gets you on target faster.]]
 
 ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_stocks.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_stock"
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/rytec/attachment_vm_sn_xmike109_stocks.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.SprintToFireTimeMult = 0.95
+	ATT.RecoilMult = 1.1
+	ATT.VisualRecoilMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.071
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_rytec_stock_stable")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Mastadon"
+ATT.CompactName = "Mastadon"
+ATT.Description = [[Heavy duty fixed stock provides exceptional stability while aiming.]]
+
+ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_stockhvy.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_rytec_stock"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/rytec/attachment_vm_sn_xmike109_stockhvy.mdl"
 ATT.BoneMerge = true
 ATT.ActivateElements = {"stock_none"}
 
@@ -973,7 +1060,7 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_rytec_stock_stable")
+ARC9.LoadAttachment(ATT, "cod2019_rytec_stock_heavy")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -982,6 +1069,7 @@ ATT.CompactName = "Trekker"
 ATT.Description = [[Ultralight composite stock improves movement while aiming down sights.]]
 
 ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_stockl.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_rytec_stock"
@@ -998,7 +1086,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 0.85
 	ATT.HolsterTimeMult = 0.85
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.071
+	ATT.SpeedSightsMult = 1.15
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_rytec_stock_light")
