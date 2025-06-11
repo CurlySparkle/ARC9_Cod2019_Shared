@@ -2099,17 +2099,17 @@ L["cod2019_dragunov_mag_20.description"] = string.format(mw19magtext.descl, "20"
 
 //////////////////// HDR
 /////////////// Barrels
-L["cod2019_hdr_barrel_01.printname"] = "26.9\" HDR Pro"
-L["cod2019_hdr_barrel_01.compactname"] = "26.9\""
-L["cod2019_hdr_barrel_01.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight helps to stabilize shots at the cost of agility."
+L["cod2019_hdr_barrel_long.printname"] = "26.9\" HDR Pro"
+L["cod2019_hdr_barrel_long.compactname"] = "26.9\""
+L["cod2019_hdr_barrel_long.description"] = "Longer barrel increases muzzle velocity and extends range. Additional weight helps to stabilize shots at the cost of agility."
 
-L["cod2019_hdr_barrel_02.printname"] = "26.0\" Bull Barrel"
-L["cod2019_hdr_barrel_02.compactname"] = "26.0\""
-L["cod2019_hdr_barrel_02.description"] = "This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity."
+L["cod2019_hdr_barrel_mid.printname"] = "26.0\" Bull Barrel"
+L["cod2019_hdr_barrel_mid.compactname"] = "26.0\""
+L["cod2019_hdr_barrel_mid.description"] = "This beast of a barrel provides maximum recoil control and shot stability at the cost of mobility and bullet velocity."
 
-L["cod2019_hdr_barrel_03.printname"] = "17.2\" Bull Barrel"
-L["cod2019_hdr_barrel_03.compactname"] = "17.2\""
-L["cod2019_hdr_barrel_03.description"] = "Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility."
+L["cod2019_hdr_barrel_short.printname"] = "17.2\" Bull Barrel"
+L["cod2019_hdr_barrel_short.compactname"] = "17.2\""
+L["cod2019_hdr_barrel_short.description"] = "Heavy duty reinforced cylindrical barrel lightens recoil and stabilizes shots at the cost of bullet velocity and mobility."
 
 /////////////// Stocks
 L["cod2019_hdr_stock_heavy.description"] = "Sniper variant of the Stalker stock designed to improve target acquisition."
@@ -2178,7 +2178,7 @@ L["cod2019_rytec_barrel_short.description"] = "FTAC's 448mm titanium-cobalt barr
 
 L["cod2019_rytec_barrel_heavy.printname"] = "XRK Harbinger"
 L["cod2019_rytec_barrel_heavy.compactname"] = "Harbinger"
-L["cod2019_rytec_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_hdr_barrel_02.description")
+L["cod2019_rytec_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_hdr_barrel_mid.description")
 
 /////////////// Underbarrel
 L["cod2019_rytec_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"

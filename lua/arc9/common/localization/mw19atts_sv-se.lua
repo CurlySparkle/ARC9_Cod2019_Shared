@@ -2064,17 +2064,17 @@ L["cod2019_svd_mag_20.description"] = string.format(mw19magtext.descl, "20", mw1
 
 //////////////////// HDR
 /////////////// Barrels
-L["cod2019_hdr_barrel_01.printname"] = "683 mm HDR Pro"
-L["cod2019_hdr_barrel_01.compactname"] = "683 mm"
-L["cod2019_hdr_barrel_01.description"] = "Längre pipa ökar mynninghastigheten och förlänger räckvidden. Tillagd vikt hjälper till att stabilisera skott med kostnad på rörlighet."
+L["cod2019_hdr_barrel_long.printname"] = "683 mm HDR Pro"
+L["cod2019_hdr_barrel_long.compactname"] = "683 mm"
+L["cod2019_hdr_barrel_long.description"] = "Längre pipa ökar mynninghastigheten och förlänger räckvidden. Tillagd vikt hjälper till att stabilisera skott med kostnad på rörlighet."
 
-L["cod2019_hdr_barrel_02.printname"] = "660 mm Tjurpipa"
-L["cod2019_hdr_barrel_02.compactname"] = "660 mm"
-L["cod2019_hdr_barrel_02.description"] = "Denna odjuret av en pipa erbjuder maximal rekylkontroll och skott stabilitet med kostnad på rörlighet och mynningshastighet."
+L["cod2019_hdr_barrel_mid.printname"] = "660 mm Tjurpipa"
+L["cod2019_hdr_barrel_mid.compactname"] = "660 mm"
+L["cod2019_hdr_barrel_mid.description"] = "Denna odjuret av en pipa erbjuder maximal rekylkontroll och skott stabilitet med kostnad på rörlighet och mynningshastighet."
 
-L["cod2019_hdr_barrel_03.printname"] = "437 mm Tjurpipa"
-L["cod2019_hdr_barrel_03.compactname"] = "437 mm"
-L["cod2019_hdr_barrel_03.description"] = "Tung förstärkt cylindrisk pipa lätter på rekylen och stabiliserar skotten med kostnad på mynningshastighet och rörlighet."
+L["cod2019_hdr_barrel_short.printname"] = "437 mm Tjurpipa"
+L["cod2019_hdr_barrel_short.compactname"] = "437 mm"
+L["cod2019_hdr_barrel_short.description"] = "Tung förstärkt cylindrisk pipa lätter på rekylen och stabiliserar skotten med kostnad på mynningshastighet och rörlighet."
 
 /////////////// Stocks
 L["cod2019_hdr_stock_heavy.description"] = "Prickskytteversion av Stalker-kolven designad att förbättra målförvärv."

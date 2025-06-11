@@ -3593,7 +3593,7 @@ ATT.ShellSounds = ARC9.COD2019_9mm_Table
 ATT.ShellScale = 0.08
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag_phys.mdl"
 ATT.BoneMerge = true
 --ATT.ModelOffset = Vector(1, 0, 1)
 
