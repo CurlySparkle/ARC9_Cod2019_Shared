@@ -452,7 +452,8 @@ ATT.BulletBones = {
 ATT.ClipSizeAdd = 2
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.05
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.ReloadTimeMult = 1.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.011
 	ATT.SpeedMult = 0.98
@@ -486,8 +487,9 @@ ATT.BulletBones = {
 ATT.ClipSizeAdd = 4
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.ReloadTimeMult = 1.07
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.15
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.022
 	ATT.SpeedMult = 0.97
@@ -634,7 +636,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RangeMaxMult = 0.70
 	ATT.DamageMaxMult = 0.85
 	ATT.PhysBulletMuzzleVelocityMult = 0.65
-	ATT.SpreadMult = 1.50
+	ATT.SpreadMult = 1.5
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -171 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.07
@@ -651,6 +653,60 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-3, -3, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_short")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Singuard Arms Pro"
+ATT.CompactName = "Pro"
+ATT.Description = [[Custom vanadium barrel with polygonal rifling increases muzzle velocity and improves range with only a minor increase to weight.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_barmid.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_barmid.mdl"
+ATT.BoneMerge = false
+
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_ax50_barrel"}
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-1.2, 0, 0),
+            Ang = Angle(0,0,0),
+        },
+    }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.07
+	ATT.RangeMaxMult = 1.1
+	ATT.PhysBulletMuzzleVelocityMult = 1.15
+	ATT.SpreadMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 152 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.054
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_mid")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -719,10 +775,11 @@ ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_long")
 --ATT.Description = "Stock designed for agility while aiming down sights."
 --ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stockl.png", "mips smooth")
 --ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---
+--ATT.Free = false
+
 --ATT.SortOrder = 1
 --ATT.Category = "cod2019_ax50_stock"
---
+
 --ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stockl.mdl"
 --ATT.BoneMerge = true
 --ATT.ActivateElements = {"stock_none"}
@@ -736,7 +793,7 @@ ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_long")
 --	ATT.DeployTimeMult = 0.9
 --	ATT.RecoilMult = 1.14
 --end
---
+
 --ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_light")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -747,6 +804,7 @@ ATT.Description = [[Special mag designed for special ammo types such as explosiv
 Reduces the total mag use to 5 rounds.]]
 
 ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_mmags.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_ax50_mag"
@@ -777,6 +835,77 @@ ATT.BulletBones = {
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_mag_special")
 ----------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.PrintName = "7 Round Mags"
+--ATT.CompactName = "7-Round"
+--ATT.Description = [[Extended magazines hold 7 rounds of .50 BMG ammunition with a slight weight increase.]]
+
+--ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_mmags.png", "mips smooth")
+--ATT.Free = false
+
+--ATT.SortOrder = 0
+--ATT.Category = "cod2019_ax50_mag"
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_mmags.mdl"
+--ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_mmags.mdl"
+--ATT.BoneMerge = true
+--ATT.ActivateElements = {"mag_none","mag_mmag"}
+
+--ATT.ClipSizeAdd = 2
+
+--ATT.BulletBones = {
+--	[1] = "j_bullet_01",
+--	[2] = "j_bullet_02",
+--}
+
+--if !warzonestats then -- Regular Stats
+--	ATT.AimDownSightsTimeMult = 1.07
+--	ATT.ReloadTimeMult = 1.05
+--else -- Warzone Stats
+--	ATT.AimDownSightsTimeAdd = -0.011
+--	ATT.SpeedMult = 0.98
+--end
+
+--ARC9.LoadAttachment(ATT, "cod2019_ax50_mag_7")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "9 Round Mags"
+ATT.CompactName = "9-Round"
+ATT.Description = [[High capacity magazines hold 9 rounds of .50 BMG ammunition with a moderate weight increase.]]
+
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_xmags.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_ax50_mag"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_xmags.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.ClipSizeAdd = 4
+
+ATT.BulletBones = {
+	[1] = "j_bullet_01",
+	[2] = "j_bullet_02",
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.15
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.022
+	ATT.SpeedMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_ax50_mag_9")
+----------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "Bipod"
@@ -784,6 +913,7 @@ ATT.CompactName = "Bipod"
 ATT.Description = [[Installs the bipod for better recoil and accuracy.]]
 
 ATT.Icon = Material("entities/attachs/sn/rytec/cod2019_sn_rytec_bipod.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_ax50_bipod"
@@ -1034,7 +1164,7 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1 --adjust these stats
+	ATT.AimDownSightsTimeMult = 1.1
 	ATT.RecoilMult = 0.7
 	ATT.RangeMaxMult = 0.88
 	ATT.RangeMinMult = 0.88

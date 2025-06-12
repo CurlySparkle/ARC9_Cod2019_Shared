@@ -2100,9 +2100,9 @@ L["cod2019_hdr_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19a
 
 //////////////////// AX-50
 /////////////// Barrels
-L["cod2019_ax50_barrel_01.printname"] = "Singuard Arms Pro"
-L["cod2019_ax50_barrel_01.compactname"] = "Pro"
-L["cod2019_ax50_barrel_01.description"] = "Anpassad vanadin pipa med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med endast en mindre ökning på vikten."
+L["cod2019_ax50_barrel_mid.printname"] = "Singuard Arms Pro"
+L["cod2019_ax50_barrel_mid.compactname"] = "Pro"
+L["cod2019_ax50_barrel_mid.description"] = "Anpassad vanadin pipa med polygonell räffling ökar mynningshastigheten och förbättrar räckvidden med endast en mindre ökning på vikten."
 
 L["cod2019_ax50_barrel_short.printname"] = "432 mm Fabrikspipa"
 L["cod2019_ax50_barrel_short.compactname"] = "432 mm F."

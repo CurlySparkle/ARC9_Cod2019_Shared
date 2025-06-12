@@ -2747,9 +2747,9 @@ L["cod2019_hdr_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19a
 
 //////////////////// AX-50
 /////////////// Barrels
-L["cod2019_ax50_barrel_01.printname"] = "Singuard Arms Pro"
-L["cod2019_ax50_barrel_01.compactname"] = "Pro"
-L["cod2019_ax50_barrel_01.description"] = "Custom vanadium barrel with polygonal rifling increases muzzle velocity and improves range with only a minor increase to weight."
+L["cod2019_ax50_barrel_mid.printname"] = "Singuard Arms Pro"
+L["cod2019_ax50_barrel_mid.compactname"] = "Pro"
+L["cod2019_ax50_barrel_mid.description"] = "Custom vanadium barrel with polygonal rifling increases muzzle velocity and improves range with only a minor increase to weight."
 
 L["cod2019_ax50_barrel_short.printname"] = "17.0\" Factory Barrel"
 L["cod2019_ax50_barrel_short.compactname"] = "17.0\" F"

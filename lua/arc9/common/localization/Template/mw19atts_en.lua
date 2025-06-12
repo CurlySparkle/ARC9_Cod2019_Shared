@@ -2135,12 +2135,13 @@ L["cod2019_hdr_mag_9.description"] = string.format(mw19magtext.descl, "9", mw19a
 
 //////////////////// AX-50
 /////////////// Barrels
-L["cod2019_ax50_barrel_01.printname"] = "Singuard Arms Pro"
-L["cod2019_ax50_barrel_01.compactname"] = "Pro"
-L["cod2019_ax50_barrel_01.description"] = "Custom vanadium barrel with polygonal rifling increases muzzle velocity and improves range with only a minor increase to weight."
+L["cod2019_ax50_barrel_mid.printname"] = "Singuard Arms Pro"
+L["cod2019_ax50_barrel_mid.compactname"] = "Pro"
+L["cod2019_ax50_barrel_mid.description"] = "Custom vanadium barrel with polygonal rifling increases muzzle velocity and improves range with only a minor increase to weight."
 
 L["cod2019_ax50_barrel_short.printname"] = "17.0\" Factory Barrel"
 L["cod2019_ax50_barrel_short.compactname"] = "17.0\" F"
+L["cod2019_ax50_barrel_short.description"] = ARC9:GetPhrase("cod2019_svd_barrel_mid.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move."
 
 L["cod2019_ax50_barrel_long.printname"] = "32.0\" Factory Barrel"
 L["cod2019_ax50_barrel_long.compactname"] = "32.0\" F"
@@ -2149,9 +2150,11 @@ L["cod2019_ax50_barrel_long.description"] = "Longer barrel increases muzzle velo
 /////////////// Stocks
 L["cod2019_ax50_stock_heavy.printname"] = "Singuard Arms Marksman"
 L["cod2019_ax50_stock_heavy.compactname"] = "Marksman"
+L["cod2019_ax50_stock_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_ax50_stock_light.printname"] = "Singuard Arms Evader"
 L["cod2019_ax50_stock_light.compactname"] = "Evader"
+L["cod2019_ax50_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_ax50_stock_medium.printname"] = "Singuard Arms Assassin"
 L["cod2019_ax50_stock_medium.compactname"] = "Assassin"
