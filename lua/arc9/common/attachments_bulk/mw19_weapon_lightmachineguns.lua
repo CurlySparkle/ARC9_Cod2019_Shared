@@ -1436,6 +1436,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Horizon 23.0\""
 ATT.CompactName = "Horizon"
 ATT.Description = [[Designed to improve muzzle velocity range with as little additional weight as possible.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_barhvy.png", "mips smooth")
 
@@ -1484,6 +1485,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Summit 26.8\""
 ATT.CompactName = "Summit"
 ATT.Description = [[Designed to improve muzzle velocity range with as little additional weight as possible.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_barlong.png", "mips smooth")
 
@@ -1517,20 +1519,21 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.15
-	ATT.DeployTimeMult = 1.20
-	ATT.RangeMinMult = 1.15
-	ATT.RangeMaxMult = 1.15
-	ATT.RecoilMult = 0.85
-	ATT.SpreadMult = 0.9
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.15
+	ATT.RangeMinMult = 1.06
+	ATT.RangeMaxMult = 1.06
+	ATT.SpreadMult = 0.75
 else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = 212 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = 0.067
-	ATT.RangeMinMult = 1.25
-	ATT.RangeMaxMult = 1.25
-	ATT.RecoilMult = 0.9
-	ATT.SpeedMult = 0.94
-	ATT.SpeedSightsMult = 0.93
+	ATT.PhysBulletMuzzleVelocityAdd = 304 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.061
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
+	ATT.RecoilMult = 0.89
+	ATT.VisualRecoilMult = 0.87
+	ATT.SpreadAddMove = 0.00153
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.95
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(1, 2, 0) end
@@ -1543,6 +1546,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Bruen 18.0\" Para"
 ATT.CompactName = "Bruen 18.0"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_barshort.png", "mips smooth")
 
@@ -1597,11 +1601,39 @@ ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Skeleton Stock"
+ATT.CompactName = "Skeleton"
+ATT.Description = [[Ultralight stock speeds up weapon handling and movement at the expense of aiming stability.]]
+ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_stockl.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_stockl.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_bruenmk9_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.97
+	ATT.SprintToFireTimeMult = 0.88
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilMult = 1.15
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.025
+	ATT.SpeedSightsMult = 1.17
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_stock_vlight")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "60 Round Mags"
 ATT.CompactName = "60-Round"
 ATT.Description = [[Conversion kit to use 60 round 5.56 NATO magazines for increased stopping power. Slightly lower cycle rate to help control recoil.]]
 ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_smags.png", "mips smooth")
-
+ATT.Free = false
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_762_hr.mdl"
 ATT.ShellScale = 0.07
@@ -1653,6 +1685,36 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_mag_60")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "200 Round Belt"
+ATT.CompactName = "200R"
+ATT.Description = [[Extended belts hold 200 rounds of 5.56 NATO ammunition, sacrificing mobility for maximum ammo capacity.]]
+ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_xbelt.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_bruenmk9_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_xbelt.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/bruenmk9/attachment_vm_lm_mkilo3_xbelt_phys.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 100
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.2
+	ATT.DeployTimeMult = 1.25
+	ATT.ReloadTimeMult = 1.15
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.031
+	ATT.SpeedMult = 0.94
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_bruenmk9_mag_200")
 ----------------------------------------------------------------------------------------
 -- ATT = {}
 

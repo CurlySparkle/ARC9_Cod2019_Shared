@@ -1683,20 +1683,30 @@ L["cod2019_holger_armag_30.description"] = string.format(mw19magtext.descsmall, 
 /////////////// Barrels
 L["cod2019_bruenmk9_barrel_heavy.printname"] = "XRK Horizon 23.0\""
 L["cod2019_bruenmk9_barrel_heavy.compactname"] = "Horizon"
+L["cod2019_bruenmk9_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_m91_barrel_mid.description") or "Designed to improve muzzle velocity range with as little additional weight as possible."
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
+L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("cod2019_bizon_barrel_01.description") or "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_bruenmk9_barrel_short.printname"] = "Bruen 18.0\" Para"
 L["cod2019_bruenmk9_barrel_short.compactname"] = "Para"
+L["cod2019_bruenmk9_barrel_short.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_short.description") or "Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 
 /////////////// Underbarrel
--- L["cod2019_bruenmk9_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_bruenmk9_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"
+L["cod2019_bruenmk9_grip_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.compactname") or "Bipod"
+L["cod2019_bruenmk9_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
+
+/////////////// Stocks
+L["cod2019_bruenmk9_stock_vlight.printname"] = ARC9:GetPhrase("cod2019_akilo47_stockskel.printname") or "Skeleton Stock"
+L["cod2019_bruenmk9_stock_vlight.compactname"] = ARC9:GetPhrase("cod2019_m13_stock_light.compactname") or "Skeleton"
+L["cod2019_bruenmk9_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 /////////////// Magazine
-L["cod2019_bruen_mag_200.printname"] = string.format(mw19magtext.belt, "200")
-L["cod2019_bruen_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
-L["cod2019_bruen_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["556"])
+L["cod2019_bruenmk9_mag_200.printname"] = string.format(mw19magtext.belt, "200")
+L["cod2019_bruenmk9_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
+L["cod2019_bruenmk9_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["556"])
 
 L["cod2019_bruenmk9_mag_60.printname"] = string.format(mw19magtext.mag, "60")
 L["cod2019_bruenmk9_mag_60.compactname"] = string.format(mw19magtext.mags, "60")

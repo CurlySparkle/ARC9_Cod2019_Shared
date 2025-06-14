@@ -2253,14 +2253,14 @@ L["cod2019_bruenmk9_grip_bipod.compactname"] = ARC9:GetPhrase("cod2019_grips_bip
 L["cod2019_bruenmk9_grip_bipod.description"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.description") or "Stability legs to improve control while using the weapon from the ground."
 
 /////////////// Stocks
-L["cod2019_bruen_stock_vlight.printname"] = ARC9:GetPhrase("cod2019_akilo47_stockskel.printname") or "Skeleton Stock"
-L["cod2019_bruen_stock_vlight.compactname"] = ARC9:GetPhrase("cod2019_m13_stock_light.compactname") or "Skeleton"
-L["cod2019_bruen_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
+L["cod2019_bruenmk9_stock_vlight.printname"] = ARC9:GetPhrase("cod2019_akilo47_stockskel.printname") or "Skeleton Stock"
+L["cod2019_bruenmk9_stock_vlight.compactname"] = ARC9:GetPhrase("cod2019_m13_stock_light.compactname") or "Skeleton"
+L["cod2019_bruenmk9_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
 
 /////////////// Magazine
-L["cod2019_bruen_mag_200.printname"] = string.format(mw19magtext.belt, "200")
-L["cod2019_bruen_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
-L["cod2019_bruen_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["556"])
+L["cod2019_bruenmk9_mag_200.printname"] = string.format(mw19magtext.belt, "200")
+L["cod2019_bruenmk9_mag_200.compactname"] = string.format(mw19magtext.mags, "200")
+L["cod2019_bruenmk9_mag_200.description"] = string.format(mw19magtext.descbeltl, "200", mw19ammotype["556"])
 
 L["cod2019_bruenmk9_mag_60.printname"] = string.format(mw19magtext.mag, "60")
 L["cod2019_bruenmk9_mag_60.compactname"] = string.format(mw19magtext.mags, "60")

@@ -154,8 +154,8 @@ if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.05
 	ATT.ReloadTimeMult = 1.07
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
-	ATT.SpeedMult = 0.97
+	ATT.AimDownSightsTimeAdd = 0.004
+	ATT.SpeedMult = 0.98
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 3, 1) end
@@ -263,9 +263,9 @@ ATT.Element = {
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.9
-	ATT.SprintToFireTimeMult = 0.9
-	ATT.RecoilMult = 1.08
-	ATT.RangeMaxMult = 0.92
+	ATT.DeployTimeMult = 0.88
+	ATT.RecoilMult = 1.07
+	ATT.RangeMaxMult = 0.9
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -100 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.04
@@ -316,16 +316,13 @@ ATT.Element = {
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.07
 	ATT.SprintToFireTimeMult = 1.07
-	ATT.RecoilMult = 0.88
+	ATT.RecoilMult = 0.85
 	ATT.RangeMaxMult = 1.07
 else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = 110 / ARC9.HUToM
-	ATT.VisualRecoilMult = 0.85
-	ATT.SpreadAddMove = -0.00169
+	ATT.PhysBulletMuzzleVelocityAdd = 88 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.019
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
-	ATT.SpeedMult = 0.98
-	ATT.SpeedSightsMult = 0.97
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_357_barrel_02")
@@ -406,10 +403,10 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 0.9
 	ATT.VisualRecoilMult = 0.93
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.014
-	ATT.RecoilMult = 0.9
-	ATT.VisualRecoilMult = 0.9
-	ATT.SpeedMult = 0.93
+	ATT.AimDownSightsTimeAdd = 0.028
+	ATT.RecoilMult = 0.8
+	ATT.VisualRecoilMult = 0.8
+	ATT.SpeedMult = 0.91
 	ATT.SpeedSightsMult = 0.87
 end
 
@@ -756,11 +753,11 @@ ATT.ClipSizeAdd = 4
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.05
-	ATT.DeployTimeMult = 1.07
+	ATT.DeployTimeMult = 1.05
 	ATT.ReloadTimeMult = 1.07
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
-	ATT.SpeedMult = 0.97
+	ATT.AimDownSightsTimeAdd = 0.002
+	ATT.SpeedMult = 0.98
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 3, 1) end
@@ -851,12 +848,12 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.15
-	ATT.DeployTimeMult = 1.15
-	ATT.RecoilMult = 0.9
+	ATT.AimDownSightsTimeMult = 1.12
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilMult = 0.92
 	ATT.RecoilKickMult = 0.9
-	ATT.RangeMaxMult = 1.1
-	ATT.RangeMinMult = 1.1
+	ATT.RangeMaxMult = 1.08
+	ATT.RangeMinMult = 1.08
 	ATT.PhysBulletMuzzleVelocityMult = 1.08
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 71 / ARC9.HUToM
@@ -956,13 +953,13 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.92
-	ATT.SprintToFireTimeMult = 0.94
-	ATT.DeployTimeMult = 0.92
- 	ATT.PhysBulletMuzzleVelocityMult = 0.95
-	ATT.RangeMaxMult = 0.95
-	ATT.RecoilMult = 1.06
-	ATT.RecoilKickMult = 1.06
+	ATT.AimDownSightsTimeMult = 0.95
+	ATT.SprintToFireTimeMult = 0.95
+	ATT.DeployTimeMult = 0.93
+ 	ATT.PhysBulletMuzzleVelocityMult = 0.96
+	ATT.RangeMaxMult = 0.96
+	ATT.RecoilMult = 1.05
+	ATT.RecoilKickMult = 1.05
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -38 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.012
@@ -1042,7 +1039,7 @@ ATT.BulletBones = {
 ATT.ClipSizeAdd = 3
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.07
+	ATT.AimDownSightsTimeMult = 1.05
 	ATT.SprintToFireTimeMult = 1.07
 	ATT.ReloadTimeMult = 1.05
 else -- Warzone Stats
@@ -1675,11 +1672,11 @@ ATT.CustomPros = {
 
 if !warzonestats then -- Regular Stats
  	ATT.PhysBulletMuzzleVelocityMult = 1.06
-	ATT.RangeMaxMult = 1.1
-	ATT.RangeMinMult = 1.1
-	ATT.RecoilMult = 0.94
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.DeployTimeMult = 1.1
+	ATT.RangeMaxMult = 1.12
+	ATT.RangeMinMult = 1.12
+	ATT.RecoilMult = 0.94
 	ATT.SprintToFireTimeMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 131 / ARC9.HUToM
@@ -2165,8 +2162,8 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.RangeMaxMult = 1.1
-	ATT.AimDownSightsTimeMult = 1.05
+	ATT.RangeMaxMult = 1.15
+	ATT.AimDownSightsTimeMult = 1.1
 	ATT.RecoilKickMult = 1.5
 
 	ATT.FiremodesOverride = {
@@ -2283,8 +2280,8 @@ if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.07
 	ATT.DeployTimeMult = 1.05
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.005
-	ATT.SpeedMult = 0.97
+	ATT.AimDownSightsTimeAdd = 0.002
+	ATT.SpeedMult = 0.98
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 2, 0.5) end

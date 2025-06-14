@@ -547,15 +547,14 @@ ATT.BoneMerge = true
 ATT.ClipSizeAdd = 4
 
 if !warzonestats then -- Regular Stats
-	ATT.ReloadTimeMult = 1.07
+	ATT.ReloadTimeMult = 1.05
 	ATT.AimDownSightsTimeMult = 1.05
-	ATT.DeployTimeMult = 1.03
 else -- Warzone Stats
 	ATT.CustomCons = {
 		[ ARC9:GetPhrase("autostat.reloadtime") ] = "-5%"
 	}
 	ATT.AimDownSightsTimeAdd = 0.088
-	ATT.SpeedMult = 0.98
+	ATT.SpeedMult = 1.02
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_fal_mag_24")
@@ -783,9 +782,8 @@ end
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.93
-	ATT.SprintToFireTimeMult = 0.93
-	ATT.PhysBulletMuzzleVelocityMult = 0.95
-	ATT.RangeMaxMult = 0.95
+	ATT.SpreadMult = 0.95
+	ATT.RecoilMult = 1.05
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.016
@@ -1216,10 +1214,11 @@ ATT.Category = "cod2019_m4_stock"
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.SprintToFireTimeMult = 0.9
-	ATT.DeployTimeMult = 0.9
-	ATT.RecoilMult = 1.2
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.DeployTimeMult = 0.85
+	ATT.RecoilKickMult = 1.3
+	ATT.RecoilUpMult = 1.05
+	ATT.RecoilSideMult = 1.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.035
 	ATT.RecoilMult = 1.29
@@ -1490,9 +1489,8 @@ ATT.Category = "cod2019_famas_stock"
 ATT.ActivateElements = {"stock_tactical"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.95
 	ATT.DeployTimeMult = 1.05
-	ATT.RecoilMult = 1.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.027
 end
@@ -1788,7 +1786,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilUpMult = 1.05
 	ATT.RecoilSideMult = 1.05
 else -- Warzone Stats
-	ATT.SpeedMultSights = 1.10
+	ATT.SpeedMultSights = 1.15
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_oden_stock_light")
@@ -2238,11 +2236,11 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m13/attachment_v
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.DamageMaxMult = 1.15
-	ATT.DamageMinMult = 1.15
-	ATT.RangeMaxMult = 1.10
-	ATT.RecoilMult = 1.10
-	ATT.RecoilKickMult = 1.05
+	ATT.DamageMaxMult = 1.1
+	ATT.DamageMinMult = 1.1
+	ATT.RangeMaxMult = 1.1
+	ATT.RecoilMult = 1.1
+	ATT.RecoilKickMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -130 / ARC9.HUToM
 	ATT.VisualRecoilMult = 1.08
@@ -2791,7 +2789,7 @@ ATT.Element = {
 if !warzonestats then -- Regular Stats
 	ATT.RangeMinMult = 1.07
 	ATT.RangeMaxMult = 1.07
-	ATT.AimDownSightsTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.05
 	ATT.RecoilKickMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 170 / ARC9.HUToM
@@ -3792,12 +3790,12 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.DeployTimeMult = 0.93
+	ATT.AimDownSightsTimeMult = 0.88
+	ATT.DeployTimeMult = 0.85
 	ATT.SprintToFireTimeMult = 0.9
-	ATT.RangeMaxMult = 0.9
-	ATT.RangeMinMult = 0.9
-	ATT.RecoilMult = 1.07
+	ATT.RangeMaxMult = 0.87
+	ATT.RangeMinMult = 0.87
+	ATT.RecoilUpMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -255 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.034
@@ -3921,11 +3919,11 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.RecoilKickMult = 0.9
-	ATT.DeployTimeMult = 1.08
-	ATT.RangeMaxMult = 0.95
-	ATT.RangeMinMult = 0.95
+	ATT.AimDownSightsTimeMult = 0.95
+	ATT.RecoilKickMult = 1.07
+	ATT.DeployTimeMult = 1.05
+	ATT.RangeMaxMult = 1.04
+	ATT.RangeMinMult = 1.04
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -127 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.014
@@ -3983,9 +3981,9 @@ ATT.Category = "cod2019_grau556_stock"
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.SprintToFireTimeMult = 0.9
-	ATT.RecoilMult = 1.1
+	ATT.AimDownSightsTimeMult = 0.94
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilUpMult = 1.18
 else -- Warzone Stats
 	ATT.SpeedMultSights = 1.15
 end
@@ -4445,9 +4443,8 @@ ATT.Firemodes = {
 
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 310
-	ATT.AimDownSightsTimeMult = 0.93
-	ATT.DeployTimeMult = 0.9
-	ATT.VisualRecoilMult = 1.25
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.RecoilUpMult = 1.3
 	ATT.DamageMaxMult = 1.3
 	ATT.DamageMinMult = 1.3
 	ATT.RangeMaxMult = 1.25
@@ -4520,9 +4517,9 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_ga
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.SprintToFireTimeMult = 0.9
-	ATT.RecoilMult = 1.1
+	ATT.AimDownSightsTimeMult = 0.88
+	ATT.SprintToFireTimeMult = 0.85
+	ATT.RecoilUpMult = 1.1
 	ATT.RecoilSideMult = 1.1
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.016
@@ -4676,11 +4673,12 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 1.1
 	ATT.AimDownSightsTimeMult = 1.1
-	ATT.RecoilMult = 0.93
-	ATT.RangeMaxMult = 1.1
-	ATT.RangeMinMult = 1.1
+	ATT.DeployTimeMult = 1.07
+	ATT.RecoilUpMult = 0.94
+	ATT.RangeMaxMult = 1.05
+	ATT.RangeMinMult = 1.05
+	ATT.SpreadMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 170 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.020
@@ -4710,8 +4708,9 @@ ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
-	ATT.DeployTimeMult = 1.1
-	ATT.RecoilMult = 0.9
+	ATT.DeployTimeMult = 1.12
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
@@ -4734,10 +4733,9 @@ ATT.Category = {"cod2019_an94_stock"}
 ATT.ActivateElements = {"stock_retract"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.SprintToFireTimeMult = 0.9
-	ATT.DeployTimeMult = 0.9
-	ATT.RecoilMult = 1.2
+	ATT.AimDownSightsTimeMult = 0.8
+	ATT.SprintToFireTimeMult = 0.8
+	ATT.RecoilMult = 1.3
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.038
 	ATT.RecoilMult = 1.29
@@ -5271,8 +5269,8 @@ ATT.Category = {"cod2019_asval_stock"}
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.DeployTimeMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.88
+	ATT.DeployTimeMult = 0.92
 	ATT.RecoilUpMult = 1.1
 	ATT.RecoilSideMult = 1.1
 else -- Warzone Stats
