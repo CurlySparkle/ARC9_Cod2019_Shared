@@ -503,9 +503,9 @@ ATT.CustomPros = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.05
-	ATT.DeployTimeMult = 1.06
-	ATT.RangeMaxMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 0.93
+	ATT.RangeMaxMult = 1.05
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 140 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.025
@@ -604,11 +604,10 @@ ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_light")
 --}
 
 --if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 0.88
---	ATT.SprintToFireTimeMult = 0.9
---	ATT.DeployTimeMult = 0.95
---	ATT.RangeMaxMult = 0.85
---	ATT.RecoilKickMult = 1.15
+--	ATT.AimDownSightsTimeMult = 0.95
+--	ATT.SprintToFireTimeMult = 0.95
+--	ATT.DeployTimeMult = 0.9
+--	ATT.RangeMaxMult = 0.88
 --else -- Warzone Stats
 --	ATT.PhysBulletMuzzleVelocityAdd = -210 / ARC9.HUToM
 --	ATT.AimDownSightsTimeAdd = -0.031
@@ -2966,7 +2965,7 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.08
 	ATT.DeployTimeMult = 1.07
 	ATT.RangeMaxMult = 1.07
-	ATT.RecoilMult = 0.95
+	ATT.RecoilMult = 0.93
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 140 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -3428,11 +3427,10 @@ ATT.CustomPros = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.88
-	ATT.DeployTimeMult = 0.9
-	ATT.RecoilMult = 0.92
-	ATT.RangeMaxMult = 0.9
-	ATT.RangeMinMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.85
+	ATT.RangeMaxMult = 0.93
+	ATT.RangeMinMult = 0.93
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -90 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.007
@@ -3484,11 +3482,9 @@ end
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.88
-	ATT.SprintToFireTimeMult = 0.9
-	ATT.RangeMaxMult = 0.92
-	ATT.RangeMinMult = 0.92
-	ATT.RecoilMult = 0.92
-	ATT.SpreadMult = 1.1
+	ATT.DeployTimeMult = 0.8
+	ATT.RangeMaxMult = 0.9
+	ATT.RangeMinMult = 0.9
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -150 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.012

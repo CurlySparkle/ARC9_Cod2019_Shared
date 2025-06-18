@@ -1059,9 +1059,11 @@ ATT.Category = "cod2019_origin12_stock"
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.SprintToFireTimeMult = 0.93
-	ATT.RecoilKickMult = 1.1
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.SprintToFireTimeMult = 0.92
+	ATT.DeployTimeMult = 0.85
+	ATT.RecoilSideMult = 1.14
+	ATT.RecoilUpMult = 1.14
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.029
 end

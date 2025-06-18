@@ -216,11 +216,69 @@ ARC9.LoadAttachment(ATT, "cod2019_pkm_grip_bipod")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "SA87 25.4 Factory"
+ATT.CompactName = "Barrel 25.4"
+ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
+
+ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_long.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_barrel_long.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_sa86_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 3
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(0.84, 0, 0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.SprintToFireTimeMult = 1.05
+	ATT.DeployTimeMult = 1.05
+	ATT.RecoilMult = 0.9
+	ATT.RangeMaxMult = 1.05
+	ATT.RangeMinMult = 1.05
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 243 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.037
+	ATT.RecoilMult = 0.93
+	ATT.VisualRecoilMult = 0.93
+	ATT.SpreadAddMove = 0.00975
+	ATT.RangeMinMult = 1.18
+	ATT.RangeMaxMult = 1.18
+	ATT.SpeedMult = 0.99
+	ATT.SpeedSightsMult = 0.96
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.5, 0.5, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_sa86_barrel_long")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "SA87 18.2 Factory"
 ATT.CompactName = "Barrel 18.2"
 ATT.Description = [[Shorter barrel improves agility at a slight cost to bullet velocity and range.]]
 
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_mid.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_barrel_mid.mdl"
 ATT.BoneMerge = true
@@ -254,7 +312,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RangeMinMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -145 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.035
+	ATT.AimDownSightsTimeAdd = -0.029
 	ATT.RecoilMult = 0.93
 	ATT.VisualRecoilMult = 0.93
 	ATT.SpreadAddMove = 0.0013
@@ -277,6 +335,7 @@ ATT.CompactName = "Barrel 12.4"
 ATT.Description = [[Shortest barrel available sacrifices accuracy and range for speed and agility.]]
 
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_short.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_barrel_short.mdl"
 ATT.BoneMerge = true
@@ -453,6 +512,7 @@ ATT.PrintName = "XRK SA87 Heavy Stock Pro"
 ATT.CompactName = "Heavy Stock Pro"
 ATT.Description = [[Heavy weight stock attachment provides stability while aiming.]]
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stock_tactical.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stock_tactical.mdl"
 ATT.BoneMerge = false
@@ -481,6 +541,7 @@ ATT.PrintName = "FORGE TAC CQB Comb"
 ATT.CompactName = "FTAC CQB Comb"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stocks.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stocks.mdl"
 ATT.BoneMerge = false
@@ -505,6 +566,7 @@ ATT.PrintName = "SA87 Ultralight Hollow"
 ATT.CompactName = "Ultralight"
 ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_stockl.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/sa86/attachment_vm_lm_lima86_stockl.mdl"
 ATT.BoneMerge = false

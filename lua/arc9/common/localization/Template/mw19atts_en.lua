@@ -1564,8 +1564,9 @@ L["cod2019_sa86_barrel_mid.printname"] = "SA87 18.2\" Factory"
 L["cod2019_sa86_barrel_mid.compactname"] = "18.2\""
 L["cod2019_sa86_barrel_mid.description"] = "Shorter barrel improves agility at a slight cost to bullet velocity and range."
 
-L["cod2019_sa87_barrel_02.printname"] = "SA87 25.4\" Factory"
-L["cod2019_sa87_barrel_02.compactname"] = "25.4\""
+L["cod2019_sa86_barrel_long.printname"] = "SA87 25.4\" Factory"
+L["cod2019_sa86_barrel_long.compactname"] = "25.4\""
+L["cod2019_sa86_barrel_long.description"] = ARC9:GetPhrase("cod2019_725_barrel_long.description") or "Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_sa86_barrel_short.printname"] = "SA87 12.4\" Factory"
 L["cod2019_sa86_barrel_short.compactname"] = "12.4\""

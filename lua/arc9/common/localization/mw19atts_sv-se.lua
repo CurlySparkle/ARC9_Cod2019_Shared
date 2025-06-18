@@ -1533,8 +1533,8 @@ L["cod2019_sa86_barrel_mid.printname"] = "SA87 462 mm Fabrik"
 L["cod2019_sa86_barrel_mid.compactname"] = "462 mm"
 L["cod2019_sa86_barrel_mid.description"] = "Kort pipa förbättrar rörligheten med en lätt kostnad på mynningshastighet och räckvidd."
 
-L["cod2019_sa87_barrel_02.printname"] = "SA87 645 mm Fabrik"
-L["cod2019_sa87_barrel_02.compactname"] = "645 mm"
+L["cod2019_sa86_barrel_long.printname"] = "SA87 645 mm Fabrik"
+L["cod2019_sa86_barrel_long.compactname"] = "645 mm"
 
 L["cod2019_sa86_barrel_short.printname"] = "SA87 315 mm Fabrik"
 L["cod2019_sa86_barrel_short.compactname"] = "315 mm"
