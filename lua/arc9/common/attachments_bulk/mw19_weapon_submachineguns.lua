@@ -1054,7 +1054,7 @@ ATT = {}
 
 ATT.PrintName = "Integral 2.8x Optic"
 ATT.CompactName = [[2.8x Optic]]
---ATT.Icon = Material("entities/attachs/cod2019_mm_sks_scope.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_lmgrail.png", "mips smooth")
 ATT.Description = [[Built in scope with 2.8x magnification provides superior target acquisition.]]
 
 ATT.CustomPros = {

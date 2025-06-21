@@ -226,6 +226,58 @@ ARC9.LoadAttachment(ATT, "cod2019_50gs_grip_custom")
 
 /////////////////////////// -- .357
 ATT = {}
+ATT.PrintName = "Lockwood Pistol Scope"
+ATT.CompactName = "Lockwood"
+ATT.Description = [[High power 4.0x scope converts this pistol into an accurate long range weapon. Optic glint visible to enemies.]]
+ATT.Icon = Material("entities/attachs/pi/357/cod2019_pi_357_scope.png", "mips smooth")
+
+ATT.SortOrder = 4
+ATT.Free = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_357_optic"}
+ATT.ActivateElements = {"scope_357"}
+--ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+
+ATT.Model = "models/weapons/cod2019/attachs/scopes/scope_357.mdl"
+ATT.BoneMerge = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10.5, -0.85),
+        Ang = Angle(0, 0, 0),
+        ViewModelFOV = 26,
+        Magnification = 1.15,
+        IgnoreExtra = true,
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeMagnification = 4
+ATT.RTScopeAdjustable = false
+ATT.ScopeScreenRatio = 425/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/overlays/aug_crosshair")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeShadowIntensity = 6
+ATT.RTScopeNoPP = false
+ATT.RTScopeColorable = false
+
+ATT.CustomPros = {
+    [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "4x"
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = 0.103
+	ATT.VisualRecoilMult = 0.98
+	ATT.RecoilMult = 0.97
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.103
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_optic_scope_357")
+----------------------------------------------------------------------------------------
+ATT = {}
 
 ATT.PrintName = ".357 Snub Nose"
 ATT.CompactName = "Snub Nose"
