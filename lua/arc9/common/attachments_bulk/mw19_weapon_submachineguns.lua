@@ -3033,9 +3033,6 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 1.04
 end
 
---ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 0, 0) end
---ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0, 0, 0) end
-
 ARC9.LoadAttachment(ATT, "cod2019_iso_barrel_short")
 ----------------------------------------------------------------------------------------
 ATT = {}
@@ -3094,6 +3091,39 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 6, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(6, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_iso_barrel_supp")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "ISO Collapsible"
+ATT.CompactName = "Collapsible"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Collapsing the stock greatly increases movement.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_nostock.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_iso_stock"
+ATT.ActivateElements = {"stock_retract"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.75
+	ATT.DeployTimeMult = 0.75
+	ATT.RecoilMult = 1.3
+	ATT.RecoilKickMult = 1.3
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.029
+	ATT.RecoilMult = 1.3
+	ATT.VisualRecoilMult = 1.29
+	ATT.SpreadAddMove = -0.003
+	ATT.SpeedMult = 1.02
+	ATT.SpeedSightsMult = 1.13
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_iso_stock_none")
 ----------------------------------------------------------------------------------------
 ATT = {}
 

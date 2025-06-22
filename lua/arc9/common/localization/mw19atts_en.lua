@@ -1728,7 +1728,7 @@ L["cod2019_iso_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium
 
 L["cod2019_iso_stock_none.printname"] = "ISO Collapsible"
 L["cod2019_iso_stock_none.compactname"] = "Collapsible"
-L["cod2019_iso_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_iso_stock_none.description"] = "The ultimate run and gun modification when agility is more important than precision. Collapsing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_iso_mag_30.printname"] = string.format(mw19magtext.mag, "30")

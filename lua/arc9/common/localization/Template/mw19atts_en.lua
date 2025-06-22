@@ -1232,9 +1232,11 @@ L["cod2019_iso_barrel_supp.description"] = ARC9:GetPhrase("cod2019_vector_barrel
 /////////////// Stock
 L["cod2019_iso_stock_medium.printname"] = "FTAC Vagrant"
 L["cod2019_iso_stock_medium.compactname"] = "Vagrant"
+L["cod2019_iso_stock_medium.description"] = ARC9:GetPhrase("mw19stockdesc.medium") or "Tactical stock streamlined for close quarters combat. Gets you on target faster."
 
 L["cod2019_iso_stock_none.printname"] = "ISO Collapsible"
 L["cod2019_iso_stock_none.compactname"] = "Collapsible"
+L["cod2019_iso_stock_none.description"] = "The ultimate run and gun modification when agility is more important than precision. Collapsing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_iso_mag_30.printname"] = string.format(mw19magtext.mag, "30")

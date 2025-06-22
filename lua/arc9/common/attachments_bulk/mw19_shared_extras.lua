@@ -562,6 +562,84 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_striker45_griptape_03")
 
+//////////////////////////////////////////////// -- ISO Rear Grips
+/////////////////////////// -- cod2019_iso_griptape_01
+
+ATT = {}
+
+ATT.PrintName = "FSS Vice ISO Grip"
+ATT.Description = "Vice"
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_pistolgrip.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_iso_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_01"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_pistolgrip01.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.SpeedSightsMult = 0.996
+else -- Warzone Stats
+	ATT.RecoilMult = 0.92
+	ATT.VisualRecoilMult = 0.92
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_iso_griptape_01")
+
+/////////////// -- cod2019_iso_griptape_02
+ATT = {}
+
+ATT.PrintName = "FTAC Elite ISO Grip"
+ATT.Description = "Elite"
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_pistolgrip02.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 2
+ATT.Category = "cod2019_iso_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_02"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_pistolgrip02.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.RecoilMult = 0.994
+	ATT.VisualRecoilMult = 0.994
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.96
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_iso_griptape_02")
+
+/////////////// -- cod2019_iso_griptape_03
+ATT = {}
+
+ATT.PrintName = "ISO Tac-Form"
+ATT.Description = "Tac-Form"
+ATT.Icon = Material("entities/attachs/sm/iso/cod2019_sm_iso_pistolgrip03.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_iso_pistolgrip"
+ATT.ActivateElements = {"pgrip_none","pgrip_03"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_pistolgrip03.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeAdd = -0.011
+	ATT.SprintToFireTimeAdd = -0.037
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.009
+	ATT.SprintToFireTimeAdd = -0.038
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_iso_griptape_03")
+
 //////////////////////////////////////////////// -- Ammo Types
 /////////////////////////// -- M32
 /////////////// -- M32 Heal Gas
