@@ -925,7 +925,7 @@ ATT.Category = {"cod2019_crossbow_limbs"}
 ATT.ActivateElements = {"limbs_none"}
 
 ATT.CustomCons = {
-	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "-10%",
+	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "-10%"
 }
 
 if !warzonestats then -- Regular Stats
