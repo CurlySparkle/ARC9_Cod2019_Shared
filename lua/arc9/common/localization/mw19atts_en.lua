@@ -2377,9 +2377,9 @@ L["cod2019_raal_grip_side_fss.compactname"] = "Oblique"
 L["cod2019_raal_grip_side_fss.description"] = "Canted foregrip improves vertical recoil and provides a better stance for raising and lowering the weapon."
 
 /////////////// Magazine
-L["cod2019_raal_mag_150.printname"] = string.format(mw19magtext.belt, "150")
-L["cod2019_raal_mag_150.compactname"] = string.format(mw19magtext.mags, "150")
-L["cod2019_raal_mag_150.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["338"])
+L["cod2019_raal_mag_xmag.printname"] = string.format(mw19magtext.belt, "150")
+L["cod2019_raal_mag_xmag.compactname"] = string.format(mw19magtext.mags, "150")
+L["cod2019_raal_mag_xmag.description"] = string.format(mw19magtext.descbelt, "150", mw19ammotype["338"])
 
 L["cod2019_raal_mag_smag.printname"] = string.format(mw19magtext.belt, "50")
 L["cod2019_raal_mag_smag.compactname"] = string.format(mw19magtext.mags, "50")

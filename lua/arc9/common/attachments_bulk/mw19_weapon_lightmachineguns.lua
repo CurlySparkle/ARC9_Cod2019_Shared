@@ -2276,12 +2276,61 @@ ARC9.LoadAttachment(ATT, "cod2019_finn_mag_ct_100")
 /////////////////////////// --  RAAL MG
 ATT = {}
 
+ATT.PrintName = "RAAL Monocore"
+ATT.CompactName = "Monocore"
+ATT.Description = [[Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility.]]
+
+ATT.SortOrder = 1
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_suppressor.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_suppressor.mdl"
+ATT.BoneMerge = false
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_raal_muzzle"}
+ATT.ActivateElements = {"muzzle_none"}
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.DeployTimeMult = 1.15
+	ATT.RangeMaxMult = 1.1
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 146 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.045
+	ATT.RecoilMult = 0.95
+	ATT.VisualRecoilMult = 0.93
+	ATT.RangeMinMult = 1.1
+	ATT.RangeMaxMult = 1.1
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_raal_muzzle_mono")
+----------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "32.0\" RAAL Line Breaker"
 ATT.CompactName = "32.0\""
 ATT.Description = [[This formidable 32.0" barrel greatly increases muzzle velocity and extends range.]]
 
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_barlong.mdl"
 ATT.BoneMerge = true
@@ -2335,6 +2384,7 @@ ATT.CompactName = "26.0\""
 ATT.Description = [[This formidable 32.0" barrel greatly increases muzzle velocity and extends range.]]
 
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barhvy.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_barhvy.mdl"
 ATT.BoneMerge = true
@@ -2376,6 +2426,7 @@ ATT.CompactName = "25.0\""
 ATT.Description = [[25.0 inch Barrel with aluminum shell, titanium core, and chrome-moly lined bore reduces weight and improves agility.]]
 
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barlight.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_barlight.mdl"
 ATT.BoneMerge = true
@@ -2425,30 +2476,15 @@ ATT.CompactName = "50 Round Belts"
 ATT.Description = [[]]
 
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_smag.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_raal_mag"
 ATT.ActivateElements = {"mag_none","mag_smag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_smag.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_smag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_smag_phys.mdl"
 ATT.BoneMerge = true
-
-ATT.BulletBones = {
-    [12] = {"j_bullet13"},
-    [11] = {"j_bullet12"},
-    [10] = {"j_bullet11"},
-    [9] = {"j_bullet10"},
-    [8] = {"j_bullet9"},
-    [7] = {"j_bullet8"},
-    [6] = {"j_bullet7"},
-    [5] = {"j_bullet6"},
-    [4] = {"j_bullet5"},
-    [3] = {"j_bullet4"},
-    [2] = {"j_bullet3"},
-    [1] = {"j_bullet2"},
-    [0] = {"j_bullet1"},
-}
 
 ATT.ClipSizeAdd = -50
 ATT.CustomPros = {
@@ -2469,11 +2505,44 @@ ARC9.LoadAttachment(ATT, "cod2019_raal_mag_smag")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "150 Round Belts"
+ATT.CompactName = "150 Round Belts"
+ATT.Description = [[Longer belts hold 150 rounds of .338 Lapua Magnum ammunition with an additional weight increase.]]
+
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_xmags.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_raal_mag"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_xmags_phys.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 50
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.2
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.007
+	ATT.VisualRecoilMult = 0.91
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_raal_mag_xmag")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "PMC Grip"
 ATT.CompactName = "PMC"
 ATT.Description = [[Canted grip designed purely for controlling vertical recoil and preventing muzzle climb.]]
 
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_gripside02.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_gripside02.mdl"
 
@@ -2510,6 +2579,7 @@ ATT.CompactName = "FSS"
 ATT.Description = [[Canted foregrip improves vertical recoil and provides a better stance for raising and lowering the weapon.]]
 
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_gripside03.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_gripside03.mdl"
 
@@ -2540,12 +2610,71 @@ ARC9.LoadAttachment(ATT, "cod2019_raal_grip_side_fss")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC Sandpiper Pro"
+ATT.CompactName = "Sandpiper"
+ATT.Description = [[Stock designed for agility while aiming down sights.]]
+
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockl.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_stockl.mdl"
+
+ATT.SortOrder = 0
+ATT.AutoStats = true
+ATT.Category = "cod2019_raal_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
+else -- Warzone Stats
+	ATT.VisualRecoilMult = 0.91
+	ATT.SpeedSightsMult = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_stock_raal_light")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC Elevate"
+ATT.CompactName = "Elevate"
+ATT.Description = [[Multiple degrees of adjustability allow fine-tuned customization, ensuring you get on target as fast as possible.]]
+
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stocks.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_stocks.mdl"
+
+ATT.SortOrder = 0
+ATT.AutoStats = true
+ATT.Category = "cod2019_raal_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.95
+	ATT.RecoilUpMult = 0.9
+	ATT.RecoilSideMult = 0.9
+	ATT.DeployTimeMult = 1.12
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.042
+	ATT.VisualRecoilMult = 0.91
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_stock_raal_medium")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Resistor"
 ATT.CompactName = [[Resistor]]
 ATT.Description = [[Stock designed for agility while aiming down sights.]]
-ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockh.png", "mips smooth")
-ATT.SortOrder = 5.3
 
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockh.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 5.3
 ATT.AutoStats = true
 ATT.Category = "cod2019_stocks"
 
