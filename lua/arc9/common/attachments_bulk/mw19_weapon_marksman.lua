@@ -1002,7 +1002,7 @@ ATT.Category = {"cod2019_crossbow_limbs"}
 ATT.ActivateElements = {"limbs_none"}
 
 ATT.CustomPros = {
-	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "30%",
+	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "30%"
 }
 
 if !warzonestats then -- Regular Stats
@@ -1043,7 +1043,7 @@ ATT.Category = {"cod2019_crossbow_wires"}
 ATT.ActivateElements = {"wires_none"}
 
 ATT.CustomPros = {
-	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "10%",
+	[ ARC9:GetPhrase("autostat.muzzlevelocity") ] = "10%"
 }
 
 if !warzonestats then -- Regular Stats

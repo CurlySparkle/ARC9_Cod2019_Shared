@@ -1822,8 +1822,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Factory Adverse"
 ATT.CompactName = "Factory Adverse"
 ATT.Description = ""
-
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barrel.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_barrel"
@@ -1872,8 +1872,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK LongShot Advantage"
 ATT.CompactName = "LongShot"
 ATT.Description = ""
-
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlong.mdl"
 ATT.BoneMerge = false
@@ -1892,11 +1892,14 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ATT.Element = {
-    AttPosMods = {
-        [1] = { -- Muzzle
-            Pos = Vector(3.1, 0, 0),
-        }
-    }
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(3.1, 0, 0),
+		},
+		[3] = { -- Laser
+			Pos = Vector(5.7, -0.03, -0.1),
+		}
+	}
 }
 
 if !warzonestats then -- Regular Stats
@@ -1927,8 +1930,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK LongShot Adverse"
 ATT.CompactName = "LongShot <A>"
 ATT.Description = ""
-
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlong.mdl"
 ATT.BoneMerge = false
@@ -1950,11 +1953,14 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ATT.Element = {
-    AttPosMods = {
-        [1] = { -- Muzzle
-            Pos = Vector(3.1, 0, 0),
-        }
-    }
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(3.1, 0, 0),
+		},
+		[3] = { -- Laser
+			Pos = Vector(5.7, -0.03, -0.1),
+		}
+	}
 }
 
 ATT.Overheat = true
@@ -2010,8 +2016,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC VC-8 Harrier"
 ATT.CompactName = "Harrier"
 ATT.Description = [[Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity.]]
-
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barlight.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlight.mdl"
 ATT.BoneMerge = false
@@ -2030,11 +2036,14 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ATT.Element = {
-    AttPosMods = {
-        [1] = { -- Muzzle
-            Pos = Vector(-2, 0, 0),
-        }
-    }
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(-2, 0, 0),
+		},
+		[3] = { -- Laser
+			Pos = Vector(-1.6, 0.79, -0.1),
+		}
+	}
 }
 
 if !warzonestats then -- Regular Stats
@@ -2062,8 +2071,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC VC-8 Harrier Adverse"
 ATT.CompactName = "Harrier Adverse"
 ATT.Description = [[Ultra Light Forge Tac barrel with a milled aluminium shroud and large bore reduces weight for improved handling at the cost of muzzle velocity.]]
-
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barlight.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barlight.mdl"
 ATT.BoneMerge = false
@@ -2085,11 +2094,14 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 ATT.Element = {
-    AttPosMods = {
-        [1] = { -- Muzzle
-            Pos = Vector(-2, 0, 0),
-        }
-    }
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(-2, 0, 0),
+		},
+		[3] = { -- Laser
+			Pos = Vector(-1.6, 0.79, -0.1),
+		}
+	}
 }
 
 ATT.Overheat = true
@@ -2138,15 +2150,166 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, -1, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_finn_barrel_light_adv")
+----------------------------------------------------------------------------------------
+ATT = {} -- Heavy Barrel
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Pro Twist"
+ATT.CompactName = "Twist"
+ATT.Description = [[Aluminum alloy shroud and chrome-moly polygonal rifled barrel perfectly balance range with mobility.]]
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barhvy.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barhvy.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_finn_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- Laser
+            Pos = Vector(0, 0.64, -0.1),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.12
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilMult = 0.8
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 162 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.026
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_finn_heavy")
+-----------------------------------
+ATT = {} -- Heavy Barrel Adverse
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Pro Twist Adverse"
+ATT.CompactName = "Twist Adverse"
+ATT.Description = [[XRKs polygonal rifled heavy duty barrel prevents a loss to range when set to Adverse fire mode. Allows for the max rate of fire without losing lethality at a distance.]]
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_barhvy.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_barhvy.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_finn_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none", "ziptie"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["ziptie"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- Laser
+            Pos = Vector(0, 0.64, -0.1),
+        }
+    }
+}
+
+ATT.Overheat = true
+ATT.HeatCapacity = 45
+ATT.HeatDissipation = 22.5
+ATT.HeatDelayTime = 0.25
+ATT.HeatPerShot = 1
+ATT.HeatLockout = false
+ATT.MalfunctionWait = 0.25
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.12
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilMult = 0.8
+	ATT.RPMAdd = 368
+	ATT.PhysBulletMuzzleVelocityAdd = -130 / ARC9.HUToM
+else -- Warzone Stats
+	ATT.RPMAdd = 368
+	ATT.PhysBulletMuzzleVelocityAdd = -130 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.026
+	ATT.SpreadAddMove = -0.001
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+	
+	ATT.DamageMaxAdd = -6
+	ATT.DamageMinAdd = -1
+
+	ATT.RangeMinAdd = -7 / ARC9.HUToM
+	ATT.RangeMaxAdd = -7 / ARC9.HUToM
+
+	ATT.BodyDamageMults = {
+		[HITGROUP_HEAD] = 1.275,
+		[HITGROUP_CHEST] = 1.275,
+		[HITGROUP_STOMACH] = 1,
+		[HITGROUP_LEFTARM] = 1,
+		[HITGROUP_RIGHTARM] = 1,
+		[HITGROUP_LEFTLEG] = 1,
+		[HITGROUP_RIGHTLEG] = 1,
+	}
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_finn_heavy_adv")
 ---------------------------------------------------------------------------------------- STOCKS
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK M309 Forward Assault"
+ATT.CompactName = "M309"
+ATT.Description = [[Stock designed for agility while aiming down sights.]]
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_stockl.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_stockl.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_finn_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.RecoilUpMult = 1.05
+	ATT.RecoilSideMult = 1.05
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_finn_stock_light")
+---------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Citadel"
 ATT.CompactName = "Citadel"
 ATT.Description = [[Heavy duty stock keeps your aim steady for precision shots.]]
-
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_stockh.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_stockh.mdl"
 ATT.BoneMerge = false
@@ -2171,8 +2334,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK ChainSAW"
 ATT.CompactName = "ChainSAW"
 ATT.Description = [[Combination handled grips allow for highly maneuverable assaults. For operators who care less about where their shot lands and more about getting rounds down range fast.]]
-
 ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_stocksaw.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_stock"
@@ -2224,11 +2387,41 @@ ARC9.LoadAttachment(ATT, "cod2019_finn_stock_saw")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "5.56 CT 100-Round Belts"
-ATT.CompactName = "5.56 CT 100R"
-ATT.Description = [[Extended belts hold 100 rounds of 5.56 Cased Telescoped ammunition providing additional lower-range ammunition at a reduced weight.]]
+ATT.PrintName = "5.56 NATO 100-Round Belts"
+ATT.CompactName = "5.56 100R"
+ATT.Description = [[Longer belts hold 100 rounds of 5.56 NATO ammunition with a slight weight increase.]]
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_xmags.png", "mips smooth")
+ATT.Free = false
 
-ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust2.png", "mips smooth")
+ATT.SortOrder = 0
+ATT.Category = "cod2019_finn_mag"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_xmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_magcalcust2_mag.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 25
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.15
+	ATT.ReloadTimeMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.005
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_finn_mag_556_100")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "5.56 CT 75-Round Belts"
+ATT.CompactName = "5.56 CT 75R"
+ATT.Description = [["Lightweight 5.56 Cased Telescoped ammunition allows for faster movement and improved handling at the cost of ballistic velocity."]]
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust1.png", "mips smooth")
+ATT.Free = false
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/lmg_finn_556nato_shell.mdl"
 ATT.ShellCorrectAng = Angle(0, 0, 90)
@@ -2236,25 +2429,48 @@ ATT.ShellScale = 0.07
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_magcalcust1.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.DamageMaxMult = 0.75
+	ATT.DamageMinMult = 0.75
+	ATT.DeployTimeMult = 0.95
+	ATT.ReloadTimeMult = 0.95
+	ATT.RecoilMult = 0.85
+	ATT.RecoilKickMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -324 / ARC9.HUToM
+	ATT.RangeMinMult = 0.82
+	ATT.RangeMaxMult = 0.82
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.16
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_finn_mag_ct")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "5.56 CT 100-Round Belts"
+ATT.CompactName = "5.56 CT 100R"
+ATT.Description = [[Extended belts hold 100 rounds of 5.56 Cased Telescoped ammunition providing additional lower-range ammunition at a reduced weight.]]
+ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust2.png", "mips smooth")
+ATT.Free = false
+
+ATT.ShellModelOverride = "models/weapons/cod2019/shared/lmg_finn_556nato_shell.mdl"
+ATT.ShellCorrectAng = Angle(0, 0, 90)
+ATT.ShellScale = 0.07
+
+ATT.SortOrder = 1
+ATT.Category = "cod2019_finn_mag"
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_magcalcust2.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/finn/attachment_vm_lm_sierrax_magcalcust2_mag.mdl"
 ATT.BoneMerge = true
-
-ATT.BulletBones = {
-    [1] = "j_bullet01",
-    [2] = "j_bullet02",
-	[3] = "j_bullet03",
-	[4] = "j_bullet04",
-	[5] = "j_bullet05",
-	[6] = "j_bullet06",
-	[7] = "j_bullet07",
-	[8] = "j_bullet08",
-	[9] = "j_bullet09",
-	[10] = "j_bullet010",
-	[11] = "j_bullet011",
-}
 
 ATT.ClipSizeAdd = 25
 
@@ -2267,8 +2483,11 @@ if !warzonestats then -- Regular Stats
 	ATT.ReloadTimeMult = 1.05
 	ATT.AimDownSightsTimeMult = 1.1
 else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -324 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.005
-	ATT.SpeedMult = 0.98
+	ATT.RangeMinMult = 0.82
+	ATT.RangeMaxMult = 0.82
+	ATT.SpeedSightsMult = 1.16
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_finn_mag_ct_100")
