@@ -2173,9 +2173,9 @@ L["cod2019_mg34_barrel_short.printname"] = "FSS Stubby"
 L["cod2019_mg34_barrel_short.compactname"] = "Stubby"
 L["cod2019_mg34_barrel_short.description"] = "Shortest modernized barrel available for the MG34, the stubby sacrifices accuracy and range for speed and agility."
 
-L["cod2019_mg34_barrel_03.printname"] = "FSS Elite"
-L["cod2019_mg34_barrel_03.compactname"] = "Elite"
-L["cod2019_mg34_barrel_03.description"] = "Lightweight barrel with precision-machined dimples and a wider bore removes excess weight for improved handling with a lower muzzle velocity."
+L["cod2019_mg34_barrel_light.printname"] = "FSS Elite"
+L["cod2019_mg34_barrel_light.compactname"] = "Elite"
+L["cod2019_mg34_barrel_light.description"] = "Lightweight barrel with precision-machined dimples and a wider bore removes excess weight for improved handling with a lower muzzle velocity."
 
 /////////////// Underbarrel
 L["cod2019_mg34_grip_bipod.printname"] = ARC9:GetPhrase("cod2019_grips_bipod_alt.printname") or "Bipod"

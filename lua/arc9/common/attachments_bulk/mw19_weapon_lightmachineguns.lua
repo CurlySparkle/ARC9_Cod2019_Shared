@@ -795,6 +795,39 @@ ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0)
 
 ARC9.LoadAttachment(ATT, "cod2019_m91_barrel_short")
 
+---------------------------------------------------------------------------------------
+
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "120-Round Belts"
+ATT.CompactName = "120R"
+ATT.Description = [[Longer belts hold 120 rounds of 7.62 NATO ammunition with a slight weight increase.]]
+ATT.Icon = Material("entities/attachs/lm/m91/cod2019_lm_m91_mag_ext.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_m91_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_mag_ext.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_mag_ext.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 20
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.006
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m91_mag_120")
+
+
 /////////////////////////// -- MG34
 ATT = {}
 
@@ -802,9 +835,9 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Brute"
 ATT.CompactName = "FSS Brute"
 ATT.Description = [[Solid steel barrel with polygonal rifling, wrapped in chrome-moly vanadium. Increases muzzle velocity and improves range with little additional weight.]]
-ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_barlong.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_barmid.png", "mips smooth")
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_barlong.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_barmid.mdl"
 ATT.BoneMerge = false
 
 ATT.SortOrder = 0
@@ -826,7 +859,7 @@ end
 ATT.Element = {
     AttPosMods = {
         [1] = { -- Muzzle
-            Pos = Vector(-3, 0, 0),
+            Pos = Vector(-3.5, 0, 0),
         }
     }
 }
@@ -908,6 +941,57 @@ ARC9.LoadAttachment(ATT, "cod2019_mg34_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FSS Elite"
+ATT.CompactName = "Elite"
+ATT.Description = [[Lightweight barrel with precision-machined dimples and a wider bore removes excess weight for improved handling with a lower muzzle velocity.]]
+ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_barlong.png", "mips smooth")
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_barlong.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_mg34_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none","sight_front_none","barrel_custom"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+    if swep:GetElements()["optic"] then
+        model:SetBodygroup(2,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(-3, 0, 0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.96
+	ATT.DeployTimeMult = 1.12
+	ATT.SpreadMult = 0.9
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 153 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.036
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_mg34_barrel_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "75 Round Belt"
 ATT.CompactName = "75R"
 ATT.Description = [[Longer belts hold 75 rounds of 7.92 Mauser ammunition with a slight weight increase.]]
@@ -918,7 +1002,7 @@ ATT.Category = "cod2019_mg34_mag"
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg_phys.mdl"
 ATT.BoneMerge = true
 
 ATT.ClipSizeAdd = 25

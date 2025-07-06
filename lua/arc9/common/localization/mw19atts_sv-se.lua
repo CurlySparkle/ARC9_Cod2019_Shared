@@ -1596,9 +1596,9 @@ L["cod2019_mg34_barrel_short.printname"] = "FSS Stubby"
 L["cod2019_mg34_barrel_short.compactname"] = "Stubby"
 L["cod2019_mg34_barrel_short.description"] = "Kortaste moderna pipan tillgänglig till MG34:an, \"stubby\" offrar träffsäkerhet och räckvidd för hastighet och rörlighet."
 
-L["cod2019_mg34_barrel_03.printname"] = "FSS Elite"
-L["cod2019_mg34_barrel_03.compactname"] = "Elite"
-L["cod2019_mg34_barrel_03.description"] = "Lättvikt pipa med precisionsbearbetade groper och en bredare borr tar bort övervikt för förbättrad hantering med lägre mynningshastighet."
+L["cod2019_mg34_barrel_light.printname"] = "FSS Elite"
+L["cod2019_mg34_barrel_light.compactname"] = "Elite"
+L["cod2019_mg34_barrel_light.description"] = "Lättvikt pipa med precisionsbearbetade groper och en bredare borr tar bort övervikt för förbättrad hantering med lägre mynningshastighet."
 
 /////////////// Magazine
 L["cod2019_mg34_mag_75.printname"] = string.format(mw19magtext.belt, "75")

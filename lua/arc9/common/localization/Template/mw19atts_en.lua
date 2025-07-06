@@ -1630,9 +1630,9 @@ L["cod2019_mg34_barrel_short.printname"] = "FSS Stubby"
 L["cod2019_mg34_barrel_short.compactname"] = "Stubby"
 L["cod2019_mg34_barrel_short.description"] = "Shortest modernized barrel available for the MG34, the stubby sacrifices accuracy and range for speed and agility."
 
-L["cod2019_mg34_barrel_03.printname"] = "FSS Elite"
-L["cod2019_mg34_barrel_03.compactname"] = "Elite"
-L["cod2019_mg34_barrel_03.description"] = "Lightweight barrel with precision-machined dimples and a wider bore removes excess weight for improved handling with a lower muzzle velocity."
+L["cod2019_mg34_barrel_light.printname"] = "FSS Elite"
+L["cod2019_mg34_barrel_light.compactname"] = "Elite"
+L["cod2019_mg34_barrel_light.description"] = "Lightweight barrel with precision-machined dimples and a wider bore removes excess weight for improved handling with a lower muzzle velocity."
 
 /////////////// Magazine
 L["cod2019_mg34_mag_75.printname"] = string.format(mw19magtext.belt, "75")
