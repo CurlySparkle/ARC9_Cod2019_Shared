@@ -297,6 +297,10 @@ L["cod2019_holger_stock_sniper.printname"] = "DM56 Stock"
 L["cod2019_holger_stock_sniper.compactname"] = "DM56"
 L["cod2019_holger_stock_sniper.description"] = "Heavy-weight, custom stock from the civilian-manufactured DM56 semi-automatic rifle."
 
+L["cod2019_holger_stock_v2.printname"] = "Necrosis"
+L["cod2019_holger_stock_v2.compactname"] = "Necrosis"
+L["cod2019_holger_stock_v2.description"] = "Alternative <color=255,255,100>cosmetic</color> stock for the Holger-26."
+
 /////////////// Magazine
 L["cod2019_holger_armag_20.printname"] = string.format(mw19magtext.mag, "20")
 L["cod2019_holger_armag_20.compactname"] = string.format(mw19magtext.mags, "20")

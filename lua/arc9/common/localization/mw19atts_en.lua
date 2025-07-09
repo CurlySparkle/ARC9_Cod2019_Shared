@@ -2193,9 +2193,9 @@ L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "1
 
 //////////////////// Holger-26
 /////////////// Receiver
-L["cod2019_holger_reciever_v2.printname"] = "Holger-556 Receiver"
-L["cod2019_holger_reciever_v2.compactname"] = "Holger-556"
-L["cod2019_holger_reciever_v2.description"] = "Compact receiver with a shortened top rail for the Holger-26."
+L["cod2019_holger_receiver_v2.printname"] = "Holger-556 Receiver"
+L["cod2019_holger_receiver_v2.compactname"] = "Holger-556"
+L["cod2019_holger_receiver_v2.description"] = "Compact receiver with a shortened top rail for the Holger-26."
 
 /////////////// Optics
 L["cod2019_holger_scope_reflex.printname"] = "FSS Integral Reflex"
@@ -2224,9 +2224,9 @@ L["cod2019_holger_stock_light.printname"] = "FSS Infantry"
 L["cod2019_holger_stock_light.compactname"] = "Infantry"
 L["cod2019_holger_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
-L["cod2019_holger_stock_v2.printname"] = "XRK Axis"
-L["cod2019_holger_stock_v2.compactname"] = "Axis"
-L["cod2019_holger_stock_v2.description"] = "Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly."
+L["cod2019_holger_stock_tactical.printname"] = "XRK Axis"
+L["cod2019_holger_stock_tactical.compactname"] = "Axis"
+L["cod2019_holger_stock_tactical.description"] = "Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly."
 
 /////////////// Magazine
 L["cod2019_holger_armag_30.printname"] = string.format(mw19magtext.mag, "30")

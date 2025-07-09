@@ -1611,9 +1611,9 @@ L["cod2019_mg34_mag_xmag.description"] = string.format(mw19magtext.descbeltl, "1
 
 //////////////////// Holger-26
 /////////////// Receiver
-L["cod2019_holger_reciever_v2.printname"] = "Holger-556-Låda"
-L["cod2019_holger_reciever_v2.compactname"] = "Holger-556"
-L["cod2019_holger_reciever_v2.description"] = "Kompakt låda med en kortare toppmonterad skena till Holger-26."
+L["cod2019_holger_receiver_v2.printname"] = "Holger-556-Låda"
+L["cod2019_holger_receiver_v2.compactname"] = "Holger-556"
+L["cod2019_holger_receiver_v2.description"] = "Kompakt låda med en kortare toppmonterad skena till Holger-26."
 
 /////////////// Optics
 L["cod2019_holger_scope_reflex.printname"] = "FSS Inbyggd Reflexsikte"
@@ -1639,9 +1639,9 @@ L["cod2019_holger_stock_heavy.compactname"] = "Ranger"
 L["cod2019_holger_stock_light.printname"] = "FSS Infantry"
 L["cod2019_holger_stock_light.compactname"] = "Infantry"
 
-L["cod2019_holger_stock_v2.printname"] = "XRK Axis"
-L["cod2019_holger_stock_v2.compactname"] = "Axis"
-L["cod2019_holger_stock_v2.description"] = "Ergonomisk kolv med en rak linje bas har den perfekta balanscentrum för snabb höjning och sänkning."
+L["cod2019_holger_stock_tactical.printname"] = "XRK Axis"
+L["cod2019_holger_stock_tactical.compactname"] = "Axis"
+L["cod2019_holger_stock_tactical.description"] = "Ergonomisk kolv med en rak linje bas har den perfekta balanscentrum för snabb höjning och sänkning."
 
 /////////////// Magazine
 L["cod2019_holger_armag_30.printname"] = string.format(mw19magtext.mag, "30")

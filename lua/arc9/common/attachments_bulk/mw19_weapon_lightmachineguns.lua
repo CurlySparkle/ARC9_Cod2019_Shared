@@ -1012,8 +1012,8 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.10
 	ATT.ReloadTimeMult = 1.1
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.015
-	ATT.SpeedMult = 0.97
+	ATT.AimDownSightsTimeAdd = -0.007
+	ATT.SpeedMult = 0.98
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_75")
@@ -1181,14 +1181,17 @@ ATT.Category = {"cod2019_holger_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
 ATT.Element = {
-    AttPosMods = {
-        [1] = { -- Muzzle
-            Pos = Vector(-7, 0, 0),
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(-7, 0, 0),
         },
-        [6] = { -- Underbarrel
-            Pos = Vector(-4, 0, 0),
-        }
-    }
+		[3] = { -- Laser
+			Pos = Vector(1.2, 0, -0.1),
+		},
+		[6] = { -- Underbarrel
+			Pos = Vector(-4, 0, 0),
+		}
+	}
 }
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -1279,14 +1282,14 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "20 Round Mags"
 ATT.CompactName = "20R"
 ATT.Description = [[]]
-ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_armag.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_mag_sniper.png", "mips smooth")
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
 ATT.ActivateElements = {"mag_none","mag_armag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag_sniper.mdl"
-ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag_sniper.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_mag_sniper_phys.mdl"
 ATT.BoneMerge = true
 
 ATT.DropMagazineSounds = {
@@ -1392,7 +1395,7 @@ ATT = {}
 
 ATT.PrintName = "Holger-556 Receiver"
 ATT.CompactName = "Holger-556"
-ATT.Description = ""
+ATT.Description = "Compact receiver with a shortened top rail for the Holger-26."
 ATT.SortOrder = 1
 
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_receiver_v2.png", "mips smooth")
@@ -1416,16 +1419,16 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_receiver_v2")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "XRK Axis"
-ATT.CompactName = "XRK Axis"
-ATT.Description = [[Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly.]]
-ATT.SortOrder = 1
+ATT.PrintName = "FSS Infantry"
+ATT.CompactName = "Infantry"
+ATT.Description = [[Stock designed for agility while aiming down sights.]]
+ATT.SortOrder = 0
 
-ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_stock_tactical.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_stock_light.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_v2.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_light.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -1433,14 +1436,70 @@ ATT.Category = {"cod2019_holger_stock"}
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.DeployTimeMult = 1.05
-	ATT.AimDownSightsTimeMult = 1.07
-	ATT.RecoilMult = 0.92
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 1.15
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_stock_light")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "FSS Ranger"
+ATT.CompactName = "Ranger"
+ATT.Description = [[Heavy duty stock keeps your aim steady for precision shots.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_stock_heavy.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_heavy.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.RecoilUpMult = 0.95
+	ATT.RecoilSideMult = 0.95
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.89
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_stock_heavy")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "XRK Axis"
+ATT.CompactName = "XRK Axis"
+ATT.Description = [[Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly.]]
+ATT.SortOrder = 0
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_stock_tactical.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_tactical.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilMult = 0.95
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.033
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_holger_stock_v2")
+ARC9.LoadAttachment(ATT, "cod2019_holger_stock_tactical")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1473,6 +1532,34 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_stock_sniper")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.PrintName = "Necrosis"
+ATT.CompactName = "Necrosis"
+ATT.Description = [[Alternative <color=255,255,100>cosmetic</color> stock for the Holger-26.]]
+ATT.SortOrder = 2
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_stock_v2.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_holger_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+--	ATT.AimDownSightsTimeMult = 1.07
+--	ATT.DeployTimeMult = 1.05
+--	ATT.RecoilMult = 0.92
+else -- Warzone Stats
+
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_stock_v2")
+---------------------------------------------------------------------------------------
+ATT = {}
+
 ATT.PrintName = "FSS Integral Reflex"
 ATT.CompactName = [[Integral Reflex]]
 ATT.Description = [[Custom integrated reflex optic with a clean sight picture that puts the focus on the target.]]
@@ -1494,7 +1581,7 @@ ATT.BoneMerge = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 5, -0.85),
+        Pos = Vector(0, 5, -0.853),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 36,
         Magnification = 1.15,
@@ -1546,7 +1633,7 @@ ATT.BoneMerge = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6.5, -1.04),
+        Pos = Vector(-0.003, 6.5, -1.04),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 36,
         Magnification = 1.15,
