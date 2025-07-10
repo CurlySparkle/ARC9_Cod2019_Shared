@@ -8,8 +8,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "26.9 Extended Barrel"
 ATT.CompactName = "Barrel 26.9"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
-
 ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_barrel_long.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_barrel_long.mdl"
 ATT.BoneMerge = false
@@ -66,8 +66,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "18.2 Compact Barrel"
 ATT.CompactName = "Barrel 18.2"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
-
 ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_barrel_short.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_barrel_short.mdl"
 ATT.BoneMerge = false
@@ -125,8 +125,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "25.9\" Heavy Barrel"
 ATT.CompactName = "Barrel 25.9"
 ATT.Description = [[Heavy weight forced-air-cooled barrel slightly increases muzzle velocity and improves range.]]
-
 ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_barrel_heavy.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_barrel_heavy.mdl"
 ATT.BoneMerge = false
@@ -178,6 +178,7 @@ ATT.PrintName = "Bipod"
 ATT.CompactName = "Bipod"
 ATT.Description = [[Deploys the bipod for better recoil and accuracy.]]
 ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_bipod.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_pkm_bipod"
@@ -211,6 +212,74 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_pkm_grip_bipod")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "150-Round Belts"
+ATT.CompactName = "150R"
+ATT.Description = [[Longer belts hold 150 rounds of 7.62x54mmR ammunition with a moderate weight increase.]]
+ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_mag.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_pkm_mag"
+ATT.ActivateElements = {"bullet_none","mag_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_mag_ext.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_mag_ext_phys.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 50
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.SpeedMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_pkm_mag_150")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "200-Round Belts"
+ATT.CompactName = "200R"
+ATT.Description = [[Longer belts hold 200 rounds of 7.62x54mmR ammunition, sacrificing mobility for maximum ammo capacity.]]
+ATT.Icon = Material("entities/attachs/lm/pkm/cod2019_lm_pkm_mag.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_pkm_mag"
+ATT.ActivateElements = {"bullet_none","mag_none","belt_xlrg"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_mag_ext.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/pkm/attachment_vm_lm_pkilo_mag_xlrg_phys.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 100
+
+ATT.DrawFunc = function(swep, model, wm)
+	if swep:GetElements()["belt_xlrg"] then
+		model:SetSkin(1)
+	else
+		model:SetSkin(0)
+	end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.2
+	ATT.DeployTimeMult = 1.2
+	ATT.ReloadTimeMult = 1.14
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.029
+	ATT.SpeedMult = 0.94
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_pkm_mag_200")
 
 /////////////////////////// -- SA87
 ATT = {}
