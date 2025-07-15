@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\scar\weapon_vm_ar_scharlie_barreldmr_rgb"
-    "$bumpmap" "models\cod2019\scar\weapon_vm_ar_scharlie_barreldmr_n"
-    "$phongexponenttexture" "models\cod2019\scar\weapon_vm_ar_scharlie_barreldmr_e"
+    "$basetexture" "models\cod2019\akilo47\weapon_vm_ar_akilo47_lmgstock_rgb"
+    "$bumpmap" "models\cod2019\akilo47\weapon_vm_ar_akilo47_lmgstock_n"
+    "$phongexponenttexture" "models\cod2019\akilo47\weapon_vm_ar_akilo47_lmgstock_e"
 
     /////////////////
     "$color2" "[1 1 1]"                                     //do not touch this
@@ -14,13 +14,13 @@
     "$phongalbedotint" "1"
     "$phongalbedoboost" "10"                                //toy around with this
     "$phongfresnelranges" "[1 0.1 0]"
-
+       
     /////////////////
     "$normalmapalphaenvmapmask" "1"                         //do not touch this
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.169 0.169 0.169]"                 
+    "$envmaptint" "[0.098 0.098 0.098]"                 
 
     "$detailblendmode" "4"
     "$detailblendfactor" "1"
@@ -32,7 +32,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.169 0.169 0.169]"
+            "color" "[0.098 0.098 0.098]"
         }
         "CustomCamo" 
         {

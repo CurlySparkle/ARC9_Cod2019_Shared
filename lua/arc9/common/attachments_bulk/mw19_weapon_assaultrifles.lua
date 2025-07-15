@@ -2748,7 +2748,7 @@ ATT = {}
 
 ATT.PrintName = "Upper Sight Rail"
 ATT.CompactName = "Sight Rail"
-ATT.Description = "Adds an upper rail on the reciever for custom optics."
+ATT.Description = "Adds an upper rail on the receiver for custom optics."
 ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_upper_rail.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -3042,8 +3042,71 @@ ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-3.5, 0, 
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_smg")
 
-/////////////////////////// -- Stock
-/////////////// -- cod2019_akilo47_stockskel
+/////////////// -- cod2019_akilo47_barrel_smgbarcust
+ATT = {}
+
+ATT.PrintName = "8.1\" Compact Barrel"
+ATT.CompactName = "Compact Grip"
+ATT.Description = "Custom compact barrel with a built in solid wood grip sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_vertgrip.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 3
+ATT.Category = "cod2019_ak47_barrel"
+ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_rpk_grip"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_akilo47_smgbarcust.mdl"
+ATT.BoneMerge = false
+
+ATT.LHIK_Priority = 10
+ATT.LHIK = true
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+ATT.Element = {
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(-6.65, 0, -0.1),
+		},
+		[3] = { -- Laser
+			Pos = Vector(-0.34, -1.34, -0.125),
+		},
+	}
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+	if swep:GetElements()["muzzle"] then
+		model:SetBodygroup(1,1)
+	end
+--	if swep:GetElements()["laser"] then
+--		model:SetBodygroup(2,1)
+--	end
+end
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 0.92
+	ATT.RangeMaxMult = 0.9
+	ATT.RecoilSideMult = 0.85
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -255 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.022
+	ATT.RecoilMult = 0.9
+	ATT.VisualRecoilMult = 0.9
+	ATT.SpreadAddMove = -0.00212
+	ATT.RangeMinMult = 0.8
+	ATT.RangeMaxMult = 0.8
+	ATT.SpeedMult = 1.02
+	ATT.SpeedSightsMult = 1.08
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_akilo47_barrel_smg_grip")
+
+----------------------------------------------------------------------------------------STOCKS
 ATT = {}
 
 ATT.PrintName = "Skeleton Stock"
@@ -3069,6 +3132,33 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_akilo47_stockskel")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Field LMG Stock"
+ATT.CompactName = "Field LMG"
+ATT.Description = "Heavy duty stock provides stability while aiming."
+ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_stocklmg.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = {"cod2019_ak47_stock"}
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_lmgstock_akilo47.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.14
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
+else -- Warzone Stats
+	ATT.SpeedMultSights = 0.89
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_ak47_stock_heavy")
 
 /////////////////////////// -- Magazine
 /////////////// -- cod2019_ak47_mag_40
