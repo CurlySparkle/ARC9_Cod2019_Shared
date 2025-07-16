@@ -1211,7 +1211,7 @@ ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_m4_stock"
-ATT.ActivateElements = {"stock_none"}
+ATT.ActivateElements = {"stock_main"}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.85
@@ -2237,14 +2237,14 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMaxMult = 1.1
 	ATT.DamageMinMult = 1.1
 	ATT.RangeMaxMult = 1.1
-	ATT.RecoilMult = 1.1
-	ATT.RecoilKickMult = 1.1
+	ATT.RecoilUpMult = 1.2
+	ATT.RecoilSideMult = 1.2
 else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = -130 / ARC9.HUToM
-	ATT.VisualRecoilMult = 1.08
-	ATT.RecoilMult = 1.15
-	ATT.DamageMaxMult = 1.25
-	ATT.DamageMinMult = 1.25
+	ATT.PhysBulletMuzzleVelocityAdd = -212 / ARC9.HUToM
+	ATT.VisualRecoilMult = 1.2
+	ATT.RecoilMult = 1.1
+	ATT.DamageMaxMult = 1.23
+	ATT.DamageMinMult = 1.23
 	ATT.RangeMaxAdd = 8 / ARC9.HUToM
 end
 

@@ -905,6 +905,7 @@ ATT.PrintName = "FSS Brute"
 ATT.CompactName = "FSS Brute"
 ATT.Description = [[Solid steel barrel with polygonal rifling, wrapped in chrome-moly vanadium. Increases muzzle velocity and improves range with little additional weight.]]
 ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_barmid.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_barmid.mdl"
 ATT.BoneMerge = false
@@ -957,6 +958,7 @@ ATT.PrintName = "FSS Stubby"
 ATT.CompactName = "FSS Stubby"
 ATT.Description = [[Shortest modernized barrel available for the MG34, the stubby sacrifices accuracy and range for speed and agility.]]
 ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_barshort.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_barshort.mdl"
 ATT.BoneMerge = false
@@ -1014,6 +1016,7 @@ ATT.PrintName = "FSS Elite"
 ATT.CompactName = "Elite"
 ATT.Description = [[Lightweight barrel with precision-machined dimples and a wider bore removes excess weight for improved handling with a lower muzzle velocity.]]
 ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_barlong.mdl"
 ATT.BoneMerge = false
@@ -1065,6 +1068,7 @@ ATT.PrintName = "75 Round Belt"
 ATT.CompactName = "75R"
 ATT.Description = [[Longer belts hold 75 rounds of 7.92 Mauser ammunition with a slight weight increase.]]
 ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_mag.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_mg34_mag"
@@ -1077,9 +1081,9 @@ ATT.BoneMerge = true
 ATT.ClipSizeAdd = 25
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.08
-	ATT.DeployTimeMult = 1.10
-	ATT.ReloadTimeMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.DeployTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.007
 	ATT.SpeedMult = 0.98
@@ -1087,42 +1091,46 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_75")
 ----------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.PrintName = "100 Round Drum"
---ATT.CompactName = "100-R Drum"
---ATT.Description = [[High capacity magazines hold 100 rounds of 7.92 Mauser with a moderate weight increase.]]
---ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_mag.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "100 Round Drum"
+ATT.CompactName = "100-R Drum"
+ATT.Description = [[Extended belts hold 100 rounds of 7.92 Mauser with a moderate weight increase.]]
+ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_mag_v2.png", "mips smooth")
+ATT.Free = false
 
---ATT.SortOrder = 0
---ATT.Category = "cod2019_mg34_mag"
---ATT.ActivateElements = {"mag_none","mag_xmag"}
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_762_hr.mdl"
+ATT.ShellScale = 0.06
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg.mdl"
---ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_xlrg.mdl"
---ATT.BoneMerge = true
+ATT.SortOrder = 1
+ATT.Category = "cod2019_mg34_mag"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
 
---ATT.ClipSizeAdd = 50
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_v2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/mg34/attachment_vm_lm_mgolf34_mag_v2_phys.mdl"
+ATT.BoneMerge = true
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 1.15
---	ATT.DeployTimeMult = 1.20
---	ATT.ReloadTimeMult = 1.1
---else -- Warzone Stats
---	ATT.AimDownSightsTimeAdd = -0.015
---	ATT.SpeedMult = 0.97
---end
+ATT.ClipSizeAdd = 50
 
---ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_xmag")
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.20
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.015
+	ATT.SpeedMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_mg34_mag_xmag")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.PrintName = "Bipod"
 ATT.CompactName = "Bipod"
 ATT.Description = [[Deploys the bipod for better recoil and accuracy.]]
-
 ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_bipod.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_mg34_bipod"
