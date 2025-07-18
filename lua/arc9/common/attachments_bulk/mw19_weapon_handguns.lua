@@ -48,16 +48,21 @@ if !warzonestats then -- Regular Stats
 	ATT.RangeMinMult = 1.15
 	ATT.PhysBulletMuzzleVelocityMult = 1.15
 else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = 94 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = 0.017
-	ATT.RangeMinMult = 1.2
-	ATT.RangeMaxMult = 1.2
+	ATT.PhysBulletMuzzleVelocityAdd = 235 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.044
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.SpreadAddMove = 0.0015
+	ATT.RangeMinMult = 1.35
+	ATT.RangeMaxMult = 1.35
+	ATT.SpeedMult = 0.97
+	ATT.SpeedSightsMult = 0.94
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 3, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) end
 
-ARC9.LoadAttachment(ATT, "cod2019_50gs_slide_ext")
+ARC9.LoadAttachment(ATT, "cod2019_50gs_slide_ext2")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -101,28 +106,22 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.08
-	ATT.SprintToFireTimeMult = 1.08
-	ATT.RecoilMult = 0.97
-	ATT.RangeMaxMult = 1.1
-	ATT.RangeMinMult = 1.1
-	ATT.PhysBulletMuzzleVelocityMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.SprintToFireTimeMult = 1.05
+	ATT.RangeMaxMult = 1.05
+	ATT.RangeMinMult = 1.05
+	ATT.PhysBulletMuzzleVelocityMult = 1.05
 else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = 235 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = 0.044
-	ATT.RecoilMult = 0.85
-	ATT.VisualRecoilMult = 0.85
-	ATT.SpreadAddMove = 0.0015
-	ATT.RangeMinMult = 1.35
-	ATT.RangeMaxMult = 1.35
-	ATT.SpeedMult = 0.97
-	ATT.SpeedSightsMult = 0.94
+	ATT.PhysBulletMuzzleVelocityAdd = 94 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.017
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.5, 1, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.5, 0, 0) end
 
-ARC9.LoadAttachment(ATT, "cod2019_50gs_slide_ext2")
+ARC9.LoadAttachment(ATT, "cod2019_50gs_slide_ext")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1092,7 +1091,7 @@ ATT.ClipSizeAdd = 3
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.05
-	ATT.SprintToFireTimeMult = 1.07
+	ATT.SprintToFireTimeMult = 1.05
 	ATT.ReloadTimeMult = 1.05
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.02
@@ -1723,13 +1722,12 @@ ATT.CustomPros = {
 }
 
 if !warzonestats then -- Regular Stats
- 	ATT.PhysBulletMuzzleVelocityMult = 1.06
+	ATT.PhysBulletMuzzleVelocityMult = 1.06
 	ATT.AimDownSightsTimeMult = 1.1
-	ATT.DeployTimeMult = 1.1
-	ATT.RangeMaxMult = 1.12
-	ATT.RangeMinMult = 1.12
-	ATT.RecoilMult = 0.94
-	ATT.SprintToFireTimeMult = 1.1
+	ATT.DeployTimeMult = 1.05
+	ATT.RangeMaxMult = 1.15
+	ATT.RangeMinMult = 1.15
+	ATT.SpreadMult = 0.9
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 131 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.038
@@ -1749,8 +1747,8 @@ ARC9.LoadAttachment(ATT, "cod2019_sykov_slide_silencer")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
-ATT.PrintName = "SSB 105mm"
-ATT.CompactName = "SSB"
+ATT.PrintName = "SBB 105mm"
+ATT.CompactName = "SBB"
 ATT.Description = [[Sykov's Svet Bochka slide improves handling at the cost of muzzle velocity.]]
 ATT.SortOrder = 1
 

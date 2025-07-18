@@ -1115,7 +1115,7 @@ ATT.ClipSizeAdd = 50
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.15
-	ATT.DeployTimeMult = 1.20
+	ATT.DeployTimeMult = 1.2
 	ATT.ReloadTimeMult = 1.1
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.015

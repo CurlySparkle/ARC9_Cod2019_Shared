@@ -2308,13 +2308,13 @@ L["cod2019_m19_mag_ext2.description"] = string.format(mw19magtext.descl, "32", m
 
 //////////////////// .50 GS
 /////////////// Barrels
-L["cod2019_50gs_barrel_01.printname"] = "FORGE TAC Extended"
-L["cod2019_50gs_barrel_01.compactname"] = "Extended"
-L["cod2019_50gs_barrel_01.description"] = "Lite förlängd pipa ökar mynningshastigheten och förbättrar räckvidden med mindre tillagd vikt."
+L["cod2019_50gs_barrel_ext.printname"] = "FORGE TAC Extended"
+L["cod2019_50gs_barrel_ext.compactname"] = "Extended"
+L["cod2019_50gs_barrel_ext.description"] = "Lite förlängd pipa ökar mynningshastigheten och förbättrar räckvidden med mindre tillagd vikt."
 
-L["cod2019_50gs_barrel_02.printname"] = "FORGE TAC Enforcer"
-L["cod2019_50gs_barrel_02.compactname"] = "Enforcer"
-L["cod2019_50gs_barrel_02.description"] = "Extra lång förlängt slutstycke ökar mynningshastigheten och förlänger räckvidden till det högsta. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_50gs_barrel_ext2.printname"] = "FORGE TAC Enforcer"
+L["cod2019_50gs_barrel_ext2.compactname"] = "Enforcer"
+L["cod2019_50gs_barrel_ext2.description"] = "Extra lång förlängt slutstycke ökar mynningshastigheten och förlänger räckvidden till det högsta. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 /////////////// Magazine
 L["cod2019_50gs_mag_10.printname"] = string.format(mw19magtext.mag, "10")

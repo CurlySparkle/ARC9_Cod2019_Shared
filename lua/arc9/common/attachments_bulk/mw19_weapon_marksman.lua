@@ -967,7 +967,7 @@ if !warzonestats then -- Regular Stats
     ATT.AimDownSightsTimeMult = 0.93
     ATT.DeployTimeMult = 0.95
     ATT.ReloadTimeMult = 0.9
-    ATT.PhysBulletMuzzleVelocityMult = 0.80
+    ATT.PhysBulletMuzzleVelocityMult = 0.8
 else -- Warzone Stats
     ATT.ShootEntForceAdd = -28 / ARC9.HUToM
     ATT.PhysBulletMuzzleVelocityAdd = -28 / ARC9.HUToM
