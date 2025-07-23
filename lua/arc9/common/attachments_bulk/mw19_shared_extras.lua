@@ -653,7 +653,7 @@ ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_gasheal.png", "mips smooth
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Category = {"cod2019_ammo_gl"}
 ATT.ShootEnt = "arc9_cod2019_proj_40mm_gasheal"
@@ -679,7 +679,7 @@ ATT.Icon = Material("entities/attachs/cod2019_ammo_gl_gasheal.png", "mips smooth
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Category = {"cod2019_ammo_ubgl"}
 ATT.ShootEntUBGL = "arc9_cod2019_proj_40mm_gasheal"
@@ -707,7 +707,7 @@ ATT.Icon = Material("entities/attachs/cod2019_ammo_gas_gasheal.png", "mips smoot
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.ShootEnt = "arc9_cod2019_throwngas_heal"
 ATT.Category = {"cod2019_gasnade_ammo"}

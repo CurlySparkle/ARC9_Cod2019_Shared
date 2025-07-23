@@ -526,7 +526,7 @@ ATT.Description = [[Custom XRK Eagle's Claw receiver with built in mag well to u
 ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 0
-ATT.Free = true
+ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_mag"}
@@ -580,7 +580,7 @@ ATT.Description = [[Custom XRK Eagle's Claw receiver with built in mag well to u
 ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 0
-ATT.Free = true
+ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_mag"}
@@ -632,7 +632,7 @@ ATT.CompactName = [[XRK Truegrip]]
 ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_pump_custom.png", "mips smooth")
 ATT.Description = [[Granulated forend with recessed grip keep the gun in control while firing, and helps get on target faster.]]
 ATT.SortOrder = 0
-ATT.Free = true
+ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_pump"}
@@ -667,7 +667,7 @@ ATT.CompactName = [[Lockwood]]
 ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_pump_wood.png", "mips smooth")
 ATT.Description = [[Handcrafted solid wood forend reduces vertical recoil and stabilizes weapon while aiming for improved long range combat.]]
 ATT.SortOrder = 0
-ATT.Free = true
+ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_pump"}
@@ -712,7 +712,7 @@ ATT.CompactName = [[Lockwood]]
 ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_stock_wood.png", "mips smooth")
 ATT.Description = [[Solid wood rifle stock provides exceptional control while aiming at the cost of mobility.]]
 ATT.SortOrder = 0
-ATT.Free = true
+ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_stock"}
@@ -760,7 +760,7 @@ ATT.CompactName = [[Polymer]]
 ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_stock_wood.png", "mips smooth")
 ATT.Description = [[Changes the stock with a polymer material.]]
 ATT.SortOrder = 0
-ATT.Free = true
+ATT.Free = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_stock_opt"}

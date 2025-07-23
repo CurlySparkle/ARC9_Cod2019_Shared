@@ -1324,7 +1324,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_expbolt2.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt.mdl"
 ATT.BoneMerge = true
@@ -1347,7 +1347,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_semtexbolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt.mdl"
 ATT.BoneMerge = true
@@ -1370,7 +1370,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_firebolt2.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_firebolt.mdl"
 ATT.BoneMerge = true
@@ -1392,7 +1392,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_smokebolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt.mdl"
 ATT.BoneMerge = true
@@ -1414,7 +1414,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_healbolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt.mdl"
 ATT.BoneMerge = true
@@ -1445,7 +1445,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_smokebolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_smokebolt.mdl"
 ATT.BoneMerge = true
@@ -1468,7 +1468,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_flashbolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_stunbolt.mdl"
 ATT.BoneMerge = true
@@ -1500,7 +1500,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_hl2bolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_hl2bolt.mdl"
 ATT.BoneMerge = true
@@ -1523,7 +1523,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_minebolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt.mdl"
 ATT.BoneMerge = true
@@ -1546,7 +1546,7 @@ ATT.SortOrder = 0.5
 ATT.Icon = Material("entities/attachs/mm/crossbow/cod2019_mm_crossbow_mag_locbolt.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.AutoStats = true
-ATT.Free = true
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/crossbow/attachment_vm_sn_crossbow_mag_expbolt.mdl"
 ATT.BoneMerge = true
