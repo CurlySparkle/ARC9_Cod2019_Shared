@@ -760,7 +760,7 @@ ATT.CompactName = [[Polymer]]
 ATT.Icon = Material("entities/attachs/sh/model680/cod2019_sh_model680_stock_wood.png", "mips smooth")
 ATT.Description = [[Changes the stock with a polymer material.]]
 ATT.SortOrder = 0
-ATT.Free = false
+ATT.Free = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_model680_stock_opt"}
