@@ -5,7 +5,7 @@
     "$phongexponenttexture" "models\cod2019\kar98k\weapon_vm_sn_kilo98_v1_stocktactical_e"
 
     /////////////////
-    "$color2" "[0 0 0]"                                     //do not touch this
+    "$color2" "[1 1 1]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
