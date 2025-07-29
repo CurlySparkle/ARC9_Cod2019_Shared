@@ -527,7 +527,7 @@ ATT.AutoStats = true
 ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_railgrip.mdl"
-ATT.BoneMerge = true
+ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
@@ -1252,7 +1252,7 @@ ATT.Element = {
             Ang = Angle(0,0,0),
         },
         [3] = { -- Laser
-            Pos = Vector(6, -2.45, 0.03),
+            Pos = Vector(6, -2.45, -0.1),
             Ang = Angle(0,0,0),
         },
     }
@@ -1351,9 +1351,9 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/p90/attachment_vm_sm_papa90_
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.DeployTimeMult = 1.08
-	ATT.RecoilMult = 0.85
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilKickMult = 0.8
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
@@ -1383,6 +1383,15 @@ ATT.Sights = {
         ViewModelFOV = 54,
         IgnoreExtra = false
     },
+}
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- Laser
+            Pos = Vector(-1, 0.025, -0.11),
+            Ang = Angle(0,0,0),
+        },
+    }
 }
 
 ATT.CustomPros = {
@@ -1426,6 +1435,15 @@ ATT.Sights = {
         IgnoreExtra = false,
 		IsIronSight = true
     },
+}
+
+ATT.Element = {
+    AttPosMods = {
+        [3] = { -- Laser
+            Pos = Vector(-1, 0.025, -0.11),
+            Ang = Angle(0,0,0),
+        },
+    }
 }
 
 ATT.Attachments = {
