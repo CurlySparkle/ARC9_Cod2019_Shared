@@ -1918,7 +1918,7 @@ ATT.Description = [[Extended magazines hold 12 rounds with a slight weight incre
 
 ATT.Icon = Material("entities/attachs/sh/vlk/cod2019_sh_vlk_xmag.png", "mips smooth")
 
-ATT.SortOrder = 0
+ATT.SortOrder = 1
 ATT.Category = "cod2019_vlk_mag"
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
@@ -1933,7 +1933,7 @@ ATT.BulletBones = {
     [3] = "j_shell_03",
 }
 
-ATT.ClipSize = 12
+ATT.ClipSizeAdd = 4
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.14
@@ -1970,7 +1970,7 @@ ATT.BulletBones = {
     [3] = "j_shell_03",
 }
 
-ATT.ClipSize = 4
+ATT.ClipSizeAdd = -4
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.9

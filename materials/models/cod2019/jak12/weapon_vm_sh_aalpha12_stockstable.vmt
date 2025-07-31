@@ -5,7 +5,7 @@
     "$phongexponenttexture" "models\cod2019\jak12\weapon_vm_sh_aalpha12_stockstable_e"
 
     /////////////////
-    "$color2" "[0 0 0]"                                     //do not touch this
+    "$color2" "[0.7 0.7 0.7]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
