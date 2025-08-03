@@ -2398,6 +2398,8 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_s
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_xmagslrg.mdl"
 ATT.BoneMerge = true
 
+ATT.ShellScale = 0.05
+
 ATT.BulletBones = {
     [1] = {"j_bullet1","j_ammo1"},
     [2] = {"j_bullet2","j_ammo2"},
@@ -3262,6 +3264,8 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/iso/attachment_vm_sm_charlie9_xmag_vector.mdl"
 ATT.BoneMerge = true
 ATT.ModelOffset = Vector(1, 0, 1)
+
+ATT.ShellScale = 0.06
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_01.ogg",

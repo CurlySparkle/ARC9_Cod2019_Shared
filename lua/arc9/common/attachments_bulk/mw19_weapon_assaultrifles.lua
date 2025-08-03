@@ -1013,7 +1013,7 @@ ATT.BoneMerge = true
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_9mm_hr.mdl"
 ATT.ShellSounds = ARC9.COD2019_9mm_Table
-ATT.ShellScale = 0.065
+ATT.ShellScale = 0.05
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_01.ogg",
@@ -3218,7 +3218,7 @@ ATT.AtmosSound = "Distant_AR3.Outside"
 ATT.LayerSoundIndoor = "Layer_AR.Inside"
 ATT.AtmosSoundIndoor = "Distant_AR.Inside"
 
-ATT.ShellScale = 0.06
+ATT.ShellScale = 0.05
 
 ATT.BulletBones = {
     [1] = "j_ammo1",
@@ -3297,7 +3297,7 @@ ATT.BulletBones = {
 }
 
 ATT.ClipSizeAdd = 50
-ATT.ShellScale = 0.06
+ATT.ShellScale = 0.05
 
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
@@ -3417,8 +3417,6 @@ ATT.DistantShootSoundSilenced = "Distant_Shotgun2.Outside"
 ATT.LayerSoundSilencedIndoor = "Layer_ShotgunSUP.Inside"
 ATT.SoundSilencedIndoor = "Distant_Shotgun2.Outside"
 ---------------------------------------------------
-
-ATT.ShellScale = 0.07
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_origin12.mdl"
 ATT.ShellSounds = ARC9.COD2019_Shotgun_Table
@@ -3719,7 +3717,7 @@ ATT.ActivateElements = {"mag_none","mag_drum"}
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_9mm_hr.mdl"
 ATT.ShellSounds = ARC9.COD2019_9mm_Table
-ATT.ShellScale = 0.08
+ATT.ShellScale = 0.05
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag_phys.mdl"
@@ -5039,7 +5037,7 @@ ATT.BulletBones = {
 }
 
 ATT.ClipSizeAdd = 15
-ATT.ShellScale = 0.06
+ATT.ShellScale = 0.05
 
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
@@ -5098,7 +5096,7 @@ ATT.BulletBones = {
 }
 
 ATT.ClipSizeAdd = 30
-ATT.ShellScale = 0.06
+ATT.ShellScale = 0.05
 
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
