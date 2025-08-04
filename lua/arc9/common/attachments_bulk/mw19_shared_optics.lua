@@ -4,54 +4,54 @@ local ATT = {}
 local warzonestats = GetConVar("arc9_mw19_stats_warzone"):GetBool() -- Warzone Stat Variable
 
 local reticleatts = {
-	holo = {
-		Attachments = { { 
-			PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-			Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-			Icon_Offset = Vector(0, 0, 0.5),
-			Category = "cod2019_reticle_holo",
-			CosmeticOnly = true,
-	} } },
-	reflex = {
-		Attachments = { { 
-			PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-			Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-			Icon_Offset = Vector(0, 0, 0.5),
-			Category = "cod2019_reticle_reflex",
-			CosmeticOnly = true,
-	} } },
-	acog = {
-		Attachments = { { 
-			PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-			Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-			Icon_Offset = Vector(0, 0, 0.5),
-			Category = "cod2019_reticle_acog",
-			CosmeticOnly = true,
-	} } },
-	hybrid = {
-		Attachments = { { 
-			PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-			Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-			Icon_Offset = Vector(0, 0, 0.5),
-			Category = "cod2019_reticle_hybrid",
-			CosmeticOnly = true,
-	} } },
-	thermal = {
-		Attachments = { { 
-			PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-			Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-			Icon_Offset = Vector(0, 0, 0.5),
-			Category = "cod2019_reticle_thermal",
-			CosmeticOnly = true,
-	} } },
-	sniper = {
-		Attachments = { { 
-			PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-			Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-			Icon_Offset = Vector(0, 0, 0.5),
-			Category = "cod2019_reticle_sniper",
-			CosmeticOnly = true,
-	} } },
+    holo = {
+        Attachments = { {
+            PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+            Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+            Icon_Offset = Vector(0, 0, 0.5),
+            Category = "cod2019_reticle_holo",
+            CosmeticOnly = true,
+    } } },
+    reflex = {
+        Attachments = { {
+            PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+            Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+            Icon_Offset = Vector(0, 0, 0.5),
+            Category = "cod2019_reticle_reflex",
+            CosmeticOnly = true,
+    } } },
+    acog = {
+        Attachments = { {
+            PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+            Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+            Icon_Offset = Vector(0, 0, 0.5),
+            Category = "cod2019_reticle_acog",
+            CosmeticOnly = true,
+    } } },
+    hybrid = {
+        Attachments = { {
+            PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+            Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+            Icon_Offset = Vector(0, 0, 0.5),
+            Category = "cod2019_reticle_hybrid",
+            CosmeticOnly = true,
+    } } },
+    thermal = {
+        Attachments = { {
+            PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+            Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+            Icon_Offset = Vector(0, 0, 0.5),
+            Category = "cod2019_reticle_thermal",
+            CosmeticOnly = true,
+    } } },
+    sniper = {
+        Attachments = { {
+            PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+            Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+            Icon_Offset = Vector(0, 0, 0.5),
+            Category = "cod2019_reticle_sniper",
+            CosmeticOnly = true,
+    } } },
 }
 
 //////////////////////////////////////////////// -- Reflex Optics
@@ -102,22 +102,22 @@ ATT.LaserStrength = 2
 ATT.LaserAttachment = 2
 ATT.ToggleOnF = false
 ATT.ToggleStats = {
-	{
-		PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
-		Laser = true,
-		SpreadMultMove = 0.94,
-		SpreadMult = 0.80,
-		NoPeekCrosshair = true,
-	},
-	{
-		PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
-	}
+    {
+        PrintName = ARC9:GetPhrase("mw19_togglestat_on"),
+        Laser = true,
+        SpreadMultMove = 0.94,
+        SpreadMult = 0.80,
+        NoPeekCrosshair = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("mw19_togglestat_off"),
+    }
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.05
+    ATT.AimDownSightsTimeAdd = 0.05
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_flip_nydar")
@@ -164,9 +164,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west03")
@@ -212,9 +212,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east02")
@@ -260,9 +260,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.holo)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west")
@@ -303,9 +303,9 @@ ATT.HoloSightSize = 1024 * 1.5
 ATT.HoloSightColorable = false
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_slima")
@@ -352,9 +352,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.holo)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west02")
@@ -400,9 +400,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east")
@@ -448,9 +448,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1")
@@ -496,9 +496,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2")
@@ -544,9 +544,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3")
@@ -598,9 +598,9 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_defa
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop")
@@ -652,10 +652,12 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_defa
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
+
+ATT.AttInv = "cod2019_optic_aimop"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop_alt")
 
@@ -700,9 +702,9 @@ ATT.HoloSightColorable = false
 -- table.Merge(ATT, reticleatts.reflex)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05")
@@ -754,9 +756,9 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_defaul
 -- table.Merge(ATT, reticleatts.holo)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_holo_east")
@@ -785,7 +787,7 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 56,
         IgnoreExtra = false,
-		CantPeek = true,
+        CantPeek = true,
     },
 }
 
@@ -808,10 +810,12 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 3
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 end
+
+ATT.InvAtt = "cod2019_optic_minireddot1"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1_scope")
 
@@ -838,7 +842,7 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 56,
         IgnoreExtra = false,
-		CantPeek = true,
+        CantPeek = true,
     },
 }
 
@@ -861,10 +865,12 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 3
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 end
+
+ATT.InvAtt = "cod2019_optic_minireddot2"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2_scope")
 
@@ -891,7 +897,7 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 56,
         IgnoreExtra = false,
-		CantPeek = true,
+        CantPeek = true,
     },
 }
 
@@ -914,10 +920,12 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 3
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 end
+
+ATT.InvAtt = "cod2019_optic_minireddot3"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_scope")
 
@@ -971,12 +979,12 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.p
 -- table.Merge(ATT, reticleatts.sniper)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.15
-	ATT.DeployTimeMult = 1.10
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeMult = 1.15
+    ATT.DeployTimeMult = 1.10
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.093
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.093
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_vz")
@@ -1028,11 +1036,11 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/reticle_int_default2.p
 -- table.Merge(ATT, reticleatts.sniper)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.08
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.08
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.08
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.08
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_mike14")
@@ -1070,15 +1078,15 @@ ATT.Sights = {
         -- Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(1.5, 0, 0),
         -- Category = "cod2019_optic_sidemount",
-		-- Scale = 1,
+        -- Scale = 1,
     -- },
-	-- {
-	-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-	-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-	-- Icon_Offset = Vector(0, 0, 0.5),
-	-- Category = "cod2019_reticle_acog",
-	-- CosmeticOnly = true,
-	-- },
+    -- {
+    -- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+    -- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+    -- Icon_Offset = Vector(0, 0, 0.5),
+    -- Category = "cod2019_reticle_acog",
+    -- CosmeticOnly = true,
+    -- },
 -- }
 
 ATT.CustomPros = {
@@ -1099,13 +1107,13 @@ ATT.RTScopeColorable = false
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.021
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.021
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.021
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.021
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_vlk3")
@@ -1142,8 +1150,8 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false,
-		Integral = false,
-		Blur = true,
+        Integral = false,
+        Blur = true,
         Disassociate = true,
     },
 }
@@ -1180,13 +1188,13 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_defaul
 -- table.Merge(ATT, reticleatts.hybrid)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.042
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.042
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west")
@@ -1214,9 +1222,9 @@ ATT.DrawFunc = function(swep, model, wm)
         model:ResetSequence(swep:GetMultiSight() == 1 and "hybrid_on" or "hybrid_off")
         model.fuckingcycle = 0
         model.playedsomeanim = true
-        swep.MWHybridSwitching = nil 
+        swep.MWHybridSwitching = nil
     end
-	
+
     if !model.playedsomeanim then
         model:ResetSequence(swep:GetMultiSight() == 1 and "idle" or "idle_off")
     end
@@ -1239,11 +1247,11 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false,
-		Integral = false,
-		Blur = true,
-		ActivateElements = {"magnifier_off"},
+        Integral = false,
+        Blur = true,
+        ActivateElements = {"magnifier_off"},
         Disassociate = true,
-		CantPeek = true,
+        CantPeek = true,
     },
 }
 
@@ -1277,13 +1285,13 @@ ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_hybrid_defa
 -- table.Merge(ATT, reticleatts.hybrid)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.042
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.042
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west02")
@@ -1321,11 +1329,11 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false,
-		Integral = false,
-		Blur = true,
-		ActivateElements = {"magnifier_off"},
+        Integral = false,
+        Blur = true,
+        ActivateElements = {"magnifier_off"},
         Disassociate = true,
-		CantPeek = true,
+        CantPeek = true,
     },
 }
 
@@ -1340,9 +1348,9 @@ ATT.DrawFunc = function(swep, model, wm)
         model:ResetSequence(swep:GetMultiSight() == 1 and "hybrid_on" or "hybrid_off")
         model.fuckingcycle = 0
         model.playedsomeanim = true
-        swep.MWHybridSwitching = nil 
+        swep.MWHybridSwitching = nil
     end
-	
+
     if !model.playedsomeanim then
         model:ResetSequence(swep:GetMultiSight() == 1 and "idle" or "idle_off")
     end
@@ -1413,13 +1421,13 @@ cam.End2D()
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.042
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.042
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.042
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_hybrid_west02_thermal")
@@ -1448,9 +1456,9 @@ ATT.DrawFunc = function(swep, model, wm)
         model:ResetSequence(swep:GetMultiSight() == 1 and "hybrid_on" or "hybrid_off")
         model.fuckingcycle = 0
         model.playedsomeanim = true
-        swep.MWHybridSwitching = nil 
+        swep.MWHybridSwitching = nil
     end
-	
+
     if !model.playedsomeanim then
         model:ResetSequence(swep:GetMultiSight() == 1 and "idle" or "idle_off")
     end
@@ -1473,11 +1481,11 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         IgnoreExtra = false,
-		Integral = false,
-		Blur = true,
-		ActivateElements = {"magnifier_off"},
+        Integral = false,
+        Blur = true,
+        ActivateElements = {"magnifier_off"},
         Disassociate = true,
-		CantPeek = true,
+        CantPeek = true,
     },
 }
 
@@ -1503,13 +1511,13 @@ ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeColorable = false
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.11
-	ATT.VisualRecoilMult = 0.95
-	ATT.RecoilMult = 0.94
+    ATT.AimDownSightsTimeAdd = 0.11
+    ATT.VisualRecoilMult = 0.95
+    ATT.RecoilMult = 0.94
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.063
-	ATT.VisualRecoilMult = 0.87
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.063
+    ATT.VisualRecoilMult = 0.87
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_raal_scope")
@@ -1547,15 +1555,15 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         Category = "cod2019_optics_pistols_scope",
-		Scale = 1,
+        Scale = 1,
     },
-	-- {
-		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-		-- Icon_Offset = Vector(0, 0, 0.5),
-		-- Category = "cod2019_reticle_acog",
-		-- CosmeticOnly = true,
-	-- },
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+        -- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, 0.5),
+        -- Category = "cod2019_reticle_acog",
+        -- CosmeticOnly = true,
+    -- },
 }
 
 ATT.CustomPros = {
@@ -1575,13 +1583,13 @@ ATT.RTScopeColorable = false
 --ATT.ScopeScreenRatio = 600/1080
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.027
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.027
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.027
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.027
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_scout")
@@ -1619,15 +1627,15 @@ ATT.Sights = {
         -- Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(1.5, 0, 0),
         -- Category = "cod2019_optic_sidemount",
-		-- Scale = 1,
+        -- Scale = 1,
     -- },
-	-- {
-		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-		-- Icon_Offset = Vector(0, 0, 0.5),
-		-- Category = "cod2019_reticle_acog",
-		-- CosmeticOnly = true,
-	-- },
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+        -- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, 0.5),
+        -- Category = "cod2019_reticle_acog",
+        -- CosmeticOnly = true,
+    -- },
 -- }
 
 ATT.CustomPros = {
@@ -1648,13 +1656,13 @@ ATT.RTScopeColorable = false
 ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.03
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.03
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.03
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.03
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_cronen")
@@ -1692,15 +1700,15 @@ ATT.Sights = {
         -- Ang = Angle(0, 0, 0),
         -- Icon_Offset = Vector(1.5, 0, 0),
         -- Category = "cod2019_optic_sidemount",
-		-- Scale = 1,
+        -- Scale = 1,
     -- },
-	-- {
-		-- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
-		-- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
-		-- Icon_Offset = Vector(0, 0, 0.5),
-		-- Category = "cod2019_reticle_thermal",
-		-- CosmeticOnly = true,
-	-- },
+    -- {
+        -- PrintName = ARC9:GetPhrase("mw19_category_reticle") or "Reticle",
+        -- Pos = Vector(0, 0, 0), Ang = Angle(0, 0, 0),
+        -- Icon_Offset = Vector(0, 0, 0.5),
+        -- Category = "cod2019_reticle_thermal",
+        -- CosmeticOnly = true,
+    -- },
 -- }
 
 ATT.CustomPros = {
@@ -1737,7 +1745,7 @@ ATT.RTScopeNightVisionCC = {
 ATT.RTScopeNightVisionNoPP = true
 
 ATT.RTScopeFLIR = true
-ATT.RTScopeFLIRSolid = false 
+ATT.RTScopeFLIRSolid = false
 ATT.RTScopeFLIRRange = 30000
 ATT.RTScopeFLIRMonochrome = true
 ATT.RTScopeFLIRBlend = 1
@@ -1777,13 +1785,13 @@ cam.End2D()
 end
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.06
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.06
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.06
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.06
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_thermal_west_01")
@@ -1874,13 +1882,13 @@ end
 ATT.RTScopeMotionBlur = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.06
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.06
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.06
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.06
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_thermal_east")
@@ -1969,13 +1977,13 @@ end
 ATT.RTScopeMotionBlur = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.06
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.06
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.06
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.06
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_thermalsnpr_west01")
@@ -2025,13 +2033,13 @@ ATT.RTScopeColorable = false
 -- table.Merge(ATT, reticleatts.acog)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.029
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.029
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.029
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.029
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_hybrid")
@@ -2080,13 +2088,13 @@ ATT.RTScopeNoPP = false
 ATT.RTScopeColorable = false
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.08
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.08
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.077
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.077
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_svd")
