@@ -280,6 +280,8 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.007
 end
 
+ATT.InvAtt = "cod2019_optic_minireddot1"
+
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1_pistol")
 
 /////////////////////////// -- cod2019_optic_minireddot2_pistol
@@ -326,6 +328,8 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.005
 end
 
+ATT.InvAtt = "cod2019_optic_minireddot2"
+
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2_pistol")
 
 /////////////////////////// -- cod2019_optic_minireddot3_pistol
@@ -371,6 +375,8 @@ if !warzonestats then -- Regular Stats
 else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.005
 end
+
+ATT.InvAtt = "cod2019_optic_minireddot3"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_pistol")
 
@@ -424,6 +430,8 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.007
 end
 
+ATT.InvAtt = "cod2019_optic_aimop"
+
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop_pistol")
 
 /////////////////////////// -- cod2019_optic_aimop_alt_pistol
@@ -476,7 +484,7 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.007
 end
 
-ATT.InvAtt = "cod2019_optic_aimop_pistol"
+ATT.InvAtt = "cod2019_optic_aimop"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop_alt_pistol")
 
@@ -523,6 +531,8 @@ if !warzonestats then -- Regular Stats
 else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.007
 end
+
+ATT.InvAtt = "cod2019_optic_reflex_west05"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_pistol")
 
@@ -576,6 +586,8 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.015
 end
 
+ATT.InvAtt = "cod2019_optic_holo_east"
+
 ARC9.LoadAttachment(ATT, "cod2019_optic_holo_east_pistol")
 
 //////////////////////////////////////////////// -- Small Handgun Reflex Optics
@@ -623,7 +635,7 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.003
 end
 
-ATT.InvAtt = "cod2019_optic_minireddot1_pistol"
+ATT.InvAtt = "cod2019_optic_minireddot1"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1_alt")
 
@@ -671,7 +683,7 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.003
 end
 
-ATT.InvAtt = "cod2019_optic_minireddot2_pistol"
+ATT.InvAtt = "cod2019_optic_minireddot2"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2_alt")
 
@@ -719,7 +731,7 @@ else -- Warzone Stats
     ATT.AimDownSightsTimeAdd = 0.003
 end
 
-ATT.InvAtt = "cod2019_optic_minireddot3_pistol"
+ATT.InvAtt = "cod2019_optic_minireddot3"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_alt")
 
@@ -776,6 +788,8 @@ else -- Warzone Stats
     ATT.RecoilMult = 0.99
 end
 
+ATT.InvAtt = "cod2019_optic_vlk3"
+
 ARC9.LoadAttachment(ATT, "cod2019_optic_vlk3_pistol")
 
 /////////////////////////// -- cod2019_optic_scope_scout_pistol
@@ -830,6 +844,8 @@ else -- Warzone Stats
     ATT.RecoilMult = 0.99
 end
 
+ATT.InvAtt = "cod2019_optic_scope_scout"
+
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_scout_pistol")
 
 /////////////////////////// -- cod2019_optic_cronen_pistol
@@ -883,5 +899,7 @@ else -- Warzone Stats
     ATT.VisualRecoilMult = 0.99
     ATT.RecoilMult = 0.99
 end
+
+ATT.InvAtt = "cod2019_optic_cronen"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_cronen_pistol")
