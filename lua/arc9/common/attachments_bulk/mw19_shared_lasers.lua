@@ -209,6 +209,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statstac.wz)
 end
 
+ATT.InvAtt = "cod2019_laser_01"
+
 ARC9.LoadAttachment(ATT, "cod2019_laser_01_cylinde_alt")
 
 /////////////////////////// -- cod2019_laser_02_cylinde_alt
@@ -249,6 +251,8 @@ else -- Warzone Stats
 	table.Merge(ATT, stats1mw.wz)
 end
 
+ATT.InvAtt = "cod2019_laser_02"
+
 ARC9.LoadAttachment(ATT, "cod2019_laser_02_cylinde_alt")
 
 /////////////////////////// -- cod2019_laser_03_cylinde_alt
@@ -288,6 +292,8 @@ if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 	table.Merge(ATT, stats5mw.wz)
 end
+
+ATT.InvAtt = "cod2019_laser_03"
 
 ARC9.LoadAttachment(ATT, "cod2019_laser_03_cylinde_alt")
 
@@ -330,6 +336,8 @@ else -- Warzone Stats
 	table.Merge(ATT, statstac.wz)
 end
 
+ATT.InvAtt = "cod2019_laser_01"
+
 ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_01")
 
 /////////////////////////// -- cod2019_laser_pstl_02
@@ -370,6 +378,8 @@ else -- Warzone Stats
 	table.Merge(ATT, stats1mw.wz)
 end
 
+ATT.InvAtt = "cod2019_laser_02"
+
 ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_02")
 
 /////////////////////////// -- cod2019_laser_pstl_03
@@ -409,5 +419,7 @@ if !warzonestats then -- Regular Stats
 else -- Warzone Stats
 	table.Merge(ATT, stats5mw.wz)
 end
+
+ATT.InvAtt = "cod2019_laser_03"
 
 ARC9.LoadAttachment(ATT, "cod2019_laser_pstl_03")

@@ -45,9 +45,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west03_pistol")
@@ -91,9 +91,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east02_pistol")
@@ -137,9 +137,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west_pistol")
@@ -183,9 +183,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west02_pistol")
@@ -229,9 +229,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_east_pistol")
@@ -275,9 +275,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1_pistol")
@@ -321,9 +321,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2_pistol")
@@ -367,9 +367,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.005
+    ATT.AimDownSightsTimeAdd = 0.005
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_pistol")
@@ -419,9 +419,9 @@ ATT.RTCollimator = true
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop_pistol")
@@ -471,10 +471,12 @@ ATT.RTCollimator = true
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_reflex_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
+
+ATT.InvAtt = "cod2019_optic_aimop_pistol"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_aimop_alt_pistol")
 
@@ -517,9 +519,9 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 1 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.007
+    ATT.AimDownSightsTimeAdd = 0.007
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_reflex_west05_pistol")
@@ -569,9 +571,9 @@ ATT.RTCollimator = true
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_holo_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.015
+    ATT.AimDownSightsTimeAdd = 0.015
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_holo_east_pistol")
@@ -616,10 +618,12 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 end
+
+ATT.InvAtt = "cod2019_optic_minireddot1_pistol"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot1_alt")
 
@@ -662,10 +666,12 @@ ATT.HoloSightColorable = false
 --ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 end
+
+ATT.InvAtt = "cod2019_optic_minireddot2_pistol"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot2_alt")
 
@@ -708,10 +714,12 @@ ATT.HoloSightColorable = false
 ----ATT.HoloSightSize = 512 * 2 / (pistolrangemod * 0.5)
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.003
+    ATT.AimDownSightsTimeAdd = 0.003
 end
+
+ATT.InvAtt = "cod2019_optic_minireddot3_pistol"
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_minireddot3_alt")
 
@@ -759,13 +767,13 @@ ATT.RTScopeColorable = false
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default2.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.021
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.021
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.021
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.021
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_vlk3_pistol")
@@ -813,13 +821,13 @@ ATT.RTScopeColorable = false
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.027
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.027
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.027
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.027
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_scope_scout_pistol")
@@ -867,13 +875,13 @@ ATT.RTScopeColorable = false
 --ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_acog_default.png", "mips smooth")
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = 0.03
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.03
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.03
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+    ATT.AimDownSightsTimeAdd = 0.03
+    ATT.VisualRecoilMult = 0.99
+    ATT.RecoilMult = 0.99
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_optic_cronen_pistol")
