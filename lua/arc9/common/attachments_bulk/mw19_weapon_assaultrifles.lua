@@ -2656,9 +2656,11 @@ ATT.AutoStats = true
 
 ATT.Free = false
 
+ATT.ShellModelOverride = "models/weapons/cod2019/shared/shell_ar_556.mdl"
+ATT.ShellScale = 1
+
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mags_ar.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mags_ar.mdl"
-ATT.ShellScale = 0.075
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -3420,7 +3422,7 @@ ATT.SoundSilencedIndoor = "Distant_Shotgun2.Outside"
 
 ATT.ShellModel = "models/weapons/cod2019/shared/shell_origin12.mdl"
 ATT.ShellSounds = ARC9.COD2019_Shotgun_Table
-ATT.ShellScale = 1.2
+ATT.ShellScale = 1
 
 ATT.RPM = 300
 ATT.ClipSizeAdd = -18
@@ -4312,6 +4314,9 @@ ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_xmags.png", 
 ATT.AutoStats = true
 
 ATT.Free = false
+
+ATT.ShellModelOverride = "models/weapons/cod2019/shared/shell_ar_556.mdl"
+ATT.ShellScale = 1
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_grau556_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_grau556_mag.mdl"

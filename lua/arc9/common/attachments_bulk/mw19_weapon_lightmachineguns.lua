@@ -1100,8 +1100,8 @@ ATT.Description = [[Extended belts hold 100 rounds of 7.92 Mauser with a moderat
 ATT.Icon = Material("entities/attachs/lm/mg34/cod2019_lm_mg34_mag_v2.png", "mips smooth")
 ATT.Free = false
 
-ATT.ShellModel = "models/weapons/cod2019/shared/shell_762_hr.mdl"
-ATT.ShellScale = 0.06
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_ar_556.mdl"
+ATT.ShellScale = 1.2
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_mg34_mag"
@@ -1945,9 +1945,6 @@ ATT.Description = [[Conversion kit to use 60 round 5.56 NATO magazines for incre
 ATT.Icon = Material("entities/attachs/lm/bruenn/cod2019_lm_bruenn_smags.png", "mips smooth")
 ATT.Free = false
 
-ATT.ShellModel = "models/weapons/cod2019/shared/shell_762_hr.mdl"
-ATT.ShellScale = 0.07
-
 ATT.SortOrder = 0
 ATT.Category = "cod2019_bruenmk9_mag"
 ATT.ActivateElements = {"mag_none","mag_smag"}
@@ -2672,8 +2669,8 @@ ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust1.png", 
 ATT.Free = false
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/lmg_finn_556nato_shell.mdl"
-ATT.ShellCorrectAng = Angle(0, 0, 90)
-ATT.ShellScale = 0.07
+ATT.ShellCorrectAng = Angle(0, -90, 90)
+ATT.ShellScale = 0.04
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_finn_mag"
@@ -2709,8 +2706,8 @@ ATT.Icon = Material("entities/attachs/lm/finn/cod2019_lm_finn_magcalcust2.png", 
 ATT.Free = false
 
 ATT.ShellModelOverride = "models/weapons/cod2019/shared/lmg_finn_556nato_shell.mdl"
-ATT.ShellCorrectAng = Angle(0, 0, 90)
-ATT.ShellScale = 0.07
+ATT.ShellCorrectAng = Angle(0, -90, 90)
+ATT.ShellScale = 0.04
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_finn_mag"
