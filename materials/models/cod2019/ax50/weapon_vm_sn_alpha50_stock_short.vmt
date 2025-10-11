@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\cod2019\cx9\weapon_vm_sm_secho_grip02_rgb"
-    "$bumpmap" "models\cod2019\cx9\weapon_vm_sm_secho_grip02_n"
-    "$phongexponenttexture" "models\cod2019\cx9\weapon_vm_sm_secho_grip02_e"
+    "$basetexture" "models\cod2019\ax50\weapon_vm_sn_alpha50_stock_short_rgb"
+    "$bumpmap" "models\cod2019\ax50\weapon_vm_sn_alpha50_stock_short_n"
+    "$phongexponenttexture" "models\cod2019\ax50\weapon_vm_sn_alpha50_stock_short_e"
 
     /////////////////
     "$color2" "[1 1 1]"                                     //do not touch this
@@ -20,7 +20,7 @@
     /////////////////
 
     "$envmap" "env_cubemap"
-    "$envmaptint" "[0.102 0.102 0.102]"                 
+    "$envmaptint" "[0.188 0.196 0.2]"                 
 
     "$detailblendmode" "4"
     "$detailblendfactor" "0.7"
@@ -32,7 +32,7 @@
         {
             "min" "0"
             "max" "1"
-            "color" "[0.102 0.102 0.102]"
+            "color" "[0.188 0.196 0.2]"
         }
 	   "CustomCamo" 
         {

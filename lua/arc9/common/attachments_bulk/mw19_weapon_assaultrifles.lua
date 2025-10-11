@@ -224,7 +224,7 @@ ATT.SortOrder = 1
 ATT.Category = "cod2019_kilo141_mag"
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
-ATT.ExcludeElements = {"m203"}
+ATT.ExcludeElements = {"m203", "shotgun"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_drum_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/kilo141/attachment_vm_ar_kilo433_drum_mag.mdl"
@@ -1297,6 +1297,7 @@ ATT.PrintName = "FR 24.4\" Sniper"
 ATT.CompactName = "FR 24.4\" Sniper"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes grouping but hinders mobility.]]
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barrellong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barrellong_alt.mdl"
 ATT.BoneMerge = false
@@ -1353,6 +1354,7 @@ ATT.PrintName = "FR 15.9\" Commando"
 ATT.CompactName = "15.9\" Commando"
 ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Improves close range combat.]]
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barshort.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barshort.mdl"
 ATT.BoneMerge = false
@@ -1410,6 +1412,7 @@ ATT.PrintName = "FORGE TAC Ultralight"
 ATT.CompactName = "Ultralight"
 ATT.Description = [[Fluted barrel with a wider bore reduces weight for improved handling at the cost of muzzle velocity.]]
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_barlong2.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_barlong2.mdl"
 ATT.BoneMerge = false
@@ -1449,6 +1452,31 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_barrel_light")
 ---------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--ATT.PrintName = "FR Ultralight Hollow"
+--ATT.CompactName = "Ultralight"
+--ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+--ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_light_v1.png", "mips smooth")
+--ATT.Free = false
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_light.mdl"
+--ATT.BoneMerge = true
+
+--ATT.SortOrder = 0
+--ATT.Category = "cod2019_famas_stock"
+--ATT.ActivateElements = {"stock_none"}
+
+--if !warzonestats then -- Regular Stats
+--	ATT.RecoilSideMult = 0.95
+--	ATT.RecoilUpMult = 1.05
+--else -- Warzone Stats
+--	ATT.SpeedSightsMult = 1.15
+--end
+
+--ARC9.LoadAttachment(ATT, "cod2019_famas_stock_light")
+---------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -1456,6 +1484,7 @@ ATT.PrintName = "FORGE TAC Ballast Pack"
 ATT.CompactName = "Ballast"
 ATT.Description = [[Weighted packs provide stability while aiming.]]
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_tactical.mdl"
 ATT.BoneMerge = true
@@ -1480,6 +1509,7 @@ ATT.PrintName = "FSS Tac-Wrap"
 ATT.CompactName = "Tac-Wrap"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
 ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_stable_v1.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_stable.mdl"
 ATT.BoneMerge = true
@@ -2722,7 +2752,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
-ATT.ExcludeElements = {"m203"}
+ATT.ExcludeElements = {"m203", "shotgun"}
 
 ATT.AimDownSightsTimeMult = 1.07
 ATT.DeployTimeMult = 1.08
@@ -2924,6 +2954,8 @@ ATT.SortOrder = 3
 ATT.Category = "cod2019_ak47_barrel"
 ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_rpk_grip"}
 
+ATT.ExcludeElements = {"gp25", "shotgun"}
+
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_lmgbarrel_grip.mdl"
 ATT.BoneMerge = false
 
@@ -2983,6 +3015,8 @@ ATT.Free = false
 ATT.SortOrder = 3
 ATT.Category = "cod2019_ak47_barrel"
 ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_smg"}
+
+ATT.ExcludeElements = {"gp25", "shotgun"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_smgbarrel_akilo47.mdl"
 ATT.BoneMerge = false
@@ -3057,6 +3091,8 @@ ATT.Free = false
 ATT.SortOrder = 3
 ATT.Category = "cod2019_ak47_barrel"
 ATT.ActivateElements = {"barrel_none","barrel_custom","barrel_rpk_grip"}
+
+ATT.ExcludeElements = {"gp25", "shotgun"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_akilo47_smgbarcust.mdl"
 ATT.BoneMerge = false
@@ -3266,7 +3302,7 @@ ATT.SortOrder = 2
 ATT.Category = {"cod2019_ak47_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum_mw22"}
 
-ATT.ExcludeElements = {"gp25"}
+ATT.ExcludeElements = {"gp25", "shotgun"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/rkilo_410g_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/rkilo_410g_mag.mdl"
@@ -3357,7 +3393,7 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_ak47_mag"
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
-ATT.ExcludeElements = {"gp25"}
+ATT.ExcludeElements = {"gp25", "shotgun"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_drum_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ak47/attachment_vm_ar_akilo47_drum_mag.mdl"
@@ -3899,6 +3935,8 @@ ATT.LHIK = true
 ATT.SortOrder = 0
 ATT.Category = "cod2019_grau556_barrel"
 ATT.ActivateElements = {"barrel_none","barrel_short","muzzle_none","sight_front_none","barrel_custom","barrel_drifter_grip"}
+
+ATT.ExcludeElements = {"m203", "shotgun"}
 
 ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleDevice = true

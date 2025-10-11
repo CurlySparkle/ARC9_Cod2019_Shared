@@ -643,6 +643,43 @@ ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_alt")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "32 Round Mags"
+ATT.CompactName = "32R"
+ATT.Description = [[Extended magazines hold 32 rounds of 9mm Parabellum ammunition with a slight weight increase.]]
+ATT.Free = false
+
+ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_smg_xmag.png", "mips smooth")
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_aug_mag"
+ATT.ActivateElements = {"mag_none"} --"mag_xmag"
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_smg_xmag.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_xmag2.mdl"
+ATT.BoneMerge = true
+
+ATT.BulletBones = {
+	[1] = "j_ammo_01",
+	[2] = "j_ammo_03",
+	[3] = "j_ammo_02",
+}
+
+ATT.ClipSizeAdd = 7
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.DeployTimeMult = 1.05
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.004
+	ATT.SpeedMult = 0.98
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_aug_mag_32")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "5.56 NATO 30-Round Mag"
 ATT.CompactName = "5.56 30-Round"
 ATT.Description = [[Conversion kit to use 30 round 5.56 NATO magazines for increased stopping power. Slightly lower cycle rate to help control recoil.]]
@@ -2862,7 +2899,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 0.85
 	ATT.DamageMaxMult = 1.1
 	ATT.DamageMinMult = 1.2
-	ATT.RecoilUp = 1.3
+	ATT.RecoilUpMult = 1.3
 	ATT.RPMAdd = -511
 else -- Warzone Stats
 	ATT.ReloadTimeMult = 0.9
@@ -2870,7 +2907,7 @@ else -- Warzone Stats
 	ATT.DeployTimeMult = 0.85
 	ATT.DamageMaxMult = 1.1
 	ATT.DamageMinMult = 1.2
-	ATT.RecoilUp = 1.3
+	ATT.RecoilUpMult = 1.3
 	ATT.RPMAdd = -511
 end
 
@@ -3640,6 +3677,93 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_stock_medium")
+---------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.PrintName = "9mm Hollow Point 12-R Mags"
+--ATT.CompactName = "12R 9mm HP"
+--ATT.Description = [[Gun mod for lightweight single stack 12 round magazines. Comes equipped with a 3-round burst fire mode and 9mm Hollow Point ammunition to ensure every shot counts.]]
+--ATT.SortOrder = 1
+
+--ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_smags.png", "mips smooth")
+--ATT.AutoStats = true
+--ATT.Free = false
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_smags.mdl"
+--ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_smags.mdl"
+--ATT.BoneMerge = true
+
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--ATT.Category = {"cod2019_cx9_mag"}
+--ATT.ActivateElements = {"mag_none"} --"mag_smag"
+
+--local bulletbones = {
+--	[12] = "j_bullet12",
+--	[11] = "j_bullet11",
+--	[10] = "j_bullet10",
+--	[9] = "j_bullet9",
+--	[8] = "j_bullet8",
+--	[7] = "j_bullet7",
+--	[6] = "j_bullet6",
+--	[5] = "j_bullet5",
+--	[4] = "j_bullet4",
+--	[3] = "j_bullet3",
+--	[2] = "j_bullet2",
+--	[1] = "j_bullet1"
+--}
+
+--local v0 = Vector(0, 0, 0)
+--local v1 = Vector(1, 1, 1)
+
+--ATT.DrawFunc = function(wep, model, wm)
+--    local clip = wep:GetLoadedRounds()
+
+--    local draw = 12 - clip + 1
+
+--    for i = 1, 12 do
+--        local boneid = model:LookupBone(bulletbones[i])
+--        if i >= draw then
+--            model:ManipulateBoneScale(boneid, v1)
+--        else
+--            model:ManipulateBoneScale(boneid, v0)
+--        end
+--    end
+--end
+
+--ATT.ClipSizeAdd = -8
+--ATT.RunawayBurst = true
+
+--ATT.Firemodes = {
+--	{
+--		Mode = 3,
+--		PoseParam = 0,
+--	},
+--	{
+--		Mode = 1,
+--		PoseParam = 1,
+--	},
+--}
+
+--if !warzonestats then -- Regular Stats
+--	ATT.AimDownSightsTimeMult = 0.9
+--	ATT.DeployTimeMult = 0.85
+--	ATT.DamageMaxMult = 1.1
+--	ATT.DamageMinMult = 1.2
+--	ATT.RecoilKickMult = 1.25
+--	ATT.PostBurstDelay = 0.1
+--else -- Warzone Stats
+--	ATT.PhysBulletMuzzleVelocityAdd = -150 / ARC9.HUToM
+--	ATT.AimDownSightsTimeAdd = -0.009
+--	ATT.DamageMaxAdd = 10
+--	ATT.DamageMinAdd = 8
+--	ATT.RecoilMult = 1.1
+--	ATT.VisualRecoilMult = 1.15
+--	ATT.SpeedMult = 1.03
+--	ATT.SpeedSightsMult = 1.02
+--	ATT.PostBurstDelayAdd = 0.06
+--end
+
+--ARC9.LoadAttachment(ATT, "cod2019_cx9_mag_hp")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

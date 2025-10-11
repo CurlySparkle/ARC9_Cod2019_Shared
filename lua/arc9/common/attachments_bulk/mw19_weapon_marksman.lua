@@ -707,6 +707,7 @@ ATT.PrintName = "Singuard Custom 27.6\""
 ATT.CompactName = "Singuard Custom 27.6\""
 ATT.Description = [[Custom 27.6" heavyweight barrel with polygonal rifling increases muzzle velocity to the max. Additional weight hinders mobility.]]
 ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_barlong.mdl"
 ATT.BoneMerge = false
@@ -758,6 +759,7 @@ ATT.PrintName = "Singuard Custom 25.1\""
 ATT.CompactName = "Singuard Custom 25.1\""
 ATT.Description = [[Custom 25.1\" heavyweight barrel with polygonal rifling balances increased muzzle velocity with increased weight.]]
 ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_barmid.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_barmid.mdl"
 ATT.BoneMerge = false
@@ -809,6 +811,7 @@ ATT.PrintName = "Singuard Custom 21.2\""
 ATT.CompactName = "Singuard Custom 21.2\""
 ATT.Description = [[Custom 21.2" heavyweight barrel with polygonal rifling slightly increases muzzle velocity and extends range with little additional weight.]]
 ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_barshort.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_barshort.mdl"
 ATT.BoneMerge = false
@@ -863,6 +866,7 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "STVOL Precision Comb"
 ATT.CompactName = "Precision"
 ATT.Description = [[Heavy duty comb add-on provides exceptional precision while aiming.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_stock_tactical.png", "mips smooth")
 
@@ -881,12 +885,40 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_tactical")
 ---------------------------------------------------------------------------------------
+--ATT = {}
+
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--ATT.PrintName = "Hollow Stock Mod"
+--ATT.CompactName = "Hollow"
+--ATT.Description = [[Hollowed out stock with lightweight recoil pad keeps shooter agile while aiming down sights.]]
+--ATT.Free = false
+
+--ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_stockl.png", "mips smooth")
+
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_stockl.mdl"
+--ATT.BoneMerge = true
+
+--ATT.SortOrder = 0
+--ATT.Category = "cod2019_kar98k_stock"
+--ATT.ActivateElements = {"stock_none"}
+
+--if !warzonestats then -- Regular Stats
+--	ATT.AimDownSightsTimeMult = 0.97
+--	ATT.DeployTimeMult = 0.9
+--	ATT.RecoilKickMult = 1.15
+--else -- Warzone Stats
+--	ATT.SpeedSightsMult = 1.15
+--end
+
+--ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_light")
+---------------------------------------------------------------------------------------
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC Sport Comb"
 ATT.CompactName = "Sport"
 ATT.Description = [[Tactical comb add-on streamlined for close quarters combat. Gets you on target faster.]]
+ATT.Free = false
 
 ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_stocks.png", "mips smooth")
 
@@ -897,10 +929,10 @@ ATT.SortOrder = 0
 ATT.Category = "cod2019_kar98k_stock"
 
 if !warzonestats then -- Regular Stats
-    ATT.RecoilMult = 1.1
-    ATT.AimDownSightsTimeMult = 0.9
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.RecoilKickMult = 1.2
 else -- Warzone Stats
-    ATT.AimDownSightsTimeAdd = -0.026
+	ATT.AimDownSightsTimeAdd = -0.026
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_medium")

@@ -1269,7 +1269,9 @@ L["cod2019_cx9_mag_xmag.printname"] = string.format(mw19magtext.mag, "30")
 L["cod2019_cx9_mag_xmag.compactname"] = string.format(mw19magtext.mags, "30")
 L["cod2019_cx9_mag_xmag.description"] = string.format(mw19magtext.desc, "30", mw19ammotype["919"])
 
--- L["cod2019_cx9_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.printname") or ".45 Hollow Point 12-R Mags"
+-- L["cod2019_cx9_mag_hp.printname"] = "9mm Hollow Point 12-R Mags"
+-- L["cod2019_cx9_mag_hp.compactname"] = "12R 9mm HP"
+-- L["cod2019_cx9_mag_hp.description"] = "Gun mod for lightweight single stack <color=255,100,100>12 round</color> magazines. Comes equipped with a <color=100,255,100>3-round burst</color> fire mode and <color=255,255,100>9mm Hollow Point</color> ammunition to ensure every shot counts."
 
 L["cod2019_cx9_mag_drum.printname"] = string.format(mw19magtext.drum, "50")
 L["cod2019_cx9_mag_drum.compactname"] = string.format(mw19magtext.mags, "50")
