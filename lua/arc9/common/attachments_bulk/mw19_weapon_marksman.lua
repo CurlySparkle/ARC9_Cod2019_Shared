@@ -885,32 +885,32 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_tactical")
 ---------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.PrintName = "Hollow Stock Mod"
---ATT.CompactName = "Hollow"
---ATT.Description = [[Hollowed out stock with lightweight recoil pad keeps shooter agile while aiming down sights.]]
---ATT.Free = false
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Hollow Stock Mod"
+ATT.CompactName = "Hollow"
+ATT.Description = [[Hollowed out stock with lightweight recoil pad keeps shooter agile while aiming down sights.]]
+ATT.Free = false
 
---ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_stockl.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/mm/kar98k/cod2019_mm_kar98k_stockl.png", "mips smooth")
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_stockl.mdl"
---ATT.BoneMerge = true
+ATT.Model = "models/weapons/cod2019/attachs/weapons/kar98k/attachment_vm_sn_kilo98_stockl.mdl"
+ATT.BoneMerge = true
 
---ATT.SortOrder = 0
---ATT.Category = "cod2019_kar98k_stock"
---ATT.ActivateElements = {"stock_none"}
+ATT.SortOrder = 0
+ATT.Category = "cod2019_kar98k_stock"
+ATT.ActivateElements = {"stock_none"}
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 0.97
---	ATT.DeployTimeMult = 0.9
---	ATT.RecoilKickMult = 1.15
---else -- Warzone Stats
---	ATT.SpeedSightsMult = 1.15
---end
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.97
+	ATT.DeployTimeMult = 0.9
+	ATT.RecoilKickMult = 1.15
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 1.15
+end
 
---ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_light")
+ARC9.LoadAttachment(ATT, "cod2019_kar98k_stock_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

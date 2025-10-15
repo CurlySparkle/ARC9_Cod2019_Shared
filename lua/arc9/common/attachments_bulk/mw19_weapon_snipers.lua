@@ -768,83 +768,83 @@ ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) 
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_barrel_long")
 ----------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.PrintName = "Singuard Arms Marksman"
---ATT.CompactName = "Marksman"
---ATT.Description = "Heavy duty stock keeps your aim steady for precision shots."
---ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stockh.png", "mips smooth")
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.Free = false
+ATT.PrintName = "Singuard Arms Marksman"
+ATT.CompactName = "Marksman"
+ATT.Description = "Heavy duty stock keeps your aim steady for precision shots."
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stockh.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
---ATT.SortOrder = 1
---ATT.Category = "cod2019_ax50_stock"
+ATT.SortOrder = 1
+ATT.Category = "cod2019_ax50_stock"
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stockh.mdl"
---ATT.BoneMerge = true
---ATT.ActivateElements = {"stock_none"}
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stockh.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_custom"}
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 1.2
---	ATT.DeployTimeMult = 1.1
---	ATT.RecoilKickMult = 0.5
---else -- Warzone Stats
---	ATT.SpeedSightsMult = 0.89
---end
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.2
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilKickMult = 0.5
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 0.89
+end
 
---ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_heavy")
+ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_heavy")
 ----------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.PrintName = "Singuard Arms Assassin"
---ATT.CompactName = "Assassin"
---ATT.Description = "Tactical stock designed for rapid target acquisition and engagement."
---ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stocks.png", "mips smooth")
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.Free = false
+ATT.PrintName = "Singuard Arms Assassin"
+ATT.CompactName = "Assassin"
+ATT.Description = "Tactical stock designed for rapid target acquisition and engagement."
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stocks.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
---ATT.SortOrder = 1
---ATT.Category = "cod2019_ax50_stock"
+ATT.SortOrder = 1
+ATT.Category = "cod2019_ax50_stock"
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stocks.mdl"
---ATT.BoneMerge = true
---ATT.ActivateElements = {"stock_none"}
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stocks.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_custom"}
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 1.1
---	ATT.DeployTimeMult = 1.05
---	ATT.RecoilKickMult = 0.85
---else -- Warzone Stats
---	ATT.AimDownSightsTimeAdd = 0.063
---end
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.05
+	ATT.RecoilKickMult = 0.85
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.063
+end
 
---ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_medium")
+ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_medium")
 ----------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.PrintName = "Singuard Arms Evader"
---ATT.CompactName = "Evader"
---ATT.Description = "Stock designed for agility while aiming down sights."
---ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stockl.png", "mips smooth")
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.Free = false
+ATT.PrintName = "Singuard Arms Evader"
+ATT.CompactName = "Evader"
+ATT.Description = "Stock designed for agility while aiming down sights."
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_stockl.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
---ATT.SortOrder = 1
---ATT.Category = "cod2019_ax50_stock"
+ATT.SortOrder = 1
+ATT.Category = "cod2019_ax50_stock"
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stockl.mdl"
---ATT.BoneMerge = true
---ATT.ActivateElements = {"stock_none"}
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_stockl.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"stock_custom"}
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 0.9
---	ATT.DeployTimeMult = 0.88
---	ATT.RecoilKickMult = 1.2
---else -- Warzone Stats
---	ATT.SpeedSightsMult = 1.15
---end
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.88
+	ATT.RecoilKickMult = 1.2
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 1.15
+end
 
---ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_light")
+ARC9.LoadAttachment(ATT, "cod2019_ax50_stock_light")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
