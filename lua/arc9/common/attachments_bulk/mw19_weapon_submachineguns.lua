@@ -652,7 +652,7 @@ ATT.Icon = Material("entities/attachs/sm/aug/cod2019_sm_aug_smg_xmag.png", "mips
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_aug_mag"
-ATT.ActivateElements = {"mag_none"} --"mag_xmag"
+ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/aug/attachment_vm_sm_augolf_smg_xmag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/uzi/attachment_vm_sm_uzulu_xmag2.mdl"
