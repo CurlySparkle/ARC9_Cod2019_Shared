@@ -1209,7 +1209,9 @@ L["cod2019_vector_mag_drum.printname"] = string.format(mw19magtext.drum, "40")
 L["cod2019_vector_mag_drum.compactname"] = string.format(mw19magtext.mags, "40")
 L["cod2019_vector_mag_drum.description"] = string.format(mw19magtext.descdrum, "40", mw19ammotype["45acp"])
 
--- L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.printname") or ".45 Hollow Point 12-R Mags"
+L["cod2019_vector_mag_hp.printname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.printname") or ".45 Hollow Point 12-R Mags"
+L["cod2019_vector_mag_hp.compactname"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.compactname") or "12R .45 HP"
+L["cod2019_vector_mag_hp.description"] = ARC9:GetPhrase("cod2019_striker45_mag_smag.description") or "Gun mod for lightweight single stack <color=255,100,100>12 round</color> magazines. Comes equipped with a <color=100,255,100>2-round burst</color> fire mode and <color=255,255,100>.45 ACP Hollow Point</color> ammunition to ensure every shot counts."
 
 //////////////////// ISO
 /////////////// Barrels

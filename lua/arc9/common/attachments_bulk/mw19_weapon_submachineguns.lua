@@ -2911,7 +2911,7 @@ else -- Warzone Stats
 	ATT.RPMAdd = -511
 end
 
-ARC9.LoadAttachment(ATT, "cod2019_vector_mag_smag")
+ARC9.LoadAttachment(ATT, "cod2019_vector_mag_hp")
 
 /////////////////////////// -- ISO
 ATT = {}
@@ -3678,92 +3678,92 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_cx9_stock_medium")
 ---------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.PrintName = "9mm Hollow Point 12-R Mags"
---ATT.CompactName = "12R 9mm HP"
---ATT.Description = [[Gun mod for lightweight single stack 12 round magazines. Comes equipped with a 3-round burst fire mode and 9mm Hollow Point ammunition to ensure every shot counts.]]
---ATT.SortOrder = 1
+ATT.PrintName = "9mm Hollow Point 12-R Mags"
+ATT.CompactName = "12R 9mm HP"
+ATT.Description = [[Gun mod for lightweight single stack 12 round magazines. Comes equipped with a 3-round burst fire mode and 9mm Hollow Point ammunition to ensure every shot counts.]]
+ATT.SortOrder = 1
 
---ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_smags.png", "mips smooth")
---ATT.AutoStats = true
---ATT.Free = false
+ATT.Icon = Material("entities/attachs/sm/cx9/cod2019_sm_cx9_smags.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_smags.mdl"
---ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_smags.mdl"
---ATT.BoneMerge = true
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_smags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/cx9/attachment_vm_sm_secho_smags.mdl"
+ATT.BoneMerge = true
 
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.Category = {"cod2019_cx9_mag"}
---ATT.ActivateElements = {"mag_none"} --"mag_smag"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_cx9_mag"}
+ATT.ActivateElements = {"mag_none","mag_smag"}
 
---local bulletbones = {
---	[12] = "j_bullet12",
---	[11] = "j_bullet11",
---	[10] = "j_bullet10",
---	[9] = "j_bullet9",
---	[8] = "j_bullet8",
---	[7] = "j_bullet7",
---	[6] = "j_bullet6",
---	[5] = "j_bullet5",
---	[4] = "j_bullet4",
---	[3] = "j_bullet3",
---	[2] = "j_bullet2",
---	[1] = "j_bullet1"
---}
+local bulletbones = {
+	[12] = "j_bullet1",
+	[11] = "j_bullet2",
+	[10] = "j_bullet3",
+	[9] = "j_bullet4",
+	[8] = "j_bullet5",
+	[7] = "j_bullet6",
+	[6] = "j_bullet7",
+	[5] = "j_bullet8",
+	[4] = "j_bullet9",
+	[3] = "j_bullet10",
+	[2] = "j_bullet11",
+	[1] = "j_bullet12"
+}
 
---local v0 = Vector(0, 0, 0)
---local v1 = Vector(1, 1, 1)
+local v0 = Vector(0, 0, 0)
+local v1 = Vector(1, 1, 1)
 
---ATT.DrawFunc = function(wep, model, wm)
---    local clip = wep:GetLoadedRounds()
+ATT.DrawFunc = function(wep, model, wm)
+    local clip = wep:GetLoadedRounds()
 
---    local draw = 12 - clip + 1
+    local draw = 12 - clip + 1
 
---    for i = 1, 12 do
---        local boneid = model:LookupBone(bulletbones[i])
---        if i >= draw then
---            model:ManipulateBoneScale(boneid, v1)
---        else
---            model:ManipulateBoneScale(boneid, v0)
---        end
---    end
---end
+    for i = 1, 12 do
+        local boneid = model:LookupBone(bulletbones[i])
+        if i >= draw then
+            model:ManipulateBoneScale(boneid, v1)
+        else
+            model:ManipulateBoneScale(boneid, v0)
+        end
+    end
+end
 
---ATT.ClipSizeAdd = -8
---ATT.RunawayBurst = true
+ATT.ClipSizeAdd = -8
+ATT.RunawayBurst = true
 
---ATT.Firemodes = {
---	{
---		Mode = 3,
---		PoseParam = 0,
---	},
---	{
---		Mode = 1,
---		PoseParam = 1,
---	},
---}
+ATT.Firemodes = {
+	{
+		Mode = 3,
+		PoseParam = 0,
+	},
+	{
+		Mode = 1,
+		PoseParam = 1,
+	},
+}
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 0.9
---	ATT.DeployTimeMult = 0.85
---	ATT.DamageMaxMult = 1.1
---	ATT.DamageMinMult = 1.2
---	ATT.RecoilKickMult = 1.25
---	ATT.PostBurstDelay = 0.1
---else -- Warzone Stats
---	ATT.PhysBulletMuzzleVelocityAdd = -150 / ARC9.HUToM
---	ATT.AimDownSightsTimeAdd = -0.009
---	ATT.DamageMaxAdd = 10
---	ATT.DamageMinAdd = 8
---	ATT.RecoilMult = 1.1
---	ATT.VisualRecoilMult = 1.15
---	ATT.SpeedMult = 1.03
---	ATT.SpeedSightsMult = 1.02
---	ATT.PostBurstDelayAdd = 0.06
---end
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.DeployTimeMult = 0.85
+	ATT.DamageMaxMult = 1.15
+	ATT.DamageMinMult = 1.2
+	ATT.RecoilKickMult = 1.25
+	ATT.PostBurstDelay = 0.1
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -150 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.009
+	ATT.DamageMaxAdd = 10
+	ATT.DamageMinAdd = 8
+	ATT.RecoilMult = 1.1
+	ATT.VisualRecoilMult = 1.15
+	ATT.SpeedMult = 1.03
+	ATT.SpeedSightsMult = 1.02
+	ATT.PostBurstDelayAdd = 0.08
+end
 
---ARC9.LoadAttachment(ATT, "cod2019_cx9_mag_hp")
+ARC9.LoadAttachment(ATT, "cod2019_cx9_mag_hp")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
