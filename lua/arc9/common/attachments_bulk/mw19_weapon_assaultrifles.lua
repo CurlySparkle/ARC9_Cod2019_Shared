@@ -1452,30 +1452,30 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_famas_barrel_light")
 ---------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.PrintName = "FR Ultralight Hollow"
---ATT.CompactName = "Ultralight"
---ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
---ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_light_v1.png", "mips smooth")
---ATT.Free = false
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FR Ultralight Hollow"
+ATT.CompactName = "Ultralight"
+ATT.Description = [[Custom hollowed out stock with a lightweight recoil pad that keeps the shooter agile when aiming down sights.]]
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_stock_light_v1.png", "mips smooth")
+ATT.Free = false
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_light.mdl"
---ATT.BoneMerge = true
+ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_stock_light.mdl"
+ATT.BoneMerge = true
 
---ATT.SortOrder = 0
---ATT.Category = "cod2019_famas_stock"
---ATT.ActivateElements = {"stock_none"}
+ATT.SortOrder = 0
+ATT.Category = "cod2019_famas_stock"
+ATT.ActivateElements = {"stock_none"}
 
---if !warzonestats then -- Regular Stats
---	ATT.RecoilSideMult = 0.95
---	ATT.RecoilUpMult = 1.05
---else -- Warzone Stats
---	ATT.SpeedSightsMult = 1.15
---end
+if !warzonestats then -- Regular Stats
+	ATT.RecoilSideMult = 0.95
+	ATT.RecoilUpMult = 1.05
+else -- Warzone Stats
+	ATT.SpeedSightsMult = 1.15
+end
 
---ARC9.LoadAttachment(ATT, "cod2019_famas_stock_light")
+ARC9.LoadAttachment(ATT, "cod2019_famas_stock_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
@@ -1491,7 +1491,6 @@ ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_famas_stock"
-ATT.ActivateElements = {"stock_tactical"}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
@@ -1516,7 +1515,6 @@ ATT.BoneMerge = true
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_famas_stock"
-ATT.ActivateElements = {"stock_tactical"}
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.95
@@ -1533,7 +1531,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FR Avancer Receiver"
 ATT.CompactName = "Avancer"
 ATT.Description = ""
---ATT.Icon = Material("entities/attachs/cod2019_ar_famas_stock_tactical_v1.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_railcust.png", "mips smooth")
+ATT.Free = true
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/famas/attachment_vm_ar_falpha_railcust.mdl"
 ATT.BoneMerge = true
