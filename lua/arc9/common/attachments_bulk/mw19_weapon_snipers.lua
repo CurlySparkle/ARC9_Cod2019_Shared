@@ -885,40 +885,35 @@ ATT.BulletBones = {
 
 ARC9.LoadAttachment(ATT, "cod2019_ax50_mag_special")
 ----------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.PrintName = "7 Round Mags"
---ATT.CompactName = "7-Round"
---ATT.Description = [[Extended magazines hold 7 rounds of .50 BMG ammunition with a slight weight increase.]]
+ATT.PrintName = "7 Round Mags"
+ATT.CompactName = "7-Round"
+ATT.Description = [[Extended magazines hold 7 rounds of .50 BMG ammunition with a slight weight increase.]]
 
---ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_mmags.png", "mips smooth")
---ATT.Free = false
+ATT.Icon = Material("entities/attachs/sn/ax50/cod2019_sn_ax50_mmags.png", "mips smooth")
+ATT.Free = false
 
---ATT.SortOrder = 0
---ATT.Category = "cod2019_ax50_mag"
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.SortOrder = 0
+ATT.Category = "cod2019_ax50_mag"
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_mmags.mdl"
---ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_mmags.mdl"
---ATT.BoneMerge = true
---ATT.ActivateElements = {"mag_none","mag_mmag"}
+ATT.Model = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_mmags.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ax50/attachment_vm_sn_alpha50_mmags.mdl"
+ATT.BoneMerge = true
+ATT.ActivateElements = {"mag_none","mag_mmag"}
 
---ATT.ClipSizeAdd = 2
+ATT.ClipSizeAdd = 2
 
---ATT.BulletBones = {
---	[1] = "j_bullet_01",
---	[2] = "j_bullet_02",
---}
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.ReloadTimeMult = 1.05
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.011
+	ATT.SpeedMult = 0.98
+end
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 1.07
---	ATT.ReloadTimeMult = 1.05
---else -- Warzone Stats
---	ATT.AimDownSightsTimeAdd = -0.011
---	ATT.SpeedMult = 0.98
---end
-
---ARC9.LoadAttachment(ATT, "cod2019_ax50_mag_7")
+ARC9.LoadAttachment(ATT, "cod2019_ax50_mag_7")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
@@ -940,17 +935,12 @@ ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.ClipSizeAdd = 4
 
-ATT.BulletBones = {
-	[1] = "j_bullet_01",
-	[2] = "j_bullet_02",
-}
-
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.15
 	ATT.DeployTimeMult = 1.1
 	ATT.ReloadTimeMult = 1.15
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.022
+	ATT.AimDownSightsTimeAdd = 0.022
 	ATT.SpeedMult = 0.97
 end
 
