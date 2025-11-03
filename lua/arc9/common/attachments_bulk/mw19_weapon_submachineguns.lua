@@ -1984,7 +1984,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_
 ATT.BoneMerge = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.85
+	ATT.AimDownSightsTimeMult = 0.9
 	ATT.DeployTimeMult = 0.93
 	ATT.RecoilUpMult = 1.08
 	ATT.RecoilSideMult = 1.08

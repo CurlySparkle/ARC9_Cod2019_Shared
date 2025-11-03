@@ -2982,7 +2982,7 @@ ATT.Element = {
 
 if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 1.1
-	ATT.DeployTimeMult = 1.07
+	ATT.DeployTimeMult = 1.13
 	ATT.RecoilMult = 0.9
 	ATT.RangeMaxMult = 1.08
 else -- Warzone Stats
