@@ -1050,9 +1050,9 @@ L["cod2019_uzi_mag_cult.description"] = "Konverteringskit för att använda 32-p
 
 //////////////////// PP19 Bizon
 /////////////// Barrels
-L["cod2019_bizon_barrel_01.printname"] = "221 mm Stål"
-L["cod2019_bizon_barrel_01.compactname"] = "Stål"
-L["cod2019_bizon_barrel_01.description"] = "Tung pipa av stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
+L["cod2019_bizon_barrel_mid.printname"] = "221 mm Stål"
+L["cod2019_bizon_barrel_mid.compactname"] = "Stål"
+L["cod2019_bizon_barrel_mid.description"] = "Tung pipa av stål ökar mynningshastigheten och förlänger räckvidden. Tillagd vikt stabiliserar skotten men hindrar rörligheten."
 
 L["cod2019_bizon_barrel_long.printname"] = "221 mm Polygonell"
 L["cod2019_bizon_barrel_long.compactname"] = "Polygonell"

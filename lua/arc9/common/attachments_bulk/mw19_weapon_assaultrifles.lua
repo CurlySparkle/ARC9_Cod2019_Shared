@@ -2558,7 +2558,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
-ATT.ActivateElements = {"mag_none","mag_xmag"}
+ATT.ActivateElements = {"mag_none","mag_xmags"}
 
 ATT.BulletBones = {
 	[1] = "j_bullet1",
@@ -2595,7 +2595,7 @@ ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_scar_mag"}
-ATT.ActivateElements = {"mag_none","mag_xmag"}
+ATT.ActivateElements = {"mag_none","mag_xmaglrg"}
 
 ATT.BulletBones = {
 	[1] = "j_bullet1",
@@ -2607,7 +2607,7 @@ ATT.ClipSizeAdd = 10
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
-	ATT.ReloadTimeMult = 1.15
+	ATT.ReloadTimeMult = 1.13
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.009
 	ATT.SpeedMult = 0.97
@@ -2641,7 +2641,7 @@ ATT.ClipSizeAdd = -10
 ATT.RPM = 400
 
 ATT.RecoilMult = 1.15
-ATT.RecoilkickMult = 1.20
+ATT.RecoilKickMult = 1.2
 
 ATT.DamageMaxMult = 1.55
 ATT.DamageMinMult = 1.55
@@ -2760,9 +2760,9 @@ ATT.RecoilMult = 1.07
 ATT.ReloadTimeMult = 1.1
 
 ATT.BulletBones = {
-    [1] = "j_ammo01",
-    [2] = "j_ammo02",
-	[3] = "j_ammo03",
+    [1] = "j_ammo_01",
+    [2] = "j_ammo_02",
+	[3] = "j_ammo_03",
 }
 
 ATT.DropMagazineSounds = {

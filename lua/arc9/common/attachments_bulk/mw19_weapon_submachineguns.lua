@@ -1867,10 +1867,69 @@ ARC9.LoadAttachment(ATT, "cod2019_uzi_stock_heavy")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "8.7\" Steel"
+ATT.CompactName = "8.7\" Steel"
+ATT.Description = [[Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
+ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_barlong.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_barmid.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_bizon_barrel"
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 2
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Element = {
+    AttPosMods = {
+        [1] = { -- Muzzle
+            Pos = Vector(1.5, 0, 0),
+            Ang = Angle(0,0,0),
+        }
+    }
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.SprintToFireTimeMult = 1.1
+	ATT.DeployTimeMult = 1.07
+	ATT.RecoilMult = 0.93
+	ATT.RangeMaxMult = 1.1
+	ATT.RangeMinMult = 1.1
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = 263 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.031
+	ATT.RangeMinMult = 1.26
+	ATT.RangeMaxMult = 1.26
+	ATT.RecoilMult = 0.89
+	ATT.VisualRecoilMult = 0.89
+	ATT.SpreadAddMove = -0.007875
+	ATT.SpeedMult = 0.98
+	ATT.SpeedSightsMult = 0.95
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.75, 1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.75, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_bizon_barrel_mid")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "8.7\" Polygonal"
 ATT.CompactName = "8.7\" Polygonal"
 ATT.Description = [[Slight length increase and polygonal rifling improve muzzle velocity and range with little additional weight.]]
 ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_barlong.mdl"
 ATT.BoneMerge = false
@@ -1920,8 +1979,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "8.7\" Aluminum"
 ATT.CompactName = "8.7\" Aluminum"
 ATT.Description = [[Dimpled large bore barrel reduces weight for improved handling at the cost of muzzle velocity.]]
-
 ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_barlong.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_barshort.mdl"
 ATT.BoneMerge = false
@@ -1950,11 +2009,12 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 0.85
-	ATT.AimDownSightsTimeMult = 0.85
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.DeployTimeMult = 0.92
 	ATT.RecoilMult = 1.15
-	ATT.RangeMaxMult = 0.85
-	ATT.RangeMinMult = 0.85
+	ATT.RangeMaxMult = 0.9
+	ATT.RangeMinMult = 0.9
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -105 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.015
@@ -1978,7 +2038,7 @@ ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_bizon_stock"}
-ATT.ActivateElements = {"stock_none","stock_light"}
+ATT.ActivateElements = {"stock_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_stock_v2.mdl"
 ATT.BoneMerge = true
@@ -2006,7 +2066,7 @@ ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_bizon_stock"}
-ATT.ActivateElements = {"stock_none","stock_light"}
+ATT.ActivateElements = {"stock_none"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_stockmrkt.mdl"
 ATT.BoneMerge = true
@@ -2026,20 +2086,19 @@ ATT = {}
 ATT.PrintName = "84 Round Helical Mags"
 ATT.CompactName = "84-Round"
 ATT.Description = [[High capacity magazines hold 84 rounds of 9mm Makarov with a moderate weight increase.]]
-ATT.SortOrder = 1
-
 ATT.Icon = Material("entities/attachs/sm/bizon/cod2019_sm_bizon_xmags.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
 ATT.AutoStats = true
 
-ATT.Free = false
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_bizon_mag"}
+ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_xmags.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/bizon/attachment_vm_sm_beta_xmags.mdl"
 ATT.BoneMerge = true
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_bizon_mag"}
-ATT.ActivateElements = {"mag_none","mag_xmag"}
 
 ATT.BulletBones = {
     [1] = "j_bullet1",
@@ -2050,11 +2109,11 @@ ATT.BulletBones = {
 ATT.ClipSizeAdd = 20
 
 if !warzonestats then -- Regular Stats
-	ATT.ReloadTimeMult = 1.15
-	ATT.DeployTimeMult = 1.06
 	ATT.AimDownSightsTimeMult = 1.06
+	ATT.DeployTimeMult = 1.1
+	ATT.ReloadTimeMult = 1.15
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = 0.004
+	ATT.AimDownSightsTimeAdd = 0.005
 	ATT.SpeedMult = 0.98
 end
 

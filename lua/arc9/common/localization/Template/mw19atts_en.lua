@@ -1076,9 +1076,9 @@ L["cod2019_uzi_mag_cult.description"] = "Conversion kit to use 32-round magazine
 
 //////////////////// PP19 Bizon
 /////////////// Barrels
-L["cod2019_bizon_barrel_01.printname"] = "8.7\" Steel"
-L["cod2019_bizon_barrel_01.compactname"] = "Steel"
-L["cod2019_bizon_barrel_01.description"] = "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+L["cod2019_bizon_barrel_mid.printname"] = "8.7\" Steel"
+L["cod2019_bizon_barrel_mid.compactname"] = "Steel"
+L["cod2019_bizon_barrel_mid.description"] = "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_bizon_barrel_long.printname"] = "8.7\" Polygonal"
 L["cod2019_bizon_barrel_long.compactname"] = "Polygonal"
@@ -1697,7 +1697,7 @@ L["cod2019_bruenmk9_barrel_heavy.description"] = ARC9:GetPhrase("cod2019_m91_bar
 
 L["cod2019_bruenmk9_barrel_long.printname"] = "XRK Summit 26.8\""
 L["cod2019_bruenmk9_barrel_long.compactname"] = "Summit"
-L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("cod2019_bizon_barrel_01.description") or "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
+L["cod2019_bruenmk9_barrel_long.description"] = ARC9:GetPhrase("cod2019_bizon_barrel_mid.description") or "Heavy duty steel barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility."
 
 L["cod2019_bruenmk9_barrel_short.printname"] = "Bruen 18.0\" Para"
 L["cod2019_bruenmk9_barrel_short.compactname"] = "Para"
