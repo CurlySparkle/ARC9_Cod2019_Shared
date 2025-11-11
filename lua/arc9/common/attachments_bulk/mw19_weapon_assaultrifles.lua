@@ -2966,11 +2966,14 @@ ATT.Bipod = true
 ATT.BipodPos = Vector(-1.5, -4, 0.7)
 ATT.BipodAng = Angle(0, 0, 0)
 
-ATT.DrawFunc = function(self, model, wm)
-	if self:GetBipod() then
+ATT.DrawFunc = function(swep, model, wm)
+	if swep:GetElements()["muzzle"] then
 		model:SetBodygroup(1,1)
+	end
+	if swep:GetBipod() then
+		model:SetBodygroup(2,1)
 	else 
-		model:SetBodygroup(1,0)
+		model:SetBodygroup(2,0)
 	end
 end
 
@@ -3048,7 +3051,7 @@ end
 
 ATT.Element = {
     AttPosMods = {
-        [1] = { Pos = Vector(-8.4, 0, -0.1) }, -- Muzzle
+        [1] = { Pos = Vector(-8.4, 0, -0.12) }, -- Muzzle
         [6] = { Pos = Vector(-3.5, 0, -0.2) }, -- Underbarrel
         [20] = { Pos = Vector(21.5, 0, 1.875) }, -- GL
     }
@@ -3082,7 +3085,7 @@ ATT = {}
 
 ATT.PrintName = "8.1\" Compact Barrel"
 ATT.CompactName = "Compact Grip"
-ATT.Description = "Custom compact barrel with a built in solid wood grip sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
+ATT.Description = "Short, custom compact barrel with a built in solid wood grip sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces."
 ATT.Icon = Material("entities/attachs/ar/ak47/cod2019_ar_ak47_vertgrip.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
@@ -3104,7 +3107,7 @@ ATT.MuzzleDevice = true
 ATT.Element = {
 	AttPosMods = {
 		[1] = { -- Muzzle
-			Pos = Vector(-6.65, 0, -0.1),
+			Pos = Vector(-6.65, 0, -0.12),
 		},
 		[3] = { -- Laser
 			Pos = Vector(-0.34, -1.34, -0.125),
@@ -3124,6 +3127,7 @@ end
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.08
 	ATT.DeployTimeMult = 0.92
+	ATT.RangeMinMult = 0.9
 	ATT.RangeMaxMult = 0.9
 	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
