@@ -39,13 +39,13 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.DeployTimeMult = 1.14
 	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.14
 	ATT.SpreadMult = 0.85
 	ATT.RangeMaxMult = 1.09
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 206 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.037
+	ATT.AimDownSightsTimeAdd = 0.037
 	ATT.RecoilMult = 1.07
 	ATT.VisualRecoilMult = 1.07
 	ATT.SpreadAddMove = 0.01095
@@ -98,8 +98,8 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.DeployTimeMult = 0.88
 	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.88
 	ATT.RecoilMult = 1.11
 	ATT.RangeMaxMult = 0.88
 else -- Warzone Stats
@@ -110,8 +110,8 @@ else -- Warzone Stats
 	ATT.SpreadAddMove = -0.00146
 	ATT.RangeMinMult = 0.9
 	ATT.RangeMaxMult = 0.9
-	ATT.SpeedMult = 0.99
-	ATT.SpeedSightsMult = 0.96
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.04
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
@@ -156,13 +156,13 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.DeployTimeMult = 1.14
 	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.14
 	ATT.RecoilUpMult = 0.85
 	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 165 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.032
+	ATT.AimDownSightsTimeAdd = 0.032
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
 end
@@ -288,7 +288,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "SA87 25.4 Factory"
 ATT.CompactName = "Barrel 25.4"
 ATT.Description = [[Longer barrel increases muzzle velocity and extends range. Additional weight stabilizes shots, but hinders mobility.]]
-
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_long.png", "mips smooth")
 ATT.Free = false
 
@@ -325,7 +324,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RangeMinMult = 1.05
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 243 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.037
+	ATT.AimDownSightsTimeAdd = 0.037
 	ATT.RecoilMult = 0.93
 	ATT.VisualRecoilMult = 0.93
 	ATT.SpreadAddMove = 0.00975
@@ -345,7 +344,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "SA87 18.2 Factory"
 ATT.CompactName = "Barrel 18.2"
 ATT.Description = [[Shorter barrel improves agility at a slight cost to bullet velocity and range.]]
-
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_mid.png", "mips smooth")
 ATT.Free = false
 
@@ -374,21 +372,21 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 0.95
 	ATT.AimDownSightsTimeMult = 0.95
-	ATT.RecoilMult = 1.05
+	ATT.SprintToFireTimeMult = 0.95
+	ATT.DeployTimeMult = 1.07
 	ATT.RangeMaxMult = 0.95
 	ATT.RangeMinMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -145 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.029
+	ATT.AimDownSightsTimeAdd = -0.035
 	ATT.RecoilMult = 0.93
 	ATT.VisualRecoilMult = 0.93
 	ATT.SpreadAddMove = 0.0013
-	ATT.RangeMinMult = 1.1
-	ATT.RangeMaxMult = 1.1
-	ATT.SpeedMult = 0.99
-	ATT.SpeedSightsMult = 0.96
+	ATT.RangeMinMult = 0.9
+	ATT.RangeMaxMult = 0.9
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.04
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
@@ -402,7 +400,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "SA87 12.4 Factory"
 ATT.CompactName = "Barrel 12.4"
 ATT.Description = [[Shortest barrel available sacrifices accuracy and range for speed and agility.]]
-
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_barrel_short.png", "mips smooth")
 ATT.Free = false
 
@@ -431,11 +428,11 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 0.85
-	ATT.AimDownSightsTimeMult = 0.85
-	ATT.RecoilMult = 1.15
-	ATT.RangeMaxMult = 0.85
-	ATT.RangeMinMult = 0.85
+	ATT.AimDownSightsTimeMult = 0.9
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.DeployTimeMult = 0.85
+	ATT.RangeMaxMult = 0.9
+	ATT.RangeMinMult = 0.9
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -291 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.064
@@ -455,11 +452,11 @@ ARC9.LoadAttachment(ATT, "cod2019_sa86_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "50-Round Mags"
 ATT.CompactName = "50R"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_xmags.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 1
@@ -479,12 +476,12 @@ ATT.DropMagazineSounds = {
 ATT.ClipSizeAdd = 20
 
 if !warzonestats then -- Regular Stats
-	ATT.ReloadTimeMult = 1.07
-	ATT.SprintToFireTimeMult = 1.05
 	ATT.AimDownSightsTimeMult = 1.05
+	ATT.SprintToFireTimeMult = 1.05
+	ATT.ReloadTimeMult = 1.07
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.06
-	ATT.SpeedMult = 0.998
+	ATT.SpeedMult = 0.98
 end
 
 local bulletbones = {
@@ -516,11 +513,11 @@ ARC9.LoadAttachment(ATT, "cod2019_sa87_mag_50")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "60-Round Mags"
 ATT.CompactName = "60R"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_xmags2.png", "mips smooth")
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Free = false
 
 ATT.SortOrder = 1
@@ -540,12 +537,12 @@ ATT.DropMagazineSounds = {
 ATT.ClipSizeAdd = 30
 
 if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.1
 	ATT.ReloadTimeMult = 1.13
-	ATT.DeployTimeMult = 1.08
-	ATT.AimDownSightsTimeMult = 1.08
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.013
-	ATT.SpeedMult = 0.997
+	ATT.SpeedMult = 0.97
 end
 
 local bulletbones = {
@@ -656,10 +653,11 @@ ARC9.LoadAttachment(ATT, "cod2019_sa86_stock_light")
 /////////////////////////// -- cod2019_grips_bipod
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Bipod"
 ATT.Icon = Material("entities/attachs/lm/sa86/cod2019_lm_sa86_bipod.png", "mips smooth")
 ATT.Description = "Stability legs to improve control while using the weapon from the ground."
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_sa86_bipod"
 ATT.ActivateElements = {"grip_bipod"}
@@ -707,8 +705,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "M91 Heavy"
 ATT.CompactName = "M91 Heavy"
 ATT.Description = [[Designed to better hold down positions, this longer barrel improves muzzle velocity, range, and accuracy. Additional weight hinders mobility.]]
-
 ATT.Icon = Material("entities/attachs/lm/m91/cod2019_lm_m91_barrel_long.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_barrel_long.mdl"
 ATT.BoneMerge = false
@@ -764,8 +762,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "M91 Special Forces"
 ATT.CompactName = "M91 Special Forces"
 ATT.Description = [[Designed to improve muzzle velocity range with as little additional weight as possible.]]
-
 ATT.Icon = Material("entities/attachs/lm/m91/cod2019_lm_m91_barrel_mid.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_barrel_mid.mdl"
 ATT.BoneMerge = false
@@ -794,11 +792,11 @@ ATT.Element = {
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.DeployTimeMult = 1.12
-	ATT.RecoilMult = 0.9
+	ATT.RecoilMult = 0.85
 	ATT.SpreadMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 162 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.032
+	ATT.AimDownSightsTimeAdd = 0.032
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
 end
@@ -814,8 +812,8 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "M91 Infantry"
 ATT.CompactName = "M91 Infantry"
 ATT.Description = [[Designed to improve mobility, this compact barrel sacrifices accuracy and range for speed and agility.]]
-
 ATT.Icon = Material("entities/attachs/lm/m91/cod2019_lm_m91_barrel_short.png", "mips smooth")
+ATT.Free = false
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_barrel_short.mdl"
 ATT.BoneMerge = false
@@ -842,7 +840,7 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.91
+	ATT.AimDownSightsTimeMult = 0.92
 	ATT.DeployTimeMult = 0.89
 	ATT.SpreadMult = 1.2
 	ATT.RangeMaxMult = 0.9
@@ -863,9 +861,7 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -3, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_m91_barrel_short")
-
 ---------------------------------------------------------------------------------------
-
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -895,7 +891,7 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_m91_mag_120")
-
+---------------------------------------------------------------------------------------
 
 /////////////////////////// -- MG34
 ATT = {}
@@ -935,8 +931,8 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.SprintToFireTimeMult = 1.05
 	ATT.AimDownSightsTimeMult = 1.08
+	ATT.SprintToFireTimeMult = 1.05
 	ATT.DeployTimeMult = 1.14
 	ATT.RecoilMult = 0.85
 else -- Warzone Stats
@@ -1046,9 +1042,9 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.96
-	ATT.DeployTimeMult = 1.12
-	ATT.SpreadMult = 0.9
+	ATT.AimDownSightsTimeMult = 1.08
+	ATT.DeployTimeMult = 1.14
+	ATT.SpreadMult = 0.75
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 153 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.036
@@ -1085,7 +1081,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.1
 	ATT.ReloadTimeMult = 1.05
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.007
+	ATT.AimDownSightsTimeAdd = 0.007
 	ATT.SpeedMult = 0.98
 end
 
@@ -1118,7 +1114,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.2
 	ATT.ReloadTimeMult = 1.1
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.015
+	ATT.AimDownSightsTimeAdd = 0.015
 	ATT.SpeedMult = 0.97
 end
 
@@ -1168,6 +1164,7 @@ ARC9.LoadAttachment(ATT, "cod2019_mg34_grip_bipod")
 /////////////////////////// -- Holger-26
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Force Sight"
 ATT.CompactName = "Force Sight"
 ATT.Description = [[Forces the default sight to be on.]]
@@ -1177,7 +1174,6 @@ ATT.SortOrder = 1
 ATT.AutoStats = true
 ATT.Free = false
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_etc"}
 ATT.ActivateElements = {"sight_default"}
 
@@ -1185,6 +1181,7 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_sights_forced")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Ultralight"
 ATT.CompactName = "Ultralight"
 ATT.Description = [[Shorter barrel and lightweight guard reduces weight for faster gun handling at a slight cost to range.]]
@@ -1197,7 +1194,6 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_barrel_med.mdl"
 ATT.BoneMerge = false
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_barrel"}
 ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
@@ -1207,6 +1203,64 @@ ATT.Element = {
             Pos = Vector(-4, 0, 0),
         }
     }
+}
+
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["muzzle"] then
+        model:SetBodygroup(1,1)
+    end
+end
+
+ATT.Bipod = false
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.DeployTimeMult = 0.89
+	ATT.RangeMaxMult = 0.9
+	ATT.SpreadMult = 1.15
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -162 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.047
+	ATT.RangeMinMult = 0.85
+	ATT.RangeMaxMult = 0.85
+	ATT.SpeedSightsMult = 1.05
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_short")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "FTAC 8.98 Spitfire"
+ATT.CompactName = "Spitfire"
+ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_barrel_short.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_barrel_short.mdl"
+ATT.BoneMerge = false
+
+ATT.Category = {"cod2019_holger_barrel"}
+ATT.ActivateElements = {"barrel_none","muzzle_none"}
+
+ATT.Element = {
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(-7, 0, 0),
+        },
+		[3] = { -- Laser
+			Pos = Vector(1.2, 0, -0.1),
+		},
+		[6] = { -- Underbarrel
+			Pos = Vector(-4, 0, 0),
+		}
+	}
 }
 
 ATT.DrawFunc = function(swep, model, wm)
@@ -1234,64 +1288,6 @@ else -- Warzone Stats
 	ATT.SpeedSightsMult = 1.13
 end
 
-ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
-ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-2, 0, 0) end
-
-ARC9.LoadAttachment(ATT, "cod2019_holger_barrel_short")
----------------------------------------------------------------------------------------
-ATT = {}
-
-ATT.PrintName = "FTAC 8.98 Spitfire"
-ATT.CompactName = "Spitfire"
-ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
-ATT.SortOrder = 1
-
-ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_barrel_short.png", "mips smooth")
-ATT.AutoStats = true
-ATT.Free = false
-
-ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_barrel_short.mdl"
-ATT.BoneMerge = false
-
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.Category = {"cod2019_holger_barrel"}
-ATT.ActivateElements = {"barrel_none","muzzle_none"}
-
-ATT.Element = {
-	AttPosMods = {
-		[1] = { -- Muzzle
-			Pos = Vector(-7, 0, 0),
-        },
-		[3] = { -- Laser
-			Pos = Vector(1.2, 0, -0.1),
-		},
-		[6] = { -- Underbarrel
-			Pos = Vector(-4, 0, 0),
-		}
-	}
-}
-
-ATT.DrawFunc = function(swep, model, wm)
-    if swep:GetElements()["muzzle"] then
-        model:SetBodygroup(1,1)
-    end
-end
-
-ATT.Bipod = false
-
-if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.92
-	ATT.DeployTimeMult = 0.89
-	ATT.RangeMaxMult = 0.9
-	ATT.SpreadMult = 1.15
-else -- Warzone Stats
-	ATT.PhysBulletMuzzleVelocityAdd = -162 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.047
-	ATT.RangeMinMult = 0.85
-	ATT.RangeMaxMult = 0.85
-	ATT.SpeedSightsMult = 1.05
-end
-
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-4, -4, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-4, 0, 0) end
 
@@ -1304,6 +1300,7 @@ ATT.PrintName = "30 Round Mags"
 ATT.CompactName = "30-R Mag"
 ATT.Description = [[]]
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_armag.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
@@ -1360,6 +1357,7 @@ ATT.PrintName = "20 Round Mags"
 ATT.CompactName = "20R"
 ATT.Description = [[]]
 ATT.Icon = Material("entities/attachs/lm/holger36/cod2019_lm_holger36_mag_sniper.png", "mips smooth")
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_holger_mag"
@@ -1470,6 +1468,7 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_armag_20")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Holger-556 Receiver"
 ATT.CompactName = "Holger-556"
 ATT.Description = "Compact receiver with a shortened top rail for the Holger-26."
@@ -1482,7 +1481,6 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_receiver_v2.mdl"
 ATT.BoneMerge = true
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_receiver"}
 ATT.ActivateElements = {"body_none", "sights_none"}
 
@@ -1496,6 +1494,7 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_receiver_v2")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Infantry"
 ATT.CompactName = "Infantry"
 ATT.Description = [[Stock designed for agility while aiming down sights.]]
@@ -1508,14 +1507,13 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_light.mdl"
 ATT.BoneMerge = true
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_stock"}
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.85
-	ATT.RecoilUpMult = 1.1
-	ATT.RecoilSideMult = 1.1
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.RecoilUpMult = 0.95
+	ATT.RecoilSideMult = 0.95
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 1.15
 end
@@ -1524,6 +1522,7 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_stock_light")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Ranger"
 ATT.CompactName = "Ranger"
 ATT.Description = [[Heavy duty stock keeps your aim steady for precision shots.]]
@@ -1536,14 +1535,14 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_heavy.mdl"
 ATT.BoneMerge = true
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_stock"}
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.05
-	ATT.RecoilUpMult = 0.95
-	ATT.RecoilSideMult = 0.95
+	ATT.AimDownSightsTimeMult = 1.14
+	ATT.DeployTimeMult = 1.09
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
@@ -1552,6 +1551,7 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_stock_heavy")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "XRK Axis"
 ATT.CompactName = "XRK Axis"
 ATT.Description = [[Ergonomic stock with a straight line base has a perfect center of balance for raising and lowering rapidly.]]
@@ -1564,14 +1564,13 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_tactical.mdl"
 ATT.BoneMerge = true
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_stock"}
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.9
-	ATT.DeployTimeMult = 1.1
-	ATT.RecoilMult = 0.95
+	ATT.AimDownSightsTimeMult = 0.85
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.033
 end
@@ -1580,6 +1579,7 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_stock_tactical")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "DM56"
 ATT.CompactName = "DM56"
 ATT.Description = [[A titan of ballistic ingenuity, the DM56 boasts best-in-class rate of fire and exceptional controllability.]]
@@ -1592,7 +1592,6 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_sniper.mdl"
 ATT.BoneMerge = true
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_stock"}
 ATT.ActivateElements = {"stock_none","pistgrip_none"}
 
@@ -1609,6 +1608,7 @@ ARC9.LoadAttachment(ATT, "cod2019_holger_stock_sniper")
 ----------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Necrosis"
 ATT.CompactName = "Necrosis"
 ATT.Description = [[Alternative <color=255,255,100>cosmetic</color> stock for the Holger-26.]]
@@ -1621,7 +1621,6 @@ ATT.Free = true
 ATT.Model = "models/weapons/cod2019/attachs/weapons/holger36/attachment_vm_lm_mgolf36_stock_v2.mdl"
 ATT.BoneMerge = true
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_holger_stock"}
 ATT.ActivateElements = {"stock_none"}
 
@@ -1733,8 +1732,8 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilMult = 0.99
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.04
-	ATT.VisualRecoilMult = 0.99
-	ATT.RecoilMult = 0.99
+	ATT.VisualRecoilMult = 0.9
+	ATT.RecoilMult = 0.9
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_holger_scope_x4")
@@ -1776,9 +1775,9 @@ end
 -- }
 
 if !warzonestats then -- Regular Stats
-	ATT.DeployTimeMult = 1.1
 	ATT.AimDownSightsTimeMult = 1.07
-	ATT.RecoilMult = 0.82
+	ATT.DeployTimeMult = 1.1
+	ATT.RecoilMult = 0.8
 	ATT.SpreadMult = 0.95
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 162 / ARC9.HUToM
@@ -1886,11 +1885,11 @@ ATT.Element = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.DeployTimeMult = 0.89
 	ATT.AimDownSightsTimeMult = 0.92
-	ATT.SpreadMult = 1.2
+	ATT.DeployTimeMult = 0.89
 	ATT.RangeMaxMult = 0.95
 	ATT.RangeMinMult = 0.95
+	ATT.SpreadMult = 1.2
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -121 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.037
@@ -1899,8 +1898,8 @@ else -- Warzone Stats
 	ATT.SpreadAddMove = -0.00136
 	ATT.RangeMinMult = 0.9
 	ATT.RangeMaxMult = 0.9
-	ATT.SpeedMult = 1
-	ATT.SpeedSightsMult = 1
+	ATT.SpeedMult = 1.01
+	ATT.SpeedSightsMult = 1.04
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
@@ -1977,8 +1976,8 @@ ATT.ClipSizeAdd = -40
 ATT.ReloadInSights = true
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeAdd = -0.25
-	ATT.SprintToFireTimeAdd = -0.20
+	ATT.AimDownSightsTimeMult = 0.75
+	ATT.SprintToFireTimeMult = 0.8
 else -- Warzone Stats
 	ATT.CustomPros = {
 		[ ARC9:GetPhrase("autostat.reloadtime") ] = "+33%"
@@ -2154,14 +2153,14 @@ if !warzonestats then -- Regular Stats
 	ATT.DamageMinMult = 1.06
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 405 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.067
+	ATT.AimDownSightsTimeAdd = 0.067
 	ATT.RecoilMult = 0.85
 	ATT.VisualRecoilMult = 0.85
 	ATT.SpreadAddMove = 0.0186
 	ATT.RangeMinMult = 1.35
 	ATT.RangeMaxMult = 1.35
 	ATT.SpeedMult = 0.97
-	ATT.SpeedSightsMult = 0.93
+	ATT.SpeedSightsMult = 0.94
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
@@ -2293,11 +2292,11 @@ ATT.Element = {
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.92
-	ATT.DeployTimeMult = 0.88
-	ATT.RangeMaxMult = 0.95
+	ATT.DeployTimeMult = 0.89
 	ATT.DamageMaxMult = 0.95
+	ATT.RangeMaxMult = 0.95
 	ATT.RangeMinMult = 0.95
-	ATT.SpreadMult = 1.20
+	ATT.SpreadMult = 1.2
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -121 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.023
@@ -2433,10 +2432,10 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.DeployTimeMult = 1.12
 	ATT.RecoilUpMult = 0.85
-	ATT.RecoilMult = 0.8
+	ATT.RecoilMult = 0.78
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = 162 / ARC9.HUToM
-	ATT.AimDownSightsTimeAdd = -0.026
+	ATT.AimDownSightsTimeAdd = 0.026
 	ATT.RangeMinMult = 1.2
 	ATT.RangeMaxMult = 1.2
 end
@@ -2491,7 +2490,7 @@ if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.1
 	ATT.DeployTimeMult = 1.12
 	ATT.RecoilUpMult = 0.85
-	ATT.RecoilMult = 0.8
+	ATT.RecoilMult = 0.78
 	ATT.RPMAdd = 368
 	ATT.PhysBulletMuzzleVelocityAdd = -130 / ARC9.HUToM
 else -- Warzone Stats
@@ -2564,9 +2563,10 @@ ATT.Category = "cod2019_finn_stock"
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.RecoilMult = 0.85
 	ATT.AimDownSightsTimeMult = 1.14
 	ATT.DeployTimeMult = 1.09
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
 	ATT.SpeedSightsMult = 0.89
 end
@@ -2620,8 +2620,8 @@ if !warzonestats then -- Regular Stats
 	--ATT.RecoilModifierCap = 0
 	ATT.HasSights = false
 else -- Warzone Stats
-	ATT.AimDownSightsTimeAdd = -0.07
-	-- ATT.SprintToFireTimeAdd = -0.25
+	ATT.AimDownSightsTimeAdd = 0.07
+	ATT.SprintToFireTimeAdd = -0.25
 	ATT.SpreadAddMove = -0.005332
 	ATT.SpeedMult = 1.04
 	ATT.SpeedSightsMult = 1.5
@@ -2720,13 +2720,13 @@ ATT.BoneMerge = true
 ATT.ClipSizeAdd = 25
 
 if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.1
+	ATT.DeployTimeMult = 1.15
 	ATT.DamageMaxMult = 0.75
 	ATT.DamageMinMult = 0.75
 	ATT.RecoilMult = 0.85
 	ATT.RecoilKickMult = 0.9
-	ATT.DeployTimeMult = 1.15
 	ATT.ReloadTimeMult = 1.05
-	ATT.AimDownSightsTimeMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -324 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = 0.005
@@ -2740,6 +2740,7 @@ ARC9.LoadAttachment(ATT, "cod2019_finn_mag_ct_100")
 /////////////////////////// --  RAAL MG
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "RAAL Monocore"
 ATT.CompactName = "Monocore"
 ATT.Description = [[Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility.]]
@@ -2752,7 +2753,6 @@ ATT.Free = false
 ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_suppressor.mdl"
 ATT.BoneMerge = false
 
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_raal_muzzle"}
 ATT.ActivateElements = {"muzzle_none"}
 
@@ -2792,7 +2792,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "32.0\" RAAL Line Breaker"
 ATT.CompactName = "32.0\""
 ATT.Description = [[This formidable 32.0" barrel greatly increases muzzle velocity and extends range.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barlong.png", "mips smooth")
 ATT.Free = false
 
@@ -2823,16 +2822,20 @@ ATT.Element = {
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 1.15
-	ATT.DeployTimeMult = 1.20
+	ATT.DeployTimeMult = 1.2
 	ATT.RangeMaxMult = 1.13
 	ATT.SpreadMult = 0.85
-	ATT.RecoilMult = 0.80
+	ATT.RecoilMult = 0.8
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 1.15
-	ATT.DeployTimeMult = 1.20
-	ATT.RangeMaxMult = 1.13
-	ATT.SpreadMult = 0.85
-	ATT.RecoilMult = 0.80
+	ATT.PhysBulletMuzzleVelocityAdd = 365 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.088
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.73
+	ATT.SpreadAddMove = 0.00204
+	ATT.RangeMinMult = 1.35
+	ATT.RangeMaxMult = 1.35
+	ATT.SpeedMult = 0.97
+	ATT.SpeedSightsMult = 0.94
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, 2, 0) end
@@ -2846,7 +2849,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "26.0\" RAAL ArcForge"
 ATT.CompactName = "26.0\""
 ATT.Description = [[This formidable 32.0" barrel greatly increases muzzle velocity and extends range.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barhvy.png", "mips smooth")
 ATT.Free = false
 
@@ -2873,11 +2875,11 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilSideMult = 0.9
 	ATT.SpreadMult = 0.88
 else -- Warzone Stats
-	ATT.AimDownSightsTimeMult = 1.1
-	ATT.DeployTimeMult = 1.11
-	ATT.RecoilUpMult = 0.9
-	ATT.RecoilSideMult = 0.9
-	ATT.SpreadMult = 0.88
+	ATT.PhysBulletMuzzleVelocityAdd = 146 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.035
+	ATT.VisualRecoilMult = 0.79
+	ATT.RangeMinMult = 1.2
+	ATT.RangeMaxMult = 1.2
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_raal_barrel_heavy")
@@ -2888,7 +2890,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "25.0\" RAAL Tri-fold Lite"
 ATT.CompactName = "25.0\""
 ATT.Description = [[25.0 inch Barrel with aluminum shell, titanium core, and chrome-moly lined bore reduces weight and improves agility.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_barlight.png", "mips smooth")
 ATT.Free = false
 
@@ -2938,7 +2939,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "50 Round Belts"
 ATT.CompactName = "50 Round Belts"
 ATT.Description = [[]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_smag.png", "mips smooth")
 ATT.Free = false
 
@@ -2957,10 +2957,10 @@ ATT.CustomPros = {
 
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.9
-	ATT.DeployTimeMult = 0.85
+	ATT.DeployTimeMult = 0.86
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.063
-	ATT.VisualRecoilMult = 0.89
+	ATT.VisualRecoilMult = 0.79
 	ATT.SpeedMult = 1.05
 	ATT.SpeedSightsMult = 1.24
 end
@@ -2973,7 +2973,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "150 Round Belts"
 ATT.CompactName = "150 Round Belts"
 ATT.Description = [[Longer belts hold 150 rounds of .338 Lapua Magnum ammunition with an additional weight increase.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_xmags.png", "mips smooth")
 ATT.Free = false
 
@@ -3001,10 +3000,10 @@ ARC9.LoadAttachment(ATT, "cod2019_raal_mag_xmag")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "PMC Grip"
 ATT.CompactName = "PMC"
 ATT.Description = [[Canted grip designed purely for controlling vertical recoil and preventing muzzle climb.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_gripside02.png", "mips smooth")
 ATT.Free = false
 
@@ -3012,7 +3011,6 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_grips_side"
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Folder = ARC9:GetPhrase("mw19_folder_side")
 
 ATT.LHIK_Priority = 10
@@ -3038,10 +3036,10 @@ ARC9.LoadAttachment(ATT, "cod2019_raal_grip_side_pmc")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Oblique"
 ATT.CompactName = "FSS"
 ATT.Description = [[Canted foregrip improves vertical recoil and provides a better stance for raising and lowering the weapon.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_gripside03.png", "mips smooth")
 ATT.Free = false
 
@@ -3049,7 +3047,6 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_grips_side"
-ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Folder = ARC9:GetPhrase("mw19_folder_side")
 
 ATT.LHIK_Priority = 10
@@ -3077,7 +3074,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC Sandpiper Pro"
 ATT.CompactName = "Sandpiper"
 ATT.Description = [[Stock designed for agility while aiming down sights.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockl.png", "mips smooth")
 ATT.Free = false
 
@@ -3105,7 +3101,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC Elevate"
 ATT.CompactName = "Elevate"
 ATT.Description = [[Multiple degrees of adjustability allow fine-tuned customization, ensuring you get on target as fast as possible.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stocks.png", "mips smooth")
 ATT.Free = false
 
@@ -3117,10 +3112,10 @@ ATT.Category = "cod2019_raal_stock"
 ATT.ActivateElements = {"stock_none"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.95
-	ATT.RecoilUpMult = 0.9
-	ATT.RecoilSideMult = 0.9
-	ATT.DeployTimeMult = 1.12
+	ATT.AimDownSightsTimeMult = 1.14
+	ATT.DeployTimeMult = 1.09
+	ATT.RecoilUpMult = 0.85
+	ATT.RecoilSideMult = 0.85
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.042
 	ATT.VisualRecoilMult = 0.91
@@ -3134,7 +3129,6 @@ ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FSS Resistor"
 ATT.CompactName = [[Resistor]]
 ATT.Description = [[Stock designed for agility while aiming down sights.]]
-
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockh.png", "mips smooth")
 ATT.Free = false
 
