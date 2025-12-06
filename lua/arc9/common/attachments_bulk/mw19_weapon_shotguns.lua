@@ -423,7 +423,7 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.15
 	ATT.RangeMaxMult = 1.15
 	ATT.SpeedMult = 0.96
-	ATT.SpeedSightsMult = 0.93
+	ATT.SpeedMultSights = 0.93
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, 3, 0) end
@@ -464,7 +464,7 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 0.82
 	ATT.RangeMaxMult = 0.82
 	ATT.SpeedMult = 1.02
-	ATT.SpeedSightsMult = 1.08
+	ATT.SpeedMultSights = 1.08
 end
 
 ATT.Element = {
@@ -567,7 +567,7 @@ else -- Warzone Stats
 	ATT.SpreadAddSights = -0.0024
 	ATT.SpreadAddMove = -0.0024
 	ATT.SpeedMult = 0.98
-	ATT.SpeedSightsMult = 0.98
+	ATT.SpeedMultSights = 0.98
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_mag_6")
@@ -621,7 +621,7 @@ else -- Warzone Stats
 	ATT.SpreadAddSights = -0.0024
 	ATT.SpreadAddMove = -0.0024
 	ATT.SpeedMult = 0.96
-	ATT.SpeedSightsMult = 0.92
+	ATT.SpeedMultSights = 0.92
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_mag_8")
@@ -656,7 +656,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.8
 	ATT.VisualRecoilMult = 0.8
 	ATT.SpeedMult = 0.96
-	ATT.SpeedSightsMult = 0.87
+	ATT.SpeedMultSights = 0.87
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_pump_custom")
@@ -692,7 +692,7 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.83
 	ATT.SpreadAddMove = -0.0003
 	ATT.SpeedMult = 0.99
-	ATT.SpeedSightsMult = 0.88
+	ATT.SpeedMultSights = 0.88
 end
 
 ATT.Element = {
@@ -749,7 +749,7 @@ if !warzonestats then -- Regular Stats
 	ATT.RecoilSideMult = 0.9
 	ATT.RecoilUpMult = 0.9
 else -- Warzone Stats
-	ATT.SpeedSightsMult = 0.82
+	ATT.SpeedMultSights = 0.82
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_model680_stock_wood")
@@ -814,7 +814,7 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.15
 	ATT.RangeMaxMult = 1.15
 	ATT.SpeedMult = 0.96
-	ATT.SpeedSightsMult = 0.93
+	ATT.SpeedMultSights = 0.93
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(6, 5, 0) end
@@ -1097,7 +1097,7 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.91
 	ATT.SpreadAddMove = -0.0003
 	ATT.SpeedMult = 0.98
-	ATT.SpeedSightsMult = 0.85
+	ATT.SpeedMultSights = 0.85
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_com")
@@ -1132,7 +1132,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.8
 	ATT.VisualRecoilMult = 0.8
 	ATT.SpeedMult = 0.95
-	ATT.SpeedSightsMult = 0.82
+	ATT.SpeedMultSights = 0.82
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_merc")
@@ -1168,7 +1168,7 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.91
 	ATT.SpreadAddMove = -0.0003
 	ATT.SpeedMult = 0.98
-	ATT.SpeedSightsMult = 0.85
+	ATT.SpeedMultSights = 0.85
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_origin12_grip_side_com_alt")
@@ -1304,7 +1304,7 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.15
 	ATT.RangeMaxMult = 1.15
 	ATT.SpeedMult = 0.96
-	ATT.SpeedSightsMult = 0.93
+	ATT.SpeedMultSights = 0.93
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(5, 4, 0) end
@@ -1357,7 +1357,7 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 0.82
 	ATT.RangeMaxMult = 0.82
 	ATT.SpeedMult = 1.02
-	ATT.SpeedSightsMult = 1.08
+	ATT.SpeedMultSights = 1.08
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_jak12_barrel_short")
@@ -1396,7 +1396,7 @@ else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.049
 	ATT.ReloadTimeMult = 1.05
 	ATT.SpeedMult = 0.95
-	ATT.SpeedSightsMult = 0.9
+	ATT.SpeedMultSights = 0.9
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 1.5, 1) end
@@ -1437,7 +1437,7 @@ else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.068
 	ATT.ReloadTimeMult = 1.1
 	ATT.SpeedMult = 0.91
-	ATT.SpeedSightsMult = 0.83
+	ATT.SpeedMultSights = 0.83
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0, 3, 1.5) end
@@ -1465,7 +1465,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.15
 	ATT.RecoilUpMult = 0.9
 else -- Warzone Stats
-	ATT.SpeedSightsMult = 0.89
+	ATT.SpeedMultSights = 0.89
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_jak12_stock_stable")
@@ -1633,7 +1633,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SprintToFireTimeMult = 0.9
 	ATT.RecoilSideMult = 1.1
 else -- Warzone Stats
-	ATT.SpeedSightsMult = 1.15
+	ATT.SpeedMultSights = 1.15
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_r90_pump_light")
@@ -1658,7 +1658,7 @@ if !warzonestats then -- Regular Stats
 	ATT.DeployTimeMult = 1.15
 	ATT.RecoilSideMult = 0.9
 else -- Warzone Stats
-	ATT.SpeedSightsMult = 0.89
+	ATT.SpeedMultSights = 0.89
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_r90_pump_stable")
@@ -1770,7 +1770,7 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 1.15
 	ATT.RangeMaxMult = 1.15
 	ATT.SpeedMult = 0.96
-	ATT.SpeedSightsMult = 0.93
+	ATT.SpeedMultSights = 0.93
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_barrel_heavy")
@@ -1879,7 +1879,7 @@ else -- Warzone Stats
 	ATT.RangeMinMult = 0.87
 	ATT.RangeMaxMult = 0.87
 	ATT.SpeedMult = 1.02
-	ATT.SpeedSightsMult = 1.08
+	ATT.SpeedMultSights = 1.08
 end
 
 ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-1.5, -1, 0) end
@@ -1957,7 +1957,7 @@ else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.027
 	ATT.SprintToFireTimeAdd = -0.037
 	ATT.SpeedMult = 1.03
-	ATT.SpeedSightsMult = 1.13
+	ATT.SpeedMultSights = 1.13
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_mag_smag")
@@ -1987,7 +1987,7 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.83
 	ATT.SpreadAddMove = -0.0003
 	ATT.SpeedMult = 0.99
-	ATT.SpeedSightsMult = 0.98
+	ATT.SpeedMultSights = 0.98
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_heavy")
@@ -2016,7 +2016,7 @@ else -- Warzone Stats
 	ATT.RecoilMult = 0.8
 	ATT.VisualRecoilMult = 0.8
 	ATT.SpeedMult = 0.96
-	ATT.SpeedSightsMult = 0.87
+	ATT.SpeedMultSights = 0.87
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_light")
@@ -2046,7 +2046,7 @@ else -- Warzone Stats
 	ATT.VisualRecoilMult = 0.83
 	ATT.SpreadAddMove = -0.0003
 	ATT.SpeedMult = 0.99
-	ATT.SpeedSightsMult = 0.88
+	ATT.SpeedMultSights = 0.88
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_vlk_pump_03")
