@@ -2357,7 +2357,7 @@ L["cod2019_raal_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light"
 
 L["cod2019_raal_stock_none.printname"] = "Folded Stock"
 L["cod2019_raal_stock_none.compactname"] = "Folded"
-L["cod2019_raal_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
+L["cod2019_raal_stock_none.description"] = ARC9:GetPhrase("cod2019_an94_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Folding the stock greatly increases movement."
 
 L["cod2019_raal_stock_medium.printname"] = "FTAC Elevate"
 L["cod2019_raal_stock_medium.compactname"] = "Elevate"

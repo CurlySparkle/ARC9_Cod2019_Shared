@@ -3098,6 +3098,42 @@ ARC9.LoadAttachment(ATT, "cod2019_stock_raal_light")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "Folded Stock"
+ATT.CompactName = "Folded"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
+ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockno.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/raal/attachment_vm_lm_slima_stockno.mdl"
+
+ATT.SortOrder = 0
+ATT.AutoStats = true
+ATT.Category = "cod2019_raal_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.75
+	ATT.SprintToFireTimeMult = 0.75
+	ATT.DeployTimeMult = 0.75
+	ATT.RecoilUpMult = 1.3
+	ATT.RecoilSideMult = 1.3
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.067
+	ATT.RecoilMult = 1.29
+	ATT.VisualRecoilMult = 1.28
+	ATT.SpreadAddMove = -0.0068
+	ATT.SpeedMult = 1.04
+	ATT.SpeedMultSights = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(3, -1.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(3, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_raal_stock_none")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "FTAC Elevate"
 ATT.CompactName = "Elevate"
 ATT.Description = [[Multiple degrees of adjustability allow fine-tuned customization, ensuring you get on target as fast as possible.]]

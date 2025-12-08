@@ -1792,16 +1792,20 @@ L["cod2019_raal_barrel_light.description"] = "25.0 inch Barrel with aluminum she
 /////////////// Muzzle
 L["cod2019_raal_muzzle_mono.printname"] = "RAAL Monocore"
 L["cod2019_raal_muzzle_mono.compactname"] = "Monocore"
+L["cod2019_raal_muzzle_mono.description"] = ARC9:GetPhrase("cod2019_attach_muzzle_silencer02.description") or "Monolithic core provides superior sound suppression and increased range. Moderate weight increase affects agility."
 
 /////////////// Stocks
 L["cod2019_stock_raal_heavy.printname"] = "FSS Resistor"
 L["cod2019_stock_raal_heavy.compactname"] = "Resistor"
+L["cod2019_stock_raal_heavy.description"] = ARC9:GetPhrase("mw19stockdesc.heavy") or "Heavy duty stock keeps your aim steady for precision shots."
 
 L["cod2019_raal_stock_light.printname"] = "FTAC Sandpiper Pro"
 L["cod2019_raal_stock_light.compactname"] = "Sandpiper"
+L["cod2019_raal_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
 L["cod2019_raal_stock_none.printname"] = "Folded Stock"
 L["cod2019_raal_stock_none.compactname"] = "Folded"
+L["cod2019_raal_stock_none.description"] = ARC9:GetPhrase("cod2019_an94_stock_none.description") or "The ultimate run and gun modification when agility is more important than precision. Folding the stock greatly increases movement."
 
 L["cod2019_raal_stock_medium.printname"] = "FTAC Elevate"
 L["cod2019_raal_stock_medium.compactname"] = "Elevate"
