@@ -2275,8 +2275,8 @@ L["cod2019_357_barrel_02.printname"] = "Silverfield Ordnance .357"
 L["cod2019_357_barrel_02.compactname"] = "Silverfield"
 L["cod2019_357_barrel_02.description"] = "Heavy weight barrel with polygonal rifling slightly increases muzzle velocity and improves range with little additional weight."
 
-L["cod2019_357_barrel_03.printname"] = ".357 Long"
-L["cod2019_357_barrel_03.compactname"] = "Long"
+L["cod2019_357_barrel_long.printname"] = ".357 Long"
+L["cod2019_357_barrel_long.compactname"] = "Long"
 
 /////////////// Magazine
 L["cod2019_357_mag_snakeshot.printname"] = "Snake Shot"
@@ -2304,6 +2304,10 @@ L["cod2019_m19_slide_light.description"] = "Extended slide slightly increases mu
 L["cod2019_m19_slide_vented.printname"] = "A9-16 Lightweight"
 L["cod2019_m19_slide_vented.compactname"] = "A9-16"
 L["cod2019_m19_slide_vented.description"] = "Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity."
+
+L["cod2019_m19_slide_alt_black.printname"] = "Black Slide"
+L["cod2019_m19_slide_alt_black.compactname"] = "Black Slide"
+L["cod2019_m19_slide_alt_black.description"] = "Alternate black slide.\nPurely <color=255,255,100>cosmetic</color>."
 
 /////////////// Magazine
 L["cod2019_m19_mag_21.printname"] = string.format(mw19magtext.mag, "21")

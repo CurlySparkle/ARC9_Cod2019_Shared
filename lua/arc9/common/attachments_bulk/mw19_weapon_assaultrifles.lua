@@ -4861,6 +4861,39 @@ ARC9.LoadAttachment(ATT, "cod2019_an94_barrel_heavy")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "AN-94 Sonic Brake"
+ATT.CompactName = "Sonic"
+ATT.Description = [[Cutting edge muzzle brake mitigates hyperburst recoil without increasing the weapon's sound signature.]]
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_brake.png", "mips smooth")
+ATT.Free = false
+ATT.AutoStats = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_brake.mdl"
+ATT.BoneMerge = false
+
+ATT.SortOrder = 1
+ATT.Category = {"cod2019_an94_muzzle"}
+ATT.ActivateElements = {"muzzle_none"}
+
+ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.07
+	ATT.DeployTimeMult = 1.05
+	ATT.RecoilSideMult = 0.9
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.008
+	ATT.RecoilMult = 0.88
+	ATT.VisualRecoilMult = 0.9
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_muzzle_sonic")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "AN-94 Factory Heavy"
 ATT.CompactName = "Factory"
 ATT.Description = [[Heavy duty stock with tactical comb. Keeps your aim steady for precision shots.]]

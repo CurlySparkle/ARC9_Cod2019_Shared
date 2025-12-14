@@ -706,11 +706,11 @@ ATT.CompactName = "A9-16 Lightweight"
 ATT.Description = [[Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity.]]
 ATT.SortOrder = 1
 
-ATT.Icon = Material("entities/attachs/pi/m19/cod2019_pi_m19_slide.png", "mips smooth")
+ATT.Icon = Material("entities/attachs/pi/m19/cod2019_pi_m19_slide_v2.png", "mips smooth")
 ATT.AutoStats = true
 ATT.Free = false
 
-ATT.Model = "models/weapons/cod2019/attachs/weapons/m19/attachment_vm_pi_papa320_slide_black.mdl"
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m19/attachment_vm_pi_papa320_v2_slide.mdl"
 ATT.BoneMerge = true
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -779,6 +779,26 @@ ATT.CustomizePosHook = function(wep, vec) return vec + Vector(0.25, 0.5, 0) end
 ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(0.25, 0, 0) end
 
 ARC9.LoadAttachment(ATT, "cod2019_m19_slide_light")
+----------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.PrintName = "Black Slide"
+ATT.CompactName = "Black Slide"
+ATT.Description = [[Alternate black slide.]]
+ATT.SortOrder = 2
+
+ATT.Icon = Material("entities/attachs/pi/m19/cod2019_pi_m19_slide.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = true
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m19/attachment_vm_pi_papa320_slide_black.mdl"
+ATT.BoneMerge = true
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_m19_slide"}
+ATT.ActivateElements = {"slide_none","slide_extended","sight_none"}
+
+ARC9.LoadAttachment(ATT, "cod2019_m19_slide_alt_black")
 ----------------------------------------------------------------------------------------
 ATT = {}
 

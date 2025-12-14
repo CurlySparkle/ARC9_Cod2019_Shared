@@ -3100,7 +3100,7 @@ ATT = {}
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "Folded Stock"
 ATT.CompactName = "Folded"
-ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Folding the stock greatly increases movement.]]
 ATT.Icon = Material("entities/attachs/lm/raal/cod2019_lm_raal_stockno.png", "mips smooth")
 ATT.Free = false
 
