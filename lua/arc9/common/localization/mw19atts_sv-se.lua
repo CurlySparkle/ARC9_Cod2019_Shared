@@ -271,8 +271,8 @@ L["cod2019_grips_ranger.printname"] = "Ranger-Framgrepp"
 L["cod2019_grips_ranger.compactname"] = "Ranger"
 L["cod2019_grips_ranger.description"] = "Standard framgrepp förbättrar vertikala rekylen och stabiliserar vapnet i siktet för föbättrad strid på långa distanser."
 
-L["cod2019_grips_operator.printname"] = "OP-X9 Framgrepp"
-L["cod2019_grips_operator.compactname"] = "OP-X9"
+L["cod2019_grips_operator.printname"] = "Operatör Framgrepp"
+L["cod2019_grips_operator.compactname"] = "Operatör"
 L["cod2019_grips_operator.description"] = "Inga krusiduller framgrepp hjälper kontroller vertikal rekyl för snabbare efterföljnings skott."
 
 L["cod2019_grips_operator2.printname"] = "Operatör Framgrepp"

@@ -225,7 +225,7 @@ ARC9.LoadAttachment(ATT, "cod2019_angled_tactical")
 /////////////////////////// -- cod2019_grips_operator
 ATT = {}
 
-ATT.PrintName = "OP-X9 Foregrip"
+ATT.PrintName = "Operator Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_stubby01.png", "mips smooth")
 
 ATT.Description = ""
@@ -255,7 +255,7 @@ if !warzonestats then -- Regular Stats
 	ATT.SpeedMult = 0.99
 	ATT.SpeedSightsMult = 0.98
 	ATT.RecoilRandomSideMult = 0.95
-	ATT.ReloadTimeMult = 0.85
+	ATT.ReloadTimeMult = 0.9
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = 0.15
 	ATT.VisualRecoilMult = 0.94

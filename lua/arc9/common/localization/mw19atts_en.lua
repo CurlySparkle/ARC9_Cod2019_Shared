@@ -637,9 +637,9 @@ L["cod2019_grips_ranger.printname"] = "Ranger Foregrip"
 L["cod2019_grips_ranger.compactname"] = "Ranger"
 L["cod2019_grips_ranger.description"] = "Standard foregrip improves vertical recoil and stabilizes weapon while aiming for improved long range combat."
 
-L["cod2019_grips_operator.printname"] = "OP-X9 Foregrip"
-L["cod2019_grips_operator.compactname"] = "OP-X9"
-L["cod2019_grips_operator.description"] = "A tactical grip that provides recoil and kick control while enhancing hip-fire accuracy and recoil for fast-paced combat."
+L["cod2019_grips_operator.printname"] = "Operator Foregrip"
+L["cod2019_grips_operator.compactname"] = "Operator"
+L["cod2019_grips_operator.description"] = "No frills foregrip helps control vertical recoil for faster follow-up shots."
 
 L["cod2019_grips_operator2.printname"] = "Operator Foregrip"
 L["cod2019_grips_operator2.compactname"] = "Operator"

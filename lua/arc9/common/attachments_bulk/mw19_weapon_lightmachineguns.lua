@@ -865,6 +865,34 @@ ARC9.LoadAttachment(ATT, "cod2019_m91_barrel_short")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "XRK Striker"
+ATT.CompactName = "Striker"
+ATT.Description = [[High performance stock designed for rapid target engagement.]]
+ATT.Icon = Material("entities/attachs/lm/m91/cod2019_lm_m91_stock_v2.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_stock_v2.mdl"
+
+ATT.SortOrder = 0
+ATT.AutoStats = true
+ATT.Category = "cod2019_m91_stock"
+ATT.ActivateElements = {"stock_none"}
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.92
+	ATT.SprintToFireTimeMult = 0.9
+	ATT.DeployTimeMult = 0.95
+	ATT.RecoilUpMult = 1.1
+	ATT.RecoilSideMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.038
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m91_stock_medium")
+-------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "120-Round Belts"
 ATT.CompactName = "120R"
 ATT.Description = [[Longer belts hold 120 rounds of 7.62 NATO ammunition with a slight weight increase.]]
@@ -892,6 +920,35 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_m91_mag_120")
 ---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "150-Round Belts"
+ATT.CompactName = "150R"
+ATT.Description = [[Extended belts hold 150 rounds of 7.62 NATO ammunition with a moderate weight increase.]]
+ATT.Icon = Material("entities/attachs/lm/m91/cod2019_lm_m91_mag_v2.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 0
+ATT.Category = "cod2019_m91_mag"
+ATT.ActivateElements = {"mag_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_mag_v2.mdl"
+ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m91/attachment_vm_lm_kilo121_mag_v2.mdl"
+ATT.BoneMerge = true
+
+ATT.ClipSizeAdd = 50
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 1.15
+	ATT.DeployTimeMult = 1.2
+	ATT.ReloadTimeMult = 1.1
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.SpeedMult = 0.97
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_m91_mag_150")
 
 /////////////////////////// -- MG34
 ATT = {}
