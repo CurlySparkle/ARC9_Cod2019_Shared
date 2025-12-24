@@ -13,6 +13,7 @@ ATT.PrintName = "Operator Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -59,6 +60,7 @@ ATT.PrintName = "Monocle Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -105,6 +107,7 @@ ATT.PrintName = "Corp Combat Holo Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -151,6 +154,7 @@ ATT.PrintName = "PBX Holo 7 Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -197,6 +201,7 @@ ATT.PrintName = "Viper Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -243,6 +248,7 @@ ATT.PrintName = "G.I. Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = {"cod2019_optic_pistol"}
@@ -291,6 +297,7 @@ ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4
 ATT.Category = {"cod2019_optic_pistol"}
@@ -339,6 +346,7 @@ ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 5
 ATT.Category = {"cod2019_optic_pistol"}
@@ -387,6 +395,7 @@ ATT.PrintName = "Aim-Op Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -441,6 +450,7 @@ ATT.PrintName = "Aim-Op Reflex Sight, Low Profile"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -495,6 +505,7 @@ ATT.PrintName = "Cronen Elite Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_reflex.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -543,6 +554,7 @@ ATT.PrintName = "APX5 Holographic Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic_pistol"}
@@ -598,6 +610,7 @@ ATT.PrintName = "G.I. Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_optics_pistols_alt"}
@@ -646,6 +659,7 @@ ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optics_pistols_alt"}
@@ -694,6 +708,7 @@ ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = {"cod2019_optics_pistols_alt"}
@@ -743,6 +758,7 @@ ATT.PrintName = "VLK 2.5x"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_4x_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2.5
 ATT.Category = {"cod2019_optic_pistol"}
@@ -799,6 +815,7 @@ ATT.PrintName = "Scout Combat Optic"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2.75
 ATT.Category = {"cod2019_optic_pistol"}
@@ -855,6 +872,7 @@ ATT.PrintName = "Cronen C480 Pro Optic"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = {"cod2019_optic_pistol"}

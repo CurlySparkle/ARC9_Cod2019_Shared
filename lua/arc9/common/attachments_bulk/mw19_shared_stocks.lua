@@ -100,6 +100,7 @@ ATT.PrintName = "No Stock"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stock_non.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_tube"
@@ -126,6 +127,7 @@ ATT.PrintName = "FORGE TAC Ultralight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stock_light01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_stocks"
@@ -148,6 +150,7 @@ ATT.PrintName = "FSS Close Quarters Stock"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stock_medium01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = "cod2019_stocks"
@@ -170,6 +173,7 @@ ATT.PrintName = "FORGE TAC Stalker"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stock_heavy.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4
 ATT.Category = "cod2019_stocks"
@@ -192,6 +196,7 @@ ATT.PrintName = "FTAC Hunter"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stock_heavy02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4
 ATT.Category = "cod2019_stocks"
@@ -214,6 +219,7 @@ ATT.PrintName = "Singuard Arms Invader"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stocks_mike4_stock_v2.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_stocks"
@@ -237,6 +243,7 @@ ATT.CompactName = "Colt Type 3"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_stocks_xm4.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_stocks"

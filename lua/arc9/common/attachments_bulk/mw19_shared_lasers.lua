@@ -57,6 +57,7 @@ ATT.PrintName = "Tac Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -97,6 +98,7 @@ ATT.PrintName = "1mW Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -137,6 +139,7 @@ ATT.PrintName = "5mW Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -178,6 +181,7 @@ ATT.PrintName = "Tac Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac_cylinde"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -220,6 +224,7 @@ ATT.PrintName = "1mW Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac_cylinde"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -262,6 +267,7 @@ ATT.PrintName = "5mW Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_laser02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac_cylinde"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -305,6 +311,7 @@ ATT.PrintName = "Tac Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_attach_laser_pstl.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac_pistols"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -347,6 +354,7 @@ ATT.PrintName = "1mW Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_attach_laser_pstl02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac_pistols"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")
@@ -389,6 +397,7 @@ ATT.PrintName = "5mW Laser"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_attach_laser_pstl04.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_tac_pistols"
 -- ATT.Folder = ARC9:GetPhrase("mw19_folder_laser")

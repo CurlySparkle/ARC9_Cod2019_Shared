@@ -11,6 +11,7 @@ ATT.PrintName = "Tactical Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer04.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle"
@@ -69,6 +70,7 @@ ATT.PrintName = "Lightweight Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -104,6 +106,7 @@ ATT.PrintName = "Lightweight Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -139,6 +142,7 @@ ATT.PrintName = "Lightweight Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -195,6 +199,7 @@ ATT.PrintName = "Monolithic Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = "cod2019_muzzle"
@@ -230,6 +235,7 @@ ATT.PrintName = "Monolithic Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_east02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = "cod2019_muzzle"
@@ -266,6 +272,7 @@ ATT.PrintName = "Monolithic Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_suppressor_model680.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = "cod2019_muzzle_shot"
@@ -309,6 +316,7 @@ ATT.PrintName = "Tactical Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_shot"
@@ -348,6 +356,7 @@ ATT.PrintName = "FORGE TAC Marauder"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_suppressor_model680.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle_shot"
@@ -396,6 +405,7 @@ ATT.PrintName = "Monolithic Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_pistols"
@@ -441,6 +451,7 @@ ATT.PrintName = "Lightweight Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle_pistols"
@@ -484,6 +495,7 @@ ATT.PrintName = "Tactical Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_pstl_02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = "cod2019_muzzle_pistols"
@@ -522,6 +534,53 @@ ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2, 0, 0) 
 
 ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_pstl_02")
 
+/////////////////////////// -- cod2019_attach_muzzle_silencer_oilcan
+ATT = {}
+
+ATT.PrintName = "Oil Can Suppressor"
+ATT.CompactName = "Oil Can"
+ATT.Description = "Suppressor crafted from an oil filter. Silences weapon, but blocks visibility when used with ironsights."
+ATT.Icon = Material("entities/attachs/cod2019_muzzle_oil_filter_suppressor.png", "mips smooth")
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
+
+ATT.SortOrder = 4
+ATT.Category = "cod2019_muzzle_pistols"
+ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
+ATT.ActivateElements = {"muzzle"}
+
+ATT.Model = "models/weapons/cod2019/attachs/silencers/attachment_vm_oil_filter_suppressor.mdl"
+
+ATT.Silencer = true
+ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleDevice = true
+
+ATT.CustomPros = { 
+	[ARC9:GetPhrase("mw19_muzzle_stat_sound")] = ""
+}
+
+if !warzonestats then -- Regular Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -75 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.RangeMinMult = 0.85
+	ATT.RangeMaxMult = 0.85
+	ATT.VisualRecoilMult = 0.96
+	ATT.RecoilMult = 0.96
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -75 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = 0.013
+	ATT.RangeMinMult = 0.85
+	ATT.RangeMaxMult = 0.85
+	ATT.VisualRecoilMult = 0.96
+	ATT.RecoilMult = 0.96
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2.5, 2.5, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(2.5, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_attach_muzzle_silencer_oilcan")
+
 ////////////////////////////// -- 752 Muzzles
 /////////////// -- cod2019_attach_muzzle_sil_01
 ATT = {}
@@ -530,6 +589,7 @@ ATT.PrintName = "Lightweight Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_muzzle_shot_db"
 ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
@@ -570,6 +630,7 @@ ATT.PrintName = "Tactical Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_muzzle_shot_db"
 ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")
@@ -608,6 +669,7 @@ ATT.PrintName = "Monolithic Suppressor"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_silencer_725_silencer03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.Category = "cod2019_muzzle_shot_db"
 ATT.Folder = ARC9:GetPhrase("mw19_folder_suppressor")

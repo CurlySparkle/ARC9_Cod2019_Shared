@@ -4987,6 +4987,96 @@ ARC9.LoadAttachment(ATT, "cod2019_an94_stockskel")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "POS-M3 Thermal Scope"
+ATT.CompactName = "POS-M3"
+ATT.Description = "Advanced 3.25x Gen 3 night vision with thermal overlay for enhanced situational awareness. Not compatible with Night Vision Goggles."
+ATT.SortOrder = 1
+
+ATT.Icon = Material("entities/attachs/ar/an94/cod2019_ar_anov94_thermal.png", "mips smooth")
+ATT.Free = false
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/an94/attachment_vm_ar_anov94_thermal.mdl"
+ATT.ModelOffset = Vector(-2.55, 0, 0.1)
+
+ATT.Category = {"cod2019_an94_optic"}
+ATT.ActivateElements = {"optic","scope_sniper","optic_scope","optic_thermal"}
+--ATT.Folder = ARC9:GetPhrase("mw19_folder_scope")
+
+ATT.Sights = {
+    {
+        Pos = Vector(0.105, 6, -1),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        IgnoreExtra = false
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeMagnification = 3.25
+ATT.ScopeScreenRatio = 450/1080
+ATT.RTScopeReticle = Material("hud/arc9_cod2019/reticles2/rt/reticle_anovember94_default.png", "mips smooth")
+ATT.RTScopeReticleScale = 1
+ATT.RTScopeColorable = false
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeNoPP = false
+ATT.RTScopeMotionBlur = true
+
+ATT.RTScopeFLIR = true
+ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
+ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 0.15,
+    ["$pp_colour_addg"] = 0,
+    ["$pp_colour_addb"] = 1.1,
+    ["$pp_colour_brightness"] = 0.25,
+    ["$pp_colour_contrast"] = 0.12,
+    ["$pp_colour_colour"] = 0.5,
+    ["$pp_colour_mulr"] = 0.1,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 1
+}
+ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 1,
+    ["$pp_colour_addg"] = 0.06,
+    ["$pp_colour_addb"] = 0,
+    ["$pp_colour_brightness"] = -0.7,
+    ["$pp_colour_contrast"] = 1.75,
+    ["$pp_colour_colour"] = 1,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+
+local noise = Material("models/cod2019/shared/mw19_thermalnoise")
+
+ATT.RTScopeDrawFunc = function(swep, rtsize)
+cam.Start2D()
+surface.SetMaterial(noise)
+surface.SetDrawColor(255, 255, 255, 255)
+surface.DrawTexturedRect(ScrW() * 0, ScrH() * 0, ScrW() * 1, ScrH() * 1)
+cam.End2D()
+
+--DrawBloom( 0.65, 2, 9, 9, 1, 1, 1, 1, 1 )
+end
+
+ATT.CustomPros = {
+   [ ARC9:GetPhrase("mw19_optic_stat_zoom") ] = "3.25x"
+}
+
+if !warzonestats then -- Regular Stats
+    ATT.AimDownSightsTimeMult = 1.15
+else -- Warzone Stats
+    ATT.AimDownSightsTimeAdd = 0.065
+    ATT.VisualRecoilMult = 0.92
+    ATT.RecoilMult = 0.9
+end
+
+ARC9.LoadAttachment(ATT, "cod2019_an94_optic_thermal")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.PrintName = "45 Round Mags"
 ATT.CompactName = "45-Round"
 ATT.Description = [[High capacity magazines hold 45 rounds with a moderate weight increase.]]

@@ -62,6 +62,7 @@ ATT.PrintName = "Corp Defence Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_flip_nydar.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -129,6 +130,7 @@ ATT.PrintName = "Operator Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -178,6 +180,7 @@ ATT.PrintName = "Monocle Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -226,6 +229,7 @@ ATT.PrintName = "Corp Combat Holo Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -274,6 +278,7 @@ ATT.PrintName = "Solozero K498"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_lm_slima_acog_holo.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -318,6 +323,7 @@ ATT.PrintName = "PBX Holo 7 Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -366,6 +372,7 @@ ATT.PrintName = "Viper Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -414,6 +421,7 @@ ATT.PrintName = "G.I. Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -462,6 +470,7 @@ ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -510,6 +519,7 @@ ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 5
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -558,6 +568,7 @@ ATT.PrintName = "Aim-Op Reflex Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -612,6 +623,7 @@ ATT.PrintName = "Aim-Op Reflex Sight, Low Profile"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_reflex_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -668,6 +680,7 @@ ATT.PrintName = "Cronen Elite Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_reflex.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -716,6 +729,7 @@ ATT.PrintName = "APX5 Holographic Sight"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_holo_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -771,6 +785,7 @@ ATT.PrintName = "G.I. Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = {"cod2019_optics_pistols_scope"}
@@ -826,6 +841,7 @@ ATT.PrintName = "Cronen LP945 Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_optics_pistols_scope"}
@@ -881,6 +897,7 @@ ATT.PrintName = "Solozero Optic Mini Reflex"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_minireddot03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = {"cod2019_optics_pistols_scope"}
@@ -937,6 +954,7 @@ ATT.PrintName = "Variable™ Zoom Scope"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_scope_vz.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 6.1
 ATT.Category = {"cod2019_optic"}
@@ -996,6 +1014,7 @@ ATT.PrintName = "Sniper Scope"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_snprscope_mike14.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4.4
 ATT.Category = {"cod2019_optic"}
@@ -1052,6 +1071,7 @@ ATT.PrintName = "VLK 3.0x"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_4x_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -1125,6 +1145,7 @@ ATT.PrintName = "Integral Hybrid"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_west_lw.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3.25
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -1206,6 +1227,7 @@ ATT.PrintName = "4.0x Flip Hybrid"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_west02_lw.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4
 ATT.Category = {"cod2019_optic_big"}
@@ -1304,6 +1326,7 @@ ATT.CompactName = "Thermal"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_hybrid_west02_lw.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4
 ATT.Category = {"cod2019_optic_big"}
@@ -1440,6 +1463,7 @@ ATT.PrintName = "Solozero K498 4.0x Integral"
 ATT.Description = "Advanced optic with 4.0x magnification provides excellent target acquisition."
 ATT.Icon = Material("entities/attachs/cod2019_optic_lm_slima_acog.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 4.1
 ATT.Category = {"cod2019_optic_big", "cod2019_raal_optic"}
@@ -1529,6 +1553,7 @@ ATT.PrintName = "Scout Combat Optic"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3.25
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -1601,6 +1626,7 @@ ATT.PrintName = "Cronen C480 Pro Optic"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_4x_west02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3.5
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -1674,6 +1700,7 @@ ATT.PrintName = "Solozero NVG Enhanced"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_thermal_west01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3.25
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -1803,6 +1830,7 @@ ATT.PrintName = "Merc Thermal Optic"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_thermal_east.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3.25
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -1901,6 +1929,7 @@ ATT.CompactName = "Thermal Dual"
 ATT.Description = "Advanced thermal imaging scope with variable 5.0x and 12.1x magnification for fighting at extreme ranges in all lighting conditions. Not compatible with Night Vision Goggles. Optic glint visible to enemies."
 ATT.Icon = Material("entities/attachs/cod2019_optic_thermalsnpr_west01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3.25
 ATT.Category = {"cod2019_optic", "cod2019_optic_raised"}
@@ -1995,6 +2024,7 @@ ATT.PrintName = "Cronen 2x2 Elite"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_tango21_hybrid.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 3.5
 ATT.Category = {"cod2019_optic_big"}
@@ -2054,6 +2084,7 @@ ATT.PrintName = "Dragunov Scope"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_optic_scope_svd.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 5.5
 ATT.Category = {"cod2019_asval_optic"}

@@ -8,6 +8,7 @@ ATT = {}
 
 ATT.PrintName = "Merc Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_stubby02.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -51,6 +52,7 @@ ATT = {}
 
 ATT.PrintName = "Task Force Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_vertgrip02.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -96,6 +98,7 @@ ATT = {}
 
 ATT.PrintName = "Ranger Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_vertgrip03.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -141,6 +144,7 @@ ATT = {}
 
 ATT.PrintName = "Commando Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_angledgrip.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -184,6 +188,7 @@ ATT = {}
 
 ATT.PrintName = "Tactical Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_angledgrip02.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -227,6 +232,7 @@ ATT = {}
 
 ATT.PrintName = "Operator Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_stubby01.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -273,6 +279,7 @@ ATT = {}
 
 ATT.PrintName = "Operator Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_stubby04.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -311,6 +318,7 @@ ATT = {}
 
 ATT.PrintName = "Bipod Foregrip"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_bipod_grip.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
@@ -364,6 +372,7 @@ ATT = {}
 
 ATT.PrintName = "Bipod"
 ATT.Icon = Material("entities/attachs/cod2019_attach_grip_bipod_alt.png", "mips smooth")
+ATT.Free = false
 
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"

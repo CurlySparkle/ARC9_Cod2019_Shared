@@ -25,6 +25,7 @@ ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle"
@@ -52,6 +53,7 @@ ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle"
@@ -79,6 +81,7 @@ ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle"
@@ -119,6 +122,7 @@ ATT.PrintName = "Breacher Device"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlemelee01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -145,6 +149,7 @@ ATT.PrintName = "Breacher Device"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlemelee02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -184,6 +189,7 @@ ATT.PrintName = "Flash Guard"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -212,6 +218,7 @@ ATT.PrintName = "Flash Guard"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider02.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -240,6 +247,7 @@ ATT.PrintName = "Flash Guard"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider03.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -268,6 +276,7 @@ ATT.PrintName = "Flash Guard"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider05.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle"
@@ -297,6 +306,7 @@ ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_shot"
@@ -328,6 +338,7 @@ ATT.PrintName = "Choke"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_romeo870_choke.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_shot"
@@ -367,6 +378,7 @@ ATT.PrintName = "Compensator"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_compensator_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_shot"
@@ -398,6 +410,7 @@ ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlemelee_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_shot"
@@ -427,6 +440,7 @@ ATT.PrintName = "Flash Guard"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider_shtgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle_shot"
@@ -456,6 +470,7 @@ ATT.PrintName = "Compensator"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_compensator_pstl01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_pistols"
@@ -487,6 +502,7 @@ ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake_pstl01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 1
 ATT.Category = "cod2019_muzzle_pistols"
@@ -518,6 +534,7 @@ ATT.PrintName = "Flash Guard"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider_pstl01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 2
 ATT.Category = "cod2019_muzzle_pistols"
@@ -550,6 +567,7 @@ ATT.PrintName = "Muzzle Brake"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlebrake_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_muzzle_shot_db"
@@ -581,6 +599,7 @@ ATT.PrintName = "Choke"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_romeo870_choke.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 0
 ATT.Category = "cod2019_muzzle_shot_db"
@@ -621,6 +640,7 @@ ATT.PrintName = "Compensator"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_compensator_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 0.15
 ATT.Category = "cod2019_muzzle_shot_db"
@@ -652,6 +672,7 @@ ATT.PrintName = "Breacher Device"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_muzzlemelee_shgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 0.2
 ATT.Category = "cod2019_muzzle_shot_db"
@@ -680,6 +701,7 @@ ATT.PrintName = "Flash Guard"
 ATT.Description = ""
 ATT.Icon = Material("entities/attachs/cod2019_muzzle_flashhider_shtgn01.png", "mips smooth")
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Free = false
 
 ATT.SortOrder = 0.3
 ATT.Category = "cod2019_muzzle_shot_db"
