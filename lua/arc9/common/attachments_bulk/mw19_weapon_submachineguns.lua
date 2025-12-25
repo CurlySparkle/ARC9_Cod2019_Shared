@@ -450,9 +450,9 @@ ATT.CustomPros = {
 }
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 1.05 --.92
-	ATT.DeployTimeMult = 1.06 --1.08
-	ATT.RangeMaxMult = 1.1 --0.93
+	ATT.AimDownSightsTimeMult = 1.05
+	ATT.DeployTimeMult = 1.06
+	ATT.RangeMaxMult = 1.1
 else -- Warzone Stats
 	ATT.PhysBulletMuzzleVelocityAdd = -196 / ARC9.HUToM
 	ATT.AimDownSightsTimeAdd = -0.013
@@ -560,67 +560,72 @@ end
 
 ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_light")
 ---------------------------------------------------------------------------------------
---ATT = {}
+ATT = {}
 
---ATT.PrintName = "FSS Mini"
---ATT.CompactName = "Mini"
---ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
---ATT.SortOrder = 1
+ATT.PrintName = "FSS Mini"
+ATT.CompactName = "Mini"
+ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Good for clearing out tight spaces.]]
+ATT.SortOrder = 1
 
---ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barshort.png", "mips smooth")
---ATT.AutoStats = true
---ATT.Free = false
+ATT.Icon = Material("entities/attachs/sm/mp5/cod2019_sm_mp5_barshort.png", "mips smooth")
+ATT.AutoStats = true
+ATT.Free = false
 
---ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_barshort.mdl" --redo model?
---ATT.BoneMerge = false
+ATT.Model = "models/weapons/cod2019/attachs/weapons/mp5/attachment_vm_sm_mpapa5_barshort.mdl"
+ATT.BoneMerge = false
 
---ATT.MenuCategory = "ARC9 - MW2019 Attachments"
---ATT.Category = {"cod2019_mp5_barrel"}
---ATT.ActivateElements = {"barrel_none","barrel_custom","muzzle_none","foregrip_none"}
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.Category = {"cod2019_mp5_barrel"}
+ATT.ActivateElements = {"barrel_none","barrel_custom","muzzle_none","foregrip_none"}
 
---ATT.ExcludeElements = {"m203"}
+ATT.ExcludeElements = {"m203"}
 
---ATT.MuzzleDevice_Priority = 2
---ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 2
+ATT.MuzzleDevice = true
 
---ATT.DrawFunc = function(swep, model, wm)
---    if swep:GetElements()["sight_default"] then
---        model:SetBodygroup(1,0)
---    elseif swep:GetElements()["optic"] then
---        model:SetBodygroup(1,1)
---    end
---    if swep:GetElements()["grip"] then
---        model:SetBodygroup(2,2) --figure out how to hide handstop
---    end
---end
+ATT.DrawFunc = function(swep, model, wm)
+    if swep:GetElements()["sight_default"] then
+        model:SetBodygroup(1,0)
+    elseif swep:GetElements()["optic"] then
+        model:SetBodygroup(1,1)
+    end
+	if swep:GetElements()["grip"] or swep:GetElements()["grip_angled"] then
+        model:SetBodygroup(2,1)
+    end
+end
 
---ATT.Element = {
---    AttPosMods = {
---        [1] = { -- Muzzle
---            Pos = Vector(-2.43, 0, 0),
---            Ang = Angle(0,0,0),
---        }
---    }
---}
+ATT.Element = {
+	AttPosMods = {
+		[1] = { -- Muzzle
+			Pos = Vector(-2.43, 0, 0),
+			Ang = Angle(0,0,0),
+		},
+		[6] = { -- Underbarrel
+			Pos = Vector(-3.1, 0, 0),
+			Ang = Angle(0,0,180),
+		}
+	}
+}
 
---if !warzonestats then -- Regular Stats
---	ATT.AimDownSightsTimeMult = 0.95
---	ATT.SprintToFireTimeMult = 0.95
---	ATT.DeployTimeMult = 0.9
---	ATT.RangeMaxMult = 0.92
---else -- Warzone Stats
---	ATT.PhysBulletMuzzleVelocityAdd = -210 / ARC9.HUToM
---	ATT.AimDownSightsTimeAdd = -0.031
---	ATT.RecoilMult = 0.85
---	ATT.VisualRecoilMult = 0.85
---	ATT.RangeMinMult = 0.8
---	ATT.RangeMaxMult = 0.8
---	ATT.SpreadAddMove = -0.0014
---	ATT.SpeedMult = 1.02
---	ATT.SpeedMultSights = 1.08
---end
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.95
+	ATT.SprintToFireTimeMult = 0.95
+	ATT.DeployTimeMult = 0.9
+	ATT.RangeMinMult = 0.92
+	ATT.RangeMaxMult = 0.92
+else -- Warzone Stats
+	ATT.PhysBulletMuzzleVelocityAdd = -210 / ARC9.HUToM
+	ATT.AimDownSightsTimeAdd = -0.031
+	ATT.RecoilMult = 0.85
+	ATT.VisualRecoilMult = 0.85
+	ATT.RangeMinMult = 0.8
+	ATT.RangeMaxMult = 0.8
+	ATT.SpreadAddMove = -0.0014
+	ATT.SpeedMult = 1.02
+	ATT.SpeedMultSights = 1.08
+end
 
---ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_short")
+ARC9.LoadAttachment(ATT, "cod2019_mp5_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 
