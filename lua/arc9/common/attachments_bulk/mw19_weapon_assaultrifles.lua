@@ -1012,9 +1012,9 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_calsmg_phys.mdl"
 ATT.BoneMerge = true
 
-ATT.ShellModel = "models/weapons/cod2019/shared/shell_9mm_hr.mdl"
+ATT.ShellModel = "models/weapons/cod2019/shared/fx_pistol_shell.mdl"
 ATT.ShellSounds = ARC9.COD2019_9mm_Table
-ATT.ShellScale = 0.05
+ATT.ShellScale = 1
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_smg_metal_concrete_01.ogg",
@@ -3741,6 +3741,8 @@ ATT.ClipSizeAdd = 30
 ATT.ReloadTimeMult = 1.1
 ATT.SprintToFireTimeMult = 1.05
 ATT.AimDownSightsTimeMult = 1.05
+ATT.RangeMaxMult = 0.8
+ATT.RangeMinMult = 0.7
 
 ATT.DamageMaxMult = 0.85
 ATT.DamageMinMult = 0.85
@@ -3751,9 +3753,9 @@ ATT.SortOrder = 1
 ATT.Category = {"cod2019_ram7_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
-ATT.ShellModel = "models/weapons/cod2019/shared/shell_9mm_hr.mdl"
+ATT.ShellModel = "models/weapons/cod2019/shared/fx_pistol_shell.mdl"
 ATT.ShellSounds = ARC9.COD2019_9mm_Table
-ATT.ShellScale = 0.05
+ATT.ShellScale = 1
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/ram7/attachment_vm_ar_tango21_drummag_phys.mdl"
@@ -4873,7 +4875,7 @@ ATT.BoneMerge = false
 
 ATT.SortOrder = 1
 ATT.Category = {"cod2019_an94_muzzle"}
-ATT.ActivateElements = {"muzzle_none"}
+ATT.ActivateElements = {"muzzle"}
 
 ATT.MuzzleParticleOverride = "muzzleflash_FAMAS"
 ATT.MuzzleDevice_Priority = 2

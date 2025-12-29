@@ -2519,7 +2519,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_s
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/striker45/attachment_vm_sm_smgolf45_xmagslrg.mdl"
 ATT.BoneMerge = true
 
-ATT.ShellScale = 0.05
+ATT.ShellScale = 1
 
 ATT.BulletBones = {
     [1] = {"j_bullet1","j_ammo1"},
@@ -3380,7 +3380,7 @@ ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/iso/attachment_v
 ATT.BoneMerge = true
 ATT.ModelOffset = Vector(1, 0, 1)
 
-ATT.ShellScale = 0.06
+ATT.ShellScale = 1.2
 
 ATT.DropMagazineSounds = {
 "weapons/cod2019/shared/magazine_drops/iw8_phys_mag_drop_ar_poly_concrete_01.ogg",
@@ -3394,6 +3394,7 @@ ATT.DamageMaxMult = 1.15
 ATT.DeployTimeMult = 1.03
 ATT.RecoilMult = 1.15
 ATT.RecoilKickMult = 1.1
+ATT.ReloadTimeMult = 1.1
 
 ARC9.LoadAttachment(ATT, "cod2019_iso_mag_xmag_vector")
 
