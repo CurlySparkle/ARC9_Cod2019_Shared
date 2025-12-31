@@ -576,7 +576,7 @@ ATT.BoneMerge = false
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = {"cod2019_mp5_barrel"}
-ATT.ActivateElements = {"barrel_none","barrel_custom","muzzle_none","foregrip_none"}
+ATT.ActivateElements = {"barrel_none","barrel_custom","muzzle_none","foregrip_none","body_mini"}
 
 ATT.ExcludeElements = {"m203"}
 
