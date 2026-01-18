@@ -797,7 +797,7 @@ L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_cr56_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
-L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["762"])
+L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["762soviet"])
 
 L["cod2019_cr56_mag_m67.printname"] = "M67 10-Patronersmagasin"
 L["cod2019_cr56_mag_m67.compactname"] = "M67 10-P"
@@ -2298,10 +2298,6 @@ L["cod2019_m19_slide_light.description"] = "Förlängt slutstycke ökar lätt my
 L["cod2019_m19_slide_vented.printname"] = "A9-16 Lightweight"
 L["cod2019_m19_slide_vented.compactname"] = "A9-16"
 L["cod2019_m19_slide_vented.description"] = "Pipa med stort borr och ett lätt slutstycke förbättrar hantering med kostnad på mynningshastighet."
-
-L["cod2019_m19_slide_alt_black.printname"] = "Black Slide"
-L["cod2019_m19_slide_alt_black.compactname"] = "Black Slide"
-L["cod2019_m19_slide_alt_black.description"] = "Alternate black slide.\nEndast <color=255,255,100>kosmetiskt</color>."
 
 /////////////// Magazine
 L["cod2019_m19_mag_21.printname"] = string.format(mw19magtext.mag, "21")

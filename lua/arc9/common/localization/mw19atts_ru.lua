@@ -800,7 +800,7 @@ L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_cr56_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
-L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["762"])
+L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["762soviet"])
 
 L["cod2019_cr56_mag_m67.printname"] = "Магазины на 10 патронов M67"
 L["cod2019_cr56_mag_m67.compactname"] = "10П M67"
@@ -2304,10 +2304,6 @@ L["cod2019_m19_slide_light.description"] = "Extended slide slightly increases mu
 L["cod2019_m19_slide_vented.printname"] = "A9-16 Lightweight"
 L["cod2019_m19_slide_vented.compactname"] = "A9-16"
 L["cod2019_m19_slide_vented.description"] = "Large bore barrel and lightweight slide improve handling at the cost of muzzle velocity."
-
-L["cod2019_m19_slide_alt_black.printname"] = "Black Slide"
-L["cod2019_m19_slide_alt_black.compactname"] = "Black Slide"
-L["cod2019_m19_slide_alt_black.description"] = "Alternate black slide.\nPurely <color=255,255,100>cosmetic</color>."
 
 /////////////// Magazine
 L["cod2019_m19_mag_21.printname"] = string.format(mw19magtext.mag, "21")

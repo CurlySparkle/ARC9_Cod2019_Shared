@@ -377,7 +377,7 @@ ATT.Free = false
 ATT.Description = ""
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
 ATT.Category = "cod2019_grip"
-ATT.ActivateElements = {"grip","grip_bipod"}
+ATT.ActivateElements = {"grip_bipod"}
 ATT.SortOrder = 10
 
 ATT.Model = "models/weapons/cod2019/attachs/grips/attachment_vm_bipod.mdl"

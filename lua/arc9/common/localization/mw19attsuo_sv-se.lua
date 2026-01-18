@@ -213,9 +213,9 @@ L["cod2019_ram7_mag_drum_9mm.description"] = "<color=255,255,100>9 mm Parabellum
 
 //////////////////// CR-56 AMAX
 /////////////// Magazine
-L["cod2019_cr56_mag_fal.printname"] = "7,62 Sovjet 30P"
+L["cod2019_cr56_mag_fal.printname"] = "7,62 NATO 30P"
 L["cod2019_cr56_mag_fal.compactname"] = "7,62 30-P"
-L["cod2019_cr56_mag_fal.description"] = "30 patroner av <color=255,255,100>7,62 Sovjet</color>-ammunition matad genom att rakt FAL-magasin."
+L["cod2019_cr56_mag_fal.description"] = "30 patroner av <color=255,255,100>7,62 NATO</color>-ammunition matad genom att rakt FAL-magasin."
 
 L["cod2019_cr56_mag_grau552.printname"] = "5,56 NATO 30P"
 L["cod2019_cr56_mag_grau552.compactname"] = "5,56 30-P"
@@ -352,6 +352,14 @@ L["cod2019_ammo_crossbow_locator_echo"] = "Ekolokalisering Spets"
 L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-P Special"
 L["cod2019_spr208_mag_xmag_alt.compactname"] = "5P Special"
 L["cod2019_spr208_mag_xmag_alt.description"] = "5-patronersmagasin som tillåter användningen av <color=255,255,100>special ammunition</color>."
+
+//////////////////////// Handguns
+//////////////////// M19
+/////////////// Barrels
+
+L["cod2019_m19_slide_alt_black.printname"] = "Black Slide"
+L["cod2019_m19_slide_alt_black.compactname"] = "Black Slide"
+L["cod2019_m19_slide_alt_black.description"] = "Alternate black slide.\nPurely <color=255,255,100>cosmetic</color>."
 
 //////////////////////// Launchers
 //////////////////// MGL-32

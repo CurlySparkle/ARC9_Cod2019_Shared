@@ -354,6 +354,14 @@ L["cod2019_spr208_mag_xmag_alt.printname"] = "FORGE TAC 5-R Special"
 L["cod2019_spr208_mag_xmag_alt.compactname"] = "5R Special"
 L["cod2019_spr208_mag_xmag_alt.description"] = "5 Round mags that allow use of <color=255,255,100>specialty ammunition</color>."
 
+//////////////////////// Handguns
+//////////////////// M19
+/////////////// Barrels
+
+L["cod2019_m19_slide_alt_black.printname"] = "Black Slide"
+L["cod2019_m19_slide_alt_black.compactname"] = "Black Slide"
+L["cod2019_m19_slide_alt_black.description"] = "Alternate black slide.\nPurely <color=255,255,100>cosmetic</color>."
+
 //////////////////////// Launchers
 //////////////////// MGL-32
 /////////////// Ammo

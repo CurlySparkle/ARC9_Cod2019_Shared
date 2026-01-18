@@ -3849,8 +3849,8 @@ ARC9.LoadAttachment(ATT, "cod2019_grau556_barrel_barxlong")
 ATT = {}
 
 ATT.MenuCategory = "ARC9 - MW2019 Attachments"
-ATT.PrintName = "FFS 20.8 Nexus"
-ATT.CompactName = "FFS 20.8"
+ATT.PrintName = "FSS 20.8 Nexus"
+ATT.CompactName = "FSS 20.8"
 ATT.Description = [[Stainless steel 20.8" barrel increases muzzle velocity and extends range. Additional weight stabilizes shots but hinders mobility.]]
 ATT.Icon = Material("entities/attachs/ar/grau556/cod2019_ar_grau556_barlong.png", "mips smooth")
 ATT.Free = false
@@ -4359,6 +4359,7 @@ ATT.ActivateElements = {"mag_none"}
 ATT.RPMMult = 1.1
 ATT.DamageMaxMult = 0.93
 ATT.DamageMinMult = 0.91
+ATT.RecoilMult = 0.93
 
 ATT.ShootSound = "Cod2019.grau556.fire"
 ATT.ShootSoundIndoor = "Cod2019.grau556.fire"

@@ -814,7 +814,7 @@ L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_cr56_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
-L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["762"])
+L["cod2019_cr56_mag_xmag.description"] = string.format(mw19magtext.desc, "45", mw19ammotype["762soviet"])
 
 L["cod2019_cr56_mag_m67.printname"] = "M67 10-R Mags"
 L["cod2019_cr56_mag_m67.compactname"] = "M67 10-R"
