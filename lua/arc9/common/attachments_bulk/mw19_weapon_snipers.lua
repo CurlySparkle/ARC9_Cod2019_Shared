@@ -115,45 +115,48 @@ ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0)
 
 ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_mid")
 --------------------------------------------------------------------------------------- This doesn't exist in MW19... what is this, even?
--- ATT = {}
+--ATT = {}
 
--- ATT.MenuCategory = "ARC9 - MW2019 Attachments"
--- ATT.PrintName = "440mm Compact Barrel"
--- ATT.CompactName = "440mm"
--- ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move.]]
--- ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_barshort.png", "mips smooth")
+--ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+--ATT.PrintName = "440mm Compact Barrel"
+--ATT.CompactName = "440mm"
+--ATT.Description = [[Short, compact barrel sacrifices accuracy and range for speed and agility. Better for sniping on the move.]]
+--ATT.Icon = Material("entities/attachs/sn/svd/cod2019_sn_svd_barshort.png", "mips smooth")
 
--- ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_barshort.mdl"
--- ATT.BoneMerge = false
+--ATT.Model = "models/weapons/cod2019/attachs/weapons/svd/attachment_vm_sn_delta_barshort.mdl"
+--ATT.BoneMerge = false
 
--- ATT.SortOrder = 0
--- ATT.Category = "cod2019_svd_barrel"
--- ATT.ActivateElements = {"barrel_none","muzzle_none"}
--- ATT.ModelOffset = Vector(0, 0, 0)
+--ATT.SortOrder = 0
+--ATT.Category = "cod2019_svd_barrel"
+--ATT.ActivateElements = {"barrel_none","muzzle_none"}
 
--- ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
--- ATT.MuzzleDevice_Priority = 2
+--ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+--ATT.MuzzleDevice_Priority = 2
 
--- ATT.AimDownSightsTimeMult = 0.91
--- ATT.DeployTimeMult = 0.91
--- ATT.RangeMaxMult = 0.85
+--ATT.AimDownSightsTimeMult = 0.91
+--ATT.DeployTimeMult = 0.91
+--ATT.RecoilMult = 1.09
+--ATT.RangeMaxMult = 0.85
 
--- ATT.DrawFunc = function(swep, model, wm)
-    -- if swep:GetElements()["muzzle"] then
-        -- model:SetBodygroup(1,1)
-    -- end
--- end
+--ATT.DrawFunc = function(swep, model, wm)
+--    if swep:GetElements()["muzzle"] then
+--        model:SetBodygroup(1,1)
+--    end
+--end
 
--- ATT.Element = {
-    -- AttPosMods = {
-        -- [1] = { -- Muzzle
-            -- Pos = Vector(-5, 0, 0),
-            -- Ang = Angle(0,0,0),
-        -- }
-    -- }
--- }
+--ATT.Element = {
+--    AttPosMods = {
+--        [1] = { -- Muzzle
+--            Pos = Vector(-4.75, 0, 0),
+--            Ang = Angle(0,0,0),
+--        }
+--    }
+--}
 
--- ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_short")
+--ATT.CustomizePosHook = function(wep, vec) return vec + Vector(-2, -2, 0) end
+--ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
+--ARC9.LoadAttachment(ATT, "cod2019_svd_barrel_short")
 ---------------------------------------------------------------------------------------
 ATT = {}
 

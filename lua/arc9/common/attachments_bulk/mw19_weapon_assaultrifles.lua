@@ -1012,7 +1012,7 @@ ATT.Model = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/m4a1/attachment_vm_ar_mike4_calsmg_phys.mdl"
 ATT.BoneMerge = true
 
-ATT.ShellModel = "models/weapons/cod2019/shared/fx_pistol_shell.mdl"
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_pi_9mm.mdl"
 ATT.ShellSounds = ARC9.COD2019_9mm_Table
 ATT.ShellScale = 1
 
@@ -2686,7 +2686,7 @@ ATT.Icon = Material("entities/attachs/ar/famas/cod2019_ar_famas_xmags.png", "mip
 ATT.AutoStats = true
 ATT.Free = false
 
-ATT.ShellModelOverride = "models/weapons/cod2019/shared/shell_ar_556.mdl"
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_ar_556.mdl"
 ATT.ShellScale = 1
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/scar/attachment_vm_ar_scharlie_mags_ar.mdl"
@@ -3261,8 +3261,6 @@ ATT.AtmosSound = "Distant_AR3.Outside"
 ATT.LayerSoundIndoor = "Layer_AR.Inside"
 ATT.AtmosSoundIndoor = "Distant_AR.Inside"
 
-ATT.ShellScale = 0.05
-
 ATT.BulletBones = {
     [1] = "j_ammo1",
     [2] = "j_ammo2",
@@ -3340,7 +3338,6 @@ ATT.BulletBones = {
 }
 
 ATT.ClipSizeAdd = 50
-ATT.ShellScale = 0.05
 
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
@@ -3753,7 +3750,7 @@ ATT.SortOrder = 1
 ATT.Category = {"cod2019_ram7_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
-ATT.ShellModel = "models/weapons/cod2019/shared/fx_pistol_shell.mdl"
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_pi_9mm.mdl"
 ATT.ShellSounds = ARC9.COD2019_9mm_Table
 ATT.ShellScale = 1
 
@@ -4344,8 +4341,7 @@ ATT.AutoStats = true
 
 ATT.Free = false
 
-ATT.ShellModelOverride = "models/weapons/cod2019/shared/shell_ar_556.mdl"
-ATT.ShellScale = 1
+ATT.ShellModel = "models/weapons/cod2019/shared/shell_ar_556.mdl"
 
 ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_grau556_mag.mdl"
 ATT.DropMagazineModel = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_grau556_mag.mdl"
@@ -5210,7 +5206,6 @@ ATT.BulletBones = {
 }
 
 ATT.ClipSizeAdd = 15
-ATT.ShellScale = 0.05
 
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
@@ -5270,7 +5265,6 @@ ATT.BulletBones = {
 }
 
 ATT.ClipSizeAdd = 30
-ATT.ShellScale = 0.05
 
 if !warzonestats then -- Regular Stats
 	ATT.RPM = 690
