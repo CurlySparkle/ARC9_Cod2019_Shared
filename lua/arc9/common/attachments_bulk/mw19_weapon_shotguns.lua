@@ -924,7 +924,7 @@ ATT.Description = [[Better capacity magazines that hold 12 rounds with a weight 
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_xmags.png", "mips smooth")
 ATT.Free = false
 
-ATT.SortOrder = 0
+ATT.SortOrder = 1
 ATT.Category = {"cod2019_origin12_mag"}
 ATT.ActivateElements = {"mag_none","mag_xmag"}
 
@@ -956,7 +956,7 @@ ATT.Description = [[High capacity magazines hold 25 rounds with a heavy weight i
 ATT.Icon = Material("entities/attachs/sh/origin12/cod2019_sh_origin12_drummag.png", "mips smooth")
 ATT.Free = false
 
-ATT.SortOrder = 0
+ATT.SortOrder = 1
 ATT.Category = {"cod2019_origin12_mag"}
 ATT.ActivateElements = {"mag_none","mag_drum"}
 
@@ -1953,6 +1953,7 @@ ATT.ClipSizeAdd = -4
 if !warzonestats then -- Regular Stats
 	ATT.AimDownSightsTimeMult = 0.9
 	ATT.DeployTimeMult = 0.85
+	ATT.ReloadTimeMult = 0.9
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.027
 	ATT.SprintToFireTimeAdd = -0.037
