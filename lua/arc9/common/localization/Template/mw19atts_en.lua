@@ -799,17 +799,26 @@ L["cod2019_cr56_barrel_long.printname"] = "XRK Zodiac S440"
 L["cod2019_cr56_barrel_long.compactname"] = "Zodiac"
 L["cod2019_cr56_barrel_long.description"] = "Achieve the pinnacle of range with this precision barrel from XRK. Superior muzzle velocity and stabilization at the cost of agility."
 
--- L["cod2019_cr56_barrel_light.printname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.printname") or "FSS 11.8\" Squall"
+L["cod2019_cr56_barrel_light.printname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.printname") or "FSS 11.8\" Squall"
+L["cod2019_cr56_barrel_light.compactname"] = ARC9:GetPhrase("cod2019_grau_barrel_05.compactname") or "Squall"
+L["cod2019_cr56_barrel_light.description"] = ARC9:GetPhrase("cod2019_m4a1_barrel_v3.description") or "Lightweight shroud and large bore barrel reduce weight for improved handling at the cost of muzzle velocity."
 
 /////////////// Stock
 L["cod2019_cr56_stock_light.printname"] = "FTAC Spartan"
 L["cod2019_cr56_stock_light.compactname"] = "Spartan"
+L["cod2019_cr56_stock_light.description"] = ARC9:GetPhrase("mw19stockdesc.light") or "Stock designed for agility while aiming down sights."
 
-L["cod2019_cr56_stock_vheavy.printname"] = "XRK Gatekeeper"
-L["cod2019_cr56_stock_vheavy.compactname"] = "Gatekeeper"
+L["cod2019_cr56_stock_sniper.printname"] = "XRK Gatekeeper"
+L["cod2019_cr56_stock_sniper.compactname"] = "Gatekeeper"
+L["cod2019_cr56_stock_sniper.description"] = ARC9:GetPhrase("mw19stockdesc.vheavy") or "The most stable stock available, provides exceptional control while aiming at the cost of mobility."
 
 L["cod2019_cr56_stock_vlight.printname"] = "CR-56 EXO"
 L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
+L["cod2019_cr56_stock_vlight.description"] = ARC9:GetPhrase("mw19stockdesc.vlight") or "Ultralight stock speeds up weapon handling and movement at the expense of aiming stability."
+
+L["cod2019_cr56_stock_none.printname"] = ARC9:GetPhrase("cod2019_stock_none.printname") or "No Stock"
+L["cod2019_cr56_stock_none.compactname"] = ARC9:GetPhrase("cod2019_stock_none.compactname") or "N/A"
+L["cod2019_cr56_stock_none.description"] = ARC9:GetPhrase("mw19stockdesc.none") or "The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement."
 
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
@@ -1460,6 +1469,10 @@ L["cod2019_origin12_stock_medium.compactname"] = "Dart"
 L["cod2019_origin12_stock_medium.description"] = "Tactical stock designed for fast target acquisition."
 
 /////////////// Magazine
+L["cod2019_origin12_mag_slug.printname"] = "8 Round Slug Mags"
+L["cod2019_origin12_mag_slug.compactname"] = "8R Slug"
+L["cod2019_origin12_mag_slug.description"] = "<color=255,255,100>437 gr hardcast slugs</color> with a low muzzle velocity and tremendous stopping power. Zeroed in at 30 meters to compensate for bullet drop."
+
 L["cod2019_origin12_mag_xmag.printname"] = string.format(mw19magtext.mag, "12")
 L["cod2019_origin12_mag_xmag.compactname"] = string.format(mw19magtext.mags, "12")
 L["cod2019_origin12_mag_xmag.description"] = string.format(mw19magtext.desc12, "12")

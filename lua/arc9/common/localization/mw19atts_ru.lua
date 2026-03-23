@@ -797,6 +797,9 @@ L["cod2019_cr56_stock_vheavy.compactname"] = "Привратник"
 L["cod2019_cr56_stock_vlight.printname"] = "CR-56 EXO"
 L["cod2019_cr56_stock_vlight.compactname"] = "EXO"
 
+L["cod2019_cr56_stock_none.printname"] = "Без приклада"
+L["cod2019_cr56_stock_none.compactname"] = "Без п."
+
 /////////////// Magazine
 L["cod2019_cr56_mag_xmag.printname"] = string.format(mw19magtext.mag, "45")
 L["cod2019_cr56_mag_xmag.compactname"] = string.format(mw19magtext.mags, "45")
@@ -1430,6 +1433,10 @@ L["cod2019_origin12_stock_medium.compactname"] = "Dart"
 L["cod2019_origin12_stock_medium.description"] = "Tactical stock designed for fast target acquisition."
 
 /////////////// Magazine
+L["cod2019_origin12_mag_slug.printname"] = "8 Round Slug Mags"
+L["cod2019_origin12_mag_slug.compactname"] = "8R Slug"
+L["cod2019_origin12_mag_slug.description"] = "<color=255,255,100>437 gr hardcast slugs</color> with a low muzzle velocity and tremendous stopping power. Zeroed in at 30 meters to compensate for bullet drop."
+
 L["cod2019_origin12_mag_xmag.printname"] = string.format(mw19magtext.mag, "12")
 L["cod2019_origin12_mag_xmag.compactname"] = string.format(mw19magtext.mags, "12")
 L["cod2019_origin12_mag_xmag.description"] = string.format(mw19magtext.desc12, "12")

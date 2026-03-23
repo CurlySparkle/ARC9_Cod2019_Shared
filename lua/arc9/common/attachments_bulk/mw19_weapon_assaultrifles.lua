@@ -4694,6 +4694,40 @@ else -- Warzone Stats
 end
 
 ARC9.LoadAttachment(ATT, "cod2019_cr56_stock_vlight")
+---------------------------------------------------------------------------------------
+ATT = {}
+
+ATT.MenuCategory = "ARC9 - MW2019 Attachments"
+ATT.PrintName = "No Stock"
+ATT.CompactName = "N/A"
+ATT.Description = [[The ultimate run and gun modification when agility is more important than precision. Removing the stock greatly increases movement.]]
+ATT.Icon = Material("entities/attachs/ar/cr56armax/cod2019_ar_cr56armax_stockno.png", "mips smooth")
+ATT.Free = false
+
+ATT.SortOrder = 0.1
+ATT.Category = "cod2019_cr56_stock"
+ATT.ActivateElements = {"stock_none"}
+
+ATT.Model = "models/weapons/cod2019/attachs/weapons/cr56amax/attachment_vm_ar_galima_stockno.mdl"
+ATT.BoneMerge = true
+
+if !warzonestats then -- Regular Stats
+	ATT.AimDownSightsTimeMult = 0.74
+	ATT.DeployTimeMult = 0.74
+	ATT.RecoilMult = 1.3
+else -- Warzone Stats
+	ATT.AimDownSightsTimeAdd = -0.041
+	ATT.RecoilMult = 1.29
+	ATT.VisualRecoilMult = 1.3
+	ATT.SpreadAddMove = -0.0053
+	ATT.SpeedMult = 1.04
+	ATT.SpeedMultSights = 1.2
+end
+
+ATT.CustomizePosHook = function(wep, vec) return vec + Vector(2, -1, 0) end
+ATT.CustomizeRotateAnchorHook = function(wep, vec) return vec + Vector(-1, 0, 0) end
+
+ARC9.LoadAttachment(ATT, "cod2019_cr56_stock_none")
 
 //////////////////////////////////////////////// -- AN-94
 ATT = {}
@@ -4935,8 +4969,8 @@ ATT.Category = {"cod2019_an94_stock"}
 ATT.ActivateElements = {"stock_retract"}
 
 if !warzonestats then -- Regular Stats
-	ATT.AimDownSightsTimeMult = 0.8
-	ATT.SprintToFireTimeMult = 0.8
+	ATT.AimDownSightsTimeMult = 0.74
+	ATT.DeployTimeMult = 0.74
 	ATT.RecoilMult = 1.3
 else -- Warzone Stats
 	ATT.AimDownSightsTimeAdd = -0.038
